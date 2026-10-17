@@ -1,0 +1,212 @@
+#!/usr/bin/env python3
+"""Lee el progreso de María Ángela y lo resume para generar el siguiente simulacro.
+
+Uso:
+    bin/leer_progreso              # resumen legible
+    bin/leer_progreso --json       # el progreso crudo, para procesarlo
+    bin/leer_progreso --temas 2    # solo los N temas más débiles (uno por línea)
+
+Fuentes, en orden:
+    1. Firestore (si existe ~/simulacros-internado/.config.json con projectId, apiKey y pin)
+    2. La última copia descargada en ~/simulacros-internado/.cache/progreso.json
+    3. Cualquier progreso-*.json exportado desde la app y dejado en la carpeta
+"""
+import json, sys, os, urllib.request, urllib.error
+from datetime import date, datetime, timedelta
+from collections import defaultdict
+
+RAIZ = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+CFG = os.path.join(RAIZ, ".config.json")
+CACHE = os.path.join(RAIZ, ".cache", "progreso.json")
+META = 16.0
+
+
+def cargar():
+    """Devuelve (datos, origen)."""
+    if os.path.exists(CFG):
+        try:
+            c = json.load(open(CFG, encoding="utf-8"))
+            pid, key, pin = c.get("projectId"), c.get("apiKey"), c.get("pin")
+            if pid and key and pin:
+                url = (f"https://firestore.googleapis.com/v1/projects/{pid}"
+                       f"/databases/(default)/documents/progreso/{pin}?key={key}")
+                with urllib.request.urlopen(url, timeout=20) as r:
+                    doc = json.load(r)
+                txt = doc.get("fields", {}).get("json", {}).get("stringValue")
+                if txt:
+                    d = json.loads(txt)
+                    os.makedirs(os.path.dirname(CACHE), exist_ok=True)
+                    json.dump(d, open(CACHE, "w", encoding="utf-8"))
+                    return d, "Firestore"
+        except urllib.error.HTTPError as e:
+            print(f"[aviso] Firestore respondió {e.code}; uso la copia local.", file=sys.stderr)
+        except Exception as e:
+            print(f"[aviso] No pude leer Firestore ({e}); uso la copia local.", file=sys.stderr)
+
+    if os.path.exists(CACHE):
+        return json.load(open(CACHE, encoding="utf-8")), "copia local"
+
+    exports = sorted(f for f in os.listdir(RAIZ) if f.startswith("progreso-") and f.endswith(".json"))
+    if exports:
+        return json.load(open(os.path.join(RAIZ, exports[-1]), encoding="utf-8")), exports[-1]
+
+    return {"intentos": [], "errores": [], "perlas": [], "gemelas_pendientes": [], "checklist": {}}, "vacío"
+
+
+def nota(ok, n):
+    return (ok / n) * 20 if n else 0.0
+
+
+def resumen(d):
+    ints = d.get("intentos", [])
+    errores = d.get("errores", [])
+    L = []
+    hoy = date.today().isoformat()
+    faltan = (date(2026, 11, 8) - date.today()).days
+
+    L.append(f"PROGRESO AL {hoy}  ·  faltan {faltan} días para el examen  ·  meta {META:.0f}/20")
+    L.append("=" * 72)
+
+    if not ints:
+        L.append("Todavía no hay ningún simulacro resuelto.")
+        L.append("Para el próximo simulacro: usar la distribución base de analisis/analisis_bancos.md §2.")
+        return "\n".join(L)
+
+    # --- notas ---
+    L.append("\n## NOTAS")
+    for i in ints[-8:]:
+        L.append(f"  {i['fecha']} {i['turno']:<7} {i['nota']:5.1f}/20   "
+                 f"{i['aciertos']}/{i['total']} aciertos · {i.get('sin_responder',0)} en blanco · "
+                 f"sueño {i.get('sueno_horas','?')} h · ánimo {i.get('animo','?')}/5")
+    am = [i for i in ints if i["turno"] == "manana"]
+    pm = [i for i in ints if i["turno"] == "noche"]
+    g = lambda xs: nota(sum(x["aciertos"] for x in xs), sum(x["total"] for x in xs)) if xs else 0
+    L.append(f"  ACUMULADO  mañana {g(am):.1f}  ·  noche {g(pm):.1f}  ·  global {g(ints):.1f}")
+    if len(ints) >= 3:
+        u = [i["nota"] for i in ints[-5:]]
+        tend = (u[-1] - u[0]) / max(1, len(u) - 1)
+        L.append(f"  TENDENCIA  {tend:+.2f} puntos por simulacro en los últimos {len(u)}")
+
+    # --- agregados por especialidad / tema / tipo ---
+    esp, tema, tipo = defaultdict(lambda: [0, 0]), defaultdict(lambda: [0, 0]), defaultdict(lambda: [0, 0])
+    conf = {"seguro": [0, 0], "dudoso": [0, 0], "adivinando": [0, 0]}
+    trampas, motivos, confus = defaultdict(int), defaultdict(int), defaultdict(int)
+    ult_fecha = ints[-1]["fecha"]
+    fallos_hoy = defaultdict(lambda: [0, 0])
+
+    for it in ints:
+        for r in it.get("respuestas", []):
+            ok = 1 if r.get("ok") else 0
+            if r.get("especialidad"):
+                esp[r["especialidad"]][0] += ok; esp[r["especialidad"]][1] += 1
+            if r.get("tema"):
+                k = f"{r.get('especialidad','?')} · {r['tema']}"
+                tema[k][0] += ok; tema[k][1] += 1
+                if it["fecha"] == ult_fecha:
+                    fallos_hoy[k][0] += ok; fallos_hoy[k][1] += 1
+            if r.get("tipo"):
+                tipo[r["tipo"]][0] += ok; tipo[r["tipo"]][1] += 1
+            c = r.get("confianza")
+            if c in conf:
+                conf[c][0] += ok; conf[c][1] += 1
+            if not ok:
+                if r.get("trampa_caida"): trampas[r["trampa_caida"]] += 1
+                if r.get("motivo"): motivos[r["motivo"]] += 1
+                if r.get("diagnostico") and r.get("elegida_txt"):
+                    confus[f"{r['diagnostico']} → {r['elegida_txt']}"] += 1
+
+    def tabla(dic, titulo, minimo=1, n=12):
+        filas = sorted(((k, v[0], v[1], nota(v[0], v[1])) for k, v in dic.items() if v[1] >= minimo),
+                       key=lambda x: x[3])
+        if not filas: return
+        L.append(f"\n## {titulo}")
+        for k, ok, t, nt in filas[:n]:
+            sem = "🟢" if nt >= 16 else ("🟡" if nt >= 13 else "🔴")
+            L.append(f"  {sem} {nt:5.1f}  {ok:>3}/{t:<3}  {k}")
+
+    tabla(esp, "POR ESPECIALIDAD (de peor a mejor)")
+    tabla(tema, "TEMAS MÁS DÉBILES", minimo=2, n=15)
+    tabla(tipo, "POR TIPO DE PREGUNTA")
+
+    # --- prioridades para el próximo simulacro ---
+    L.append("\n## PRIORIDADES PARA EL PRÓXIMO SIMULACRO")
+    hoy_mal = sorted((k for k, v in fallos_hoy.items() if v[1] and nota(v[0], v[1]) < 16),
+                     key=lambda k: nota(*fallos_hoy[k]))
+    if hoy_mal:
+        L.append(f"  1. Fallados en el último simulacro ({ult_fecha}): " + "; ".join(hoy_mal[:8]))
+    seg = [e for e in errores if e.get("confianza") == "seguro" and not e.get("dominada")]
+    if seg:
+        L.append(f"  2. Errores marcados «Seguro» ({len(seg)}) = conceptos mal aprendidos: " +
+                 "; ".join(sorted({f"{e.get('pregunta',{}).get('especialidad','?')} · {e.get('pregunta',{}).get('tema','?')}" for e in seg})[:8]))
+    bajos = sorted(((k, nota(v[0], v[1])) for k, v in tema.items() if v[1] >= 2), key=lambda x: x[1])[:10]
+    if bajos:
+        L.append("  3. Nota acumulada más baja: " + "; ".join(f"{k} ({n:.1f})" for k, n in bajos))
+
+    adiv = [e for e in errores if e.get("por_adivinar") and not e.get("dominada")]
+    if adiv:
+        L.append(f"  4. Aciertos adivinando sin dominar: {len(adiv)}")
+
+    pend = d.get("gemelas_pendientes", [])
+    if pend:
+        L.append(f"  5. GEMELAS PENDIENTES: {len(pend)} — crear una por cada error (mismo concepto, caso distinto).")
+        qs = {e["qid"]: e.get("pregunta", {}) for e in errores}
+        for qid in pend[:12]:
+            q = qs.get(qid, {})
+            L.append(f"       · {qid} — {q.get('especialidad','?')} · {q.get('tema','?')} · {q.get('diagnostico','?')}")
+
+    # --- seguridad, trampas, confusiones ---
+    L.append("\n## SEGURIDAD")
+    for k, v in conf.items():
+        if v[1]:
+            L.append(f"  {k:<11} {100*v[0]//v[1]:>3}% de acierto ({v[0]}/{v[1]})")
+    if trampas:
+        L.append("\n## TRAMPAS EN LAS QUE CAE")
+        for k, n in sorted(trampas.items(), key=lambda x: -x[1]):
+            L.append(f"  {n:>3}×  {k}")
+    if motivos:
+        L.append("\n## MOTIVOS DE ERROR")
+        for k, n in sorted(motivos.items(), key=lambda x: -x[1]):
+            L.append(f"  {n:>3}×  {k}")
+    if confus:
+        L.append("\n## ENTIDADES QUE CONFUNDE")
+        for k, n in sorted(confus.items(), key=lambda x: -x[1])[:12]:
+            L.append(f"  {n:>3}×  {k}")
+
+    # --- casos ya usados, para no repetir ---
+    L.append("\n## NO REPETIR")
+    usados = []
+    for it in ints:
+        for r in it.get("respuestas", []):
+            if r.get("diagnostico"):
+                usados.append(r["diagnostico"])
+    vistos = sorted(set(usados))
+    L.append(f"  Diagnósticos ya usados ({len(vistos)}): " + ("; ".join(vistos[:60]) + (" …" if len(vistos) > 60 else "") if vistos else "ninguno"))
+
+    return "\n".join(L)
+
+
+def main():
+    args = sys.argv[1:]
+    d, origen = cargar()
+    if "--json" in args:
+        json.dump(d, sys.stdout, ensure_ascii=False, indent=2)
+        return
+    if "--temas" in args:
+        n = int(args[args.index("--temas") + 1]) if len(args) > args.index("--temas") + 1 else 2
+        tema = defaultdict(lambda: [0, 0])
+        for it in d.get("intentos", []):
+            for r in it.get("respuestas", []):
+                if r.get("tema"):
+                    k = f"{r.get('especialidad','?')} · {r['tema']}"
+                    tema[k][0] += 1 if r.get("ok") else 0
+                    tema[k][1] += 1
+        filas = sorted(((k, nota(v[0], v[1])) for k, v in tema.items() if v[1] >= 2), key=lambda x: x[1])
+        for k, _ in filas[:n]:
+            print(k)
+        return
+    print(resumen(d))
+    print(f"\n[fuente: {origen}]")
+
+
+if __name__ == "__main__":
+    main()

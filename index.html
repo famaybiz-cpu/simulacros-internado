@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover,maximum-scale=1">
+<title>Simulacros Internado</title>
+<meta name="description" content="Simulacros diarios para el examen de internado médico del 8 de noviembre.">
+<meta name="theme-color" content="#f6f7f9" media="(prefers-color-scheme:light)">
+<meta name="theme-color" content="#101317" media="(prefers-color-scheme:dark)">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="default">
+<meta name="apple-mobile-web-app-title" content="Internado">
+<link rel="manifest" href="manifest.webmanifest">
+<link rel="apple-touch-icon" href="icons/icon-180.png">
+<link rel="icon" href="icons/icon-180.png">
+<link rel="stylesheet" href="css/app.css">
+</head>
+<body>
+<header class="top">
+  <div class="in">
+    <button class="iconbtn" id="btn-atras" hidden aria-label="Atrás">‹</button>
+    <div class="t" id="titulo">Simulacros Internado</div>
+    <span class="sync" id="estado-sync"></span>
+    <button class="iconbtn" id="btn-ajustes" aria-label="Ajustes">⚙</button>
+  </div>
+</header>
+
+<main id="vista" class="wrap"></main>
+
+<nav class="tabs" id="tabs">
+  <a href="#/" data-t="/"><span class="ic">🏠</span>Hoy</a>
+  <a href="#/progreso" data-t="/progreso"><span class="ic">📈</span>Progreso</a>
+  <a href="#/errores" data-t="/errores"><span class="ic">📓</span>Errores</a>
+  <a href="#/perlas" data-t="/perlas"><span class="ic">💡</span>Perlas</a>
+  <a href="#/historial" data-t="/historial"><span class="ic">🗂</span>Historial</a>
+</nav>
+
+<script type="module" src="js/app.js"></script>
+</body>
+</html>

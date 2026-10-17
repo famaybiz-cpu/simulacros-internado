@@ -1,0 +1,12 @@
+{
+  "actualizado": "2026-10-17",
+  "simulacros": [
+    {
+      "id": "2026-10-17-manana",
+      "fecha": "2026-10-17",
+      "turno": "manana",
+      "titulo": "Simulacro de prueba",
+      "n": 10
+    }
+  ]
+}

@@ -1,0 +1,9 @@
+# Nada de la carpeta Internado ni de mi progreso personal entra al repositorio.
+analisis/
+.config.json
+.cache/
+progreso-*.json
+.DS_Store
+*.pdf
+*.docx
+*.pptx

@@ -1,0 +1,400 @@
+{
+  "id": "2026-10-17-manana",
+  "fecha": "2026-10-17",
+  "turno": "manana",
+  "titulo": "Simulacro de prueba",
+  "segundos_por_pregunta": 40,
+  "nota": "Lote de prueba de 10 preguntas para verificar la plataforma. Cumple las reglas de CLAUDE.md: 100 % casos clínicos, datos como valores, sin nombrar especialidad ni diagnóstico, 5 alternativas homogéneas del mismo tema, clave repartida A–E.",
+  "preguntas": [
+    {
+      "id": "2026-10-17-manana-001",
+      "enunciado": "Mujer de 29 años, con tres partos previos, atendida hace 25 minutos de un parto vaginal de un recién nacido de 4 100 g, tras 14 horas de trabajo de parto conducido con oxitocina. Persiste sangrado vaginal rojo rutilante, estimado en 900 ml. Funciones vitales: PA 90/55 mmHg, FC 118X', FR 24X', T° 36,2 °C. Está pálida y sudorosa, despierta y algo agitada. El útero se palpa por encima del ombligo, blando, y no se contrae con el masaje. La placenta salió completa y la revisión del canal del parto no muestra desgarros. Ya recibe oxitocina 20 UI en infusión, masaje uterino bimanual y 1 g de ácido tranexámico.",
+      "opciones": [
+        "Transfundir paquete globular y plasma fresco congelado ahora",
+        "Infundir 1 000 ml de cristaloide y reevaluar antes de decidir transfusión",
+        "Reemplazar los cristaloides por coloides para expandir más rápido",
+        "Iniciar noradrenalina para corregir la presión sistólica",
+        "Esperar el hemograma y el perfil de coagulación antes de transfundir"
+      ],
+      "clave": 1,
+      "especialidad": "Obstetricia",
+      "tema": "Hemorragia postparto",
+      "diagnostico": "Atonía uterina con shock hipovolémico (índice de shock 1,31)",
+      "tipo": "conducta",
+      "dificultad": "alta",
+      "razonamiento": "Paso 1: con los valores dados se calcula el índice de shock = FC / PAS = 118 / 90 = 1,31. Paso 2: el umbral de la clave roja obstétrica es 0,9; por encima de ese valor la paciente es de alto riesgo y corresponde reposición agresiva CON hemoderivados, no solo cristaloides. Paso 3: los cuatro factores de riesgo del caso (multiparidad, macrosomía, trabajo de parto prolongado y conducción con oxitocina) más el útero blando que no responde al masaje confirman la primera de las 4 T. Como los uterotónicos y el ácido tranexámico ya están administrados, lo que falta y es inmediato es el componente hemodinámico.",
+      "por_que_no": [
+        "",
+        "Es la conducta correcta cuando el índice de shock está entre 0,7 y 0,9: vigilancia estrecha y reposición 3:1 con cristaloides. Acá el índice es 1,31 y esperar cuesta tiempo.",
+        "Los coloides no son superiores a los cristaloides en la hemorragia obstétrica y no reemplazan a los hemoderivados cuando el índice de shock supera 0,9.",
+        "Los vasopresores corresponden al shock distributivo o al refractario tras reposición adecuada; en un shock hipovolémico activo enmascaran la hipovolemia y empeoran la perfusión uterina.",
+        "Correcto en una pérdida leve y estable: acá esperar los exámenes retrasa la transfusión en una paciente que ya está en alto riesgo por índice de shock."
+      ],
+      "trampa": [
+        "",
+        "umbral",
+        "otro",
+        "otro-contexto",
+        "otro-momento"
+      ],
+      "perla": "Índice de shock = FC / PAS. Por encima de 0,9 se transfunde, no se espera el hemograma.",
+      "fuente": {
+        "carpeta": "2. OBSTETRICIA",
+        "archivo": "33. HEMORRAGIA POSTPARTO.pdf",
+        "seccion": "Clave roja · índice de shock y reposición"
+      },
+      "gemela_de": null
+    },
+    {
+      "id": "2026-10-17-manana-002",
+      "enunciado": "Mujer de 38 años, gestante de 33 semanas por fecha de última regla confiable, acude por cefalea occipital que no cede con paracetamol desde hace 6 horas, acompañada de puntos luminosos en el campo visual y dolor en epigastrio. Funciones vitales: PA 168/112 mmHg en dos tomas separadas por 15 minutos, FC 92X', FR 20X', T° 36,8 °C. Reflejos osteotendinosos 3+, edema de manos y cara. Tira reactiva en orina: proteínas 3+. Laboratorio: plaquetas 118 000/mm³, TGO 96 U/L, TGP 88 U/L, creatinina 1,1 mg/dL, LDH 480 U/L. Monitoreo fetal reactivo.",
+      "opciones": [
+        "Nifedipino 10 mg por vía oral y repetir a los 20 minutos",
+        "Sulfato de magnesio 4 g por vía endovenosa en 20 minutos y luego infusión continua",
+        "Labetalol 20 mg por vía endovenosa en bolo",
+        "Metildopa 500 mg por vía oral cada 8 horas",
+        "Betametasona 12 mg por vía intramuscular y repetir a las 24 horas"
+      ],
+      "clave": 2,
+      "especialidad": "Obstetricia",
+      "tema": "Trastornos hipertensivos del embarazo",
+      "diagnostico": "Preeclampsia con criterios de severidad y signos premonitorios de eclampsia",
+      "tipo": "tratamiento",
+      "dificultad": "alta",
+      "razonamiento": "Paso 1: los valores dan criterios de severidad por partida triple — PA ≥ 160/110 en dos tomas, plaquetas < 150 000 y transaminasas al doble del valor normal. Paso 2: la cefalea que no cede, los escotomas, el dolor epigástrico y los reflejos 3+ son signos premonitorios: esta paciente está a un paso de convulsionar. Paso 3: cuando hay síntomas neurológicos, la prioridad es la prevención de la eclampsia; el antihipertensivo se administra en paralelo pero no es lo primero que salva a esta paciente.",
+      "por_que_no": [
+        "Es un antihipertensivo correcto para esta emergencia y se administra en paralelo, pero baja la presión sin evitar la convulsión que los síntomas premonitorios anuncian.",
+        "",
+        "Igual que el nifedipino: controla la crisis hipertensiva, no previene la eclampsia. Además hay que verificar que no haya bradicardia materna ni asma antes de usarlo.",
+        "Es el antihipertensivo de mantenimiento ambulatorio en la hipertensión crónica del embarazo; su inicio de acción es demasiado lento para una emergencia.",
+        "Corresponde por la edad gestacional para maduración pulmonar fetal, pero no es lo primero: la vida en riesgo inmediato es la de la madre."
+      ],
+      "trampa": [
+        "otro-momento",
+        "",
+        "otro-momento",
+        "otro-contexto",
+        "otro-momento"
+      ],
+      "perla": "Cefalea que no cede, escotomas o epigastralgia en una gestante hipertensa = sulfato de magnesio antes que el antihipertensivo.",
+      "fuente": {
+        "carpeta": "2. OBSTETRICIA",
+        "archivo": "35. TRASTORNO HIPERTENSIV.pdf",
+        "seccion": "Criterios de severidad y manejo · clave azul"
+      },
+      "gemela_de": null
+    },
+    {
+      "id": "2026-10-17-manana-003",
+      "enunciado": "Lactante de 11 meses, 8 kg, traído por la madre por deposiciones líquidas sin sangre ni moco, unas 8 por día desde hace 2 días, con 3 vómitos en las últimas horas. Funciones vitales: FC 148X', FR 36X', T° 37,4 °C, llenado capilar 2 segundos. Está irritable pero se consuela en brazos, los ojos se ven hundidos, la boca está seca y bebe el vaso con avidez. El pliegue cutáneo se deshace en menos de 2 segundos. Diuresis conservada. No hay distensión abdominal.",
+      "opciones": [
+        "Sales de rehidratación oral en casa, 10 ml/kg por cada deposición y 5 ml/kg por cada vómito",
+        "Lactato de Ringer 100 ml/kg por vía endovenosa en 6 horas",
+        "Sales de rehidratación oral 75 ml/kg en 4 horas, en el establecimiento y bajo observación",
+        "Sales de rehidratación oral por sonda nasogástrica a 20 ml/kg/hora",
+        "Cloruro de sodio 0,9 % 20 ml/kg en bolo endovenoso"
+      ],
+      "clave": 3,
+      "especialidad": "Pediatría",
+      "tema": "Enfermedad diarreica aguda y deshidratación",
+      "diagnostico": "Diarrea acuosa aguda con deshidratación leve a moderada",
+      "tipo": "conducta",
+      "dificultad": "media",
+      "razonamiento": "Paso 1: hay que clasificar el grado de deshidratación con los hallazgos, no con una etiqueta. Está irritable pero consolable, bebe con avidez, tiene ojos hundidos y el pliegue se deshace en menos de 2 segundos y el llenado capilar es de 2 segundos. Paso 2: eso es deshidratación con signos presentes pero sin shock ni compromiso del sensorio, es decir el escalón intermedio. Paso 3: a ese escalón le corresponde rehidratación oral supervisada en el establecimiento, con el volumen calculado por peso, no tratamiento domiciliario ni vía endovenosa.",
+      "por_que_no": [
+        "Es el plan del niño sin signos de deshidratación. Acá los ojos hundidos, la sed ávida y la irritabilidad ya marcan deshidratación: mandarlo a casa es subtratarlo.",
+        "Es el plan de la deshidratación severa, que exige letargia o inconsciencia, incapacidad para beber, pliegue que se deshace en más de 2 segundos o llenado capilar prolongado. Nada de eso está presente.",
+        "",
+        "Se reserva para el fracaso de la vía oral por vómitos incoercibles. Este niño bebe con avidez y los vómitos no han impedido la ingesta.",
+        "El bolo de cristaloide es para el shock hipovolémico, con hipotensión o llenado capilar mayor de 3 segundos."
+      ],
+      "trampa": [
+        "otro-estadio",
+        "otro-estadio",
+        "",
+        "otro-momento",
+        "otro-estadio"
+      ],
+      "perla": "Bebe con avidez y el pliegue vuelve en menos de 2 segundos = plan B: 75 ml/kg de sales en 4 horas, en el establecimiento.",
+      "fuente": {
+        "carpeta": "4.PEDIATRIA",
+        "archivo": "4. DIARREA.pdf",
+        "seccion": "Hidratación · planes A, B y C"
+      },
+      "gemela_de": null
+    },
+    {
+      "id": "2026-10-17-manana-004",
+      "enunciado": "Mujer de 34 años, con tres partos vaginales, inicio de relaciones sexuales a los 16 años y cinco parejas, sin controles ginecológicos desde hace 8 años. Acude asintomática a un control. El examen con espéculo muestra un cuello de aspecto normal, sin lesión visible ni sangrado al contacto. El resultado del estudio citológico de tamizaje informa células escamosas con alteraciones nucleares compatibles con una lesión intraepitelial de alto grado. No está gestando.",
+      "opciones": [
+        "Repetir el estudio citológico en 6 meses",
+        "Solicitar prueba molecular para virus del papiloma humano de alto riesgo",
+        "Realizar legrado endocervical aislado",
+        "Realizar colposcopia con biopsia dirigida",
+        "Realizar cono con asa diatérmica"
+      ],
+      "clave": 4,
+      "especialidad": "Ginecología",
+      "tema": "Cáncer de cuello uterino y lesiones precursoras",
+      "diagnostico": "Lesión intraepitelial escamosa de alto grado en el tamizaje",
+      "tipo": "prueba",
+      "dificultad": "media",
+      "razonamiento": "Paso 1: el informe describe una alteración de alto grado, no una atipia de significado indeterminado ni una lesión de bajo grado. Paso 2: una citología de alto grado nunca se vigila ni se trata directamente: se confirma con histología, y para eso hace falta ver dónde está la lesión. Paso 3: el cuello se ve normal a simple vista, así que el estudio que localiza y toma la muestra es la colposcopia con biopsia dirigida.",
+      "por_que_no": [
+        "La repetición a los 6 meses es la conducta de las atipias de significado indeterminado o de las lesiones de bajo grado en mujeres jóvenes; en alto grado se pierde tiempo valioso.",
+        "La prueba molecular sirve para el triaje de una citología de significado indeterminado o como tamizaje primario; en una lesión de alto grado ya establecida no cambia la conducta.",
+        "El legrado endocervical se añade cuando la colposcopia es insatisfactoria porque no se ve la unión escamocolumnar, no como primer estudio.",
+        "",
+        "El cono es tratamiento y requiere confirmación histológica previa; hacerlo de entrada expone a una conización innecesaria en una mujer de 34 años con paridad posiblemente no satisfecha."
+      ],
+      "trampa": [
+        "otro-estadio",
+        "no-confirmatorio",
+        "otro-momento",
+        "",
+        "otro-momento"
+      ],
+      "perla": "Citología de alto grado = colposcopia con biopsia. El cono viene después de la histología, nunca antes.",
+      "fuente": {
+        "carpeta": "3.GINECOLOGIA",
+        "archivo": "8. CA DE CERVIX.pdf",
+        "seccion": "Tamizaje y conducta según resultado citológico"
+      },
+      "gemela_de": null
+    },
+    {
+      "id": "2026-10-17-manana-005",
+      "enunciado": "Varón de 48 años, con índice de masa corporal de 33 y episodios previos de dolor en hipocondrio derecho tras comidas grasas. Acude por 12 horas de dolor epigástrico intenso, en faja, irradiado al dorso, con cuatro vómitos. Funciones vitales: PA 100/60 mmHg, FC 112X', FR 26X', T° 37,8 °C, SatO2 93 % al aire ambiente. Abdomen distendido, muy doloroso en epigastrio, sin rebote. Laboratorio: amilasa 1 280 U/L, leucocitos 18 400/mm³, glucosa 232 mg/dL, TGO 310 U/L, LDH 420 U/L, urea 48 mg/dL, calcio 7,8 mg/dL, hematocrito 48 %. Bilirrubina total 1,4 mg/dL.",
+      "opciones": [
+        "Colangiopancreatografía retrógrada endoscópica en las primeras 24 horas",
+        "Iniciar antibióticos de amplio espectro de forma profiláctica",
+        "Tomografía abdominal con contraste de inmediato",
+        "Colecistectomía laparoscópica en las primeras 24 horas",
+        "Hidratación con lactato de Ringer a 5–10 ml/kg/hora con monitoreo de diuresis y hematocrito"
+      ],
+      "clave": 5,
+      "especialidad": "Gastroenterología",
+      "tema": "Pancreatitis aguda",
+      "diagnostico": "Pancreatitis aguda de origen biliar, grave",
+      "tipo": "conducta",
+      "dificultad": "alta",
+      "razonamiento": "Paso 1: los valores dan varios criterios de gravedad al ingreso — leucocitos > 16 000, glucosa > 200 mg/dL, TGO > 250 U/L, LDH elevada, calcio bajo y hematocrito alto por hemoconcentración —, además de taquipnea y desaturación. Paso 2: con esa carga de gravedad, lo que cambia la mortalidad en las primeras 24 horas no es ningún procedimiento sino la reposición de volumen dirigida por metas. Paso 3: la bilirrubina de 1,4 mg/dL y la ausencia de fiebre alta con ictericia descartan una colangitis que obligue a desobstruir de urgencia.",
+      "por_que_no": [
+        "Está indicada en las primeras 24 horas solo si hay colangitis asociada u obstrucción biliar persistente, con ictericia y bilirrubina en ascenso. Acá la bilirrubina es de 1,4 mg/dL.",
+        "La profilaxis antibiótica no reduce la mortalidad en la pancreatitis grave; los antibióticos se reservan para la necrosis infectada demostrada o una infección extrapancreática.",
+        "La tomografía rinde recién a las 72 horas, cuando la necrosis ya se delimita; pedirla ahora da una imagen que subestima la extensión y expone al contraste a un paciente hipovolémico.",
+        "La colecistectomía en la misma internación es la conducta de la pancreatitis biliar LEVE, antes del alta. En la grave se difiere hasta que el cuadro resuelva.",
+        ""
+      ],
+      "trampa": [
+        "otro-contexto",
+        "otro-momento",
+        "otro-momento",
+        "otro-estadio",
+        ""
+      ],
+      "perla": "En las primeras 24 horas de una pancreatitis grave lo que salva es el lactato de Ringer, no el endoscopio ni la tomografía.",
+      "fuente": {
+        "carpeta": "5.GASTROENTEROLOGIA",
+        "archivo": "12. pancreatitis aguda.pdf",
+        "seccion": "Criterios de gravedad y manejo inicial"
+      },
+      "gemela_de": null
+    },
+    {
+      "id": "2026-10-17-manana-006",
+      "enunciado": "Mujer de 27 años, gestante de 24 semanas, acude por 5 semanas de tos con expectoración, alza térmica vespertina, sudoración nocturna y pérdida de 4 kg. Vive con su suegro, que está en tratamiento desde hace 2 meses por un cuadro respiratorio prolongado. Funciones vitales: T° 37,9 °C, FR 22X', FC 96X', SatO2 96 %. Pulmones con crépitos en el vértice derecho. Radiografía de tórax: infiltrado en el segmento apical posterior del lóbulo superior derecho con una imagen cavitada de 2 cm. Prueba molecular rápida en esputo: positiva, sin resistencia a rifampicina ni a isoniacida. Serología para VIH no reactiva.",
+      "opciones": [
+        "Isoniacida, rifampicina, pirazinamida y etambutol por 2 meses, seguidos de isoniacida y rifampicina por 4 meses, con piridoxina",
+        "Isoniacida, rifampicina, estreptomicina y etambutol por 2 meses, seguidos de isoniacida y rifampicina por 4 meses",
+        "Isoniacida, rifampicina y etambutol por 9 meses, omitiendo la pirazinamida",
+        "Diferir el tratamiento hasta después del parto y aislar a la paciente",
+        "Esquema acortado con bedaquilina, levofloxacino, clofazimina y linezolid por 6 meses"
+      ],
+      "clave": 1,
+      "especialidad": "Infectología",
+      "tema": "Tuberculosis · norma técnica MINSA",
+      "diagnostico": "Tuberculosis pulmonar sensible en gestante",
+      "tipo": "norma",
+      "dificultad": "alta",
+      "razonamiento": "Paso 1: hay dos o más síntomas de la definición operativa durante más de 2 semanas, un contacto domiciliario y una prueba molecular positiva: es un caso con confirmación bacteriológica. Paso 2: la prueba informa sensibilidad a rifampicina e isoniacida, así que corresponde el esquema para TB sensible, no uno para resistencia. Paso 3: el dato que podría modificar la conducta es el embarazo, y la norma es clara: el esquema de primera línea NO se modifica en la gestante; lo que sí cambia es que se añade piridoxina y que queda prohibida la estreptomicina.",
+      "por_que_no": [
+        "",
+        "Es el error clásico: la estreptomicina es ototóxica para el feto y está contraindicada en el embarazo. Sería una opción solo en un esquema de retratamiento fuera de la gestación.",
+        "Omitir la pirazinamida y alargar a 9 meses es la pauta de algunos países para gestantes, pero no es la de la norma técnica peruana, que mantiene las cuatro drogas los 2 primeros meses.",
+        "Diferir el tratamiento es la peor opción: la tuberculosis no tratada en el embarazo multiplica el riesgo de prematuridad, bajo peso y muerte materna. El tratamiento se inicia apenas se confirma.",
+        "Ese esquema corresponde a la tuberculosis resistente a rifampicina o multidrogorresistente. Acá la prueba molecular informó sensibilidad."
+      ],
+      "trampa": [
+        "",
+        "otra-poblacion",
+        "otro-contexto",
+        "otro-momento",
+        "otro-estadio"
+      ],
+      "perla": "Gestante con TB sensible: mismo esquema de siempre, más piridoxina y sin estreptomicina.",
+      "fuente": {
+        "carpeta": "28. NT",
+        "archivo": "5. NT TBC.pdf",
+        "seccion": "NTS 221-MINSA-2024 · esquema sensible y poblaciones especiales"
+      },
+      "gemela_de": null
+    },
+    {
+      "id": "2026-10-17-manana-007",
+      "enunciado": "Varón de 58 años, hipertenso y fumador de 30 paquetes-año, acude por 50 minutos de dolor retroesternal opresivo irradiado a la mandíbula, con diaforesis profusa y náuseas. Funciones vitales: PA 128/78 mmHg, FC 96X', FR 20X', SatO2 95 % al aire ambiente. Ruidos cardíacos rítmicos, sin soplos; pulmones limpios. Electrocardiograma: supradesnivel del segmento ST de 3 mm en DII, DIII y aVF, con infradesnivel especular en DI y aVL. Se encuentra en un establecimiento I-4 situado a 3 horas por carretera del hospital más cercano con sala de hemodinamia.",
+      "opciones": [
+        "Trasladar de inmediato para angioplastia primaria sin administrar fibrinolítico",
+        "Administrar fibrinolítico en el establecimiento y trasladar enseguida al centro con hemodinamia",
+        "Administrar doble antiagregación y anticoagulación, y programar el traslado de forma electiva",
+        "Iniciar nitroglicerina endovenosa y betabloqueador, y repetir el electrocardiograma en 1 hora",
+        "Observar 6 horas y decidir una angioplastia de rescate según la evolución del dolor"
+      ],
+      "clave": 2,
+      "especialidad": "Cardiología",
+      "tema": "Cardiopatía isquémica · síndrome coronario con supradesnivel del ST",
+      "diagnostico": "Infarto agudo de miocardio con elevación del ST de cara inferior",
+      "tipo": "conducta",
+      "dificultad": "alta",
+      "razonamiento": "Paso 1: el electrocardiograma describe supradesnivel en las derivaciones inferiores con cambios especulares, y el dolor lleva 50 minutos: la ventana de reperfusión está abierta. Paso 2: el dato que decide la conducta no es clínico sino logístico — el centro con hemodinamia está a 3 horas, muy por encima de los 120 minutos en que la angioplastia primaria sigue siendo superior. Paso 3: por encima de ese tiempo, el fibrinolítico administrado ya, en el primer contacto, es lo que salva miocardio, y el traslado se hace después para una estrategia fármaco-invasiva.",
+      "por_que_no": [
+        "Sería lo correcto si el traslado tomara menos de 120 minutos. Con 3 horas de camino el paciente llega con el miocardio ya perdido.",
+        "",
+        "La antiagregación y la anticoagulación son coadyuvantes obligatorios, pero por sí solas no reperfunden. Programar el traslado de forma electiva en un infarto en curso es una conducta de síndrome coronario sin elevación del ST estable.",
+        "Los nitratos y el betabloqueador alivian el dolor y reducen el consumo de oxígeno, pero repetir el electrocardiograma en 1 hora pierde la ventana. Además, en un infarto inferior los nitratos son peligrosos si hay compromiso del ventrículo derecho.",
+        "La angioplastia de rescate es para el fracaso de la fibrinolisis, que se evalúa a los 60–90 minutos de haberla administrado; no se puede rescatar algo que nunca se inició."
+      ],
+      "trampa": [
+        "umbral",
+        "",
+        "otro-estadio",
+        "otro-momento",
+        "otro-momento"
+      ],
+      "perla": "Si la sala de hemodinamia está a más de 120 minutos, se trombolisa primero y se traslada después.",
+      "fuente": {
+        "carpeta": "9. CARDIOLOGIA",
+        "archivo": "4. CARDIOPATIA ISQUEMICA.pdf",
+        "seccion": "Estrategias de reperfusión y tiempos"
+      },
+      "gemela_de": null
+    },
+    {
+      "id": "2026-10-17-manana-008",
+      "enunciado": "Mujer de 22 años, con episodios similares desde la infancia, acude por 6 horas de disnea progresiva iniciada tras un cuadro catarral, sin mejoría pese a cuatro inhalaciones de su aerosol de rescate. Funciones vitales: PA 130/80 mmHg, FC 128X', FR 32X', T° 37,2 °C, SatO2 88 % al aire ambiente. Habla con palabras sueltas, está sentada inclinada hacia adelante, usa músculos accesorios y tiene tiraje intercostal; a la auscultación hay sibilantes difusos de escasa intensidad. Gases arteriales: pH 7,36, pCO2 41 mmHg, HCO3 22 mEq/L, pO2 58 mmHg.",
+      "opciones": [
+        "Nebulizar salbutamol solo y reevaluar en 1 hora",
+        "Intubar de inmediato e iniciar ventilación mecánica",
+        "Nebulizar salbutamol más bromuro de ipratropio con oxígeno, administrar corticoide sistémico y preparar el soporte ventilatorio",
+        "Administrar sulfato de magnesio endovenoso como primera medida",
+        "Duplicar la dosis del corticoide inhalado en lugar de usar el corticoide sistémico"
+      ],
+      "clave": 3,
+      "especialidad": "Neumología",
+      "tema": "Asma · crisis aguda",
+      "diagnostico": "Crisis asmática severa con fatiga muscular incipiente",
+      "tipo": "conducta",
+      "dificultad": "muy alta",
+      "razonamiento": "Paso 1: hablar por palabras sueltas, frecuencia respiratoria de 32, frecuencia cardíaca de 128, uso de músculos accesorios y saturación de 88 % definen una crisis severa. Paso 2: el dato fino está en los gases: en una crisis severa el paciente hiperventila, así que la pCO2 debería estar BAJA. Una pCO2 de 41 mmHg, aparentemente normal, significa que ya no logra ventilar: es fatiga muscular y es el signo de alarma. Paso 3: eso no obliga todavía a intubar —está despierta y colaboradora— pero sí a dar el tratamiento completo de primera línea y tener el soporte ventilatorio listo al lado.",
+      "por_que_no": [
+        "Es la conducta de una crisis leve a moderada. Acá dejar pasar una hora con un broncodilatador solo y sin corticoide es perder a la paciente.",
+        "La intubación corresponde si hay deterioro del sensorio, silencio auscultatorio con agotamiento franco, bradicardia o paro inminente. Está despierta, habla y moviliza aire: todavía hay margen para el tratamiento máximo.",
+        "",
+        "El sulfato de magnesio es un rescate válido en la crisis severa, pero como coadyuvante tras no responder a los broncodilatadores y el corticoide, no como primera medida.",
+        "El corticoide inhalado es parte del tratamiento crónico de control. En una crisis severa la vía sistémica es obligatoria porque el inhalado no llega a la vía aérea obstruida."
+      ],
+      "trampa": [
+        "otro-estadio",
+        "otro-estadio",
+        "",
+        "otro-momento",
+        "otro-contexto"
+      ],
+      "perla": "pCO2 normal en una crisis asmática severa no tranquiliza: anuncia fatiga muscular y paro respiratorio.",
+      "fuente": {
+        "carpeta": "6.NEUMOLOGIA",
+        "archivo": "7. ASMA.pdf",
+        "seccion": "Criterios de gravedad · asma grave y casi fatal"
+      },
+      "gemela_de": null
+    },
+    {
+      "id": "2026-10-17-manana-009",
+      "enunciado": "Varón de 62 años, con 12 años de diabetes y tratamiento con enalapril y espironolactona, acude por 3 días de vómitos y deposiciones líquidas, con disminución marcada del volumen urinario. Funciones vitales: PA 96/58 mmHg, FC 104X', FR 28X', T° 36,8 °C. Mucosas secas, pliegue cutáneo perezoso. Laboratorio: Na 134 mEq/L, K 6,8 mEq/L, Cl 108 mEq/L, HCO3 12 mEq/L, creatinina 3,4 mg/dL (previa 1,0), urea 112 mg/dL, glucosa 186 mg/dL. Gases arteriales: pH 7,21, pCO2 29 mmHg. Electrocardiograma: ondas T altas, picudas y simétricas, con QRS de 0,14 segundos.",
+      "opciones": [
+        "Insulina cristalina endovenosa junto con dextrosa",
+        "Bicarbonato de sodio endovenoso",
+        "Salbutamol nebulizado a dosis alta",
+        "Gluconato de calcio al 10 % endovenoso",
+        "Hemodiálisis de urgencia"
+      ],
+      "clave": 4,
+      "especialidad": "Nefrología",
+      "tema": "Trastornos del potasio y equilibrio ácido-base",
+      "diagnostico": "Hiperkalemia grave con cambios electrocardiográficos, en injuria renal aguda prerrenal y acidosis metabólica con anion gap elevado",
+      "tipo": "conducta",
+      "dificultad": "alta",
+      "razonamiento": "Paso 1: los valores definen el trastorno sin que nadie lo nombre — pH 7,21 con HCO3 12 y pCO2 29 es una acidosis metabólica compensada parcialmente, y el anion gap = 134 − (108 + 12) = 14, elevado, en el contexto de una creatinina que triplicó su valor previo por pérdidas digestivas. Paso 2: el dato que decide la conducta no es el potasio de 6,8 por sí solo, sino el QRS ensanchado a 0,14 segundos: ya hay toxicidad miocárdica y el siguiente paso natural es la fibrilación ventricular. Paso 3: lo único que estabiliza la membrana del miocardio en minutos es el calcio; todo lo demás mueve el potasio pero tarda.",
+      "por_que_no": [
+        "Es el tratamiento que realmente introduce el potasio a la célula y es obligatorio, pero tarda 15–30 minutos: no protege el corazón en el minuto cero.",
+        "Ayuda cuando la hiperkalemia acompaña a una acidosis, pero su efecto es lento e inconstante, y en un paciente oligúrico añade sodio y volumen.",
+        "Desplaza potasio al interior de la célula y sirve como coadyuvante, pero su inicio de acción es de unos 30 minutos y la taquicardia de 104 ya existente lo hace poco atractivo.",
+        "",
+        "Es el tratamiento definitivo en la injuria renal aguda con hiperkalemia refractaria, pero conseguir el acceso y la máquina toma horas: no reemplaza la estabilización inmediata."
+      ],
+      "trampa": [
+        "otro-momento",
+        "otro-momento",
+        "otro-momento",
+        "",
+        "otro-momento"
+      ],
+      "perla": "Hiperkalemia con QRS ancho: primero calcio para proteger el corazón, después insulina con dextrosa para bajar el potasio.",
+      "fuente": {
+        "carpeta": "14. NEFROLOGIA",
+        "archivo": "14. ACIDOSIS METABOLICA.pdf",
+        "seccion": "Alteraciones ácido-base · valores normales y anion gap"
+      },
+      "gemela_de": null
+    },
+    {
+      "id": "2026-10-17-manana-010",
+      "enunciado": "Varón de 67 años, apendicectomizado hace 20 años, acude por 3 días de dolor abdominal cólico, distensión progresiva, vómitos de contenido bilioso y ausencia de deposiciones y de flatos desde el inicio. Funciones vitales: PA 104/64 mmHg, FC 110X', FR 24X', T° 38,3 °C. Abdomen muy distendido, timpánico, con ruidos hidroaéreos ausentes y dolor localizado en la fosa ilíaca izquierda con defensa muscular. Laboratorio: leucocitos 19 800/mm³ con 12 % de abastonados, lactato 3,8 mmol/L, creatinina 1,6 mg/dL. Radiografía de abdomen de pie: múltiples niveles hidroaéreos en intestino delgado y ausencia de aire en la ampolla rectal.",
+      "opciones": [
+        "Sonda nasogástrica, hidratación endovenosa y observación por 48 horas",
+        "Enema contrastado con medio hidrosoluble con fines diagnósticos y terapéuticos",
+        "Colonoscopia descompresiva",
+        "Tomografía abdominal con contraste antes de decidir cualquier conducta",
+        "Laparotomía exploratoria de urgencia"
+      ],
+      "clave": 5,
+      "especialidad": "Cirugía General",
+      "tema": "Obstrucción intestinal",
+      "diagnostico": "Obstrucción intestinal complicada con sufrimiento de asa",
+      "tipo": "conducta",
+      "dificultad": "alta",
+      "razonamiento": "Paso 1: los niveles hidroaéreos en delgado, la ausencia de aire en recto, los vómitos biliosos y la falta de flatos arman una obstrucción completa, y el antecedente quirúrgico apunta a bridas. Paso 2: lo que cambia la conducta son los signos de sufrimiento de asa — fiebre de 38,3 °C, leucocitosis con 12 % de abastonados, lactato de 3,8 mmol/L, taquicardia y dolor localizado con defensa. Paso 3: con sufrimiento de asa la obstrucción deja de ser un problema de observación y pasa a ser quirúrgico de urgencia; cualquier demora aumenta la resección y la mortalidad.",
+      "por_que_no": [
+        "Es la conducta correcta de la obstrucción por bridas SIN signos de sufrimiento, donde hasta el 70 % resuelve con tratamiento conservador. Acá el lactato y la defensa lo contraindican.",
+        "Tiene valor diagnóstico y terapéutico en la obstrucción parcial sin signos de alarma, y además ayuda a predecir qué pacientes resolverán sin cirugía. No tiene lugar con peritonismo.",
+        "Es el tratamiento inicial del vólvulo de sigmoides sin signos de sufrimiento. Acá el patrón radiológico es de intestino delgado y ya hay compromiso vascular.",
+        "La tomografía es muy útil para localizar el punto de transición, pero cuando ya hay fiebre, leucocitosis con desviación, lactato elevado y defensa, esperar la imagen solo retrasa el quirófano.",
+        ""
+      ],
+      "trampa": [
+        "otro-estadio",
+        "otro-estadio",
+        "otro-contexto",
+        "otro-momento",
+        ""
+      ],
+      "perla": "Obstrucción intestinal con fiebre, defensa y lactato elevado = sufrimiento de asa: a quirófano, no a observación.",
+      "fuente": {
+        "carpeta": "1. CIRUGIA GENERAL",
+        "archivo": "4.Obstruccion intestinal.pdf",
+        "seccion": "Obstrucción completa vs parcial · signos de sufrimiento de asa"
+      },
+      "gemela_de": null
+    }
+  ]
+}
