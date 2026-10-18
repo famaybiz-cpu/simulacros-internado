@@ -1,0 +1,1971 @@
+{
+ "id": "2026-10-18-noche",
+ "fecha": "2026-10-18",
+ "turno": "noche",
+ "titulo": "Simulacro de la noche",
+ "segundos_por_pregunta": 45,
+ "temas_noche": [
+  "Pediatría · Bronquiolitis",
+  "Ginecología · Enfermedad pélvica inflamatoria"
+ ],
+ "feedback_noche": "Los dos temas salen de lo que falló esta mañana: el cuadro obstructivo del lactante fue además tu único error marcado «Seguro», o sea concepto mal aprendido, y el pélvico infeccioso va 0/2 acumulado.\nEn el lactante la trampa no es el soporte, es el umbral y el criterio: SatO2 <92 % (sierra <85 %), y menor de 3 meses, intolerancia oral o deshidratación hospitalizan aunque sature bien.\nEl broncodilatador solo se usa como prueba (>6 meses, fuera de temporada o atopia); corticoides, adrenalina y antibiótico no entran.\nEn el cuadro pélvico ordena por grado: leve ambulatorio, peritoneo pélvico u otro criterio a hospital con clindamicina más gentamicina, colección sin respuesta a drenaje, pus libre a laparotomía.\nTus trampas repetidas siguen siendo otro-estadio y diferencial: antes de responder di en qué grado está y qué otro cuadro estoy descartando.",
+ "perlas_noche": [
+  "Oxígeno si SatO2 <92 % a nivel del mar y <85 % en la sierra; el puntaje ESBA ≥10 va a cuidados intensivos.",
+  "Menor de 3 meses, intolerancia oral o deshidratación: se hospitaliza aunque el puntaje sea leve.",
+  "Broncodilatador solo a prueba (>6 meses, fuera de temporada o atopia) a 0,15 mg/kg; palivizumab 15 mg/kg al mes, 4-5 dosis.",
+  "Grado leve: ceftriaxona 500 mg IM única + doxiciclina 14 días; metronidazol solo si hay flujo vaginal.",
+  "Gestante o adolescente siempre se hospitalizan; en gestante nada de tetraciclinas: ceftriaxona más azitromicina."
+ ],
+ "preguntas": [
+  {
+   "id": "2026-10-18-noche-001",
+   "enunciado": "Mujer de 28 años con amenorrea de 7 semanas, prueba de embarazo positiva y 2 días de dolor en fosa ilíaca derecha de intensidad creciente, con escaso sangrado vaginal oscuro. PA 110/68 mmHg, FC 92X', T° 36,9 °C. Abdomen doloroso en fosa ilíaca derecha sin rebote; al tacto hay dolor anexial derecho, sin dolor a la movilización cervical y sin flujo. Ecografía transvaginal: útero vacío, masa anexial derecha de 3 cm sin actividad cardíaca, escaso líquido libre. Subunidad beta de 3 200 mUI/ml. ¿Cuál es la conducta más apropiada?",
+   "opciones": [
+    "Indicar analgesia y repetir la ecografía en una semana",
+    "Iniciar ceftriaxona intramuscular con doxiciclina ambulatoria",
+    "Hospitalizar e iniciar clindamicina más gentamicina endovenosas",
+    "Administrar metotrexato intramuscular y seguimiento de la subunidad beta",
+    "Realizar laparotomía con salpingectomía derecha"
+   ],
+   "clave": 4,
+   "especialidad": "Ginecología",
+   "tema": "Enfermedad pélvica inflamatoria",
+   "diagnostico": "Embarazo ectópico tubárico no complicado: diferencial del dolor pélvico infeccioso",
+   "tipo": "conducta",
+   "dificultad": "muy alta",
+   "razonamiento": "Paso 1: amenorrea con prueba positiva, útero vacío y masa anexial: la gestación está fuera del útero. Paso 2: está estable, la masa mide menos de 3,5 cm, no hay actividad cardíaca y la subunidad beta es menor de 5 000: cumple criterios de manejo médico. Paso 3: corresponde metotrexato intramuscular con seguimiento de la subunidad beta.",
+   "por_que_no": [
+    "Observar sin tratar permite que la trompa se rompa.",
+    "Tratar como infección retrasa el diagnóstico y arriesga la rotura tubárica.",
+    "Mismo error con esquema endovenoso: no hay fiebre, flujo ni dolor cervical.",
+    "",
+    "La cirugía se reserva a inestabilidad, rotura o falla del tratamiento médico."
+   ],
+   "trampa": [
+    "otro-momento",
+    "diferencial",
+    "diferencial",
+    "",
+    "otro-momento"
+   ],
+   "perla": "Amenorrea con útero vacío y masa anexial: es ectópico, no infección pélvica.",
+   "fuente": {
+    "carpeta": "3.GINECOLOGIA",
+    "archivo": "20. ENFERMEDAD PÉLVICA INFLAMATORIA.pdf",
+    "seccion": "pág. 1 (estadios de Monif, Hager, esquemas)"
+   },
+   "gemela_de": null
+  },
+  {
+   "id": "2026-10-18-noche-002",
+   "enunciado": "Niño de 16 meses llevado por tercer episodio de tos y sibilancias en los últimos ocho meses; los dos previos cedieron en horas con broncodilatador. Tiene dermatitis atópica, su madre es asmática y el episodio comenzó tras jugar en un cuarto polvoriento, sin coriza previa. FR 44X', FC 128X', T° 36,8 °C, SatO2 95 %. Sibilantes difusos espiratorios, sin crepitantes, buen estado general. Está eutrófico y con desarrollo normal. ¿Cuál es el diagnóstico más probable?",
+   "opciones": [
+    "Reflujo gastroesofágico con microaspiración",
+    "Infección respiratoria baja bacteriana atípica",
+    "Sibilancias recurrentes de probable origen asmático",
+    "Primer episodio obstructivo por virus estacional",
+    "Cuerpo extraño en la vía aérea"
+   ],
+   "clave": 3,
+   "especialidad": "Pediatría",
+   "tema": "Bronquiolitis",
+   "diagnostico": "Asma del lactante (sibilancias recurrentes), diferencial del primer episodio viral",
+   "tipo": "diagnostico",
+   "dificultad": "media",
+   "razonamiento": "Paso 1: tercer episodio, sin fase catarral, desencadenado por un alérgeno y con respuesta rápida al broncodilatador. Paso 2: la recurrencia y la atopia personal y familiar alejan el primer episodio viral, que es por definición único y precedido de coriza. Paso 3: corresponde el patrón de sibilancias recurrentes de perfil asmático.",
+   "por_que_no": [
+    "Cursa con vómitos, rechazo y tos nocturna, no con crisis que ceden con broncodilatador.",
+    "Esperaría fiebre, mal estado general y crepitantes localizados.",
+    "",
+    "Exige ser el primer episodio y en menor de 2 años con coriza previa.",
+    "Daría inicio brusco con atragantamiento y sibilancia asimétrica fija."
+   ],
+   "trampa": [
+    "diferencial",
+    "diferencial",
+    "",
+    "diferencial",
+    "diferencial"
+   ],
+   "perla": "Primer episodio con coriza previa en menor de 2 años; si hay recurrencia y atopia, piense asma.",
+   "fuente": {
+    "carpeta": "4.PEDIATRIA",
+    "archivo": "10. BRONQUIOLITIS.pdf",
+    "seccion": "pág. 1 (score ESBA, manejo, profilaxis)"
+   },
+   "gemela_de": null
+  },
+  {
+   "id": "2026-10-18-noche-003",
+   "enunciado": "Mujer de 24 años con 5 días de dolor pélvico bilateral, flujo vaginal y febrículas, que desde ayer presenta dolor intenso en el hipocondrio derecho que aumenta con la inspiración y se irradia al hombro. PA 110/70 mmHg, FC 94X', T° 38 °C. Dolor a la palpación del hipocondrio derecho con Murphy negativo; al tacto hay dolor anexial bilateral y a la movilización cervical. Transaminasas y bilirrubinas normales; ecografía: vía biliar y vesícula normales, sin litos. ¿Cuál es el diagnóstico más probable?",
+   "opciones": [
+    "Hepatitis viral aguda",
+    "Absceso hepático piógeno",
+    "Pielonefritis aguda derecha",
+    "Colecistitis aguda alitiásica",
+    "Perihepatitis con adherencias en cuerda de violín"
+   ],
+   "clave": 5,
+   "especialidad": "Ginecología",
+   "tema": "Enfermedad pélvica inflamatoria",
+   "diagnostico": "Síndrome de Fitz-Hugh-Curtis (perihepatitis por Chlamydia trachomatis)",
+   "tipo": "diagnostico",
+   "dificultad": "alta",
+   "razonamiento": "Paso 1: dolor pleurítico en hipocondrio derecho irradiado al hombro sobre un cuadro pélvico infeccioso, con pruebas hepáticas y vía biliar normales. Paso 2: eso describe inflamación de la cápsula hepática con adherencias, asociada a Chlamydia trachomatis. Paso 3: responde al mismo esquema antibiótico del cuadro pélvico.",
+   "por_que_no": [
+    "Cursaría con transaminasas muy elevadas e ictericia.",
+    "Esperaría fiebre en picos, hepatomegalia dolorosa e imagen de colección.",
+    "Daría puñopercusión positiva y sedimento urinario alterado.",
+    "Daría Murphy positivo y pared vesicular engrosada en la ecografía.",
+    ""
+   ],
+   "trampa": [
+    "diferencial",
+    "diferencial",
+    "diferencial",
+    "diferencial",
+    ""
+   ],
+   "perla": "Dolor pleurítico en hipocondrio derecho con cuadro pélvico: perihepatitis por Chlamydia.",
+   "fuente": {
+    "carpeta": "3.GINECOLOGIA",
+    "archivo": "20. ENFERMEDAD PÉLVICA INFLAMATORIA.pdf",
+    "seccion": "pág. 1 (estadios de Monif, Hager, esquemas)"
+   },
+   "gemela_de": null
+  },
+  {
+   "id": "2026-10-18-noche-004",
+   "enunciado": "Mujer de 30 años hospitalizada por dolor pélvico con fiebre y compromiso peritoneal pélvico. Pesa 60 kg y la función renal es normal (creatinina 0,7 mg/dl). Se indica el esquema endovenoso de la norma con clindamicina y un aminoglucósido, y la interna debe calcular la dosis del aminoglucósido para la hoja de indicaciones. Se cuenta con ampollas de 80 mg y de 160 mg, y con bomba de infusión. ¿Cuál es el esquema correcto del aminoglucósido?",
+   "opciones": [
+    "1,5 mg/kg de carga y luego 2 mg/kg cada 8 horas",
+    "5 mg/kg en dosis única diaria sin carga",
+    "3 mg/kg de carga y luego 3 mg/kg cada 6 horas",
+    "1 mg/kg de carga y luego 1 mg/kg cada 12 horas",
+    "2 mg/kg de carga y luego 1,5 mg/kg cada 8 horas"
+   ],
+   "clave": 5,
+   "especialidad": "Ginecología",
+   "tema": "Enfermedad pélvica inflamatoria",
+   "diagnostico": "Enfermedad pélvica inflamatoria estadio II: dosificación de gentamicina",
+   "tipo": "dosis",
+   "dificultad": "alta",
+   "razonamiento": "Paso 1: el grado de compromiso obliga al esquema endovenoso con clindamicina más gentamicina. Paso 2: la gentamicina se indica con carga de 2 mg/kg y mantenimiento de 1,5 mg/kg cada 8 horas. Paso 3: en 60 kg corresponden 120 mg de carga y 90 mg cada 8 horas.",
+   "por_que_no": [
+    "Invierte las cifras: la carga debe ser mayor que el mantenimiento.",
+    "La dosis única diaria es una alternativa de otros protocolos, no la de esta norma.",
+    "Dosis y frecuencia excesivas, con riesgo de nefrotoxicidad y ototoxicidad.",
+    "Subdosifica la carga y espacia el mantenimiento: no alcanza concentración útil.",
+    ""
+   ],
+   "trampa": [
+    "umbral",
+    "otro-contexto",
+    "umbral",
+    "umbral",
+    ""
+   ],
+   "perla": "Gentamicina: carga 2 mg/kg y luego 1,5 mg/kg cada 8 horas, junto a clindamicina 900 mg c/8 h.",
+   "fuente": {
+    "carpeta": "3.GINECOLOGIA",
+    "archivo": "20. ENFERMEDAD PÉLVICA INFLAMATORIA.pdf",
+    "seccion": "pág. 1 (estadios de Monif, Hager, esquemas)"
+   },
+   "gemela_de": null
+  },
+  {
+   "id": "2026-10-18-noche-005",
+   "enunciado": "Mujer de 27 años, con pareja estable y antecedente de un cuadro similar hace dos años, acude por 5 días de dolor pélvico bilateral sordo y dispareunia. Niega flujo vaginal y no ha tenido fiebre medida. PA 108/68 mmHg, FC 84X', T° 37,7 °C. Abdomen depresible con dolor en ambas fosas ilíacas, sin rebote. Tacto: dolor a la movilización del cérvix y dolor anexial bilateral, sin masas ni abombamiento del fondo de saco. Ecografía transvaginal normal. Tolera líquidos y alimentos sin dificultad. ¿Cuál es el esquema indicado?",
+   "opciones": [
+    "Penicilina G endovenosa por dos a seis semanas",
+    "Ceftriaxona 500 mg intramuscular más doxiciclina por 14 días",
+    "Ceftriaxona 500 mg intramuscular, doxiciclina y metronidazol por 14 días",
+    "Doxiciclina sola por 14 días",
+    "Clindamicina más gentamicina endovenosas por 48 horas"
+   ],
+   "clave": 2,
+   "especialidad": "Ginecología",
+   "tema": "Enfermedad pélvica inflamatoria",
+   "diagnostico": "Enfermedad pélvica inflamatoria estadio I de Monif sin flujo vaginal",
+   "tipo": "tratamiento",
+   "dificultad": "alta",
+   "razonamiento": "Paso 1: compromiso anexial bilateral sin masa, sin rebote y con ecografía normal: estadio leve. Paso 2: no hay criterio alguno de internamiento y tolera la vía oral, así que el manejo es ambulatorio. Paso 3: al no haber flujo vaginal, el metronidazol no se agrega; basta ceftriaxona intramuscular más doxiciclina por 14 días.",
+   "por_que_no": [
+    "Es el esquema del cuadro asociado a actinomicosis por dispositivo intrauterino.",
+    "",
+    "El metronidazol se reserva a los casos con flujo vaginal, ausente aquí.",
+    "Dejaría sin cobertura al gonococo, que requiere la cefalosporina.",
+    "Indicado desde el compromiso peritoneal o con criterios de internamiento."
+   ],
+   "trampa": [
+    "otro-contexto",
+    "",
+    "otro-estadio",
+    "mismo-grupo",
+    "otro-estadio"
+   ],
+   "perla": "Sin flujo vaginal no se añade metronidazol al esquema ambulatorio.",
+   "fuente": {
+    "carpeta": "3.GINECOLOGIA",
+    "archivo": "20. ENFERMEDAD PÉLVICA INFLAMATORIA.pdf",
+    "seccion": "pág. 1 (estadios de Monif, Hager, esquemas)"
+   },
+   "gemela_de": null
+  },
+  {
+   "id": "2026-10-18-noche-006",
+   "enunciado": "Lactante de 2 meses y 10 días, nacido a término, con 3 días de rinorrea y tos y 12 horas de respiración ruidosa. Mama bien, tiene buen estado general y la diuresis es normal. FR 48X', FC 142X', T° 37,3 °C, SatO2 95 % al aire ambiente en Trujillo. Sibilantes al final de la espiración en un campo, tiraje subcostal leve, relación inspiración-espiración simétrica. No ha presentado pausas respiratorias. La madre pide llevarlo a casa porque vive cerca. ¿Cuál es la conducta que indica la norma técnica?",
+   "opciones": [
+    "Hospitalizar e iniciar oxígeno por cánula binasal",
+    "Alta con aspiración de secreciones e hidratación en domicilio",
+    "Alta con nebulización de suero hipertónico en casa",
+    "Hospitalizar para observación y soporte",
+    "Alta con control diario en el establecimiento por cinco días"
+   ],
+   "clave": 4,
+   "especialidad": "Pediatría",
+   "tema": "Bronquiolitis",
+   "diagnostico": "Bronquiolitis aguda leve en lactante menor de 3 meses: criterio de hospitalización por edad",
+   "tipo": "norma",
+   "dificultad": "alta",
+   "razonamiento": "Paso 1: el puntaje de severidad es leve y la saturación es normal. Paso 2: sin embargo, la edad menor de 3 meses es por sí sola criterio de internamiento, por el riesgo de apnea y de deterioro brusco. Paso 3: se hospitaliza para soporte y vigilancia, aunque todavía no requiera oxígeno.",
+   "por_que_no": [
+    "Hospitalizar es correcto, pero con SatO2 95 % el oxígeno no está indicado.",
+    "Sería correcto en un lactante mayor de 3 meses con este mismo puntaje.",
+    "El hipertónico es coadyuvante hospitalario y no habilita el alta de este lactante.",
+    "",
+    "El control frecuente no sustituye la vigilancia de apneas en el menor de 3 meses."
+   ],
+   "trampa": [
+    "umbral",
+    "otra-poblacion",
+    "otro-momento",
+    "",
+    "otro-momento"
+   ],
+   "perla": "Menor de 3 meses: se hospitaliza aunque el puntaje sea leve y sature bien.",
+   "fuente": {
+    "carpeta": "4.PEDIATRIA",
+    "archivo": "10. BRONQUIOLITIS.pdf",
+    "seccion": "pág. 1 (score ESBA, manejo, profilaxis)"
+   },
+   "gemela_de": null
+  },
+  {
+   "id": "2026-10-18-noche-007",
+   "enunciado": "Mujer de 22 años con 5 días de dolor pélvico bajo y flujo vaginal abundante, amarillo-verdoso y espumoso, con prurito vulvar intenso y dispareunia. PA 110/70 mmHg, FC 84X', T° 37,6 °C. A la especuloscopia: flujo espumoso en fondo de saco y cérvix con punteado hemorrágico que le da aspecto de fresa. Al tacto hay dolor anexial bilateral leve y dolor a la movilización cervical, sin masas. pH vaginal de 5,8. ¿Cuál es el agente causal del flujo descrito?",
+   "opciones": [
+    "Trichomonas vaginalis",
+    "Neisseria gonorrhoeae",
+    "Gardnerella vaginalis",
+    "Candida albicans",
+    "Chlamydia trachomatis"
+   ],
+   "clave": 1,
+   "especialidad": "Ginecología",
+   "tema": "Enfermedad pélvica inflamatoria",
+   "diagnostico": "Tricomoniasis asociada a enfermedad pélvica inflamatoria",
+   "tipo": "mecanismo",
+   "dificultad": "media",
+   "razonamiento": "Paso 1: flujo amarillo-verdoso espumoso, prurito intenso, pH mayor de 4,5 y cérvix con punteado hemorrágico en fresa. Paso 2: esa combinación es característica de Trichomonas vaginalis. Paso 3: por eso el esquema debe incluir metronidazol, que cubre al protozoario y a los anaerobios.",
+   "por_que_no": [
+    "",
+    "Produce flujo purulento espeso, sin burbujas ni cérvix en fresa.",
+    "Da flujo grisáceo homogéneo con olor a pescado y sin prurito marcado.",
+    "Flujo blanco grumoso con prurito y pH menor de 4,5.",
+    "Da cuadros poco sintomáticos, con flujo escaso y sangrado intermenstrual."
+   ],
+   "trampa": [
+    "",
+    "diferencial",
+    "diferencial",
+    "diferencial",
+    "diferencial"
+   ],
+   "perla": "Flujo espumoso amarillo-verdoso con cérvix en fresa: Trichomonas, va con metronidazol.",
+   "fuente": {
+    "carpeta": "3.GINECOLOGIA",
+    "archivo": "20. ENFERMEDAD PÉLVICA INFLAMATORIA.pdf",
+    "seccion": "pág. 1 (estadios de Monif, Hager, esquemas)"
+   },
+   "gemela_de": null
+  },
+  {
+   "id": "2026-10-18-noche-008",
+   "enunciado": "Lactante de 6 semanas, nacido a las 35 semanas, con 2 días de coriza y tos. En las últimas 12 horas la madre lo ha encontrado dos veces con pausas respiratorias de unos 20 segundos acompañadas de cianosis peribucal y flacidez, que cedieron con estimulación. FR 52X', FC 148X', T° 37,1 °C, SatO2 93 % entre episodios. Sibilantes escasos, tiraje leve. Glucemia 78 mg/dl, hemograma y examen neurológico sin alteraciones. ¿Cuál es la complicación que explica estos episodios?",
+   "opciones": [
+    "Apnea de origen central asociada a la infección viral",
+    "Neumotórax espontáneo por atrapamiento aéreo",
+    "Atelectasia lobar por tapón de moco",
+    "Miocarditis viral con bajo gasto",
+    "Sepsis bacteriana de foco respiratorio"
+   ],
+   "clave": 1,
+   "especialidad": "Pediatría",
+   "tema": "Bronquiolitis",
+   "diagnostico": "Apnea como complicación aguda de bronquiolitis en lactante pequeño y prematuro",
+   "tipo": "complicacion",
+   "dificultad": "alta",
+   "razonamiento": "Paso 1: pausas respiratorias con cianosis y flacidez que ceden con estimulación en un lactante de 6 semanas, exprematuro, durante un cuadro viral. Paso 2: ese es el perfil de la apnea de origen central del lactante pequeño, que puede preceder a la dificultad respiratoria. Paso 3: obliga a monitorización continua y por sí misma indica internamiento.",
+   "por_que_no": [
+    "",
+    "Daría dolor, asimetría e hipoventilación súbita, no pausas que ceden solas.",
+    "Produce hipoventilación localizada mantenida, no episodios autolimitados.",
+    "Esperaría taquicardia persistente, hepatomegalia y mala perfusión.",
+    "Faltan fiebre, alteración hemodinámica y hemograma compatible."
+   ],
+   "trampa": [
+    "",
+    "diferencial",
+    "diferencial",
+    "diferencial",
+    "diferencial"
+   ],
+   "perla": "Menor de 3 meses o exprematuro con pausas y cianosis: la apnea viral exige monitorización.",
+   "fuente": {
+    "carpeta": "4.PEDIATRIA",
+    "archivo": "10. BRONQUIOLITIS.pdf",
+    "seccion": "pág. 1 (score ESBA, manejo, profilaxis)"
+   },
+   "gemela_de": null
+  },
+  {
+   "id": "2026-10-18-noche-009",
+   "enunciado": "Mujer de 25 años con 4 días de dolor pélvico bajo. En el examen se documenta dolor a la palpación del hipogastrio, dolor a la movilización del cérvix y dolor anexial bilateral. Es sexualmente activa sin anticoncepción de barrera. T° 38,2 °C y leucocitos de 12 900 con proteína C reactiva elevada. El médico quiere aplicar los criterios clínicos antes de iniciar el esquema y ya cuenta con los datos del examen y del laboratorio. ¿Cuál es el estudio que falta para completar esos criterios?",
+   "opciones": [
+    "Cultivo de secreción endocervical",
+    "Velocidad de sedimentación globular",
+    "Prueba de amplificación de ácidos nucleicos",
+    "Ecografía pélvica que descarte otra causa del dolor",
+    "Tomografía abdominopélvica con contraste"
+   ],
+   "clave": 4,
+   "especialidad": "Ginecología",
+   "tema": "Enfermedad pélvica inflamatoria",
+   "diagnostico": "Enfermedad pélvica inflamatoria: criterios de Hager, componente ecográfico",
+   "tipo": "prueba",
+   "dificultad": "alta",
+   "razonamiento": "Paso 1: ya están los tres criterios mayores de dolor (pélvico, cervical y anexial) y dos menores (fiebre y leucocitosis con reactante elevado). Paso 2: los criterios mayores incluyen además la ecografía que descarte otra causa del dolor pélvico. Paso 3: con eso se completa la regla de dos mayores, o uno mayor más dos menores.",
+   "por_que_no": [
+    "Identifica el germen pero no integra los criterios clínicos mayores.",
+    "Es un criterio menor y ya hay dos menores cumplidos.",
+    "Aporta el agente, no el criterio de imagen exigido.",
+    "",
+    "No forma parte de los criterios; se usa ante duda o sospecha de colección."
+   ],
+   "trampa": [
+    "no-confirmatorio",
+    "otro",
+    "no-confirmatorio",
+    "",
+    "no-confirmatorio"
+   ],
+   "perla": "Criterios de Hager: dolor pélvico, cervical y anexial más ecografía que descarte otra causa.",
+   "fuente": {
+    "carpeta": "3.GINECOLOGIA",
+    "archivo": "20. ENFERMEDAD PÉLVICA INFLAMATORIA.pdf",
+    "seccion": "pág. 1 (estadios de Monif, Hager, esquemas)"
+   },
+   "gemela_de": null
+  },
+  {
+   "id": "2026-10-18-noche-010",
+   "enunciado": "Lactante de 3 meses hospitalizado desde hace 36 horas por un cuadro respiratorio bajo viral. Recibe oxígeno por máscara con reservorio con fracción inspirada estimada de 0,6. FR 72X', FC 176X', T° 37,6 °C, SatO2 89 %. Está pálido, con tiraje universal, aleteo nasal y quejido; el llanto es débil y se queda dormido durante el examen. Gasometría arterial: pH 7,24, pCO2 58 mmHg, HCO3 24 mEq/l. ¿Cuál es la conducta más apropiada?",
+   "opciones": [
+    "Mantener máscara con reservorio y repetir gasometría en 2 horas",
+    "Pasar a cánula nasal de alto flujo en sala común",
+    "Trasladar a unidad de cuidados intensivos para soporte ventilatorio",
+    "Nebulizar con adrenalina y añadir corticoide endovenoso",
+    "Iniciar antibiótico de amplio espectro y continuar en sala"
+   ],
+   "clave": 3,
+   "especialidad": "Pediatría",
+   "tema": "Bronquiolitis",
+   "diagnostico": "Insuficiencia respiratoria aguda global en bronquiolitis: criterio de cuidados intensivos",
+   "tipo": "severidad",
+   "dificultad": "alta",
+   "razonamiento": "Paso 1: pH 7,24 con pCO2 58 y bicarbonato normal indica retención aguda de CO2. Paso 2: la saturación de 89 % con fracción inspirada mayor de 0,5, junto al quejido y la somnolencia, cumple criterio de cuidado crítico. Paso 3: corresponde traslado a cuidados intensivos para soporte ventilatorio.",
+   "por_que_no": [
+    "Esperar con un lactante que retiene CO2 y se agota lleva al paro respiratorio.",
+    "El alto flujo es razonable, pero no en sala con esta gasometría y este agotamiento.",
+    "",
+    "Ninguno de los dos revierte la falla ventilatoria ni tiene indicación aquí.",
+    "El antibiótico no resuelve la hipercapnia y no hay datos de sobreinfección."
+   ],
+   "trampa": [
+    "otro-momento",
+    "otro-estadio",
+    "",
+    "otro",
+    "diferencial"
+   ],
+   "perla": "SatO2 <92 % con FiO2 >50 %, apneas repetidas o hipercapnia con agotamiento: cuidados intensivos.",
+   "fuente": {
+    "carpeta": "4.PEDIATRIA",
+    "archivo": "10. BRONQUIOLITIS.pdf",
+    "seccion": "pág. 1 (score ESBA, manejo, profilaxis)"
+   },
+   "gemela_de": null
+  },
+  {
+   "id": "2026-10-18-noche-011",
+   "enunciado": "Lactante de 9 meses traído a un centro de salud de Juliaca (3 824 m s. n. m.) por 3 días de rinorrea y tos con dificultad respiratoria progresiva. Sigue tomando leche y orina normal. FR 46X', FC 138X', T° 37,6 °C, SatO2 87 % al aire ambiente. Sibilantes en toda la espiración en dos campos, tiraje subcostal, relación inspiración-espiración simétrica. No ha tenido pausas respiratorias ni vómitos. La madre pregunta si necesita oxígeno. ¿Cuál es la conducta más apropiada?",
+   "opciones": [
+    "Referir a unidad de cuidados intensivos para ventilación no invasiva",
+    "Iniciar oxígeno y nebulizar con adrenalina cada 4 horas",
+    "Iniciar oxígeno por cánula binasal de inmediato",
+    "Continuar soporte e hidratación sin oxígeno suplementario",
+    "Iniciar oxígeno con máscara de reservorio a 10 litros"
+   ],
+   "clave": 4,
+   "especialidad": "Pediatría",
+   "tema": "Bronquiolitis",
+   "diagnostico": "Bronquiolitis aguda moderada en residente de altura con saturación aceptable para su altitud",
+   "tipo": "conducta",
+   "dificultad": "alta",
+   "razonamiento": "Paso 1: la cifra de 87 % debe leerse contra la altitud: a más de 2 500 m el umbral para oxigenoterapia baja a 85 %. Paso 2: no hay intolerancia oral, apneas ni signos de agotamiento, de modo que la severidad es moderada sin hipoxemia que tratar. Paso 3: corresponde mantener el soporte (aspiración, hidratación, posición) y vigilar, sin oxígeno.",
+   "por_que_no": [
+    "Los criterios de unidad crítica son apneas repetidas o SatO2 <92 % con FiO2 >50 %.",
+    "La adrenalina nebulizada no ha mostrado beneficio en este cuadro.",
+    "Ese umbral (<92 %) es el de la costa; en la sierra se usa <85 %.",
+    "",
+    "El alto flujo se reserva a hipoxemia grave refractaria, no a este caso."
+   ],
+   "trampa": [
+    "otro-estadio",
+    "otro",
+    "umbral",
+    "",
+    "otro-estadio"
+   ],
+   "perla": "Umbral de oxígeno: SatO2 <92 % a nivel del mar, <85 % en la sierra.",
+   "fuente": {
+    "carpeta": "4.PEDIATRIA",
+    "archivo": "10. BRONQUIOLITIS.pdf",
+    "seccion": "pág. 1 (score ESBA, manejo, profilaxis)"
+   },
+   "gemela_de": null
+  },
+  {
+   "id": "2026-10-18-noche-012",
+   "enunciado": "Niño de 4 meses, nacido a las 27 semanas, con displasia broncopulmonar que requirió oxígeno domiciliario hasta hace tres semanas. Está asintomático en control en consultorio externo de abril, al inicio de la temporada de virus respiratorios. Peso 5 kg, FR 38X', SatO2 96 % al aire ambiente, examen pulmonar sin agregados. Tiene el esquema nacional de vacunación completo para su edad. La madre pregunta qué puede hacerse para evitar que vuelva a ingresar por un cuadro respiratorio grave. ¿Cuál es la medida indicada?",
+   "opciones": [
+    "Palivizumab mensual durante la temporada",
+    "Azitromicina profiláctica tres veces por semana",
+    "Inmunoglobulina endovenosa mensual",
+    "Montelukast diario durante la temporada",
+    "Corticoide inhalado diario durante la temporada"
+   ],
+   "clave": 1,
+   "especialidad": "Pediatría",
+   "tema": "Bronquiolitis",
+   "diagnostico": "Profilaxis con palivizumab en exprematuro con displasia broncopulmonar",
+   "tipo": "norma",
+   "dificultad": "media",
+   "razonamiento": "Paso 1: exprematuro de 27 semanas con displasia broncopulmonar, es decir, el perfil de máximo riesgo de forma grave u obliterante. Paso 2: la profilaxis específica es el anticuerpo monoclonal palivizumab, indicado en prematuros menores de 29 semanas, displasia broncopulmonar, cardiopatía congénita e inmunodeprimidos. Paso 3: se aplica mensualmente durante la temporada.",
+   "por_que_no": [
+    "",
+    "No previene infecciones virales y favorece resistencia.",
+    "Reservada a inmunodeficiencias humorales, no a esta indicación.",
+    "Es terapia de control de sibilancias recurrentes, no profilaxis de la infección.",
+    "No reduce la incidencia ni la gravedad del primer episodio viral."
+   ],
+   "trampa": [
+    "",
+    "otro",
+    "otro-contexto",
+    "otro-momento",
+    "otro"
+   ],
+   "perla": "Palivizumab: prematuro <29 semanas, displasia broncopulmonar, cardiópata o inmunodeprimido.",
+   "fuente": {
+    "carpeta": "4.PEDIATRIA",
+    "archivo": "10. BRONQUIOLITIS.pdf",
+    "seccion": "pág. 1 (score ESBA, manejo, profilaxis)"
+   },
+   "gemela_de": null
+  },
+  {
+   "id": "2026-10-18-noche-013",
+   "enunciado": "Mujer de 20 años con 3 días de dolor pélvico bilateral y flujo vaginal purulento, con dolor a la movilización cervical y dolor anexial bilateral sin masas, T° 38 °C y leucocitos de 13 100. Se indica el esquema ambulatorio y consejería. Es su primera consulta en un establecimiento de salud desde el inicio de su vida sexual, hace dos años, y no conoce su estado serológico. El establecimiento cuenta con pruebas rápidas y con laboratorio. ¿Cuál es el estudio complementario que corresponde ofrecerle según la norma?",
+   "opciones": [
+    "Perfil hormonal y ecografía transvaginal de control",
+    "Hemocultivos en dos frascos antes del antibiótico",
+    "Tamizaje de infección por el virus de inmunodeficiencia humana y de sífilis",
+    "Papanicolaou y prueba molecular de papilomavirus",
+    "Urocultivo y examen completo de orina"
+   ],
+   "clave": 3,
+   "especialidad": "Ginecología",
+   "tema": "Enfermedad pélvica inflamatoria",
+   "diagnostico": "Enfermedad pélvica inflamatoria: tamizaje obligatorio de otras infecciones de transmisión sexual",
+   "tipo": "norma",
+   "dificultad": "media",
+   "razonamiento": "Paso 1: la paciente tiene una infección de transmisión sexual confirmada clínicamente. Paso 2: la norma obliga a ofrecer tamizaje de las demás infecciones de transmisión sexual, en particular virus de inmunodeficiencia humana y sífilis, con consejería y consentimiento. Paso 3: ese tamizaje cambia el seguimiento y el tratamiento de la pareja.",
+   "por_que_no": [
+    "No aporta en un cuadro infeccioso agudo.",
+    "Reservados a sospecha de bacteriemia o cuadro séptico.",
+    "",
+    "Pertinente como tamizaje de cáncer de cuello, no como estudio de este episodio.",
+    "Solo si hubiera síntomas urinarios; no forma parte del tamizaje obligado."
+   ],
+   "trampa": [
+    "otro",
+    "otro-estadio",
+    "",
+    "otro-contexto",
+    "diferencial"
+   ],
+   "perla": "Ante una infección de transmisión sexual, siempre ofrecer tamizaje de VIH y sífilis.",
+   "fuente": {
+    "carpeta": "3.GINECOLOGIA",
+    "archivo": "20. ENFERMEDAD PÉLVICA INFLAMATORIA.pdf",
+    "seccion": "pág. 1 (estadios de Monif, Hager, esquemas)"
+   },
+   "gemela_de": null
+  },
+  {
+   "id": "2026-10-18-noche-014",
+   "enunciado": "Lactante de 5 meses en su cuarto día de hospitalización por un cuadro respiratorio bajo viral. Había mejorado, pero hoy presenta nuevo aumento del trabajo respiratorio. FR 58X', FC 152X', T° 38,4 °C, SatO2 91 % con oxígeno a 1 litro. Hipoventilación localizada en la base derecha sin matidez, con sibilantes difusos en el resto. La radiografía muestra una banda de densidad lineal en la base derecha con desplazamiento del hemidiafragma hacia arriba, sin broncograma ni derrame. Leucocitos 9 800, abastonados 1 %. ¿Cuál es la conducta más apropiada?",
+   "opciones": [
+    "Añadir dexametasona endovenosa por tres días",
+    "Solicitar tomografía de tórax con contraste",
+    "Iniciar ceftriaxona endovenosa por siete días",
+    "Intensificar aspiración de secreciones y fisioterapia con posición",
+    "Colocar tubo de drenaje torácico en la base derecha"
+   ],
+   "clave": 4,
+   "especialidad": "Pediatría",
+   "tema": "Bronquiolitis",
+   "diagnostico": "Atelectasia por tapón mucoso como complicación aguda de bronquiolitis",
+   "tipo": "conducta",
+   "dificultad": "muy alta",
+   "razonamiento": "Paso 1: banda lineal con ascenso diafragmático y sin broncograma ni derrame describe colapso por tapón mucoso, no consolidación. Paso 2: los leucocitos normales y la ausencia de abastonados alejan una sobreinfección bacteriana. Paso 3: el manejo es desobstruir la vía aérea: aspiración, cambios de posición y mantener la hidratación.",
+   "por_que_no": [
+    "No revierte el colapso mecánico por moco ni está indicado en este cuadro.",
+    "No aporta sobre una imagen ya característica y expone a radiación y sedación.",
+    "Correcto si hubiera consolidación con broncograma y leucocitosis con desviación izquierda.",
+    "",
+    "Solo tendría lugar ante neumotórax o derrame, ausentes en la radiografía."
+   ],
+   "trampa": [
+    "otro",
+    "no-confirmatorio",
+    "diferencial",
+    "",
+    "diferencial"
+   ],
+   "perla": "Banda lineal con diafragma ascendido y sin broncograma: colapso por moco, se trata aspirando.",
+   "fuente": {
+    "carpeta": "4.PEDIATRIA",
+    "archivo": "10. BRONQUIOLITIS.pdf",
+    "seccion": "pág. 1 (score ESBA, manejo, profilaxis)"
+   },
+   "gemela_de": null
+  },
+  {
+   "id": "2026-10-18-noche-015",
+   "enunciado": "Mujer de 26 años con 4 días de dolor pélvico bilateral, flujo vaginal purulento y fiebre. PA 108/68 mmHg, FC 96X', T° 38,5 °C. Abdomen con dolor en hipogastrio y defensa voluntaria, sin rebote en los cuadrantes superiores. Al tacto: dolor marcado a la movilización del cérvix, dolor anexial bilateral, sin masas palpables ni abombamiento del fondo de saco. Ecografía transvaginal: trompas engrosadas con escaso líquido libre en fondo de saco, sin colecciones organizadas. ¿Cuál es la extensión del compromiso en esta paciente?",
+   "opciones": [
+    "Compromiso limitado a las trompas, sin extensión peritoneal",
+    "Extensión al peritoneo pélvico, sin colección organizada",
+    "Colección anexial organizada con tumor doloroso",
+    "Peritonitis generalizada con compromiso sistémico",
+    "Infección limitada al cuello uterino, sin extensión"
+   ],
+   "clave": 2,
+   "especialidad": "Ginecología",
+   "tema": "Enfermedad pélvica inflamatoria",
+   "diagnostico": "Enfermedad pélvica inflamatoria estadio II de Monif (pelviperitonitis)",
+   "tipo": "severidad",
+   "dificultad": "alta",
+   "razonamiento": "Paso 1: hay dolor marcado a la movilización del cérvix con defensa en hipogastrio y líquido libre, pero sin masa palpable. Paso 2: esa combinación define extensión al peritoneo pélvico sin colección organizada. Paso 3: ese grado ya implica hospitalización con antibiótico endovenoso.",
+   "por_que_no": [
+    "El compromiso tubárico puro cursa sin defensa ni líquido en fondo de saco.",
+    "",
+    "Exigiría una masa o tumor anexial doloroso, ausente al tacto y en la ecografía.",
+    "Requeriría rebote difuso, abdomen en tabla y compromiso hemodinámico.",
+    "La cervicitis aislada no da dolor anexial ni líquido libre."
+   ],
+   "trampa": [
+    "otro-estadio",
+    "",
+    "otro-estadio",
+    "otro-estadio",
+    "otro-estadio"
+   ],
+   "perla": "Dolor a la movilización cervical sin masa: ya hay peritoneo pélvico comprometido, se hospitaliza.",
+   "fuente": {
+    "carpeta": "3.GINECOLOGIA",
+    "archivo": "20. ENFERMEDAD PÉLVICA INFLAMATORIA.pdf",
+    "seccion": "pág. 1 (estadios de Monif, Hager, esquemas)"
+   },
+   "gemela_de": null
+  },
+  {
+   "id": "2026-10-18-noche-016",
+   "enunciado": "Lactante de 7 meses, receptor de trasplante de médula ósea hace cuatro meses, hospitalizado hace seis semanas por un cuadro respiratorio bajo con sibilancias. Persiste con requerimiento de oxígeno, taquipnea y mala ganancia ponderal. FR 54X', SatO2 90 % con cánula a 1 litro. Tórax hiperinsuflado con sibilantes fijos. La tomografía muestra atenuación en mosaico, atrapamiento aéreo y engrosamiento de paredes bronquiales. Los cultivos bacterianos son negativos. ¿Cuál es el agente causal más probable del cuadro inicial?",
+   "opciones": [
+    "Virus sincicial respiratorio tipo A",
+    "Rinovirus",
+    "Mycoplasma pneumoniae",
+    "Virus parainfluenza tipo 3",
+    "Adenovirus"
+   ],
+   "clave": 5,
+   "especialidad": "Pediatría",
+   "tema": "Bronquiolitis",
+   "diagnostico": "Bronquiolitis obliterante posinfecciosa por adenovirus en inmunodeprimido",
+   "tipo": "mecanismo",
+   "dificultad": "alta",
+   "razonamiento": "Paso 1: hipoxemia que no se resuelve en seis semanas con mosaico, atrapamiento aéreo y sibilantes fijos describe obliteración de la vía aérea pequeña. Paso 2: esa forma crónica se asocia de modo característico al adenovirus, sobre todo en receptores de trasplante de médula y exprematuros extremos. Paso 3: el resto produce cuadros autolimitados.",
+   "por_que_no": [
+    "Es el agente más frecuente y el que más ingresa a cuidados críticos, pero resuelve.",
+    "Segundo en frecuencia; da cuadros leves y autolimitados.",
+    "Es la causa bacteriana más frecuente, con infiltrado intersticial que responde a macrólidos.",
+    "Produce laringotraqueítis y cuadros obstructivos autolimitados.",
+    ""
+   ],
+   "trampa": [
+    "otro-estadio",
+    "otro-estadio",
+    "diferencial",
+    "diferencial",
+    ""
+   ],
+   "perla": "Hipoxemia que no resuelve con patrón en mosaico: obliteración de la vía aérea por adenovirus.",
+   "fuente": {
+    "carpeta": "4.PEDIATRIA",
+    "archivo": "10. BRONQUIOLITIS.pdf",
+    "seccion": "pág. 1 (score ESBA, manejo, profilaxis)"
+   },
+   "gemela_de": null
+  },
+  {
+   "id": "2026-10-18-noche-017",
+   "enunciado": "Mujer de 29 años, con peso de 158 kg e índice de masa corporal de 52, acude por 3 días de dolor pélvico bilateral y flujo vaginal. PA 120/78 mmHg, FC 90X', T° 37,8 °C. Abdomen doloroso en hipogastrio sin rebote; al tacto hay dolor anexial bilateral y a la movilización cervical, sin masas. Ecografía transvaginal sin colecciones. Tolera la vía oral y no está gestante (prueba negativa). Se decide manejo ambulatorio con el esquema de la norma técnica. ¿Cuál es la dosis correcta de la cefalosporina?",
+   "opciones": [
+    "250 mg intramuscular en dosis única",
+    "500 mg intramuscular en dosis única",
+    "1 g intramuscular en dosis única",
+    "1 g intramuscular cada 24 horas por siete días",
+    "2 g endovenosa cada 6 horas por 48 horas"
+   ],
+   "clave": 3,
+   "especialidad": "Ginecología",
+   "tema": "Enfermedad pélvica inflamatoria",
+   "diagnostico": "Enfermedad pélvica inflamatoria estadio I: ajuste de ceftriaxona por peso >150 kg",
+   "tipo": "dosis",
+   "dificultad": "alta",
+   "razonamiento": "Paso 1: el cuadro es el estadio leve con indicación de manejo ambulatorio. Paso 2: la dosis estándar de ceftriaxona es de 500 mg intramusculares en dosis única, pero en pacientes con peso mayor de 150 kg se duplica a 1 g. Paso 3: con 158 kg corresponde 1 g intramuscular en dosis única.",
+   "por_que_no": [
+    "Dosis insuficiente incluso para una paciente de peso habitual.",
+    "Es la dosis estándar, pero este peso obliga a duplicarla.",
+    "",
+    "La cefalosporina va en dosis única; los 14 días son de doxiciclina.",
+    "Ese esquema endovenoso corresponde al cuadro con peritonitis generalizada."
+   ],
+   "trampa": [
+    "umbral",
+    "umbral",
+    "",
+    "otro-momento",
+    "otro-estadio"
+   ],
+   "perla": "Ceftriaxona 500 mg IM única; si la paciente pesa más de 150 kg, 1 g.",
+   "fuente": {
+    "carpeta": "3.GINECOLOGIA",
+    "archivo": "20. ENFERMEDAD PÉLVICA INFLAMATORIA.pdf",
+    "seccion": "pág. 1 (estadios de Monif, Hager, esquemas)"
+   },
+   "gemela_de": null
+  },
+  {
+   "id": "2026-10-18-noche-018",
+   "enunciado": "Mujer de 21 años con 6 días de dolor pélvico bajo leve, sangrado intermenstrual escaso y dispareunia; refiere flujo vaginal mínimo. Tiene dos parejas en el último año sin preservativo. PA 112/72 mmHg, FC 82X', T° 37,5 °C. Al tacto: dolor anexial bilateral y a la movilización cervical, sin masas. El Gram del exudado endocervical no muestra diplococos intracelulares y el cultivo convencional es negativo. La prueba de amplificación de ácidos nucleicos resulta positiva. ¿Cuál es el agente causal más frecuente de este cuadro?",
+   "opciones": [
+    "Actinomyces israelii",
+    "Escherichia coli",
+    "Neisseria gonorrhoeae",
+    "Mycoplasma genitalium",
+    "Chlamydia trachomatis"
+   ],
+   "clave": 5,
+   "especialidad": "Ginecología",
+   "tema": "Enfermedad pélvica inflamatoria",
+   "diagnostico": "Enfermedad pélvica inflamatoria por Chlamydia trachomatis",
+   "tipo": "mecanismo",
+   "dificultad": "media",
+   "razonamiento": "Paso 1: cuadro larvado con síntomas leves, sangrado intermenstrual y Gram sin diplococos ni crecimiento en cultivo convencional. Paso 2: ese perfil poco sintomático, intracelular y que solo se detecta por amplificación corresponde a Chlamydia trachomatis, el agente más frecuente. Paso 3: por eso el esquema incluye doxiciclina o azitromicina.",
+   "por_que_no": [
+    "Se asocia a cuadros crónicos en portadoras de dispositivo intrauterino antiguo.",
+    "Propia de infecciones urinarias ascendentes, no de este cuadro.",
+    "Daría un cuadro agudo con flujo purulento y diplococos en el Gram.",
+    "Participa, pero es mucho menos frecuente que el agente intracelular clásico.",
+    ""
+   ],
+   "trampa": [
+    "otro-contexto",
+    "diferencial",
+    "diferencial",
+    "mismo-grupo",
+    ""
+   ],
+   "perla": "Agente más frecuente: Chlamydia trachomatis, poco sintomática y detectada por amplificación.",
+   "fuente": {
+    "carpeta": "3.GINECOLOGIA",
+    "archivo": "20. ENFERMEDAD PÉLVICA INFLAMATORIA.pdf",
+    "seccion": "pág. 1 (estadios de Monif, Hager, esquemas)"
+   },
+   "gemela_de": null
+  },
+  {
+   "id": "2026-10-18-noche-019",
+   "enunciado": "Mujer de 25 años con dolor pélvico bilateral de 4 días, flujo vaginal y temperatura de 38,1 °C, sin náuseas ni vómitos, con ecografía transvaginal sin colecciones y sin masas al tacto. Recibe la dosis intramuscular de cefalosporina en emergencia y se le indicará el resto del esquema por vía oral para completar el tratamiento ambulatorio. Antes del alta, la paciente pide por escrito cómo tomar la tetraciclina indicada. ¿Cuál es la dosis, el intervalo y la duración correctos?",
+   "opciones": [
+    "100 mg cada 24 horas por 14 días",
+    "200 mg cada 12 horas por 10 días",
+    "100 mg cada 8 horas por 21 días",
+    "100 mg cada 12 horas por 7 días",
+    "100 mg cada 12 horas por 14 días"
+   ],
+   "clave": 5,
+   "especialidad": "Ginecología",
+   "tema": "Enfermedad pélvica inflamatoria",
+   "diagnostico": "Enfermedad pélvica inflamatoria estadio I: posología de doxiciclina",
+   "tipo": "dosis",
+   "dificultad": "media",
+   "razonamiento": "Paso 1: el cuadro leve con tolerancia oral se maneja de forma ambulatoria. Paso 2: la doxiciclina se da a 100 mg cada 12 horas durante 14 días, que es la duración que erradica a Chlamydia y previene la secuela tubárica. Paso 3: acortar o espaciar el esquema aumenta la recurrencia y la infertilidad.",
+   "por_que_no": [
+    "Una vez al día no mantiene concentraciones útiles en el tejido tubárico.",
+    "Duplicar la dosis solo añade intolerancia digestiva, sin mejor resultado.",
+    "Intervalo y duración excesivos, sin respaldo en la norma.",
+    "Siete días bastan para cervicitis, no para el compromiso anexial.",
+    ""
+   ],
+   "trampa": [
+    "umbral",
+    "umbral",
+    "umbral",
+    "otro-estadio",
+    ""
+   ],
+   "perla": "Doxiciclina 100 mg cada 12 horas por 14 días: menos tiempo deja secuela tubárica.",
+   "fuente": {
+    "carpeta": "3.GINECOLOGIA",
+    "archivo": "20. ENFERMEDAD PÉLVICA INFLAMATORIA.pdf",
+    "seccion": "pág. 1 (estadios de Monif, Hager, esquemas)"
+   },
+   "gemela_de": null
+  },
+  {
+   "id": "2026-10-18-noche-020",
+   "enunciado": "Lactante de 8 meses con 5 días de coriza y 2 días de dificultad respiratoria. En las últimas 18 horas rechaza el pecho y el biberón, ha vomitado tres veces y la madre refiere dos pañales secos. FR 52X', FC 158X', T° 37,6 °C, SatO2 95 % en Ica. Mucosa oral seca, llanto sin lágrimas, fontanela deprimida, pliegue cutáneo que vuelve lento. Sibilantes difusos con tiraje subcostal leve; el puntaje de severidad es de 5 puntos. ¿Cuál es la conducta más apropiada?",
+   "opciones": [
+    "Alta con nebulización de suero hipertónico cada 6 horas",
+    "Alta con hidratación fraccionada y control en 24 horas",
+    "Alta con suero de rehidratación oral por sonda en casa",
+    "Hospitalizar para hidratación y soporte",
+    "Hospitalizar e iniciar oxígeno por cánula binasal"
+   ],
+   "clave": 4,
+   "especialidad": "Pediatría",
+   "tema": "Bronquiolitis",
+   "diagnostico": "Bronquiolitis aguda moderada con deshidratación e intolerancia oral",
+   "tipo": "conducta",
+   "dificultad": "alta",
+   "razonamiento": "Paso 1: la saturación es normal, pero hay intolerancia oral con vómitos y signos claros de deshidratación. Paso 2: la intolerancia a la vía oral y la deshidratación son criterios de internamiento por sí mismos, independientes de la saturación. Paso 3: se hospitaliza para hidratación y medidas de soporte.",
+   "por_que_no": [
+    "El hipertónico no resuelve el problema principal, que es la hidratación.",
+    "La saturación normal no compensa la deshidratación con vómitos.",
+    "La sonda domiciliaria no es una alternativa segura en este escenario.",
+    "",
+    "Hospitalizar es correcto, pero con SatO2 95 % no corresponde oxígeno."
+   ],
+   "trampa": [
+    "otro-momento",
+    "umbral",
+    "otro-momento",
+    "",
+    "umbral"
+   ],
+   "perla": "Intolerancia oral o deshidratación: se hospitaliza aunque la saturación sea normal.",
+   "fuente": {
+    "carpeta": "4.PEDIATRIA",
+    "archivo": "10. BRONQUIOLITIS.pdf",
+    "seccion": "pág. 1 (score ESBA, manejo, profilaxis)"
+   },
+   "gemela_de": "2026-10-18-manana-069"
+  },
+  {
+   "id": "2026-10-18-noche-021",
+   "enunciado": "Mujer de 26 años con amenorrea de 10 semanas y prueba de embarazo positiva, acude por 3 días de dolor pélvico bilateral, flujo vaginal purulento y fiebre. PA 110/70 mmHg, FC 96X', T° 38,3 °C. Dolor en hipogastrio sin rebote; al tacto hay dolor a la movilización cervical y dolor anexial bilateral, sin masas. Ecografía: gestación intrauterina única con embrión vivo, sin colecciones anexiales. Un colega propone iniciar el esquema ambulatorio habitual. ¿Cuál de los fármacos está contraindicado en esta paciente?",
+   "opciones": [
+    "Doxiciclina",
+    "Clindamicina",
+    "Metronidazol",
+    "Ceftriaxona",
+    "Azitromicina"
+   ],
+   "clave": 1,
+   "especialidad": "Ginecología",
+   "tema": "Enfermedad pélvica inflamatoria",
+   "diagnostico": "Enfermedad pélvica inflamatoria en gestante: contraindicación de tetraciclinas",
+   "tipo": "contraindicacion",
+   "dificultad": "media",
+   "razonamiento": "Paso 1: hay gestación intrauterina confirmada con embrión vivo. Paso 2: las tetraciclinas atraviesan la placenta, se depositan en hueso y dientes y pueden dar hepatotoxicidad materna: están contraindicadas en el embarazo. Paso 3: en la gestante el esquema se reemplaza por ceftriaxona más azitromicina, además de hospitalizar.",
+   "por_que_no": [
+    "",
+    "Se usa con seguridad y es parte del esquema endovenoso hospitalario.",
+    "Admitido en el embarazo; se evitaba solo en el primer trimestre por precaución histórica.",
+    "Cefalosporina segura en el embarazo, es parte del esquema de la gestante.",
+    "Macrólido de elección para reemplazar a la tetraciclina en la gestante."
+   ],
+   "trampa": [
+    "",
+    "otra-poblacion",
+    "otra-poblacion",
+    "otra-poblacion",
+    "otra-poblacion"
+   ],
+   "perla": "Gestante: nunca tetraciclinas; se usa ceftriaxona más azitromicina y se hospitaliza.",
+   "fuente": {
+    "carpeta": "3.GINECOLOGIA",
+    "archivo": "20. ENFERMEDAD PÉLVICA INFLAMATORIA.pdf",
+    "seccion": "pág. 1 (estadios de Monif, Hager, esquemas)"
+   },
+   "gemela_de": null
+  },
+  {
+   "id": "2026-10-18-noche-022",
+   "enunciado": "Mujer de 22 años con dolor súbito e intenso en fosa ilíaca izquierda de 5 horas, acompañado de náuseas y dos vómitos, que inició mientras hacía ejercicio. Niega flujo vaginal y su última menstruación terminó hace cinco días. PA 112/70 mmHg, FC 104X', T° 36,9 °C. Abdomen con dolor intenso y defensa localizada en fosa ilíaca izquierda; al tacto se palpa masa anexial izquierda muy dolorosa, sin dolor a la movilización cervical. Ecografía Doppler: masa anexial de 6 cm con ausencia de flujo arterial. Prueba de embarazo negativa. ¿Cuál es la conducta más apropiada?",
+   "opciones": [
+    "Iniciar ceftriaxona intramuscular con doxiciclina ambulatoria",
+    "Solicitar resonancia magnética de pelvis y reevaluar",
+    "Indicar analgesia y control ecográfico en 48 horas",
+    "Iniciar clindamicina más gentamicina endovenosas",
+    "Realizar laparoscopia urgente con destorsión anexial"
+   ],
+   "clave": 5,
+   "especialidad": "Ginecología",
+   "tema": "Enfermedad pélvica inflamatoria",
+   "diagnostico": "Torsión anexial: diferencial agudo del dolor pélvico con masa",
+   "tipo": "conducta",
+   "dificultad": "alta",
+   "razonamiento": "Paso 1: dolor súbito e intenso durante el ejercicio, sin fiebre ni flujo y sin dolor a la movilización cervical: el perfil no es infeccioso. Paso 2: la masa anexial dolorosa con ausencia de flujo arterial en el Doppler indica compromiso vascular por torsión. Paso 3: es una urgencia quirúrgica: laparoscopia con destorsión para preservar el ovario.",
+   "por_que_no": [
+    "Mismo error con esquema ambulatorio, con pérdida de horas decisivas.",
+    "La resonancia retrasa una cirugía con ventana de pocas horas.",
+    "Observar 48 horas condena al ovario a la necrosis.",
+    "Trataría una infección que no existe y se perdería el ovario por isquemia.",
+    ""
+   ],
+   "trampa": [
+    "diferencial",
+    "no-confirmatorio",
+    "otro-momento",
+    "diferencial",
+    ""
+   ],
+   "perla": "Dolor súbito con masa anexial sin flujo Doppler: torsión, a laparoscopia de inmediato.",
+   "fuente": {
+    "carpeta": "3.GINECOLOGIA",
+    "archivo": "20. ENFERMEDAD PÉLVICA INFLAMATORIA.pdf",
+    "seccion": "pág. 1 (estadios de Monif, Hager, esquemas)"
+   },
+   "gemela_de": null
+  },
+  {
+   "id": "2026-10-18-noche-023",
+   "enunciado": "Lactante de 9 meses dado de alta de emergencia con un cuadro respiratorio bajo leve, SatO2 96 %, buena tolerancia oral y puntaje de severidad de 3 puntos. Se indica aspiración de secreciones, cabecera elevada e hidratación fraccionada. La madre es primeriza, vive a 20 minutos del establecimiento y pregunta con qué signos debe regresar de inmediato. En la hoja de alta debe registrarse la educación brindada. ¿Cuál conjunto de signos de alarma corresponde indicar?",
+   "opciones": [
+    "Sibilancias audibles a distancia sin otros cambios",
+    "Fiebre mayor de 37,5 °C y rinorrea abundante",
+    "Rechazo de la alimentación, somnolencia y aumento del esfuerzo respiratorio",
+    "Tos persistente durante más de siete días",
+    "Vómito aislado tras los accesos de tos"
+   ],
+   "clave": 3,
+   "especialidad": "Pediatría",
+   "tema": "Bronquiolitis",
+   "diagnostico": "Bronquiolitis aguda leve: signos de alarma al alta según norma técnica",
+   "tipo": "norma",
+   "dificultad": "media",
+   "razonamiento": "Paso 1: el niño cumple criterios de manejo domiciliario, por lo que la clave del alta es la educación. Paso 2: los signos de alarma son los que anuncian deterioro: incremento del trabajo respiratorio, intolerancia a la alimentación, deshidratación, letargia y pausas respiratorias. Paso 3: con cualquiera de ellos debe retornar de inmediato.",
+   "por_que_no": [
+    "La sibilancia audible es parte del cuadro si no hay más signos.",
+    "La febrícula y la rinorrea son parte esperable del cuadro.",
+    "",
+    "La tos puede durar dos a tres semanas y no indica gravedad por sí sola.",
+    "El vómito posterior a la tos es frecuente y no implica deterioro."
+   ],
+   "trampa": [
+    "otro",
+    "otro",
+    "",
+    "otro",
+    "otro"
+   ],
+   "perla": "Alarma: no come, está somnoliento, respira con más esfuerzo o hace pausas.",
+   "fuente": {
+    "carpeta": "4.PEDIATRIA",
+    "archivo": "10. BRONQUIOLITIS.pdf",
+    "seccion": "pág. 1 (score ESBA, manejo, profilaxis)"
+   },
+   "gemela_de": null
+  },
+  {
+   "id": "2026-10-18-noche-024",
+   "enunciado": "Niña de 2 años y 8 meses que a los 7 meses estuvo hospitalizada ocho días con oxígeno por un cuadro respiratorio bajo viral. Desde entonces ha tenido cuatro episodios de tos y sibilancias que cedieron con broncodilatador, dos de ellos con resfríos y uno tras correr. Está eutrófica, sin dificultad respiratoria en este momento, con examen cardiopulmonar normal y crecimiento en percentiles adecuados. La madre pregunta a qué se debe que siga con episodios. ¿Cuál es la complicación a largo plazo que explica el cuadro?",
+   "opciones": [
+    "Hiperreactividad bronquial con sibilancias recurrentes",
+    "Bronquiectasias de los lóbulos inferiores",
+    "Hipertensión pulmonar secundaria",
+    "Fibrosis intersticial difusa postinfecciosa",
+    "Obliteración fibrosa de la vía aérea pequeña"
+   ],
+   "clave": 1,
+   "especialidad": "Pediatría",
+   "tema": "Bronquiolitis",
+   "diagnostico": "Hiperreactividad bronquial (sibilancias recurrentes/asma) como secuela de bronquiolitis",
+   "tipo": "complicacion",
+   "dificultad": "media",
+   "razonamiento": "Paso 1: episodios recurrentes desencadenados por infecciones y ejercicio, reversibles con broncodilatador, en una niña por lo demás sana. Paso 2: ese patrón reversible corresponde a hiperreactividad bronquial, la secuela a largo plazo más frecuente tras el primer episodio obstructivo viral. Paso 3: no hay datos de daño estructural fijo.",
+   "por_que_no": [
+    "",
+    "Darían tos productiva crónica y neumonías repetidas en la misma localización.",
+    "Esperaría segundo ruido reforzado, cianosis y falla de medro.",
+    "Produciría disnea progresiva e hipoxemia fija, no crisis que ceden.",
+    "Cursa con hipoxemia persistente e imagen en mosaico, no con episodios reversibles."
+   ],
+   "trampa": [
+    "",
+    "diferencial",
+    "diferencial",
+    "diferencial",
+    "otro-estadio"
+   ],
+   "perla": "Secuela más frecuente del primer episodio obstructivo viral: sibilancias recurrentes.",
+   "fuente": {
+    "carpeta": "4.PEDIATRIA",
+    "archivo": "10. BRONQUIOLITIS.pdf",
+    "seccion": "pág. 1 (score ESBA, manejo, profilaxis)"
+   },
+   "gemela_de": null
+  },
+  {
+   "id": "2026-10-18-noche-025",
+   "enunciado": "Mujer de 23 años, nuligesta, con 4 días de dolor abdominal bajo bilateral de inicio insidioso y flujo vaginal blanco-amarillento de mal olor. Tiene una pareja nueva desde hace dos meses, sin uso de preservativo. PA 110/70 mmHg, FC 88X', T° 37,9 °C. Abdomen blando, doloroso en hipogastrio, sin signos de rebote. Al tacto: dolor anexial bilateral leve, sin masas, cérvix doloroso a la movilización mínima. Ecografía transvaginal sin colecciones. Leucocitos 11 800. Tolera la vía oral. ¿Cuál es el esquema indicado?",
+   "opciones": [
+    "Ceftriaxona 500 mg intramuscular más doxiciclina por 14 días",
+    "Clindamicina más gentamicina endovenosas en hospitalización",
+    "Azitromicina 1 g por vía oral en dosis única",
+    "Cefoxitina 2 g endovenosa cada 6 horas con laparotomía",
+    "Ceftriaxona 500 mg intramuscular, doxiciclina y metronidazol por 14 días"
+   ],
+   "clave": 5,
+   "especialidad": "Ginecología",
+   "tema": "Enfermedad pélvica inflamatoria",
+   "diagnostico": "Enfermedad pélvica inflamatoria estadio I de Monif con flujo vaginal",
+   "tipo": "tratamiento",
+   "dificultad": "alta",
+   "razonamiento": "Paso 1: dolor bajo bilateral subagudo con dolor anexial sin masa y sin signos peritoneales, con ecografía limpia, corresponde al estadio más leve. Paso 2: tolera la vía oral, no está gestante ni es adolescente: puede manejarse de forma ambulatoria. Paso 3: como hay flujo vaginal, al esquema base se añade metronidazol para cubrir anaerobios y tricomonas.",
+   "por_que_no": [
+    "Correcto si no hubiera flujo vaginal: el metronidazol se añade precisamente por el flujo.",
+    "Reservado al estadio con compromiso peritoneal o criterios de internamiento.",
+    "Dosis útil para cervicitis no complicada, insuficiente para el compromiso anexial.",
+    "Corresponde al cuadro con peritonitis generalizada que va a cirugía.",
+    ""
+   ],
+   "trampa": [
+    "otro-estadio",
+    "otro-estadio",
+    "otro-estadio",
+    "otro-estadio",
+    ""
+   ],
+   "perla": "Esquema ambulatorio: ceftriaxona IM única + doxiciclina 14 días; metronidazol solo si hay flujo.",
+   "fuente": {
+    "carpeta": "3.GINECOLOGIA",
+    "archivo": "20. ENFERMEDAD PÉLVICA INFLAMATORIA.pdf",
+    "seccion": "pág. 1 (estadios de Monif, Hager, esquemas)"
+   },
+   "gemela_de": null
+  },
+  {
+   "id": "2026-10-18-noche-026",
+   "enunciado": "Mujer de 25 años con 24 horas de dolor que inició en el epigastrio y luego se localizó en la fosa ilíaca derecha, con anorexia marcada y dos vómitos. Niega flujo vaginal y su menstruación fue hace dos semanas. PA 115/72 mmHg, FC 98X', T° 38 °C. Dolor y rebote localizados en fosa ilíaca derecha con defensa; al tacto no hay dolor a la movilización cervical ni dolor anexial izquierdo. Ecografía: estructura tubular no compresible de 9 mm en fosa ilíaca derecha, con líquido periférico. Prueba de embarazo negativa. ¿Cuál es la conducta más apropiada?",
+   "opciones": [
+    "Indicar analgesia y reevaluar en 12 horas con nuevo hemograma",
+    "Iniciar ceftriaxona intramuscular con doxiciclina y control en 48 horas",
+    "Hospitalizar e iniciar clindamicina más gentamicina endovenosas",
+    "Hospitalizar para apendicectomía con antibiótico perioperatorio",
+    "Realizar laparoscopia con toma de cultivo de las trompas"
+   ],
+   "clave": 4,
+   "especialidad": "Ginecología",
+   "tema": "Enfermedad pélvica inflamatoria",
+   "diagnostico": "Apendicitis aguda: diferencial del dolor en fosa ilíaca derecha en la mujer joven",
+   "tipo": "conducta",
+   "dificultad": "alta",
+   "razonamiento": "Paso 1: dolor migratorio desde el epigastrio con anorexia, rebote localizado y estructura tubular no compresible de 9 mm. Paso 2: la ausencia de flujo y de dolor a la movilización cervical aleja el origen pélvico infeccioso. Paso 3: corresponde hospitalizar para apendicectomía con antibiótico perioperatorio.",
+   "por_que_no": [
+    "Diferir 12 horas con imagen concluyente aumenta el riesgo de perforación.",
+    "Trataría un cuadro infeccioso pélvico que no existe y se perforaría el apéndice.",
+    "El esquema endovenoso tampoco corrige el foco: necesita cirugía.",
+    "",
+    "La laparoscopia diagnóstica es razonable ante duda, pero el estudio ya es concluyente."
+   ],
+   "trampa": [
+    "otro-momento",
+    "diferencial",
+    "diferencial",
+    "",
+    "no-confirmatorio"
+   ],
+   "perla": "Dolor migratorio con anorexia y apéndice de 9 mm: es quirúrgico, no pélvico infeccioso.",
+   "fuente": {
+    "carpeta": "3.GINECOLOGIA",
+    "archivo": "20. ENFERMEDAD PÉLVICA INFLAMATORIA.pdf",
+    "seccion": "pág. 1 (estadios de Monif, Hager, esquemas)"
+   },
+   "gemela_de": null
+  },
+  {
+   "id": "2026-10-18-noche-027",
+   "enunciado": "Lactante de 4 meses con 4 días de síntomas catarrales y 24 horas de dificultad respiratoria creciente; ya no logra completar las tomas. FR 64X', FC 165X', T° 37,8 °C, SatO2 90 % al aire ambiente en Chiclayo. Al examen: sibilantes inspiratorios y espiratorios, crepitantes en tres campos, tiraje subcostal con aleteo nasal y retracción supraesternal, relación inspiración-espiración invertida. Está somnoliento entre los episodios de tos. ¿Cuál es la conducta que corresponde al puntaje de severidad obtenido?",
+   "opciones": [
+    "Hospitalización en sala con prueba de broncodilatador",
+    "Alta con control en 24 horas y signos de alarma",
+    "Observación en emergencia por 6 horas y reevaluación",
+    "Hospitalización en sala común con oxígeno y soporte",
+    "Ingreso a unidad de cuidados intensivos"
+   ],
+   "clave": 5,
+   "especialidad": "Pediatría",
+   "tema": "Bronquiolitis",
+   "diagnostico": "Bronquiolitis aguda severa con ESBA ≥10",
+   "tipo": "severidad",
+   "dificultad": "alta",
+   "razonamiento": "Paso 1: sibilantes inspiratorio-espiratorios (3), crepitantes en tres campos (2), tiraje universal con aleteo (3), relación I/E invertida (2) y FR 64 para 2-6 meses (2) suman más de 10. Paso 2: un puntaje ≥10 define severidad que requiere cuidado crítico. Paso 3: a eso se suma la somnolencia, signo de agotamiento; corresponde ingreso a cuidados intensivos.",
+   "por_que_no": [
+    "El broncodilatador no cambia el destino y no está indicado a esta edad.",
+    "El puntaje severo y la somnolencia excluyen cualquier manejo ambulatorio.",
+    "Observar retrasa el soporte ventilatorio en un lactante que ya se agota.",
+    "La sala general cubre el rango moderado (5-9 puntos), no este.",
+    ""
+   ],
+   "trampa": [
+    "otro",
+    "otro-estadio",
+    "otro-momento",
+    "otro-estadio",
+    ""
+   ],
+   "perla": "Puntaje de severidad ESBA: leve 0-4, moderado 5-9, severo ≥10 e ingreso a cuidados intensivos.",
+   "fuente": {
+    "carpeta": "4.PEDIATRIA",
+    "archivo": "10. BRONQUIOLITIS.pdf",
+    "seccion": "pág. 1 (score ESBA, manejo, profilaxis)"
+   },
+   "gemela_de": null
+  },
+  {
+   "id": "2026-10-18-noche-028",
+   "enunciado": "Adolescente de 16 años, acompañada por su madre, con 3 días de dolor pélvico bilateral y flujo vaginal. Inició relaciones sexuales hace cuatro meses sin protección. PA 104/66 mmHg, FC 86X', T° 37,8 °C. Abdomen con dolor en hipogastrio, sin rebote; al tacto hay dolor anexial bilateral y a la movilización cervical, sin masas. Ecografía transvaginal sin colecciones. Prueba de embarazo negativa. Tolera la vía oral y vive a 40 minutos del hospital. ¿Cuál es la conducta más apropiada?",
+   "opciones": [
+    "Hospitalizar e iniciar tratamiento antibiótico",
+    "Observación 12 horas en emergencia y luego alta",
+    "Diferir el antibiótico hasta tener el resultado del cultivo",
+    "Manejo ambulatorio con el esquema oral y control en 48 horas",
+    "Manejo ambulatorio con control diario en el establecimiento"
+   ],
+   "clave": 1,
+   "especialidad": "Ginecología",
+   "tema": "Enfermedad pélvica inflamatoria",
+   "diagnostico": "Enfermedad pélvica inflamatoria en adolescente: criterio de hospitalización por edad",
+   "tipo": "conducta",
+   "dificultad": "alta",
+   "razonamiento": "Paso 1: el grado del compromiso es leve y tolera la vía oral. Paso 2: sin embargo, la edad adolescente figura entre los criterios de internamiento, por la adherencia incierta y el riesgo de secuela tubárica. Paso 3: corresponde hospitalizar e iniciar antibiótico, no manejarla de forma ambulatoria.",
+   "por_que_no": [
+    "",
+    "Observar y dar de alta deja sin tratar un cuadro con riesgo de infertilidad.",
+    "El tratamiento es empírico e inmediato: esperar el cultivo agrava las secuelas.",
+    "Sería correcto en una adulta con el mismo grado de compromiso.",
+    "El control frecuente no sustituye el criterio de internamiento por edad."
+   ],
+   "trampa": [
+    "",
+    "otro-momento",
+    "otro-momento",
+    "otra-poblacion",
+    "otro-momento"
+   ],
+   "perla": "Adolescente, gestante, intolerancia oral o falla ambulatoria: criterios de hospitalización.",
+   "fuente": {
+    "carpeta": "3.GINECOLOGIA",
+    "archivo": "20. ENFERMEDAD PÉLVICA INFLAMATORIA.pdf",
+    "seccion": "pág. 1 (estadios de Monif, Hager, esquemas)"
+   },
+   "gemela_de": null
+  },
+  {
+   "id": "2026-10-18-noche-029",
+   "enunciado": "Lactante de 3 meses y 5 kg, exprematuro de 28 semanas, acude a consultorio al inicio de la temporada de virus respiratorios. Está asintomático, con examen pulmonar normal y SatO2 97 %. Se decide iniciar la profilaxis con el anticuerpo monoclonal específico y la interna debe calcular el esquema. El establecimiento dispone de viales de 50 y 100 mg. La madre podrá acudir cada mes durante la temporada. ¿Cuál es la dosis y el esquema correctos?",
+   "opciones": [
+    "30 mg/kg intramuscular en dosis única",
+    "50 mg fijos intramusculares cada mes, 3 dosis",
+    "5 mg/kg intramuscular cada mes, 4 a 5 dosis",
+    "15 mg/kg intramuscular cada mes, 4 a 5 dosis",
+    "15 mg/kg endovenoso cada 15 días, 6 dosis"
+   ],
+   "clave": 4,
+   "especialidad": "Pediatría",
+   "tema": "Bronquiolitis",
+   "diagnostico": "Bronquiolitis: dosis de palivizumab en profilaxis estacional",
+   "tipo": "dosis",
+   "dificultad": "media",
+   "razonamiento": "Paso 1: el niño cumple la indicación de profilaxis por prematuridad menor de 29 semanas. Paso 2: la dosis es de 15 mg/kg por vía intramuscular, una vez al mes, durante 4 a 5 dosis que cubren la temporada. Paso 3: en este lactante de 5 kg corresponden 75 mg mensuales.",
+   "por_que_no": [
+    "Una dosis única no cubre la temporada, que dura varios meses.",
+    "La dosis es por peso, no fija, y se requieren 4 a 5 aplicaciones.",
+    "Subdosificación: no alcanza títulos protectores.",
+    "",
+    "La vía es intramuscular y el intervalo mensual; quincenal no corresponde."
+   ],
+   "trampa": [
+    "otro-momento",
+    "umbral",
+    "umbral",
+    "",
+    "otro"
+   ],
+   "perla": "Palivizumab 15 mg/kg intramuscular mensual, 4 a 5 dosis en la temporada.",
+   "fuente": {
+    "carpeta": "4.PEDIATRIA",
+    "archivo": "10. BRONQUIOLITIS.pdf",
+    "seccion": "pág. 1 (score ESBA, manejo, profilaxis)"
+   },
+   "gemela_de": null
+  },
+  {
+   "id": "2026-10-18-noche-030",
+   "enunciado": "Mujer de 24 años, con gestación de 14 semanas confirmada por ecografía, acude por 4 días de dolor pélvico bilateral, flujo vaginal purulento y fiebre. PA 105/65 mmHg, FC 98X', T° 38,4 °C. Abdomen doloroso en hipogastrio sin rebote; al tacto hay dolor a la movilización del cérvix y dolor anexial bilateral sin masas. Ecografía: feto único vivo, sin colecciones anexiales ni líquido libre. Tolera la vía oral y no tiene vómitos. ¿Cuál es la conducta más apropiada?",
+   "opciones": [
+    "Manejo ambulatorio con ceftriaxona intramuscular y azitromicina oral",
+    "Hospitalizar e iniciar ceftriaxona más azitromicina",
+    "Manejo ambulatorio con ceftriaxona, doxiciclina y metronidazol",
+    "Hospitalizar e iniciar clindamicina más gentamicina endovenosas",
+    "Hospitalizar para laparoscopia diagnóstica con toma de cultivo"
+   ],
+   "clave": 2,
+   "especialidad": "Ginecología",
+   "tema": "Enfermedad pélvica inflamatoria",
+   "diagnostico": "Enfermedad pélvica inflamatoria en gestante: hospitalización y esquema sin tetraciclinas",
+   "tipo": "tratamiento",
+   "dificultad": "alta",
+   "razonamiento": "Paso 1: el compromiso es anexial sin masa ni peritonitis, es decir, de grado leve a moderado. Paso 2: la gestación es por sí misma criterio de hospitalización, aunque tolere la vía oral. Paso 3: el esquema evita tetraciclinas: ceftriaxona más azitromicina, con vigilancia materna y fetal.",
+   "por_que_no": [
+    "El esquema es correcto, pero la gestante no se maneja de forma ambulatoria.",
+    "",
+    "La doxiciclina está contraindicada en el embarazo.",
+    "Es el esquema del compromiso peritoneal; aquí no hay signos peritoneales.",
+    "La laparoscopia se reserva a duda diagnóstica o falla del tratamiento médico."
+   ],
+   "trampa": [
+    "otra-poblacion",
+    "",
+    "otra-poblacion",
+    "otro-estadio",
+    "no-confirmatorio"
+   ],
+   "perla": "Gestante con este cuadro: siempre hospitalizada, con ceftriaxona más azitromicina.",
+   "fuente": {
+    "carpeta": "3.GINECOLOGIA",
+    "archivo": "20. ENFERMEDAD PÉLVICA INFLAMATORIA.pdf",
+    "seccion": "pág. 1 (estadios de Monif, Hager, esquemas)"
+   },
+   "gemela_de": null
+  },
+  {
+   "id": "2026-10-18-noche-031",
+   "enunciado": "Lactante de 7 meses atendido en un centro de salud de primer nivel por 3 días de coriza y 1 día de respiración ruidosa. FR 44X', FC 134X', T° 37,5 °C, SatO2 95 %. Sibilantes espiratorios difusos, tiraje subcostal leve, buen estado general y tolera la lactancia. No tiene comorbilidades. La madre exige que se le hagan todos los exámenes posibles y el establecimiento cuenta con radiografía, hemograma e inmunofluorescencia viral. ¿Cuál es la conducta correcta respecto a los exámenes auxiliares?",
+   "opciones": [
+    "Solicitar panel viral por inmunofluorescencia para confirmar",
+    "Solicitar hemograma y proteína C reactiva",
+    "Solicitar gasometría arterial para evaluar la severidad",
+    "Solicitar radiografía de tórax a todos los casos",
+    "No solicitar exámenes: el diagnóstico es clínico"
+   ],
+   "clave": 5,
+   "especialidad": "Pediatría",
+   "tema": "Bronquiolitis",
+   "diagnostico": "Bronquiolitis aguda leve: diagnóstico clínico, sin exámenes de rutina",
+   "tipo": "prueba",
+   "dificultad": "media",
+   "razonamiento": "Paso 1: cuadro catarral seguido de obstrucción bronquial baja en un lactante, con puntaje leve y buen estado. Paso 2: el diagnóstico de esta entidad es clínico y la severidad se mide con un score clínico, no con exámenes. Paso 3: los auxiliares se reservan a dudas diagnósticas, deterioro o sospecha de complicación.",
+   "por_que_no": [
+    "Útil para vigilancia epidemiológica o cohortes hospitalarias, no para decidir el manejo.",
+    "No distingue el cuadro viral y suele llevar a antibióticos innecesarios.",
+    "Se reserva a severidad con agotamiento o sospecha de retención de CO2.",
+    "Solo si hay asimetría, fiebre alta, mala evolución o sospecha de complicación.",
+    ""
+   ],
+   "trampa": [
+    "no-confirmatorio",
+    "no-confirmatorio",
+    "otro-estadio",
+    "no-confirmatorio",
+    ""
+   ],
+   "perla": "Diagnóstico clínico y severidad por score: la radiografía y el panel viral no son de rutina.",
+   "fuente": {
+    "carpeta": "4.PEDIATRIA",
+    "archivo": "10. BRONQUIOLITIS.pdf",
+    "seccion": "pág. 1 (score ESBA, manejo, profilaxis)"
+   },
+   "gemela_de": null
+  },
+  {
+   "id": "2026-10-18-noche-032",
+   "enunciado": "Mujer de 34 años, portadora de un dispositivo intrauterino de cobre colocado hace seis años sin controles, con 2 meses de dolor pélvico sordo, flujo vaginal persistente, baja de peso de 4 kg y febrículas. T° 37,8 °C, FC 88X'. Al tacto: induración parametrial derecha y masa anexial pétrea de 6 cm, mal delimitada. La tomografía muestra una masa infiltrante con extensión a la pared pélvica. La biopsia por punción informa filamentos ramificados grampositivos con gránulos sulfurosos. ¿Cuál es el tratamiento indicado?",
+   "opciones": [
+    "Penicilina G endovenosa por dos a seis semanas",
+    "Ceftriaxona intramuscular con doxiciclina por 14 días",
+    "Clindamicina más gentamicina endovenosas por 48 horas",
+    "Metronidazol oral por 14 días con retiro del dispositivo",
+    "Cefoxitina endovenosa con histerectomía total"
+   ],
+   "clave": 1,
+   "especialidad": "Ginecología",
+   "tema": "Enfermedad pélvica inflamatoria",
+   "diagnostico": "Actinomicosis pélvica por Actinomyces israelii asociada a dispositivo intrauterino",
+   "tipo": "tratamiento",
+   "dificultad": "muy alta",
+   "razonamiento": "Paso 1: curso crónico con masa pétrea infiltrante que cruza planos, en una portadora de dispositivo de larga data: no es el cuadro agudo habitual. Paso 2: los filamentos grampositivos ramificados con gránulos sulfurosos identifican a Actinomyces israelii. Paso 3: requiere penicilina G endovenosa durante dos a seis semanas y retiro del dispositivo.",
+   "por_que_no": [
+    "",
+    "Cubre gonococo y Chlamydia del cuadro agudo, no este agente.",
+    "Esquema del compromiso peritoneal agudo, insuficiente para este germen.",
+    "Cubre anaerobios y tricomonas, no el actinomiceto.",
+    "La cirugía radical no es el tratamiento inicial de este agente, que responde a penicilina."
+   ],
+   "trampa": [
+    "",
+    "otro-contexto",
+    "otro-estadio",
+    "mismo-grupo",
+    "otro-momento"
+   ],
+   "perla": "Dispositivo intrauterino antiguo con masa pétrea y gránulos sulfurosos: penicilina G 2-6 semanas.",
+   "fuente": {
+    "carpeta": "3.GINECOLOGIA",
+    "archivo": "20. ENFERMEDAD PÉLVICA INFLAMATORIA.pdf",
+    "seccion": "pág. 1 (estadios de Monif, Hager, esquemas)"
+   },
+   "gemela_de": null
+  },
+  {
+   "id": "2026-10-18-noche-033",
+   "enunciado": "Mujer de 30 años con 8 días de dolor pélvico bilateral, febrículas y flujo vaginal, que no mejoró tras dos esquemas antibióticos indicados en otro establecimiento. PA 108/70 mmHg, FC 92X', T° 37,9 °C. Al tacto: dolor anexial bilateral sin masas definidas y dolor a la movilización cervical. La ecografía transvaginal muestra trompas engrosadas sin colecciones y escaso líquido libre. Se discute el estudio que permitiría certeza diagnóstica y la identificación del germen. ¿Cuál es el examen de referencia?",
+   "opciones": [
+    "Cultivo de secreción vaginal en medio de Thayer-Martin",
+    "Cultivo de muestra obtenida por laparoscopia",
+    "Prueba de amplificación de ácidos nucleicos en exudado endocervical",
+    "Ecografía transvaginal con Doppler color",
+    "Resonancia magnética de pelvis con contraste"
+   ],
+   "clave": 2,
+   "especialidad": "Ginecología",
+   "tema": "Enfermedad pélvica inflamatoria",
+   "diagnostico": "Enfermedad pélvica inflamatoria: laparoscopia con cultivo como patrón de referencia",
+   "tipo": "prueba",
+   "dificultad": "alta",
+   "razonamiento": "Paso 1: el diagnóstico habitual es clínico, pero en este caso hay duda por la falla a dos esquemas. Paso 2: el patrón de referencia es el cultivo de la muestra tomada por laparoscopia, que visualiza las trompas y permite identificar el germen. Paso 3: los demás apoyan o descartan, pero no confirman.",
+   "por_que_no": [
+    "Aísla gonococo del cuello, no documenta el compromiso anexial.",
+    "",
+    "Identifica el germen cervical, pero no confirma el compromiso de la trompa.",
+    "Útil para descartar colecciones o torsión; no confirma la infección.",
+    "Define mejor la anatomía y las colecciones, sin aislar el germen."
+   ],
+   "trampa": [
+    "no-confirmatorio",
+    "",
+    "no-confirmatorio",
+    "no-confirmatorio",
+    "no-confirmatorio"
+   ],
+   "perla": "Patrón de referencia: cultivo de muestra tomada por laparoscopia; el diagnóstico diario es clínico.",
+   "fuente": {
+    "carpeta": "3.GINECOLOGIA",
+    "archivo": "20. ENFERMEDAD PÉLVICA INFLAMATORIA.pdf",
+    "seccion": "pág. 1 (estadios de Monif, Hager, esquemas)"
+   },
+   "gemela_de": null
+  },
+  {
+   "id": "2026-10-18-noche-034",
+   "enunciado": "Lactante de 11 meses y 10 kg con primer episodio de sibilancias, fuera de temporada y con antecedente de asma en el padre. FR 50X', FC 140X', SatO2 93 % al aire ambiente, tiraje subcostal y sibilantes en toda la espiración. El médico decide realizar una prueba terapéutica con salbutamol nebulizado y pide a la interna que prepare la nebulización. Se cuenta con solución de salbutamol de 5 mg/ml y suero fisiológico al 0,9 %. ¿Cuál es la dosis correcta por nebulización?",
+   "opciones": [
+    "0,05 mg/kg más 3 ml de suero fisiológico",
+    "0,15 mg/kg más 3 ml de suero fisiológico",
+    "0,5 mg/kg más 3 ml de suero fisiológico",
+    "1 mg/kg más 5 ml de suero fisiológico",
+    "2,5 mg fijos más 10 ml de suero fisiológico"
+   ],
+   "clave": 2,
+   "especialidad": "Pediatría",
+   "tema": "Bronquiolitis",
+   "diagnostico": "Bronquiolitis aguda: dosis de salbutamol nebulizado en prueba terapéutica",
+   "tipo": "dosis",
+   "dificultad": "media",
+   "razonamiento": "Paso 1: el caso cumple los tres requisitos para la prueba terapéutica, por lo que la pregunta es la dosis. Paso 2: la dosis nebulizada es de 0,15 mg/kg por dosis diluida en 3 ml de suero fisiológico. Paso 3: en este niño de 10 kg corresponden 1,5 mg por nebulización.",
+   "por_que_no": [
+    "Queda por debajo del rango útil y da una prueba falsamente negativa.",
+    "",
+    "Triplica la dosis y produce taquicardia y temblor sin más broncodilatación.",
+    "Dosis tóxica, con riesgo de arritmia e hipokalemia.",
+    "La dosis fija del preescolar mayor no se aplica al lactante, que se dosifica por peso."
+   ],
+   "trampa": [
+    "umbral",
+    "",
+    "umbral",
+    "umbral",
+    "otra-poblacion"
+   ],
+   "perla": "Salbutamol nebulizado en el lactante: 0,15 mg/kg/dosis en 3 ml de suero fisiológico.",
+   "fuente": {
+    "carpeta": "4.PEDIATRIA",
+    "archivo": "10. BRONQUIOLITIS.pdf",
+    "seccion": "pág. 1 (score ESBA, manejo, profilaxis)"
+   },
+   "gemela_de": null
+  },
+  {
+   "id": "2026-10-18-noche-035",
+   "enunciado": "Lactante de 3 meses con 10 días de tos, taquipnea progresiva y sudoración profusa durante las tomas, por lo que demora más de 40 minutos en mamar. Ha ganado solo 200 g en el último mes. FR 70X', FC 180X', T° 36,8 °C, SatO2 92 %. Sibilantes y subcrepitantes difusos, hígado a 4 cm del borde costal, pulsos saltones y soplo sistólico III/VI en el borde esternal izquierdo bajo. La radiografía muestra índice cardiotorácico aumentado con trama vascular pulmonar prominente. ¿Cuál es la conducta más apropiada?",
+   "opciones": [
+    "Iniciar dexametasona endovenosa y oxígeno por cánula",
+    "Nebulizar con salbutamol y dar de alta con control",
+    "Iniciar furosemida y solicitar evaluación cardiológica con ecocardiografía",
+    "Iniciar ceftriaxona endovenosa por sospecha de foco pulmonar",
+    "Nebulizar con suero hipertónico e hidratar por vía endovenosa"
+   ],
+   "clave": 3,
+   "especialidad": "Pediatría",
+   "tema": "Bronquiolitis",
+   "diagnostico": "Insuficiencia cardíaca por cortocircuito izquierda-derecha: diferencial del lactante sibilante",
+   "tipo": "conducta",
+   "dificultad": "muy alta",
+   "razonamiento": "Paso 1: sudoración y fatiga con las tomas, mala ganancia ponderal, hepatomegalia, soplo y cardiomegalia con trama vascular aumentada. Paso 2: las sibilancias son por congestión pulmonar de un cortocircuito, no por un cuadro obstructivo viral. Paso 3: corresponde iniciar diurético y confirmar con ecocardiografía.",
+   "por_que_no": [
+    "El corticoide no actúa sobre la congestión y retrasa el tratamiento correcto.",
+    "Las sibilancias por congestión no responden al broncodilatador y se pierde el diagnóstico.",
+    "",
+    "No hay fiebre ni consolidación; el antibiótico no corrige la congestión.",
+    "Hidratar con volumen empeora la congestión en un corazón sobrecargado."
+   ],
+   "trampa": [
+    "otro",
+    "diferencial",
+    "",
+    "diferencial",
+    "otro"
+   ],
+   "perla": "Lactante sibilante con sudoración al mamar, hepatomegalia y cardiomegalia: piense en el corazón.",
+   "fuente": {
+    "carpeta": "4.PEDIATRIA",
+    "archivo": "10. BRONQUIOLITIS.pdf",
+    "seccion": "pág. 1 (score ESBA, manejo, profilaxis)"
+   },
+   "gemela_de": null
+  },
+  {
+   "id": "2026-10-18-noche-036",
+   "enunciado": "Mujer de 31 años hospitalizada hace 72 horas, en tratamiento con clindamicina y gentamicina endovenosas por dolor pélvico con fiebre y una colección anexial derecha de 7 cm con contenido heterogéneo y tabiques en la ecografía. Persiste con T° 38,9 °C, FC 112X', PA 100/60 mmHg y dolor intenso a la palpación anexial. Los controles muestran leucocitos que subieron de 17 000 a 21 500 y la nueva ecografía informa que la colección creció a 9 cm. No hay rebote generalizado. ¿Cuál es la conducta más apropiada?",
+   "opciones": [
+    "Practicar histerectomía total con anexectomía bilateral",
+    "Añadir ceftriaxona intramuscular al esquema actual",
+    "Continuar el mismo esquema endovenoso 48 horas más",
+    "Pasar a doxiciclina y metronidazol por vía oral",
+    "Realizar drenaje quirúrgico y añadir cefoxitina endovenosa"
+   ],
+   "clave": 5,
+   "especialidad": "Ginecología",
+   "tema": "Enfermedad pélvica inflamatoria",
+   "diagnostico": "Colección tuboovárica (estadio III de Monif) sin respuesta a antibióticos: drenaje",
+   "tipo": "conducta",
+   "dificultad": "muy alta",
+   "razonamiento": "Paso 1: tras 72 horas de antibiótico la fiebre persiste, los leucocitos suben y la colección creció de 7 a 9 cm: hay falla del manejo médico. Paso 2: la secuencia correcta es antibiótico primero y, si no responde, drenaje de la colección. Paso 3: corresponde drenaje quirúrgico añadiendo cefoxitina endovenosa.",
+   "por_que_no": [
+    "Cirugía radical innecesaria en una mujer joven: el drenaje preserva la fertilidad.",
+    "Añadir una cefalosporina intramuscular no resuelve una colección organizada.",
+    "Prolongar un esquema que ya falló arriesga la rotura y la peritonitis.",
+    "El descalaje oral exige mejoría clínica a las 48 horas, que no ocurrió.",
+    ""
+   ],
+   "trampa": [
+    "otro-estadio",
+    "mismo-grupo",
+    "otro-momento",
+    "otro-momento",
+    ""
+   ],
+   "perla": "Colección anexial: primero antibiótico; si no responde en 48-72 horas, drenaje más cefoxitina.",
+   "fuente": {
+    "carpeta": "3.GINECOLOGIA",
+    "archivo": "20. ENFERMEDAD PÉLVICA INFLAMATORIA.pdf",
+    "seccion": "pág. 1 (estadios de Monif, Hager, esquemas)"
+   },
+   "gemela_de": null
+  },
+  {
+   "id": "2026-10-18-noche-037",
+   "enunciado": "Lactante de 10 meses, en noviembre (fuera de la temporada habitual de virus respiratorios), con 3 días de tos y sibilancias. Es su primer episodio. Tiene dermatitis atópica desde los 4 meses y su madre es asmática. FR 48X', FC 136X', T° 37,2 °C, SatO2 94 % en Lima. Sibilantes difusos en toda la espiración, tiraje subcostal, buen estado de alerta y tolera la vía oral. La madre refiere que no mejora con lavados nasales. ¿Cuál es la conducta más apropiada?",
+   "opciones": [
+    "Administrar dexametasona oral en dosis única",
+    "Realizar una prueba terapéutica con salbutamol nebulizado",
+    "Iniciar montelukast por cuatro semanas",
+    "Nebulizar con adrenalina y observar dos horas",
+    "Nebulizar con suero hipertónico y reevaluar en una hora"
+   ],
+   "clave": 2,
+   "especialidad": "Pediatría",
+   "tema": "Bronquiolitis",
+   "diagnostico": "Bronquiolitis aguda con rasgos atópicos: indicación de prueba terapéutica con broncodilatador",
+   "tipo": "conducta",
+   "dificultad": "alta",
+   "razonamiento": "Paso 1: tres datos cambian la conducta habitual: edad mayor de 6 meses, episodio fuera de temporada y rasgos atópicos personales y familiares. Paso 2: en ese escenario sí se justifica explorar respuesta al broncodilatador. Paso 3: se hace una prueba terapéutica con salbutamol nebulizado y se continúa solo si hay respuesta objetiva.",
+   "por_que_no": [
+    "El corticoide sistémico no está indicado en el primer episodio, aun con atopia.",
+    "",
+    "El antileucotrieno es terapia de control a largo plazo, no de la fase aguda.",
+    "La adrenalina no tiene beneficio sostenido demostrado en este cuadro.",
+    "Es coadyuvante razonable, pero con estos tres rasgos la prueba con broncodilatador precede."
+   ],
+   "trampa": [
+    "otro",
+    "",
+    "otro-momento",
+    "otro",
+    "otro-momento"
+   ],
+   "perla": "Broncodilatador solo a prueba: >6 meses, fuera de temporada o con rasgos atópicos.",
+   "fuente": {
+    "carpeta": "4.PEDIATRIA",
+    "archivo": "10. BRONQUIOLITIS.pdf",
+    "seccion": "pág. 1 (score ESBA, manejo, profilaxis)"
+   },
+   "gemela_de": null
+  },
+  {
+   "id": "2026-10-18-noche-038",
+   "enunciado": "Lactante de 6 meses con 4 días de coriza y 1 día de dificultad respiratoria. FR 56X', FC 150X', T° 37,7 °C, SatO2 92 %. Tórax hiperinsuflado, espiración prolongada con sibilantes y subcrepitantes en ambos campos, tiraje subcostal. Tolera parcialmente la lactancia. La madre pregunta por los resultados de la radiografía de tórax que se le tomó al ingreso. ¿Cuál es el hallazgo radiográfico que se espera encontrar?",
+   "opciones": [
+    "Consolidación lobar con broncograma aéreo",
+    "Hiperinsuflación con infiltrado intersticial y atelectasias laminares",
+    "Patrón micronodular difuso en ambos campos",
+    "Derrame pleural con velamiento del seno costofrénico",
+    "Cardiomegalia con redistribución del flujo pulmonar"
+   ],
+   "clave": 2,
+   "especialidad": "Pediatría",
+   "tema": "Bronquiolitis",
+   "diagnostico": "Bronquiolitis aguda: patrón radiográfico de atrapamiento aéreo",
+   "tipo": "prueba",
+   "dificultad": "media",
+   "razonamiento": "Paso 1: el cuadro es obstructivo bajo difuso con atrapamiento aéreo en el examen. Paso 2: la radiografía traduce ese atrapamiento: tórax insuflado con costillas horizontalizadas, infiltrados intersticiales y atelectasias laminares por tapones de moco. Paso 3: el resto de patrones corresponde a otros diagnósticos.",
+   "por_que_no": [
+    "Propio de la neumonía bacteriana, con fiebre alta y crepitantes localizados.",
+    "",
+    "Sugiere compromiso miliar tuberculoso, con otro contexto clínico.",
+    "Indicaría enfermedad pleural, que daría matidez y abolición del murmullo.",
+    "Correspondería a congestión de origen cardíaco, con soplo y hepatomegalia."
+   ],
+   "trampa": [
+    "diferencial",
+    "",
+    "otro-contexto",
+    "diferencial",
+    "diferencial"
+   ],
+   "perla": "Radiografía: tórax insuflado, costillas horizontalizadas, infiltrado intersticial y atelectasias.",
+   "fuente": {
+    "carpeta": "4.PEDIATRIA",
+    "archivo": "10. BRONQUIOLITIS.pdf",
+    "seccion": "pág. 1 (score ESBA, manejo, profilaxis)"
+   },
+   "gemela_de": null
+  },
+  {
+   "id": "2026-10-18-noche-039",
+   "enunciado": "Mujer de 29 años que hace dos años recibió tratamiento hospitalario por dolor pélvico con fiebre y compromiso anexial bilateral. Desde entonces consulta por dolor pélvico que la acompaña casi a diario desde hace 14 meses, se intensifica antes de la menstruación y con las relaciones sexuales. No tiene fiebre ni flujo. T° 36,8 °C, abdomen blando con dolor difuso en hipogastrio; al tacto hay dolor a la movilización uterina sin masas. Ecografía transvaginal sin hallazgos. ¿Cuál es la complicación más frecuente de su cuadro previo?",
+   "opciones": [
+    "Recurrencia de la infección",
+    "Infertilidad por obstrucción tubárica",
+    "Dolor pélvico crónico",
+    "Embarazo ectópico",
+    "Adherencias perihepáticas"
+   ],
+   "clave": 3,
+   "especialidad": "Ginecología",
+   "tema": "Enfermedad pélvica inflamatoria",
+   "diagnostico": "Dolor pélvico crónico como complicación más frecuente de enfermedad pélvica inflamatoria",
+   "tipo": "complicacion",
+   "dificultad": "media",
+   "razonamiento": "Paso 1: dolor pélvico de más de seis meses, sin fiebre ni flujo y con estudio normal, en una mujer con el antecedente. Paso 2: ese es el cuadro del dolor pélvico crónico, la complicación más frecuente, por adherencias y fibrosis. Paso 3: la infertilidad es la más trascendente, pero no la más frecuente.",
+   "por_que_no": [
+    "Se presenta como un nuevo episodio agudo, no como dolor diario de meses.",
+    "Es la complicación más importante por su impacto, pero no la más frecuente.",
+    "",
+    "Consecuencia tardía del daño tubárico; se manifiesta en una gestación, no así.",
+    "Corresponden al síndrome de perihepatitis, con dolor en hipocondrio derecho."
+   ],
+   "trampa": [
+    "otro-momento",
+    "otro",
+    "",
+    "otro-momento",
+    "diferencial"
+   ],
+   "perla": "Complicación más frecuente: dolor pélvico crónico; la más trascendente: infertilidad.",
+   "fuente": {
+    "carpeta": "3.GINECOLOGIA",
+    "archivo": "20. ENFERMEDAD PÉLVICA INFLAMATORIA.pdf",
+    "seccion": "pág. 1 (estadios de Monif, Hager, esquemas)"
+   },
+   "gemela_de": null
+  },
+  {
+   "id": "2026-10-18-noche-040",
+   "enunciado": "Lactante de 2 meses, con esquema de vacunación incompleto, llevado por 12 días de tos que se ha vuelto en accesos; durante ellos se pone rojo, no alcanza a inspirar y en dos ocasiones se puso cianótico, con vómito al final. Entre los accesos está tranquilo. FR 44X', FC 140X', T° 36,9 °C, SatO2 95 %. Auscultación casi limpia, sin sibilantes. Hemograma: leucocitos 32 000 con 68 % de linfocitos. Su hermana de 6 años tose hace tres semanas. ¿Cuál es el tratamiento indicado?",
+   "opciones": [
+    "Azitromicina y aislamiento respiratorio",
+    "Soporte con oxígeno e hidratación solamente",
+    "Nebulización con suero hipertónico cada 6 horas",
+    "Ceftriaxona endovenosa por siete días",
+    "Dexametasona oral más salbutamol nebulizado"
+   ],
+   "clave": 1,
+   "especialidad": "Pediatría",
+   "tema": "Bronquiolitis",
+   "diagnostico": "Tos ferina (coqueluche) en lactante: diferencial del cuadro obstructivo viral",
+   "tipo": "tratamiento",
+   "dificultad": "alta",
+   "razonamiento": "Paso 1: accesos de tos con cianosis y vómito posterior, auscultación limpia y linfocitosis absoluta marcada, con contacto familiar tosedor. Paso 2: ese conjunto describe coqueluche y no un cuadro obstructivo viral, donde habría sibilantes y linfocitosis no tan alta. Paso 3: el tratamiento es el macrólido, con aislamiento y profilaxis de contactos.",
+   "por_que_no": [
+    "",
+    "Sería el manejo del cuadro obstructivo viral, que aquí no corresponde.",
+    "Actúa sobre el moco de la obstrucción bronquiolar, ausente en este caso.",
+    "No cubre el agente responsable y no está indicada sin foco bacteriano típico.",
+    "No hay broncoespasmo y el corticoide no modifica este cuadro."
+   ],
+   "trampa": [
+    "",
+    "diferencial",
+    "diferencial",
+    "mismo-grupo",
+    "otro"
+   ],
+   "perla": "Accesos de tos con cianosis, auscultación limpia y linfocitosis muy alta: macrólido y aislar.",
+   "fuente": {
+    "carpeta": "4.PEDIATRIA",
+    "archivo": "10. BRONQUIOLITIS.pdf",
+    "seccion": "pág. 1 (score ESBA, manejo, profilaxis)"
+   },
+   "gemela_de": null
+  },
+  {
+   "id": "2026-10-18-noche-041",
+   "enunciado": "Mujer de 33 años traída a emergencia por dolor abdominal difuso de inicio brusco hace 6 horas, sobre un cuadro de dolor pélvico y fiebre de una semana. PA 80/50 mmHg, FC 128X', FR 26X', T° 39,2 °C, llenado capilar de 4 segundos. Abdomen en tabla, con rebote en los cuatro cuadrantes y ruidos hidroaéreos ausentes. Al tacto el fondo de saco está abombado y muy doloroso. Ecografía: abundante líquido libre con ecos en su interior. Leucocitos 24 000 con 14 % de abastonados. ¿Cuál es la conducta más apropiada?",
+   "opciones": [
+    "Realizar culdocentesis y continuar antibióticos endovenosos",
+    "Iniciar cefoxitina endovenosa y reevaluar en 24 horas",
+    "Reanimar e iniciar clindamicina más gentamicina endovenosas",
+    "Reanimar y realizar laparotomía con lavado peritoneal",
+    "Realizar drenaje percutáneo guiado por ecografía"
+   ],
+   "clave": 4,
+   "especialidad": "Ginecología",
+   "tema": "Enfermedad pélvica inflamatoria",
+   "diagnostico": "Peritonitis generalizada por rotura de colección tuboovárica (estadio IV de Monif)",
+   "tipo": "conducta",
+   "dificultad": "alta",
+   "razonamiento": "Paso 1: abdomen en tabla con rebote difuso, hipotensión, taquicardia y líquido libre con ecos: hay contenido purulento en la cavidad. Paso 2: ese escenario con compromiso hemodinámico corresponde al grado más avanzado y es quirúrgico. Paso 3: reanimación y laparotomía con lavado peritoneal, con cobertura antibiótica endovenosa.",
+   "por_que_no": [
+    "Procedimiento diagnóstico que no resuelve el foco y retrasa la cirugía.",
+    "Esperar 24 horas en una paciente en shock es inaceptable.",
+    "El antibiótico solo es insuficiente cuando ya hay pus libre en la cavidad.",
+    "",
+    "El drenaje percutáneo sirve para una colección localizada, no para peritonitis difusa."
+   ],
+   "trampa": [
+    "no-confirmatorio",
+    "otro-momento",
+    "otro-estadio",
+    "",
+    "otro-estadio"
+   ],
+   "perla": "Pus libre con abdomen en tabla y shock: laparotomía con lavado peritoneal.",
+   "fuente": {
+    "carpeta": "3.GINECOLOGIA",
+    "archivo": "20. ENFERMEDAD PÉLVICA INFLAMATORIA.pdf",
+    "seccion": "pág. 1 (estadios de Monif, Hager, esquemas)"
+   },
+   "gemela_de": null
+  },
+  {
+   "id": "2026-10-18-noche-042",
+   "enunciado": "Lactante de 7 meses, con antecedente de desnutrición aguda moderada y lactancia suspendida a los 2 meses, acude por 4 días de coriza y 2 días de respiración ruidosa. Tiene dos hermanos en edad escolar y la madre fuma fuera de la casa. Nació a las 38 semanas, sin cardiopatía ni enfermedad pulmonar. FR 50X', FC 140X', SatO2 93 %, sibilantes difusos y tiraje subcostal. La madre pregunta qué lo hace más propenso a complicarse. ¿Cuál es el factor que más aumenta ese riesgo?",
+   "opciones": [
+    "La desnutrición con suspensión temprana de la lactancia",
+    "Que la madre fume fuera de la vivienda",
+    "Haber nacido a las 38 semanas de gestación",
+    "Tener hermanos en edad escolar",
+    "El sexo masculino del lactante"
+   ],
+   "clave": 1,
+   "especialidad": "Pediatría",
+   "tema": "Bronquiolitis",
+   "diagnostico": "Bronquiolitis aguda: factores de riesgo de evolución grave",
+   "tipo": "severidad",
+   "dificultad": "media",
+   "razonamiento": "Paso 1: hay que separar factores de exposición de factores de gravedad. Paso 2: entre los listados, la desnutrición con ausencia de lactancia materna es el que pesa como factor de riesgo de forma grave, junto con la prematuridad, la displasia broncopulmonar, la cardiopatía y la edad menor de 3 meses. Paso 3: el resto aumenta la exposición, no la severidad.",
+   "por_que_no": [
+    "",
+    "El humo ambiental agrava, pero fumar fuera reduce mucho la exposición.",
+    "Treinta y ocho semanas es un embarazo a término: no es factor de riesgo.",
+    "Aumenta la probabilidad de contagio, no la gravedad del cuadro.",
+    "Se describe un ligero predominio, pero no es factor determinante de severidad."
+   ],
+   "trampa": [
+    "",
+    "umbral",
+    "umbral",
+    "otro",
+    "otro"
+   ],
+   "perla": "Riesgo de forma grave: <3 meses, prematuro, displasia broncopulmonar, cardiópata o desnutrido.",
+   "fuente": {
+    "carpeta": "4.PEDIATRIA",
+    "archivo": "10. BRONQUIOLITIS.pdf",
+    "seccion": "pág. 1 (score ESBA, manejo, profilaxis)"
+   },
+   "gemela_de": null
+  },
+  {
+   "id": "2026-10-18-noche-043",
+   "enunciado": "Mujer de 27 años hospitalizada por dolor pélvico con fiebre y signos de compromiso peritoneal pélvico, en tratamiento endovenoso con clindamicina y gentamicina. A las 48 horas está afebril desde hace 24 horas, tolera la vía oral, el dolor disminuyó claramente y los leucocitos bajaron de 18 000 a 10 200. Al tacto persiste solo molestia anexial leve, sin masas. Tenía flujo vaginal al ingreso. Se decide continuar el tratamiento por vía oral hasta completar 14 días. ¿Cuál es el esquema oral indicado?",
+   "opciones": [
+    "Amoxicilina con ácido clavulánico",
+    "Ciprofloxacino más clindamicina",
+    "Doxiciclina más metronidazol",
+    "Doxiciclina sola",
+    "Azitromicina más metronidazol"
+   ],
+   "clave": 3,
+   "especialidad": "Ginecología",
+   "tema": "Enfermedad pélvica inflamatoria",
+   "diagnostico": "Enfermedad pélvica inflamatoria estadio II con respuesta a 48 horas: descalaje oral",
+   "tipo": "tratamiento",
+   "dificultad": "alta",
+   "razonamiento": "Paso 1: hay criterios de mejoría a las 48 horas (afebril, tolerancia oral, menos dolor y leucocitos en descenso). Paso 2: en ese momento se pasa a la vía oral para completar 14 días. Paso 3: el esquema es doxiciclina más metronidazol, que cubre Chlamydia, anaerobios y tricomonas, pertinente por el flujo del ingreso.",
+   "por_que_no": [
+    "No cubre adecuadamente a Chlamydia, el agente más frecuente.",
+    "Combinación no contemplada en la norma para el descalaje oral.",
+    "",
+    "Dejaría sin cobertura a anaerobios y tricomonas, indicada por el flujo vaginal.",
+    "El macrólido se reserva a la gestante, en quien la tetraciclina está prohibida."
+   ],
+   "trampa": [
+    "mismo-grupo",
+    "otro",
+    "",
+    "otro-momento",
+    "otra-poblacion"
+   ],
+   "perla": "Mejoría a las 48 horas: pasar a doxiciclina más metronidazol hasta completar 14 días.",
+   "fuente": {
+    "carpeta": "3.GINECOLOGIA",
+    "archivo": "20. ENFERMEDAD PÉLVICA INFLAMATORIA.pdf",
+    "seccion": "pág. 1 (estadios de Monif, Hager, esquemas)"
+   },
+   "gemela_de": null
+  },
+  {
+   "id": "2026-10-18-noche-044",
+   "enunciado": "Lactante de 5 meses, nacido a término, con 2 días de rinorrea y tos que desde anoche se acompañan de respiración ruidosa. Recibe lactancia materna y sigue mamando con normalidad; vive en Lima, en plena temporada de virus respiratorios, sin antecedentes atópicos personales ni familiares. FR 42X', FC 130X', T° 37,4 °C, SatO2 96 % al aire ambiente. Sibilantes al final de la espiración en dos campos, tiraje subcostal leve, relación inspiración-espiración simétrica, sin pausas respiratorias. La madre vive a diez minutos del establecimiento. ¿Cuál es la conducta más apropiada?",
+   "opciones": [
+    "Nebulizar con salbutamol cada 20 minutos por tres dosis",
+    "Dexametasona oral por tres días y control en 48 horas",
+    "Amoxicilina oral por siete días y control ambulatorio",
+    "Manejo en domicilio con aspiración de secreciones e hidratación",
+    "Hospitalizar para oxigenoterapia e hidratación endovenosa"
+   ],
+   "clave": 4,
+   "especialidad": "Pediatría",
+   "tema": "Bronquiolitis",
+   "diagnostico": "Bronquiolitis aguda leve (ESBA 3) en lactante sin factores de riesgo",
+   "tipo": "conducta",
+   "dificultad": "media",
+   "razonamiento": "Paso 1: sibilantes al final de la espiración (1), en dos campos (2), tiraje subcostal (1) y FR 42 en un lactante de 2-6 meses (0) dan ESBA leve. Paso 2: SatO2 96 %, tolera la vía oral, >3 meses y sin comorbilidad: no cumple ningún criterio de internamiento. Paso 3: el pilar es el soporte domiciliario con aspiración, cabecera elevada e hidratación, con signos de alarma explicados.",
+   "por_que_no": [
+    "Prueba terapéutica reservada a >6 meses, fuera de temporada o con atopia.",
+    "Los corticoides no modifican el curso ni la hospitalización en este cuadro.",
+    "Sin consolidación ni fiebre alta, el antibiótico no aporta y expone a resistencia.",
+    "",
+    "Correcto solo con SatO2 <92 %, FR >50, intolerancia oral, apneas o comorbilidad."
+   ],
+   "trampa": [
+    "otra-poblacion",
+    "otro",
+    "diferencial",
+    "",
+    "otro-estadio"
+   ],
+   "perla": "Cuadro leve con SatO2 ≥92 % y buena tolerancia oral: soporte en casa, nada de fármacos.",
+   "fuente": {
+    "carpeta": "4.PEDIATRIA",
+    "archivo": "10. BRONQUIOLITIS.pdf",
+    "seccion": "pág. 1 (score ESBA, manejo, profilaxis)"
+   },
+   "gemela_de": null
+  },
+  {
+   "id": "2026-10-18-noche-045",
+   "enunciado": "En un hospital de Lima, durante el pico estacional de junio, ingresan a cuidados intensivos cinco lactantes menores de 3 meses con el mismo cuadro: cuatro a seis días de coriza seguidos de taquipnea, sibilancias y subcrepitantes, con necesidad de oxígeno y dos de ellos con pausas respiratorias. El panel de inmunofluorescencia de aspirado nasofaríngeo resulta positivo para el mismo virus en los cinco. ¿Cuál es el agente y subtipo que con mayor frecuencia explica estos ingresos a cuidados críticos?",
+   "opciones": [
+    "Adenovirus",
+    "Virus sincicial respiratorio tipo A",
+    "Metapneumovirus humano",
+    "Rinovirus",
+    "Virus sincicial respiratorio tipo B"
+   ],
+   "clave": 2,
+   "especialidad": "Pediatría",
+   "tema": "Bronquiolitis",
+   "diagnostico": "Bronquiolitis aguda por virus sincicial respiratorio tipo A (mayor severidad)",
+   "tipo": "mecanismo",
+   "dificultad": "media",
+   "razonamiento": "Paso 1: brote estacional en lactantes pequeños con coriza seguida de obstrucción baja y necesidad de oxígeno. Paso 2: el agente más frecuente es el virus sincicial respiratorio, y el subtipo A es el que se asocia a mayor severidad y a ingreso a cuidados intensivos. Paso 3: la replicación comienza en la mucosa nasal, lo que explica la fase catarral previa.",
+   "por_que_no": [
+    "Se vincula a la forma obliterante crónica, no al pico estacional habitual.",
+    "",
+    "Causa cuadros similares pero mucho menos frecuentes.",
+    "Segundo en frecuencia global, pero rara vez lleva a cuidados críticos.",
+    "Circula junto al A y se asocia a cuadros de menor gravedad."
+   ],
+   "trampa": [
+    "otro-estadio",
+    "",
+    "diferencial",
+    "otro-estadio",
+    "mismo-grupo"
+   ],
+   "perla": "Virus sincicial respiratorio tipo A: el más frecuente y el que más ingresa a cuidados críticos.",
+   "fuente": {
+    "carpeta": "4.PEDIATRIA",
+    "archivo": "10. BRONQUIOLITIS.pdf",
+    "seccion": "pág. 1 (score ESBA, manejo, profilaxis)"
+   },
+   "gemela_de": null
+  },
+  {
+   "id": "2026-10-18-noche-046",
+   "enunciado": "Lactante de 4 meses con 24 horas de dificultad respiratoria tras tres días de coriza. FR 60X', FC 158X', SatO2 91 %. Tórax hiperinsuflado, espiración prolongada con sibilantes y subcrepitantes difusos, tiraje subcostal. La madre, enfermera, pregunta por qué su hijo no mejora con el inhalador que usa su sobrino asmático. ¿Cuál es el mecanismo que explica la obstrucción en este lactante?",
+   "opciones": [
+    "Broncoespasmo del músculo liso mediado por inmunoglobulina E",
+    "Edema de la mucosa bronquial con necrosis epitelial y moco abundante",
+    "Colapso alveolar por déficit de surfactante",
+    "Exudado alveolar purulento con consolidación",
+    "Compresión extrínseca de la vía aérea por adenopatías"
+   ],
+   "clave": 2,
+   "especialidad": "Pediatría",
+   "tema": "Bronquiolitis",
+   "diagnostico": "Bronquiolitis aguda: obstrucción por edema, detritus celulares y moco",
+   "tipo": "mecanismo",
+   "dificultad": "media",
+   "razonamiento": "Paso 1: primer episodio obstructivo en un lactante de 4 meses tras fase catarral. Paso 2: el virus produce edema bronquial, necrosis de las células epiteliales con detritus y exceso de moco, que reducen la luz de una vía aérea ya pequeña. Paso 3: como el componente dominante no es el músculo liso, el broncodilatador aporta poco.",
+   "por_que_no": [
+    "Es el mecanismo del asma, donde sí responde al broncodilatador.",
+    "",
+    "Propio del recién nacido pretérmino en las primeras horas de vida.",
+    "Correspondería a una consolidación bacteriana con imagen y hemograma distintos.",
+    "Daría sibilancia fija localizada, en tuberculosis ganglionar o masa mediastinal."
+   ],
+   "trampa": [
+    "diferencial",
+    "",
+    "otra-poblacion",
+    "diferencial",
+    "diferencial"
+   ],
+   "perla": "Aquí domina el edema con moco y detritus, no el broncoespasmo: por eso el inhalador falla.",
+   "fuente": {
+    "carpeta": "4.PEDIATRIA",
+    "archivo": "10. BRONQUIOLITIS.pdf",
+    "seccion": "pág. 1 (score ESBA, manejo, profilaxis)"
+   },
+   "gemela_de": null
+  },
+  {
+   "id": "2026-10-18-noche-047",
+   "enunciado": "Mujer de 23 años que inicia tratamiento ambulatorio por dolor pélvico con flujo vaginal, con ceftriaxona intramuscular, doxiciclina y metronidazol. Su pareja de los últimos cuatro meses está asintomático y la acompaña a la consulta. Ella pregunta qué debe hacer él y si pueden tener relaciones mientras ella se trata. En el establecimiento se dispone de ceftriaxona, azitromicina, doxiciclina y metronidazol, y de pruebas rápidas de tamizaje. ¿Cuál es la conducta que corresponde según la norma?",
+   "opciones": [
+    "Citar a la pareja al terminar los 14 días de tratamiento de ella",
+    "Tratar a la pareja solo si el cultivo de ella resulta positivo",
+    "Tratar a la pareja e indicar abstinencia sexual hasta resolver el cuadro",
+    "Indicar preservativo a la pareja sin tratamiento antibiótico",
+    "Tratar a la pareja solo si desarrolla síntomas urinarios"
+   ],
+   "clave": 3,
+   "especialidad": "Ginecología",
+   "tema": "Enfermedad pélvica inflamatoria",
+   "diagnostico": "Enfermedad pélvica inflamatoria: manejo sindrómico de contactos sexuales",
+   "tipo": "norma",
+   "dificultad": "media",
+   "razonamiento": "Paso 1: se trata de una infección de transmisión sexual, por lo que el contacto se maneja de forma sindrómica. Paso 2: la pareja de los últimos 60 días se trata aunque esté asintomática, para evitar la reinfección. Paso 3: además se indica abstinencia sexual hasta la resolución del cuadro y el fin del tratamiento de ambos.",
+   "por_que_no": [
+    "Postergar garantiza la reinfección durante el tratamiento de ella.",
+    "El tratamiento del contacto es empírico; esperar el cultivo favorece la reinfección.",
+    "",
+    "El preservativo complementa, pero no reemplaza el tratamiento del contacto.",
+    "La mayoría de los contactos son asintomáticos y aun así transmiten."
+   ],
+   "trampa": [
+    "otro-momento",
+    "otro-momento",
+    "",
+    "otro",
+    "otro-momento"
+   ],
+   "perla": "Pareja de los últimos 60 días: tratamiento empírico y abstinencia hasta la resolución.",
+   "fuente": {
+    "carpeta": "3.GINECOLOGIA",
+    "archivo": "20. ENFERMEDAD PÉLVICA INFLAMATORIA.pdf",
+    "seccion": "pág. 1 (estadios de Monif, Hager, esquemas)"
+   },
+   "gemela_de": null
+  },
+  {
+   "id": "2026-10-18-noche-048",
+   "enunciado": "Niño de 14 meses, previamente sano, llevado a emergencia por tos de inicio brusco mientras comía maní en una reunión familiar, hace cuatro horas, seguida de respiración ruidosa. No tuvo coriza ni fiebre en los días previos. FR 46X', FC 132X', T° 36,7 °C, SatO2 93 %. Sibilantes audibles solo en el hemitórax derecho con hipoventilación en esa base; el izquierdo es normal. La radiografía muestra hiperinsuflación del pulmón derecho con desviación del mediastino a la izquierda. ¿Cuál es la conducta más apropiada?",
+   "opciones": [
+    "Nebulizar con salbutamol y reevaluar en una hora",
+    "Realizar broncoscopia rígida para extracción",
+    "Iniciar dexametasona endovenosa y observar",
+    "Indicar fisioterapia respiratoria y tos asistida",
+    "Iniciar antibiótico endovenoso y repetir radiografía en 24 horas"
+   ],
+   "clave": 2,
+   "especialidad": "Pediatría",
+   "tema": "Bronquiolitis",
+   "diagnostico": "Aspiración de cuerpo extraño: diferencial del lactante con sibilancias",
+   "tipo": "conducta",
+   "dificultad": "alta",
+   "razonamiento": "Paso 1: inicio brusco durante la ingesta de un fruto seco, sin pródromo catarral. Paso 2: sibilancia unilateral con hiperinsuflación ipsilateral y desviación mediastinal describe obstrucción valvular de un bronquio principal. Paso 3: el tratamiento es la extracción endoscópica con broncoscopia rígida, que es diagnóstica y terapéutica.",
+   "por_que_no": [
+    "Retrasa la extracción y no actúa sobre una obstrucción mecánica.",
+    "",
+    "El corticoide no desobstruye y puede dar falsa sensación de mejoría.",
+    "La fisioterapia puede movilizar el objeto y provocar obstrucción completa.",
+    "No hay fiebre ni consolidación; posponer 24 horas aumenta el riesgo."
+   ],
+   "trampa": [
+    "diferencial",
+    "",
+    "otro",
+    "otro",
+    "diferencial"
+   ],
+   "perla": "Sibilancia unilateral de inicio brusco al comer: cuerpo extraño, va a broncoscopia rígida.",
+   "fuente": {
+    "carpeta": "4.PEDIATRIA",
+    "archivo": "10. BRONQUIOLITIS.pdf",
+    "seccion": "pág. 1 (score ESBA, manejo, profilaxis)"
+   },
+   "gemela_de": null
+  },
+  {
+   "id": "2026-10-18-noche-049",
+   "enunciado": "Lactante de 6 meses hospitalizado por su segundo día de dificultad respiratoria tras cuatro días de coriza. FR 56X', FC 150X', T° 37,5 °C, SatO2 93 % con oxígeno por cánula a 1 litro. Secreciones nasales abundantes y espesas, sibilantes y subcrepitantes difusos, tiraje subcostal. Tolera parcialmente la lactancia. La radiografía muestra tórax insuflado con costillas horizontalizadas e infiltrado intersticial. El residente pregunta qué medida farmacológica tiene respaldo para mejorar la mecánica respiratoria. ¿Cuál indica?",
+   "opciones": [
+    "Salbutamol nebulizado de forma horaria fija",
+    "Azitromicina por cinco días",
+    "Nebulización con suero salino hipertónico",
+    "Dexametasona endovenosa cada 8 horas",
+    "Adrenalina nebulizada cada 4 horas"
+   ],
+   "clave": 3,
+   "especialidad": "Pediatría",
+   "tema": "Bronquiolitis",
+   "diagnostico": "Bronquiolitis aguda moderada: única medida farmacológica con beneficio demostrado",
+   "tipo": "tratamiento",
+   "dificultad": "alta",
+   "razonamiento": "Paso 1: el cuadro obstructivo con secreciones espesas e insuflación corresponde a obstrucción por edema y moco, no a broncoespasmo. Paso 2: de las opciones, solo el suero hipertónico actúa sobre ese mecanismo: hidrata la superficie, reduce el edema y mejora el aclaramiento del moco. Paso 3: el resto son fármacos usados en este contexto pero sin beneficio demostrado.",
+   "por_que_no": [
+    "El uso fijo de broncodilatador no está indicado y solo se usa como prueba en casos puntuales.",
+    "El macrólido solo corresponde si se sospecha agente bacteriano atípico.",
+    "",
+    "Los corticoides no reducen estancia ni necesidad de oxígeno en el primer episodio.",
+    "Produce mejoría transitoria sin cambiar el curso ni la estancia."
+   ],
+   "trampa": [
+    "otra-poblacion",
+    "diferencial",
+    "",
+    "otro",
+    "otro-momento"
+   ],
+   "perla": "Suero hipertónico nebulizado: hidrata, reduce edema y moviliza moco; corticoides y adrenalina, no.",
+   "fuente": {
+    "carpeta": "4.PEDIATRIA",
+    "archivo": "10. BRONQUIOLITIS.pdf",
+    "seccion": "pág. 1 (score ESBA, manejo, profilaxis)"
+   },
+   "gemela_de": null
+  },
+  {
+   "id": "2026-10-18-noche-050",
+   "enunciado": "Mujer de 28 años que hace 72 horas recibió ceftriaxona intramuscular e inició doxiciclina con metronidazol por un cuadro de dolor pélvico con flujo vaginal. Regresa porque el dolor aumentó y apareció fiebre. PA 100/64 mmHg, FC 110X', T° 38,8 °C. Abdomen con dolor y defensa en hemiabdomen inferior, sin rebote generalizado. Al tacto: dolor intenso a la movilización del cérvix, dolor anexial bilateral, sin masas palpables. Ecografía: escaso líquido libre en fondo de saco, sin colecciones organizadas. Leucocitos 16 400. ¿Cuál es la conducta más apropiada?",
+   "opciones": [
+    "Hospitalizar e iniciar clindamicina más gentamicina endovenosas",
+    "Hospitalizar e iniciar cefoxitina con laparotomía exploradora",
+    "Iniciar penicilina G endovenosa por dos a seis semanas",
+    "Repetir ceftriaxona intramuscular y continuar el esquema oral",
+    "Cambiar a azitromicina oral y reevaluar en 48 horas"
+   ],
+   "clave": 1,
+   "especialidad": "Ginecología",
+   "tema": "Enfermedad pélvica inflamatoria",
+   "diagnostico": "Falla del tratamiento ambulatorio con extensión peritoneal pélvica (estadio II de Monif)",
+   "tipo": "conducta",
+   "dificultad": "alta",
+   "razonamiento": "Paso 1: a las 72 horas el dolor aumentó, apareció fiebre alta y hay defensa con líquido libre: el proceso se extendió al peritoneo pélvico. Paso 2: la falla ambulatoria a las 48-72 horas y los signos peritoneales son criterios de internamiento. Paso 3: corresponde hospitalizar con clindamicina más gentamicina endovenosas.",
+   "por_que_no": [
+    "",
+    "La cirugía se reserva a la peritonitis generalizada, con rebote difuso y compromiso sistémico.",
+    "Ese esquema corresponde al cuadro asociado a actinomicosis por dispositivo intrauterino.",
+    "Insistir en la vía oral que ya falló permite que progrese a una colección.",
+    "Cambiar de macrólido mantiene la vía oral que ya demostró ser insuficiente."
+   ],
+   "trampa": [
+    "",
+    "otro-estadio",
+    "otro-contexto",
+    "otro-momento",
+    "mismo-grupo"
+   ],
+   "perla": "Falla ambulatoria a las 48-72 horas: hospitalizar con clindamicina más gentamicina.",
+   "fuente": {
+    "carpeta": "3.GINECOLOGIA",
+    "archivo": "20. ENFERMEDAD PÉLVICA INFLAMATORIA.pdf",
+    "seccion": "pág. 1 (estadios de Monif, Hager, esquemas)"
+   },
+   "gemela_de": "2026-10-18-manana-029"
+  }
+ ]
+}
