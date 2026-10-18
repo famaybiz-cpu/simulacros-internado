@@ -75,8 +75,12 @@ export async function pantallaPre(vista, id) {
   vista.append(c);
 }
 
-function arrancar(id, opts) {
-  store.guardarBorrador(id, { ...opts, i: 0, respuestas: {}, restante: {}, transcurrido: 0, inicio: new Date().toISOString() });
+function arrancar(id, { sueno, animo, modo }) {
+  // Ojo: el borrador guarda `sueno_horas`, que es el nombre que lee pantallaExamen.
+  store.guardarBorrador(id, {
+    sueno_horas: sueno, animo, modo,
+    i: 0, respuestas: {}, restante: {}, transcurrido: 0, inicio: new Date().toISOString(),
+  });
   location.hash = `#/examen/${id}`;
 }
 
