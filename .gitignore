@@ -7,3 +7,6 @@ progreso-*.json
 *.pdf
 *.docx
 *.pptx
+
+# Resúmenes de estudio: derivan del material de iCloud, no se publican.
+resumenes/
