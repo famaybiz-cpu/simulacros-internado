@@ -1,5 +1,5 @@
 // Service worker: la app se abre sin internet; los simulacros se guardan al visitarlos.
-const V = 'si-v3';
+const V = 'si-v4';
 const SHELL = [
   './', 'index.html', 'css/app.css', 'manifest.webmanifest',
   'js/app.js', 'js/util.js', 'js/store.js', 'js/sync.js', 'js/data.js',

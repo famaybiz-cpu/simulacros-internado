@@ -2,7 +2,7 @@
 import { el, $, LETRAS, mmss, vibrar, toast, hoyLima, CONFIANZA } from './util.js';
 import { store, cfg } from './store.js';
 import { simulacro } from './data.js';
-import { montarLienzo, TINTAS, borrarSimulacro, hayTrazos } from './dibujo.js';
+import { montarLienzo, TINTAS } from './dibujo.js';
 
 let S = null;   // simulacro
 let E = null;   // estado del intento en curso
@@ -101,7 +101,7 @@ export async function pantallaExamen(vista, id) {
     resp: {},            // qid -> {elegida, confianza, marcada, segundos, cambios[], descartadas[]}
     restante: {},        // indice -> segundos que le quedan
     lienzo: null,        // capa de lápiz de la pregunta en pantalla
-    lapiz: false,        // ¿el modo lápiz quedó activado?
+    dedo: false,         // ¿dibujar con el dedo? (el Apple Pencil no lo necesita)
     tinta: 0,
   };
   for (const q of S.preguntas) E.resp[q.id] = { elegida: null, confianza: null, marcada: false, segundos: 0, cambios: [], descartadas: [] };
@@ -132,11 +132,6 @@ function barraTiempo() {
       el('span', { class: 'spacer' }),
       E.modo === 'examen' ? el('span', {}, el('b', { class: 'seg', id: 'tb-s' }, String(S.segundos_por_pregunta)), ' s') : el('span', {}, 'modo estudio'),
       el('span', {}, '· total ', el('b', { id: 'tb-t' }, '0:00')),
-      el('button', {
-        class: 'btn-lapiz', id: 'tb-lapiz', 'aria-pressed': 'false',
-        title: 'Escribir y subrayar sobre el caso',
-        onclick: () => { E.lapiz = !E.lapiz; pintarPregunta(); },
-      }, '✏️'),
     ));
 }
 
@@ -191,7 +186,8 @@ function pintarPregunta() {
   E.lienzo?.destruir(); E.lienzo = null;
   cont.replaceChildren();
 
-  if (E.lapiz) cont.append(barraLapiz());
+  const barra = barraLapiz();
+  cont.append(barra);
 
   // Todo lo que se puede anotar va dentro de #qwrap, que es donde se monta el lápiz.
   const caja = el('div', { id: 'qwrap' });
@@ -249,34 +245,54 @@ function pintarPregunta() {
 
   // El lienzo se monta siempre: con el modo lápiz apagado no estorba
   // (no recibe toques) pero el Apple Pencil sí puede escribir.
-  E.lienzo = montarLienzo(caja, E.id, q.id);
+  E.lienzo = montarLienzo(caja, E.id, q.id, () => barra.actualizar());
   E.lienzo.elegirTinta(TINTAS[E.tinta]);
-  E.lienzo.activar(E.lapiz);
-  $('#tb-lapiz')?.setAttribute('aria-pressed', E.lapiz ? 'true' : 'false');
+  E.lienzo.conDedo(E.dedo);
+  barra.actualizar();
 
   scrollTo({ top: 0, behavior: 'instant' });
 }
 
-/** Barra del lápiz: colores, deshacer y borrar. */
+/**
+ * Barra del lápiz, siempre visible y sin nada que activar.
+ * El Apple Pencil escribe directo; el botón del dedo es solo para el celular
+ * o si prefiere subrayar con el dedo.
+ */
 function barraLapiz() {
   const barra = el('div', { class: 'lapiz' });
   TINTAS.forEach((t, k) => {
     barra.append(el('button', {
       class: 'tinta', 'aria-pressed': E.tinta === k ? 'true' : 'false',
-      title: t.nombre, 'aria-label': t.nombre,
-      style: `background:${t.color}`,
+      title: t.nombre, 'aria-label': t.nombre, style: `background:${t.color}`,
       onclick: () => {
         E.tinta = k; E.lienzo?.elegirTinta(t);
         [...barra.querySelectorAll('.tinta')].forEach((x, j) => x.setAttribute('aria-pressed', j === k ? 'true' : 'false'));
       },
     }));
   });
-  barra.append(
-    el('span', { class: 'sep' }),
-    el('button', { class: 'txt', onclick: () => E.lienzo?.deshacer() }, '↶ Deshacer'),
-    el('button', { class: 'txt', onclick: () => E.lienzo?.borrar() }, 'Borrar'),
-    el('button', { class: 'txt', onclick: () => { E.lapiz = false; pintarPregunta(); } }, 'Listo'),
-  );
+  const pista = el('span', { class: 'pista' }, 'Escribe con el Pencil');
+  const deshacer = el('button', { class: 'txt', title: 'Deshacer el último trazo', onclick: () => E.lienzo?.deshacer() }, '↶');
+  const borrar = el('button', { class: 'txt', title: 'Borrar todo lo anotado', onclick: () => E.lienzo?.borrar() }, 'Borrar');
+  const conDedo = el('button', {
+    class: 'txt', 'aria-pressed': E.dedo ? 'true' : 'false',
+    title: 'Dibujar con el dedo (en el celular)',
+    onclick: () => {
+      E.dedo = !E.dedo;
+      E.lienzo?.conDedo(E.dedo);
+      barra.actualizar();
+    },
+  }, '☝️ dedo');
+  barra.append(pista, deshacer, borrar, conDedo);
+
+  barra.actualizar = () => {
+    const vacio = E.lienzo?.vacio !== false;
+    deshacer.disabled = vacio;
+    borrar.disabled = vacio;
+    conDedo.setAttribute('aria-pressed', E.dedo ? 'true' : 'false');
+    pista.textContent = E.dedo
+      ? 'El dedo dibuja: apágalo para marcar'
+      : 'Escribe con el Pencil';
+  };
   return barra;
 }
 
