@@ -1,5 +1,10 @@
 # Publicar la web en GitHub Pages
 
+> ✅ **Ya está hecho.** La web vive en **https://famaybiz-cpu.github.io/simulacros-internado/**
+> y el repositorio es `famaybiz-cpu/simulacros-internado`. La Mac quedó autorizada
+> con el llavero de macOS (`git credential-osxkeychain`), así que las rutinas pueden
+> hacer `git push` solas. Lo de abajo queda como referencia por si hay que rehacerlo.
+
 Se hace **una sola vez**. Después, cada simulacro nuevo se publica solo con un `git push` que hacen las rutinas.
 
 ## 1. Crear el repositorio en GitHub
@@ -12,10 +17,10 @@ Se hace **una sola vez**. Después, cada simulacro nuevo se publica solo con un 
 
 ## 2. Subir la web desde la Mac
 
-Abre la Terminal y pega esto, cambiando `TU-USUARIO` por tu usuario de GitHub:
+Abre la Terminal y pega esto, cambiando `famaybiz-cpu` por tu usuario de GitHub:
 
 ```bash
-cd ~/simulacros-internado && git init -b main && git add . && git commit -m "Plataforma de simulacros" && git remote add origin https://github.com/TU-USUARIO/simulacros-internado.git && git push -u origin main
+cd ~/simulacros-internado && git init -b main && git add . && git commit -m "Plataforma de simulacros" && git remote add origin https://github.com/famaybiz-cpu/simulacros-internado.git && git push -u origin main
 ```
 
 La primera vez GitHub te pedirá autorizarte: se abre el navegador y confirmas.
@@ -29,7 +34,7 @@ La primera vez GitHub te pedirá autorizarte: se abre el navegador y confirmas.
 5. Espera 1–2 minutos y recarga. Arriba aparece el link:
 
 ```
-https://TU-USUARIO.github.io/simulacros-internado/
+https://famaybiz-cpu.github.io/simulacros-internado/
 ```
 
 **Ese es tu link fijo. No cambia nunca.**

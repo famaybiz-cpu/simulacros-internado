@@ -1,5 +1,7 @@
 # Simulacros Internado
 
+**Link de la app: https://famaybiz-cpu.github.io/simulacros-internado/**
+
 Plataforma de simulacros diarios para el examen de internado médico del **domingo 8 de noviembre de 2026, 7:00 am (Lima)**. Meta: **16/20**.
 
 La web es HTML, CSS y JavaScript puro: no necesita compilarse ni instalarse nada. Se publica en GitHub Pages y se usa desde el iPad y el celular como si fuera una app.
