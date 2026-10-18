@@ -17,7 +17,8 @@ simulacros/AAAA-MM-DD-noche.json     (50 preguntas, 2 temas)
   "fecha": "2026-10-18",
   "turno": "manana",                  // "manana" | "noche"
   "titulo": "Simulacro de la mañana",
-  "segundos_por_pregunta": 40,
+  "segundos_por_pregunta": 45,   // solo es un OBJETIVO de ritmo; el reloj que manda es el total
+                                 // (2 h por cada 100 preguntas) y ninguna pregunta se cierra sola
 
   // SOLO en el de la noche:
   "temas_noche": ["Obstetricia · Hemorragia postparto", "Nefrología · Trastornos del potasio"],

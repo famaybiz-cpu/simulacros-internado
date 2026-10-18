@@ -8,7 +8,14 @@ let S = null;   // simulacro
 let E = null;   // estado del intento en curso
 let reloj = null;
 
-const AVISO_ROJO = 10;
+/** Ritmos disponibles. El total manda; el objetivo por pregunta solo orienta. */
+export const RITMOS = {
+  real:     { nombre: 'Examen real', total: 120, objetivo: 45, detalle: '2 horas para 100 · objetivo 45 s por pregunta' },
+  exigente: { nombre: 'Exigente',    total: 100, objetivo: 35, detalle: '1 h 40 para 100 · objetivo 35 s por pregunta' },
+  holgado:  { nombre: 'Holgado',     total: 150, objetivo: 60, detalle: '2 h 30 para 100 · objetivo 60 s por pregunta' },
+};
+/** Minutos totales para este simulacro, en proporción a sus preguntas. */
+const minutosTotales = (ritmo, n) => Math.round((RITMOS[ritmo].total * n) / 100);
 
 /* ---------- pantalla previa: sueño, ánimo y modo ---------- */
 export async function pantallaPre(vista, id) {
@@ -20,9 +27,10 @@ export async function pantallaPre(vista, id) {
   let sueno = borr?.sueno_horas ?? 7;
   let animo = borr?.animo ?? 3;
   let modo = borr?.modo ?? cfg.leer().modo ?? 'examen';
+  let ritmo = borr?.ritmo ?? cfg.leer().ritmo ?? 'real';
 
   const c = el('div');
-  c.append(el('h1', {}, s.titulo), el('p', {}, el('small', {}, `${s.n} preguntas · ${s.turno === 'noche' ? '2 temas' : 'mixto'} · ${s.segundos_por_pregunta} s por pregunta`)));
+  c.append(el('h1', {}, s.titulo), el('p', {}, el('small', {}, `${s.n} preguntas · ${s.turno === 'noche' ? '2 temas' : 'mixto'}`)));
 
   if (previo) {
     c.append(el('div', { class: 'card' },
@@ -30,7 +38,7 @@ export async function pantallaPre(vista, id) {
       el('p', {}, el('small', {}, `Nota ${previo.nota.toFixed(1)} · ${previo.aciertos}/${previo.total} aciertos`)),
       el('div', { class: 'row' },
         el('a', { class: 'btn pri', href: `#/resultados/${id}` }, 'Ver resultados'),
-        el('button', { class: 'btn ghost', onclick: () => { if (confirm('¿Rehacer el simulacro desde cero? Se borra el intento anterior.')) { store.limpiarBorrador(id); arrancar(id, { sueno, animo, modo }); } } }, 'Rehacer'),
+        el('button', { class: 'btn ghost', onclick: () => { if (confirm('¿Rehacer el simulacro desde cero? Se borra el intento anterior.')) { store.limpiarBorrador(id); arrancar(id, { sueno, animo, modo, ritmo }); } } }, 'Rehacer'),
       )));
     return vista.append(c);
   }
@@ -68,19 +76,37 @@ export async function pantallaPre(vista, id) {
     onclick: (ev) => { modo = val; [...fModo.querySelectorAll('.opt')].forEach((x) => x.setAttribute('aria-pressed', 'false')); ev.currentTarget.setAttribute('aria-pressed', 'true'); },
   }, el('span', { class: 'le' }, val === 'examen' ? '⏱' : '📖'), el('span', {}, el('b', {}, tit), el('small', { style: 'display:block' }, sub)));
   fModo.append(el('div', { class: 'opts' },
-    mk('examen', 'Examen', `${s.segundos_por_pregunta} s por pregunta, sin respuestas hasta el final`),
-    mk('estudio', 'Estudio', 'Sin tiempo, con la explicación al instante')));
+    mk('examen', 'Examen', 'Con reloj total, sin respuestas hasta el final'),
+    mk('estudio', 'Estudio', 'Sin reloj, con la explicación al instante')));
 
-  c.append(fSueno, fAnimo, fModo,
-    el('button', { class: 'btn pri full', style: 'margin-top:4px', onclick: () => { cfg.guardar({ ...cfg.leer(), modo }); arrancar(id, { sueno, animo, modo }); } }, 'Empezar'));
+  // --- ritmo: el reloj nunca corta, solo orienta ---
+  const fRitmo = el('div', { class: 'card' }, el('h3', {}, 'Ritmo'),
+    el('p', {}, el('small', {}, 'El reloj es para todo el simulacro. Ninguna pregunta se cierra sola: si una te pide más tiempo, dáselo.')));
+  const opsR = el('div', { class: 'opts' });
+  for (const [k, r] of Object.entries(RITMOS)) {
+    opsR.append(el('button', {
+      class: 'opt', 'aria-pressed': ritmo === k ? 'true' : 'false',
+      onclick: (ev) => {
+        ritmo = k;
+        [...opsR.querySelectorAll('.opt')].forEach((x) => x.setAttribute('aria-pressed', 'false'));
+        ev.currentTarget.setAttribute('aria-pressed', 'true');
+      },
+    }, el('span', { class: 'le' }, k === 'real' ? '🎯' : k === 'exigente' ? '⚡' : '🫶'),
+       el('span', {}, el('b', {}, r.nombre),
+          el('small', { style: 'display:block' }, `${minutosTotales(k, s.n)} min en total · objetivo ${r.objetivo} s por pregunta`))));
+  }
+  fRitmo.append(opsR);
+
+  c.append(fSueno, fAnimo, fModo, fRitmo,
+    el('button', { class: 'btn pri full', style: 'margin-top:4px', onclick: () => { cfg.guardar({ ...cfg.leer(), modo, ritmo }); arrancar(id, { sueno, animo, modo, ritmo }); } }, 'Empezar'));
   vista.append(c);
 }
 
-function arrancar(id, { sueno, animo, modo }) {
+function arrancar(id, { sueno, animo, modo, ritmo }) {
   // Ojo: el borrador guarda `sueno_horas`, que es el nombre que lee pantallaExamen.
   store.guardarBorrador(id, {
-    sueno_horas: sueno, animo, modo,
-    i: 0, respuestas: {}, restante: {}, transcurrido: 0, inicio: new Date().toISOString(),
+    sueno_horas: sueno, animo, modo, ritmo,
+    i: 0, respuestas: {}, transcurrido: 0, inicio: new Date().toISOString(),
   });
   location.hash = `#/examen/${id}`;
 }
@@ -99,7 +125,9 @@ export async function pantallaExamen(vista, id) {
     i: b.i || 0, inicio: b.inicio || new Date().toISOString(),
     transcurrido: b.transcurrido || 0,
     resp: {},            // qid -> {elegida, confianza, marcada, segundos, cambios[], descartadas[]}
-    restante: {},        // indice -> segundos que le quedan
+    ritmo: b.ritmo || 'real',
+    totalInicial: 0, totalRestante: 0, objetivo: 0,
+    pausado: false, limiteSuperado: false,
     lienzo: null,        // capa de lápiz de la pregunta en pantalla
     dedo: false,         // ¿dibujar con el dedo? (el Apple Pencil no lo necesita)
     tinta: 0,
@@ -107,7 +135,11 @@ export async function pantallaExamen(vista, id) {
   for (const q of S.preguntas) E.resp[q.id] = { elegida: null, confianza: null, marcada: false, segundos: 0, cambios: [], descartadas: [] };
   Object.assign(E.resp, b.respuestas || {});
   for (const r of Object.values(E.resp)) r.descartadas ||= [];   // intentos empezados antes de esta mejora
-  S.preguntas.forEach((q, i) => { E.restante[i] = b.restante?.[i] ?? S.segundos_por_pregunta; });
+  const R = RITMOS[E.ritmo] || RITMOS.real;
+  E.totalInicial = minutosTotales(E.ritmo, S.n) * 60;
+  E.totalRestante = b.totalRestante ?? E.totalInicial;
+  E.objetivo = R.objetivo;
+  E.limiteSuperado = !!b.limiteSuperado;
 
   document.body.classList.add('en-examen');
   vista.replaceChildren();
@@ -124,63 +156,135 @@ export function salirDelExamen() {
   if (E) guardar();
 }
 
+/**
+ * Barra de tiempo. El reloj que manda es el TOTAL del examen; el contador de la
+ * pregunta es solo un objetivo de ritmo y nunca corta ni bloquea nada.
+ */
 function barraTiempo() {
+  const conReloj = E.modo === 'examen';
   return el('div', { class: 'timerbar', id: 'tb' },
     el('div', { class: 'bar' }, el('i', { id: 'tb-i' })),
     el('div', { class: 'meta' },
       el('span', {}, 'Pregunta ', el('b', { id: 'tb-n' }, '1'), ` de ${S.n}`),
+      el('span', { class: 'chip', id: 'tb-sin', style: 'display:none' }, ''),
       el('span', { class: 'spacer' }),
-      E.modo === 'examen' ? el('span', {}, el('b', { class: 'seg', id: 'tb-s' }, String(S.segundos_por_pregunta)), ' s') : el('span', {}, 'modo estudio'),
-      el('span', {}, '· total ', el('b', { id: 'tb-t' }, '0:00')),
+      conReloj ? el('span', { id: 'tb-ritmo', class: 'ritmo' }, '') : null,
+      conReloj
+        ? el('span', {}, 'quedan ', el('b', { class: 'seg', id: 'tb-total' }, mmss(E.totalRestante)))
+        : el('span', {}, 'modo estudio · ', el('b', { id: 'tb-total' }, '0:00')),
+      conReloj ? el('button', {
+        class: 'btn-pausa', id: 'tb-pausa', title: 'Pausar el reloj',
+        onclick: () => alternarPausa(),
+      }, '⏸') : null,
     ));
+}
+
+/** Pausa y reanuda el reloj, para cuando algo la interrumpe. */
+function alternarPausa() {
+  E.pausado = !E.pausado;
+  const b = $('#tb-pausa');
+  if (b) { b.textContent = E.pausado ? '▶' : '⏸'; b.setAttribute('aria-pressed', E.pausado ? 'true' : 'false'); }
+  $('#tb')?.classList.toggle('pausado', E.pausado);
+  let aviso = $('#aviso-pausa');
+  if (E.pausado && !aviso) {
+    aviso = el('div', { class: 'pausa-capa', id: 'aviso-pausa' },
+      el('div', { class: 'card', style: 'text-align:center;max-width:320px' },
+        el('h3', {}, '⏸ En pausa'),
+        el('p', {}, el('small', {}, 'El reloj está detenido. Tómate el tiempo que necesites.')),
+        el('button', { class: 'btn pri full', onclick: () => alternarPausa() }, 'Seguir')));
+    document.body.append(aviso);
+  } else if (!E.pausado) {
+    aviso?.remove();
+  }
+  guardar();
 }
 
 function iniciarReloj() {
   clearInterval(reloj);
-  let aviso = false;
   reloj = setInterval(() => {
+    if (E.pausado) return;
     E.transcurrido++;
-    const i = E.i;
-    E.restante[i] = Math.max(0, (E.restante[i] ?? S.segundos_por_pregunta) - 1);
-    const q = S.preguntas[i];
-    E.resp[q.id].segundos = S.segundos_por_pregunta - E.restante[i];
+    const q = S.preguntas[E.i];
+    E.resp[q.id].segundos = (E.resp[q.id].segundos || 0) + 1;
 
-    if (E.restante[i] === AVISO_ROJO && !aviso) { aviso = true; vibrar(90); }
-    if (E.restante[i] > AVISO_ROJO) aviso = false;
-
+    if (E.totalRestante > 0) {
+      E.totalRestante--;
+      // un aviso suave y único cuando se cumple el tiempo del examen real
+      if (E.totalRestante === 0) {
+        E.limiteSuperado = true;
+        vibrar([60, 80, 60]);
+        avisarFinDeTiempo();
+      } else if (E.totalRestante === 600) {
+        vibrar(70);
+        toast('Quedan 10 minutos del tiempo del examen');
+      }
+    }
     pintarTiempo();
     if (E.transcurrido % 5 === 0) guardar();
-
-    if (E.restante[i] === 0) {
-      vibrar([40, 60, 40]);
-      const sig = proximaDisponible(i);
-      if (sig === null) { terminar(); } else { E.i = sig; aviso = false; pintarPregunta(); }
-    }
   }, 1000);
 }
 
-function proximaDisponible(desde) {
-  for (let k = desde + 1; k < S.n; k++) if (E.restante[k] > 0) return k;
-  for (let k = 0; k <= desde; k++) if (E.restante[k] > 0) return k;
-  return null;
+/** Se cumplió el tiempo del examen real. No corta nada: avisa y sigue contando aparte. */
+function avisarFinDeTiempo() {
+  if ($('#fin-tiempo')) return;
+  const sin = S.preguntas.filter((q) => E.resp[q.id].elegida === null).length;
+  document.body.append(el('div', { class: 'pausa-capa', id: 'fin-tiempo' },
+    el('div', { class: 'card', style: 'max-width:340px' },
+      el('h3', {}, 'Se cumplió el tiempo del examen'),
+      el('p', {}, el('small', {},
+        `Pasaron las ${Math.round(E.totalInicial / 60)} horas que dura el examen real. ` +
+        (sin ? `Te quedan ${sin} preguntas sin responder. ` : '') +
+        'Puedes seguir todo lo que quieras: en los resultados verás tu nota y, aparte, la que habrías sacado dentro del tiempo.')),
+      el('button', { class: 'btn pri full', onclick: () => $('#fin-tiempo')?.remove() }, 'Seguir resolviendo'))));
 }
 
 function pintarTiempo() {
   const i = E.i, tb = $('#tb');
   if (!tb) return;
-  const r = E.restante[i] ?? S.segundos_por_pregunta;
-  const p = E.modo === 'examen' ? (100 * r) / S.segundos_por_pregunta : 100;
+  const q = S.preguntas[i];
+  const usados = E.resp[q.id].segundos || 0;
+  const obj = E.objetivo || 0;
+
+  // la barra muestra el objetivo de ESTA pregunta; al pasarse, se queda llena y ámbar
+  const p = obj ? Math.min(100, (100 * usados) / obj) : 100;
   $('#tb-i').style.width = p + '%';
-  tb.classList.toggle('rojo', E.modo === 'examen' && r <= AVISO_ROJO);
+  tb.classList.toggle('pasada', !!obj && usados > obj);
+  tb.classList.toggle('rojo', E.modo === 'examen' && E.totalRestante > 0 && E.totalRestante <= 60);
+
   $('#tb-n').textContent = String(i + 1);
-  $('#tb-t').textContent = mmss(E.transcurrido);
-  if ($('#tb-s')) $('#tb-s').textContent = String(r);
+  const tot = $('#tb-total');
+  if (tot) tot.textContent = E.modo === 'examen' ? mmss(E.totalRestante) : mmss(E.transcurrido);
+
+  const sin = S.preguntas.filter((x) => E.resp[x.id].elegida === null).length;
+  const chip = $('#tb-sin');
+  if (chip) {
+    chip.style.display = sin ? '' : 'none';
+    chip.textContent = `${sin} sin responder`;
+    chip.className = 'chip ' + (sin > 5 ? 'bad' : 'warn');
+  }
+
+  const r = $('#tb-ritmo');
+  if (r) r.replaceChildren(...textoRitmo(usados, obj));
+}
+
+/** Dice cómo va de ritmo, sin asustar. */
+function textoRitmo(usados, obj) {
+  if (E.limiteSuperado) return [el('span', { class: 'fuera' }, 'fuera de tiempo')];
+  const hechas = S.preguntas.filter((x) => E.resp[x.id].elegida !== null).length;
+  const gastado = E.totalInicial - E.totalRestante;
+  const deberia = (gastado / E.totalInicial) * S.n;       // dónde debería ir según el reloj
+  const dif = Math.round(hechas - deberia);
+  const enEsta = obj && usados > obj ? ` · ${usados} s en esta` : '';
+  if (hechas < 3) return [el('span', {}, `objetivo ${obj} s${enEsta}`)];
+  if (dif >= 3) return [el('span', { class: 'bien' }, `vas adelantada${enEsta}`)];
+  if (dif <= -5) return [el('span', { class: 'atras' }, `vas ${-dif} preguntas atrás${enEsta}`)];
+  return [el('span', { class: 'bien' }, `buen ritmo${enEsta}`)];
 }
 
 function pintarPregunta() {
   const i = E.i, q = S.preguntas[i], r = E.resp[q.id];
   const cont = $('#q'); if (!cont) return;
-  const agotada = E.modo === 'examen' && E.restante[i] <= 0;
+  const agotada = false;   // ninguna pregunta se cierra nunca
   const revelar = E.modo === 'estudio' && r.elegida !== null;
 
   E.lienzo?.destruir(); E.lienzo = null;
@@ -337,19 +441,20 @@ function pintarRejilla() {
     if (r.elegida !== null) b.classList.add('resp');
     if (r.marcada) b.classList.add('marc');
     if (k === E.i) b.classList.add('cur');
-    if (E.modo === 'examen' && E.restante[k] <= 0 && r.elegida === null) b.style.opacity = .45;
+    if (r.elegida === null && r.segundos > 0) b.style.opacity = .6;   // visitada y sin responder
     g.append(b);
   });
 }
 
 function ir(k) {
   if (k < 0 || k >= S.n) return;
-  if (E.modo === 'examen' && E.restante[k] <= 0) { toast('A esa pregunta ya se le acabó el tiempo'); return; }
+
   E.i = k; guardar(); pintarPregunta();
 }
 
 function elegir(q, k) {
   const r = E.resp[q.id];
+  if (E.limiteSuperado && r.elegida === null) r.fuera_de_tiempo = true;
   if (r.elegida !== null && r.elegida !== k) r.cambios.push({ de: r.elegida, a: k, s: r.segundos });
   r.elegida = k;
   if (!r.confianza) r.confianza = 'dudoso';
@@ -357,23 +462,49 @@ function elegir(q, k) {
   if (E.modo === 'estudio') { pintarPregunta(); return; }
   pintarPregunta();
   // en modo examen avanza solo si queda tiempo en la siguiente
-  if (E.i < S.n - 1) setTimeout(() => { if (E.restante[E.i + 1] > 0) ir(E.i + 1); }, 160);
+  if (E.i < S.n - 1) setTimeout(() => ir(E.i + 1), 160);
 }
 
 function guardar() {
   if (!E) return;
   store.guardarBorrador(E.id, {
     modo: E.modo, sueno_horas: E.sueno_horas, animo: E.animo, inicio: E.inicio,
-    i: E.i, transcurrido: E.transcurrido, respuestas: E.resp, restante: E.restante,
+    ritmo: E.ritmo, i: E.i, transcurrido: E.transcurrido, respuestas: E.resp,
+    totalRestante: E.totalRestante, limiteSuperado: E.limiteSuperado,
   });
 }
 
+/** Antes de terminar: enseña exactamente cuáles faltan y deja ir a cada una. */
 function pedirTerminar() {
-  const sin = S.preguntas.filter((q) => E.resp[q.id].elegida === null).length;
-  const marc = S.preguntas.filter((q) => E.resp[q.id].marcada).length;
-  const msg = [sin ? `${sin} sin responder` : null, marc ? `${marc} marcadas para revisar` : null]
-    .filter(Boolean).join(' y ');
-  if (confirm(`¿Terminar el simulacro?${msg ? `\n\nTe quedan ${msg}.` : ''}`)) terminar();
+  const sin = S.preguntas.map((q, k) => ({ q, k })).filter(({ q }) => E.resp[q.id].elegida === null);
+  const marc = S.preguntas.map((q, k) => ({ q, k })).filter(({ q }) => E.resp[q.id].marcada && E.resp[q.id].elegida !== null);
+
+  if (!sin.length && !marc.length) {
+    if (confirm('¿Terminar el simulacro?')) terminar();
+    return;
+  }
+
+  const capa = el('div', { class: 'pausa-capa', id: 'capa-terminar' });
+  const tarjeta = el('div', { class: 'card', style: 'max-width:420px;width:100%;max-height:80vh;overflow:auto' });
+  tarjeta.append(el('h3', {}, sin.length ? `Te faltan ${sin.length} por responder` : 'Tienes preguntas marcadas'));
+
+  if (sin.length) {
+    tarjeta.append(el('p', {}, el('small', {}, 'Una pregunta en blanco es un punto regalado. Toca el número para ir a ella.')));
+    const g = el('div', { class: 'qgrid', style: 'margin:0 0 14px' });
+    for (const { k } of sin) g.append(el('button', { class: 'mal', onclick: () => { capa.remove(); ir(k); } }, String(k + 1)));
+    tarjeta.append(g);
+  }
+  if (marc.length) {
+    tarjeta.append(el('p', {}, el('small', {}, `Marcaste ${marc.length} para revisar:`)));
+    const g2 = el('div', { class: 'qgrid', style: 'margin:0 0 14px' });
+    for (const { k } of marc) g2.append(el('button', { class: 'marc', onclick: () => { capa.remove(); ir(k); } }, String(k + 1)));
+    tarjeta.append(g2);
+  }
+  tarjeta.append(el('div', { class: 'row', style: 'gap:10px' },
+    el('button', { class: 'btn pri', style: 'flex:1', onclick: () => capa.remove() }, 'Seguir resolviendo'),
+    el('button', { class: 'btn bad', style: 'flex:1', onclick: () => { capa.remove(); terminar(); } }, 'Terminar igual')));
+  capa.append(tarjeta);
+  document.body.append(capa);
 }
 
 /* ---------- corrección ---------- */
@@ -393,15 +524,24 @@ function terminar() {
       diagnostico: q.diagnostico || null, dificultad: q.dificultad || null,
       trampa_caida: r.elegida !== null && !ok ? (q.trampa?.[r.elegida] || q.trampa?.[0] || null) : null,
       gemela_de: q.gemela_de || null, motivo: null,
+      fuera_de_tiempo: !!r.fuera_de_tiempo,
     };
   });
   const aciertos = respuestas.filter((r) => r.ok).length;
   const sin = respuestas.filter((r) => r.elegida === null).length;
+  // nota que habría sacado dentro del tiempo del examen real
+  const dentro = respuestas.filter((r) => !r.fuera_de_tiempo);
+  const aciertosDentro = dentro.filter((r) => r.ok).length;
   const intento = {
     simulacro_id: E.id, fecha: S.fecha || hoyLima(), turno: S.turno, titulo: S.titulo,
     modo: E.modo, sueno_horas: E.sueno_horas, animo: E.animo,
     inicio: E.inicio, fin: new Date().toISOString(),
-    segundos_por_pregunta: S.segundos_por_pregunta,
+    ritmo: E.ritmo, minutos_limite: Math.round(E.totalInicial / 60),
+    objetivo_por_pregunta: E.objetivo,
+    paso_del_limite: !!E.limiteSuperado,
+    nota_dentro_del_tiempo: (aciertosDentro / S.n) * 20,
+    respondidas_fuera_de_tiempo: respuestas.filter((r) => r.fuera_de_tiempo).length,
+    segundos_por_pregunta: E.objetivo,
     total: S.n, aciertos, errores: S.n - aciertos - sin, sin_responder: sin,
     nota: (aciertos / S.n) * 20,
     segundos_total: E.transcurrido,

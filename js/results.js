@@ -28,6 +28,24 @@ export async function pantallaResultados(vista, id) {
       kpi(fmt(it.segundos_total / it.total, 0) + 's', 'por pregunta'),
     ));
 
+  // si se pasó del tiempo del examen real, la nota de referencia va aparte
+  if (it.paso_del_limite && it.nota_dentro_del_tiempo != null) {
+    const sd = semaforo(it.nota_dentro_del_tiempo);
+    vista.append(el('div', { class: 'card' },
+      el('h3', {}, 'Con el tiempo del examen real'),
+      el('div', { class: 'row sp' },
+        el('span', {}, el('b', { style: `font-size:34px;color:var(--${sd === 'v' ? 'ok' : sd === 'a' ? 'warn' : 'bad'})` }, fmt(it.nota_dentro_del_tiempo, 1)), ' / 20'),
+        el('span', { class: 'chip' }, `${it.minutos_limite} min`)),
+      el('p', { style: 'margin-top:8px' }, el('small', {},
+        `Respondiste ${it.respondidas_fuera_de_tiempo} preguntas después del límite. ` +
+        `Esta es la nota que habrías sacado el día del examen; la de arriba es la que mide lo que sabes sin reloj. ` +
+        `La diferencia es exactamente lo que te cuesta la velocidad.`))));
+  } else if (it.minutos_limite) {
+    vista.append(el('div', { class: 'card tight' },
+      el('div', { class: 'row' }, el('span', { class: 'chip ok' }, '✓ Dentro del tiempo'),
+        el('small', {}, `Terminaste en ${mmss(it.segundos_total)} de los ${it.minutos_limite} minutos.`))));
+  }
+
   // --- motivo de cada error ---
   const fallos = it.respuestas.filter((r) => !r.ok);
   if (fallos.length) {
