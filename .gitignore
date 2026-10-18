@@ -10,3 +10,6 @@ progreso-*.json
 
 # Resúmenes de estudio: derivan del material de iCloud, no se publican.
 resumenes/
+
+# Herramienta gh descargada, no se publica.
+.herramientas/
