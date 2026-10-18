@@ -97,6 +97,24 @@ export function pantallaProgreso(vista) {
             : `Te conviene cambiar: ganaste ${c.mal_a_bien} y perdiste ${c.bien_a_mal}. Cuando releas el caso y veas un dato nuevo, confía y cambia.`))
       : el('small', {}, 'Todavía no cambiaste ninguna respuesta.')));
 
+  // 21b · descarte de alternativas
+  const ds = R.descarte;
+  if (ds.preguntas >= 3) {
+    const bien = ds.preguntas - ds.perdio_la_correcta;
+    vista.append(seccion('Descarte de alternativas',
+      el('div', { class: 'kpis', style: 'margin:0 0 10px' },
+        el('div', { class: 'kpi' }, el('b', {}, String(ds.preguntas)), el('small', {}, 'preguntas con tachones')),
+        el('div', { class: 'kpi' }, el('b', {}, (ds.tachadas / ds.preguntas).toFixed(1)), el('small', {}, 'tachadas por pregunta')),
+        el('div', { class: 'kpi' }, el('b', { style: 'color:var(--ok)' }, String(bien)), el('small', {}, 'descartes limpios')),
+        el('div', { class: 'kpi' }, el('b', { style: 'color:var(--bad)' }, String(ds.perdio_la_correcta)), el('small', {}, 'tachaste la correcta'))),
+      el('small', {}, ds.perdio_la_correcta === 0
+        ? `Tachaste en ${ds.preguntas} preguntas y nunca eliminaste la respuesta correcta. Tu descarte es confiable: úsalo sin miedo cuando se te acabe el tiempo.`
+        : `En ${ds.perdio_la_correcta} de ${ds.preguntas} preguntas tachaste la correcta (${pct(ds.perdio_la_correcta, ds.preguntas)} %). ` +
+          (pct(ds.perdio_la_correcta, ds.preguntas) > 25
+            ? 'Estás descartando demasiado rápido: tacha solo lo que puedas justificar con un dato del caso.'
+            : 'Es un margen normal, pero vale la pena releer esas preguntas en la revisión.'))));
+  }
+
   // 22 · distractores y confusiones
   const tr = Object.entries(R.trampas).sort((a, b) => b[1] - a[1]);
   vista.append(seccion('Análisis de distractores',

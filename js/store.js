@@ -175,6 +175,7 @@ export const store = {
     const bloques = [[0, 0], [0, 0], [0, 0], [0, 0]];
     const motivos = {}, trampas = {}, confusiones = {};
     let cambios = { total: 0, mal_a_bien: 0, bien_a_mal: 0, mal_a_mal: 0 };
+    const descarte = { preguntas: 0, tachadas: 0, perdio_la_correcta: 0, acierto_tras_descartar: 0 };
     let tiempos = { rapidas: [0, 0], normales: [0, 0], agotadas: [0, 0] };
 
     for (const it of ints) {
@@ -189,6 +190,13 @@ export const store = {
         if (!r.ok && r.diagnostico && r.elegida_txt) {
           const k = `${r.diagnostico} → ${r.elegida_txt}`;
           confusiones[k] = (confusiones[k] || 0) + 1;
+        }
+        const ds = r.descartadas || [];
+        if (ds.length) {
+          descarte.preguntas++;
+          descarte.tachadas += ds.length;
+          if (r.descarto_la_correcta) descarte.perdio_la_correcta++;
+          else if (r.ok) descarte.acierto_tras_descartar++;
         }
         const cs = r.cambios || [];
         if (cs.length) {
@@ -217,7 +225,7 @@ export const store = {
       tipos: tabla(porTipo),
       confianza: conf, bloques, motivos, trampas,
       confusiones: Object.entries(confusiones).map(([k, n]) => ({ k, n })).sort((a, b) => b.n - a.n),
-      cambios, tiempos,
+      cambios, tiempos, descarte: descarte,
       debiles: tabla(porTema, 2).slice(0, 10),
       errores_seguro: this.d.errores.filter((e) => e.confianza === 'seguro' && !e.dominada),
       aciertos_adivinando: this.d.errores.filter((e) => e.por_adivinar && !e.dominada),

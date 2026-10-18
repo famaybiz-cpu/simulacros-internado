@@ -2,6 +2,7 @@
 import { el, $, LETRAS, mmss, vibrar, toast, hoyLima, CONFIANZA } from './util.js';
 import { store, cfg } from './store.js';
 import { simulacro } from './data.js';
+import { montarLienzo, TINTAS, borrarSimulacro, hayTrazos } from './dibujo.js';
 
 let S = null;   // simulacro
 let E = null;   // estado del intento en curso
@@ -97,11 +98,15 @@ export async function pantallaExamen(vista, id) {
     id, modo: b.modo || 'examen', sueno_horas: b.sueno_horas, animo: b.animo,
     i: b.i || 0, inicio: b.inicio || new Date().toISOString(),
     transcurrido: b.transcurrido || 0,
-    resp: {},            // qid -> {elegida, confianza, marcada, segundos, cambios[], vista}
+    resp: {},            // qid -> {elegida, confianza, marcada, segundos, cambios[], descartadas[]}
     restante: {},        // indice -> segundos que le quedan
+    lienzo: null,        // capa de lápiz de la pregunta en pantalla
+    lapiz: false,        // ¿el modo lápiz quedó activado?
+    tinta: 0,
   };
-  for (const q of S.preguntas) E.resp[q.id] = { elegida: null, confianza: null, marcada: false, segundos: 0, cambios: [] };
+  for (const q of S.preguntas) E.resp[q.id] = { elegida: null, confianza: null, marcada: false, segundos: 0, cambios: [], descartadas: [] };
   Object.assign(E.resp, b.respuestas || {});
+  for (const r of Object.values(E.resp)) r.descartadas ||= [];   // intentos empezados antes de esta mejora
   S.preguntas.forEach((q, i) => { E.restante[i] = b.restante?.[i] ?? S.segundos_por_pregunta; });
 
   document.body.classList.add('en-examen');
@@ -114,6 +119,7 @@ export async function pantallaExamen(vista, id) {
 
 export function salirDelExamen() {
   clearInterval(reloj); reloj = null;
+  E?.lienzo?.destruir(); if (E) E.lienzo = null;
   document.body.classList.remove('en-examen');
   if (E) guardar();
 }
@@ -126,6 +132,11 @@ function barraTiempo() {
       el('span', { class: 'spacer' }),
       E.modo === 'examen' ? el('span', {}, el('b', { class: 'seg', id: 'tb-s' }, String(S.segundos_por_pregunta)), ' s') : el('span', {}, 'modo estudio'),
       el('span', {}, '· total ', el('b', { id: 'tb-t' }, '0:00')),
+      el('button', {
+        class: 'btn-lapiz', id: 'tb-lapiz', 'aria-pressed': 'false',
+        title: 'Escribir y subrayar sobre el caso',
+        onclick: () => { E.lapiz = !E.lapiz; pintarPregunta(); },
+      }, '✏️'),
     ));
 }
 
@@ -177,24 +188,40 @@ function pintarPregunta() {
   const agotada = E.modo === 'examen' && E.restante[i] <= 0;
   const revelar = E.modo === 'estudio' && r.elegida !== null;
 
+  E.lienzo?.destruir(); E.lienzo = null;
   cont.replaceChildren();
+
+  if (E.lapiz) cont.append(barraLapiz());
+
+  // Todo lo que se puede anotar va dentro de #qwrap, que es donde se monta el lápiz.
+  const caja = el('div', { id: 'qwrap' });
   // NUNCA se muestra especialidad, tema ni diagnóstico aquí.
-  cont.append(el('div', { class: 'enun' }, q.enunciado));
+  caja.append(el('div', { class: 'enun' }, q.enunciado));
 
   const opts = el('div', { class: 'opts' });
   q.opciones.forEach((txt, k) => {
+    const tachada = r.descartadas.includes(k);
     const b = el('button', {
-      class: 'opt', 'aria-pressed': r.elegida === k ? 'true' : 'false',
+      class: 'opt' + (tachada ? ' descartada' : ''),
+      'aria-pressed': r.elegida === k ? 'true' : 'false',
       disabled: agotada || revelar,
       onclick: () => elegir(q, k),
-    }, el('span', { class: 'le' }, LETRAS[k]), el('span', {}, txt));
+    }, el('span', { class: 'le' }, LETRAS[k]), el('span', { class: 'tx' }, txt));
     if (revelar) {
       if (k === q.clave0) b.classList.add('correcta');
       else if (k === r.elegida) b.classList.add('fallada');
     }
-    opts.append(b);
+    const tachar = el('button', {
+      class: 'tachar', 'aria-pressed': tachada ? 'true' : 'false',
+      disabled: agotada || revelar,
+      title: tachada ? 'Devolver esta alternativa' : 'Descartar esta alternativa',
+      'aria-label': (tachada ? 'Devolver la alternativa ' : 'Descartar la alternativa ') + LETRAS[k],
+      onclick: () => descartar(q, k),
+    }, tachada ? '↩' : '✕');
+    opts.append(el('div', { class: 'optrow' }, b, tachar));
   });
-  cont.append(opts);
+  caja.append(opts);
+  cont.append(caja);
 
   // seguridad: un toque, no frena el cronómetro
   const conf = el('div', { class: 'conf' });
@@ -219,7 +246,52 @@ function pintarPregunta() {
     el('div', { class: 'qgrid', id: 'rejilla' })));
   pintarRejilla();
   pintarTiempo();
+
+  // El lienzo se monta siempre: con el modo lápiz apagado no estorba
+  // (no recibe toques) pero el Apple Pencil sí puede escribir.
+  E.lienzo = montarLienzo(caja, E.id, q.id);
+  E.lienzo.elegirTinta(TINTAS[E.tinta]);
+  E.lienzo.activar(E.lapiz);
+  $('#tb-lapiz')?.setAttribute('aria-pressed', E.lapiz ? 'true' : 'false');
+
   scrollTo({ top: 0, behavior: 'instant' });
+}
+
+/** Barra del lápiz: colores, deshacer y borrar. */
+function barraLapiz() {
+  const barra = el('div', { class: 'lapiz' });
+  TINTAS.forEach((t, k) => {
+    barra.append(el('button', {
+      class: 'tinta', 'aria-pressed': E.tinta === k ? 'true' : 'false',
+      title: t.nombre, 'aria-label': t.nombre,
+      style: `background:${t.color}`,
+      onclick: () => {
+        E.tinta = k; E.lienzo?.elegirTinta(t);
+        [...barra.querySelectorAll('.tinta')].forEach((x, j) => x.setAttribute('aria-pressed', j === k ? 'true' : 'false'));
+      },
+    }));
+  });
+  barra.append(
+    el('span', { class: 'sep' }),
+    el('button', { class: 'txt', onclick: () => E.lienzo?.deshacer() }, '↶ Deshacer'),
+    el('button', { class: 'txt', onclick: () => E.lienzo?.borrar() }, 'Borrar'),
+    el('button', { class: 'txt', onclick: () => { E.lapiz = false; pintarPregunta(); } }, 'Listo'),
+  );
+  return barra;
+}
+
+/** Tachar o devolver una alternativa. No elige nada, solo ayuda a descartar. */
+function descartar(q, k) {
+  const r = E.resp[q.id];
+  const i = r.descartadas.indexOf(k);
+  if (i >= 0) r.descartadas.splice(i, 1);
+  else {
+    r.descartadas.push(k);
+    if (r.elegida === k) r.elegida = null;   // si la tenías marcada, se suelta
+  }
+  vibrar(25);
+  guardar();
+  pintarPregunta();
 }
 
 function explicacion(q, r) {
@@ -299,6 +371,8 @@ function terminar() {
       elegida: r.elegida, correcta: q.clave0, ok,
       elegida_txt: r.elegida === null ? null : q.opciones[r.elegida],
       segundos: r.segundos, confianza: r.confianza, marcada: !!r.marcada, cambios: r.cambios,
+      descartadas: [...(r.descartadas || [])],
+      descarto_la_correcta: (r.descartadas || []).includes(q.clave0),
       especialidad: q.especialidad || null, tema: q.tema || null, tipo: q.tipo || null,
       diagnostico: q.diagnostico || null, dificultad: q.dificultad || null,
       trampa_caida: r.elegida !== null && !ok ? (q.trampa?.[r.elegida] || q.trampa?.[0] || null) : null,

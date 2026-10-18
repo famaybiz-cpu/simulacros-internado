@@ -3,6 +3,7 @@ import { el, $, LETRAS, mmss, fmt, pct, semaforo, toast, MOTIVOS, CONFIANZA, TRA
 import { store } from './store.js';
 import { simulacro } from './data.js';
 import { fuenteTxt } from './exam.js';
+import { lienzoRevision } from './dibujo.js';
 
 export async function pantallaResultados(vista, id) {
   const it = store.intento(id);
@@ -96,7 +97,7 @@ export async function pantallaResultados(vista, id) {
       filtro === 'marcadas' ? r.marcada :
       !r.ok && r.confianza === 'seguro');
     if (!rs.length) lista.append(el('div', { class: 'vacio' }, 'Nada en este filtro.'));
-    for (const r of rs) lista.append(bloqueRevision(r, qs.get(r.qid)));
+    for (const r of rs) lista.append(bloqueRevision(r, qs.get(r.qid), id));
   }
   render();
   vista.append(filtros, lista);
@@ -105,7 +106,7 @@ export async function pantallaResultados(vista, id) {
 const kpi = (v, et, c) => el('div', { class: 'kpi' }, el('b', { style: c ? `color:var(--${c})` : '' }, String(v)), el('small', {}, et));
 
 /** Revisión: recién aquí se revelan especialidad, tema y diagnóstico. */
-export function bloqueRevision(r, q) {
+export function bloqueRevision(r, q, simulacroId = null) {
   if (!q) return el('div');
   const ok = r.ok;
   const d = el('details', { class: 'rev' });
@@ -127,13 +128,18 @@ export function bloqueRevision(r, q) {
 
   b.append(el('div', { class: 'enun', style: 'font-size:17px;margin:0 0 12px' }, q.enunciado));
   const opts = el('div', { class: 'opts' });
+  const desc = r.descartadas || [];
   q.opciones.forEach((t, k) => {
-    const o = el('div', { class: 'opt', style: 'cursor:default' }, el('span', { class: 'le' }, LETRAS[k]), el('span', {}, t));
+    const o = el('div', { class: 'opt' + (desc.includes(k) ? ' descartada' : ''), style: 'cursor:default' },
+      el('span', { class: 'le' }, LETRAS[k]), el('span', { class: 'tx' }, t));
     if (k === q.clave0) o.classList.add('correcta');
     else if (k === r.elegida) o.classList.add('fallada');
     opts.append(o);
   });
   b.append(opts);
+  if (desc.length) b.append(el('div', { class: 'bloque' }, el('span', { class: 'et' }, 'Alternativas que descartaste'),
+    desc.map((k) => LETRAS[k]).sort().join(', ') +
+    (r.descarto_la_correcta ? ' — entre ellas estaba la correcta' : '')));
 
   if (q.diagnostico) b.append(el('div', { class: 'bloque' }, el('span', { class: 'et' }, 'Diagnóstico del caso'), q.diagnostico));
   if (q.razonamiento) b.append(el('div', { class: 'bloque' }, el('span', { class: 'et' }, 'Razonamiento paso a paso'), q.razonamiento));
@@ -143,6 +149,9 @@ export function bloqueRevision(r, q) {
     r.cambios.map((c) => `${LETRAS[c.de]} → ${LETRAS[c.a]}`).join(' · ')));
   if (q.perla) b.append(el('div', { class: 'perla' }, '💡 ' + q.perla));
   if (q.fuente) b.append(el('small', { style: 'display:block;margin-top:10px;color:var(--fg3)' }, '📂 ' + fuenteTxt(q.fuente)));
+  const dibujo = simulacroId && lienzoRevision(simulacroId, q.id);
+  if (dibujo) b.append(el('div', { style: 'margin-top:12px' },
+    el('small', { style: 'display:block;margin:0 0 6px;font-weight:700;color:var(--fg2)' }, 'Lo que anotaste'), dibujo));
   d.append(b);
   return d;
 }
@@ -235,6 +244,16 @@ function feedbackTutor(it, qs) {
         el('span', { class: 'mono' }, fuenteTxt(q?.fuente) || 'fuente no indicada')));
     }
     out.push(c);
+  }
+
+  // 5b. descarte de alternativas
+  const conDesc = rs.filter((r) => (r.descartadas || []).length);
+  if (conDesc.length >= 3) {
+    const malDesc = conDesc.filter((r) => r.descarto_la_correcta).length;
+    out.push(el('div', { class: 'bloque' }, el('span', { class: 'et' }, 'Tu descarte'),
+      malDesc === 0
+        ? `Tachaste alternativas en ${conDesc.length} preguntas y nunca descartaste la correcta. Tu criterio de descarte está fino: confía en él cuando dudes.`
+        : `Tachaste alternativas en ${conDesc.length} preguntas y en ${malDesc} descartaste la correcta. Revisa esas: el error no fue elegir mal, fue eliminar demasiado pronto.`));
   }
 
   // 6. cuánto falta para el 16 y qué especialidad sube más la nota
