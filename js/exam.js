@@ -10,9 +10,9 @@ let reloj = null;
 
 /** Ritmos disponibles. El total manda; el objetivo por pregunta solo orienta. */
 export const RITMOS = {
-  real:     { nombre: 'Examen real', total: 120, objetivo: 45, detalle: '2 horas para 100 · objetivo 45 s por pregunta' },
-  exigente: { nombre: 'Exigente',    total: 100, objetivo: 35, detalle: '1 h 40 para 100 · objetivo 35 s por pregunta' },
-  holgado:  { nombre: 'Holgado',     total: 150, objetivo: 60, detalle: '2 h 30 para 100 · objetivo 60 s por pregunta' },
+  real:     { nombre: 'Examen real', total: 120, objetivo: 30, detalle: '2 horas para 100 · objetivo 30 s por pregunta' },
+  exigente: { nombre: 'Exigente',    total: 100, objetivo: 25, detalle: '1 h 40 para 100 · objetivo 25 s por pregunta' },
+  holgado:  { nombre: 'Holgado',     total: 150, objetivo: 45, detalle: '2 h 30 para 100 · objetivo 45 s por pregunta' },
 };
 /** Minutos totales para este simulacro, en proporción a sus preguntas. */
 const minutosTotales = (ritmo, n) => Math.round((RITMOS[ritmo].total * n) / 100);
@@ -127,7 +127,7 @@ export async function pantallaExamen(vista, id) {
     resp: {},            // qid -> {elegida, confianza, marcada, segundos, cambios[], descartadas[]}
     ritmo: b.ritmo || 'real',
     totalInicial: 0, totalRestante: 0, objetivo: 0,
-    pausado: false, limiteSuperado: false,
+    pausado: false, corteTiempo: false,
     lienzo: null,        // capa de lápiz de la pregunta en pantalla
     dedo: false,         // ¿dibujar con el dedo? (el Apple Pencil no lo necesita)
     tinta: 0,
@@ -139,7 +139,7 @@ export async function pantallaExamen(vista, id) {
   E.totalInicial = minutosTotales(E.ritmo, S.n) * 60;
   E.totalRestante = b.totalRestante ?? E.totalInicial;
   E.objetivo = R.objetivo;
-  E.limiteSuperado = !!b.limiteSuperado;
+
 
   document.body.classList.add('en-examen');
   vista.replaceChildren();
@@ -207,35 +207,23 @@ function iniciarReloj() {
     const q = S.preguntas[E.i];
     E.resp[q.id].segundos = (E.resp[q.id].segundos || 0) + 1;
 
-    if (E.totalRestante > 0) {
-      E.totalRestante--;
-      // un aviso suave y único cuando se cumple el tiempo del examen real
-      if (E.totalRestante === 0) {
-        E.limiteSuperado = true;
-        vibrar([60, 80, 60]);
-        avisarFinDeTiempo();
-      } else if (E.totalRestante === 600) {
-        vibrar(70);
-        toast('Quedan 10 minutos del tiempo del examen');
-      }
+    E.totalRestante = Math.max(0, E.totalRestante - 1);
+
+    // Avisos antes del corte, como en el examen real.
+    if (E.totalRestante === 900) { vibrar(70); toast('Quedan 15 minutos'); }
+    if (E.totalRestante === 300) { vibrar([70, 60, 70]); toast('Quedan 5 minutos'); }
+    if (E.totalRestante === 60) { vibrar([70, 60, 70]); toast('Queda 1 minuto'); }
+
+    if (E.totalRestante === 0) {        // el examen se cierra, igual que el de verdad
+      E.corteTiempo = true;
+      vibrar([120, 80, 120, 80, 200]);
+      terminar();
+      return;
     }
+
     pintarTiempo();
     if (E.transcurrido % 5 === 0) guardar();
   }, 1000);
-}
-
-/** Se cumplió el tiempo del examen real. No corta nada: avisa y sigue contando aparte. */
-function avisarFinDeTiempo() {
-  if ($('#fin-tiempo')) return;
-  const sin = S.preguntas.filter((q) => E.resp[q.id].elegida === null).length;
-  document.body.append(el('div', { class: 'pausa-capa', id: 'fin-tiempo' },
-    el('div', { class: 'card', style: 'max-width:340px' },
-      el('h3', {}, 'Se cumplió el tiempo del examen'),
-      el('p', {}, el('small', {},
-        `Pasaron las ${Math.round(E.totalInicial / 60)} horas que dura el examen real. ` +
-        (sin ? `Te quedan ${sin} preguntas sin responder. ` : '') +
-        'Puedes seguir todo lo que quieras: en los resultados verás tu nota y, aparte, la que habrías sacado dentro del tiempo.')),
-      el('button', { class: 'btn pri full', onclick: () => $('#fin-tiempo')?.remove() }, 'Seguir resolviendo'))));
 }
 
 function pintarTiempo() {
@@ -269,7 +257,7 @@ function pintarTiempo() {
 
 /** Dice cómo va de ritmo, sin asustar. */
 function textoRitmo(usados, obj) {
-  if (E.limiteSuperado) return [el('span', { class: 'fuera' }, 'fuera de tiempo')];
+
   const hechas = S.preguntas.filter((x) => E.resp[x.id].elegida !== null).length;
   const gastado = E.totalInicial - E.totalRestante;
   const deberia = (gastado / E.totalInicial) * S.n;       // dónde debería ir según el reloj
@@ -454,7 +442,6 @@ function ir(k) {
 
 function elegir(q, k) {
   const r = E.resp[q.id];
-  if (E.limiteSuperado && r.elegida === null) r.fuera_de_tiempo = true;
   if (r.elegida !== null && r.elegida !== k) r.cambios.push({ de: r.elegida, a: k, s: r.segundos });
   r.elegida = k;
   if (!r.confianza) r.confianza = 'dudoso';
@@ -470,7 +457,7 @@ function guardar() {
   store.guardarBorrador(E.id, {
     modo: E.modo, sueno_horas: E.sueno_horas, animo: E.animo, inicio: E.inicio,
     ritmo: E.ritmo, i: E.i, transcurrido: E.transcurrido, respuestas: E.resp,
-    totalRestante: E.totalRestante, limiteSuperado: E.limiteSuperado,
+    totalRestante: E.totalRestante,
   });
 }
 
@@ -524,23 +511,17 @@ function terminar() {
       diagnostico: q.diagnostico || null, dificultad: q.dificultad || null,
       trampa_caida: r.elegida !== null && !ok ? (q.trampa?.[r.elegida] || q.trampa?.[0] || null) : null,
       gemela_de: q.gemela_de || null, motivo: null,
-      fuera_de_tiempo: !!r.fuera_de_tiempo,
     };
   });
   const aciertos = respuestas.filter((r) => r.ok).length;
   const sin = respuestas.filter((r) => r.elegida === null).length;
-  // nota que habría sacado dentro del tiempo del examen real
-  const dentro = respuestas.filter((r) => !r.fuera_de_tiempo);
-  const aciertosDentro = dentro.filter((r) => r.ok).length;
   const intento = {
     simulacro_id: E.id, fecha: S.fecha || hoyLima(), turno: S.turno, titulo: S.titulo,
     modo: E.modo, sueno_horas: E.sueno_horas, animo: E.animo,
     inicio: E.inicio, fin: new Date().toISOString(),
     ritmo: E.ritmo, minutos_limite: Math.round(E.totalInicial / 60),
     objetivo_por_pregunta: E.objetivo,
-    paso_del_limite: !!E.limiteSuperado,
-    nota_dentro_del_tiempo: (aciertosDentro / S.n) * 20,
-    respondidas_fuera_de_tiempo: respuestas.filter((r) => r.fuera_de_tiempo).length,
+    corte_por_tiempo: !!E.corteTiempo,
     segundos_por_pregunta: E.objetivo,
     total: S.n, aciertos, errores: S.n - aciertos - sin, sin_responder: sin,
     nota: (aciertos / S.n) * 20,

@@ -1,12 +1,15 @@
 // Capa de lápiz: escribir y subrayar encima del caso clínico.
 //
-// Idea central: el Apple Pencil escribe SIEMPRE, sin activar ningún modo, y el
-// dedo sigue sirviendo para desplazar y para marcar la respuesta. Para lograrlo
-// el lienzo no recibe toques (pointer-events:none) y los eventos se escuchan en
-// el contenedor, así llegan igual a los botones de abajo.
+// Dos formas de escribir, ninguna con modos que activar:
+//   · Apple Pencil (iPad): escribe siempre, al instante.
+//   · Dedo (iPhone y iPad): MANTENER PRESIONADO un cuarto de segundo y arrastrar.
+//     Un toque corto sigue marcando la respuesta y un arrastre rápido sigue
+//     desplazando la página, así que no estorba nada.
+// El lienzo no recibe toques (pointer-events:none) y los eventos se escuchan en
+// el contenedor, de modo que llegan igual a los botones de abajo.
 //
 // Los trazos se guardan en el dispositivo: pesan y son propios de este iPad.
-import { el } from './util.js';
+import { el, vibrar } from './util.js';
 
 const K = 'si.dibujos.';
 
@@ -30,6 +33,9 @@ export function borrarSimulacro(sim) { try { localStorage.removeItem(K + sim); }
 /** ¿Este toque viene del Apple Pencil? */
 const esLapiz = (ev) => ev.pointerType === 'pen';
 
+const ESPERA_DEDO = 240;   // ms que hay que mantener el dedo para empezar a escribir
+const HOLGURA = 12;        // px que puede moverse el dedo durante esa espera
+
 export function montarLienzo(caja, sim, qid, alCambiar) {
   const cv = el('canvas', { class: 'lienzo' });
   caja.append(cv);
@@ -37,9 +43,11 @@ export function montarLienzo(caja, sim, qid, alCambiar) {
 
   let trazos = trazosDe(sim, qid).map((t) => ({ ...t, p: [...t.p] }));
   let tinta = TINTAS[0];
-  let dedo = false;        // ¿el modo "dibujar con el dedo" está encendido?
+  let dedo = false;        // modo permanente de dedo (opcional, por si lo prefiere)
   let actual = null;
   let dibujo = false;      // ¿se dibujó algo en este gesto? (para no marcar la alternativa)
+  let espera = null;       // temporizador del mantener-presionado
+  let origen = null;       // dónde empezó el toque, para medir si se movió
 
   function medir() {
     const r = caja.getBoundingClientRect();
@@ -77,17 +85,41 @@ export function montarLienzo(caja, sim, qid, alCambiar) {
     return [(ev.clientX - r.left) / r.width, (ev.clientY - r.top) / r.height];
   };
 
-  const puedeDibujar = (ev) => esLapiz(ev) || (dedo && ev.pointerType !== 'mouse') || (dedo && ev.pointerType === 'mouse');
-
-  function abajo(ev) {
-    if (!puedeDibujar(ev)) return;
-    ev.preventDefault();
+  function empezarTrazo(ev) {
     actual = { c: tinta.color, w: tinta.ancho, p: [punto(ev)] };
     dibujo = false;
     pintar();
   }
 
+  function abajo(ev) {
+    cancelarEspera();
+    if (esLapiz(ev) || dedo) {            // el Pencil (o el modo dedo) escribe al toque
+      ev.preventDefault();
+      empezarTrazo(ev);
+      return;
+    }
+    if (ev.pointerType === 'mouse') return;
+    // dedo: se espera un cuarto de segundo quieto antes de empezar a escribir,
+    // así un toque normal sigue marcando y un arrastre sigue desplazando.
+    origen = { x: ev.clientX, y: ev.clientY, ev };
+    espera = setTimeout(() => {
+      espera = null;
+      empezarTrazo(origen.ev);
+      vibrar(18);                          // confirma que ya puede escribir
+    }, ESPERA_DEDO);
+  }
+
+  function cancelarEspera() {
+    if (espera) { clearTimeout(espera); espera = null; }
+    origen = null;
+  }
+
   function mover(ev) {
+    if (espera && origen) {
+      // si el dedo se mueve antes de tiempo, era un desplazamiento: se cancela
+      if (Math.hypot(ev.clientX - origen.x, ev.clientY - origen.y) > HOLGURA) cancelarEspera();
+      return;
+    }
     if (!actual) return;
     ev.preventDefault();
     let puntos = [];
@@ -99,6 +131,7 @@ export function montarLienzo(caja, sim, qid, alCambiar) {
   }
 
   function arriba(ev) {
+    cancelarEspera();
     if (!actual) return;
     ev?.preventDefault?.();
     trazos.push(actual);
@@ -127,7 +160,8 @@ export function montarLienzo(caja, sim, qid, alCambiar) {
   // Pencil (touchType 'stylus'), así el dedo sigue desplazando con normalidad.
   function tocar(ev) {
     const stylus = [...(ev.touches || [])].some((t) => t.touchType === 'stylus');
-    if (stylus || dedo) ev.preventDefault();
+    // Se corta el desplazamiento solo cuando de verdad se está escribiendo.
+    if (stylus || dedo || actual) ev.preventDefault();
   }
 
   caja.addEventListener('pointerdown', abajo);
