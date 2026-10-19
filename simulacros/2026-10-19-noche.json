@@ -1,0 +1,1971 @@
+{
+ "id": "2026-10-19-noche",
+ "fecha": "2026-10-19",
+ "turno": "noche",
+ "titulo": "Simulacro de la noche",
+ "segundos_por_pregunta": 45,
+ "temas_noche": [
+  "Cardiología · Arritmias",
+  "Nefrología · Hiponatremia"
+ ],
+ "feedback_noche": "Hoy no habías rendido el simulacro de la mañana a la hora de la rutina, así que tomé tus dos temas más débiles acumulados: ambos van 0/2 y el par es distinto al de anoche.\nEn taquiarritmias decide en este orden: ¿QRS estrecho o ancho?, ¿regular o irregular?, ¿estable o inestable?; inestable con pulso siempre es choque sincronizado, y todo lo irregular y ancho en un joven prohíbe los bloqueadores nodales.\nEn la anticoagulación la trampa es de umbral: CHA2DS2-VASc ≥2 varón / ≥3 mujer, y warfarina solo con prótesis mecánica o estenosis mitral reumática.\nEn el sodio bajo nunca saltes el algoritmo: primero osmolaridad (descarta glucosa, manitol y lípidos), luego el volumen extracelular y al final el sodio urinario con corte en 20.\nLa salina al 3 % es solo para convulsión o sopor, y el límite de 8 mEq/L en 24 horas solo se puede violar si el descenso ocurrió en menos de 48 horas.",
+ "perlas_noche": [
+  "QRS estrecho regular sin P: vagales, adenosina 6-12-12 mg, luego verapamilo/BB; con asma severa o vía accesoria, salta la adenosina.",
+  "Control de frecuencia: BB o Ca-antagonista; FEVI baja digoxina; EPOC/asma Ca-antagonista; revertir ritmo: corazón sano flecainida/propafenona, cardiopatía amiodarona.",
+  "Choque sincronizado si hay pulso (TSV 50-100 J, TV 100 J, FA 120-200 J); sin pulso desfibrilar (adulto 200 J, niño 4 J/kg); QT largo que se tuerce: magnesio.",
+  "Sodio bajo: osmolaridad alta = glucosa/manitol (suma 1,6-2,4 por cada 100 de glucosa); normal = lípidos/proteínas; baja = verdadero, clasifica por LEC y Na urinario (corte 20).",
+  "Salina 3 % = 513 mEq/L (5½ ampollas de NaCl 20 % + 890 ml SF) solo con convulsión o sopor; subir ≤8 mEq/L en 24 h y ≤24 en 48 h; la lesión pontina aparece a los 2-6 días."
+ ],
+ "preguntas": [
+  {
+   "id": "2026-10-19-noche-001",
+   "enunciado": "Mujer de 41 años sin antecedentes llega por palpitaciones de 2 horas, ahora con sudoración, visión borrosa y tendencia al sueño. PA 76/40 mmHg, FC 196X' regular, FR 26X', SatO2 93 %, extremidades frías. EKG: QRS de 0,08 s, regulares, a 196X', sin ondas P. Se canaliza vía y se coloca monitor. ¿Cuál es la conducta inmediata?",
+   "opciones": [
+    "Diltiazem 0,25 mg/kg endovenoso",
+    "Cardioversión eléctrica sincronizada con 50 a 100 J",
+    "Adenosina 12 mg endovenosa en bolo",
+    "Amiodarona 300 mg endovenosa en bolo",
+    "Desfibrilación no sincronizada con 200 J"
+   ],
+   "clave": 2,
+   "especialidad": "Cardiología",
+   "tema": "Arritmias",
+   "diagnostico": "Taquicardia supraventricular con inestabilidad hemodinámica",
+   "tipo": "conducta",
+   "dificultad": "alta",
+   "razonamiento": "Paso 1: QRS estrecho regular sin P: supraventricular. Paso 2: hipotensión y alteración de conciencia cumplen criterios de inestabilidad. Paso 3: cardioversión eléctrica sincronizada; para QRS estrecho regular bastan 50-100 J bifásicos.",
+   "por_que_no": [
+    "Hipotensa; el calcio-antagonista profundiza la hipotensión.",
+    "",
+    "Vale en paciente estable; con hipotensión y sopor no se pierde tiempo en fármacos.",
+    "Esa dosis es la del paro sin pulso; aquí hay pulso y necesita electricidad sincronizada.",
+    "El choque no sincronizado en ritmo con pulso puede caer en la T e inducir fibrilación ventricular."
+   ],
+   "trampa": [
+    "otro-estadio",
+    "",
+    "otro-estadio",
+    "otro-contexto",
+    "otro"
+   ],
+   "perla": "Inestable con pulso = cardioversión sincronizada; QRS estrecho regular 50-100 J, FA 120-200 J, TV 100 J.",
+   "fuente": {
+    "carpeta": "9. CARDIOLOGIA",
+    "archivo": "22. RCP PLUS.pdf",
+    "seccion": "pág. 1 (energías, bradicardia, pediatría)"
+   },
+   "gemela_de": null
+  },
+  {
+   "id": "2026-10-19-noche-002",
+   "enunciado": "Varón de 59 años con infarto anterior hace 2 años, FEVI 35 %, acude por palpitaciones y mareo de 20 minutos. PA 108/70 mmHg, FC 168X' regular, FR 20X', SatO2 96 %, lúcido, sin dolor torácico ni crepitantes. EKG: QRS de 0,16 s, regulares, de morfología uniforme en todas las derivaciones, a 168X', con disociación entre las escasas ondas P visibles y los QRS. ¿Cuál es el tratamiento de elección?",
+   "opciones": [
+    "Adenosina 6 mg endovenosa",
+    "Verapamilo endovenoso",
+    "Sulfato de magnesio endovenoso",
+    "Amiodarona endovenosa",
+    "Cardioversión eléctrica sincronizada con 100 J"
+   ],
+   "clave": 4,
+   "especialidad": "Cardiología",
+   "tema": "Arritmias",
+   "diagnostico": "Taquicardia ventricular monomorfa estable con pulso en cardiopatía isquémica",
+   "tipo": "tratamiento",
+   "dificultad": "alta",
+   "razonamiento": "Paso 1: QRS ancho (0,16 s), regular, uniforme, con disociación AV, en cicatriz de infarto: origen ventricular monomorfo. Paso 2: tiene pulso y no cumple criterios de inestabilidad. Paso 3: antiarrítmico de elección amiodarona endovenosa; si se inestabiliza, cardioversión sincronizada.",
+   "por_que_no": [
+    "Es para QRS estrecho; en QRS ancho de origen ventricular no revierte y puede deteriorar.",
+    "Puede causar colapso hemodinámico en taquicardia de origen ventricular.",
+    "Es el tratamiento de la forma polimorfa con QT largo, no de la monomorfa.",
+    "",
+    "Indicada si aparece hipotensión, dolor, alteración de conciencia o edema pulmonar; hoy está estable."
+   ],
+   "trampa": [
+    "diferencial",
+    "otro",
+    "diferencial",
+    "",
+    "otro-estadio"
+   ],
+   "perla": "QRS ancho regular monomorfo con pulso: estable amiodarona; inestable cardioversión sincronizada 100 J.",
+   "fuente": {
+    "carpeta": "9. CARDIOLOGIA",
+    "archivo": "6. ARRITMIAS.pdf",
+    "seccion": "pág. 2 (control de FC, QRS ancho, bradiarritmias)"
+   },
+   "gemela_de": null
+  },
+  {
+   "id": "2026-10-19-noche-003",
+   "enunciado": "Varón de 68 años, alcohólico, con cirrosis compensada y desnutrición, traído por confusión fluctuante de 10 días. PA 104/66 mmHg con ortostatismo, FC 96X', mucosas secas, sin edemas ni ascitis, sin convulsiones. Laboratorio: sodio 115 mEq/L, potasio 3,0 mEq/L, osmolaridad 240 mOsm/kg, albúmina 2,4 g/dl, sodio urinario 12 mEq/L. ¿Cuál es la estrategia de corrección más apropiada?",
+   "opciones": [
+    "Salina al 3 % en bolos de 150 ml hasta que el sodio supere 125 mEq/L",
+    "Salina al 0,9 % a goteo rápido hasta normalizar el sodio en 12 horas",
+    "Restricción hídrica estricta y furosemida",
+    "Desmopresina para frenar la diuresis acuosa",
+    "Salina al 0,9 % con control de sodio cada 4 horas, sin superar 8 mEq/L en 24 horas"
+   ],
+   "clave": 5,
+   "especialidad": "Nefrología",
+   "tema": "Hiponatremia",
+   "diagnostico": "Hiponatremia crónica hipovolémica en alcohólico desnutrido: población de máximo riesgo de mielinólisis",
+   "tipo": "conducta",
+   "dificultad": "muy alta",
+   "razonamiento": "Paso 1: crónico (10 días), hipoosmolar y con extracelular disminuido por pérdida extrarrenal (Na urinario <20). Paso 2: alcohólico, desnutrido, hepatópata e hipokalémico: la población más susceptible a la lesión pontina. Paso 3: salina al 0,9 % con controles frecuentes y tope de 8 mEq/L al día; el hipertónico solo si convulsiona.",
+   "por_que_no": [
+    "El hipertónico es para convulsión o sopor; en un crónico de alto riesgo sin síntomas graves sobrecorrige.",
+    "La velocidad, no la solución, es el problema: superar 8-12 en 24 horas lo expone a desmielinización.",
+    "Es el manejo del edematoso; este paciente está deshidratado.",
+    "Retendría agua y bajaría más el sodio.",
+    ""
+   ],
+   "trampa": [
+    "otro-estadio",
+    "umbral",
+    "diferencial",
+    "otro",
+    ""
+   ],
+   "perla": "Alcohólico, desnutrido, hepatópata o hipokalémico: corrige aún más lento; son los que hacen desmielinización.",
+   "fuente": {
+    "carpeta": "14. NEFROLOGIA",
+    "archivo": "8. HIPONATREMIA.pdf",
+    "seccion": "pág. 1 (NaCl 3 %, ley de corrección, Adrogué, mielinólisis)"
+   },
+   "gemela_de": null
+  },
+  {
+   "id": "2026-10-19-noche-004",
+   "enunciado": "Mujer de 71 años con disnea progresiva de 2 semanas, ortopnea y edema de miembros inferiores. PA 102/66 mmHg, FC 134X' irregular, FR 26X', SatO2 91 %, crepitantes bibasales. EKG: QRS de 0,09 s, RR irregulares, sin P. Ecocardiograma: FEVI 28 %, dilatación de cavidades izquierdas, sin valvulopatía. Ya se inició anticoagulación. ¿Cuál es el fármaco de elección para controlar la frecuencia ventricular en este caso?",
+   "opciones": [
+    "Diltiazem",
+    "Propafenona",
+    "Verapamilo",
+    "Flecainida",
+    "Digoxina"
+   ],
+   "clave": 5,
+   "especialidad": "Cardiología",
+   "tema": "Arritmias",
+   "diagnostico": "Fibrilación auricular con insuficiencia cardiaca descompensada y FEVI baja: control de frecuencia",
+   "tipo": "tratamiento",
+   "dificultad": "alta",
+   "razonamiento": "Paso 1: RR irregular sin P con FC 134: fibrilación auricular con respuesta rápida. Paso 2: FEVI 28 % y congestión: insuficiencia cardiaca descompensada. Paso 3: calcio-antagonistas contraindicados y betabloqueador riesgoso en descompensación; la digoxina baja la frecuencia sin deprimir el ventrículo.",
+   "por_que_no": [
+    "Calcio-antagonista no dihidropiridínico contraindicado con FEVI menor de 50 %.",
+    "Igual que la anterior: antiarrítmico de corazón estructuralmente sano.",
+    "Misma contraindicación: deprime más un ventrículo ya deprimido.",
+    "Es para revertir ritmo en corazón sano, no para controlar frecuencia ni con FEVI baja.",
+    ""
+   ],
+   "trampa": [
+    "otro-contexto",
+    "otro-momento",
+    "otro-contexto",
+    "otro-momento",
+    ""
+   ],
+   "perla": "Control de frecuencia: BB o Ca-antagonista; con insuficiencia cardiaca digoxina; con EPOC/asma Ca-antagonista; refractario amiodarona.",
+   "fuente": {
+    "carpeta": "9. CARDIOLOGIA",
+    "archivo": "6. ARRITMIAS.pdf",
+    "seccion": "pág. 2 (control de FC, QRS ancho, bradiarritmias)"
+   },
+   "gemela_de": null
+  },
+  {
+   "id": "2026-10-19-noche-005",
+   "enunciado": "Varón de 52 años evaluado por mareos ocasionales. PA 118/74 mmHg, FC 54X'. EKG de 12 derivaciones: ondas P regulares a 72 por minuto; cada intervalo PR es más largo que el anterior (0,18, 0,24, 0,32 s) hasta que una onda P no es seguida de QRS, tras lo cual el PR vuelve a 0,18 s y la secuencia se repite; QRS de 0,08 s. ¿Cuál es el diagnóstico electrocardiográfico?",
+   "opciones": [
+    "Bloqueo auriculoventricular de tercer grado",
+    "Pausa sinusal por disfunción del nodo sinusal",
+    "Bloqueo auriculoventricular de segundo grado tipo Mobitz II",
+    "Bloqueo auriculoventricular de primer grado",
+    "Bloqueo auriculoventricular de segundo grado tipo Mobitz I"
+   ],
+   "clave": 5,
+   "especialidad": "Cardiología",
+   "tema": "Arritmias",
+   "diagnostico": "Bloqueo AV de segundo grado Mobitz I (Wenckebach)",
+   "tipo": "diagnostico",
+   "dificultad": "media",
+   "razonamiento": "Paso 1: ondas P regulares, es decir el nodo sinusal funciona. Paso 2: el PR se alarga progresivamente hasta que una P se bloquea y el ciclo reinicia: fenómeno de Wenckebach. Paso 3: bloqueo de segundo grado tipo Mobitz I, de origen nodal, QRS estrecho.",
+   "por_que_no": [
+    "En el bloqueo completo hay disociación total entre P y QRS, con QRS lentos y anchos.",
+    "En la pausa sinusal desaparece la P, no solo el QRS.",
+    "En el Mobitz II el PR es fijo y la P se bloquea de forma súbita.",
+    "En el primer grado el PR es mayor de 0,20 s pero constante y toda P conduce.",
+    ""
+   ],
+   "trampa": [
+    "otro-estadio",
+    "diferencial",
+    "otro-estadio",
+    "otro-estadio",
+    ""
+   ],
+   "perla": "PR que se alarga hasta que falta un QRS: Mobitz I; PR fijo con QRS que falta de golpe: Mobitz II.",
+   "fuente": {
+    "carpeta": "9. CARDIOLOGIA",
+    "archivo": "6. ARRITMIAS.pdf",
+    "seccion": "pág. 1 (taquiarritmias QRS estrecho, WPW, FA)"
+   },
+   "gemela_de": null
+  },
+  {
+   "id": "2026-10-19-noche-006",
+   "enunciado": "Mujer de 70 años hipertensa que inició hidroclorotiazida hace 3 semanas, acude por mareos y debilidad. PA 96/58 mmHg con caída ortostática de 20 mmHg, FC 102X', mucosas secas, sin edemas, lúcida. Laboratorio: sodio 126 mEq/L, potasio 3,1 mEq/L, glucosa 96 mg/dl, BUN 28 mg/dl, osmolaridad plasmática 262 mOsm/kg. Para completar la clasificación del trastorno según el algoritmo, ¿qué examen permite distinguir si la pérdida de sodio es renal o extrarrenal?",
+   "opciones": [
+    "Sodio urinario",
+    "TSH sérica",
+    "Osmolaridad urinaria",
+    "Ácido úrico sérico",
+    "Cortisol plasmático basal"
+   ],
+   "clave": 1,
+   "especialidad": "Nefrología",
+   "tema": "Hiponatremia",
+   "diagnostico": "Hiponatremia hipovolémica por tiazida: sodio urinario >20 señala pérdida renal",
+   "tipo": "prueba",
+   "dificultad": "media",
+   "razonamiento": "Paso 1: osmolaridad baja: sodio bajo verdadero. Paso 2: ortostatismo, mucosas secas y BUN alto: extracelular disminuido. Paso 3: el tercer paso del algoritmo es el sodio urinario: >20 pérdida renal (diuréticos, Addison, cerebro perdedor de sal), <20 pérdida extrarrenal (diarrea, vómitos).",
+   "por_que_no": [
+    "",
+    "Orienta a la causa euvolémica por hipotiroidismo; aquí el extracelular está disminuido.",
+    "Informa de la concentración de la orina, no del sitio de pérdida de sodio.",
+    "No forma parte del algoritmo de clasificación.",
+    "Útil si se sospecha falla suprarrenal, que es una causa, no el paso clasificatorio."
+   ],
+   "trampa": [
+    "",
+    "diferencial",
+    "no-confirmatorio",
+    "otro",
+    "otro-momento"
+   ],
+   "perla": "Algoritmo: 1° osmolaridad, 2° estado del extracelular, 3° sodio urinario (corte 20 mEq/L).",
+   "fuente": {
+    "carpeta": "14. NEFROLOGIA",
+    "archivo": "8. HIPONATREMIA.pdf",
+    "seccion": "pág. 1 (algoritmo por osmolaridad, LEC y Na urinario)"
+   },
+   "gemela_de": null
+  },
+  {
+   "id": "2026-10-19-noche-007",
+   "enunciado": "Mujer de 59 años con sodio de 109 mEq/L crónico que fue corregido a 135 mEq/L en 16 horas en otro centro. Es dada de alta asintomática al segundo día. Su hija pregunta durante cuánto tiempo debe vigilar la aparición de dificultad para hablar, tragar o mover las extremidades. ¿En qué plazo después de la corrección aparece típicamente esa complicación?",
+   "opciones": [
+    "Entre 2 y 3 semanas después",
+    "Entre 2 y 6 días después de la corrección",
+    "En las primeras 6 horas de la infusión",
+    "A las 24 horas exactas de iniciar la corrección",
+    "Entre 1 y 2 meses después"
+   ],
+   "clave": 2,
+   "especialidad": "Nefrología",
+   "tema": "Hiponatremia",
+   "diagnostico": "Mielinólisis pontina central: latencia de 2-6 días tras la corrección rápida",
+   "tipo": "complicacion",
+   "dificultad": "media",
+   "razonamiento": "Paso 1: ascenso de 26 mEq/L en 16 horas en un trastorno crónico: corrección que viola la ley. Paso 2: el daño osmótico de la mielina es diferido. Paso 3: la clínica pontina (disartria, disfagia, diplopía, parálisis flácida) aparece a los 2-6 días; se confirma con resonancia y el manejo es de soporte.",
+   "por_que_no": [
+    "Demasiado tarde; a esa altura ya se habría manifestado.",
+    "",
+    "La desmielinización no es inmediata; en ese plazo los síntomas son del sodio bajo o de la sobrecarga.",
+    "Es el plazo de la ley de corrección, no de la aparición del daño.",
+    "Mucho más tardío de lo descrito."
+   ],
+   "trampa": [
+    "otro-momento",
+    "",
+    "otro-momento",
+    "umbral",
+    "otro-momento"
+   ],
+   "perla": "Corrección rápida: la lesión pontina aparece a los 2-6 días; resonancia para confirmarla, tratamiento de soporte.",
+   "fuente": {
+    "carpeta": "14. NEFROLOGIA",
+    "archivo": "8. HIPONATREMIA.pdf",
+    "seccion": "pág. 1 (NaCl 3 %, ley de corrección, Adrogué, mielinólisis)"
+   },
+   "gemela_de": null
+  },
+  {
+   "id": "2026-10-19-noche-008",
+   "enunciado": "Varón de 26 años con episodios previos de palpitaciones no estudiados, ahora con palpitaciones de 45 minutos, mareo intenso y disnea. PA 82/50 mmHg, FC 220X' irregular, FR 28X', SatO2 92 %, sudoroso. EKG: QRS de 0,15 s, irregulares, con amplitud y anchura variables, sin P. ¿Cuál es el tratamiento de elección en este momento?",
+   "opciones": [
+    "Procainamida endovenosa en infusión",
+    "Adenosina endovenosa en bolo",
+    "Amiodarona endovenosa en infusión",
+    "Diltiazem endovenoso en bolo",
+    "Cardioversión eléctrica sincronizada"
+   ],
+   "clave": 5,
+   "especialidad": "Cardiología",
+   "tema": "Arritmias",
+   "diagnostico": "Taquicardia irregular de QRS ancho por vía accesoria con inestabilidad",
+   "tipo": "conducta",
+   "dificultad": "alta",
+   "razonamiento": "Paso 1: ritmo irregular de QRS ancho y morfología variable en joven con palpitaciones recurrentes: conducción auricular caótica por vía accesoria. Paso 2: hipotensión y disnea: inestable. Paso 3: cardioversión eléctrica sincronizada de inmediato.",
+   "por_que_no": [
+    "Es la opción cuando el paciente está estable; con hipotensión no se espera a la infusión.",
+    "Bloqueador nodal: en este ritmo precipita fibrilación ventricular.",
+    "Enlentece la vía nodal y puede favorecer la conducción por la accesoria; además es lenta.",
+    "Mismo problema: bloqueo nodal con hipotensión agregada.",
+    ""
+   ],
+   "trampa": [
+    "otro-estadio",
+    "otro",
+    "otro-contexto",
+    "otro",
+    ""
+   ],
+   "perla": "Irregular, ancho y rápido en joven: piensa en vía accesoria; inestable = choque sincronizado.",
+   "fuente": {
+    "carpeta": "9. CARDIOLOGIA",
+    "archivo": "6. ARRITMIAS.pdf",
+    "seccion": "pág. 1 (taquiarritmias QRS estrecho, WPW, FA)"
+   },
+   "gemela_de": null
+  },
+  {
+   "id": "2026-10-19-noche-009",
+   "enunciado": "Mujer de 36 años corredora de maratón que bebió abundante agua durante la carrera; al terminar presenta cefalea intensa, vómitos y desorientación progresiva en 2 horas. PA 134/84 mmHg, FC 92X', pupilas isocóricas reactivas, sin focalización, sin edemas. Laboratorio: sodio 119 mEq/L, osmolaridad 246 mOsm/kg, glucosa 96 mg/dl. Mientras se prepara la salina al 3 %, ¿cuál es la complicación inmediata que motiva la urgencia del tratamiento?",
+   "opciones": [
+    "Edema cerebral con riesgo de convulsiones y enclavamiento",
+    "Íleo paralítico por hipotonía del músculo liso",
+    "Desmielinización pontina con tetraparesia",
+    "Arritmia ventricular por alteración del potencial de membrana",
+    "Rabdomiólisis con lesión renal aguda"
+   ],
+   "clave": 1,
+   "especialidad": "Nefrología",
+   "tema": "Hiponatremia",
+   "diagnostico": "Hiponatremia aguda por sobrecarga hídrica del ejercicio: edema cerebral",
+   "tipo": "complicacion",
+   "dificultad": "media",
+   "razonamiento": "Paso 1: ingesta masiva de agua en horas con sodio 119 y osmolaridad baja: dilución aguda verdadera. Paso 2: la cefalea, los vómitos y la desorientación progresiva traducen entrada de agua a las neuronas. Paso 3: en la forma aguda el cerebro no se adaptó: la complicación inmediata es el edema cerebral con convulsiones y enclavamiento.",
+   "por_que_no": [
+    "",
+    "El íleo es manifestación del potasio bajo.",
+    "Es la complicación tardía de corregir rápido un trastorno crónico, no del sodio bajo agudo.",
+    "La clínica cardiaca corresponde a los trastornos del potasio.",
+    "No es la amenaza inmediata de la dilución aguda del plasma."
+   ],
+   "trampa": [
+    "",
+    "diferencial",
+    "otro-momento",
+    "diferencial",
+    "otro"
+   ],
+   "perla": "Sodio: clínica neurológica (edema cerebral); potasio: clínica muscular y cardiaca.",
+   "fuente": {
+    "carpeta": "14. NEFROLOGIA",
+    "archivo": "8. HIPONATREMIA.pdf",
+    "seccion": "pág. 1 (definición, osmolaridad, falsa hiponatremia)"
+   },
+   "gemela_de": null
+  },
+  {
+   "id": "2026-10-19-noche-010",
+   "enunciado": "Mujer de 76 años con hipertensión, diabetes mellitus tipo 2 y un accidente isquémico transitorio hace 2 años, sin insuficiencia cardiaca ni enfermedad arterial periférica. Acude por palpitaciones de 1 semana. PA 138/86 mmHg, FC 98X' irregular. EKG: QRS de 0,08 s, RR irregulares, sin ondas P. Ecocardiograma sin valvulopatía, FEVI 60 %. ¿Cuál es su puntaje en la escala de riesgo embólico utilizada para decidir la anticoagulación?",
+   "opciones": [
+    "7 puntos",
+    "8 puntos",
+    "4 puntos",
+    "5 puntos",
+    "6 puntos"
+   ],
+   "clave": 1,
+   "especialidad": "Cardiología",
+   "tema": "Arritmias",
+   "diagnostico": "Fibrilación auricular no valvular: cálculo de CHA2DS2-VASc",
+   "tipo": "severidad",
+   "dificultad": "alta",
+   "razonamiento": "Paso 1: fibrilación auricular no valvular: se aplica CHA2DS2-VASc. Paso 2: hipertensión 1 + diabetes 1 + edad ≥75 2 + accidente isquémico transitorio 2 + sexo femenino 1. Paso 3: 7 puntos; anticoagulación obligada, de preferencia con anticoagulante directo.",
+   "por_que_no": [
+    "",
+    "Suma insuficiencia cardiaca o enfermedad vascular que la paciente no tiene.",
+    "Olvida que la edad de 75 o más y el evento neurológico valen 2 cada uno.",
+    "Cuenta la edad como 1 punto (65-74) en vez de 2.",
+    "Omite el punto por sexo femenino."
+   ],
+   "trampa": [
+    "",
+    "umbral",
+    "umbral",
+    "umbral",
+    "umbral"
+   ],
+   "perla": "CHA2DS2-VASc: valen 2 la edad ≥75 y el ACV/AIT previo; el resto 1 (IC, HTA, DM, vascular, 65-74, mujer).",
+   "fuente": {
+    "carpeta": "9. CARDIOLOGIA",
+    "archivo": "6. ARRITMIAS.pdf",
+    "seccion": "pág. 1 (taquiarritmias QRS estrecho, WPW, FA)"
+   },
+   "gemela_de": null
+  },
+  {
+   "id": "2026-10-19-noche-011",
+   "enunciado": "Mujer de 55 años con palpitaciones de 10 días, estable, PA 126/80 mmHg, FC 96X' irregular con bisoprolol. EKG: QRS de 0,08 s, RR irregulares, sin ondas P. Ecocardiograma transtorácico: aurícula izquierda de 4,3 cm, FEVI 55 %, sin valvulopatía. Está anticoagulada hace 5 días. El cardiólogo plantea intentar restaurar el ritmo sinusal con cardioversión eléctrica. ¿Qué examen debe solicitarse antes del procedimiento y con qué fin?",
+   "opciones": [
+    "Coronariografía para descartar enfermedad coronaria",
+    "Holter de 24 horas para cuantificar la carga de arritmia",
+    "Estudio electrofisiológico para mapear el circuito",
+    "Prueba de esfuerzo para descartar isquemia inducible",
+    "Ecocardiograma transesofágico para descartar trombo en la aurícula izquierda"
+   ],
+   "clave": 5,
+   "especialidad": "Cardiología",
+   "tema": "Arritmias",
+   "diagnostico": "Fibrilación auricular persistente: evaluación previa a la cardioversión",
+   "tipo": "prueba",
+   "dificultad": "media",
+   "razonamiento": "Paso 1: fibrilación de más de 7 días (persistente), con aurícula dilatada. Paso 2: la anticoagulación lleva menos de 3 semanas; puede haber trombo en orejuela. Paso 3: antes de revertir el ritmo se descarta trombo con ecocardiograma transesofágico.",
+   "por_que_no": [
+    "No hay angina ni indicación; no cambia el riesgo embólico.",
+    "Mide cuánto tiempo pasa en arritmia; no descarta el trombo que la cardioversión puede soltar.",
+    "Se usa para planificar ablación, no para autorizar la cardioversión.",
+    "No evalúa el riesgo embólico del procedimiento.",
+    ""
+   ],
+   "trampa": [
+    "otro-contexto",
+    "no-confirmatorio",
+    "otro-momento",
+    "otro-contexto",
+    ""
+   ],
+   "perla": "Antes de revertir el ritmo: ecocardiograma para descartar trombo en aurícula izquierda.",
+   "fuente": {
+    "carpeta": "9. CARDIOLOGIA",
+    "archivo": "6. ARRITMIAS.pdf",
+    "seccion": "pág. 2 (control de FC, QRS ancho, bradiarritmias)"
+   },
+   "gemela_de": null
+  },
+  {
+   "id": "2026-10-19-noche-012",
+   "enunciado": "Mujer de 67 años con sodio de 116 mEq/L, osmolaridad 242 mOsm/kg y confusión progresiva de 12 horas, sin edemas. Se decide iniciar solución salina al 3 %. El interno pregunta cuánto sodio aporta cada litro de esa solución para calcular la velocidad de infusión. ¿Cuál es la concentración de sodio de la solución al 3 %?",
+   "opciones": [
+    "513 mEq/L",
+    "68 mEq/L",
+    "1 026 mEq/L",
+    "154 mEq/L",
+    "308 mEq/L"
+   ],
+   "clave": 1,
+   "especialidad": "Nefrología",
+   "tema": "Hiponatremia",
+   "diagnostico": "Concentración de sodio de las soluciones salinas (0,9 % vs 3 % vs ampolla 20 %)",
+   "tipo": "dosis",
+   "dificultad": "media",
+   "razonamiento": "Paso 1: 3 % = 30 g de NaCl por litro. Paso 2: 30 000 mg / 58,5 (peso molecular) ≈ 513 mEq/L. Paso 3: el 0,9 % tiene 9 g/L = 154 mEq/L, y una ampolla de 20 ml al 20 % aporta 68 mEq.",
+   "por_que_no": [
+    "",
+    "Es el aporte de una ampolla de 20 ml al 20 %.",
+    "Equivale a una solución al 6 %.",
+    "Es la concentración del suero fisiológico al 0,9 %.",
+    "Corresponde a una solución al 1,8 %."
+   ],
+   "trampa": [
+    "",
+    "umbral",
+    "umbral",
+    "umbral",
+    "umbral"
+   ],
+   "perla": "Fisiológico 154 mEq/L; salina 3 % 513 mEq/L; ampolla de NaCl 20 % (20 ml) 68 mEq.",
+   "fuente": {
+    "carpeta": "14. NEFROLOGIA",
+    "archivo": "8. HIPONATREMIA.pdf",
+    "seccion": "pág. 1 (NaCl 3 %, ley de corrección, Adrogué, mielinólisis)"
+   },
+   "gemela_de": null
+  },
+  {
+   "id": "2026-10-19-noche-013",
+   "enunciado": "Mujer de 55 años con sodio de 108 mEq/L de larga evolución que recibió salina al 3 % en bolos repetidos; a las 14 horas el sodio era 134 mEq/L. Al cuarto día desarrolla disartria, disfagia, diplopía y debilidad flácida de las cuatro extremidades, con conciencia conservada. PA 124/80 mmHg, FC 80X', afebril. Sodio actual 136 mEq/L. ¿Cuál es el mecanismo del cuadro neurológico?",
+   "opciones": [
+    "Isquemia del tronco encefálico por hipotensión durante la infusión",
+    "Deshidratación y lesión de la mielina por el ascenso brusco de la osmolaridad plasmática",
+    "Encefalopatía por hiperamonemia asociada a la hepatopatía",
+    "Lesión inflamatoria autoinmune del tronco encefálico",
+    "Edema cerebral por descenso rápido de la osmolaridad plasmática"
+   ],
+   "clave": 2,
+   "especialidad": "Nefrología",
+   "tema": "Hiponatremia",
+   "diagnostico": "Mielinólisis pontina central por corrección rápida: mecanismo osmótico",
+   "tipo": "mecanismo",
+   "dificultad": "alta",
+   "razonamiento": "Paso 1: corrección de 26 mEq/L en 14 horas en un trastorno crónico. Paso 2: cuadro protuberancial de aparición diferida (2-6 días): las 3 D (disartria, disfagia, diplopía) y parálisis flácida. Paso 3: el aumento repentino de la osmolaridad sérica deshidrata y daña la mielina del puente.",
+   "por_que_no": [
+    "La paciente nunca estuvo hipotensa y el cuadro es bilateral y diferido.",
+    "",
+    "No hay compromiso de conciencia ni datos de hepatopatía.",
+    "El antecedente de corrección de 26 mEq/L en 14 horas explica la lesión osmótica.",
+    "Es el mecanismo de los síntomas del sodio bajo, no de su corrección."
+   ],
+   "trampa": [
+    "diferencial",
+    "",
+    "diferencial",
+    "diferencial",
+    "diferencial"
+   ],
+   "perla": "Corrección rápida de un sodio crónico: lesión pontina a los 2-6 días por deshidratación de la mielina.",
+   "fuente": {
+    "carpeta": "14. NEFROLOGIA",
+    "archivo": "8. HIPONATREMIA.pdf",
+    "seccion": "pág. 1 (NaCl 3 %, ley de corrección, Adrogué, mielinólisis)"
+   },
+   "gemela_de": null
+  },
+  {
+   "id": "2026-10-19-noche-014",
+   "enunciado": "Mujer de 46 años con pancreatitis previa y dislipidemia severa sin tratamiento, asintomática, en control. PA 118/76 mmHg, FC 76X', sin edemas ni signos de deshidratación. Laboratorio: sodio 128 mEq/L, potasio 4,1 mEq/L, glucosa 92 mg/dl, BUN 12 mg/dl, triglicéridos 3 800 mg/dl, osmolaridad plasmática medida 286 mOsm/kg. ¿Cuál es el mecanismo que explica el valor de sodio?",
+   "opciones": [
+    "Pérdida renal de sodio con depleción del volumen extracelular",
+    "Retención de agua libre por secreción no suprimida de hormona antidiurética",
+    "Dilución por ingesta de agua superior a la capacidad excretora renal",
+    "Desplazamiento de agua del intracelular al extracelular por un osmol efectivo",
+    "Artefacto de medición por el exceso de la fase sólida del plasma (lípidos)"
+   ],
+   "clave": 5,
+   "especialidad": "Nefrología",
+   "tema": "Hiponatremia",
+   "diagnostico": "Pseudohiponatremia (isoosmolar) por hipertrigliceridemia",
+   "tipo": "mecanismo",
+   "dificultad": "alta",
+   "razonamiento": "Paso 1: sodio bajo con osmolaridad medida normal (286): no es un trastorno real del agua. Paso 2: triglicéridos de 3 800 aumentan la fase sólida del plasma y el laboratorio subestima el sodio. Paso 3: es una falsa disminución; no requiere tratamiento del sodio, solo de la dislipidemia.",
+   "por_que_no": [
+    "No hay hipovolemia ni osmolaridad baja.",
+    "Produciría osmolaridad medida baja; aquí está en rango normal.",
+    "Mismo problema: toda dilución verdadera baja la osmolaridad medida.",
+    "Ese es el mecanismo cuando la osmolaridad medida está alta (glucosa, manitol); aquí es normal.",
+    ""
+   ],
+   "trampa": [
+    "diferencial",
+    "diferencial",
+    "diferencial",
+    "diferencial",
+    ""
+   ],
+   "perla": "Osmolaridad normal + lípidos o proteínas muy altos = sodio falsamente bajo; no se trata.",
+   "fuente": {
+    "carpeta": "14. NEFROLOGIA",
+    "archivo": "8. HIPONATREMIA.pdf",
+    "seccion": "pág. 1 (definición, osmolaridad, falsa hiponatremia)"
+   },
+   "gemela_de": null
+  },
+  {
+   "id": "2026-10-19-noche-015",
+   "enunciado": "Varón de 55 años con vómitos profusos de 6 días por una obstrucción pilórica, que solo ha bebido agua. PA 98/60 mmHg, FC 112X', mucosas secas. Laboratorio: sodio 113 mEq/L, potasio 2,6 mEq/L, cloro 80 mEq/L, pH 7,52, HCO3 36 mEq/L, osmolaridad 236 mOsm/kg, sodio urinario 9 mEq/L. Al examen: somnolencia progresiva con respuestas lentas, calambres en las piernas, abdomen distendido con ruidos hidroaéreos ausentes y extrasístoles frecuentes en el monitor. ¿Cuál de los hallazgos se atribuye al trastorno del sodio y no al del potasio?",
+   "opciones": [
+    "Las extrasístoles del monitor",
+    "La debilidad de los miembros inferiores",
+    "El íleo con ruidos hidroaéreos ausentes",
+    "La somnolencia progresiva",
+    "Los calambres de las piernas"
+   ],
+   "clave": 4,
+   "especialidad": "Nefrología",
+   "tema": "Hiponatremia",
+   "diagnostico": "Hiponatremia hipovolémica severa por vómitos con hipokalemia: clínica neurológica del sodio vs muscular del potasio",
+   "tipo": "mecanismo",
+   "dificultad": "alta",
+   "razonamiento": "Paso 1: el sodio da clínica neurológica (letargia, cefalea, sopor, convulsiones), sobre todo cuando es severo (<125). Paso 2: el potasio da clínica muscular: liso (íleo), esquelético (calambres, debilidad) y cardiaco (arritmias). Paso 3: con sodio 113 y potasio 2,6, solo la somnolencia es del sodio.",
+   "por_que_no": [
+    "La arritmia es la expresión del potasio en el músculo cardiaco.",
+    "La debilidad muscular también corresponde al potasio bajo.",
+    "El íleo es la expresión del potasio bajo en el músculo liso.",
+    "",
+    "El calambre es la expresión del potasio bajo en el músculo esquelético."
+   ],
+   "trampa": [
+    "diferencial",
+    "diferencial",
+    "diferencial",
+    "",
+    "diferencial"
+   ],
+   "perla": "Trastorno del sodio = sensorio; trastorno del potasio = músculo liso, esquelético y corazón.",
+   "fuente": {
+    "carpeta": "14. NEFROLOGIA",
+    "archivo": "8. HIPONATREMIA.pdf",
+    "seccion": "pág. 1 (definición, osmolaridad, falsa hiponatremia)"
+   },
+   "gemela_de": null
+  },
+  {
+   "id": "2026-10-19-noche-016",
+   "enunciado": "Mujer de 69 años con mareos y un episodio de visión oscura al levantarse esta mañana. No toma fármacos que frenen el corazón. PA 86/50 mmHg, FC 38X', FR 18X', SatO2 96 %, lúcida, piel fría. EKG: ritmo con ondas P seguidas de QRS, intervalo PR que se alarga de forma progresiva en latidos sucesivos hasta que una P no conduce, y el ciclo se repite; QRS de 0,08 s. ¿Cuál es la primera medida farmacológica?",
+   "opciones": [
+    "Adrenalina en infusión 2 mcg/min",
+    "Adenosina 6 mg endovenosa",
+    "Dopamina en infusión 5 mcg/kg/min",
+    "Atropina 1 mg endovenosa",
+    "Isoproterenol en infusión"
+   ],
+   "clave": 4,
+   "especialidad": "Cardiología",
+   "tema": "Arritmias",
+   "diagnostico": "Bloqueo AV de segundo grado Mobitz I sintomático con hipotensión",
+   "tipo": "conducta",
+   "dificultad": "media",
+   "razonamiento": "Paso 1: PR que se alarga progresivamente hasta una P bloqueada: bloqueo de segundo grado tipo Wenckebach, de origen nodal. Paso 2: FC 38 con hipotensión y síntomas: bradiarritmia inestable. Paso 3: primera medida atropina 1 mg EV, repetible cada 3-5 min hasta 3 mg; si falla, marcapasos transcutáneo.",
+   "por_que_no": [
+    "Igual: alternativa cuando no responde a atropina.",
+    "Frena aún más el nodo AV; está para taquicardias.",
+    "Es la segunda línea si la atropina falla o mientras se instala el marcapasos.",
+    "",
+    "Opción de rescate posterior, no primera línea."
+   ],
+   "trampa": [
+    "otro-momento",
+    "otro",
+    "otro-momento",
+    "",
+    "otro-momento"
+   ],
+   "perla": "Bradicardia inestable: atropina 1 mg (máx. 3 mg); refractaria: marcapasos transcutáneo, dopamina o adrenalina.",
+   "fuente": {
+    "carpeta": "9. CARDIOLOGIA",
+    "archivo": "22. RCP PLUS.pdf",
+    "seccion": "pág. 1 (energías, bradicardia, pediatría)"
+   },
+   "gemela_de": null
+  },
+  {
+   "id": "2026-10-19-noche-017",
+   "enunciado": "Mujer de 62 años en tratamiento por un carcinoma pulmonar, acude por náuseas y cefalea de 4 días, sin confusión. PA 122/78 mmHg, FC 84X', sin edemas ni deshidratación, lúcida. Laboratorio: sodio 121 mEq/L, osmolaridad 250 mOsm/kg, sodio urinario 65 mEq/L, osmolaridad urinaria 480 mOsm/kg, TSH y cortisol normales. La familia pregunta cuál es el riesgo de que convulsione. ¿Por debajo de qué valor de sodio aumenta claramente la probabilidad de convulsiones?",
+   "opciones": [
+    "105 mEq/L",
+    "135 mEq/L",
+    "130 mEq/L",
+    "115 mEq/L",
+    "125 mEq/L"
+   ],
+   "clave": 4,
+   "especialidad": "Nefrología",
+   "tema": "Hiponatremia",
+   "diagnostico": "Hiponatremia euvolémica paraneoplásica: umbral de convulsiones",
+   "tipo": "severidad",
+   "dificultad": "media",
+   "razonamiento": "Paso 1: osmolaridad baja, euvolémica, orina concentrada con sodio urinario alto en paciente oncológica: retención de agua por hormona antidiurética. Paso 2: sodio 121 es severo (<125) pero aún asintomático grave. Paso 3: las convulsiones aparecen típicamente por debajo de 115 mEq/L, más cuanto más se acerca a 110.",
+   "por_que_no": [
+    "Muy bajo; a ese nivel las convulsiones ya son casi la regla.",
+    "Es el límite inferior normal, umbral de la forma leve.",
+    "Es el corte de la forma moderada.",
+    "",
+    "Es el corte de la forma severa, pero aún no el de convulsiones."
+   ],
+   "trampa": [
+    "umbral",
+    "umbral",
+    "umbral",
+    "",
+    "umbral"
+   ],
+   "perla": "Leve 130-135, moderada 125-130, severa <125; convulsiones <115 mEq/L.",
+   "fuente": {
+    "carpeta": "14. NEFROLOGIA",
+    "archivo": "8. HIPONATREMIA.pdf",
+    "seccion": "pág. 1 (definición, osmolaridad, falsa hiponatremia)"
+   },
+   "gemela_de": null
+  },
+  {
+   "id": "2026-10-19-noche-018",
+   "enunciado": "Mujer de 73 años con disnea de esfuerzo, ortopnea y edema en miembros inferiores de 2 semanas. PA 110/70 mmHg, FC 92X', ingurgitación yugular, crepitantes bibasales. Laboratorio: sodio 125 mEq/L, potasio 4,0 mEq/L, glucosa 90 mg/dl, BUN 14 mg/dl, creatinina 1,0 mg/dl, sodio urinario 12 mEq/L. ¿Cuál es la osmolaridad plasmática calculada de la paciente?",
+   "opciones": [
+    "290 mOsm/kg",
+    "260 mOsm/kg",
+    "305 mOsm/kg",
+    "250 mOsm/kg",
+    "275 mOsm/kg"
+   ],
+   "clave": 2,
+   "especialidad": "Nefrología",
+   "tema": "Hiponatremia",
+   "diagnostico": "Hiponatremia hipoosmolar hipervolémica por insuficiencia cardiaca: cálculo de osmolaridad",
+   "tipo": "prueba",
+   "dificultad": "media",
+   "razonamiento": "Paso 1: osmolaridad = 2 × Na + glucosa/18 + BUN/2,8. Paso 2: 2 × 125 = 250; 90/18 = 5; 14/2,8 = 5. Paso 3: 260 mOsm/kg, por debajo de 275: sodio bajo verdadero en paciente con extracelular aumentado y sodio urinario <20 (insuficiencia cardiaca).",
+   "por_que_no": [
+    "Es el valor normal medio, no el de esta paciente.",
+    "",
+    "Supondría un osmol adicional no presente.",
+    "Olvida sumar la glucosa y el BUN.",
+    "Usa el límite inferior normal, no el cálculo."
+   ],
+   "trampa": [
+    "umbral",
+    "",
+    "umbral",
+    "umbral",
+    "umbral"
+   ],
+   "perla": "Osmolaridad = 2 Na + glucosa/18 + BUN/2,8; normal 275-295 mOsm/kg.",
+   "fuente": {
+    "carpeta": "14. NEFROLOGIA",
+    "archivo": "8. HIPONATREMIA.pdf",
+    "seccion": "pág. 1 (definición, osmolaridad, falsa hiponatremia)"
+   },
+   "gemela_de": null
+  },
+  {
+   "id": "2026-10-19-noche-019",
+   "enunciado": "Varón de 66 años con infarto anterior hace 3 años y FEVI 38 %, acude por palpitaciones de 6 horas. PA 122/76 mmHg, FC 124X' irregular, sin congestión. EKG: QRS de 0,09 s, RR irregulares, sin ondas P. Ecocardiograma de urgencia sin trombos. Se decide restaurar el ritmo con fármacos. ¿Cuál es el antiarrítmico de elección en este paciente?",
+   "opciones": [
+    "Flecainida endovenosa",
+    "Verapamilo endovenoso",
+    "Adenosina endovenosa",
+    "Propafenona endovenosa",
+    "Amiodarona endovenosa"
+   ],
+   "clave": 5,
+   "especialidad": "Cardiología",
+   "tema": "Arritmias",
+   "diagnostico": "Fibrilación auricular en cardiopatía estructural isquémica: cardioversión farmacológica",
+   "tipo": "tratamiento",
+   "dificultad": "alta",
+   "razonamiento": "Paso 1: RR irregular sin P: fibrilación auricular reciente y estable. Paso 2: hay cardiopatía estructural (infarto previo, FEVI 38 %). Paso 3: para revertir el ritmo con cardiopatía la elección es amiodarona (o sotalol); flecainida y propafenona solo en corazón sano.",
+   "por_que_no": [
+    "Clase IC contraindicada con cardiopatía estructural o infarto previo: proarritmia.",
+    "Controla frecuencia, no ritmo, y está contraindicado con FEVI baja.",
+    "Enlentece el nodo pero no revierte una fibrilación.",
+    "Misma clase IC: solo en corazón estructuralmente sano.",
+    ""
+   ],
+   "trampa": [
+    "otro-contexto",
+    "otro-momento",
+    "otro",
+    "otro-contexto",
+    ""
+   ],
+   "perla": "Revertir ritmo: corazón sano flecainida/propafenona; cardiopatía estructural amiodarona.",
+   "fuente": {
+    "carpeta": "9. CARDIOLOGIA",
+    "archivo": "6. ARRITMIAS.pdf",
+    "seccion": "pág. 1 (taquiarritmias QRS estrecho, WPW, FA)"
+   },
+   "gemela_de": null
+  },
+  {
+   "id": "2026-10-19-noche-020",
+   "enunciado": "Varón de 33 años acude tras un síncope ocurrido durante un cuadro febril de 39 °C por faringitis. Su hermano falleció súbitamente mientras dormía a los 28 años. PA 118/76 mmHg, FC 76X', afebril hoy. Ecocardiograma normal. EKG: elevación del ST de 3 mm en V1 y V2 con morfología convexa, en cúpula, seguida de onda T negativa; QT normal. Tras el estudio se considera de alto riesgo. ¿Cuál es el tratamiento que ha demostrado reducir la mortalidad?",
+   "opciones": [
+    "Amiodarona oral de mantenimiento",
+    "Marcapasos definitivo",
+    "Betabloqueador oral de mantenimiento",
+    "Ablación por radiofrecuencia",
+    "Desfibrilador automático implantable"
+   ],
+   "clave": 5,
+   "especialidad": "Cardiología",
+   "tema": "Arritmias",
+   "diagnostico": "Síndrome de Brugada de alto riesgo: desfibrilador implantable",
+   "tipo": "tratamiento",
+   "dificultad": "alta",
+   "razonamiento": "Paso 1: síncope con fiebre, muerte súbita familiar durante el sueño y corazón estructuralmente normal. Paso 2: ST elevado ≥2 mm en V1-V3 en cúpula con T negativa: patrón tipo 1 de canalopatía del sodio (gen SCN5A); la arritmia letal es la fibrilación ventricular. Paso 3: en alto riesgo el único tratamiento que baja la mortalidad es el desfibrilador implantable.",
+   "por_que_no": [
+    "Los antiarrítmicos no han mostrado reducir la muerte súbita en esta canalopatía.",
+    "El riesgo es la fibrilación ventricular, no la bradicardia.",
+    "Es la base del QT largo congénito, no de esta entidad con QT normal.",
+    "No cura una canalopatía difusa del canal de sodio.",
+    ""
+   ],
+   "trampa": [
+    "otro",
+    "diferencial",
+    "diferencial",
+    "otro-contexto",
+    ""
+   ],
+   "perla": "ST en cúpula en V1-V3 + síncope febril + muerte súbita familiar: canal de sodio SCN5A; DAI.",
+   "fuente": {
+    "carpeta": "9. CARDIOLOGIA",
+    "archivo": "7. SD BRUGADA.pdf",
+    "seccion": "pág. 1"
+   },
+   "gemela_de": null
+  },
+  {
+   "id": "2026-10-19-noche-021",
+   "enunciado": "Varón de 50 años y 60 kg con sodio de 118 mEq/L y osmolaridad 248 mOsm/kg, confuso desde hace 3 días, sin convulsiones ni edemas. El equipo decide llevar el sodio a 126 mEq/L en las primeras 24 horas, usando 0,6 como fracción de agua corporal. ¿Cuántos mEq de sodio se requieren para alcanzar esa meta?",
+   "opciones": [
+    "36 mEq",
+    "144 mEq",
+    "288 mEq",
+    "480 mEq",
+    "720 mEq"
+   ],
+   "clave": 3,
+   "especialidad": "Nefrología",
+   "tema": "Hiponatremia",
+   "diagnostico": "Cálculo del déficit de sodio: 0,6 × peso × (Na deseado − Na real)",
+   "tipo": "dosis",
+   "dificultad": "alta",
+   "razonamiento": "Paso 1: la meta de 8 mEq/L en 24 horas respeta la ley de corrección en un cuadro crónico. Paso 2: déficit = 0,6 × peso × (Na deseado − Na real) = 0,6 × 60 × (126 − 118). Paso 3: 36 × 8 = 288 mEq, que equivalen a unos 560 ml de salina al 3 %.",
+   "por_que_no": [
+    "Olvida multiplicar por el agua corporal total.",
+    "Usa 0,3 como fracción de agua o la mitad del déficit buscado.",
+    "",
+    "Corresponde a una meta de 8 mEq/L en un paciente de 100 kg.",
+    "Resultaría de una meta de 20 mEq/L, que viola la ley de corrección."
+   ],
+   "trampa": [
+    "umbral",
+    "umbral",
+    "",
+    "umbral",
+    "umbral"
+   ],
+   "perla": "Déficit de Na = 0,6 × peso × (Na deseado − Na real); programa la meta a 8 mEq/L por día.",
+   "fuente": {
+    "carpeta": "14. NEFROLOGIA",
+    "archivo": "8. HIPONATREMIA.pdf",
+    "seccion": "pág. 1 (NaCl 3 %, ley de corrección, Adrogué, mielinólisis)"
+   },
+   "gemela_de": null
+  },
+  {
+   "id": "2026-10-19-noche-022",
+   "enunciado": "Varón de 74 años, hipertenso, sin fármacos bradicardizantes, acude a control por fatiga leve de 2 meses, sin síncopes. PA 140/82 mmHg, FC 46X'. EKG: ondas P regulares a 80 por minuto; el intervalo PR es constante (0,18 s) en los latidos conducidos, pero de forma súbita algunas ondas P no se siguen de QRS, con patrón 2:1 en varios tramos; QRS de 0,13 s. Electrolitos y TSH normales. ¿Cuál es la conducta más apropiada?",
+   "opciones": [
+    "Teofilina oral de mantenimiento",
+    "Marcapasos transcutáneo temporal y alta",
+    "Implante de marcapasos definitivo",
+    "Atropina endovenosa y alta con control",
+    "Observación con Holter de 24 horas en 3 meses"
+   ],
+   "clave": 3,
+   "especialidad": "Cardiología",
+   "tema": "Arritmias",
+   "diagnostico": "Bloqueo AV de segundo grado Mobitz II: indicación de marcapasos definitivo",
+   "tipo": "conducta",
+   "dificultad": "alta",
+   "razonamiento": "Paso 1: PR constante con P que súbitamente no conducen y QRS ancho: bloqueo de segundo grado tipo II, infrahisiano. Paso 2: aun con pocos síntomas, tiene alto riesgo de progresar a bloqueo completo y asistolia. Paso 3: la conducta es marcapasos definitivo (igual que en el bloqueo completo).",
+   "por_que_no": [
+    "No es tratamiento de un bloqueo infrahisiano establecido.",
+    "Puente para el inestable; la solución del bloqueo infrahisiano es definitiva.",
+    "",
+    "La atropina actúa sobre el nodo, no sobre un bloqueo infranodal; además es medida de rescate.",
+    "El bloqueo con PR fijo y caída súbita es infrahisiano y progresa a bloqueo completo; no se observa."
+   ],
+   "trampa": [
+    "otro",
+    "otro-momento",
+    "",
+    "otro-momento",
+    "otro-estadio"
+   ],
+   "perla": "Mobitz II y bloqueo completo: marcapasos definitivo; Mobitz I: suele ser benigno, tratar solo si sintomático.",
+   "fuente": {
+    "carpeta": "9. CARDIOLOGIA",
+    "archivo": "6. ARRITMIAS.pdf",
+    "seccion": "pág. 1 (taquiarritmias QRS estrecho, WPW, FA)"
+   },
+   "gemela_de": null
+  },
+  {
+   "id": "2026-10-19-noche-023",
+   "enunciado": "Mujer de 78 años traída por somnolencia, estreñimiento y caídas en los últimos 2 meses. PA 118/74 mmHg, FC 52X', T° 35,8 °C, piel seca y pálida, edema palpebral sin edema en miembros inferiores, reflejos lentos, sin ortostatismo. Laboratorio: sodio 127 mEq/L, potasio 4,3 mEq/L, glucosa 94 mg/dl, creatinina 1,0 mg/dl, osmolaridad 262 mOsm/kg, sodio urinario 48 mEq/L, osmolaridad urinaria 380 mOsm/kg. ¿Qué examen debe solicitarse para confirmar la causa del trastorno?",
+   "opciones": [
+    "TSH y T4 libre",
+    "Péptido natriurético cerebral",
+    "Cortisol basal y ACTH",
+    "Tomografía de tórax con contraste",
+    "Ecocardiograma transtorácico"
+   ],
+   "clave": 1,
+   "especialidad": "Nefrología",
+   "tema": "Hiponatremia",
+   "diagnostico": "Hiponatremia euvolémica por hipotiroidismo en adulta mayor",
+   "tipo": "prueba",
+   "dificultad": "alta",
+   "razonamiento": "Paso 1: osmolaridad baja con extracelular normal y orina no diluida: retención de agua. Paso 2: bradicardia, hipotermia, piel seca, reflejos lentos y estreñimiento en anciana: déficit tiroideo. Paso 3: en el euvolémico se descartan hipotiroidismo y falla suprarrenal antes de atribuirlo a secreción tumoral: TSH y T4 libre.",
+   "por_que_no": [
+    "",
+    "No forma parte del algoritmo del sodio bajo euvolémico.",
+    "Sería la elección con hipotensión, hiperkalemia e hiperpigmentación.",
+    "Busca una causa tumoral; antes se descarta la endocrina que la clínica sugiere.",
+    "El extracelular es normal; no hay datos de falla cardiaca."
+   ],
+   "trampa": [
+    "",
+    "otro",
+    "diferencial",
+    "otro-momento",
+    "diferencial"
+   ],
+   "perla": "Sodio bajo euvolémico: descartar hipotiroidismo (TSH) e insuficiencia suprarrenal (cortisol) antes de culpar a la hormona antidiurética.",
+   "fuente": {
+    "carpeta": "14. NEFROLOGIA",
+    "archivo": "8. HIPONATREMIA.pdf",
+    "seccion": "pág. 1 (algoritmo por osmolaridad, LEC y Na urinario)"
+   },
+   "gemela_de": null
+  },
+  {
+   "id": "2026-10-19-noche-024",
+   "enunciado": "Varón de 38 años con sodio de 111 mEq/L y una convulsión hace 1 hora, ahora somnoliento pero despertable, PA 130/82 mmHg, FC 94X'. Se inició salina al 3 % a 1 ml/kg/h. La enfermera pregunta qué parámetro debe guiar la decisión de continuar o detener la infusión hipertónica en las próximas horas. ¿Cuál es el mejor indicador de respuesta al tratamiento?",
+   "opciones": [
+    "Mejoría de los síntomas neurológicos",
+    "Descenso del sodio urinario por debajo de 20 mEq/L",
+    "Normalización de la osmolaridad urinaria",
+    "Alcanzar un sodio sérico de 130 mEq/L",
+    "Diuresis horaria mayor de 1 ml/kg"
+   ],
+   "clave": 1,
+   "especialidad": "Nefrología",
+   "tema": "Hiponatremia",
+   "diagnostico": "Hiponatremia severa sintomática: indicador de respuesta a la salina al 3 %",
+   "tipo": "conducta",
+   "dificultad": "alta",
+   "razonamiento": "Paso 1: sodio 111 con convulsión: severo y sintomático, en tratamiento con hipertónico. Paso 2: el peligro inmediato es el edema cerebral y el peligro tardío la sobrecorrección. Paso 3: el hipertónico se mantiene solo hasta que mejoran los síntomas neurológicos (ascenso de 4-6 mEq/L); luego se respeta el límite de 8 por día.",
+   "por_que_no": [
+    "",
+    "Es un dato clasificatorio, no de respuesta.",
+    "No refleja el edema cerebral ni la respuesta clínica.",
+    "La meta no es normalizar el sodio sino subir 4-6 mEq/L hasta que cesen los síntomas; 130 excedería el límite diario.",
+    "Mide volemia, no la resolución del trastorno neurológico."
+   ],
+   "trampa": [
+    "",
+    "otro",
+    "no-confirmatorio",
+    "umbral",
+    "otro"
+   ],
+   "perla": "Con salina 3 % la guía es clínica: se detiene al mejorar los síntomas, no al normalizar el sodio.",
+   "fuente": {
+    "carpeta": "14. NEFROLOGIA",
+    "archivo": "8. HIPONATREMIA.pdf",
+    "seccion": "pág. 1 (NaCl 3 %, ley de corrección, Adrogué, mielinólisis)"
+   },
+   "gemela_de": null
+  },
+  {
+   "id": "2026-10-19-noche-025",
+   "enunciado": "Varón de 61 años, alcohólico crónico y desnutrido, traído por su familia por confusión y marcha inestable que empeoran desde hace 2 semanas, sin convulsiones. PA 110/70 mmHg, FC 92X', sin edemas, mucosas algo secas. Laboratorio: sodio 117 mEq/L, potasio 3,2 mEq/L, osmolaridad 244 mOsm/kg, albúmina 2,6 g/dl. Se inicia corrección. ¿Cuál es el ascenso máximo de sodio permitido en las primeras 24 horas para evitar la complicación neurológica tardía?",
+   "opciones": [
+    "4 mEq/L",
+    "30 mEq/L",
+    "8 mEq/L",
+    "24 mEq/L",
+    "16 mEq/L"
+   ],
+   "clave": 3,
+   "especialidad": "Nefrología",
+   "tema": "Hiponatremia",
+   "diagnostico": "Hiponatremia crónica en alcohólico desnutrido: ley de corrección 8 mEq/L en 24 h",
+   "tipo": "dosis",
+   "dificultad": "media",
+   "razonamiento": "Paso 1: sodio bajo verdadero de más de 48 horas (síntomas de 2 semanas): crónico. Paso 2: alcohólico, desnutrido e hipokalémico: máximo riesgo de desmielinización osmótica si se corrige rápido. Paso 3: ley de corrección: no más de 8 mEq/L en las primeras 24 horas (rango 8-12) ni más de 24 en 48 horas.",
+   "por_que_no": [
+    "Demasiado conservador; la pauta es 8 (hasta 10-12) en 24 horas.",
+    "Muy por encima de cualquier límite aceptado.",
+    "",
+    "Es el tope para 48 horas, no para el primer día.",
+    "Duplica el límite seguro en un crónico de alto riesgo."
+   ],
+   "trampa": [
+    "umbral",
+    "umbral",
+    "",
+    "umbral",
+    "umbral"
+   ],
+   "perla": "Ley de corrección: ≤8 mEq/L en 24 h (8-12), ≤24 en 48 h; solo la forma aguda permite violarla.",
+   "fuente": {
+    "carpeta": "14. NEFROLOGIA",
+    "archivo": "8. HIPONATREMIA.pdf",
+    "seccion": "pág. 1 (NaCl 3 %, ley de corrección, Adrogué, mielinólisis)"
+   },
+   "gemela_de": null
+  },
+  {
+   "id": "2026-10-19-noche-026",
+   "enunciado": "Varón de 68 años con enfermedad pulmonar obstructiva crónica GOLD 3, con 2 exacerbaciones el último año, acude por palpitaciones de 2 días sin disnea adicional. PA 136/84 mmHg, FC 128X' irregular, SatO2 90 % (su basal). EKG: QRS de 0,09 s, RR irregulares, sin P. Ecocardiograma: FEVI 58 %, sin valvulopatía. Se inicia anticoagulación. ¿Qué fármaco es el más apropiado para controlar la frecuencia?",
+   "opciones": [
+    "Bisoprolol",
+    "Digoxina",
+    "Amiodarona",
+    "Diltiazem",
+    "Propranolol"
+   ],
+   "clave": 4,
+   "especialidad": "Cardiología",
+   "tema": "Arritmias",
+   "diagnostico": "Fibrilación auricular en paciente con EPOC: control de frecuencia con calcio-antagonista",
+   "tipo": "tratamiento",
+   "dificultad": "media",
+   "razonamiento": "Paso 1: RR irregular sin P: fibrilación auricular estable. Paso 2: FEVI conservada permite calcio-antagonista; el pulmón obstructivo desaconseja betabloqueador. Paso 3: diltiazem (o verapamilo) es la elección.",
+   "por_que_no": [
+    "Aun siendo selectivo, en EPOC con exacerbaciones se prefiere evitar el betabloqueador.",
+    "Segunda línea; se prefiere cuando hay insuficiencia cardiaca, no aquí.",
+    "Tercera línea, cuando fallan los anteriores.",
+    "",
+    "Betabloqueador no selectivo: broncoespasmo en un pulmón obstructivo severo."
+   ],
+   "trampa": [
+    "mismo-grupo",
+    "otro-contexto",
+    "otro-momento",
+    "",
+    "mismo-grupo"
+   ],
+   "perla": "Asma/EPOC + fibrilación: calcio-antagonista no dihidropiridínico; FEVI baja: digoxina.",
+   "fuente": {
+    "carpeta": "9. CARDIOLOGIA",
+    "archivo": "6. ARRITMIAS.pdf",
+    "seccion": "pág. 2 (control de FC, QRS ancho, bradiarritmias)"
+   },
+   "gemela_de": null
+  },
+  {
+   "id": "2026-10-19-noche-027",
+   "enunciado": "Varón de 22 años, deportista, con tres episodios de palpitaciones rápidas en el último año, uno con síncope. Sin cardiopatía en el ecocardiograma. PA 120/70 mmHg, FC 68X'. EKG en reposo: intervalo PR de 0,10 s, QRS de 0,13 s con empastamiento inicial de la rama ascendente de la R en V3-V6. Hoy está asintomático. ¿Cuál es el tratamiento definitivo indicado?",
+   "opciones": [
+    "Amiodarona oral de mantenimiento",
+    "Bisoprolol oral de mantenimiento",
+    "Ablación por radiofrecuencia de la vía accesoria",
+    "Propafenona oral de mantenimiento",
+    "Implante de marcapasos bicameral"
+   ],
+   "clave": 3,
+   "especialidad": "Cardiología",
+   "tema": "Arritmias",
+   "diagnostico": "Síndrome de Wolff-Parkinson-White sintomático: tratamiento definitivo",
+   "tipo": "tratamiento",
+   "dificultad": "media",
+   "razonamiento": "Paso 1: PR corto, onda delta y QRS ancho en ritmo sinusal: preexcitación por vía accesoria. Paso 2: taquicardias recurrentes con síncope lo hacen de alto riesgo. Paso 3: la curación es la ablación por radiofrecuencia del haz anómalo.",
+   "por_que_no": [
+    "Reservada al paciente con cardiopatía estructural que no puede ablacionarse.",
+    "Frena el nodo pero deja intacta la vía que causa el síncope.",
+    "",
+    "Útil como puente en corazón sano, pero no cura la vía accesoria.",
+    "Trata bradiarritmias; aquí el problema es una vía de conducción extra."
+   ],
+   "trampa": [
+    "otro-contexto",
+    "otro-momento",
+    "",
+    "otro-momento",
+    "diferencial"
+   ],
+   "perla": "PR corto + onda delta + QRS ancho: definitivo ablación por radiofrecuencia; crónico sin cardiopatía propafenona, con cardiopatía amiodarona.",
+   "fuente": {
+    "carpeta": "9. CARDIOLOGIA",
+    "archivo": "6. ARRITMIAS.pdf",
+    "seccion": "pág. 1 (taquiarritmias QRS estrecho, WPW, FA)"
+   },
+   "gemela_de": null
+  },
+  {
+   "id": "2026-10-19-noche-028",
+   "enunciado": "Niño de 6 años, 20 kg, colapsa súbitamente mientras jugaba; su padre refiere que un tío murió dormido a los 30 años. Al llegar la ambulancia: inconsciente, sin respiración efectiva, sin pulso central palpable. Se inicia reanimación. El monitor muestra ondas rápidas, caóticas, de amplitud y frecuencia variables, sin complejos QRS reconocibles. ¿Cuál es la intervención eléctrica indicada y su energía inicial?",
+   "opciones": [
+    "Cardioversión sincronizada con 20 J",
+    "Cardioversión sincronizada con 40 J",
+    "Desfibrilación con 40 J",
+    "Desfibrilación con 80 J",
+    "Desfibrilación con 200 J"
+   ],
+   "clave": 4,
+   "especialidad": "Cardiología",
+   "tema": "Arritmias",
+   "diagnostico": "Fibrilación ventricular en niño: desfibrilación 4 J/kg",
+   "tipo": "dosis",
+   "dificultad": "alta",
+   "razonamiento": "Paso 1: sin pulso, con actividad eléctrica caótica sin QRS: fibrilación de los ventrículos. Paso 2: ritmo desfibrilable en paro: choque no sincronizado. Paso 3: en niños 4 J/kg: 20 kg × 4 = 80 J (cardioversión pediátrica sería 0,5-1 J/kg).",
+   "por_que_no": [
+    "Sin pulso ni QRS no hay onda R con la que sincronizar; además 1 J/kg es la energía de cardioversión.",
+    "Mismo error de sincronizar; 2 J/kg no corresponde a ninguna pauta pediátrica inicial.",
+    "2 J/kg se queda corto; la pauta es 4 J/kg.",
+    "",
+    "Es la energía inicial del adulto, no la pediátrica."
+   ],
+   "trampa": [
+    "otro",
+    "otro",
+    "umbral",
+    "",
+    "otra-poblacion"
+   ],
+   "perla": "Niño: desfibrilación 4 J/kg; cardioversión 0,5-1 J/kg. Adulto: desfibrilación 200 J bifásico.",
+   "fuente": {
+    "carpeta": "9. CARDIOLOGIA",
+    "archivo": "22. RCP PLUS.pdf",
+    "seccion": "pág. 1 (energías, bradicardia, pediatría)"
+   },
+   "gemela_de": null
+  },
+  {
+   "id": "2026-10-19-noche-029",
+   "enunciado": "Mujer de 51 años operada de un tumor cerebral hace 24 horas, en infusión de manitol al 20 %. Está despierta, sin edemas, con diuresis abundante. Laboratorio: sodio 128 mEq/L, potasio 4,0 mEq/L, glucosa 102 mg/dl, BUN 16 mg/dl, osmolaridad plasmática medida 312 mOsm/kg, osmolaridad calculada 267 mOsm/kg. ¿Qué mecanismo explica el valor de sodio en esta paciente?",
+   "opciones": [
+    "Artefacto de medición por exceso de lípidos o proteínas plasmáticas",
+    "Dilución por aporte excesivo de soluciones hipotónicas",
+    "Pérdida renal de sodio por lesión hipotalámica",
+    "Desplazamiento de agua del intracelular al extracelular por un osmol efectivo exógeno",
+    "Retención de agua libre por hormona antidiurética liberada tras la cirugía"
+   ],
+   "clave": 4,
+   "especialidad": "Nefrología",
+   "tema": "Hiponatremia",
+   "diagnostico": "Hiponatremia hiperosmolar por manitol (brecha osmolar)",
+   "tipo": "mecanismo",
+   "dificultad": "muy alta",
+   "razonamiento": "Paso 1: osmolaridad medida 312 frente a calculada 267: hay un osmol no medido (brecha de 45). Paso 2: el manitol es un osmol efectivo que arrastra agua desde las células al plasma. Paso 3: el sodio baja por dilución translocacional, igual que con la hiperglucemia o los contrastes; se corrige al eliminar el manitol.",
+   "por_que_no": [
+    "Cursaría con osmolaridad medida normal, no elevada.",
+    "También bajaría la osmolaridad medida.",
+    "Habría hipovolemia y osmolaridad baja.",
+    "",
+    "Produciría osmolaridad medida baja; aquí está alta."
+   ],
+   "trampa": [
+    "diferencial",
+    "diferencial",
+    "diferencial",
+    "",
+    "diferencial"
+   ],
+   "perla": "Sodio bajo con osmolaridad medida alta: hiperglucemia, manitol o contrastes; no es déficit de sodio.",
+   "fuente": {
+    "carpeta": "14. NEFROLOGIA",
+    "archivo": "8. HIPONATREMIA.pdf",
+    "seccion": "pág. 1 (definición, osmolaridad, falsa hiponatremia)"
+   },
+   "gemela_de": null
+  },
+  {
+   "id": "2026-10-19-noche-030",
+   "enunciado": "Varón de 58 años con diabetes tipo 2 mal controlada, 3 días de poliuria, polidipsia y malestar. PA 104/68 mmHg, FC 108X', mucosas secas, lúcido. Laboratorio: glucosa 600 mg/dl, sodio 125 mEq/L, potasio 4,6 mEq/L, BUN 30 mg/dl, pH 7,36, HCO3 22 mEq/L, osmolaridad medida 318 mOsm/kg. El residente propone agregar solución salina al 3 % por el sodio bajo. ¿Cuál es la conducta correcta respecto al sodio?",
+   "opciones": [
+    "Suspender la insulina hasta que el sodio supere 135 mEq/L",
+    "Infundir salina al 3 % hasta alcanzar un sodio de 130 mEq/L",
+    "Hidratar con salina al 0,9 % e insulina sin corregir el sodio",
+    "Administrar desmopresina y reponer sodio por vía oral",
+    "Restringir líquidos a 1 000 ml al día e iniciar furosemida"
+   ],
+   "clave": 3,
+   "especialidad": "Nefrología",
+   "tema": "Hiponatremia",
+   "diagnostico": "Hiponatremia hiperosmolar (translocacional) por hiperglucemia: sodio corregido normal",
+   "tipo": "conducta",
+   "dificultad": "alta",
+   "razonamiento": "Paso 1: osmolaridad medida alta (318) con sodio bajo: la glucosa es el osmol que arrastra agua al extracelular. Paso 2: sodio corregido = 125 + (500/100 × 1,6 a 2,4) = 133-137 mEq/L, es decir normal. Paso 3: no se corrige el sodio; se trata la hiperglucemia con hidratación isotónica e insulina.",
+   "por_que_no": [
+    "La insulina es justo lo que corrige el trastorno al bajar el osmol que arrastra agua.",
+    "El sodio real está normal; el hipertónico lo llevaría a hipernatremia.",
+    "",
+    "No hay déficit de hormona ni de sodio que reponer.",
+    "Es el manejo del paciente edematoso con sodio bajo real; este está deshidratado."
+   ],
+   "trampa": [
+    "otro",
+    "otro-contexto",
+    "",
+    "otro",
+    "diferencial"
+   ],
+   "perla": "Sodio bajo con osmolaridad alta: suma 1,6-2,4 mEq/L por cada 100 mg/dl de glucosa sobre 100; no uses hipertónico.",
+   "fuente": {
+    "carpeta": "14. NEFROLOGIA",
+    "archivo": "8. HIPONATREMIA.pdf",
+    "seccion": "pág. 1 (definición, osmolaridad, falsa hiponatremia)"
+   },
+   "gemela_de": null
+  },
+  {
+   "id": "2026-10-19-noche-031",
+   "enunciado": "Varón de 72 años con enfermedad pulmonar obstructiva crónica hospitalizado por neumonía, presenta palpitaciones. PA 124/78 mmHg, FC 128X' irregular, SatO2 89 % con oxígeno. EKG: QRS de 0,08 s, RR irregulares, con ondas P presentes delante de cada QRS pero de al menos tres morfologías distintas y PR variable; frecuencia auricular mayor que la ventricular. Ecocardiograma: FEVI 55 %. Además de tratar la infección y la hipoxemia, ¿cuál es el fármaco indicado para controlar la arritmia?",
+   "opciones": [
+    "Verapamilo o diltiazem",
+    "Adenosina endovenosa",
+    "Cardioversión eléctrica sincronizada",
+    "Digoxina endovenosa",
+    "Propranolol endovenoso"
+   ],
+   "clave": 1,
+   "especialidad": "Cardiología",
+   "tema": "Arritmias",
+   "diagnostico": "Taquicardia auricular multifocal en EPOC con neumonía",
+   "tipo": "tratamiento",
+   "dificultad": "muy alta",
+   "razonamiento": "Paso 1: ritmo irregular pero con ondas P de ≥3 morfologías y PR variable: múltiples focos auriculares, no fibrilación. Paso 2: aparece en EPOC, hipoxemia, insuficiencia cardiaca y neumonía. Paso 3: tratar la causa y controlar con calcio-antagonista no dihidropiridínico (o betabloqueador si el pulmón lo permite).",
+   "por_que_no": [
+    "",
+    "Puede frenar transitoriamente, pero no termina un ritmo de múltiples focos auriculares.",
+    "Un automatismo multifocal no responde al choque; además está estable.",
+    "Poco eficaz en este mecanismo y proarrítmica en el hipoxémico.",
+    "Betabloqueador no selectivo en pulmón obstructivo severo: broncoespasmo."
+   ],
+   "trampa": [
+    "",
+    "otro",
+    "otro-contexto",
+    "otro-momento",
+    "mismo-grupo"
+   ],
+   "perla": "Irregular con ≥3 morfologías de P en EPOC hipoxémico: multifocal auricular; verapamilo/diltiazem y tratar la causa.",
+   "fuente": {
+    "carpeta": "9. CARDIOLOGIA",
+    "archivo": "6. ARRITMIAS.pdf",
+    "seccion": "pág. 1 (taquiarritmias QRS estrecho, WPW, FA)"
+   },
+   "gemela_de": null
+  },
+  {
+   "id": "2026-10-19-noche-032",
+   "enunciado": "Mujer de 48 años en tratamiento con haloperidol y ondansetrón, con vómitos de 3 días. Presenta dos síncopes en la última hora. PA 96/60 mmHg, FC 160X'. Potasio 2,9 mEq/L, magnesio 1,2 mg/dl. EKG basal de ayer: QTc de 540 ms. EKG actual: QRS anchos cuya amplitud y eje cambian de forma cíclica, dando un aspecto de torsión alrededor de la línea de base, a 200X'. Ahora está consciente, con pulso. ¿Cuál es el tratamiento de elección?",
+   "opciones": [
+    "Lidocaína endovenosa",
+    "Procainamida endovenosa",
+    "Sulfato de magnesio endovenoso",
+    "Amiodarona endovenosa",
+    "Cardioversión eléctrica sincronizada con 100 J"
+   ],
+   "clave": 3,
+   "especialidad": "Cardiología",
+   "tema": "Arritmias",
+   "diagnostico": "Taquicardia ventricular polimorfa (torsade de pointes) por QT largo adquirido",
+   "tipo": "tratamiento",
+   "dificultad": "alta",
+   "razonamiento": "Paso 1: QTc 540 ms previo, hipokalemia, hipomagnesemia y fármacos que alargan el QT. Paso 2: QRS anchos con eje y amplitud que giran cíclicamente: taquicardia ventricular polimorfa con QT largo. Paso 3: sulfato de magnesio endovenoso, corregir potasio y retirar los fármacos; amiodarona contraindicada.",
+   "por_que_no": [
+    "No es el fármaco de elección cuando hay QT largo y torsión del eje.",
+    "También prolonga el QT y la empeora.",
+    "",
+    "Prolonga el QT y está contraindicada en esta forma polimorfa.",
+    "El ritmo polimorfo cambiante sincroniza mal; se usa choque si pierde el pulso."
+   ],
+   "trampa": [
+    "diferencial",
+    "otro-contexto",
+    "",
+    "otro-contexto",
+    "otro-estadio"
+   ],
+   "perla": "QT largo + QRS que se tuercen: magnesio EV; nunca amiodarona ni procainamida.",
+   "fuente": {
+    "carpeta": "9. CARDIOLOGIA",
+    "archivo": "6. ARRITMIAS.pdf",
+    "seccion": "pág. 2 (control de FC, QRS ancho, bradiarritmias)"
+   },
+   "gemela_de": null
+  },
+  {
+   "id": "2026-10-19-noche-033",
+   "enunciado": "Varón de 47 años en el día 5 de hospitalización por hemorragia subaracnoidea aneurismática, tratado con clipaje. Presenta poliuria de 4 litros al día, PA 92/56 mmHg con caída ortostática, FC 110X', mucosas secas, peso 3 kg menor que al ingreso, somnoliento. Laboratorio: sodio 124 mEq/L, osmolaridad 256 mOsm/kg, sodio urinario 85 mEq/L, osmolaridad urinaria 410 mOsm/kg, ácido úrico bajo. ¿Cuál es el tratamiento de elección?",
+   "opciones": [
+    "Solución salina al 0,9 % para reponer volumen y sodio",
+    "Desmopresina intranasal",
+    "Dextrosa al 5 % para corregir la poliuria",
+    "Restricción hídrica a 1 000 ml al día",
+    "Furosemida endovenosa y restricción de sal"
+   ],
+   "clave": 1,
+   "especialidad": "Nefrología",
+   "tema": "Hiponatremia",
+   "diagnostico": "Síndrome de cerebro perdedor de sal tras hemorragia subaracnoidea (hipovolémico, Na urinario >20)",
+   "tipo": "conducta",
+   "dificultad": "muy alta",
+   "razonamiento": "Paso 1: osmolaridad baja: verdadero. Paso 2: poliuria, ortostatismo, pérdida de peso y mucosas secas: extracelular disminuido; sodio urinario >20 señala pérdida renal de sal de origen cerebral. Paso 3: a diferencia de la retención de agua euvolémica, aquí se repone volumen y sodio con salina al 0,9 %.",
+   "por_que_no": [
+    "",
+    "Se usa si la poliuria es por déficit de hormona (sodio alto), no en este caso.",
+    "Agua libre en un paciente con sodio bajo: profundiza la dilución.",
+    "Es el manejo del paciente euvolémico con retención de agua; aquí hay depleción de volumen y empeoraría el vasoespasmo.",
+    "Agrava la pérdida de sodio y la hipovolemia."
+   ],
+   "trampa": [
+    "",
+    "diferencial",
+    "otro",
+    "diferencial",
+    "otro"
+   ],
+   "perla": "Lesión cerebral + sodio bajo: si está deshidratado y poliúrico es cerebro perdedor de sal (dar salina); si euvolémico es retención de agua (restringir).",
+   "fuente": {
+    "carpeta": "14. NEFROLOGIA",
+    "archivo": "8. HIPONATREMIA.pdf",
+    "seccion": "pág. 1 (algoritmo por osmolaridad, LEC y Na urinario)"
+   },
+   "gemela_de": null
+  },
+  {
+   "id": "2026-10-19-noche-034",
+   "enunciado": "Gestante de 27 años con 30 semanas acude por palpitaciones de inicio brusco hace 40 minutos, con mareo leve y sin dolor torácico. Sin antecedentes cardiacos. PA 112/70 mmHg, FC 186X' regular, FR 20X', SatO2 98 %. Latidos fetales 148X'. EKG: complejos QRS de 0,08 s, regulares, a 186X', sin ondas P visibles delante de cada QRS. Se le indicó soplar contra resistencia y masaje carotídeo sin cambios en el ritmo. ¿Cuál es el siguiente paso en el manejo?",
+   "opciones": [
+    "Amiodarona 150 mg endovenosa en 10 minutos",
+    "Metoprolol 5 mg endovenoso lento",
+    "Verapamilo 5 mg endovenoso lento",
+    "Adenosina 6 mg endovenosa en bolo rápido",
+    "Cardioversión eléctrica sincronizada con 50 J"
+   ],
+   "clave": 4,
+   "especialidad": "Cardiología",
+   "tema": "Arritmias",
+   "diagnostico": "Taquicardia paroxística supraventricular estable en gestante: tras maniobras vagales fallidas",
+   "tipo": "conducta",
+   "dificultad": "alta",
+   "razonamiento": "Paso 1: QRS estrecho (0,08 s), regular, sin P: origen supraventricular por reentrada. Paso 2: está estable (sin los 4 criterios de inestabilidad) y las maniobras vagales fallaron. Paso 3: sigue adenosina 6 mg en bolo rápido, segura en el embarazo por su vida media de segundos.",
+   "por_que_no": [
+    "Se reserva a corazón con cardiopatía estructural o refractariedad; no es el primer fármaco.",
+    "Opción posterior a la adenosina; en gestante además puede frenar al feto.",
+    "Es la segunda línea si falla la adenosina; no se antepone al bloqueo nodal breve.",
+    "",
+    "Solo si hay hipotensión, dolor precordial, alteración de conciencia o edema pulmonar."
+   ],
+   "trampa": [
+    "otro-contexto",
+    "otro-momento",
+    "otro-momento",
+    "",
+    "otro-estadio"
+   ],
+   "perla": "QRS estrecho regular sin P y estable: vagales, luego adenosina 6-12-12 mg; la gestante no cambia el orden.",
+   "fuente": {
+    "carpeta": "9. CARDIOLOGIA",
+    "archivo": "6. ARRITMIAS.pdf",
+    "seccion": "pág. 1 (taquiarritmias QRS estrecho, WPW, FA)"
+   },
+   "gemela_de": null
+  },
+  {
+   "id": "2026-10-19-noche-035",
+   "enunciado": "Varón de 60 años con cirrosis por alcohol, ascitis a tensión y edema hasta rodillas, sin encefalopatía. PA 100/60 mmHg, FC 88X', peso 82 kg (habitual 74 kg). Laboratorio: sodio 124 mEq/L, potasio 3,8 mEq/L, creatinina 0,9 mg/dl, glucosa 98 mg/dl, osmolaridad plasmática 256 mOsm/kg, sodio urinario 10 mEq/L. Está asintomático desde el punto de vista neurológico. ¿Cuál es el tratamiento de elección del trastorno del sodio?",
+   "opciones": [
+    "Desmopresina intranasal nocturna",
+    "Restricción de agua libre, seguida de diuréticos",
+    "Solución salina al 0,9 % 1 000 ml en 4 horas",
+    "Solución salina al 3 % 150 ml en bolo",
+    "Dextrosa al 5 % 1 000 ml en 8 horas"
+   ],
+   "clave": 2,
+   "especialidad": "Nefrología",
+   "tema": "Hiponatremia",
+   "diagnostico": "Hiponatremia hipoosmolar hipervolémica por cirrosis con ascitis",
+   "tipo": "tratamiento",
+   "dificultad": "media",
+   "razonamiento": "Paso 1: osmolaridad baja (256): sodio bajo verdadero. Paso 2: ascitis, edema y ganancia de 8 kg: extracelular aumentado; sodio urinario <20 apunta a cirrosis o insuficiencia cardiaca. Paso 3: en el edematoso asintomático: primero restricción hídrica, segundo diuréticos.",
+   "por_que_no": [
+    "Retiene agua y empeora el cuadro.",
+    "",
+    "Es la elección cuando el extracelular está disminuido (diarrea, vómitos); aquí está aumentado.",
+    "Reservada al paciente con convulsiones o sopor; este está asintomático y expandiría más el edema.",
+    "Agrega agua libre y profundiza la dilución."
+   ],
+   "trampa": [
+    "otro",
+    "",
+    "diferencial",
+    "otro-estadio",
+    "otro"
+   ],
+   "perla": "Hipoosmolar con edema: restricción hídrica y diuréticos; Na urinario <20 cirrosis/ICC, >20 falla renal.",
+   "fuente": {
+    "carpeta": "14. NEFROLOGIA",
+    "archivo": "8. HIPONATREMIA.pdf",
+    "seccion": "pág. 1 (algoritmo por osmolaridad, LEC y Na urinario)"
+   },
+   "gemela_de": null
+  },
+  {
+   "id": "2026-10-19-noche-036",
+   "enunciado": "Varón de 24 años con esquizofrenia, traído por convulsión tras beber unos 10 litros de agua en 5 horas durante un episodio de agitación. PA 126/80 mmHg, FC 98X', sin edemas, somnoliento. Laboratorio: sodio 114 mEq/L, osmolaridad 236 mOsm/kg, sodio urinario 30 mEq/L, osmolaridad urinaria 90 mOsm/kg. Se inicia salina al 3 % y el sodio sube 14 mEq/L en 20 horas; el equipo decide no detener la corrección. ¿Qué dato del caso permite superar el límite habitual de 10-12 mEq/L en 24 horas?",
+   "opciones": [
+    "La presencia de convulsiones",
+    "El sodio sérico menor de 115 mEq/L",
+    "La edad joven del paciente",
+    "La instalación del trastorno en menos de 48 horas",
+    "El sodio urinario mayor de 20 mEq/L"
+   ],
+   "clave": 4,
+   "especialidad": "Nefrología",
+   "tema": "Hiponatremia",
+   "diagnostico": "Hiponatremia aguda por intoxicación hídrica (polidipsia psicógena): excepción a la ley de corrección",
+   "tipo": "conducta",
+   "dificultad": "muy alta",
+   "razonamiento": "Paso 1: ingesta masiva de agua en horas con orina muy diluida: dilución aguda verdadera. Paso 2: la mielina aún no se adaptó a la hipoosmolaridad en menos de 48 horas. Paso 3: por eso en la forma aguda se puede violar la ley de 8-12 mEq/L sin riesgo de desmielinización; en la crónica nunca.",
+   "por_que_no": [
+    "Indica usar hipertónico, pero no autoriza exceder el límite diario en un crónico.",
+    "La severidad define el síntoma, no la velocidad segura de corrección.",
+    "No modifica el riesgo de desmielinización.",
+    "",
+    "Es un dato clasificatorio del origen de la pérdida."
+   ],
+   "trampa": [
+    "otro",
+    "umbral",
+    "otro",
+    "",
+    "otro"
+   ],
+   "perla": "Ley de corrección se puede violar solo si el descenso ocurrió en <48 horas (aguda).",
+   "fuente": {
+    "carpeta": "14. NEFROLOGIA",
+    "archivo": "8. HIPONATREMIA.pdf",
+    "seccion": "pág. 1 (NaCl 3 %, ley de corrección, Adrogué, mielinólisis)"
+   },
+   "gemela_de": null
+  },
+  {
+   "id": "2026-10-19-noche-037",
+   "enunciado": "Varón de 34 años con asma persistente severa, hospitalizado dos veces el último año por crisis, acude por palpitaciones súbitas de 1 hora. PA 118/76 mmHg, FC 178X' regular, FR 22X', SatO2 95 %, sin sibilantes actuales. EKG: QRS de 0,09 s, regulares, a 178X', sin onda P identificable. Las maniobras vagales no modificaron el ritmo. ¿Cuál es el fármaco de elección para revertir el episodio en este paciente?",
+   "opciones": [
+    "Digoxina endovenosa",
+    "Procainamida endovenosa",
+    "Adenosina endovenosa",
+    "Propranolol endovenoso",
+    "Verapamilo endovenoso"
+   ],
+   "clave": 5,
+   "especialidad": "Cardiología",
+   "tema": "Arritmias",
+   "diagnostico": "Taquicardia paroxística supraventricular en asmático severo: adenosina contraindicada",
+   "tipo": "contraindicacion",
+   "dificultad": "muy alta",
+   "razonamiento": "Paso 1: QRS estrecho regular sin P: reentrada nodal. Paso 2: estable, vagales fallidas: tocaría adenosina, pero el asma severa la contraindica. Paso 3: se pasa al calcio-antagonista no dihidropiridínico (verapamilo o diltiazem).",
+   "por_que_no": [
+    "Enlentece el nodo pero es lenta e ineficaz para cortar una reentrada aguda.",
+    "Se usa en taquicardias con vía accesoria y QRS ancho, no en esta reentrada nodal.",
+    "Sería la primera línea, pero el asma severa es una de sus contraindicaciones.",
+    "El betabloqueador no selectivo puede desencadenar broncoespasmo severo.",
+    ""
+   ],
+   "trampa": [
+    "otro-momento",
+    "diferencial",
+    "otro-contexto",
+    "mismo-grupo",
+    ""
+   ],
+   "perla": "Adenosina no va en asma severa, en QRS ancho irregular con vía accesoria ni en taquicardia irregular.",
+   "fuente": {
+    "carpeta": "9. CARDIOLOGIA",
+    "archivo": "6. ARRITMIAS.pdf",
+    "seccion": "pág. 1 (taquiarritmias QRS estrecho, WPW, FA)"
+   },
+   "gemela_de": null
+  },
+  {
+   "id": "2026-10-19-noche-038",
+   "enunciado": "Varón de 72 años con enfermedad renal crónica avanzada no dializada, acude por disnea y edema progresivo de 1 semana con diuresis de 300 ml al día. PA 160/95 mmHg, FC 88X', crepitantes bibasales, edema hasta muslos, lúcido. Laboratorio: sodio 126 mEq/L, potasio 5,4 mEq/L, creatinina 6,8 mg/dl, BUN 95 mg/dl, glucosa 100 mg/dl, sodio urinario 48 mEq/L. ¿Cuál es el manejo apropiado del trastorno del sodio?",
+   "opciones": [
+    "Solución salina al 0,9 % 500 ml en 2 horas",
+    "Dextrosa al 5 % con reposición de potasio",
+    "Restricción de agua libre más diuréticos de asa (y diálisis si no responde)",
+    "Desmopresina subcutánea",
+    "Solución salina al 3 % 100 ml en bolo"
+   ],
+   "clave": 3,
+   "especialidad": "Nefrología",
+   "tema": "Hiponatremia",
+   "diagnostico": "Hiponatremia hipervolémica por falla renal oligúrica (Na urinario >20)",
+   "tipo": "tratamiento",
+   "dificultad": "media",
+   "razonamiento": "Paso 1: oliguria de 300 ml con edema y sodio bajo: dilución por incapacidad renal de excretar agua libre. Paso 2: edema y oliguria con sodio urinario >20: extracelular aumentado de origen renal (la cirrosis o la insuficiencia cardiaca lo tendrían <20). Paso 3: restricción hídrica y diuréticos; diálisis si no responde.",
+   "por_que_no": [
+    "Agrega volumen a un paciente oligúrico con edema pulmonar incipiente.",
+    "Agua libre y potasio en un oligúrico hiperkalémico: peligroso.",
+    "",
+    "Retiene más agua.",
+    "Hipertónico solo con síntomas neurológicos graves; además sobrecarga el volumen."
+   ],
+   "trampa": [
+    "diferencial",
+    "otro",
+    "",
+    "otro",
+    "otro-estadio"
+   ],
+   "perla": "Edematoso con sodio bajo: Na urinario >20 es falla renal; <20 cirrosis o insuficiencia cardiaca; ambos: restringir agua y diuréticos.",
+   "fuente": {
+    "carpeta": "14. NEFROLOGIA",
+    "archivo": "8. HIPONATREMIA.pdf",
+    "seccion": "pág. 1 (algoritmo por osmolaridad, LEC y Na urinario)"
+   },
+   "gemela_de": null
+  },
+  {
+   "id": "2026-10-19-noche-039",
+   "enunciado": "Mujer de 63 años con hipertensión controlada presenta palpitaciones intermitentes desde hace 4 meses, con dos visitas a emergencia. PA 128/80 mmHg, FC 150X' regular. EKG: QRS de 0,08 s, regulares a 150X'; en II, III y aVF se observan ondas en dientes de sierra a 300 por minuto, sin línea isoeléctrica entre ellas, con conducción 2:1. Ecocardiograma sin valvulopatía. Ya se anticoaguló y recibe bisoprolol. ¿Cuál es el tratamiento definitivo de elección?",
+   "opciones": [
+    "Aislamiento de venas pulmonares",
+    "Ablación de la vía accesoria derecha",
+    "Amiodarona oral de mantenimiento",
+    "Cardioversión eléctrica sincronizada programada",
+    "Ablación del istmo cavotricuspídeo"
+   ],
+   "clave": 5,
+   "especialidad": "Cardiología",
+   "tema": "Arritmias",
+   "diagnostico": "Flutter auricular típico recurrente: tratamiento definitivo",
+   "tipo": "tratamiento",
+   "dificultad": "alta",
+   "razonamiento": "Paso 1: ondas en dientes de sierra a 300X' en cara inferior con respuesta 2:1: macrorreentrada de la aurícula derecha. Paso 2: recurrente pese a frenar el nodo. Paso 3: la curación es ablacionar el istmo cavotricuspídeo, por donde pasa obligatoriamente el circuito.",
+   "por_que_no": [
+    "Es la ablación para la arritmia irregular que nace en la aurícula izquierda.",
+    "No hay vía accesoria; el circuito es una macrorreentrada en la aurícula derecha.",
+    "Control farmacológico, con alta recurrencia y toxicidad.",
+    "Revierte el episodio pero no evita recurrencias; no es definitiva.",
+    ""
+   ],
+   "trampa": [
+    "diferencial",
+    "diferencial",
+    "otro-momento",
+    "otro-momento",
+    ""
+   ],
+   "perla": "Dientes de sierra a 300 con ventrículo a 150: istmo cavotricuspídeo; ablación lo cura.",
+   "fuente": {
+    "carpeta": "9. CARDIOLOGIA",
+    "archivo": "6. ARRITMIAS.pdf",
+    "seccion": "pág. 1 (taquiarritmias QRS estrecho, WPW, FA)"
+   },
+   "gemela_de": null
+  },
+  {
+   "id": "2026-10-19-noche-040",
+   "enunciado": "Varón de 84 años con hipertensión y deterioro cognitivo leve, con palpitaciones irregulares conocidas desde hace 3 años, en controles con digoxina y apixabán. Hoy asintomático. PA 134/82 mmHg, FC 82X' irregular. EKG: QRS de 0,09 s, RR irregulares, sin P. Ecocardiograma: aurícula izquierda de 5,2 cm, FEVI 52 %. Un familiar pregunta si se puede intentar devolverle el ritmo normal. ¿Cuál es la conducta más apropiada?",
+   "opciones": [
+    "Realizar ablación de venas pulmonares",
+    "Iniciar amiodarona oral para intentar la reversión farmacológica",
+    "Mantener anticoagulación y control de frecuencia sin intentar revertir el ritmo",
+    "Programar cardioversión eléctrica tras ecocardiograma transesofágico",
+    "Cambiar apixabán por warfarina y luego cardiovertir"
+   ],
+   "clave": 3,
+   "especialidad": "Cardiología",
+   "tema": "Arritmias",
+   "diagnostico": "Fibrilación auricular permanente en adulto mayor: no se revierte el ritmo",
+   "tipo": "conducta",
+   "dificultad": "media",
+   "razonamiento": "Paso 1: fibrilación de 3 años en la que ya se aceptó el ritmo: permanente. Paso 2: aurícula de 5,2 cm (mayor de 4 cm) predice fracaso de la reversión. Paso 3: en la forma permanente solo se controla frecuencia y se anticoagula.",
+   "por_que_no": [
+    "Invasivo, con baja probabilidad de éxito con aurícula tan dilatada en este anciano.",
+    "Mismo error: la estrategia en esta fase es solo frecuencia y anticoagulación.",
+    "",
+    "Con más de 1 año de evolución y aurícula de 5,2 cm no se busca ya revertir.",
+    "No hay valvulopatía ni prótesis que obligue a warfarina."
+   ],
+   "trampa": [
+    "otro-estadio",
+    "otro-estadio",
+    "",
+    "otro-estadio",
+    "otro-contexto"
+   ],
+   "perla": "Permanente: no se revierte; solo frecuencia (80-100) y anticoagulación. Aurícula >4 cm = alta recurrencia.",
+   "fuente": {
+    "carpeta": "9. CARDIOLOGIA",
+    "archivo": "6. ARRITMIAS.pdf",
+    "seccion": "pág. 2 (control de FC, QRS ancho, bradiarritmias)"
+   },
+   "gemela_de": null
+  },
+  {
+   "id": "2026-10-19-noche-041",
+   "enunciado": "Varón de 61 años con cardiopatía isquémica presenta palpitaciones y mareo. PA 98/62 mmHg, FC 172X' regular, consciente, pulso radial presente. EKG: QRS de 0,16 s, regulares, de morfología uniforme. El médico, con prisa, aplica un choque de 200 J sin activar el modo sincronizado. De inmediato el monitor muestra ondas caóticas de amplitud variable sin QRS reconocibles y el paciente pierde el pulso. ¿Qué fenómeno explica la complicación?",
+   "opciones": [
+    "Conversión a flutter auricular con conducción 1:1",
+    "Bloqueo auriculoventricular completo por aturdimiento del nodo",
+    "Descarga sobre la onda T (fenómeno R sobre T) que indujo fibrilación ventricular",
+    "Taquicardia auricular ectópica por lesión del tejido auricular",
+    "Depresión miocárdica por la energía que produjo asistolia"
+   ],
+   "clave": 3,
+   "especialidad": "Cardiología",
+   "tema": "Arritmias",
+   "diagnostico": "Fibrilación ventricular por choque no sincronizado en taquicardia con pulso (R sobre T)",
+   "tipo": "complicacion",
+   "dificultad": "media",
+   "razonamiento": "Paso 1: taquicardia de QRS ancho con pulso: requería choque sincronizado con la onda R. Paso 2: la descarga no sincronizada puede caer en el periodo vulnerable (onda T). Paso 3: ese fenómeno R sobre T induce fibrilación ventricular: ahora desfibrilar y reanimar.",
+   "por_que_no": [
+    "Las ondas descritas no son en dientes de sierra ni regulares.",
+    "No hay P ni QRS organizados; no es un bloqueo.",
+    "",
+    "Sin QRS reconocibles no hay taquicardia auricular conducida.",
+    "El trazo muestra actividad caótica, no línea plana."
+   ],
+   "trampa": [
+    "diferencial",
+    "diferencial",
+    "",
+    "diferencial",
+    "diferencial"
+   ],
+   "perla": "Con pulso siempre sincronizar: el choque sobre la T (R sobre T) provoca fibrilación ventricular.",
+   "fuente": {
+    "carpeta": "9. CARDIOLOGIA",
+    "archivo": "6. ARRITMIAS.pdf",
+    "seccion": "pág. 1 (taquiarritmias QRS estrecho, WPW, FA)"
+   },
+   "gemela_de": null
+  },
+  {
+   "id": "2026-10-19-noche-042",
+   "enunciado": "Varón de 66 años, fumador, con tos y pérdida de peso de 2 meses y una masa hiliar en la radiografía. Acude por náuseas y malestar. PA 124/78 mmHg, FC 80X', sin edemas, sin ortostatismo, mucosas húmedas. Laboratorio: sodio 122 mEq/L, potasio 4,2 mEq/L, glucosa 88 mg/dl, BUN 10 mg/dl, creatinina 0,8 mg/dl, osmolaridad 252 mOsm/kg, sodio urinario 70 mEq/L, osmolaridad urinaria 460 mOsm/kg, TSH y cortisol normales. ¿En qué categoría del algoritmo se ubica el trastorno?",
+   "opciones": [
+    "Hipoosmolar con volumen extracelular aumentado",
+    "Hipoosmolar con volumen extracelular normal",
+    "Hiperosmolar por osmol efectivo adicional",
+    "Hipoosmolar con volumen extracelular disminuido y sodio urinario alto",
+    "Isoosmolar por exceso de fase sólida"
+   ],
+   "clave": 2,
+   "especialidad": "Nefrología",
+   "tema": "Hiponatremia",
+   "diagnostico": "Hiponatremia euvolémica por SIHAD paraneoplásico (carcinoma de células pequeñas)",
+   "tipo": "diagnostico",
+   "dificultad": "alta",
+   "razonamiento": "Paso 1: osmolaridad baja: trastorno verdadero. Paso 2: sin edema ni deshidratación: extracelular normal; orina concentrada con sodio urinario alto confirma retención de agua por hormona antidiurética. Paso 3: con tiroides y suprarrenal normales, el tumor pulmonar es la causa: categoría hipoosmolar euvolémica.",
+   "por_que_no": [
+    "No hay edema, ascitis ni falla renal o cardiaca.",
+    "",
+    "Exige osmolaridad medida alta (glucosa, manitol); aquí es 252.",
+    "Comparte el sodio urinario alto, pero el paciente no está deshidratado.",
+    "Requiere osmolaridad normal con lípidos o proteínas altos."
+   ],
+   "trampa": [
+    "diferencial",
+    "",
+    "diferencial",
+    "diferencial",
+    "diferencial"
+   ],
+   "perla": "Hipoosmolar + euvolémico + orina concentrada con Na urinario >20 + TSH/cortisol normales: hormona antidiurética (tumor pulmonar, fármacos, SNC).",
+   "fuente": {
+    "carpeta": "14. NEFROLOGIA",
+    "archivo": "8. HIPONATREMIA.pdf",
+    "seccion": "pág. 1 (algoritmo por osmolaridad, LEC y Na urinario)"
+   },
+   "gemela_de": null
+  },
+  {
+   "id": "2026-10-19-noche-043",
+   "enunciado": "Mujer de 44 años en el segundo día posoperatorio de histerectomía, con infusión continua de dextrosa al 5 % y analgesia con opioides. Presenta cefalea intensa, náuseas y luego una convulsión tónico-clónica generalizada de 2 minutos. PA 128/80 mmHg, FC 96X', SatO2 95 %, somnolienta tras la crisis, sin edemas ni deshidratación. Laboratorio: sodio 112 mEq/L, potasio 3,9 mEq/L, glucosa 110 mg/dl, osmolaridad 234 mOsm/kg. ¿Cuál es la conducta inmediata?",
+   "opciones": [
+    "Solución salina al 0,9 % 1 000 ml en 2 horas",
+    "Furosemida 40 mg endovenosa y suspender la dextrosa",
+    "Infundir solución salina al 3 % y controlar el sodio cada 2 horas",
+    "Restricción hídrica a 800 ml al día",
+    "Desmopresina 2 mcg endovenosa"
+   ],
+   "clave": 3,
+   "especialidad": "Nefrología",
+   "tema": "Hiponatremia",
+   "diagnostico": "Hiponatremia aguda severa sintomática posoperatoria por fluidos hipotónicos",
+   "tipo": "conducta",
+   "dificultad": "alta",
+   "razonamiento": "Paso 1: sodio 112 con osmolaridad baja en menos de 48 horas (posoperatorio con dextrosa y opioides): descenso agudo verdadero. Paso 2: convulsión y sopor: severo y sintomático. Paso 3: solo el salino al 3 % (513 mEq/L) revierte el edema cerebral; se vigila el sodio con frecuencia.",
+   "por_que_no": [
+    "Es para el cuadro agudo asintomático; con convulsión se necesita hipertónico.",
+    "Insuficiente y lento para revertir el edema cerebral que convulsiona.",
+    "",
+    "Base del manejo crónico euvolémico o edematoso asintomático, no de la convulsión.",
+    "Retiene más agua y profundiza el descenso."
+   ],
+   "trampa": [
+    "otro-estadio",
+    "otro-momento",
+    "",
+    "otro-estadio",
+    "otro"
+   ],
+   "perla": "Convulsión o sopor con sodio bajo: salina 3 %; asintomático: fisiológico 0,9 %.",
+   "fuente": {
+    "carpeta": "14. NEFROLOGIA",
+    "archivo": "8. HIPONATREMIA.pdf",
+    "seccion": "pág. 1 (NaCl 3 %, ley de corrección, Adrogué, mielinólisis)"
+   },
+   "gemela_de": null
+  },
+  {
+   "id": "2026-10-19-noche-044",
+   "enunciado": "Lactante de 9 meses, 8 kg, con diarrea acuosa abundante y vómitos por 3 días, orina escasa. FC 160X', FR 40X', llenado capilar 3 segundos, ojos hundidos, mucosas secas, llanto sin lágrimas, irritable pero consolable. Laboratorio: sodio 127 mEq/L, potasio 3,4 mEq/L, glucosa 80 mg/dl, osmolaridad calculada 262 mOsm/kg, sodio urinario 8 mEq/L. No ha convulsionado. ¿Cuál es la solución de elección para corregir el trastorno?",
+   "opciones": [
+    "Restricción de líquidos y diurético",
+    "Solución salina al 0,45 % con dextrosa",
+    "Dextrosa al 5 % en agua",
+    "Solución salina al 0,9 %",
+    "Solución salina al 3 %"
+   ],
+   "clave": 4,
+   "especialidad": "Nefrología",
+   "tema": "Hiponatremia",
+   "diagnostico": "Hiponatremia hipovolémica por diarrea en lactante (pérdida extrarrenal, Na urinario <20)",
+   "tipo": "tratamiento",
+   "dificultad": "media",
+   "razonamiento": "Paso 1: osmolaridad baja: sodio bajo real. Paso 2: signos de deshidratación con sodio urinario <20: extracelular disminuido por pérdida extrarrenal (diarrea). Paso 3: el tratamiento del hipovolémico es suero fisiológico al 0,9 %, que repone volumen y sodio; el hipertónico se reserva a síntomas graves.",
+   "por_que_no": [
+    "Es para el paciente con edema y extracelular aumentado, lo opuesto a este caso.",
+    "Hipotónica: perpetúa el sodio bajo en un deshidratado.",
+    "No repone sodio ni volumen; empeora la dilución.",
+    "",
+    "Solo con convulsiones o sopor; este niño está consciente y necesita volumen, no hipertónico."
+   ],
+   "trampa": [
+    "diferencial",
+    "umbral",
+    "otro",
+    "",
+    "otro-estadio"
+   ],
+   "perla": "Hipoosmolar con extracelular disminuido: salina 0,9 %; Na urinario <20 digestivo, >20 renal (diuréticos, Addison, cerebro perdedor).",
+   "fuente": {
+    "carpeta": "14. NEFROLOGIA",
+    "archivo": "8. HIPONATREMIA.pdf",
+    "seccion": "pág. 1 (algoritmo por osmolaridad, LEC y Na urinario)"
+   },
+   "gemela_de": null
+  },
+  {
+   "id": "2026-10-19-noche-045",
+   "enunciado": "Varón de 52 años con sodio de 113 mEq/L y sopor tras una convulsión, en un hospital de segundo nivel donde no hay solución salina al 3 % lista. Se dispone de ampollas de cloruro de sodio al 20 % de 20 ml y frascos de suero fisiológico de 1 000 ml. El médico de guardia debe preparar 1 litro de solución al 3 %. ¿Cuál es la preparación correcta?",
+   "opciones": [
+    "5 ampollas y media de NaCl al 20 % más 890 ml de suero fisiológico",
+    "3 ampollas de NaCl al 20 % más 940 ml de suero fisiológico",
+    "10 ampollas de NaCl al 20 % más 800 ml de suero fisiológico",
+    "2 ampollas de NaCl al 20 % más 960 ml de suero fisiológico",
+    "8 ampollas de NaCl al 20 % más 840 ml de suero fisiológico"
+   ],
+   "clave": 1,
+   "especialidad": "Nefrología",
+   "tema": "Hiponatremia",
+   "diagnostico": "Preparación de NaCl al 3 % a partir de ampollas al 20 %",
+   "tipo": "dosis",
+   "dificultad": "alta",
+   "razonamiento": "Paso 1: cada ampolla de 20 ml al 20 % aporta 68 mEq de sodio. Paso 2: la meta es 513 mEq/L (concentración del 3 %). Paso 3: 5,5 ampollas (110 ml) aportan unos 374 mEq, que sumados a los 137 mEq de los 890 ml de fisiológico dan ≈511 mEq en 1 litro.",
+   "por_que_no": [
+    "",
+    "Da unos 340 mEq/L: alrededor del 2 %.",
+    "Da casi el 5 %: más de 800 mEq/L.",
+    "Da unos 290 mEq/L: apenas un 1,7 %.",
+    "Supera el 3 %: cerca de 650 mEq/L."
+   ],
+   "trampa": [
+    "",
+    "umbral",
+    "umbral",
+    "umbral",
+    "umbral"
+   ],
+   "perla": "Salina 3 %: 5½ ampollas de NaCl 20 % (110 ml) + 890 ml de fisiológico = 513 mEq/L.",
+   "fuente": {
+    "carpeta": "14. NEFROLOGIA",
+    "archivo": "8. HIPONATREMIA.pdf",
+    "seccion": "pág. 1 (NaCl 3 %, ley de corrección, Adrogué, mielinólisis)"
+   },
+   "gemela_de": null
+  },
+  {
+   "id": "2026-10-19-noche-046",
+   "enunciado": "Mujer de 58 años sin hipertensión, diabetes, insuficiencia cardiaca, enfermedad vascular ni eventos neurológicos previos, acude por palpitaciones de 3 días. PA 124/78 mmHg, FC 118X' irregular. EKG: QRS de 0,08 s con intervalos RR totalmente irregulares, sin ondas P, línea de base ondulante. Ecocardiograma: aurícula izquierda de 3,6 cm, válvulas normales, FEVI 60 %. Se controla la frecuencia con bisoprolol. ¿Cuál es la conducta respecto a la prevención de embolias?",
+   "opciones": [
+    "Ácido acetilsalicílico 100 mg al día",
+    "No requiere anticoagulación por ahora",
+    "Apixabán oral a dosis plena",
+    "Enoxaparina subcutánea a dosis anticoagulante",
+    "Warfarina con meta de INR 2 a 3"
+   ],
+   "clave": 2,
+   "especialidad": "Cardiología",
+   "tema": "Arritmias",
+   "diagnostico": "Fibrilación auricular no valvular con CHA2DS2-VASc de 1 en mujer: sin anticoagulación",
+   "tipo": "conducta",
+   "dificultad": "muy alta",
+   "razonamiento": "Paso 1: RR irregular sin P: fibrilación de la aurícula. Paso 2: CHA2DS2-VASc: solo 1 punto (sexo femenino), sin otro factor. Paso 3: en mujeres el punto por sexo solo no anticoagula; se anticoagula desde 3 (2 en varón).",
+   "por_que_no": [
+    "La antiagregación no es la estrategia de prevención embólica en esta arritmia.",
+    "",
+    "Indicado desde 3 puntos en mujer (o 2 en varón); ella solo tiene 1 por el sexo.",
+    "Cubre el puente perioperatorio; no es profilaxis crónica ni está indicada con 1 punto.",
+    "Se elige si hay prótesis mecánica o estenosis mitral reumática; ni eso ni puntaje aquí."
+   ],
+   "trampa": [
+    "otro",
+    "",
+    "umbral",
+    "otro-momento",
+    "otro-contexto"
+   ],
+   "perla": "CHA2DS2-VASc: varón 0 nada, 1 considerar, ≥2 anticoagula; mujer 1 nada, 2 considerar, ≥3 anticoagula.",
+   "fuente": {
+    "carpeta": "9. CARDIOLOGIA",
+    "archivo": "6. ARRITMIAS.pdf",
+    "seccion": "pág. 1 (taquiarritmias QRS estrecho, WPW, FA)"
+   },
+   "gemela_de": null
+  },
+  {
+   "id": "2026-10-19-noche-047",
+   "enunciado": "Mujer de 64 años con miocardiopatía dilatada conocida presenta palpitaciones y luego pérdida del estado de alerta parcial. PA 78/46 mmHg, FC 190X' regular, FR 28X', SatO2 90 %, piel fría y sudorosa, responde solo a estímulos. EKG: QRS de 0,17 s, regulares, de morfología idéntica entre sí, a 190X'. Pulso carotídeo presente. ¿Cuál es la conducta inmediata?",
+   "opciones": [
+    "Sulfato de magnesio 2 g endovenoso",
+    "Cardioversión eléctrica sincronizada con 100 J",
+    "Desfibrilación no sincronizada con 200 J",
+    "Amiodarona 150 mg endovenosa en 10 minutos",
+    "Lidocaína 1 mg/kg endovenosa en bolo"
+   ],
+   "clave": 2,
+   "especialidad": "Cardiología",
+   "tema": "Arritmias",
+   "diagnostico": "Taquicardia ventricular monomorfa inestable con pulso",
+   "tipo": "conducta",
+   "dificultad": "alta",
+   "razonamiento": "Paso 1: QRS ancho regular y uniforme a 190X': taquicardia de origen ventricular monomorfa. Paso 2: hipotensión y alteración de conciencia con pulso presente: inestable, pero no en paro. Paso 3: cardioversión eléctrica sincronizada (100 J bifásico, escalar si no revierte).",
+   "por_que_no": [
+    "Indicado en la forma polimorfa con QT largo.",
+    "",
+    "Hay pulso: el choque no sincronizado puede caer sobre la T e inducir fibrilación ventricular.",
+    "Opción para la misma arritmia pero en paciente estable.",
+    "Alternativa farmacológica para el paciente estable o el paro, no para el inestable con pulso."
+   ],
+   "trampa": [
+    "diferencial",
+    "",
+    "otro",
+    "otro-estadio",
+    "otro-estadio"
+   ],
+   "perla": "Con pulso: sincronizado (TV 100 J). Sin pulso: desfibrilación no sincronizada (adulto 200 J, niño 4 J/kg).",
+   "fuente": {
+    "carpeta": "9. CARDIOLOGIA",
+    "archivo": "22. RCP PLUS.pdf",
+    "seccion": "pág. 1 (energías, bradicardia, pediatría)"
+   },
+   "gemela_de": null
+  },
+  {
+   "id": "2026-10-19-noche-048",
+   "enunciado": "Varón de 29 años con palpitaciones irregulares de 30 minutos. En un EKG previo se describía PR de 0,10 s con empastamiento inicial del QRS. PA 108/68 mmHg, FC 210X', irregular. EKG actual: QRS de 0,14 s, muy irregulares, con morfología cambiante, sin ondas P. El médico de guardia planea administrar verapamilo endovenoso. ¿Por qué ese fármaco está contraindicado en este paciente?",
+   "opciones": [
+    "Deprime la contractilidad y causa edema agudo de pulmón en corazón sano",
+    "Bloquea el nodo AV y desvía toda la conducción por la vía accesoria, precipitando fibrilación ventricular",
+    "Prolonga el intervalo QT y favorece una taquicardia ventricular polimorfa",
+    "Induce vasodilatación coronaria con robo de flujo e isquemia",
+    "Acelera la conducción nodal y transforma el ritmo en flutter 1:1"
+   ],
+   "clave": 2,
+   "especialidad": "Cardiología",
+   "tema": "Arritmias",
+   "diagnostico": "Fibrilación auricular preexcitada: mecanismo de la contraindicación de los bloqueadores nodales",
+   "tipo": "mecanismo",
+   "dificultad": "muy alta",
+   "razonamiento": "Paso 1: QRS ancho, muy irregular, morfología cambiante, en alguien con preexcitación previa: la aurícula fibrila y conduce por la vía accesoria. Paso 2: la vía accesoria no tiene la conducción decremental del nodo. Paso 3: bloquear el nodo (verapamilo, adenosina, betabloqueador, digoxina) deja pasar todos los impulsos por la vía y degenera a fibrilación ventricular.",
+   "por_que_no": [
+    "El inotropismo negativo preocupa en FEVI baja, no es el peligro aquí.",
+    "",
+    "Ese es el mecanismo de los fármacos que alargan el QT, no del bloqueo nodal.",
+    "No es el mecanismo del riesgo arrítmico en una vía accesoria.",
+    "El verapamilo frena el nodo, no lo acelera."
+   ],
+   "trampa": [
+    "otro-contexto",
+    "",
+    "diferencial",
+    "otro",
+    "otro"
+   ],
+   "perla": "Vía accesoria + ritmo irregular ancho: nada nodal; procainamida si estable, choque si inestable.",
+   "fuente": {
+    "carpeta": "9. CARDIOLOGIA",
+    "archivo": "6. ARRITMIAS.pdf",
+    "seccion": "pág. 1 (taquiarritmias QRS estrecho, WPW, FA)"
+   },
+   "gemela_de": null
+  },
+  {
+   "id": "2026-10-19-noche-049",
+   "enunciado": "Varón de 45 años y 70 kg con sodio de 115 mEq/L y sopor tras una convulsión, osmolaridad 240 mOsm/kg, sin edemas. Se decide infundir solución salina al 3 % (513 mEq/L). El residente aplica la fórmula de Adrogué para estimar el cambio esperado, usando un agua corporal total de 0,6 por kilo. ¿Cuántos mEq/L sube aproximadamente el sodio sérico por cada litro de esa solución?",
+   "opciones": [
+    "9 mEq/L",
+    "2 mEq/L",
+    "5 mEq/L",
+    "13 mEq/L",
+    "19 mEq/L"
+   ],
+   "clave": 1,
+   "especialidad": "Nefrología",
+   "tema": "Hiponatremia",
+   "diagnostico": "Fórmula de Adrogué: ascenso de sodio por litro de salina al 3 %",
+   "tipo": "dosis",
+   "dificultad": "muy alta",
+   "razonamiento": "Paso 1: agua corporal total = 0,6 × 70 = 42 L. Paso 2: Adrogué: (Na infundido − Na real) / (ACT + 1) = (513 − 115) / 43 = 398 / 43. Paso 3: ≈9,3 mEq/L por litro; como el tope diario es 8, debe infundirse menos de 1 litro en 24 horas.",
+   "por_que_no": [
+    "",
+    "Resultaría de usar fisiológico al 0,9 % (154 mEq/L) en el numerador.",
+    "Error de dividir solo entre el agua corporal sin restar el sodio real.",
+    "Sale de usar 0,5 como fracción de agua y omitir el +1.",
+    "Equivale a olvidar sumar 1 litro al agua corporal y usar un peso menor."
+   ],
+   "trampa": [
+    "",
+    "umbral",
+    "umbral",
+    "umbral",
+    "umbral"
+   ],
+   "perla": "Adrogué: (Na de la solución − Na del paciente) / (ACT + 1) = ascenso por litro infundido.",
+   "fuente": {
+    "carpeta": "14. NEFROLOGIA",
+    "archivo": "8. HIPONATREMIA.pdf",
+    "seccion": "pág. 1 (NaCl 3 %, ley de corrección, Adrogué, mielinólisis)"
+   },
+   "gemela_de": null
+  },
+  {
+   "id": "2026-10-19-noche-050",
+   "enunciado": "Varón de 62 años con prótesis valvular mecánica mitral colocada hace 5 años, en controles irregulares. Acude por palpitaciones de 1 semana. PA 130/80 mmHg, FC 104X' irregular. EKG: QRS de 0,09 s, RR irregulares, sin P. Función renal normal, hemoglobina 14 g/dl. Se decide anticoagulación crónica. ¿Cuál es el anticoagulante y la meta de laboratorio apropiados?",
+   "opciones": [
+    "Rivaroxabán 20 mg al día sin control de INR",
+    "Warfarina con INR entre 2,5 y 3,5",
+    "Warfarina con INR entre 2,0 y 3,0",
+    "Dabigatrán 150 mg cada 12 horas",
+    "Enoxaparina 1 mg/kg cada 12 horas de forma indefinida"
+   ],
+   "clave": 2,
+   "especialidad": "Cardiología",
+   "tema": "Arritmias",
+   "diagnostico": "Fibrilación auricular con prótesis valvular mecánica: warfarina con INR 2,5-3,5",
+   "tipo": "dosis",
+   "dificultad": "alta",
+   "razonamiento": "Paso 1: RR irregular sin P: fibrilación auricular. Paso 2: la prótesis mecánica obliga a anticoagular siempre y excluye los anticoagulantes directos. Paso 3: warfarina con INR 2,5-3,5 (en válvula nativa sería 2-3).",
+   "por_que_no": [
+    "Los anticoagulantes directos están contraindicados con prótesis mecánica.",
+    "",
+    "Es la meta para válvula nativa; la prótesis mecánica exige un rango mayor.",
+    "Igual: directo contraindicado en válvula mecánica.",
+    "La heparina es puente, no anticoagulación crónica."
+   ],
+   "trampa": [
+    "otro-contexto",
+    "",
+    "umbral",
+    "otro-contexto",
+    "otro-momento"
+   ],
+   "perla": "Prótesis mecánica o estenosis mitral reumática: warfarina; INR 2-3 nativa, 2,5-3,5 mecánica.",
+   "fuente": {
+    "carpeta": "9. CARDIOLOGIA",
+    "archivo": "6. ARRITMIAS.pdf",
+    "seccion": "pág. 1 (taquiarritmias QRS estrecho, WPW, FA)"
+   },
+   "gemela_de": null
+  }
+ ]
+}
