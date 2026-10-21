@@ -1,0 +1,1971 @@
+{
+ "id": "2026-10-20-noche",
+ "fecha": "2026-10-20",
+ "turno": "noche",
+ "titulo": "Simulacro de la noche",
+ "segundos_por_pregunta": 45,
+ "temas_noche": [
+  "Obstetricia · Diabetes gestacional",
+  "Gastroenterología · Enfermedad inflamatoria intestinal"
+ ],
+ "feedback_noche": "Hoy no habías rendido el simulacro de la mañana a la hora de la rutina, y el par de anoche (arritmias e hiponatremia) sigue pendiente; por eso tomé tus siguientes dos temas más débiles: ambos van 0/2.\nEn la glucosa del embarazo la trampa es de umbral y de momento: primera consulta 92-125 ya es diagnóstico; la PTOG 75 g se lee con UN valor (92-180-153).\nEl tratamiento va en escalera: dieta (30 o 25 kcal/kg según IMC) y ejercicio, luego insulina; los orales quedan fuera.\nEn la EII decide primero qué forma es (continua desde el recto vs transmural salteada) y luego la severidad de Truelove; de ahí sale el fármaco.\nRecuerda: la cirugía cura la forma continua (colectomía total) y en la transmural solo trata complicaciones.",
+ "perlas_noche": [
+  "Primera consulta: ayunas ≥126, HbA1c ≥6,5 % o azar ≥200 = pregestacional (insulina); 92-125 = gestacional; <92 = PTOG 75 g a las 24-28 ss (desde 20 ss si hay factores de riesgo).",
+  "PTOG 75 g: ayunas ≥92, 1 h ≥180, 2 h ≥153 (un valor basta); metas: preprandial <90, 1 h <140, 2 h <120, HbA1c <6,5 % (pregestacional <6 %).",
+  "Hijo de madre con DMG: macrosomía (la más frecuente), hipertrofia septal, polihidramnios (ILA >25), hipoglucemia en horas, hipocalcemia a las 24-72 h y retraso de maduración pulmonar; posparto PTOG a las 6-12 semanas.",
+  "CU: continua desde el recto, mucosa, p-ANCA, tabaco protege, abscesos crípticos; Crohn: salteada, transmural, ASCA, NOD2, tabaco empeora, granulomas no caseificantes, fístulas, B12 y oxalato.",
+  "Truelove grave (>6 deposiciones con sangre + FC ≥90, T >37,5, Hb <10,5 o VSG >30): corticoide EV → azatioprina; falla o corticodependencia: anti-TNF; leve-moderada CU mesalazina, Crohn leve budesonida."
+ ],
+ "preguntas": [
+  {
+   "id": "2026-10-20-noche-001",
+   "enunciado": "Varón de 39 años con 10 años de dolor en fosa iliaca derecha y diarrea sin sangre; biopsias previas con granulomas no caseificantes. En el último año tuvo 3 episodios de vómitos, distensión y dolor cólico. PA 120/80 mmHg, FC 92X', afebril. Abdomen distendido, ruidos de lucha. Tomografía: estenosis de 10 cm del íleon terminal sin realce inflamatorio, con dilatación proximal; PCR normal. ¿Cuál es la conducta definitiva?",
+   "opciones": [
+    "Infliximab endovenoso",
+    "Budesonida oral",
+    "Corticoides sistémicos por 8 semanas",
+    "Colectomía total",
+    "Resección segmentaria del tramo estenótico"
+   ],
+   "clave": 5,
+   "especialidad": "Gastroenterología",
+   "tema": "Enfermedad inflamatoria intestinal",
+   "diagnostico": "Enfermedad de Crohn con estenosis fibrótica y obstrucción",
+   "tipo": "conducta",
+   "dificultad": "alta",
+   "razonamiento": "Paso 1: obstrucciones a repetición por estenosis ileal sin actividad inflamatoria. Paso 2: complicación estenosante del Crohn. Paso 3: cirugía reservada para complicaciones, limitada al segmento (no curativa).",
+   "por_que_no": [
+    "Útil en estenosis inflamatoria activa, no en la fibrótica sin inflamación.",
+    "Indicada en la enfermedad leve-moderada sin complicaciones.",
+    "No resuelven una estenosis fibrótica.",
+    "Es la cirugía curativa de la forma continua del colon.",
+    ""
+   ],
+   "trampa": [
+    "otro-estadio",
+    "otro-estadio",
+    "otro-estadio",
+    "diferencial",
+    ""
+   ],
+   "perla": "Crohn: cirugía solo para complicaciones y conservadora; recurre.",
+   "fuente": {
+    "carpeta": "5.GASTROENTEROLOGIA",
+    "archivo": "14. EII.pdf",
+    "seccion": "pág. 1, Tratamiento: cirugía"
+   },
+   "gemela_de": null
+  },
+  {
+   "id": "2026-10-20-noche-002",
+   "enunciado": "Recién nacido varón de 38 semanas, peso 4 280 g, parto vaginal con extracción laboriosa de hombros. Madre con hiperglucemia del embarazo en dieta, mal controlada. A las 2 horas de vida presenta temblores finos, succión débil y sudoración. FC 150X', FR 52X', T° 36,7 °C, SatO2 97 %. Pletórico, sin dificultad respiratoria. ¿Qué examen se debe solicitar primero?",
+   "opciones": [
+    "Calcio sérico",
+    "Magnesio sérico",
+    "Hematocrito venoso",
+    "Glucemia capilar",
+    "Bilirrubina sérica"
+   ],
+   "clave": 4,
+   "especialidad": "Obstetricia",
+   "tema": "Diabetes gestacional",
+   "diagnostico": "Recién nacido de madre con diabetes gestacional: hipoglucemia precoz",
+   "tipo": "prueba",
+   "dificultad": "media",
+   "razonamiento": "Paso 1: RN macrosómico con temblor y sudoración a las 2 h. Paso 2: hijo de madre con hiperglucemia mantiene hiperinsulinismo al cortarse el aporte placentario. Paso 3: lo primero es la glucemia capilar.",
+   "por_que_no": [
+    "La hipocalcemia aparece más tarde (24-72 h).",
+    "Alteración asociada pero tardía y menos frecuente.",
+    "Busca policitemia; no explica primero estos síntomas a las 2 h.",
+    "",
+    "La ictericia se presenta después del primer día."
+   ],
+   "trampa": [
+    "otro-momento",
+    "otro-momento",
+    "diferencial",
+    "",
+    "otro-momento"
+   ],
+   "perla": "Hijo de madre con DMG: horas = hipoglucemia; 24-72 h = hipocalcemia e hipomagnesemia.",
+   "fuente": {
+    "carpeta": "2. OBSTETRICIA",
+    "archivo": "8. DM GESTACIONAL.pdf",
+    "seccion": "pág. 1, Complicaciones en el RN"
+   },
+   "gemela_de": null
+  },
+  {
+   "id": "2026-10-20-noche-003",
+   "enunciado": "Varón de 45 años con 3 semanas de diarrea con sangre abundante; colonoscopia previa con afectación continua desde el recto. Hoy refiere 7 deposiciones al día con sangre. PA 112/70 mmHg, FC 96X', T° 37,3 °C. Abdomen doloroso sin distensión, ruidos presentes. Hb 10,8 g/dL, VSG 36 mm/h. Radiografía de abdomen sin dilatación del colon. ¿Cómo se clasifica el brote y qué corresponde?",
+   "opciones": [
+    "Grave refractario: infliximab de inicio",
+    "Moderado: mesalazina oral ambulatoria",
+    "Grave: hospitalizar y corticoide endovenoso",
+    "Complicado: colectomía urgente",
+    "Leve: mesalazina tópica"
+   ],
+   "clave": 3,
+   "especialidad": "Gastroenterología",
+   "tema": "Enfermedad inflamatoria intestinal",
+   "diagnostico": "Colitis ulcerosa grave según Truelove-Witts",
+   "tipo": "severidad",
+   "dificultad": "muy alta",
+   "razonamiento": "Paso 1: >6 deposiciones con sangre, FC ≥90 y VSG >30, aunque Hb >10,5 y afebril. Paso 2: brote grave de colitis ulcerosa. Paso 3: hospitalizar y corticoide sistémico EV.",
+   "por_que_no": [
+    "El biológico es para falla a corticoides.",
+    "Con >6 deposiciones, FC ≥90 y VSG >30 no es moderado.",
+    "",
+    "No hay dilatación, perforación ni hemorragia masiva.",
+    "Leve es <4 deposiciones sin compromiso sistémico."
+   ],
+   "trampa": [
+    "otro-momento",
+    "umbral",
+    "",
+    "otro-estadio",
+    "otro-estadio"
+   ],
+   "perla": "Truelove grave: >6 deposiciones con sangre + FC ≥90, T >37,5, Hb <10,5 o VSG >30.",
+   "fuente": {
+    "carpeta": "5.GASTROENTEROLOGIA",
+    "archivo": "14. EII.pdf",
+    "seccion": "pág. 1, Grados de severidad"
+   },
+   "gemela_de": null
+  },
+  {
+   "id": "2026-10-20-noche-004",
+   "enunciado": "Gestante de 26 semanas, 27 años, primigesta, peso actual 60 kg, IMC pregestacional 22 kg/m2. Antecedente de muerte fetal inexplicada en una gestación previa. PA 104/66 mmHg. PTOG con 75 g: ayunas 86 mg/dL, 1 hora 168 mg/dL y 2 horas 158 mg/dL. Ecografía con feto en percentil 60. ¿Qué aporte calórico diario se indica?",
+   "opciones": [
+    "1 500 kcal/día, a 25 kcal/kg",
+    "2 100 kcal/día, a 35 kcal/kg",
+    "2 500 kcal/día fijas",
+    "1 800 kcal/día, a 30 kcal/kg",
+    "1 200 kcal/día, a 20 kcal/kg"
+   ],
+   "clave": 4,
+   "especialidad": "Obstetricia",
+   "tema": "Diabetes gestacional",
+   "diagnostico": "Diabetes gestacional en gestante con IMC normal: aporte calórico",
+   "tipo": "dosis",
+   "dificultad": "alta",
+   "razonamiento": "Paso 1: 2 h 158 (≥153) en la PTOG. Paso 2: hiperglucemia del embarazo con IMC normal. Paso 3: dieta a 30 kcal/kg: 60 × 30 = 1 800 kcal/día más ejercicio.",
+   "por_que_no": [
+    "Es el cálculo para IMC >30.",
+    "Supera la recomendación de la fuente.",
+    "Es el requerimiento general de la gestante sin esta alteración.",
+    "",
+    "Restricción excesiva no recomendada."
+   ],
+   "trampa": [
+    "otra-poblacion",
+    "umbral",
+    "otro-contexto",
+    "",
+    "umbral"
+   ],
+   "perla": "DMG con IMC normal: 30 kcal/kg; con IMC >30: 25 kcal/kg.",
+   "fuente": {
+    "carpeta": "2. OBSTETRICIA",
+    "archivo": "8. DM GESTACIONAL.pdf",
+    "seccion": "pág. 1, Tratamiento 1.ª línea"
+   },
+   "gemela_de": null
+  },
+  {
+   "id": "2026-10-20-noche-005",
+   "enunciado": "Gestante de 27 semanas, 31 años, IMC 30 kg/m2, con PTOG con 75 g de ayunas 97 mg/dL, 1 hora 182 mg/dL y 2 horas 149 mg/dL. Asintomática, PA 112/70 mmHg. Ecografía: biometría en percentil 65. Inicia dieta y ejercicio. Pregunta qué problema es el más frecuente que podría tener su bebé si no logra el control. ¿Cuál es?",
+   "opciones": [
+    "Hipoglucemia neonatal",
+    "Restricción del crecimiento intrauterino",
+    "Macrosomía fetal",
+    "Síndrome de regresión caudal",
+    "Hipertrofia del tabique interventricular"
+   ],
+   "clave": 3,
+   "especialidad": "Obstetricia",
+   "tema": "Diabetes gestacional",
+   "diagnostico": "Complicación fetal más frecuente de la diabetes gestacional",
+   "tipo": "complicacion",
+   "dificultad": "media",
+   "razonamiento": "Paso 1: ayunas ≥92 y 1 h ≥180 en la PTOG. Paso 2: hiperglucemia del embarazo. Paso 3: su complicación más frecuente es la macrosomía (>4 kg).",
+   "por_que_no": [
+    "Frecuente, pero no la complicación más frecuente de la DMG.",
+    "Más propia de la preeclampsia (asimétrica).",
+    "",
+    "Propio de la hiperglucemia previa al embarazo.",
+    "Es la cardiopatía más frecuente, no la complicación global más frecuente."
+   ],
+   "trampa": [
+    "diferencial",
+    "diferencial",
+    "",
+    "otra-poblacion",
+    "mismo-grupo"
+   ],
+   "perla": "Complicación más frecuente de la DMG: macrosomía >4 kg.",
+   "fuente": {
+    "carpeta": "2. OBSTETRICIA",
+    "archivo": "8. DM GESTACIONAL.pdf",
+    "seccion": "pág. 1, Complicación más frecuente"
+   },
+   "gemela_de": null
+  },
+  {
+   "id": "2026-10-20-noche-006",
+   "enunciado": "Mujer de 30 años con 4 años de diarrea con sangre y tenesmo, con afectación continua desde el recto. Consulta por ojo derecho rojo, doloroso y con fotofobia de 2 días, y lumbalgia inflamatoria que mejora con el ejercicio. Agudeza visual disminuida. Inyección ciliar, pupila en miosis poco reactiva. Radiografía de pelvis: esclerosis sacroiliaca bilateral. ¿Qué factor genético comparten sus manifestaciones extraintestinales?",
+   "opciones": [
+    "HLA-DR2",
+    "HLA-B27",
+    "HLA-DR4",
+    "HLA-DR3",
+    "Mutación de NOD2"
+   ],
+   "clave": 2,
+   "especialidad": "Gastroenterología",
+   "tema": "Enfermedad inflamatoria intestinal",
+   "diagnostico": "Uveítis anterior asociada a EII: HLA-B27",
+   "tipo": "mecanismo",
+   "dificultad": "alta",
+   "razonamiento": "Paso 1: ojo rojo con miosis y fotofobia más sacroileítis. Paso 2: uveítis anterior y espondiloartritis axial en paciente con EII. Paso 3: ambas se asocian a HLA-B27.",
+   "por_que_no": [
+    "Se asocia a la susceptibilidad de la colitis, no a la uveítis ni a la afectación axial.",
+    "",
+    "Asociado a artritis reumatoide.",
+    "Asociado a enfermedad celiaca y autoinmunidad endocrina.",
+    "Asociada a la forma transmural, no a la uveítis."
+   ],
+   "trampa": [
+    "mismo-grupo",
+    "",
+    "diferencial",
+    "diferencial",
+    "mismo-grupo"
+   ],
+   "perla": "Ojo rojo con miosis en EII = uveítis; uveítis y artropatía axial = HLA-B27.",
+   "fuente": {
+    "carpeta": "5.GASTROENTEROLOGIA",
+    "archivo": "14. EII.pdf",
+    "seccion": "pág. 1, Complicaciones extraintestinales"
+   },
+   "gemela_de": null
+  },
+  {
+   "id": "2026-10-20-noche-007",
+   "enunciado": "Mujer de 34 años, G2P1, acude a su primer control prenatal a las 9 semanas. IMC pregestacional 32 kg/m2; su primer hijo pesó 4 100 g. Asintomática. PA 112/70 mmHg, FC 78X'. Altura uterina acorde. Laboratorio: glucosa en ayunas 104 mg/dL, confirmada en una segunda muestra con 101 mg/dL; examen de orina sin glucosuria. ¿Cuál es la conducta más adecuada?",
+   "opciones": [
+    "Adelantar la PTOG con 75 g de glucosa a las 20 semanas",
+    "Realizar test de O'Sullivan con 50 g de glucosa en esta consulta",
+    "Programar PTOG con 75 g de glucosa entre las 24 y 28 semanas",
+    "Iniciar insulina NPH antes de dormir desde esta semana",
+    "Iniciar plan nutricional, ejercicio y automonitoreo sin esperar la PTOG"
+   ],
+   "clave": 5,
+   "especialidad": "Obstetricia",
+   "tema": "Diabetes gestacional",
+   "diagnostico": "Diabetes gestacional diagnosticada en la primera consulta (ayunas 92-125)",
+   "tipo": "conducta",
+   "dificultad": "alta",
+   "razonamiento": "Paso 1: glucosa en ayunas 92-125 en la primera consulta. Paso 2: ese rango ya define la alteración propia del embarazo (≥126 sería previa). Paso 3: no se necesita carga; se inicia dieta, ejercicio y automonitoreo.",
+   "por_que_no": [
+    "Se adelanta a 20 semanas por factores de riesgo solo si la glucosa basal es normal.",
+    "Es un tamizaje; con ayunas entre 92 y 125 ya está hecho el diagnóstico.",
+    "Sería lo correcto si la glucosa en ayunas fuera menor de 92 mg/dL.",
+    "La insulina es segunda línea, tras fracasar la dieta y el ejercicio.",
+    ""
+   ],
+   "trampa": [
+    "otra-poblacion",
+    "no-confirmatorio",
+    "umbral",
+    "otro-momento",
+    ""
+   ],
+   "perla": "Primera consulta: ayunas 92-125 = DMG ya diagnosticada; ≥126, HbA1c ≥6,5 % o azar ≥200 = pregestacional.",
+   "fuente": {
+    "carpeta": "2. OBSTETRICIA",
+    "archivo": "8. DM GESTACIONAL.pdf",
+    "seccion": "pág. 1, Diagnóstico de 1.ª consulta"
+   },
+   "gemela_de": null
+  },
+  {
+   "id": "2026-10-20-noche-008",
+   "enunciado": "Mujer de 26 años, no fumadora, con 5 meses de diarrea con sangre y moco, 4-5 deposiciones al día, urgencia y tenesmo. Sin dolor perianal ni pérdida de peso importante. PA 112/70 mmHg, FC 82X', T° 36,8 °C. Abdomen blando, sin masas. Colonoscopia: mucosa friable con úlceras superficiales, continua desde el recto hasta el sigmoides. ¿Qué marcador serológico se espera positivo?",
+   "opciones": [
+    "Anticuerpos antinucleares",
+    "p-ANCA",
+    "c-ANCA",
+    "Anticuerpos antitransglutaminasa",
+    "ASCA"
+   ],
+   "clave": 2,
+   "especialidad": "Gastroenterología",
+   "tema": "Enfermedad inflamatoria intestinal",
+   "diagnostico": "Colitis ulcerosa: marcador serológico p-ANCA",
+   "tipo": "prueba",
+   "dificultad": "media",
+   "razonamiento": "Paso 1: diarrea con sangre, tenesmo y afectación continua desde el recto, superficial. Paso 2: corresponde a la forma de afectación mucosa continua (colitis ulcerosa). Paso 3: su marcador es p-ANCA.",
+   "por_que_no": [
+    "Marcador de autoinmunidad sistémica, no de este cuadro.",
+    "",
+    "Marcador de vasculitis granulomatosa, no de esta colitis.",
+    "Marcador de enteropatía por gluten, que no sangra ni da tenesmo.",
+    "Se asocia a la forma transmural, segmentaria e ileocecal."
+   ],
+   "trampa": [
+    "mismo-grupo",
+    "",
+    "mismo-grupo",
+    "diferencial",
+    "diferencial"
+   ],
+   "perla": "p-ANCA = colitis ulcerosa; ASCA = Crohn.",
+   "fuente": {
+    "carpeta": "5.GASTROENTEROLOGIA",
+    "archivo": "14. EII.pdf",
+    "seccion": "pág. 1, Serología"
+   },
+   "gemela_de": null
+  },
+  {
+   "id": "2026-10-20-noche-009",
+   "enunciado": "Varón de 20 años con 8 meses de diarrea sin sangre, dolor cólico posprandial en fosa iliaca derecha, aftas orales recurrentes y pérdida de 6 kg. PA 110/70 mmHg, FC 88X', T° 37,5 °C. Masa dolorosa en fosa iliaca derecha. Colonoscopia: recto normal, úlceras profundas en íleon terminal con mucosa en empedrado. Se pide tránsito intestinal con bario. ¿Qué hallazgo radiológico se espera?",
+   "opciones": [
+    "Dilatación del colon transverso mayor de 6 cm",
+    "Imagen en manzana mordida en sigmoides",
+    "Signo de la cuerda en el íleon terminal",
+    "Colon acortado sin haustras en tubo",
+    "Pseudopólipos difusos del colon izquierdo"
+   ],
+   "clave": 3,
+   "especialidad": "Gastroenterología",
+   "tema": "Enfermedad inflamatoria intestinal",
+   "diagnostico": "Enfermedad de Crohn: signo de la cuerda",
+   "tipo": "prueba",
+   "dificultad": "media",
+   "razonamiento": "Paso 1: aftas orales, masa en FID, recto respetado y empedrado ileal. Paso 2: afectación transmural ileal (Crohn). Paso 3: la estenosis ileal da el signo de la cuerda en el tránsito.",
+   "por_que_no": [
+    "Hallazgo de la dilatación tóxica aguda.",
+    "Sugiere neoplasia estenosante del colon.",
+    "",
+    "Hallazgo crónico de la forma continua del colon.",
+    "Hallazgo de la forma continua crónica."
+   ],
+   "trampa": [
+    "otro-estadio",
+    "diferencial",
+    "",
+    "diferencial",
+    "diferencial"
+   ],
+   "perla": "Crohn: signo de la cuerda; CU: colon en tubo sin haustras.",
+   "fuente": {
+    "carpeta": "5.GASTROENTEROLOGIA",
+    "archivo": "14. EII.pdf",
+    "seccion": "pág. 1, Tabla de diagnóstico por imagen"
+   },
+   "gemela_de": null
+  },
+  {
+   "id": "2026-10-20-noche-010",
+   "enunciado": "Varón de 22 años, fumador de 10 cigarrillos al día, con 7 meses de diarrea sin sangre, dolor cólico en fosa iliaca derecha, fiebre baja y pérdida de 8 kg. PA 110/70 mmHg, FC 96X', T° 37,8 °C. Masa dolorosa en fosa iliaca derecha y fístula perianal. Colonoscopia: úlceras aftosas y profundas en íleon terminal con mucosa sana intercalada. ¿Qué hallazgo histológico es el esperado en la biopsia?",
+   "opciones": [
+    "Granulomas no caseificantes con inflamación transmural",
+    "Abscesos crípticos con inflamación limitada a la mucosa",
+    "Granulomas caseificantes confluentes",
+    "Pseudopólipos con pérdida de haustras",
+    "Atrofia vellositaria con linfocitosis intraepitelial"
+   ],
+   "clave": 1,
+   "especialidad": "Gastroenterología",
+   "tema": "Enfermedad inflamatoria intestinal",
+   "diagnostico": "Enfermedad de Crohn: histología",
+   "tipo": "prueba",
+   "dificultad": "alta",
+   "razonamiento": "Paso 1: fumador, masa en FID, fístula perianal y lesiones salteadas en íleon. Paso 2: es la forma transmural segmentaria (Crohn). Paso 3: la biopsia muestra granulomas no caseificantes y afectación transmural.",
+   "por_que_no": [
+    "",
+    "Hallazgo de la forma continua limitada a mucosa y submucosa.",
+    "Sugieren tuberculosis intestinal, diferencial ileocecal.",
+    "Hallazgo de la forma continua crónica del colon.",
+    "Propia de la enteropatía por gluten."
+   ],
+   "trampa": [
+    "",
+    "diferencial",
+    "diferencial",
+    "diferencial",
+    "diferencial"
+   ],
+   "perla": "Crohn: granulomas NO caseificantes, transmural, lesiones salteadas en empedrado.",
+   "fuente": {
+    "carpeta": "5.GASTROENTEROLOGIA",
+    "archivo": "14. EII.pdf",
+    "seccion": "pág. 1, Patología"
+   },
+   "gemela_de": null
+  },
+  {
+   "id": "2026-10-20-noche-011",
+   "enunciado": "Mujer de 37 años con 3 años de diarrea con sangre a repetición; colonoscopias previas con afectación continua desde el recto. Hace 3 semanas se hospitalizó por 9 deposiciones al día con sangre, fiebre y Hb 9,8 g/dL, y respondió a hidrocortisona endovenosa. Hoy, con prednisona oral en descenso: 2 deposiciones al día sin sangre, FC 78X', afebril. ¿Cuál es la conducta para el mantenimiento?",
+   "opciones": [
+    "Iniciar budesonida oral",
+    "Programar colectomía total electiva",
+    "Mantener prednisona en dosis bajas de forma indefinida",
+    "Iniciar azatioprina",
+    "Iniciar infliximab"
+   ],
+   "clave": 4,
+   "especialidad": "Gastroenterología",
+   "tema": "Enfermedad inflamatoria intestinal",
+   "diagnostico": "Colitis ulcerosa grave con respuesta a corticoides: mantenimiento",
+   "tipo": "tratamiento",
+   "dificultad": "alta",
+   "razonamiento": "Paso 1: brote con >6 deposiciones, fiebre y Hb <10,5 que respondió a corticoide EV. Paso 2: CU grave controlada. Paso 3: si responde a corticoides, el mantenimiento es azatioprina.",
+   "por_que_no": [
+    "Indicada en la forma ileocecal leve-moderada.",
+    "Se reserva para refractariedad o complicación.",
+    "Los corticoides no se usan como mantenimiento.",
+    "",
+    "Para fracaso, corticodependencia o corticorresistencia."
+   ],
+   "trampa": [
+    "diferencial",
+    "otro-estadio",
+    "otro-momento",
+    "",
+    "otro-estadio"
+   ],
+   "perla": "Grave que responde a corticoides → mantenimiento con azatioprina.",
+   "fuente": {
+    "carpeta": "5.GASTROENTEROLOGIA",
+    "archivo": "14. EII.pdf",
+    "seccion": "pág. 1, Tratamiento moderado a grave"
+   },
+   "gemela_de": null
+  },
+  {
+   "id": "2026-10-20-noche-012",
+   "enunciado": "Gestante de 32 semanas, 36 años, con hiperglucemia detectada en la PTOG de la semana 26 (ayunas 99 mg/dL) y control irregular. Altura uterina 35 cm. Ecografía: ponderado en percentil 92, ILA 24 cm. Se solicita ecocardiografía fetal por la condición materna. ¿Cuál es el hallazgo cardiaco más frecuente que se espera?",
+   "opciones": [
+    "Hipertrofia del tabique interventricular",
+    "Comunicación interventricular",
+    "Coartación de aorta",
+    "Transposición de grandes arterias",
+    "Tetralogía de Fallot"
+   ],
+   "clave": 1,
+   "especialidad": "Obstetricia",
+   "tema": "Diabetes gestacional",
+   "diagnostico": "Miocardiopatía hipertrófica septal fetal por diabetes gestacional",
+   "tipo": "complicacion",
+   "dificultad": "alta",
+   "razonamiento": "Paso 1: ayunas 99 en la PTOG y feto grande con líquido alto. Paso 2: hiperglucemia materna con hiperinsulinemia fetal. Paso 3: la cardiopatía más frecuente es la hipertrofia del tabique ventricular.",
+   "por_que_no": [
+    "",
+    "Cardiopatía congénita frecuente en general, no la típica de este cuadro.",
+    "Asociada a otras condiciones genéticas, no a esta.",
+    "Malformación asociada a hiperglucemia del periodo de organogénesis (previa).",
+    "No es la alteración cardiaca típica de la hiperglucemia del embarazo."
+   ],
+   "trampa": [
+    "",
+    "diferencial",
+    "diferencial",
+    "otra-poblacion",
+    "diferencial"
+   ],
+   "perla": "Cardiopatía más frecuente por hiperglucemia del embarazo: hipertrofia del tabique.",
+   "fuente": {
+    "carpeta": "2. OBSTETRICIA",
+    "archivo": "8. DM GESTACIONAL.pdf",
+    "seccion": "pág. 1, Malformaciones congénitas fetales"
+   },
+   "gemela_de": null
+  },
+  {
+   "id": "2026-10-20-noche-013",
+   "enunciado": "Mujer de 23 años, primigesta, acude a su primer control a las 9 semanas. Sin antecedentes personales ni familiares. IMC 21 kg/m2. PA 100/64 mmHg. Glucosa en ayunas 78 mg/dL, hemoglobina 12,6 g/dL, orina normal. Ecografía: embrión único con latido. ¿Cuándo debe realizarse la prueba de carga de glucosa?",
+   "opciones": [
+    "A partir de las 20 semanas",
+    "Después de las 32 semanas",
+    "En esta consulta, antes de las 14 semanas",
+    "No requiere carga por tener basal menor de 92",
+    "Entre las 24 y 28 semanas"
+   ],
+   "clave": 5,
+   "especialidad": "Obstetricia",
+   "tema": "Diabetes gestacional",
+   "diagnostico": "Gestante sin factores de riesgo con glucosa basal normal",
+   "tipo": "norma",
+   "dificultad": "media",
+   "razonamiento": "Paso 1: basal 78 (<92) en la primera consulta. Paso 2: sin factores de riesgo. Paso 3: PTOG 75 g universal a las 24-28 semanas.",
+   "por_que_no": [
+    "Solo se adelanta si hay factores de riesgo.",
+    "Es tardío; solo se hace en las no evaluadas.",
+    "En el primer trimestre basta la basal si es <92.",
+    "Toda gestante con basal normal pasa a la carga de 24-28 ss.",
+    ""
+   ],
+   "trampa": [
+    "otra-poblacion",
+    "otro-momento",
+    "otro-momento",
+    "umbral",
+    ""
+   ],
+   "perla": "Basal <92 sin factores de riesgo: PTOG 75 g a las 24-28 semanas.",
+   "fuente": {
+    "carpeta": "2. OBSTETRICIA",
+    "archivo": "8. DM GESTACIONAL.pdf",
+    "seccion": "pág. 1, Tamizaje"
+   },
+   "gemela_de": null
+  },
+  {
+   "id": "2026-10-20-noche-014",
+   "enunciado": "Mujer de 28 años, fumadora y usuaria de anticonceptivos orales, con 6 meses de diarrea con sangre ocasional, dolor abdominal difuso y pérdida de 5 kg. PA 112/70 mmHg, FC 88X', T° 37,6 °C. Fisura y fístula perianal. Colonoscopia: úlceras en colon derecho y transverso con segmentos sanos y recto respetado; biopsias no concluyentes. ¿Qué perfil serológico apoya la sospecha principal?",
+   "opciones": [
+    "c-ANCA positivo con anti-PR3",
+    "ASCA positivo y p-ANCA negativo",
+    "p-ANCA positivo y ASCA negativo",
+    "Antitransglutaminasa IgA positiva",
+    "Anticuerpos antimitocondriales positivos"
+   ],
+   "clave": 2,
+   "especialidad": "Gastroenterología",
+   "tema": "Enfermedad inflamatoria intestinal",
+   "diagnostico": "Colitis indeterminada orientada a Crohn por ASCA",
+   "tipo": "prueba",
+   "dificultad": "muy alta",
+   "razonamiento": "Paso 1: tabaco, anticonceptivos, enfermedad perianal, lesiones salteadas con recto respetado. Paso 2: orienta a Crohn de colon. Paso 3: perfil ASCA positivo, p-ANCA negativo.",
+   "por_que_no": [
+    "Perfil de vasculitis granulomatosa.",
+    "",
+    "Perfil de la forma continua desde el recto.",
+    "Marcador de enteropatía por gluten.",
+    "Marcador de colangitis biliar primaria."
+   ],
+   "trampa": [
+    "diferencial",
+    "",
+    "diferencial",
+    "diferencial",
+    "diferencial"
+   ],
+   "perla": "Tabaco y anticonceptivos orales: factores de riesgo de Crohn.",
+   "fuente": {
+    "carpeta": "5.GASTROENTEROLOGIA",
+    "archivo": "14. EII.pdf",
+    "seccion": "pág. 1, Serología y factores de riesgo"
+   },
+   "gemela_de": null
+  },
+  {
+   "id": "2026-10-20-noche-015",
+   "enunciado": "Neonata de 39 semanas, peso 4 050 g, hija de madre con hiperglucemia del embarazo tratada con insulina. Recibió alimentación precoz y sus glucemias fueron 52, 58 y 64 mg/dL las primeras 24 horas. A las 40 horas presenta temblores e irritabilidad. FC 148X', FR 48X', T° 36,9 °C. Glucemia capilar 68 mg/dL. Sin ictericia. ¿Qué alteración es la más probable?",
+   "opciones": [
+    "Hiperbilirrubinemia",
+    "Hipoglucemia persistente",
+    "Hipocalcemia",
+    "Policitemia",
+    "Hipernatremia"
+   ],
+   "clave": 3,
+   "especialidad": "Obstetricia",
+   "tema": "Diabetes gestacional",
+   "diagnostico": "Recién nacido de madre con diabetes gestacional: hipocalcemia tardía",
+   "tipo": "complicacion",
+   "dificultad": "alta",
+   "razonamiento": "Paso 1: temblores a las 40 h con glucemia 68 mg/dL. Paso 2: descartada la hipoglucemia, la otra alteración metabólica típica de 24-72 h es la del calcio. Paso 3: hipocalcemia (puede acompañarse de hipomagnesemia).",
+   "por_que_no": [
+    "No hay ictericia.",
+    "La glucemia actual es normal; esa complicación es de las primeras horas.",
+    "",
+    "Da plétora e hiperviscosidad, no temblor con glucosa normal típicamente.",
+    "No es complicación metabólica asociada al hijo de madre con DMG."
+   ],
+   "trampa": [
+    "diferencial",
+    "otro-momento",
+    "",
+    "diferencial",
+    "otro"
+   ],
+   "perla": "RN de madre con DMG con temblor y glucosa normal pasado el día 1: mide calcio.",
+   "fuente": {
+    "carpeta": "2. OBSTETRICIA",
+    "archivo": "8. DM GESTACIONAL.pdf",
+    "seccion": "pág. 1, Complicaciones en el RN"
+   },
+   "gemela_de": null
+  },
+  {
+   "id": "2026-10-20-noche-016",
+   "enunciado": "Mujer de 24 años, G2P1, acude por primera vez a control prenatal a las 31 semanas porque vivía en una zona rural sin establecimiento cercano. Sin antecedentes. IMC 27 kg/m2. PA 110/70 mmHg, altura uterina 31 cm, LCF 140X'. Hemoglobina 11,4 g/dL. Nunca se le midió la glucosa en esta gestación. ¿Qué corresponde respecto al tamizaje glucémico?",
+   "opciones": [
+    "No tamizar porque ya pasó la ventana de 24 a 28 semanas",
+    "Realizar la prueba de carga de glucosa en esta etapa",
+    "Medir glucosa en ayunas cada mes hasta el parto",
+    "Solicitar solo HbA1c",
+    "Diferir la evaluación a las 6 semanas posparto"
+   ],
+   "clave": 2,
+   "especialidad": "Obstetricia",
+   "tema": "Diabetes gestacional",
+   "diagnostico": "Gestante en tercer trimestre no tamizada",
+   "tipo": "norma",
+   "dificultad": "media",
+   "razonamiento": "Paso 1: 31 semanas sin ninguna medición glucémica. Paso 2: el tamizaje se aplica en el 3.er trimestre a las no evaluadas. Paso 3: se hace la carga de glucosa ahora.",
+   "por_que_no": [
+    "Las no evaluadas en el 3.er trimestre igual se tamizan.",
+    "",
+    "La basal no reemplaza la prueba de carga.",
+    "La HbA1c corresponde a la primera consulta temprana.",
+    "La PTOG posparto es para reclasificar a quien ya tuvo el diagnóstico."
+   ],
+   "trampa": [
+    "otro-momento",
+    "",
+    "no-confirmatorio",
+    "no-confirmatorio",
+    "otro-momento"
+   ],
+   "perla": "O'Sullivan: 1.er trimestre con factores, 2.º universal, 3.er en las no evaluadas.",
+   "fuente": {
+    "carpeta": "2. OBSTETRICIA",
+    "archivo": "8. DM GESTACIONAL.pdf",
+    "seccion": "pág. 1, Tamizaje"
+   },
+   "gemela_de": null
+  },
+  {
+   "id": "2026-10-20-noche-017",
+   "enunciado": "Varón de 31 años con 6 años de diarrea crónica sin sangre, dolor en fosa iliaca derecha y fístula perianal; tránsito previo con estenosis del íleon terminal. Acude por dolor lumbar izquierdo intenso irradiado a genitales y hematuria de 6 horas. PA 130/80 mmHg, FC 98X', T° 36,9 °C. Puñopercusión positiva. Orina: hematíes 50/campo y cristales bipiramidales. ¿Qué tipo de cálculo es el más probable?",
+   "opciones": [
+    "Oxalato de calcio",
+    "Fosfato de calcio",
+    "Cistina",
+    "Ácido úrico",
+    "Estruvita"
+   ],
+   "clave": 1,
+   "especialidad": "Gastroenterología",
+   "tema": "Enfermedad inflamatoria intestinal",
+   "diagnostico": "Enfermedad de Crohn ileal: nefrolitiasis por oxalato",
+   "tipo": "complicacion",
+   "dificultad": "alta",
+   "razonamiento": "Paso 1: cólico renal con cristales bipiramidales en paciente con estenosis ileal y fístula perianal. Paso 2: la malabsorción de grasa en Crohn ileal libera oxalato. Paso 3: litiasis de oxalato de calcio.",
+   "por_que_no": [
+    "",
+    "Asociado a acidosis tubular distal.",
+    "Trastorno hereditario con cristales hexagonales.",
+    "Se asocia a diarrea con orina ácida, pero no da cristales bipiramidales.",
+    "Asociada a infección urinaria por gérmenes ureasa positivos."
+   ],
+   "trampa": [
+    "",
+    "diferencial",
+    "diferencial",
+    "diferencial",
+    "diferencial"
+   ],
+   "perla": "Crohn ileal: nefrolitiasis por oxalato y colelitiasis.",
+   "fuente": {
+    "carpeta": "5.GASTROENTEROLOGIA",
+    "archivo": "14. EII.pdf",
+    "seccion": "pág. 1, Complicaciones extraintestinales"
+   },
+   "gemela_de": null
+  },
+  {
+   "id": "2026-10-20-noche-018",
+   "enunciado": "Gestante de 32 semanas, 30 años, con hiperglucemia del embarazo y abandono de la dieta. Refiere disnea leve y sensación de abdomen muy tenso. PA 118/74 mmHg, FC 92X'. Altura uterina 38 cm, partes fetales difíciles de palpar. Se solicita ecografía para cuantificar el líquido amniótico. ¿Qué hallazgo define la complicación sospechada?",
+   "opciones": [
+    "Pozo mayor de líquido mayor de 2 cm",
+    "Índice de líquido amniótico menor de 5 cm",
+    "Pozo mayor de líquido mayor de 6 cm",
+    "Índice de líquido amniótico mayor de 18 cm",
+    "Índice de líquido amniótico mayor de 25 cm"
+   ],
+   "clave": 5,
+   "especialidad": "Obstetricia",
+   "tema": "Diabetes gestacional",
+   "diagnostico": "Polihidramnios en diabetes gestacional",
+   "tipo": "prueba",
+   "dificultad": "media",
+   "razonamiento": "Paso 1: altura uterina 6 cm mayor a la edad gestacional con partes fetales difíciles de palpar. Paso 2: hiperglucemia fetal → poliuria → exceso de líquido. Paso 3: se define por ILA >25 cm o pozo mayor >8 cm.",
+   "por_que_no": [
+    "Es solo el límite inferior de la normalidad.",
+    "Define el déficit de líquido, no el exceso.",
+    "Por debajo del corte de 8 cm que define el exceso.",
+    "Valor aún dentro de lo normal.",
+    ""
+   ],
+   "trampa": [
+    "umbral",
+    "diferencial",
+    "umbral",
+    "umbral",
+    ""
+   ],
+   "perla": "Polihidramnios: ILA >25 cm o pozo mayor >8 cm; la causa más frecuente es idiopática.",
+   "fuente": {
+    "carpeta": "2. OBSTETRICIA",
+    "archivo": "8. DM GESTACIONAL.pdf",
+    "seccion": "pág. 1, Líquido amniótico"
+   },
+   "gemela_de": null
+  },
+  {
+   "id": "2026-10-20-noche-019",
+   "enunciado": "Gestante de 28 semanas, 35 años, IMC 31 kg/m2, con glucosa en ayunas de 82 mg/dL en el primer trimestre. Ahora su PTOG con 75 g muestra ayunas 90 mg/dL, 1 hora 188 mg/dL y 2 horas 160 mg/dL. Pregunta por qué su glucosa era normal al inicio y ahora no. ¿Cuál es la hormona principal responsable de la resistencia a la insulina que explica el cambio?",
+   "opciones": [
+    "Prolactina",
+    "Progesterona",
+    "Lactógeno placentario",
+    "Estrógeno",
+    "Gonadotropina coriónica humana"
+   ],
+   "clave": 3,
+   "especialidad": "Obstetricia",
+   "tema": "Diabetes gestacional",
+   "diagnostico": "Resistencia a la insulina del embarazo en diabetes gestacional",
+   "tipo": "mecanismo",
+   "dificultad": "media",
+   "razonamiento": "Paso 1: basal normal temprana y PTOG alterada (1 h ≥180, 2 h ≥153) en el 2.º-3.er trimestre. Paso 2: la resistencia crece con la masa placentaria. Paso 3: el lactógeno placentario es la hormona responsable.",
+   "por_que_no": [
+    "Aumenta en la gestación sin ser el mediador principal.",
+    "Eleva la glucosa, pero no es la principal hormona de resistencia.",
+    "",
+    "Contribuye a la hiperglucemia, pero no es la principal.",
+    "Pico en el primer trimestre; no explica la resistencia de la 2.ª mitad."
+   ],
+   "trampa": [
+    "mismo-grupo",
+    "mismo-grupo",
+    "",
+    "mismo-grupo",
+    "otro-momento"
+   ],
+   "perla": "Hormona de la resistencia a insulina en el embarazo: lactógeno placentario.",
+   "fuente": {
+    "carpeta": "2. OBSTETRICIA",
+    "archivo": "8. DM GESTACIONAL.pdf",
+    "seccion": "pág. 1, Generalidades"
+   },
+   "gemela_de": null
+  },
+  {
+   "id": "2026-10-20-noche-020",
+   "enunciado": "Varón de 27 años con 2 años de diarrea sin sangre y dolor en fosa iliaca derecha; biopsias ileales con granulomas no caseificantes. Consulta por dolor perianal pulsátil intenso de 4 días y fiebre. PA 118/74 mmHg, FC 106X', T° 38,6 °C. Tumefacción perianal eritematosa, caliente y fluctuante a las 5, con orificio fistuloso. Leucocitos 15 800/mm3. ¿Cuál es la conducta inicial?",
+   "opciones": [
+    "Azatioprina oral",
+    "Corticoides sistémicos",
+    "Drenaje quirúrgico del absceso",
+    "Proctocolectomía total",
+    "Infliximab endovenoso de inducción"
+   ],
+   "clave": 3,
+   "especialidad": "Gastroenterología",
+   "tema": "Enfermedad inflamatoria intestinal",
+   "diagnostico": "Enfermedad de Crohn perianal con absceso",
+   "tipo": "conducta",
+   "dificultad": "alta",
+   "razonamiento": "Paso 1: masa perianal fluctuante con fiebre y leucocitosis en enfermedad granulomatosa ileal. Paso 2: absceso perianal complicando un Crohn fistulizante. Paso 3: primero drenaje; luego tratar la fístula médicamente.",
+   "por_que_no": [
+    "Es mantenimiento; la inmunosupresión sin drenar es riesgosa.",
+    "Empeoran una infección no drenada.",
+    "",
+    "Cirugía curativa de la forma continua del colon.",
+    "Se usa en la fístula, pero tras drenar la sepsis."
+   ],
+   "trampa": [
+    "otro-momento",
+    "otro-estadio",
+    "",
+    "diferencial",
+    "otro-momento"
+   ],
+   "perla": "Crohn con absceso: drenar antes de inmunosuprimir.",
+   "fuente": {
+    "carpeta": "5.GASTROENTEROLOGIA",
+    "archivo": "14. EII.pdf",
+    "seccion": "pág. 1, Tratamiento: cirugía reservada para complicaciones"
+   },
+   "gemela_de": null
+  },
+  {
+   "id": "2026-10-20-noche-021",
+   "enunciado": "Mujer de 44 años con 9 años de diarrea con sangre; colonoscopia con afectación continua desde el recto hasta el ciego. Ha recibido mesalazina, corticoides, azatioprina e infliximab sin lograr remisión: persiste con 7 deposiciones al día con sangre y Hb 9,9 g/dL. FC 92X', T° 37,4 °C. Sin dilatación colónica. ¿Cuál es el tratamiento quirúrgico curativo?",
+   "opciones": [
+    "Sigmoidectomía",
+    "Ileostomía derivativa sin resección",
+    "Proctocolectomía total",
+    "Hemicolectomía derecha",
+    "Resección ileocecal"
+   ],
+   "clave": 3,
+   "especialidad": "Gastroenterología",
+   "tema": "Enfermedad inflamatoria intestinal",
+   "diagnostico": "Colitis ulcerosa refractaria: cirugía curativa",
+   "tipo": "tratamiento",
+   "dificultad": "alta",
+   "razonamiento": "Paso 1: afectación continua del recto al ciego refractaria a biológicos. Paso 2: CU refractaria. Paso 3: la colectomía total (con el recto) es curativa en la CU.",
+   "por_que_no": [
+    "Deja recto y colon enfermos; no es curativa.",
+    "Deriva el tránsito sin extirpar el colon enfermo.",
+    "",
+    "Resección segmentaria propia de la afectación ileocecal transmural.",
+    "Cirugía de las complicaciones de la forma transmural."
+   ],
+   "trampa": [
+    "otro",
+    "otro-momento",
+    "",
+    "diferencial",
+    "diferencial"
+   ],
+   "perla": "CU: colectomía total es curativa; Crohn: cirugía no curativa.",
+   "fuente": {
+    "carpeta": "5.GASTROENTEROLOGIA",
+    "archivo": "14. EII.pdf",
+    "seccion": "pág. 1, Tratamiento: cirugía"
+   },
+   "gemela_de": null
+  },
+  {
+   "id": "2026-10-20-noche-022",
+   "enunciado": "Gestante de 39 semanas, 35 años, G3P2, con hiperglucemia del embarazo en insulina con control irregular. Ingresa en trabajo de parto: dinámica 3/10', dilatación 6 cm. Altura uterina 40 cm. PA 122/78 mmHg. Ecografía de la semana 37: ponderado 4 400 g. Sus partos previos fueron de 3 400 g sin complicaciones. ¿Qué complicación materno-fetal del parto aumenta más en este caso?",
+   "opciones": [
+    "Placenta previa",
+    "Parto distócico y traumático",
+    "Prolapso de cordón",
+    "Desprendimiento prematuro de placenta",
+    "Ruptura uterina espontánea"
+   ],
+   "clave": 2,
+   "especialidad": "Obstetricia",
+   "tema": "Diabetes gestacional",
+   "diagnostico": "Parto distócico por macrosomía en diabetes gestacional",
+   "tipo": "complicacion",
+   "dificultad": "media",
+   "razonamiento": "Paso 1: ponderado 4 400 g con mal control glucémico. Paso 2: macrosomía (>4 kg) por hiperinsulinismo fetal. Paso 3: aumenta el parto distócico y traumático y, con ello, la cesárea.",
+   "por_que_no": [
+    "Se relaciona con cesáreas previas y multiparidad, no con este cuadro.",
+    "",
+    "Más con presentaciones anómalas y polihidramnios con RPM.",
+    "Asociado a hipertensión y trauma, no a la macrosomía.",
+    "Propia de útero con cicatriz previa."
+   ],
+   "trampa": [
+    "diferencial",
+    "",
+    "diferencial",
+    "diferencial",
+    "otra-poblacion"
+   ],
+   "perla": "DMG en la madre: más preeclampsia, cesárea, parto distócico y DM2 futura.",
+   "fuente": {
+    "carpeta": "2. OBSTETRICIA",
+    "archivo": "8. DM GESTACIONAL.pdf",
+    "seccion": "pág. 1, Complicaciones en la madre"
+   },
+   "gemela_de": null
+  },
+  {
+   "id": "2026-10-20-noche-023",
+   "enunciado": "Mujer de 38 años, nulípara, gestante de 11 semanas, sin controles médicos previos. Refiere polidipsia y poliuria de meses. IMC 35 kg/m2. PA 124/78 mmHg, FC 84X'. Laboratorio: glucosa en ayunas 141 mg/dL, HbA1c 7,4 %, examen de orina con glucosuria 2+ y cetonas negativas. Ecografía: embrión con latido, LCN acorde. ¿Cuál es el tratamiento farmacológico indicado?",
+   "opciones": [
+    "Insulina subcutánea con ajuste según automonitoreo",
+    "Glibenclamida oral 2,5 mg antes del desayuno",
+    "Dieta de 25 kcal/kg y ejercicio por dos semanas sin fármacos",
+    "Acarbosa oral con cada comida principal",
+    "Programar PTOG con 75 g entre las 24 y 28 semanas"
+   ],
+   "clave": 1,
+   "especialidad": "Obstetricia",
+   "tema": "Diabetes gestacional",
+   "diagnostico": "Diabetes pregestacional diagnosticada en el primer trimestre",
+   "tipo": "tratamiento",
+   "dificultad": "alta",
+   "razonamiento": "Paso 1: ayunas ≥126 y HbA1c ≥6,5 % en el primer trimestre. Paso 2: es una diabetes previa al embarazo, no una alteración gestacional. Paso 3: el tratamiento de la pregestacional es insulina.",
+   "por_que_no": [
+    "",
+    "Está contraindicada en la gestación según la fuente.",
+    "Primera línea solo en la alteración propia del embarazo, no en la previa.",
+    "Antidiabético oral no indicado en gestantes; la insulina es la elección.",
+    "El diagnóstico ya está hecho con ayunas ≥126 y HbA1c ≥6,5 %."
+   ],
+   "trampa": [
+    "",
+    "mismo-grupo",
+    "diferencial",
+    "mismo-grupo",
+    "otro-momento"
+   ],
+   "perla": "DM pregestacional en gestante: insulina; los orales (glibenclamida) están contraindicados.",
+   "fuente": {
+    "carpeta": "2. OBSTETRICIA",
+    "archivo": "8. DM GESTACIONAL.pdf",
+    "seccion": "pág. 1, Diagnóstico 1.ª consulta y Tto DM pregestacional"
+   },
+   "gemela_de": null
+  },
+  {
+   "id": "2026-10-20-noche-024",
+   "enunciado": "Mujer de 35 años operada hace 3 años por obstrucción: resección de 60 cm de íleon terminal con granulomas no caseificantes. Hoy en tratamiento con infliximab. Consulta por fatiga y parestesias en los pies. PA 108/70 mmHg, FC 92X'. Palidez y glositis. Hb 8,9 g/dL, VCM 114 fL, leucocitos 3 900/mm3. ¿Cuál es el mecanismo de su anemia?",
+   "opciones": [
+    "Pérdida crónica de sangre con déficit de hierro",
+    "Malabsorción de vitamina B12 por pérdida del íleon terminal",
+    "Anemia de enfermedad crónica por inflamación",
+    "Hemólisis autoinmune asociada a la enfermedad",
+    "Déficit de folato por consumo de sulfasalazina"
+   ],
+   "clave": 2,
+   "especialidad": "Gastroenterología",
+   "tema": "Enfermedad inflamatoria intestinal",
+   "diagnostico": "Enfermedad de Crohn ileal resecada: anemia megaloblástica",
+   "tipo": "mecanismo",
+   "dificultad": "alta",
+   "razonamiento": "Paso 1: VCM 114, glositis y parestesias. Paso 2: resección ileal por enfermedad transmural (Crohn). Paso 3: el íleon terminal absorbe la B12: anemia megaloblástica.",
+   "por_que_no": [
+    "Daría microcitosis, no VCM de 114.",
+    "",
+    "Suele ser normocítica, no macrocítica con neuropatía.",
+    "No hay datos de hemólisis y no explica la glositis ni la neuropatía.",
+    "No recibe sulfasalazina; no explica las parestesias."
+   ],
+   "trampa": [
+    "diferencial",
+    "",
+    "diferencial",
+    "diferencial",
+    "otro-contexto"
+   ],
+   "perla": "Crohn ileal o resección ileal: anemia megaloblástica por déficit de B12.",
+   "fuente": {
+    "carpeta": "5.GASTROENTEROLOGIA",
+    "archivo": "14. EII.pdf",
+    "seccion": "pág. 1, Complicaciones extraintestinales (anemias)"
+   },
+   "gemela_de": null
+  },
+  {
+   "id": "2026-10-20-noche-025",
+   "enunciado": "Gestante de 31 semanas, 33 años, en manejo de su alteración glucémica con dieta y caminatas desde hace 3 semanas. IMC 29 kg/m2. PA 116/74 mmHg. Su registro de automonitoreo promedia: preprandial 86 mg/dL, 1 hora posprandial 136 mg/dL y 2 horas posprandial 117 mg/dL. HbA1c 5,9 %. Ecografía: ponderado en percentil 55, ILA 14 cm. ¿Qué corresponde?",
+   "opciones": [
+    "Agregar glibenclamida antes del desayuno",
+    "Agregar insulina regular antes de cada comida",
+    "Agregar insulina NPH nocturna",
+    "Reducir el aporte a 20 kcal/kg",
+    "Mantener dieta y ejercicio sin agregar fármacos"
+   ],
+   "clave": 5,
+   "especialidad": "Obstetricia",
+   "tema": "Diabetes gestacional",
+   "diagnostico": "Diabetes gestacional con metas glucémicas cumplidas",
+   "tipo": "conducta",
+   "dificultad": "alta",
+   "razonamiento": "Paso 1: preprandial <90, 1 h <140 y 2 h <120, HbA1c <6,5 %. Paso 2: está dentro de todas las metas. Paso 3: se mantiene la primera línea sin insulina.",
+   "por_que_no": [
+    "Contraindicada en la gestación.",
+    "Sería para hiperglucemias posprandiales sobre la meta.",
+    "Se agrega si no se logran las metas; aquí todas se cumplen.",
+    "Restricción innecesaria cuando las metas están cumplidas.",
+    ""
+   ],
+   "trampa": [
+    "mismo-grupo",
+    "umbral",
+    "umbral",
+    "otro-estadio",
+    ""
+   ],
+   "perla": "Metas DMG: preprandial <90, 1 h <140, 2 h <120 y HbA1c <6,5 %.",
+   "fuente": {
+    "carpeta": "2. OBSTETRICIA",
+    "archivo": "8. DM GESTACIONAL.pdf",
+    "seccion": "pág. 1, Objetivos de tratamiento en DMG"
+   },
+   "gemela_de": null
+  },
+  {
+   "id": "2026-10-20-noche-026",
+   "enunciado": "Mujer de 37 años acude a control a las 10 semanas posparto. En su gestación tuvo PTOG con 75 g a las 25 semanas con ayunas 88 mg/dL, 1 hora 191 mg/dL y 2 horas 158 mg/dL, y requirió insulina desde las 30 semanas. Hoy su PTOG es normal. IMC 31 kg/m2. Pregunta qué probabilidad tiene de desarrollar la enfermedad crónica en el futuro. ¿Qué se le informa?",
+   "opciones": [
+    "Cerca del 75 %",
+    "Cerca del 10 %",
+    "Cerca del 30 %",
+    "Prácticamente 0 % por tener la PTOG posparto normal",
+    "Cerca del 50 %"
+   ],
+   "clave": 5,
+   "especialidad": "Obstetricia",
+   "tema": "Diabetes gestacional",
+   "diagnostico": "Riesgo de diabetes tipo 2 tras diabetes gestacional",
+   "tipo": "complicacion",
+   "dificultad": "media",
+   "razonamiento": "Paso 1: 1 h ≥180 y 2 h ≥153 en la gestación. Paso 2: tuvo alteración propia del embarazo, que deja riesgo metabólico. Paso 3: cerca del 50 % desarrollará DM; tamizaje de por vida.",
+   "por_que_no": [
+    "Sobrestima el riesgo descrito en la fuente.",
+    "Subestima el riesgo descrito en la fuente.",
+    "Subestima el riesgo descrito en la fuente.",
+    "Una PTOG normal no elimina el riesgo; el tamizaje continúa.",
+    ""
+   ],
+   "trampa": [
+    "umbral",
+    "umbral",
+    "umbral",
+    "otro-momento",
+    ""
+   ],
+   "perla": "DMG previa: ~50 % hará DM; también más riesgo cardiovascular y síndrome metabólico.",
+   "fuente": {
+    "carpeta": "2. OBSTETRICIA",
+    "archivo": "8. DM GESTACIONAL.pdf",
+    "seccion": "pág. 1, Postparto y Complicaciones en el adulto"
+   },
+   "gemela_de": null
+  },
+  {
+   "id": "2026-10-20-noche-027",
+   "enunciado": "Gestante de 25 semanas, 28 años, IMC 27 kg/m2, con glucosa en ayunas de 86 mg/dL a las 8 semanas. Asintomática. PA 108/70 mmHg, altura uterina 24 cm. PTOG con 75 g: ayunas 90 mg/dL, 1 hora 176 mg/dL y 2 horas 150 mg/dL. Ecografía: biometría en percentil 50, ILA 13 cm. ¿Cuál es la conducta?",
+   "opciones": [
+    "Iniciar insulina NPH por valores limítrofes",
+    "Repetir la PTOG con 75 g en dos semanas",
+    "Confirmar con la prueba de 100 g",
+    "Continuar control prenatal habitual",
+    "Iniciar plan nutricional y automonitoreo"
+   ],
+   "clave": 4,
+   "especialidad": "Obstetricia",
+   "tema": "Diabetes gestacional",
+   "diagnostico": "PTOG normal en el segundo trimestre",
+   "tipo": "conducta",
+   "dificultad": "alta",
+   "razonamiento": "Paso 1: ayunas 90 (<92), 1 h 176 (<180), 2 h 150 (<153). Paso 2: ningún valor alcanza el corte: prueba normal. Paso 3: continúa el control habitual.",
+   "por_que_no": [
+    "No hay diagnóstico ni fracaso de la dieta.",
+    "No hay indicación de repetir una PTOG normal.",
+    "La PTOG 75 g ya es diagnóstica en un paso y salió normal.",
+    "",
+    "Ningún valor alcanza el corte (92 / 180 / 153)."
+   ],
+   "trampa": [
+    "otro-estadio",
+    "otro-momento",
+    "no-confirmatorio",
+    "",
+    "umbral"
+   ],
+   "perla": "PTOG 75 g positiva con UN valor: ayunas ≥92, 1 h ≥180 o 2 h ≥153.",
+   "fuente": {
+    "carpeta": "2. OBSTETRICIA",
+    "archivo": "8. DM GESTACIONAL.pdf",
+    "seccion": "pág. 1, Diagnóstico de 1 paso"
+   },
+   "gemela_de": null
+  },
+  {
+   "id": "2026-10-20-noche-028",
+   "enunciado": "Varón de 34 años, fumador de 20 cigarrillos al día durante 15 años, dejó de fumar hace 4 meses. Desde hace 6 semanas presenta 4-5 deposiciones al día con sangre, urgencia y tenesmo. PA 120/78 mmHg, FC 80X', T° 36,8 °C. Abdomen sin masas. Rectoscopia: mucosa friable y eritematosa continua desde el recto, sin áreas sanas. Coprocultivo negativo. ¿Qué factor de su historia se relaciona con el inicio del cuadro?",
+   "opciones": [
+    "El tabaquismo previo, que es factor de riesgo",
+    "El abandono del tabaco, que es protector en este cuadro",
+    "El uso de anticonceptivos orales",
+    "El aumento de peso tras dejar de fumar",
+    "La edad, por estar en el segundo pico de incidencia"
+   ],
+   "clave": 2,
+   "especialidad": "Gastroenterología",
+   "tema": "Enfermedad inflamatoria intestinal",
+   "diagnostico": "Colitis ulcerosa de inicio tras cese del tabaquismo",
+   "tipo": "mecanismo",
+   "dificultad": "media",
+   "razonamiento": "Paso 1: diarrea con sangre, tenesmo y afectación continua desde el recto. Paso 2: colitis ulcerosa aparecida al dejar de fumar. Paso 3: el tabaco es protector en CU (empeora la de Crohn).",
+   "por_que_no": [
+    "El tabaco es riesgo en la forma transmural; aquí protege.",
+    "",
+    "Factor de riesgo de la forma transmural y no aplica a un varón.",
+    "No es factor descrito para este cuadro.",
+    "El segundo pico es a los 55-70 años."
+   ],
+   "trampa": [
+    "diferencial",
+    "",
+    "otra-poblacion",
+    "otro",
+    "umbral"
+   ],
+   "perla": "Tabaco: protege en CU, empeora el Crohn.",
+   "fuente": {
+    "carpeta": "5.GASTROENTEROLOGIA",
+    "archivo": "14. EII.pdf",
+    "seccion": "pág. 1, Epidemiología"
+   },
+   "gemela_de": null
+  },
+  {
+   "id": "2026-10-20-noche-029",
+   "enunciado": "Mujer de 27 años con hiperglucemia diagnosticada a los 12 años, en tratamiento con insulina basal y rápida desde entonces, cursa 15 semanas de gestación. IMC 22 kg/m2. PA 108/68 mmHg. Glucosas capilares: ayunas 92 mg/dL, 1 hora posprandial 138 mg/dL. HbA1c 6,6 %. Ecografía: feto acorde, sin malformaciones visibles. ¿Cuál es la meta de HbA1c que debe alcanzar?",
+   "opciones": [
+    "Menor de 8 %",
+    "Menor de 6 %",
+    "Menor de 5,7 %",
+    "Menor de 7 %",
+    "Menor de 6,5 %"
+   ],
+   "clave": 2,
+   "especialidad": "Obstetricia",
+   "tema": "Diabetes gestacional",
+   "diagnostico": "Diabetes pregestacional tipo 1 en gestación: meta de HbA1c",
+   "tipo": "norma",
+   "dificultad": "muy alta",
+   "razonamiento": "Paso 1: hiperglucemia con insulina desde la niñez: diabetes previa al embarazo. Paso 2: en la pregestacional las metas son más estrictas (preprandial 60-99, 1 h 100-129). Paso 3: HbA1c <6 %; la actual (6,6 %) obliga a ajustar insulina.",
+   "por_que_no": [
+    "Meta laxa para adultos mayores frágiles.",
+    "",
+    "Corte de normalidad fuera del embarazo, no meta terapéutica.",
+    "Meta habitual del adulto no gestante.",
+    "Es la meta de la alteración que aparece en el embarazo, no la previa."
+   ],
+   "trampa": [
+    "otra-poblacion",
+    "",
+    "umbral",
+    "otra-poblacion",
+    "otra-poblacion"
+   ],
+   "perla": "Pregestacional: preprandial 60-99, 1 h 100-129 y HbA1c <6 %.",
+   "fuente": {
+    "carpeta": "2. OBSTETRICIA",
+    "archivo": "8. DM GESTACIONAL.pdf",
+    "seccion": "pág. 1, Objetivos de tratamiento en DM pregestacional"
+   },
+   "gemela_de": null
+  },
+  {
+   "id": "2026-10-20-noche-030",
+   "enunciado": "Mujer de 30 años con hiperglucemia diagnosticada hace 6 años, sin tratamiento regular, acude a las 8 semanas de gestación no planificada. IMC 28 kg/m2. PA 120/80 mmHg. Glucosa al azar 236 mg/dL, HbA1c 9,4 %. Ecografía: embrión con latido. Pregunta por el riesgo de malformaciones. ¿Cuál es la malformación más específicamente asociada a su condición?",
+   "opciones": [
+    "Hipertrofia del tabique interventricular",
+    "Labio y paladar hendido",
+    "Síndrome de regresión caudal",
+    "Hidrops fetal",
+    "Gastrosquisis"
+   ],
+   "clave": 3,
+   "especialidad": "Obstetricia",
+   "tema": "Diabetes gestacional",
+   "diagnostico": "Diabetes pregestacional con riesgo de síndrome de regresión caudal",
+   "tipo": "complicacion",
+   "dificultad": "muy alta",
+   "razonamiento": "Paso 1: hiperglucemia previa al embarazo con HbA1c 9,4 % en la organogénesis. Paso 2: la hiperglucemia temprana es teratógena. Paso 3: la malformación más específica es el síndrome de regresión caudal.",
+   "por_que_no": [
+    "Alteración por hiperinsulinemia de la 2.ª mitad, no una malformación del primer trimestre.",
+    "Malformación frecuente en general, no específica de esta condición.",
+    "",
+    "Propio de la isoinmunización Rh o infecciones, no de la hiperglucemia.",
+    "Asociada a madres adolescentes, no a la hiperglucemia."
+   ],
+   "trampa": [
+    "otro-momento",
+    "diferencial",
+    "",
+    "diferencial",
+    "otra-poblacion"
+   ],
+   "perla": "Hiperglucemia en la organogénesis: regresión caudal es la malformación más específica.",
+   "fuente": {
+    "carpeta": "2. OBSTETRICIA",
+    "archivo": "8. DM GESTACIONAL.pdf",
+    "seccion": "pág. 1, Malformaciones congénitas fetales"
+   },
+   "gemela_de": null
+  },
+  {
+   "id": "2026-10-20-noche-031",
+   "enunciado": "Mujer de 25 años con 4 meses de diarrea sin sangre de 6-7 deposiciones al día, dolor en fosa iliaca derecha, fiebre de 38 °C y pérdida de 9 kg. PA 106/68 mmHg, FC 104X'. Masa dolorosa en fosa iliaca derecha. Hb 10,1 g/dL, PCR elevada, albúmina 2,9 g/dL. Tomografía: engrosamiento parietal de íleon terminal y colon derecho con segmentos sanos intercalados, sin colecciones. ¿Cuál es el tratamiento de inducción?",
+   "opciones": [
+    "Azatioprina en monoterapia",
+    "Resección ileocecal",
+    "Budesonida oral",
+    "Corticoides sistémicos",
+    "Mesalazina oral"
+   ],
+   "clave": 4,
+   "especialidad": "Gastroenterología",
+   "tema": "Enfermedad inflamatoria intestinal",
+   "diagnostico": "Enfermedad de Crohn moderada-grave",
+   "tipo": "tratamiento",
+   "dificultad": "alta",
+   "razonamiento": "Paso 1: fiebre, pérdida de peso, masa en FID y lesiones salteadas sin abscesos. Paso 2: Crohn moderado-grave sin complicación quirúrgica. Paso 3: inducción con corticoides sistémicos y mantenimiento con azatioprina.",
+   "por_que_no": [
+    "Es mantenimiento tras respuesta, no inducción.",
+    "La cirugía se reserva para complicaciones (fístulas, obstrucción, abscesos).",
+    "Indicada en la enfermedad leve-moderada.",
+    "",
+    "Primera línea en la forma continua leve-moderada."
+   ],
+   "trampa": [
+    "otro-momento",
+    "otro-momento",
+    "otro-estadio",
+    "",
+    "diferencial"
+   ],
+   "perla": "Crohn leve-moderado: budesonida; moderado-grave: corticoide sistémico → azatioprina.",
+   "fuente": {
+    "carpeta": "5.GASTROENTEROLOGIA",
+    "archivo": "14. EII.pdf",
+    "seccion": "pág. 1, Tratamiento"
+   },
+   "gemela_de": null
+  },
+  {
+   "id": "2026-10-20-noche-032",
+   "enunciado": "Varón de 33 años con 2 meses de diarrea con sangre, 5-6 deposiciones al día con sangre moderada, urgencia y tenesmo. Sin fiebre. PA 118/76 mmHg, FC 82X', T° 36,9 °C. Abdomen blando, sin distensión. Laboratorio: Hb 12,1 g/dL, VSG 22 mm/h. Rectosigmoidoscopia: inflamación continua desde el recto, mucosa friable, úlceras superficiales. Coprocultivo negativo. ¿Cuál es el tratamiento de inicio?",
+   "opciones": [
+    "Budesonida oral",
+    "Infliximab endovenoso",
+    "Azatioprina oral",
+    "Corticoide sistémico endovenoso",
+    "Mesalazina oral o tópica"
+   ],
+   "clave": 5,
+   "especialidad": "Gastroenterología",
+   "tema": "Enfermedad inflamatoria intestinal",
+   "diagnostico": "Colitis ulcerosa moderada: primera línea",
+   "tipo": "tratamiento",
+   "dificultad": "alta",
+   "razonamiento": "Paso 1: 5-6 deposiciones, afebril, FC <90, Hb >10,5 y VSG <30. Paso 2: brote moderado de afectación continua rectal (colitis ulcerosa). Paso 3: aminosalicilatos (mesalazina oral o tópica).",
+   "por_que_no": [
+    "Primera línea en la forma ileocecal transmural leve-moderada.",
+    "Para refractariedad o corticodependencia.",
+    "Es mantenimiento tras respuesta a corticoides.",
+    "Se reserva para el brote grave o sin respuesta.",
+    ""
+   ],
+   "trampa": [
+    "diferencial",
+    "otro-estadio",
+    "otro-momento",
+    "otro-estadio",
+    ""
+   ],
+   "perla": "CU leve-moderada: mesalazina/sulfasalazina; grave: corticoide sistémico.",
+   "fuente": {
+    "carpeta": "5.GASTROENTEROLOGIA",
+    "archivo": "14. EII.pdf",
+    "seccion": "pág. 1, Tratamiento"
+   },
+   "gemela_de": null
+  },
+  {
+   "id": "2026-10-20-noche-033",
+   "enunciado": "Puérpera de 3 días, 34 años, IMC 30 kg/m2, con hiperglucemia detectada a las 26 semanas (PTOG: ayunas 94 mg/dL) y controlada solo con dieta. Parto vaginal de un recién nacido de 3 900 g. Glucemias posparto de 84 y 96 mg/dL. Va a ser dada de alta y pregunta cómo saber si quedará con la enfermedad. ¿Qué examen se indica y cuándo?",
+   "opciones": [
+    "PTOG con 75 g entre las 6 y 12 semanas posparto",
+    "PTOG con 100 g a las 6 semanas posparto",
+    "Glucosa en ayunas solo al año del parto",
+    "PTOG con 75 g antes del alta, a las 72 horas",
+    "HbA1c a las 2 semanas posparto"
+   ],
+   "clave": 1,
+   "especialidad": "Obstetricia",
+   "tema": "Diabetes gestacional",
+   "diagnostico": "Reclasificación posparto de la diabetes gestacional",
+   "tipo": "prueba",
+   "dificultad": "media",
+   "razonamiento": "Paso 1: alteración glucémica del embarazo con glucemias posparto normales. Paso 2: hay que reclasificar, porque la mitad desarrolla DM. Paso 3: PTOG 75 g a las 6-12 semanas y seguimiento de por vida.",
+   "por_que_no": [
+    "",
+    "La de 100 g es para la gestación (dos pasos).",
+    "Es insuficiente y tardía; la reclasificación se hace con carga.",
+    "Demasiado precoz; la resistencia aún no desaparece.",
+    "La HbA1c refleja aún la glucemia de la gestación."
+   ],
+   "trampa": [
+    "",
+    "otro-contexto",
+    "otro-momento",
+    "otro-momento",
+    "no-confirmatorio"
+   ],
+   "perla": "Posparto de DMG: PTOG 75 g a las 6-12 semanas y tamizaje de por vida.",
+   "fuente": {
+    "carpeta": "2. OBSTETRICIA",
+    "archivo": "8. DM GESTACIONAL.pdf",
+    "seccion": "pág. 1, Postparto"
+   },
+   "gemela_de": null
+  },
+  {
+   "id": "2026-10-20-noche-034",
+   "enunciado": "Gestante de 25 semanas, 26 años, primigesta, sin antecedentes ni factores de riesgo. IMC 23 kg/m2. Asintomática, PA 104/66 mmHg, altura uterina 25 cm. En su establecimiento se usa la estrategia de dos pasos: glucosa a la hora de una carga de 50 g sin ayuno previo de 162 mg/dL. Glucosa en ayunas del primer trimestre 80 mg/dL. ¿Cuál es el siguiente paso?",
+   "opciones": [
+    "Iniciar plan nutricional y automonitoreo de inmediato",
+    "Iniciar insulina NPH por la glucosa elevada",
+    "Solicitar HbA1c para confirmar",
+    "Prueba con 100 g de glucosa y 3 horas de medición",
+    "Repetir la carga de 50 g a las 32 semanas"
+   ],
+   "clave": 4,
+   "especialidad": "Obstetricia",
+   "tema": "Diabetes gestacional",
+   "diagnostico": "Tamizaje de 2 pasos positivo: requiere prueba de 100 g",
+   "tipo": "prueba",
+   "dificultad": "media",
+   "razonamiento": "Paso 1: carga de 50 g con 162 mg/dL a la hora. Paso 2: es el primer paso (O'Sullivan) positivo, que solo tamiza. Paso 3: se confirma con la prueba de 100 g (segundo paso).",
+   "por_que_no": [
+    "La carga de 50 g es solo tamizaje; aún no hay diagnóstico.",
+    "Sin diagnóstico confirmado ni fracaso de dieta no se indica insulina.",
+    "La HbA1c se usa en la primera consulta, no confirma tras la carga.",
+    "",
+    "Un tamizaje positivo no se repite, se confirma."
+   ],
+   "trampa": [
+    "otro-momento",
+    "otro-estadio",
+    "no-confirmatorio",
+    "",
+    "otro-momento"
+   ],
+   "perla": "Dos pasos: O'Sullivan 50 g tamiza; si sale positivo, 100 g en 3 h confirma.",
+   "fuente": {
+    "carpeta": "2. OBSTETRICIA",
+    "archivo": "8. DM GESTACIONAL.pdf",
+    "seccion": "pág. 1, Diagnóstico de 2 pasos"
+   },
+   "gemela_de": null
+  },
+  {
+   "id": "2026-10-20-noche-035",
+   "enunciado": "Adolescente varón de 16 años con 3 meses de dolor cólico en fosa iliaca derecha y 3 deposiciones al día sin sangre; perdió 2 kg. Sin fiebre ni lesiones perianales. PA 108/66 mmHg, FC 84X'. Dolor leve en fosa iliaca derecha sin masa. Hb 12,8 g/dL. ASCA positivo. Ileocolonoscopia: úlceras aftosas en íleon terminal con mucosa sana intercalada; colon y recto normales. ¿Cuál es el tratamiento de inicio?",
+   "opciones": [
+    "Budesonida oral",
+    "Mesalazina tópica rectal",
+    "Resección ileocecal",
+    "Prednisona sistémica",
+    "Infliximab"
+   ],
+   "clave": 1,
+   "especialidad": "Gastroenterología",
+   "tema": "Enfermedad inflamatoria intestinal",
+   "diagnostico": "Enfermedad de Crohn ileocecal leve en adolescente",
+   "tipo": "tratamiento",
+   "dificultad": "alta",
+   "razonamiento": "Paso 1: ASCA positivo, aftas ileales salteadas y recto normal, sin fiebre ni masa. Paso 2: Crohn ileocecal leve-moderado. Paso 3: budesonida oral más dieta.",
+   "por_que_no": [
+    "",
+    "Útil en afectación rectal continua; aquí el recto está sano.",
+    "Solo ante complicaciones.",
+    "Para la enfermedad moderada-grave.",
+    "Para fracaso o corticodependencia."
+   ],
+   "trampa": [
+    "",
+    "diferencial",
+    "otro-momento",
+    "otro-estadio",
+    "otro-estadio"
+   ],
+   "perla": "Crohn ileocecal leve-moderado: budesonida oral.",
+   "fuente": {
+    "carpeta": "5.GASTROENTEROLOGIA",
+    "archivo": "14. EII.pdf",
+    "seccion": "pág. 1, Tratamiento leve a moderado"
+   },
+   "gemela_de": null
+  },
+  {
+   "id": "2026-10-20-noche-036",
+   "enunciado": "Varón de 35 años con 6 años de diarrea con sangre controlada con mesalazina; colonoscopia con afectación continua desde el recto. Consulta por prurito y astenia de 4 meses. PA 118/74 mmHg, T° 36,8 °C. Ictericia leve, sin dolor abdominal. Fosfatasa alcalina 680 U/L, GGT 410 U/L, bilirrubina 2,4 mg/dL. Ecografía sin litiasis. Colangiorresonancia: estenosis y dilataciones alternas de vías intra y extrahepáticas. ¿Cuál es el diagnóstico?",
+   "opciones": [
+    "Colangitis esclerosante primaria",
+    "Hepatotoxicidad por mesalazina",
+    "Coledocolitiasis",
+    "Colangitis biliar primaria",
+    "Hepatitis autoinmune"
+   ],
+   "clave": 1,
+   "especialidad": "Gastroenterología",
+   "tema": "Enfermedad inflamatoria intestinal",
+   "diagnostico": "Colangitis esclerosante primaria asociada a colitis ulcerosa",
+   "tipo": "diagnostico",
+   "dificultad": "alta",
+   "razonamiento": "Paso 1: colestasis (FA y GGT altas) con vías intra y extrahepáticas arrosariadas. Paso 2: en un paciente con afectación colónica continua. Paso 3: colangitis esclerosante primaria, extraintestinal más frecuente en esta forma.",
+   "por_que_no": [
+    "",
+    "Daño farmacológico sin estenosis biliares en imagen.",
+    "La ecografía no muestra litiasis y el patrón es difuso.",
+    "Mujer de edad media, AMA positivo y vías biliares normales en imagen.",
+    "Patrón hepatocelular, no colestásico con vías arrosariadas."
+   ],
+   "trampa": [
+    "",
+    "diferencial",
+    "diferencial",
+    "diferencial",
+    "diferencial"
+   ],
+   "perla": "CEP se asocia sobre todo a colitis ulcerosa; vía biliar arrosariada.",
+   "fuente": {
+    "carpeta": "5.GASTROENTEROLOGIA",
+    "archivo": "14. EII.pdf",
+    "seccion": "pág. 1, Complicaciones extraintestinales"
+   },
+   "gemela_de": null
+  },
+  {
+   "id": "2026-10-20-noche-037",
+   "enunciado": "Mujer de 38 años hospitalizada por diarrea con sangre: 10 deposiciones al día, con afectación continua del recto al colon transverso en colonoscopia previa, en día 5 de hidrocortisona endovenosa. Hoy presenta rectorragia abundante con coágulos. PA 82/50 mmHg, FC 128X'. Hb cae de 9,6 a 6,4 g/dL pese a 3 unidades de glóbulos rojos. Abdomen no distendido. ¿Cuál es la conducta?",
+   "opciones": [
+    "Duplicar la dosis de hidrocortisona",
+    "Colonoscopia para hemostasia endoscópica",
+    "Colectomía total urgente",
+    "Resección segmentaria del colon izquierdo",
+    "Iniciar infliximab endovenoso"
+   ],
+   "clave": 3,
+   "especialidad": "Gastroenterología",
+   "tema": "Enfermedad inflamatoria intestinal",
+   "diagnostico": "Colitis ulcerosa con hemorragia digestiva baja masiva",
+   "tipo": "conducta",
+   "dificultad": "muy alta",
+   "razonamiento": "Paso 1: rectorragia con hipotensión y caída de Hb pese a transfusión. Paso 2: hemorragia digestiva baja masiva en colitis ulcerosa grave. Paso 3: complicación quirúrgica: colectomía total urgente.",
+   "por_que_no": [
+    "No controla una hemorragia masiva.",
+    "El sangrado es difuso de la mucosa, y la colonoscopia en brote grave es riesgosa.",
+    "",
+    "Deja colon enfermo; en la forma continua se extirpa todo.",
+    "Rescate médico en el brote grave sin respuesta, no con sangrado masivo inestable."
+   ],
+   "trampa": [
+    "otro-estadio",
+    "otro",
+    "",
+    "diferencial",
+    "otro-estadio"
+   ],
+   "perla": "CU: hemorragia masiva o megacolon tóxico = colectomía total.",
+   "fuente": {
+    "carpeta": "5.GASTROENTEROLOGIA",
+    "archivo": "14. EII.pdf",
+    "seccion": "pág. 1, Complicaciones y cirugía"
+   },
+   "gemela_de": null
+  },
+  {
+   "id": "2026-10-20-noche-038",
+   "enunciado": "Gestante de 27 semanas, 31 años, con peso actual de 92 kg e IMC pregestacional de 34 kg/m2. Asintomática. PA 118/72 mmHg. PTOG con 75 g: ayunas 96 mg/dL, 1 hora 172 mg/dL y 2 horas 148 mg/dL. Ecografía: biometría en percentil 70, líquido amniótico normal. El equipo decide iniciar el manejo de primera línea. ¿Qué aporte calórico diario corresponde?",
+   "opciones": [
+    "Aproximadamente 1 840 kcal/día, a 20 kcal/kg",
+    "Aproximadamente 2 300 kcal/día, a 25 kcal/kg",
+    "2 500 kcal/día, requerimiento habitual de toda gestante",
+    "Aproximadamente 2 760 kcal/día, a 30 kcal/kg",
+    "Aproximadamente 3 220 kcal/día, a 35 kcal/kg"
+   ],
+   "clave": 2,
+   "especialidad": "Obstetricia",
+   "tema": "Diabetes gestacional",
+   "diagnostico": "Diabetes gestacional en gestante obesa: aporte calórico",
+   "tipo": "dosis",
+   "dificultad": "alta",
+   "razonamiento": "Paso 1: ayunas 96 (≥92) en la PTOG. Paso 2: hay alteración glucémica del embarazo con IMC >30. Paso 3: primera línea dieta a 25 kcal/kg: 92 × 25 ≈ 2 300 kcal/día más ejercicio.",
+   "por_que_no": [
+    "Restricción mayor a la recomendada por la fuente.",
+    "",
+    "Es el requerimiento de la gestante sin la alteración metabólica.",
+    "Es el aporte para IMC normal; con IMC >30 se baja a 25 kcal/kg.",
+    "Aporte excesivo que empeora el control glucémico."
+   ],
+   "trampa": [
+    "umbral",
+    "",
+    "otro-contexto",
+    "otra-poblacion",
+    "umbral"
+   ],
+   "perla": "Dieta en DMG: 30 kcal/kg si IMC normal; 25 kcal/kg si IMC >30.",
+   "fuente": {
+    "carpeta": "2. OBSTETRICIA",
+    "archivo": "8. DM GESTACIONAL.pdf",
+    "seccion": "pág. 1, Tratamiento 1.ª línea"
+   },
+   "gemela_de": null
+  },
+  {
+   "id": "2026-10-20-noche-039",
+   "enunciado": "Gestante de 35 semanas, 32 años, con mal control glucémico por abandono de la dieta (preprandiales de 110-125 mg/dL). Altura uterina 39 cm. PA 120/76 mmHg. Ecografía: ponderado fetal 4 150 g, circunferencia abdominal sobre el percentil 95, ILA 22 cm. Doppler normal. ¿Cuál es el mecanismo principal del hallazgo fetal?",
+   "opciones": [
+    "Acción directa del lactógeno placentario sobre el feto",
+    "Hiperplasia placentaria por hipertensión materna",
+    "Exceso de hormona de crecimiento fetal hipofisaria",
+    "Hiperinsulinemia fetal por paso transplacentario de glucosa",
+    "Paso transplacentario de insulina materna exógena"
+   ],
+   "clave": 4,
+   "especialidad": "Obstetricia",
+   "tema": "Diabetes gestacional",
+   "diagnostico": "Macrosomía fetal por hiperinsulinismo fetal",
+   "tipo": "mecanismo",
+   "dificultad": "alta",
+   "razonamiento": "Paso 1: ponderado >4 000 g y CA >p95 con hiperglucemia materna. Paso 2: la glucosa cruza la placenta, la insulina no. Paso 3: el páncreas fetal se hipertrofia y la hiperinsulinemia y el factor insulinoide aumentan el crecimiento.",
+   "por_que_no": [
+    "Explica la resistencia materna, no el crecimiento fetal excesivo.",
+    "La hipertensión se asocia a restricción, no a crecimiento excesivo.",
+    "No es el mediador; lo es la insulina fetal y factores insulinoides.",
+    "",
+    "La insulina materna no cruza la placenta."
+   ],
+   "trampa": [
+    "mismo-grupo",
+    "diferencial",
+    "mismo-grupo",
+    "",
+    "otro"
+   ],
+   "perla": "Macrosomía: glucosa materna cruza, páncreas fetal se hipertrofia → hiperinsulinismo fetal.",
+   "fuente": {
+    "carpeta": "2. OBSTETRICIA",
+    "archivo": "8. DM GESTACIONAL.pdf",
+    "seccion": "pág. 1, Complicaciones en el feto (macrosomía)"
+   },
+   "gemela_de": null
+  },
+  {
+   "id": "2026-10-20-noche-040",
+   "enunciado": "Gestante de 26 semanas, 30 años, G2P1, con carga previa de 50 g alterada. IMC 26 kg/m2. Asintomática. PA 110/70 mmHg. Prueba con 100 g de glucosa: ayunas 92 mg/dL, 1 hora 186 mg/dL, 2 horas 162 mg/dL y 3 horas 131 mg/dL. Ecografía: ponderado fetal en percentil 60, líquido normal. ¿Cuál es la conducta?",
+   "opciones": [
+    "Iniciar insulina subcutánea desde hoy",
+    "Control prenatal habitual porque la glucosa en ayunas es menor de 95",
+    "Plan nutricional, ejercicio y automonitoreo glucémico",
+    "Realizar PTOG con 75 g para confirmar",
+    "Repetir la prueba de 100 g en cuatro semanas"
+   ],
+   "clave": 3,
+   "especialidad": "Obstetricia",
+   "tema": "Diabetes gestacional",
+   "diagnostico": "Diabetes gestacional confirmada con prueba de 100 g (Carpenter-Coustan)",
+   "tipo": "conducta",
+   "dificultad": "alta",
+   "razonamiento": "Paso 1: cortes Carpenter-Coustan 95/180/155/140. Paso 2: 1 h 186 y 2 h 162 superan el corte: está confirmado. Paso 3: primera línea: dieta, ejercicio y automonitoreo.",
+   "por_que_no": [
+    "Es segunda línea, si fracasan la dieta y el ejercicio.",
+    "Se valoran los 4 puntos: 1 h ≥180 y 2 h ≥155 están alterados.",
+    "",
+    "No se superponen estrategias; la de 100 g ya es confirmatoria.",
+    "Con dos valores alterados el diagnóstico ya está confirmado."
+   ],
+   "trampa": [
+    "otro-momento",
+    "umbral",
+    "",
+    "no-confirmatorio",
+    "otro-momento"
+   ],
+   "perla": "Carpenter-Coustan (100 g): 95 – 180 – 155 – 140 mg/dL.",
+   "fuente": {
+    "carpeta": "2. OBSTETRICIA",
+    "archivo": "8. DM GESTACIONAL.pdf",
+    "seccion": "pág. 1, Tabla de criterios O'Sullivan/NDDG/Carpenter"
+   },
+   "gemela_de": null
+  },
+  {
+   "id": "2026-10-20-noche-041",
+   "enunciado": "Varón de 48 años con 13 años de diarrea con sangre intermitente; en su última colonoscopia de hace 4 años la afectación era continua desde el recto hasta el ciego. Actualmente en remisión con mesalazina oral. Sin síntomas. PA 120/80 mmHg, FC 74X'. Hb 13,4 g/dL. Acude para control. ¿Qué complicación a largo plazo justifica su vigilancia endoscópica periódica?",
+   "opciones": [
+    "Cáncer colorrectal",
+    "Megacolon tóxico",
+    "Colangiocarcinoma",
+    "Estenosis con obstrucción",
+    "Linfoma intestinal"
+   ],
+   "clave": 1,
+   "especialidad": "Gastroenterología",
+   "tema": "Enfermedad inflamatoria intestinal",
+   "diagnostico": "Colitis ulcerosa extensa de larga evolución: cáncer colorrectal",
+   "tipo": "complicacion",
+   "dificultad": "media",
+   "razonamiento": "Paso 1: 13 años de evolución con afectación desde el recto hasta el ciego. Paso 2: pancolitis ulcerosa de más de 10 años. Paso 3: alto riesgo de cáncer colorrectal: vigilancia colonoscópica.",
+   "por_que_no": [
+    "",
+    "Complicación aguda de un brote grave, no se vigila en remisión.",
+    "Se asocia a colangitis esclerosante, sin datos de ella aquí.",
+    "Más propia de la forma transmural.",
+    "No es la neoplasia asociada que guía la vigilancia."
+   ],
+   "trampa": [
+    "",
+    "otro-momento",
+    "diferencial",
+    "diferencial",
+    "diferencial"
+   ],
+   "perla": "CU con pancolitis >10 años: alto riesgo de cáncer colorrectal.",
+   "fuente": {
+    "carpeta": "5.GASTROENTEROLOGIA",
+    "archivo": "14. EII.pdf",
+    "seccion": "pág. 1, Riesgo de cáncer"
+   },
+   "gemela_de": null
+  },
+  {
+   "id": "2026-10-20-noche-042",
+   "enunciado": "Mujer de 33 años con 8 años de diarrea sin sangre y dolor en fosa iliaca derecha; hace 2 años se le resecaron 70 cm de íleon terminal por estenosis con granulomas no caseificantes. Consulta por dolor en hipocondrio derecho tras comidas grasas, de 2 horas de duración. PA 116/74 mmHg, T° 36,8 °C. Murphy negativo. Ecografía: litiasis vesicular múltiple sin engrosamiento de pared. ¿Cuál es el mecanismo de la litiasis?",
+   "opciones": [
+    "Hemólisis crónica con cálculos pigmentarios",
+    "Hipersecreción de colesterol por estrógenos",
+    "Estasis por ayuno prolongado en nutrición parenteral",
+    "Pérdida de sales biliares por malabsorción ileal",
+    "Estenosis biliar por colangitis esclerosante"
+   ],
+   "clave": 4,
+   "especialidad": "Gastroenterología",
+   "tema": "Enfermedad inflamatoria intestinal",
+   "diagnostico": "Enfermedad de Crohn ileal: colelitiasis",
+   "tipo": "mecanismo",
+   "dificultad": "alta",
+   "razonamiento": "Paso 1: cálculos vesiculares tras resección de íleon terminal. Paso 2: el íleon reabsorbe las sales biliares (circulación enterohepática). Paso 3: bilis pobre en sales y litogénica: colelitiasis.",
+   "por_que_no": [
+    "No hay datos de hemólisis.",
+    "Mecanismo de embarazo y anticonceptivos, no explica la resección.",
+    "No recibe nutrición parenteral.",
+    "",
+    "Esa complicación se asocia más a la colitis ulcerosa."
+   ],
+   "trampa": [
+    "diferencial",
+    "otro-contexto",
+    "otro-contexto",
+    "",
+    "diferencial"
+   ],
+   "perla": "Crohn ileal: colelitiasis (sales biliares) y litiasis renal de oxalato.",
+   "fuente": {
+    "carpeta": "5.GASTROENTEROLOGIA",
+    "archivo": "14. EII.pdf",
+    "seccion": "pág. 1, Complicaciones extraintestinales"
+   },
+   "gemela_de": null
+  },
+  {
+   "id": "2026-10-20-noche-043",
+   "enunciado": "Mujer de 29 años, G3P2, acude a su primer control a las 10 semanas. Antecedentes: ovario poliquístico, su segundo hijo pesó 4 300 g y su padre usa insulina. IMC 31 kg/m2. PA 110/70 mmHg. Glucosa en ayunas 84 mg/dL; hemograma y orina normales. Ecografía acorde a amenorrea. ¿Cuándo corresponde su siguiente evaluación glucémica?",
+   "opciones": [
+    "Test de O'Sullivan con 50 g en el tercer trimestre",
+    "HbA1c al inicio de cada trimestre como único control",
+    "PTOG con 75 g en esta misma consulta",
+    "PTOG con 75 g a partir de las 20 semanas",
+    "PTOG con 75 g entre las 24 y 28 semanas"
+   ],
+   "clave": 4,
+   "especialidad": "Obstetricia",
+   "tema": "Diabetes gestacional",
+   "diagnostico": "Gestante con factores de riesgo y glucosa basal normal: tamizaje adelantado",
+   "tipo": "norma",
+   "dificultad": "alta",
+   "razonamiento": "Paso 1: glucosa basal <92 en la primera consulta. Paso 2: tiene SOP, macrosomía previa, obesidad y familiar de primer grado: alto riesgo. Paso 3: se adelanta la PTOG 75 g desde las 20 semanas.",
+   "por_que_no": [
+    "Es para gestantes que no fueron evaluadas antes.",
+    "La HbA1c sirve en la primera consulta, no reemplaza la carga.",
+    "En el primer trimestre basta la basal; la carga se hace luego.",
+    "",
+    "Es el tamizaje para gestantes sin factores de riesgo."
+   ],
+   "trampa": [
+    "otro-momento",
+    "no-confirmatorio",
+    "otro-momento",
+    "",
+    "otra-poblacion"
+   ],
+   "perla": "Basal <92 con factores de riesgo: PTOG desde las 20 ss; sin factores: 24-28 ss.",
+   "fuente": {
+    "carpeta": "2. OBSTETRICIA",
+    "archivo": "8. DM GESTACIONAL.pdf",
+    "seccion": "pág. 1, Factores de riesgo que justifican tamizaje a las 20 ss"
+   },
+   "gemela_de": null
+  },
+  {
+   "id": "2026-10-20-noche-044",
+   "enunciado": "Mujer de 29 años con 6 semanas de diarrea con sangre: 9 deposiciones al día, tenesmo y dolor abdominal difuso. PA 104/62 mmHg, FC 108X', T° 38,1 °C. Abdomen doloroso a la palpación difusa, ruidos presentes. Laboratorio: Hb 9,6 g/dL, VSG 44 mm/h, PCR elevada. Un residente propone colonoscopia completa con preparación para mapear la extensión. ¿Qué complicación se puede desencadenar?",
+   "opciones": [
+    "Fístula enterocutánea",
+    "Megacolon tóxico con perforación",
+    "Estenosis con obstrucción intestinal",
+    "Cáncer colorrectal",
+    "Hemorragia digestiva baja masiva"
+   ],
+   "clave": 2,
+   "especialidad": "Gastroenterología",
+   "tema": "Enfermedad inflamatoria intestinal",
+   "diagnostico": "Colitis ulcerosa grave: riesgo de colonoscopia completa",
+   "tipo": "complicacion",
+   "dificultad": "alta",
+   "razonamiento": "Paso 1: >6 deposiciones con sangre, fiebre, FC ≥90, Hb <10,5 y VSG >30. Paso 2: brote grave de colitis ulcerosa. Paso 3: la colonoscopia completa en brote grave puede desencadenar megacolon tóxico y perforación.",
+   "por_que_no": [
+    "Propia de la forma transmural.",
+    "",
+    "Complicación crónica de la forma transmural.",
+    "Riesgo a largo plazo en pancolitis >10 años, no inmediato.",
+    "Complicación propia de la enfermedad, no la típica de la colonoscopia."
+   ],
+   "trampa": [
+    "diferencial",
+    "",
+    "diferencial",
+    "otro-momento",
+    "mismo-grupo"
+   ],
+   "perla": "Brote grave de CU: no colonoscopia completa; riesgo de megacolon tóxico.",
+   "fuente": {
+    "carpeta": "5.GASTROENTEROLOGIA",
+    "archivo": "14. EII.pdf",
+    "seccion": "pág. 1, Pregunta de colonoscopia y complicaciones"
+   },
+   "gemela_de": null
+  },
+  {
+   "id": "2026-10-20-noche-045",
+   "enunciado": "Recién nacido de 36 semanas, peso 3 600 g, por cesárea programada por macrosomía estimada. Madre con hiperglucemia del embarazo mal controlada. A los 20 minutos inicia quejido, aleteo nasal y retracción subcostal progresivos. FR 74X', SatO2 86 % con aire ambiental. Radiografía: infiltrado reticulogranular difuso con broncograma aéreo y volúmenes pulmonares bajos. ¿Cuál es el mecanismo del cuadro respiratorio?",
+   "opciones": [
+    "Infección connatal por estreptococo del grupo B",
+    "Retraso en la reabsorción del líquido pulmonar fetal",
+    "Aceleración de la maduración pulmonar por estrés fetal",
+    "Inhalación de líquido amniótico meconial",
+    "Déficit de surfactante por retraso de la maduración pulmonar"
+   ],
+   "clave": 5,
+   "especialidad": "Obstetricia",
+   "tema": "Diabetes gestacional",
+   "diagnostico": "Enfermedad de membrana hialina en hijo de madre con diabetes gestacional",
+   "tipo": "mecanismo",
+   "dificultad": "alta",
+   "razonamiento": "Paso 1: dificultad precoz progresiva con patrón reticulogranular y volúmenes bajos. Paso 2: hiperinsulinemia fetal retarda la maduración pulmonar. Paso 3: déficit de surfactante (membrana hialina), aun casi a término.",
+   "por_que_no": [
+    "Puede simularlo, pero el contexto metabólico explica el déficit de surfactante.",
+    "Da hiperinsuflación y cisuritis, no volúmenes bajos ni broncograma difuso.",
+    "Ocurre en preeclampsia y RCIU; la hiperglucemia la retarda.",
+    "Da infiltrados en parches e hiperinsuflación, sin meconio aquí.",
+    ""
+   ],
+   "trampa": [
+    "diferencial",
+    "diferencial",
+    "otro-contexto",
+    "diferencial",
+    ""
+   ],
+   "perla": "La hiperglucemia materna RETARDA la maduración pulmonar; preeclampsia la acelera.",
+   "fuente": {
+    "carpeta": "2. OBSTETRICIA",
+    "archivo": "8. DM GESTACIONAL.pdf",
+    "seccion": "pág. 1, Maduración pulmonar"
+   },
+   "gemela_de": null
+  },
+  {
+   "id": "2026-10-20-noche-046",
+   "enunciado": "Gestante de 33 semanas, 39 años, IMC 36 kg/m2, con hiperglucemia detectada a las 28 semanas. Tras 3 semanas de dieta a 25 kcal/kg y caminatas diarias, su automonitoreo promedia: preprandial 104 mg/dL, 1 hora 158 mg/dL y 2 horas 134 mg/dL. Teme las agujas y pide pastillas. Ecografía: ponderado en percentil 94. ¿Cuál es el tratamiento farmacológico de elección?",
+   "opciones": [
+    "Insulina subcutánea",
+    "Glibenclamida oral",
+    "Restringir la dieta a 18 kcal/kg y reevaluar",
+    "Glimepirida oral",
+    "Acarbosa oral"
+   ],
+   "clave": 1,
+   "especialidad": "Obstetricia",
+   "tema": "Diabetes gestacional",
+   "diagnostico": "Diabetes gestacional con fracaso de la dieta y feto macrosómico",
+   "tipo": "tratamiento",
+   "dificultad": "alta",
+   "razonamiento": "Paso 1: preprandial >90, 1 h >140 y 2 h >120 tras 3 semanas de dieta. Paso 2: fracasó la primera línea y hay feto grande. Paso 3: insulina es el fármaco de elección, aun con preferencia por la vía oral.",
+   "por_que_no": [
+    "",
+    "Contraindicada en la gestación según la fuente.",
+    "Ya fracasó la primera línea; más restricción no es la elección.",
+    "Sulfonilurea, del mismo grupo contraindicado.",
+    "No es fármaco de elección en la gestación."
+   ],
+   "trampa": [
+    "",
+    "mismo-grupo",
+    "otro-estadio",
+    "mismo-grupo",
+    "mismo-grupo"
+   ],
+   "perla": "DMG sin metas tras dieta y ejercicio: insulina; glibenclamida contraindicada.",
+   "fuente": {
+    "carpeta": "2. OBSTETRICIA",
+    "archivo": "8. DM GESTACIONAL.pdf",
+    "seccion": "pág. 1, Tratamiento farmacológico"
+   },
+   "gemela_de": null
+  },
+  {
+   "id": "2026-10-20-noche-047",
+   "enunciado": "Mujer de 58 años con 3 meses de diarrea con sangre, 5 deposiciones al día y tenesmo. Nunca fumó. PA 128/80 mmHg, FC 84X', T° 36,9 °C. Abdomen blando, sin masas. Coprocultivo y parasitológico negativos. Colonoscopia: mucosa granular y friable, continua desde el recto hasta el colon descendente, sin áreas sanas intercaladas; íleon normal. ¿Qué hallazgo histológico es el esperado?",
+   "opciones": [
+    "Abscesos crípticos con inflamación de mucosa y submucosa",
+    "Granulomas no caseificantes transmurales",
+    "Granulomas caseificantes",
+    "Úlceras aftosas profundas con fisuras",
+    "Engrosamiento de la banda colágena subepitelial"
+   ],
+   "clave": 1,
+   "especialidad": "Gastroenterología",
+   "tema": "Enfermedad inflamatoria intestinal",
+   "diagnostico": "Colitis ulcerosa: histología de abscesos crípticos",
+   "tipo": "prueba",
+   "dificultad": "media",
+   "razonamiento": "Paso 1: diarrea con sangre, afectación continua desde el recto e íleon sano, en segundo pico de edad. Paso 2: colitis ulcerosa. Paso 3: inflamación limitada a mucosa y submucosa con abscesos crípticos.",
+   "por_que_no": [
+    "",
+    "Propios de la forma segmentaria transmural.",
+    "Sugieren tuberculosis intestinal.",
+    "Propias de la forma transmural.",
+    "Propio de la colitis microscópica, sin sangre ni lesión endoscópica."
+   ],
+   "trampa": [
+    "",
+    "diferencial",
+    "diferencial",
+    "diferencial",
+    "diferencial"
+   ],
+   "perla": "CU: abscesos crípticos, pseudopólipos, solo mucosa y submucosa; picos 15-35 y 55-70 años.",
+   "fuente": {
+    "carpeta": "5.GASTROENTEROLOGIA",
+    "archivo": "14. EII.pdf",
+    "seccion": "pág. 1, Patología y epidemiología"
+   },
+   "gemela_de": null
+  },
+  {
+   "id": "2026-10-20-noche-048",
+   "enunciado": "Varón de 19 años con hermano diagnosticado de la misma enfermedad. Presenta 5 meses de diarrea sin sangre, dolor en fosa iliaca derecha, fiebre baja y pérdida de 5 kg. PA 110/70 mmHg, FC 92X', T° 37,7 °C. Fístula perianal. ASCA positivo, p-ANCA negativo. Ileocolonoscopia: lesiones salteadas en íleon y colon con mucosa en empedrado. ¿Qué alteración genética se asocia a su enfermedad?",
+   "opciones": [
+    "Mutación del gen APC",
+    "HLA-DR2",
+    "HLA-DQ2",
+    "Mutación del gen CFTR",
+    "Mutación del gen NOD2"
+   ],
+   "clave": 5,
+   "especialidad": "Gastroenterología",
+   "tema": "Enfermedad inflamatoria intestinal",
+   "diagnostico": "Enfermedad de Crohn: mutación NOD2",
+   "tipo": "mecanismo",
+   "dificultad": "alta",
+   "razonamiento": "Paso 1: ASCA positivo, fístula perianal y empedrado salteado con familiar afectado. Paso 2: Crohn. Paso 3: se asocia a HLA-DR5, HLA-B27 y mutación NOD2.",
+   "por_que_no": [
+    "Poliposis adenomatosa familiar.",
+    "Se asocia a la forma continua limitada a la mucosa.",
+    "Se asocia a la enteropatía por gluten.",
+    "Causa fibrosis quística.",
+    ""
+   ],
+   "trampa": [
+    "diferencial",
+    "diferencial",
+    "diferencial",
+    "diferencial",
+    ""
+   ],
+   "perla": "Crohn: NOD2 y HLA-DR5; CU: HLA-DR2.",
+   "fuente": {
+    "carpeta": "5.GASTROENTEROLOGIA",
+    "archivo": "14. EII.pdf",
+    "seccion": "pág. 1, Epidemiología (factores de riesgo)"
+   },
+   "gemela_de": null
+  },
+  {
+   "id": "2026-10-20-noche-049",
+   "enunciado": "Varón de 41 años con 5 años de diarrea con sangre; colonoscopia con afectación continua del recto al colon descendente. Hace 8 meses toma azatioprina, pero cada vez que la prednisona baja de 10 mg/día reaparecen 6-7 deposiciones con sangre. Hoy: FC 84X', T° 36,8 °C, abdomen no distendido, Hb 11,6 g/dL. Radiografía de abdomen sin dilatación. ¿Cuál es el siguiente escalón terapéutico?",
+   "opciones": [
+    "Budesonida oral",
+    "Colectomía total urgente",
+    "Aumentar prednisona y mantenerla",
+    "Infliximab",
+    "Mesalazina tópica asociada"
+   ],
+   "clave": 4,
+   "especialidad": "Gastroenterología",
+   "tema": "Enfermedad inflamatoria intestinal",
+   "diagnostico": "Colitis ulcerosa corticodependiente",
+   "tipo": "tratamiento",
+   "dificultad": "muy alta",
+   "razonamiento": "Paso 1: recae al bajar prednisona pese a azatioprina, sin signos de toxicidad. Paso 2: corticodependencia en colitis ulcerosa estable. Paso 3: se escala a biológico (anti-TNF como infliximab, o vedolizumab/ustekinumab).",
+   "por_que_no": [
+    "Indicada en la forma ileocecal leve-moderada.",
+    "Para megacolon tóxico, hemorragia masiva o refractariedad grave.",
+    "Perpetúa la corticodependencia y sus efectos adversos.",
+    "",
+    "Para leve-moderado; no resuelve la corticodependencia."
+   ],
+   "trampa": [
+    "diferencial",
+    "otro-estadio",
+    "otro-momento",
+    "",
+    "otro-estadio"
+   ],
+   "perla": "Corticodependencia o corticorresistencia → anti-TNF (infliximab, adalimumab).",
+   "fuente": {
+    "carpeta": "5.GASTROENTEROLOGIA",
+    "archivo": "14. EII.pdf",
+    "seccion": "pág. 1, Tratamiento: fracaso o corticodependencia"
+   },
+   "gemela_de": null
+  },
+  {
+   "id": "2026-10-20-noche-050",
+   "enunciado": "Varón de 42 años con 9 años de diarrea sin sangre y dolor en fosa iliaca derecha; biopsias previas con granulomas no caseificantes. Desde hace 3 semanas nota burbujas en la orina al final de la micción y orina turbia con restos. T° 37,8 °C, PA 124/78 mmHg, FC 94X'. Urocultivo: flora mixta con E. coli y Bacteroides. Tomografía: trayecto entre íleon distal y cúpula vesical con aire en la vejiga. ¿Qué característica de la enfermedad explica la complicación?",
+   "opciones": [
+    "Formación de pseudopólipos inflamatorios",
+    "Formación de abscesos crípticos",
+    "Isquemia mesentérica segmentaria",
+    "Inflamación limitada a mucosa y submucosa",
+    "Inflamación transmural de toda la pared"
+   ],
+   "clave": 5,
+   "especialidad": "Gastroenterología",
+   "tema": "Enfermedad inflamatoria intestinal",
+   "diagnostico": "Enfermedad de Crohn con fístula enterovesical",
+   "tipo": "mecanismo",
+   "dificultad": "alta",
+   "razonamiento": "Paso 1: neumaturia y flora fecal con trayecto íleo-vesical en enfermedad granulomatosa. Paso 2: fístula enterovesical por Crohn. Paso 3: la inflamación transmural permite fístulas y abscesos.",
+   "por_que_no": [
+    "Lesión endoluminal de la forma continua.",
+    "Lesión mucosa sin trayecto a órganos vecinos.",
+    "No explica granulomas ni la evolución crónica.",
+    "Es la de la forma continua del colon, que no fistuliza.",
+    ""
+   ],
+   "trampa": [
+    "diferencial",
+    "diferencial",
+    "diferencial",
+    "diferencial",
+    ""
+   ],
+   "perla": "Crohn: transmural → fístulas, abscesos y estenosis.",
+   "fuente": {
+    "carpeta": "5.GASTROENTEROLOGIA",
+    "archivo": "14. EII.pdf",
+    "seccion": "pág. 1, Patología y complicaciones"
+   },
+   "gemela_de": null
+  }
+ ]
+}
