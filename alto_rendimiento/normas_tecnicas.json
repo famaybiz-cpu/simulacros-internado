@@ -1,0 +1,495 @@
+{
+ "generado": "2026-10-21",
+ "fuente": "Carpeta 28. NT de Internado (texto extraído en _SISTEMA_BANCOS/ocr)",
+ "nota": "Una tarjeta por norma, con los datos que más se preguntan.",
+ "normas": [
+  {
+   "id": "nt-anemia",
+   "norma": "NTS Anemia (guía 2024-2025)",
+   "titulo": "Anemia",
+   "fuente": {
+    "carpeta": "28. NT",
+    "archivo": "1. NT ANEMIA.pdf"
+   },
+   "puntos": [
+    {
+     "p": "Criterio diagnóstico",
+     "r": "Hb por debajo de 2 desviaciones estándar del promedio según edad, sexo y altura."
+    },
+    {
+     "p": "Hb normal",
+     "r": "Suplementación preventiva."
+    },
+    {
+     "p": "Hb baja",
+     "r": "Tratamiento inmediato con hierro MÁS evaluación de laboratorio. No se espera al laboratorio para tratar."
+    },
+    {
+     "p": "Panel básico",
+     "r": "Hemograma completo con índices, reticulocitos, frotis, ferritina y PCR. Parasitológico, sangre oculta y plomo según contexto; gota gruesa en zona endémica."
+    },
+    {
+     "p": "Por qué la PCR",
+     "r": "Para separar ferropenia verdadera de anemia por inflamación: la ferritina sube con la inflamación."
+    },
+    {
+     "p": "Patrón ferropénico",
+     "r": "VCM bajo + HCM baja + reticulocitos normales."
+    },
+    {
+     "p": "Reticulocitos altos",
+     "r": "Orientan a pérdida o hemólisis, no a ferropenia: no es el caso típico de suplementar y seguir."
+    }
+   ],
+   "perla": "Hb baja: se trata con hierro ya, el laboratorio va en paralelo, no antes."
+  },
+  {
+   "id": "nt-cred",
+   "norma": "NTS CRED 2025",
+   "titulo": "Control de crecimiento y desarrollo",
+   "fuente": {
+    "carpeta": "28. NT",
+    "archivo": "2. NT CRED.pdf"
+   },
+   "puntos": [
+    {
+     "p": "Población",
+     "r": "Todo niño de 0 hasta 11 años, 11 meses y 29 días."
+    },
+    {
+     "p": "Duración del control",
+     "r": "Unos 30 minutos."
+    },
+    {
+     "p": "Quién lo realiza",
+     "r": "Licenciado en enfermería o médico cirujano."
+    },
+    {
+     "p": "Programación",
+     "r": "Los controles se programan según la fecha del ÚLTIMO control, no según la edad cronológica."
+    },
+    {
+     "p": "Modalidad",
+     "r": "Oferta fija (en el establecimiento) y oferta móvil (en la comunidad)."
+    },
+    {
+     "p": "Longitud vs estatura",
+     "r": "Longitud: menores de 2 años, acostado. Estatura: 2 años o más, de pie."
+    },
+    {
+     "p": "Malnutrición",
+     "r": "Incluye desnutrición, deficiencia de micronutrientes y sobrepeso u obesidad."
+    }
+   ],
+   "perla": "El siguiente CRED se cuenta desde el último control, no desde el cumpleaños."
+  },
+  {
+   "id": "nt-inmunizaciones",
+   "norma": "NTS Inmunizaciones 2026",
+   "titulo": "Esquema nacional de vacunación",
+   "fuente": {
+    "carpeta": "28. NT",
+    "archivo": "3. NT INMUNIZACIONES.pdf"
+   },
+   "puntos": [
+    {
+     "p": "Alcance",
+     "r": "23 vacunas, 1 anticuerpo monoclonal y 4 vacunas según situación epidemiológica; protegen contra 36 enfermedades."
+    },
+    {
+     "p": "Barrido",
+     "r": "Vacunación masiva en zona de riesgo tras un caso confirmado. Se vacuna a TODOS, hayan sido vacunados o no."
+    },
+    {
+     "p": "Bloqueo vacunal",
+     "r": "Ante caso sospechoso o probable: 5 manzanas alrededor, dentro de las 72 horas. Solo a los de esquema incompleto."
+    },
+    {
+     "p": "Dosis de refuerzo vs rescate",
+     "r": "Refuerzo: después del esquema básico, para prolongar inmunidad. Rescate: esquema acelerado para quien quedó incompleto."
+    },
+    {
+     "p": "Niño susceptible",
+     "r": "El que no tiene esquema completo o le falta alguna vacuna y está en riesgo."
+    },
+    {
+     "p": "Vacuna conjugada",
+     "r": "Antígeno unido a proteína transportadora para hacerlo más inmunógeno y dar memoria."
+    },
+    {
+     "p": "Vacuna combinada",
+     "r": "Varios antígenos en una dosis; nunca mezcla atenuados con inactivados."
+    }
+   ],
+   "perla": "Barrido = todos. Bloqueo = solo los incompletos, 5 manzanas, 72 horas."
+  },
+  {
+   "id": "nt-its",
+   "norma": "NTS ITS",
+   "titulo": "Infecciones de transmisión sexual",
+   "fuente": {
+    "carpeta": "28. NT",
+    "archivo": "4. NT ITS.pdf"
+   },
+   "puntos": [
+    {
+     "p": "Enfoque",
+     "r": "Manejo sindrómico: se trata el síndrome sin esperar el laboratorio."
+    },
+    {
+     "p": "Síndromes",
+     "r": "Úlcera genital, descarga uretral, flujo vaginal, dolor abdominal bajo, bubón inguinal."
+    },
+    {
+     "p": "Siempre",
+     "r": "Tratar a la pareja, ofrecer tamizaje de VIH y sífilis, condones y consejería."
+    },
+    {
+     "p": "Notificación",
+     "r": "Las ITS son de notificación obligatoria."
+    }
+   ],
+   "perla": "En ITS se trata el síndrome y a la pareja el mismo día; el laboratorio no frena el tratamiento."
+  },
+  {
+   "id": "nt-tbc",
+   "norma": "NTS 221-MINSA/DPCTB-2024",
+   "titulo": "Tuberculosis",
+   "fuente": {
+    "carpeta": "28. NT",
+    "archivo": "5. NT TBC.pdf"
+   },
+   "puntos": [
+    {
+     "p": "Caso presuntivo",
+     "r": "Persona con 2 o más síntomas o signos de TB (tos con flema, hemoptisis, fiebre, sudoración nocturna, baja de peso); incluye a los sintomáticos respiratorios."
+    },
+    {
+     "p": "Registro",
+     "r": "Todos los casos se registran en el SIGTB."
+    },
+    {
+     "p": "Con confirmación bacteriológica",
+     "r": "Baciloscopía, cultivo o prueba rápida positiva."
+    },
+    {
+     "p": "Sin confirmación",
+     "r": "Diagnóstico por clínica más apoyo (radiografía, laboratorio) sin bacteriología positiva."
+    },
+    {
+     "p": "Esquema sensible",
+     "r": "2 meses de isoniacida, rifampicina, pirazinamida y etambutol, luego 4 meses de isoniacida y rifampicina."
+    },
+    {
+     "p": "Gestante",
+     "r": "El mismo esquema, añadiendo piridoxina. La estreptomicina está CONTRAINDICADA por ototoxicidad fetal."
+    },
+    {
+     "p": "TB primaria vs secundaria",
+     "r": "Primaria: complejo de Ghon y Ranke, segmentos superiores de lóbulos inferiores. Secundaria: cavernas en segmento apical posterior."
+    }
+   ],
+   "perla": "Gestante con TB sensible: mismo esquema, más piridoxina y sin estreptomicina."
+  },
+  {
+   "id": "nt-dengue",
+   "norma": "NTS Dengue 2026",
+   "titulo": "Dengue",
+   "fuente": {
+    "carpeta": "28. NT",
+    "archivo": "6. NT DENGUE.pdf"
+   },
+   "puntos": [
+    {
+     "p": "Vector",
+     "r": "Aedes aegypti hembra. Pica en las primeras horas de la mañana y las últimas de la tarde."
+    },
+    {
+     "p": "Incubación extrínseca",
+     "r": "En el zancudo: 8 a 12 días (promedio 10)."
+    },
+    {
+     "p": "Incubación intrínseca",
+     "r": "En la persona: 3 a 14 días (promedio 5 a 7)."
+    },
+    {
+     "p": "Escenario I",
+     "r": "Sin vector y sin casos. Color gris, vigilancia trimestral."
+    },
+    {
+     "p": "Escenario II",
+     "r": "Hay vector, sin casos autóctonos. Se subclasifica por índice aédico; bajo riesgo con índice menor de 1 %, color verde, encuesta mensual."
+    },
+    {
+     "p": "Escenario III",
+     "r": "Casos autóctonos presentes. Brote: una unidad geográfica. Epidemia: más de una. Endemia: presencia permanente y esperada."
+    }
+   ],
+   "perla": "Brote = una zona; epidemia = varias; endemia = lo esperado de siempre."
+  },
+  {
+   "id": "nt-cadena-frio",
+   "norma": "NTS Cadena de frío",
+   "titulo": "Cadena de frío",
+   "fuente": {
+    "carpeta": "28. NT",
+    "archivo": "7. NT CADENA DE FRIO.pdf"
+   },
+   "puntos": [
+    {
+     "p": "Rango de conservación",
+     "r": "Las vacunas se conservan entre +2 °C y +8 °C en el nivel operativo."
+    },
+    {
+     "p": "Control",
+     "r": "Termómetro con registro dos veces al día, al inicio y al final de la jornada."
+    },
+    {
+     "p": "Niveles",
+     "r": "Cadena de frío nacional, regional y local, con equipos y tiempos de almacenamiento distintos."
+    },
+    {
+     "p": "Qué no hacer",
+     "r": "No guardar vacunas en la puerta del refrigerador ni junto a alimentos."
+    }
+   ],
+   "perla": "+2 a +8 °C y termómetro leído dos veces al día: es la pregunta clásica."
+  },
+  {
+   "id": "nt-dm2",
+   "norma": "NTS DM2",
+   "titulo": "Diabetes mellitus tipo 2",
+   "fuente": {
+    "carpeta": "28. NT",
+    "archivo": "8. NT DM2.pdf"
+   },
+   "puntos": [
+    {
+     "p": "Caso de diabetes",
+     "r": "Persona ya diagnosticada que recibe hipoglicemiante, aunque su glicemia actual sea menor de 126 mg/dL."
+    },
+    {
+     "p": "Caso nuevo",
+     "r": "Diagnosticada por primera vez, sin historia previa de tratamiento."
+    },
+    {
+     "p": "Caso complicado",
+     "r": "El que al captarse o durante el seguimiento presenta una complicación propia de la enfermedad."
+    },
+    {
+     "p": "No modificables",
+     "r": "Edad 45 años o más, familiar de primer grado, etnia, antecedente de diabetes gestacional."
+    },
+    {
+     "p": "Modificables",
+     "r": "Sobrepeso u obesidad, inactividad física, HTA, dislipidemia, prediabetes, SOP."
+    },
+    {
+     "p": "Dislipidemia asociada",
+     "r": "Triglicéridos mayores de 250 mg/dL y HDL menor de 35 mg/dL."
+    },
+    {
+     "p": "HTA como factor",
+     "r": "PA de 140/90 mmHg o más, o estar en tratamiento antihipertensivo."
+    },
+    {
+     "p": "SOP",
+     "r": "Triplica el riesgo de desarrollar DM2."
+    }
+   ],
+   "perla": "Sigue siendo caso de diabetes aunque hoy tenga la glicemia normal con tratamiento."
+  },
+  {
+   "id": "nt-vih",
+   "norma": "NTS VIH 2020",
+   "titulo": "VIH",
+   "fuente": {
+    "carpeta": "28. NT",
+    "archivo": "9. NT VIH.pdf"
+   },
+   "puntos": [
+    {
+     "p": "Virus y diana",
+     "r": "Retrovirus que ataca los linfocitos CD4."
+    },
+    {
+     "p": "Adherencia óptima",
+     "r": "Mayor o igual al 95 % para lograr supresión viral."
+    },
+    {
+     "p": "Abandono del TAR",
+     "r": "No acudir por más de 30 días, o no confirmar continuidad tras una referencia."
+    },
+    {
+     "p": "Coinfección TB/VIH",
+     "r": "Diagnóstico simultáneo de tuberculosis e infección por VIH."
+    },
+    {
+     "p": "Exposición ocupacional",
+     "r": "Personal de salud expuesto a sangre, tejidos o fluidos por lesión percutánea o mucosas durante la jornada."
+    },
+    {
+     "p": "Pareja serodiscordante",
+     "r": "Uno de los dos tiene la infección y el otro no."
+    },
+    {
+     "p": "PPE",
+     "r": "Antirretrovirales tras la exposición para reducir el riesgo de transmisión."
+    }
+   ],
+   "perla": "Adherencia ≥95 % o no hay supresión viral; abandono se define a los 30 días."
+  },
+  {
+   "id": "nt-emergencias-obstetricas",
+   "norma": "NTS Emergencias obstétricas",
+   "titulo": "Emergencias obstétricas",
+   "fuente": {
+    "carpeta": "28. NT",
+    "archivo": "10. NT EMERGENCIAS OBSTETRICAS.pdf"
+   },
+   "puntos": [
+    {
+     "p": "Aborto",
+     "r": "Interrupción antes de las 22 semanas, peso fetal menor de 500 g o longitud céfalo-caudal menor de 25 cm."
+    },
+    {
+     "p": "Precoz vs tardío",
+     "r": "Precoz: menos de 12 semanas (80 %). Tardío: más de 12 semanas (20 %)."
+    },
+    {
+     "p": "Amenaza de aborto",
+     "r": "Sangrado escaso, cuello CERRADO, sin expulsión. Conducta expectante si está estable."
+    },
+    {
+     "p": "Aborto inevitable",
+     "r": "Cuello dilatado y membranas rotas: ya no se puede continuar."
+    },
+    {
+     "p": "Incompleto vs completo",
+     "r": "Incompleto: OCI abierto con retención de restos, línea endometrial mayor de 15 mm; se evacúa con AMEU o legrado. Completo: sin restos, línea endometrial delgada."
+    },
+    {
+     "p": "Clave roja",
+     "r": "Activarla ante hemorragia con inestabilidad. Índice de shock = FC/PAS; por encima de 0,9 corresponde reponer con hemoderivados."
+    },
+    {
+     "p": "Las 4 T",
+     "r": "Tono y Trauma son tempranas; Tejido y Trombina, tardías."
+    }
+   ],
+   "perla": "Cuello cerrado = amenaza; cuello abierto = inevitable o incompleto."
+  },
+  {
+   "id": "nt-rabia",
+   "norma": "NTS Rabia",
+   "titulo": "Rabia",
+   "fuente": {
+    "carpeta": "28. NT",
+    "archivo": "11. NT RABIA.pdf"
+   },
+   "puntos": [
+    {
+     "p": "Primer paso siempre",
+     "r": "Lavado de la herida con agua y jabón por 10 a 15 minutos. Es lo que más reduce el riesgo."
+    },
+    {
+     "p": "No suturar",
+     "r": "La herida por mordedura no se sutura de primera intención salvo necesidad, y si se hace, tras infiltrar inmunoglobulina."
+    },
+    {
+     "p": "Exposición grave",
+     "r": "Mordedura en cabeza, cuello, manos o genitales, múltiple, profunda, o por animal silvestre o murciélago."
+    },
+    {
+     "p": "Grave",
+     "r": "Vacuna MÁS inmunoglobulina antirrábica infiltrada alrededor de la herida."
+    },
+    {
+     "p": "Observación del animal",
+     "r": "Perro o gato sano y observable: 10 días de observación."
+    },
+    {
+     "p": "Murciélago",
+     "r": "Toda exposición a murciélago se considera grave."
+    }
+   ],
+   "perla": "Agua y jabón 15 minutos primero; murciélago siempre es exposición grave."
+  },
+  {
+   "id": "nt-flujo-vaginal",
+   "norma": "NTS Síndrome de flujo vaginal",
+   "titulo": "Síndrome de flujo vaginal",
+   "fuente": {
+    "carpeta": "28. NT",
+    "archivo": "12. NT SD DE FLUJO VAGINAL.pdf"
+   },
+   "puntos": [
+    {
+     "p": "Enfoque",
+     "r": "Manejo sindrómico, sin esperar cultivo."
+    },
+    {
+     "p": "Vaginosis bacteriana",
+     "r": "Flujo gris, maloliente a pescado, pH mayor de 4,5, aminas positivas, células clave. Metronidazol."
+    },
+    {
+     "p": "Candidiasis",
+     "r": "Flujo blanco grumoso, prurito, pH normal. Azoles."
+    },
+    {
+     "p": "Tricomoniasis",
+     "r": "Flujo amarillo-verdoso espumoso, cuello en fresa, pH mayor de 4,5. Metronidazol y tratar a la pareja."
+    },
+    {
+     "p": "Cervicitis",
+     "r": "Descarga mucopurulenta del cuello: cubrir gonococo y clamidia."
+    },
+    {
+     "p": "Pareja",
+     "r": "Se trata en tricomoniasis y cervicitis; no en vaginosis ni candidiasis."
+    }
+   ],
+   "perla": "pH alto con olor a pescado es vaginosis; pH normal con prurito es candidiasis."
+  },
+  {
+   "id": "nt-hta",
+   "norma": "NTS HTA (MINSA 2015, act. 2026)",
+   "titulo": "Hipertensión arterial",
+   "fuente": {
+    "carpeta": "28. NT",
+    "archivo": "13. NT HTA.pdf"
+   },
+   "puntos": [
+    {
+     "p": "Prevalencia ENDES 2013",
+     "r": "16,6 % en mayores de 15 años. Hombres 21,5 %, mujeres 12,3 %."
+    },
+    {
+     "p": "Brecha de diagnóstico",
+     "r": "Solo el 12,2 % estaba diagnosticado previamente; de ellos el 62 % recibe tratamiento."
+    },
+    {
+     "p": "Adultos mayores",
+     "r": "34,4 % en mayores de 60 años (ENDES 2012)."
+    },
+    {
+     "p": "No modificables",
+     "r": "Sexo masculino, edad (varones 55 o más, mujeres 65 o más), raza e historia familiar."
+    },
+    {
+     "p": "Modificables",
+     "r": "Tabaquismo, dislipidemia, hiperglucemia en ayunas, obesidad y sedentarismo."
+    },
+    {
+     "p": "Dislipidemia",
+     "r": "Colesterol total mayor de 200, LDL de 130 o más, HDL menor de 40 en varones o de 50 en mujeres."
+    },
+    {
+     "p": "Alteración glucémica",
+     "r": "Glucosa en ayunas de 100 a 125 mg/dL."
+    }
+   ],
+   "perla": "La mayoría de hipertensos peruanos no sabe que lo es: solo 1 de cada 8 está diagnosticado."
+  }
+ ]
+}

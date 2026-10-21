@@ -11,6 +11,7 @@ import { pantallaTarjetas, pantallaRepasarTarjetas, pantallaAudioTarjetas } from
 import { aplicarTema, leerTema, guardarTema, PALETAS, MODOS } from './tema.js';
 import { caminoAl16, metaDiaria, panelInsignias } from './motivacion.js';
 import { sincronizarTarjetas } from './data.js';
+import { pantallaAlto } from './alto.js';
 
 const vista = $('#vista');
 let rutaActual = '';
@@ -43,6 +44,7 @@ async function router() {
       case 'repasar-tarjetas': titulo('Repaso');        pantallaRepasarTarjetas(vista); break;
       case 'audio-tarjetas':   titulo('Repaso en audio'); pantallaAudioTarjetas(vista); break;
       case 'mas':        titulo('Más');                 pantallaMas(vista); break;
+      case 'alto-rendimiento': titulo('Alto rendimiento'); await pantallaAlto(vista, p2); break;
       case 'historial':  titulo('Historial');           await pantallaHistorial(vista); break;
       case 'ajustes':    titulo('Ajustes');             pantallaAjustes(vista); break;
       default:           location.hash = '#/';

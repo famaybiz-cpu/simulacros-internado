@@ -1,0 +1,1217 @@
+{
+ "generado": "2026-10-21",
+ "total": 121,
+ "nota": "Las perlas más rentables según la frecuencia de los temas en los bancos reales.",
+ "perlas": [
+  {
+   "id": "perla-001",
+   "especialidad": "Obstetricia",
+   "tema": "Trabajo de parto y distocias",
+   "texto": "Fase activa del parto: desde los 6 cm, no desde los 4.",
+   "fuente": {
+    "carpeta": "2. OBSTETRICIA",
+    "archivo": "26. TRABAJO DE PARTO NORMAL.pdf"
+   }
+  },
+  {
+   "id": "perla-002",
+   "especialidad": "Obstetricia",
+   "tema": "Trabajo de parto y distocias",
+   "texto": "Detención del descenso con dilatación completa y 2 horas sin progreso: pensar en desproporción.",
+   "fuente": {
+    "carpeta": "2. OBSTETRICIA",
+    "archivo": "26. TRABAJO DE PARTO NORMAL.pdf"
+   }
+  },
+  {
+   "id": "perla-003",
+   "especialidad": "Obstetricia",
+   "tema": "Trabajo de parto y distocias",
+   "texto": "El partograma con curva de alerta cruzada obliga a reevaluar, no a cesárea automática.",
+   "fuente": {
+    "carpeta": "2. OBSTETRICIA",
+    "archivo": "26. TRABAJO DE PARTO NORMAL.pdf"
+   }
+  },
+  {
+   "id": "perla-004",
+   "especialidad": "Obstetricia",
+   "tema": "Trabajo de parto y distocias",
+   "texto": "Presentación podálica en primigesta a término: cesárea.",
+   "fuente": {
+    "carpeta": "2. OBSTETRICIA",
+    "archivo": "26. TRABAJO DE PARTO NORMAL.pdf"
+   }
+  },
+  {
+   "id": "perla-005",
+   "especialidad": "Obstetricia",
+   "tema": "Trabajo de parto y distocias",
+   "texto": "Período expulsivo prolongado en nulípara: más de 2 horas sin epidural, más de 3 con epidural.",
+   "fuente": {
+    "carpeta": "2. OBSTETRICIA",
+    "archivo": "26. TRABAJO DE PARTO NORMAL.pdf"
+   }
+  },
+  {
+   "id": "perla-006",
+   "especialidad": "Obstetricia",
+   "tema": "Control prenatal",
+   "texto": "Mínimo 6 controles prenatales, el primero antes de las 14 semanas.",
+   "fuente": {
+    "carpeta": "2. OBSTETRICIA",
+    "archivo": "3. EVALUACION GESTACIONAL.pdf"
+   }
+  },
+  {
+   "id": "perla-007",
+   "especialidad": "Obstetricia",
+   "tema": "Control prenatal",
+   "texto": "Altura uterina en centímetros ≈ semanas de gestación entre las 20 y las 34 semanas.",
+   "fuente": {
+    "carpeta": "2. OBSTETRICIA",
+    "archivo": "3. EVALUACION GESTACIONAL.pdf"
+   }
+  },
+  {
+   "id": "perla-008",
+   "especialidad": "Obstetricia",
+   "tema": "Control prenatal",
+   "texto": "La ecografía más exacta para edad gestacional es la del primer trimestre: longitud céfalo-caudal.",
+   "fuente": {
+    "carpeta": "2. OBSTETRICIA",
+    "archivo": "3. EVALUACION GESTACIONAL.pdf"
+   }
+  },
+  {
+   "id": "perla-009",
+   "especialidad": "Obstetricia",
+   "tema": "Control prenatal",
+   "texto": "Ácido fólico desde 3 meses antes del embarazo y durante el primer trimestre.",
+   "fuente": {
+    "carpeta": "2. OBSTETRICIA",
+    "archivo": "3. EVALUACION GESTACIONAL.pdf"
+   }
+  },
+  {
+   "id": "perla-010",
+   "especialidad": "Obstetricia",
+   "tema": "Aborto y ectópico",
+   "texto": "Cuello cerrado y sangrado escaso = amenaza de aborto; cuello abierto = inevitable o incompleto.",
+   "fuente": {
+    "carpeta": "2. OBSTETRICIA",
+    "archivo": "10. EMBARAZO NO VIABLE.pdf"
+   }
+  },
+  {
+   "id": "perla-011",
+   "especialidad": "Obstetricia",
+   "tema": "Aborto y ectópico",
+   "texto": "β-hCG que no duplica en 48 horas con útero vacío: embarazo ectópico hasta demostrar lo contrario.",
+   "fuente": {
+    "carpeta": "2. OBSTETRICIA",
+    "archivo": "10. EMBARAZO NO VIABLE.pdf"
+   }
+  },
+  {
+   "id": "perla-012",
+   "especialidad": "Obstetricia",
+   "tema": "Aborto y ectópico",
+   "texto": "Ectópico roto con inestabilidad: laparotomía, no metotrexato.",
+   "fuente": {
+    "carpeta": "2. OBSTETRICIA",
+    "archivo": "10. EMBARAZO NO VIABLE.pdf"
+   }
+  },
+  {
+   "id": "perla-013",
+   "especialidad": "Obstetricia",
+   "tema": "Aborto y ectópico",
+   "texto": "Línea endometrial mayor de 15 mm con OCI abierto: aborto incompleto, evacuar.",
+   "fuente": {
+    "carpeta": "2. OBSTETRICIA",
+    "archivo": "10. EMBARAZO NO VIABLE.pdf"
+   }
+  },
+  {
+   "id": "perla-014",
+   "especialidad": "Obstetricia",
+   "tema": "Preeclampsia",
+   "texto": "Cefalea que no cede, escotomas o epigastralgia en gestante hipertensa: sulfato de magnesio antes que el antihipertensivo.",
+   "fuente": {
+    "carpeta": "2. OBSTETRICIA",
+    "archivo": "35. TRASTORNO HIPERTENSIV.pdf"
+   }
+  },
+  {
+   "id": "perla-015",
+   "especialidad": "Obstetricia",
+   "tema": "Preeclampsia",
+   "texto": "Severidad: PA ≥160/110, plaquetas <100 000, transaminasas al doble, creatinina >1,1 o síntomas neurológicos.",
+   "fuente": {
+    "carpeta": "2. OBSTETRICIA",
+    "archivo": "35. TRASTORNO HIPERTENSIV.pdf"
+   }
+  },
+  {
+   "id": "perla-016",
+   "especialidad": "Obstetricia",
+   "tema": "Preeclampsia",
+   "texto": "HELLP es hemólisis, enzimas hepáticas altas y plaquetas bajas: puede cursar sin hipertensión severa.",
+   "fuente": {
+    "carpeta": "2. OBSTETRICIA",
+    "archivo": "35. TRASTORNO HIPERTENSIV.pdf"
+   }
+  },
+  {
+   "id": "perla-017",
+   "especialidad": "Obstetricia",
+   "tema": "Preeclampsia",
+   "texto": "El tratamiento definitivo de la preeclampsia es el parto; el sulfato previene la convulsión, no cura.",
+   "fuente": {
+    "carpeta": "2. OBSTETRICIA",
+    "archivo": "35. TRASTORNO HIPERTENSIV.pdf"
+   }
+  },
+  {
+   "id": "perla-018",
+   "especialidad": "Obstetricia",
+   "tema": "Preeclampsia",
+   "texto": "Intoxicación por sulfato de magnesio: arreflexia primero, luego depresión respiratoria. Antídoto: gluconato de calcio.",
+   "fuente": {
+    "carpeta": "2. OBSTETRICIA",
+    "archivo": "35. TRASTORNO HIPERTENSIV.pdf"
+   }
+  },
+  {
+   "id": "perla-019",
+   "especialidad": "Obstetricia",
+   "tema": "Hemorragia obstétrica",
+   "texto": "Índice de shock = FC/PAS. Por encima de 0,9 se transfunde, no se espera el hemograma.",
+   "fuente": {
+    "carpeta": "2. OBSTETRICIA",
+    "archivo": "33. HEMORRAGIA POSTPARTO.pdf"
+   }
+  },
+  {
+   "id": "perla-020",
+   "especialidad": "Obstetricia",
+   "tema": "Hemorragia obstétrica",
+   "texto": "Las 4 T: Tono y Trauma son tempranas; Tejido y Trombina, tardías.",
+   "fuente": {
+    "carpeta": "2. OBSTETRICIA",
+    "archivo": "33. HEMORRAGIA POSTPARTO.pdf"
+   }
+  },
+  {
+   "id": "perla-021",
+   "especialidad": "Obstetricia",
+   "tema": "Hemorragia obstétrica",
+   "texto": "Placenta previa: sangrado rojo rutilante INDOLORO. DPP: sangrado oscuro con útero leñoso y doloroso.",
+   "fuente": {
+    "carpeta": "2. OBSTETRICIA",
+    "archivo": "33. HEMORRAGIA POSTPARTO.pdf"
+   }
+  },
+  {
+   "id": "perla-022",
+   "especialidad": "Obstetricia",
+   "tema": "Hemorragia obstétrica",
+   "texto": "Nunca tacto vaginal ante sospecha de placenta previa: primero ecografía.",
+   "fuente": {
+    "carpeta": "2. OBSTETRICIA",
+    "archivo": "33. HEMORRAGIA POSTPARTO.pdf"
+   }
+  },
+  {
+   "id": "perla-023",
+   "especialidad": "Obstetricia",
+   "tema": "Hemorragia obstétrica",
+   "texto": "Por cada mililitro perdido se reponen 3 de cristaloide.",
+   "fuente": {
+    "carpeta": "2. OBSTETRICIA",
+    "archivo": "33. HEMORRAGIA POSTPARTO.pdf"
+   }
+  },
+  {
+   "id": "perla-024",
+   "especialidad": "Obstetricia",
+   "tema": "RPM y pretérmino",
+   "texto": "Maduración pulmonar con corticoide entre las 24 y 34 semanas; el máximo beneficio es a las 48 horas.",
+   "fuente": {
+    "carpeta": "2. OBSTETRICIA",
+    "archivo": "31. RPM.pdf"
+   }
+  },
+  {
+   "id": "perla-025",
+   "especialidad": "Obstetricia",
+   "tema": "RPM y pretérmino",
+   "texto": "Sulfato de magnesio antes de las 32 semanas también para neuroprotección fetal.",
+   "fuente": {
+    "carpeta": "2. OBSTETRICIA",
+    "archivo": "31. RPM.pdf"
+   }
+  },
+  {
+   "id": "perla-026",
+   "especialidad": "Obstetricia",
+   "tema": "RPM y pretérmino",
+   "texto": "RPM de más de 18 horas es factor de riesgo de sepsis neonatal precoz.",
+   "fuente": {
+    "carpeta": "2. OBSTETRICIA",
+    "archivo": "31. RPM.pdf"
+   }
+  },
+  {
+   "id": "perla-027",
+   "especialidad": "Ginecología",
+   "tema": "Cáncer de cérvix",
+   "texto": "Citología de alto grado: colposcopia con biopsia. El cono viene después de la histología, nunca antes.",
+   "fuente": {
+    "carpeta": "3.GINECOLOGIA",
+    "archivo": "8. CA DE CERVIX.pdf"
+   }
+  },
+  {
+   "id": "perla-028",
+   "especialidad": "Ginecología",
+   "tema": "Cáncer de cérvix",
+   "texto": "El VPH 16 y 18 explican cerca del 70 % de los cánceres de cuello uterino.",
+   "fuente": {
+    "carpeta": "3.GINECOLOGIA",
+    "archivo": "8. CA DE CERVIX.pdf"
+   }
+  },
+  {
+   "id": "perla-029",
+   "especialidad": "Ginecología",
+   "tema": "Cáncer de cérvix",
+   "texto": "La colposcopia insatisfactoria (no se ve la unión escamocolumnar) obliga a legrado endocervical.",
+   "fuente": {
+    "carpeta": "3.GINECOLOGIA",
+    "archivo": "8. CA DE CERVIX.pdf"
+   }
+  },
+  {
+   "id": "perla-030",
+   "especialidad": "Ginecología",
+   "tema": "Miomatosis y HUA",
+   "texto": "El mioma submucoso es el que más sangra, aunque sea el más pequeño.",
+   "fuente": {
+    "carpeta": "3.GINECOLOGIA",
+    "archivo": "6. MIOMATOSIS UTERINA.pdf"
+   }
+  },
+  {
+   "id": "perla-031",
+   "especialidad": "Ginecología",
+   "tema": "Miomatosis y HUA",
+   "texto": "Sangrado uterino anormal en mayor de 45 años: biopsia de endometrio antes que cualquier hormona.",
+   "fuente": {
+    "carpeta": "3.GINECOLOGIA",
+    "archivo": "6. MIOMATOSIS UTERINA.pdf"
+   }
+  },
+  {
+   "id": "perla-032",
+   "especialidad": "Ginecología",
+   "tema": "Flujo vaginal",
+   "texto": "pH alto con olor a pescado es vaginosis; pH normal con prurito y grumos es candidiasis.",
+   "fuente": {
+    "carpeta": "3.GINECOLOGIA",
+    "archivo": "4. SD DE FLUJO VAGINAL.pdf"
+   }
+  },
+  {
+   "id": "perla-033",
+   "especialidad": "Ginecología",
+   "tema": "Flujo vaginal",
+   "texto": "Cuello en fresa con flujo espumoso verdoso: tricomoniasis, y se trata también a la pareja.",
+   "fuente": {
+    "carpeta": "3.GINECOLOGIA",
+    "archivo": "4. SD DE FLUJO VAGINAL.pdf"
+   }
+  },
+  {
+   "id": "perla-034",
+   "especialidad": "Ginecología",
+   "tema": "SOP e infertilidad",
+   "texto": "Rotterdam: 2 de 3 entre oligoanovulación, hiperandrogenismo y ovarios poliquísticos en ecografía.",
+   "fuente": {
+    "carpeta": "3.GINECOLOGIA",
+    "archivo": "15. S0P.pdf"
+   }
+  },
+  {
+   "id": "perla-035",
+   "especialidad": "Ginecología",
+   "tema": "SOP e infertilidad",
+   "texto": "En SOP con deseo de embarazo, el inductor de ovulación de elección es el letrozol.",
+   "fuente": {
+    "carpeta": "3.GINECOLOGIA",
+    "archivo": "15. S0P.pdf"
+   }
+  },
+  {
+   "id": "perla-036",
+   "especialidad": "Ginecología",
+   "tema": "Anticoncepción y mama",
+   "texto": "Los anticonceptivos combinados están contraindicados en migraña con aura y en fumadora de 35 años o más.",
+   "fuente": {
+    "carpeta": "3.GINECOLOGIA",
+    "archivo": "17. METODOS ANTICONCEPTIVOS.pdf"
+   }
+  },
+  {
+   "id": "perla-037",
+   "especialidad": "Ginecología",
+   "tema": "Anticoncepción y mama",
+   "texto": "Nódulo mamario en mayor de 35 años: mamografía y ecografía; si persiste, biopsia aunque la imagen sea normal.",
+   "fuente": {
+    "carpeta": "3.GINECOLOGIA",
+    "archivo": "17. METODOS ANTICONCEPTIVOS.pdf"
+   }
+  },
+  {
+   "id": "perla-038",
+   "especialidad": "Ginecología",
+   "tema": "Anticoncepción y mama",
+   "texto": "En lactancia, el anticonceptivo hormonal de elección es el de solo progestágeno.",
+   "fuente": {
+    "carpeta": "3.GINECOLOGIA",
+    "archivo": "17. METODOS ANTICONCEPTIVOS.pdf"
+   }
+  },
+  {
+   "id": "perla-039",
+   "especialidad": "Pediatría",
+   "tema": "IRA y neumonía",
+   "texto": "En el menor de 5 años, la taquipnea es el mejor signo aislado de neumonía.",
+   "fuente": {
+    "carpeta": "4.PEDIATRIA",
+    "archivo": "13. ASMA.pdf"
+   }
+  },
+  {
+   "id": "perla-040",
+   "especialidad": "Pediatría",
+   "tema": "IRA y neumonía",
+   "texto": "Tiraje subcostal en un lactante: neumonía grave, se hospitaliza.",
+   "fuente": {
+    "carpeta": "4.PEDIATRIA",
+    "archivo": "13. ASMA.pdf"
+   }
+  },
+  {
+   "id": "perla-041",
+   "especialidad": "Pediatría",
+   "tema": "IRA y neumonía",
+   "texto": "Bronquiolitis: el tratamiento es oxígeno e hidratación; ni broncodilatador ni corticoide de rutina.",
+   "fuente": {
+    "carpeta": "4.PEDIATRIA",
+    "archivo": "13. ASMA.pdf"
+   }
+  },
+  {
+   "id": "perla-042",
+   "especialidad": "Pediatría",
+   "tema": "IRA y neumonía",
+   "texto": "Estridor en reposo con tos perruna: crup moderado-severo, corticoide y considerar adrenalina nebulizada.",
+   "fuente": {
+    "carpeta": "4.PEDIATRIA",
+    "archivo": "13. ASMA.pdf"
+   }
+  },
+  {
+   "id": "perla-043",
+   "especialidad": "Pediatría",
+   "tema": "EDA y deshidratación",
+   "texto": "Bebe con avidez y el pliegue vuelve en menos de 2 segundos: plan B, 75 ml/kg en 4 horas en el establecimiento.",
+   "fuente": {
+    "carpeta": "4.PEDIATRIA",
+    "archivo": "4. DIARREA.pdf"
+   }
+  },
+  {
+   "id": "perla-044",
+   "especialidad": "Pediatría",
+   "tema": "EDA y deshidratación",
+   "texto": "Reposición: 10 ml/kg por deposición y 5 ml/kg por vómito.",
+   "fuente": {
+    "carpeta": "4.PEDIATRIA",
+    "archivo": "4. DIARREA.pdf"
+   }
+  },
+  {
+   "id": "perla-045",
+   "especialidad": "Pediatría",
+   "tema": "EDA y deshidratación",
+   "texto": "Zinc en toda diarrea del menor de 5 años: acorta la duración y previene recaídas.",
+   "fuente": {
+    "carpeta": "4.PEDIATRIA",
+    "archivo": "4. DIARREA.pdf"
+   }
+  },
+  {
+   "id": "perla-046",
+   "especialidad": "Pediatría",
+   "tema": "EDA y deshidratación",
+   "texto": "Diarrea con sangre en el menor de 5 años: pensar en Shigella.",
+   "fuente": {
+    "carpeta": "4.PEDIATRIA",
+    "archivo": "4. DIARREA.pdf"
+   }
+  },
+  {
+   "id": "perla-047",
+   "especialidad": "Pediatría",
+   "tema": "Vacunas y crecimiento",
+   "texto": "Barrido = se vacuna a todos. Bloqueo = solo a los de esquema incompleto, 5 manzanas, 72 horas.",
+   "fuente": {
+    "carpeta": "28. NT",
+    "archivo": "3. NT INMUNIZACIONES.pdf"
+   }
+  },
+  {
+   "id": "perla-048",
+   "especialidad": "Pediatría",
+   "tema": "Vacunas y crecimiento",
+   "texto": "El CRED se programa desde el último control, no desde la edad cronológica.",
+   "fuente": {
+    "carpeta": "28. NT",
+    "archivo": "3. NT INMUNIZACIONES.pdf"
+   }
+  },
+  {
+   "id": "perla-049",
+   "especialidad": "Pediatría",
+   "tema": "Vacunas y crecimiento",
+   "texto": "Hb baja en el niño: hierro de inmediato y laboratorio en paralelo, no al revés.",
+   "fuente": {
+    "carpeta": "28. NT",
+    "archivo": "3. NT INMUNIZACIONES.pdf"
+   }
+  },
+  {
+   "id": "perla-050",
+   "especialidad": "Pediatría",
+   "tema": "Febril eruptiva",
+   "texto": "Manchas de Koplik antes del exantema: sarampión.",
+   "fuente": {
+    "carpeta": "12. INFECTOLOGIA",
+    "archivo": "BENFERMEDAD FEBRIL ERUPTIVA.pdf"
+   }
+  },
+  {
+   "id": "perla-051",
+   "especialidad": "Pediatría",
+   "tema": "Febril eruptiva",
+   "texto": "Fiebre alta 3 días que cede y entonces aparece el exantema: exantema súbito.",
+   "fuente": {
+    "carpeta": "12. INFECTOLOGIA",
+    "archivo": "BENFERMEDAD FEBRIL ERUPTIVA.pdf"
+   }
+  },
+  {
+   "id": "perla-052",
+   "especialidad": "Pediatría",
+   "tema": "Febril eruptiva",
+   "texto": "Fiebre de 5 días o más con conjuntivitis no supurativa y labios fisurados: Kawasaki, ecocardiograma e inmunoglobulina.",
+   "fuente": {
+    "carpeta": "12. INFECTOLOGIA",
+    "archivo": "BENFERMEDAD FEBRIL ERUPTIVA.pdf"
+   }
+  },
+  {
+   "id": "perla-053",
+   "especialidad": "Neumología",
+   "tema": "Asma",
+   "texto": "pCO2 normal en una crisis asmática severa no tranquiliza: anuncia fatiga muscular.",
+   "fuente": {
+    "carpeta": "6.NEUMOLOGIA",
+    "archivo": "7. ASMA.pdf"
+   }
+  },
+  {
+   "id": "perla-054",
+   "especialidad": "Neumología",
+   "tema": "Asma",
+   "texto": "Broncodilatación positiva: VEF1 sube 12 % y al menos 200 ml.",
+   "fuente": {
+    "carpeta": "6.NEUMOLOGIA",
+    "archivo": "7. ASMA.pdf"
+   }
+  },
+  {
+   "id": "perla-055",
+   "especialidad": "Neumología",
+   "tema": "Asma",
+   "texto": "Patrón obstructivo: VEF1/CVF menor de 0,7.",
+   "fuente": {
+    "carpeta": "6.NEUMOLOGIA",
+    "archivo": "7. ASMA.pdf"
+   }
+  },
+  {
+   "id": "perla-056",
+   "especialidad": "Neumología",
+   "tema": "Tuberculosis",
+   "texto": "Caso presuntivo de TB: 2 o más síntomas, y todo sintomático respiratorio entra.",
+   "fuente": {
+    "carpeta": "28. NT",
+    "archivo": "5. NT TBC.pdf"
+   }
+  },
+  {
+   "id": "perla-057",
+   "especialidad": "Neumología",
+   "tema": "Tuberculosis",
+   "texto": "Gestante con TB sensible: mismo esquema, más piridoxina y sin estreptomicina.",
+   "fuente": {
+    "carpeta": "28. NT",
+    "archivo": "5. NT TBC.pdf"
+   }
+  },
+  {
+   "id": "perla-058",
+   "especialidad": "Neumología",
+   "tema": "Tuberculosis",
+   "texto": "La prueba molecular rápida informa resistencia a rifampicina y decide el esquema.",
+   "fuente": {
+    "carpeta": "28. NT",
+    "archivo": "5. NT TBC.pdf"
+   }
+  },
+  {
+   "id": "perla-059",
+   "especialidad": "Neumología",
+   "tema": "Neumonía y pleura",
+   "texto": "CURB-65 de 2 o más: hospitalizar.",
+   "fuente": {
+    "carpeta": "6.NEUMOLOGIA",
+    "archivo": "7. ASMA.pdf"
+   }
+  },
+  {
+   "id": "perla-060",
+   "especialidad": "Neumología",
+   "tema": "Neumonía y pleura",
+   "texto": "Criterios de Light: basta UNO para que el derrame sea exudado.",
+   "fuente": {
+    "carpeta": "6.NEUMOLOGIA",
+    "archivo": "7. ASMA.pdf"
+   }
+  },
+  {
+   "id": "perla-061",
+   "especialidad": "Neumología",
+   "tema": "Neumonía y pleura",
+   "texto": "Empiema o pH pleural menor de 7,2: drenaje con tubo, no solo antibiótico.",
+   "fuente": {
+    "carpeta": "6.NEUMOLOGIA",
+    "archivo": "7. ASMA.pdf"
+   }
+  },
+  {
+   "id": "perla-062",
+   "especialidad": "Neumología",
+   "tema": "Neumonía y pleura",
+   "texto": "Neumonía que aparece tras más de 48 horas de hospitalización: cubrir Pseudomonas y Staphylococcus aureus.",
+   "fuente": {
+    "carpeta": "6.NEUMOLOGIA",
+    "archivo": "7. ASMA.pdf"
+   }
+  },
+  {
+   "id": "perla-063",
+   "especialidad": "Neumología",
+   "tema": "AGA y TEP",
+   "texto": "Orden del AGA: primero el pH, luego el HCO3, luego la pCO2.",
+   "fuente": {
+    "carpeta": "6.NEUMOLOGIA",
+    "archivo": "7. ASMA.pdf"
+   }
+  },
+  {
+   "id": "perla-064",
+   "especialidad": "Neumología",
+   "tema": "AGA y TEP",
+   "texto": "Dímero D sirve para DESCARTAR TEP en riesgo bajo; en riesgo alto se va directo a la angiotomografía.",
+   "fuente": {
+    "carpeta": "6.NEUMOLOGIA",
+    "archivo": "7. ASMA.pdf"
+   }
+  },
+  {
+   "id": "perla-065",
+   "especialidad": "Cardiología",
+   "tema": "Cardiopatía isquémica",
+   "texto": "Si la hemodinamia está a más de 120 minutos, se trombolisa primero y se traslada después.",
+   "fuente": {
+    "carpeta": "9. CARDIOLOGIA",
+    "archivo": "4. CARDIOPATIA ISQUEMICA.pdf"
+   }
+  },
+  {
+   "id": "perla-066",
+   "especialidad": "Cardiología",
+   "tema": "Cardiopatía isquémica",
+   "texto": "Infarto inferior: pedir V3R y V4R antes de dar nitratos, por el compromiso del ventrículo derecho.",
+   "fuente": {
+    "carpeta": "9. CARDIOLOGIA",
+    "archivo": "4. CARDIOPATIA ISQUEMICA.pdf"
+   }
+  },
+  {
+   "id": "perla-067",
+   "especialidad": "Cardiología",
+   "tema": "Cardiopatía isquémica",
+   "texto": "Supradesnivel en DII, DIII y aVF con infradesnivel especular en DI y aVL: cara inferior.",
+   "fuente": {
+    "carpeta": "9. CARDIOLOGIA",
+    "archivo": "4. CARDIOPATIA ISQUEMICA.pdf"
+   }
+  },
+  {
+   "id": "perla-068",
+   "especialidad": "Cardiología",
+   "tema": "Cardiopatía isquémica",
+   "texto": "Troponina normal en las primeras horas no descarta infarto: se repite.",
+   "fuente": {
+    "carpeta": "9. CARDIOLOGIA",
+    "archivo": "4. CARDIOPATIA ISQUEMICA.pdf"
+   }
+  },
+  {
+   "id": "perla-069",
+   "especialidad": "Cardiología",
+   "tema": "HTA e insuficiencia",
+   "texto": "Emergencia hipertensiva es daño de órgano blanco; urgencia es solo la cifra alta.",
+   "fuente": {
+    "carpeta": "9. CARDIOLOGIA",
+    "archivo": "8.HTA.pdf"
+   }
+  },
+  {
+   "id": "perla-070",
+   "especialidad": "Cardiología",
+   "tema": "HTA e insuficiencia",
+   "texto": "En emergencia hipertensiva la PA se baja un 25 % en la primera hora, no más.",
+   "fuente": {
+    "carpeta": "9. CARDIOLOGIA",
+    "archivo": "8.HTA.pdf"
+   }
+  },
+  {
+   "id": "perla-071",
+   "especialidad": "Cardiología",
+   "tema": "HTA e insuficiencia",
+   "texto": "Edema agudo de pulmón: oxígeno, nitratos y furosemida; los líquidos empeoran.",
+   "fuente": {
+    "carpeta": "9. CARDIOLOGIA",
+    "archivo": "8.HTA.pdf"
+   }
+  },
+  {
+   "id": "perla-072",
+   "especialidad": "Cardiología",
+   "tema": "Arritmias y shock",
+   "texto": "Taquiarritmia con inestabilidad: cardioversión eléctrica sincronizada, sin esperar fármacos.",
+   "fuente": {
+    "carpeta": "9. CARDIOLOGIA",
+    "archivo": "6. ARRITMIAS.pdf"
+   }
+  },
+  {
+   "id": "perla-073",
+   "especialidad": "Cardiología",
+   "tema": "Arritmias y shock",
+   "texto": "Fibrilación auricular de más de 48 horas: anticoagular 3 semanas antes de cardiovertir, o ecografía transesofágica.",
+   "fuente": {
+    "carpeta": "9. CARDIOLOGIA",
+    "archivo": "6. ARRITMIAS.pdf"
+   }
+  },
+  {
+   "id": "perla-074",
+   "especialidad": "Cardiología",
+   "tema": "Arritmias y shock",
+   "texto": "Shock con yugulares ingurgitadas: cardiogénico u obstructivo. Yugulares planas: hipovolémico o distributivo.",
+   "fuente": {
+    "carpeta": "9. CARDIOLOGIA",
+    "archivo": "6. ARRITMIAS.pdf"
+   }
+  },
+  {
+   "id": "perla-075",
+   "especialidad": "Cardiología",
+   "tema": "Arritmias y shock",
+   "texto": "Hipotensión con pulso paradójico y ruidos apagados: taponamiento, pericardiocentesis.",
+   "fuente": {
+    "carpeta": "9. CARDIOLOGIA",
+    "archivo": "6. ARRITMIAS.pdf"
+   }
+  },
+  {
+   "id": "perla-076",
+   "especialidad": "Cardiología",
+   "tema": "Valvulopatías",
+   "texto": "Síncope de esfuerzo con soplo sistólico que irradia a cuello: estenosis aórtica.",
+   "fuente": {
+    "carpeta": "9. CARDIOLOGIA",
+    "archivo": "11. VALVULOPATIAS.pdf"
+   }
+  },
+  {
+   "id": "perla-077",
+   "especialidad": "Cardiología",
+   "tema": "Valvulopatías",
+   "texto": "Endocarditis: 3 hemocultivos de sitios distintos ANTES del antibiótico.",
+   "fuente": {
+    "carpeta": "9. CARDIOLOGIA",
+    "archivo": "11. VALVULOPATIAS.pdf"
+   }
+  },
+  {
+   "id": "perla-078",
+   "especialidad": "Gastroenterología",
+   "tema": "Pancreatitis y biliar",
+   "texto": "En las primeras 24 horas de una pancreatitis grave lo que salva es el lactato de Ringer.",
+   "fuente": {
+    "carpeta": "5.GASTROENTEROLOGIA",
+    "archivo": "12. pancreatitis aguda.pdf"
+   }
+  },
+  {
+   "id": "perla-079",
+   "especialidad": "Gastroenterología",
+   "tema": "Pancreatitis y biliar",
+   "texto": "La tomografía de la pancreatitis rinde a las 72 horas, no antes.",
+   "fuente": {
+    "carpeta": "5.GASTROENTEROLOGIA",
+    "archivo": "12. pancreatitis aguda.pdf"
+   }
+  },
+  {
+   "id": "perla-080",
+   "especialidad": "Gastroenterología",
+   "tema": "Pancreatitis y biliar",
+   "texto": "CPRE urgente solo si hay colangitis u obstrucción biliar persistente.",
+   "fuente": {
+    "carpeta": "5.GASTROENTEROLOGIA",
+    "archivo": "12. pancreatitis aguda.pdf"
+   }
+  },
+  {
+   "id": "perla-081",
+   "especialidad": "Gastroenterología",
+   "tema": "Pancreatitis y biliar",
+   "texto": "Tríada de Charcot: fiebre, ictericia y dolor en hipocondrio derecho = colangitis.",
+   "fuente": {
+    "carpeta": "5.GASTROENTEROLOGIA",
+    "archivo": "12. pancreatitis aguda.pdf"
+   }
+  },
+  {
+   "id": "perla-082",
+   "especialidad": "Gastroenterología",
+   "tema": "Hígado y HDA",
+   "texto": "Ascitis con más de 250 polimorfonucleares por mm³: peritonitis bacteriana espontánea, cefotaxima.",
+   "fuente": {
+    "carpeta": "5.GASTROENTEROLOGIA",
+    "archivo": "12. pancreatitis aguda.pdf"
+   }
+  },
+  {
+   "id": "perla-083",
+   "especialidad": "Gastroenterología",
+   "tema": "Hígado y HDA",
+   "texto": "Hemorragia digestiva alta variceal: octreótido, antibiótico profiláctico y endoscopia en 12 horas.",
+   "fuente": {
+    "carpeta": "5.GASTROENTEROLOGIA",
+    "archivo": "12. pancreatitis aguda.pdf"
+   }
+  },
+  {
+   "id": "perla-084",
+   "especialidad": "Gastroenterología",
+   "tema": "Hígado y HDA",
+   "texto": "HBsAg positivo más IgM anti-HBc: hepatitis B aguda.",
+   "fuente": {
+    "carpeta": "5.GASTROENTEROLOGIA",
+    "archivo": "12. pancreatitis aguda.pdf"
+   }
+  },
+  {
+   "id": "perla-085",
+   "especialidad": "Gastroenterología",
+   "tema": "Hígado y HDA",
+   "texto": "Encefalopatía hepática: buscar el desencadenante (sangrado, infección, estreñimiento) antes de subir la lactulosa.",
+   "fuente": {
+    "carpeta": "5.GASTROENTEROLOGIA",
+    "archivo": "12. pancreatitis aguda.pdf"
+   }
+  },
+  {
+   "id": "perla-086",
+   "especialidad": "Gastroenterología",
+   "tema": "Esófago y estómago",
+   "texto": "Disfagia progresiva a sólidos con baja de peso en mayor de 50 años: endoscopia ya.",
+   "fuente": {
+    "carpeta": "5.GASTROENTEROLOGIA",
+    "archivo": "12. pancreatitis aguda.pdf"
+   }
+  },
+  {
+   "id": "perla-087",
+   "especialidad": "Gastroenterología",
+   "tema": "Esófago y estómago",
+   "texto": "Erradicación de H. pylori: inhibidor de bomba más dos antibióticos por 14 días.",
+   "fuente": {
+    "carpeta": "5.GASTROENTEROLOGIA",
+    "archivo": "12. pancreatitis aguda.pdf"
+   }
+  },
+  {
+   "id": "perla-088",
+   "especialidad": "Infectología",
+   "tema": "Sepsis y meningitis",
+   "texto": "En sepsis, el antibiótico dentro de la primera hora; cada hora de retraso aumenta la mortalidad.",
+   "fuente": {
+    "carpeta": "12. INFECTOLOGIA",
+    "archivo": "BENFERMEDAD FEBRIL ERUPTIVA.pdf"
+   }
+  },
+  {
+   "id": "perla-089",
+   "especialidad": "Infectología",
+   "tema": "Sepsis y meningitis",
+   "texto": "Hemocultivos antes del antibiótico, pero sin retrasarlo.",
+   "fuente": {
+    "carpeta": "12. INFECTOLOGIA",
+    "archivo": "BENFERMEDAD FEBRIL ERUPTIVA.pdf"
+   }
+  },
+  {
+   "id": "perla-090",
+   "especialidad": "Infectología",
+   "tema": "Sepsis y meningitis",
+   "texto": "LCR turbio con glucosa baja y polimorfonucleares: meningitis bacteriana.",
+   "fuente": {
+    "carpeta": "12. INFECTOLOGIA",
+    "archivo": "BENFERMEDAD FEBRIL ERUPTIVA.pdf"
+   }
+  },
+  {
+   "id": "perla-091",
+   "especialidad": "Infectología",
+   "tema": "Sepsis y meningitis",
+   "texto": "Tomografía antes de la punción lumbar solo si hay foco neurológico, convulsión o alteración del sensorio.",
+   "fuente": {
+    "carpeta": "12. INFECTOLOGIA",
+    "archivo": "BENFERMEDAD FEBRIL ERUPTIVA.pdf"
+   }
+  },
+  {
+   "id": "perla-092",
+   "especialidad": "Infectología",
+   "tema": "VIH, ITS y dengue",
+   "texto": "Adherencia al TAR menor del 95 %: no hay supresión viral.",
+   "fuente": {
+    "carpeta": "28. NT",
+    "archivo": "9. NT VIH.pdf"
+   }
+  },
+  {
+   "id": "perla-093",
+   "especialidad": "Infectología",
+   "tema": "VIH, ITS y dengue",
+   "texto": "Abandono del TAR se define a los 30 días sin acudir.",
+   "fuente": {
+    "carpeta": "28. NT",
+    "archivo": "9. NT VIH.pdf"
+   }
+  },
+  {
+   "id": "perla-094",
+   "especialidad": "Infectología",
+   "tema": "VIH, ITS y dengue",
+   "texto": "Dengue con signos de alarma: dolor abdominal intenso, vómitos persistentes, sangrado de mucosas o letargia.",
+   "fuente": {
+    "carpeta": "28. NT",
+    "archivo": "9. NT VIH.pdf"
+   }
+  },
+  {
+   "id": "perla-095",
+   "especialidad": "Infectología",
+   "tema": "VIH, ITS y dengue",
+   "texto": "Todo contacto con murciélago es exposición grave a rabia: vacuna más inmunoglobulina.",
+   "fuente": {
+    "carpeta": "28. NT",
+    "archivo": "9. NT VIH.pdf"
+   }
+  },
+  {
+   "id": "perla-096",
+   "especialidad": "Nefrología",
+   "tema": "Electrolitos y ácido-base",
+   "texto": "Hiperkalemia con QRS ancho: primero gluconato de calcio, después insulina con dextrosa.",
+   "fuente": {
+    "carpeta": "14. NEFROLOGIA",
+    "archivo": "14. ACIDOSIS METABOLICA.pdf"
+   }
+  },
+  {
+   "id": "perla-097",
+   "especialidad": "Nefrología",
+   "tema": "Electrolitos y ácido-base",
+   "texto": "Anion gap = Na − (Cl + HCO3); normal 8 a 12.",
+   "fuente": {
+    "carpeta": "14. NEFROLOGIA",
+    "archivo": "14. ACIDOSIS METABOLICA.pdf"
+   }
+  },
+  {
+   "id": "perla-098",
+   "especialidad": "Nefrología",
+   "tema": "Electrolitos y ácido-base",
+   "texto": "Anion gap elevado, regla CAMA-RU: Cetoacidosis, Acidosis láctica, Metanol, Aspirina, Rabdomiólisis, Uremia.",
+   "fuente": {
+    "carpeta": "14. NEFROLOGIA",
+    "archivo": "14. ACIDOSIS METABOLICA.pdf"
+   }
+  },
+  {
+   "id": "perla-099",
+   "especialidad": "Nefrología",
+   "tema": "Electrolitos y ácido-base",
+   "texto": "Anion gap normal, regla DNA-FUA: Diarrea, Nefritis intersticial, Acidosis tubular, Fístula, Ureterostomía, Acetazolamida.",
+   "fuente": {
+    "carpeta": "14. NEFROLOGIA",
+    "archivo": "14. ACIDOSIS METABOLICA.pdf"
+   }
+  },
+  {
+   "id": "perla-100",
+   "especialidad": "Nefrología",
+   "tema": "Electrolitos y ácido-base",
+   "texto": "Hiponatremia sintomática aguda: salino hipertónico; corregir no más de 8-10 mEq/L en 24 horas.",
+   "fuente": {
+    "carpeta": "14. NEFROLOGIA",
+    "archivo": "14. ACIDOSIS METABOLICA.pdf"
+   }
+  },
+  {
+   "id": "perla-101",
+   "especialidad": "Nefrología",
+   "tema": "ITU y glomerulopatías",
+   "texto": "Bacteriuria asintomática solo se trata en gestante y antes de procedimiento urológico.",
+   "fuente": {
+    "carpeta": "14. NEFROLOGIA",
+    "archivo": "14. ACIDOSIS METABOLICA.pdf"
+   }
+  },
+  {
+   "id": "perla-102",
+   "especialidad": "Nefrología",
+   "tema": "ITU y glomerulopatías",
+   "texto": "Nefrítico: hematuria, hipertensión y edema. Nefrótico: proteinuria mayor de 3,5 g, hipoalbuminemia y edema.",
+   "fuente": {
+    "carpeta": "14. NEFROLOGIA",
+    "archivo": "14. ACIDOSIS METABOLICA.pdf"
+   }
+  },
+  {
+   "id": "perla-103",
+   "especialidad": "Nefrología",
+   "tema": "ITU y glomerulopatías",
+   "texto": "Injuria renal prerrenal: sodio urinario menor de 20 y FENa menor del 1 %.",
+   "fuente": {
+    "carpeta": "14. NEFROLOGIA",
+    "archivo": "14. ACIDOSIS METABOLICA.pdf"
+   }
+  },
+  {
+   "id": "perla-104",
+   "especialidad": "Cirugía General",
+   "tema": "Abdomen agudo",
+   "texto": "Obstrucción intestinal con fiebre, defensa y lactato elevado: sufrimiento de asa, a quirófano.",
+   "fuente": {
+    "carpeta": "1. CIRUGIA GENERAL",
+    "archivo": "1.Apendicitis.pdf"
+   }
+  },
+  {
+   "id": "perla-105",
+   "especialidad": "Cirugía General",
+   "tema": "Abdomen agudo",
+   "texto": "Apendicitis en gestante: el dolor sube de posición con el útero; la ecografía es el primer examen.",
+   "fuente": {
+    "carpeta": "1. CIRUGIA GENERAL",
+    "archivo": "1.Apendicitis.pdf"
+   }
+  },
+  {
+   "id": "perla-106",
+   "especialidad": "Cirugía General",
+   "tema": "Abdomen agudo",
+   "texto": "Neumoperitoneo en la radiografía de pie: perforación de víscera hueca, laparotomía.",
+   "fuente": {
+    "carpeta": "1. CIRUGIA GENERAL",
+    "archivo": "1.Apendicitis.pdf"
+   }
+  },
+  {
+   "id": "perla-107",
+   "especialidad": "Cirugía General",
+   "tema": "Abdomen agudo",
+   "texto": "Hernia incarcerada que duele y no reduce: cirugía urgente, no reducir a la fuerza.",
+   "fuente": {
+    "carpeta": "1. CIRUGIA GENERAL",
+    "archivo": "1.Apendicitis.pdf"
+   }
+  },
+  {
+   "id": "perla-108",
+   "especialidad": "Cirugía General",
+   "tema": "Trauma y quemaduras",
+   "texto": "ATLS: la vía aérea con control cervical va primero, siempre.",
+   "fuente": {
+    "carpeta": "1. CIRUGIA GENERAL",
+    "archivo": "31. POLITRAUMATISMO.pdf"
+   }
+  },
+  {
+   "id": "perla-109",
+   "especialidad": "Cirugía General",
+   "tema": "Trauma y quemaduras",
+   "texto": "Parkland: 4 ml × kg × % de superficie quemada; la mitad en las primeras 8 horas desde la quemadura.",
+   "fuente": {
+    "carpeta": "1. CIRUGIA GENERAL",
+    "archivo": "31. POLITRAUMATISMO.pdf"
+   }
+  },
+  {
+   "id": "perla-110",
+   "especialidad": "Cirugía General",
+   "tema": "Trauma y quemaduras",
+   "texto": "Quemadura circunferencial del tórax con dificultad respiratoria: escarotomía.",
+   "fuente": {
+    "carpeta": "1. CIRUGIA GENERAL",
+    "archivo": "31. POLITRAUMATISMO.pdf"
+   }
+  },
+  {
+   "id": "perla-111",
+   "especialidad": "Cirugía General",
+   "tema": "Trauma y quemaduras",
+   "texto": "FAST positivo con inestabilidad: laparotomía, no tomografía.",
+   "fuente": {
+    "carpeta": "1. CIRUGIA GENERAL",
+    "archivo": "31. POLITRAUMATISMO.pdf"
+   }
+  },
+  {
+   "id": "perla-112",
+   "especialidad": "Endocrinología",
+   "tema": "Tiroides y diabetes",
+   "texto": "TSH alta con T4 libre normal: hipotiroidismo subclínico.",
+   "fuente": {
+    "carpeta": "11. ENDOCRINOLOGIA",
+    "archivo": ""
+   }
+  },
+  {
+   "id": "perla-113",
+   "especialidad": "Endocrinología",
+   "tema": "Tiroides y diabetes",
+   "texto": "Nódulo tiroideo: primero TSH y ecografía; la punción se decide por el tamaño y las características ecográficas.",
+   "fuente": {
+    "carpeta": "11. ENDOCRINOLOGIA",
+    "archivo": ""
+   }
+  },
+  {
+   "id": "perla-114",
+   "especialidad": "Endocrinología",
+   "tema": "Tiroides y diabetes",
+   "texto": "Cetoacidosis: primero suero, luego insulina, y el potasio antes de la insulina si está bajo 3,3.",
+   "fuente": {
+    "carpeta": "11. ENDOCRINOLOGIA",
+    "archivo": ""
+   }
+  },
+  {
+   "id": "perla-115",
+   "especialidad": "Endocrinología",
+   "tema": "Tiroides y diabetes",
+   "texto": "Estado hiperosmolar: glucosa muy alta, osmolaridad elevada y sin cetosis importante.",
+   "fuente": {
+    "carpeta": "11. ENDOCRINOLOGIA",
+    "archivo": ""
+   }
+  },
+  {
+   "id": "perla-116",
+   "especialidad": "Endocrinología",
+   "tema": "Tiroides y diabetes",
+   "texto": "Metformina es el fármaco inicial salvo TFG menor de 30.",
+   "fuente": {
+    "carpeta": "11. ENDOCRINOLOGIA",
+    "archivo": ""
+   }
+  },
+  {
+   "id": "perla-117",
+   "especialidad": "Salud pública",
+   "tema": "Epidemiología",
+   "texto": "Incidencia mide casos nuevos; prevalencia mide casos existentes.",
+   "fuente": {
+    "carpeta": "10. EPIDEMIOLOGIA",
+    "archivo": "1. MEDIDAS EPIDEMIOLOGICAS.pdf"
+   }
+  },
+  {
+   "id": "perla-118",
+   "especialidad": "Salud pública",
+   "tema": "Epidemiología",
+   "texto": "Sensibilidad alta sirve para DESCARTAR; especificidad alta sirve para CONFIRMAR.",
+   "fuente": {
+    "carpeta": "10. EPIDEMIOLOGIA",
+    "archivo": "1. MEDIDAS EPIDEMIOLOGICAS.pdf"
+   }
+  },
+  {
+   "id": "perla-119",
+   "especialidad": "Salud pública",
+   "tema": "Epidemiología",
+   "texto": "El valor predictivo depende de la prevalencia; sensibilidad y especificidad no.",
+   "fuente": {
+    "carpeta": "10. EPIDEMIOLOGIA",
+    "archivo": "1. MEDIDAS EPIDEMIOLOGICAS.pdf"
+   }
+  },
+  {
+   "id": "perla-120",
+   "especialidad": "Salud pública",
+   "tema": "Epidemiología",
+   "texto": "Casos y controles dan odds ratio; cohortes dan riesgo relativo.",
+   "fuente": {
+    "carpeta": "10. EPIDEMIOLOGIA",
+    "archivo": "1. MEDIDAS EPIDEMIOLOGICAS.pdf"
+   }
+  },
+  {
+   "id": "perla-121",
+   "especialidad": "Salud pública",
+   "tema": "Epidemiología",
+   "texto": "Brote es un aumento inusual en una zona; endemia es lo habitual esperado.",
+   "fuente": {
+    "carpeta": "10. EPIDEMIOLOGIA",
+    "archivo": "1. MEDIDAS EPIDEMIOLOGICAS.pdf"
+   }
+  }
+ ]
+}

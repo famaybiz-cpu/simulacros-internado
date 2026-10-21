@@ -1,0 +1,628 @@
+{
+ "generado": "2026-10-21",
+ "base": "5282 preguntas de exámenes reales (EsSalud 2000-2025, CONAREME 2026, RM, QX, ENAM)",
+ "nota": "Cuenta cuántas veces aparece cada tema en los bancos reales. Los de arriba son los que más rinden.",
+ "temas": [
+  {
+   "especialidad": "Obstetricia",
+   "tema": "Trabajo de parto y distocias",
+   "apariciones": 265,
+   "fuente": {
+    "carpeta": "2. OBSTETRICIA",
+    "seccion": "26-28"
+   }
+  },
+  {
+   "especialidad": "Obstetricia",
+   "tema": "Control prenatal y edad gestacional",
+   "apariciones": 202,
+   "fuente": {
+    "carpeta": "2. OBSTETRICIA",
+    "seccion": "3, 15"
+   }
+  },
+  {
+   "especialidad": "Endocrinología",
+   "tema": "Tiroides",
+   "apariciones": 166,
+   "fuente": {
+    "carpeta": "11. ENDOCRINOLOGIA",
+    "seccion": "varios"
+   }
+  },
+  {
+   "especialidad": "Ginecología",
+   "tema": "Cáncer de cérvix, PAP y VPH",
+   "apariciones": 161,
+   "fuente": {
+    "carpeta": "3.GINECOLOGIA",
+    "seccion": "8"
+   }
+  },
+  {
+   "especialidad": "Pediatría",
+   "tema": "IRA, neumonía y bronquiolitis",
+   "apariciones": 159,
+   "fuente": {
+    "carpeta": "4.PEDIATRIA",
+    "seccion": "varios"
+   }
+  },
+  {
+   "especialidad": "Neumología",
+   "tema": "Neumonía adquirida en la comunidad",
+   "apariciones": 152,
+   "fuente": {
+    "carpeta": "6.NEUMOLOGIA",
+    "seccion": "varios"
+   }
+  },
+  {
+   "especialidad": "Obstetricia",
+   "tema": "Aborto, ectópico y mola",
+   "apariciones": 136,
+   "fuente": {
+    "carpeta": "2. OBSTETRICIA",
+    "seccion": "10, 29"
+   }
+  },
+  {
+   "especialidad": "Neumología",
+   "tema": "Tuberculosis",
+   "apariciones": 136,
+   "fuente": {
+    "carpeta": "28. NT",
+    "seccion": "5"
+   }
+  },
+  {
+   "especialidad": "Infectología",
+   "tema": "Sepsis",
+   "apariciones": 120,
+   "fuente": {
+    "carpeta": "12. INFECTOLOGIA",
+    "seccion": "varios"
+   }
+  },
+  {
+   "especialidad": "Obstetricia",
+   "tema": "Preeclampsia, eclampsia y HELLP",
+   "apariciones": 117,
+   "fuente": {
+    "carpeta": "2. OBSTETRICIA",
+    "seccion": "35"
+   }
+  },
+  {
+   "especialidad": "Ginecología",
+   "tema": "Miomatosis y endometriosis",
+   "apariciones": 114,
+   "fuente": {
+    "carpeta": "3.GINECOLOGIA",
+    "seccion": "6, 21"
+   }
+  },
+  {
+   "especialidad": "Nefrología",
+   "tema": "ITU y pielonefritis",
+   "apariciones": 114,
+   "fuente": {
+    "carpeta": "14. NEFROLOGIA",
+    "seccion": "varios"
+   }
+  },
+  {
+   "especialidad": "Cirugía General",
+   "tema": "Obstrucción intestinal",
+   "apariciones": 106,
+   "fuente": {
+    "carpeta": "1. CIRUGIA GENERAL",
+    "seccion": "4, 5"
+   }
+  },
+  {
+   "especialidad": "Ginecología",
+   "tema": "Flujo vaginal e ITS",
+   "apariciones": 103,
+   "fuente": {
+    "carpeta": "3.GINECOLOGIA",
+    "seccion": "4, 20"
+   }
+  },
+  {
+   "especialidad": "Salud pública",
+   "tema": "Medidas epidemiológicas",
+   "apariciones": 100,
+   "fuente": {
+    "carpeta": "10. EPIDEMIOLOGIA",
+    "seccion": "1, 11"
+   }
+  },
+  {
+   "especialidad": "Neumología",
+   "tema": "Asma",
+   "apariciones": 99,
+   "fuente": {
+    "carpeta": "6.NEUMOLOGIA",
+    "seccion": "7"
+   }
+  },
+  {
+   "especialidad": "Neumología",
+   "tema": "Enfermedad pleural",
+   "apariciones": 97,
+   "fuente": {
+    "carpeta": "6.NEUMOLOGIA",
+    "seccion": "varios"
+   }
+  },
+  {
+   "especialidad": "Ginecología",
+   "tema": "Amenorrea, SOP e infertilidad",
+   "apariciones": 92,
+   "fuente": {
+    "carpeta": "3.GINECOLOGIA",
+    "seccion": "13-15"
+   }
+  },
+  {
+   "especialidad": "Salud pública",
+   "tema": "Pruebas diagnósticas",
+   "apariciones": 92,
+   "fuente": {
+    "carpeta": "10. EPIDEMIOLOGIA",
+    "seccion": "5, 12"
+   }
+  },
+  {
+   "especialidad": "Obstetricia",
+   "tema": "Placenta previa y DPP",
+   "apariciones": 89,
+   "fuente": {
+    "carpeta": "2. OBSTETRICIA",
+    "seccion": "30"
+   }
+  },
+  {
+   "especialidad": "Endocrinología",
+   "tema": "Diabetes y complicaciones agudas",
+   "apariciones": 88,
+   "fuente": {
+    "carpeta": "28. NT",
+    "seccion": "8"
+   }
+  },
+  {
+   "especialidad": "Infectología",
+   "tema": "ITS",
+   "apariciones": 86,
+   "fuente": {
+    "carpeta": "28. NT",
+    "seccion": "4"
+   }
+  },
+  {
+   "especialidad": "Pediatría",
+   "tema": "Vacunación y esquema nacional",
+   "apariciones": 85,
+   "fuente": {
+    "carpeta": "28. NT",
+    "seccion": "3"
+   }
+  },
+  {
+   "especialidad": "Nefrología",
+   "tema": "Glomerulopatías",
+   "apariciones": 82,
+   "fuente": {
+    "carpeta": "14. NEFROLOGIA",
+    "seccion": "varios"
+   }
+  },
+  {
+   "especialidad": "Cardiología",
+   "tema": "Valvulopatías y soplos",
+   "apariciones": 80,
+   "fuente": {
+    "carpeta": "9. CARDIOLOGIA",
+    "seccion": "11, 17"
+   }
+  },
+  {
+   "especialidad": "Pediatría",
+   "tema": "Enfermedad febril eruptiva",
+   "apariciones": 79,
+   "fuente": {
+    "carpeta": "12. INFECTOLOGIA",
+    "seccion": "varios"
+   }
+  },
+  {
+   "especialidad": "Cardiología",
+   "tema": "HTA y crisis hipertensiva",
+   "apariciones": 75,
+   "fuente": {
+    "carpeta": "9. CARDIOLOGIA",
+    "seccion": "8"
+   }
+  },
+  {
+   "especialidad": "Cardiología",
+   "tema": "Arritmias",
+   "apariciones": 75,
+   "fuente": {
+    "carpeta": "9. CARDIOLOGIA",
+    "seccion": "6"
+   }
+  },
+  {
+   "especialidad": "Cirugía General",
+   "tema": "Apendicitis y abdomen agudo",
+   "apariciones": 73,
+   "fuente": {
+    "carpeta": "1. CIRUGIA GENERAL",
+    "seccion": "1"
+   }
+  },
+  {
+   "especialidad": "Gastroenterología",
+   "tema": "Pancreatitis aguda",
+   "apariciones": 71,
+   "fuente": {
+    "carpeta": "5.GASTROENTEROLOGIA",
+    "seccion": "12"
+   }
+  },
+  {
+   "especialidad": "Ginecología",
+   "tema": "Anticoncepción",
+   "apariciones": 68,
+   "fuente": {
+    "carpeta": "3.GINECOLOGIA",
+    "seccion": "17"
+   }
+  },
+  {
+   "especialidad": "Nefrología",
+   "tema": "Trastornos del sodio y potasio",
+   "apariciones": 67,
+   "fuente": {
+    "carpeta": "14. NEFROLOGIA",
+    "seccion": "varios"
+   }
+  },
+  {
+   "especialidad": "Infectología",
+   "tema": "Meningitis",
+   "apariciones": 62,
+   "fuente": {
+    "carpeta": "12. INFECTOLOGIA",
+    "seccion": "varios"
+   }
+  },
+  {
+   "especialidad": "Infectología",
+   "tema": "VIH/SIDA",
+   "apariciones": 61,
+   "fuente": {
+    "carpeta": "28. NT",
+    "seccion": "9"
+   }
+  },
+  {
+   "especialidad": "Obstetricia",
+   "tema": "Monitoreo fetal y RCIU",
+   "apariciones": 60,
+   "fuente": {
+    "carpeta": "2. OBSTETRICIA",
+    "seccion": "19"
+   }
+  },
+  {
+   "especialidad": "Gastroenterología",
+   "tema": "Patología biliar",
+   "apariciones": 60,
+   "fuente": {
+    "carpeta": "1. CIRUGIA GENERAL",
+    "seccion": "10-13"
+   }
+  },
+  {
+   "especialidad": "Cardiología",
+   "tema": "Insuficiencia cardíaca",
+   "apariciones": 60,
+   "fuente": {
+    "carpeta": "9. CARDIOLOGIA",
+    "seccion": "14"
+   }
+  },
+  {
+   "especialidad": "Obstetricia",
+   "tema": "Puerperio e infección",
+   "apariciones": 59,
+   "fuente": {
+    "carpeta": "2. OBSTETRICIA",
+    "seccion": "22, 24"
+   }
+  },
+  {
+   "especialidad": "Pediatría",
+   "tema": "EDA y deshidratación",
+   "apariciones": 53,
+   "fuente": {
+    "carpeta": "4.PEDIATRIA",
+    "seccion": "4"
+   }
+  },
+  {
+   "especialidad": "Obstetricia",
+   "tema": "Hemorragia postparto",
+   "apariciones": 52,
+   "fuente": {
+    "carpeta": "2. OBSTETRICIA",
+    "seccion": "33"
+   }
+  },
+  {
+   "especialidad": "Gastroenterología",
+   "tema": "Cirrosis, ascitis y PBE",
+   "apariciones": 52,
+   "fuente": {
+    "carpeta": "5.GASTROENTEROLOGIA",
+    "seccion": "varios"
+   }
+  },
+  {
+   "especialidad": "Gastroenterología",
+   "tema": "ERGE y patología esofágica",
+   "apariciones": 50,
+   "fuente": {
+    "carpeta": "5.GASTROENTEROLOGIA",
+    "seccion": "varios"
+   }
+  },
+  {
+   "especialidad": "Cardiología",
+   "tema": "SCA e infarto",
+   "apariciones": 50,
+   "fuente": {
+    "carpeta": "9. CARDIOLOGIA",
+    "seccion": "4, 5"
+   }
+  },
+  {
+   "especialidad": "Gastroenterología",
+   "tema": "Hepatitis viral",
+   "apariciones": 48,
+   "fuente": {
+    "carpeta": "5.GASTROENTEROLOGIA",
+    "seccion": "varios"
+   }
+  },
+  {
+   "especialidad": "Gastroenterología",
+   "tema": "Úlcera y H. pylori",
+   "apariciones": 48,
+   "fuente": {
+    "carpeta": "5.GASTROENTEROLOGIA",
+    "seccion": "varios"
+   }
+  },
+  {
+   "especialidad": "Obstetricia",
+   "tema": "RPM y corioamnionitis",
+   "apariciones": 46,
+   "fuente": {
+    "carpeta": "2. OBSTETRICIA",
+    "seccion": "17, 31"
+   }
+  },
+  {
+   "especialidad": "Gastroenterología",
+   "tema": "Hemorragia digestiva",
+   "apariciones": 46,
+   "fuente": {
+    "carpeta": "5.GASTROENTEROLOGIA",
+    "seccion": "varios"
+   }
+  },
+  {
+   "especialidad": "Endocrinología",
+   "tema": "Calcio y paratiroides",
+   "apariciones": 45,
+   "fuente": {
+    "carpeta": "11. ENDOCRINOLOGIA",
+    "seccion": "varios"
+   }
+  },
+  {
+   "especialidad": "Cirugía General",
+   "tema": "Hernias",
+   "apariciones": 44,
+   "fuente": {
+    "carpeta": "1. CIRUGIA GENERAL",
+    "seccion": "28"
+   }
+  },
+  {
+   "especialidad": "Neumología",
+   "tema": "EPOC",
+   "apariciones": 44,
+   "fuente": {
+    "carpeta": "6.NEUMOLOGIA",
+    "seccion": "varios"
+   }
+  },
+  {
+   "especialidad": "Ginecología",
+   "tema": "Cáncer de mama",
+   "apariciones": 43,
+   "fuente": {
+    "carpeta": "3.GINECOLOGIA",
+    "seccion": "9, 19"
+   }
+  },
+  {
+   "especialidad": "Pediatría",
+   "tema": "Síndrome nefrótico y GNAPE",
+   "apariciones": 43,
+   "fuente": {
+    "carpeta": "4.PEDIATRIA",
+    "seccion": "varios"
+   }
+  },
+  {
+   "especialidad": "Pediatría",
+   "tema": "Desnutrición y crecimiento",
+   "apariciones": 43,
+   "fuente": {
+    "carpeta": "28. NT",
+    "seccion": "2"
+   }
+  },
+  {
+   "especialidad": "Neumología",
+   "tema": "Insuficiencia respiratoria y AGA",
+   "apariciones": 42,
+   "fuente": {
+    "carpeta": "6.NEUMOLOGIA",
+    "seccion": "varios"
+   }
+  },
+  {
+   "especialidad": "Cardiología",
+   "tema": "Pericarditis y taponamiento",
+   "apariciones": 40,
+   "fuente": {
+    "carpeta": "9. CARDIOLOGIA",
+    "seccion": "10, 18"
+   }
+  },
+  {
+   "especialidad": "Cardiología",
+   "tema": "Shock",
+   "apariciones": 38,
+   "fuente": {
+    "carpeta": "9. CARDIOLOGIA",
+    "seccion": "20"
+   }
+  },
+  {
+   "especialidad": "Nefrología",
+   "tema": "Ácido-base",
+   "apariciones": 37,
+   "fuente": {
+    "carpeta": "14. NEFROLOGIA",
+    "seccion": "14, 16"
+   }
+  },
+  {
+   "especialidad": "Pediatría",
+   "tema": "Anemia ferropénica",
+   "apariciones": 36,
+   "fuente": {
+    "carpeta": "28. NT",
+    "seccion": "1"
+   }
+  },
+  {
+   "especialidad": "Cirugía General",
+   "tema": "Trauma y politraumatizado",
+   "apariciones": 34,
+   "fuente": {
+    "carpeta": "1. CIRUGIA GENERAL",
+    "seccion": "31, 32"
+   }
+  },
+  {
+   "especialidad": "Cirugía General",
+   "tema": "Patología anorrectal",
+   "apariciones": 33,
+   "fuente": {
+    "carpeta": "1. CIRUGIA GENERAL",
+    "seccion": "23-27"
+   }
+  },
+  {
+   "especialidad": "Endocrinología",
+   "tema": "Suprarrenal",
+   "apariciones": 33,
+   "fuente": {
+    "carpeta": "11. ENDOCRINOLOGIA",
+    "seccion": "varios"
+   }
+  },
+  {
+   "especialidad": "Obstetricia",
+   "tema": "Parto pretérmino",
+   "apariciones": 32,
+   "fuente": {
+    "carpeta": "2. OBSTETRICIA",
+    "seccion": "13"
+   }
+  },
+  {
+   "especialidad": "Infectología",
+   "tema": "Zoonosis",
+   "apariciones": 32,
+   "fuente": {
+    "carpeta": "28. NT",
+    "seccion": "11"
+   }
+  },
+  {
+   "especialidad": "Nefrología",
+   "tema": "ERC y diálisis",
+   "apariciones": 31,
+   "fuente": {
+    "carpeta": "14. NEFROLOGIA",
+    "seccion": "varios"
+   }
+  },
+  {
+   "especialidad": "Cirugía General",
+   "tema": "Quemaduras",
+   "apariciones": 29,
+   "fuente": {
+    "carpeta": "1. CIRUGIA GENERAL",
+    "seccion": "37"
+   }
+  },
+  {
+   "especialidad": "Salud pública",
+   "tema": "Diseños de estudio",
+   "apariciones": 18,
+   "fuente": {
+    "carpeta": "10. EPIDEMIOLOGIA",
+    "seccion": "2-4"
+   }
+  },
+  {
+   "especialidad": "Nefrología",
+   "tema": "Injuria renal aguda",
+   "apariciones": 17,
+   "fuente": {
+    "carpeta": "14. NEFROLOGIA",
+    "seccion": "varios"
+   }
+  },
+  {
+   "especialidad": "Infectología",
+   "tema": "Dengue y arbovirosis",
+   "apariciones": 16,
+   "fuente": {
+    "carpeta": "28. NT",
+    "seccion": "6"
+   }
+  },
+  {
+   "especialidad": "Salud pública",
+   "tema": "Vigilancia y brotes",
+   "apariciones": 16,
+   "fuente": {
+    "carpeta": "10. EPIDEMIOLOGIA",
+    "seccion": "8, 13"
+   }
+  }
+ ]
+}

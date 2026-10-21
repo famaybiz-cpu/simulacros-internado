@@ -385,3 +385,5 @@ canvas.lienzo-rev{width:100%;height:auto;display:block;border:1px solid var(--li
 .fila-mas:last-child{border-bottom:0}
 .fila-mas .ic{font-size:24px;width:34px;text-align:center;flex:none}
 .fila-mas small{color:var(--fg2);font-weight:500}
+.tema-alto{padding:10px 0;border-bottom:1px solid var(--line)}
+.tema-alto:last-child{border-bottom:0}

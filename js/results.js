@@ -260,6 +260,15 @@ function feedbackTutor(it, qs) {
     out.push(el('div', { class: 'bloque' }, el('span', { class: 'et' }, 'Técnica de examen'),
       el('div', { html: tips.map((t) => `<div style="margin:0 0 7px">${t.replace(/\*\*(.+?)\*\*/g, '<b>$1</b>')}</div>`).join('') })));
   }
+  // consejo sobre cambiar de respuesta, con su propio historial
+  const hist = store.resumen().cambios;
+  if (hist.total >= 5) {
+    out.push(el('div', { class: 'bloque' }, el('span', { class: 'et' }, 'Sobre cambiar de respuesta'),
+      hist.bien_a_mal > hist.mal_a_bien
+        ? `En tu historial has perdido ${hist.bien_a_mal} preguntas por cambiar y ganado ${hist.mal_a_bien}. No cambies sin un dato del caso que lo justifique: tu primera impresión acierta más.`
+        : `En tu historial cambiar te ha dado ${hist.mal_a_bien} aciertos y te ha costado ${hist.bien_a_mal}. Cuando releas y encuentres un dato que se te pasó, cambia con confianza.`));
+  }
+
   if (cont) {
     const porEstudiar = rs.filter((r) => !r.ok && (r.motivo === 'no_sabia' || r.motivo === 'confundi'))
       .map((r) => ({ r, q: qs.get(r.qid) }));
