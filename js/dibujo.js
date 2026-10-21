@@ -17,7 +17,10 @@ export const TINTAS = [
   { id: 'amarillo', color: 'rgba(250,204,21,.45)', ancho: 18, nombre: 'Subrayar' },
   { id: 'azul',     color: '#2f7cf6',              ancho: 3.5, nombre: 'Escribir' },
   { id: 'rojo',     color: '#e23b2d',              ancho: 3.5, nombre: 'Marcar' },
+  { id: 'borrador', color: 'transparent', ancho: 0, nombre: 'Borrador', borra: true },
 ];
+
+const RADIO_BORRADOR = 16;   // px: lo que se lleva por delante el borrador
 
 const leer = (sim) => {
   try { return JSON.parse(localStorage.getItem(K + sim)) || {}; } catch { return {}; }
@@ -48,6 +51,7 @@ export function montarLienzo(caja, sim, qid, alCambiar) {
   let dibujo = false;      // ¿se dibujó algo en este gesto? (para no marcar la alternativa)
   let espera = null;       // temporizador del mantener-presionado
   let origen = null;       // dónde empezó el toque, para medir si se movió
+  let borrando = false;    // ¿este gesto está borrando?
 
   function medir() {
     const r = caja.getBoundingClientRect();
@@ -86,9 +90,37 @@ export function montarLienzo(caja, sim, qid, alCambiar) {
   };
 
   function empezarTrazo(ev) {
-    actual = { c: tinta.color, w: tinta.ancho, p: [punto(ev)] };
     dibujo = false;
+    if (tinta.borra) { borrando = true; borrarEn(ev); return; }
+    actual = { c: tinta.color, w: tinta.ancho, p: [punto(ev)] };
     pintar();
+  }
+
+  /**
+   * Borrador selectivo: se lleva solo los pedazos de trazo que toca, no el
+   * trazo entero. Parte el trazo en los puntos borrados y conserva el resto.
+   */
+  function borrarEn(ev) {
+    const [px, py] = punto(ev);
+    const W = cv.clientWidth || 1, H = cv.clientHeight || 1;
+    const rx = RADIO_BORRADOR / W, ry = RADIO_BORRADOR / H;
+    const quedan = [];
+    let tocado = false;
+    for (const tr of trazos) {
+      const trozos = [];
+      let trozo = [];
+      for (const [x, y] of tr.p) {
+        const dx = (x - px) / rx, dy = (y - py) / ry;
+        if (dx * dx + dy * dy <= 1) {                 // este punto cae bajo el borrador
+          tocado = true;
+          if (trozo.length) { trozos.push(trozo); trozo = []; }
+        } else trozo.push([x, y]);
+      }
+      if (trozo.length) trozos.push(trozo);
+      if (trozos.length === 1 && trozos[0].length === tr.p.length) quedan.push(tr);
+      else for (const s of trozos) if (s.length >= 2) quedan.push({ ...tr, p: s });
+    }
+    if (tocado) { trazos = quedan; dibujo = true; pintar(); }
   }
 
   function abajo(ev) {
@@ -120,6 +152,14 @@ export function montarLienzo(caja, sim, qid, alCambiar) {
       if (Math.hypot(ev.clientX - origen.x, ev.clientY - origen.y) > HOLGURA) cancelarEspera();
       return;
     }
+    if (borrando) {
+      ev.preventDefault();
+      let ps = [];
+      try { ps = ev.getCoalescedEvents?.() || []; } catch {}
+      if (!ps.length) ps = [ev];
+      for (const q of ps) borrarEn(q);
+      return;
+    }
     if (!actual) return;
     ev.preventDefault();
     let puntos = [];
@@ -132,6 +172,7 @@ export function montarLienzo(caja, sim, qid, alCambiar) {
 
   function arriba(ev) {
     cancelarEspera();
+    if (borrando) { borrando = false; ev?.preventDefault?.(); guardar(); alCambiar?.(); return; }
     if (!actual) return;
     ev?.preventDefault?.();
     trazos.push(actual);
@@ -161,7 +202,7 @@ export function montarLienzo(caja, sim, qid, alCambiar) {
   function tocar(ev) {
     const stylus = [...(ev.touches || [])].some((t) => t.touchType === 'stylus');
     // Se corta el desplazamiento solo cuando de verdad se está escribiendo.
-    if (stylus || dedo || actual) ev.preventDefault();
+    if (stylus || dedo || actual || borrando) ev.preventDefault();
   }
 
   caja.addEventListener('pointerdown', abajo);

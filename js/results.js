@@ -4,6 +4,8 @@ import { store } from './store.js';
 import { simulacro } from './data.js';
 import { fuenteTxt } from './exam.js';
 import { lienzoRevision } from './dibujo.js';
+import { confeti, mensajeAnimo } from './tema.js';
+import { nuevasInsignias } from './motivacion.js';
 
 export async function pantallaResultados(vista, id) {
   const it = store.intento(id);
@@ -12,7 +14,9 @@ export async function pantallaResultados(vista, id) {
   const qs = new Map(S.preguntas.map((q) => [q.id, q]));
 
   const sem = semaforo(it.nota);
+  if (it.nota >= EXAMEN.meta) confeti();
   vista.append(
+    el('div', { class: 'animo ' + sem }, mensajeAnimo(it.nota)),
     el('h1', {}, it.titulo),
     el('p', {}, el('small', {}, `${it.fecha} · modo ${it.modo} · ${mmss(it.segundos_total)} en total`)),
     el('div', { class: 'card' },
@@ -41,6 +45,17 @@ export async function pantallaResultados(vista, id) {
     vista.append(el('div', { class: 'card tight' },
       el('div', { class: 'row' }, el('span', { class: 'chip ok' }, '✓ Dentro del tiempo'),
         el('small', {}, `Terminaste en ${mmss(it.segundos_total)} de los ${it.minutos_limite} minutos.`))));
+  }
+
+  // --- insignias recién ganadas ---
+  const nuevas = nuevasInsignias();
+  if (nuevas.length) {
+    const c = el('div', { class: 'card' }, el('h3', {}, nuevas.length === 1 ? '¡Nueva insignia!' : '¡Nuevas insignias!'));
+    const g = el('div', { class: 'insignias' });
+    for (const i of nuevas) g.append(el('div', { class: 'insignia ganada' },
+      el('span', { class: 'ic' }, i.ic), el('b', {}, i.t), el('small', {}, i.d)));
+    c.append(g);
+    vista.append(c);
   }
 
   // --- motivo de cada error ---

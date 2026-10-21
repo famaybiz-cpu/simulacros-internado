@@ -1,5 +1,5 @@
 // Estado del progreso: guardado local inmediato + sincronización opcional con Firestore.
-import { hoyLima, sumaDias, diasEntre, nota20 } from './util.js';
+import { hoyLima, sumaDias, diasEntre, nota20, cuenta } from './util.js';
 
 const K_PROG = 'si.progreso.v1';
 const K_CFG  = 'si.config.v1';
@@ -12,6 +12,8 @@ const vacio = () => ({
   errores: [],           // cuaderno de errores con repetición espaciada
   perlas: [],            // tarjetas de perlas con repetición espaciada
   gemelas_pendientes: [], // qid de errores sin gemela generada
+  tarjetas: [],          // tarjetas tipo Anki con repetición espaciada
+  tarjetas_cargadas: [], // fechas de los lotes ya incorporados
   checklist: {},         // { 'AAAA-MM-DD': {manana,noche,errores,perlas} }
   borradores: {},        // examen en curso, por simulacro
 });
@@ -169,7 +171,7 @@ export const store = {
 
   // ---------- resumen para el panel y para leer_progreso ----------
   resumen() {
-    const ints = this.d.intentos;
+    const ints = this.d.intentos.filter(cuenta);   // nada anterior al 21 de octubre
     const porEsp = {}, porTema = {}, porTipo = {};
     const conf = { seguro: [0, 0], dudoso: [0, 0], adivinando: [0, 0] };
     const bloques = [[0, 0], [0, 0], [0, 0], [0, 0]];
@@ -236,12 +238,86 @@ export const store = {
   /** % de conceptos corregidos: gemelas acertadas sobre gemelas respondidas. */
   gemelasResueltas() {
     let ok = 0, n = 0;
-    for (const it of this.d.intentos) {
+    for (const it of this.d.intentos.filter(cuenta)) {
       for (const r of it.respuestas || []) {
         if (r.gemela_de) { n++; if (r.ok) ok++; }
       }
     }
     return { ok, n, pct: n ? Math.round((100 * ok) / n) : null };
+  },
+
+  // ---------- tarjetas tipo Anki ----------
+  /** Incorpora un lote `tarjetas/AAAA-MM-DD.json` sin duplicar. */
+  cargarLoteTarjetas(fecha, tarjetas) {
+    this.d.tarjetas ||= [];
+    this.d.tarjetas_cargadas ||= [];
+    if (this.d.tarjetas_cargadas.includes(fecha)) return 0;
+    const vistas = new Set(this.d.tarjetas.map((t) => t.id));
+    let n = 0;
+    for (const t of tarjetas || []) {
+      if (!t?.id || vistas.has(t.id)) continue;
+      this.d.tarjetas.push({
+        ...t, lote: fecha, creada: fecha,
+        intervalo: 0, repeticiones: 0, facilidad: 2.5,
+        proximo_repaso: hoyLima(), dominada: false, vistas: 0,
+      });
+      vistas.add(t.id); n++;
+    }
+    this.d.tarjetas_cargadas.push(fecha);
+    if (n) this.commit();
+    return n;
+  },
+
+  tarjetasVencidas() {
+    const hoy = hoyLima();
+    return (this.d.tarjetas || []).filter((t) => (t.proximo_repaso || hoy) <= hoy);
+  },
+
+  /**
+   * Repetición espaciada al estilo Anki.
+   * 'otra' = volver hoy · 'dificil' = poco después · 'bien' = 1-3-7-… · 'facil' = salto grande.
+   */
+  calificarTarjeta(id, nivel) {
+    const t = (this.d.tarjetas || []).find((x) => x.id === id);
+    if (!t) return;
+    const hoy = hoyLima();
+    t.vistas = (t.vistas || 0) + 1;
+    t.facilidad ||= 2.5;
+    if (nivel === 'otra') {
+      t.repeticiones = 0; t.intervalo = 0;
+      t.facilidad = Math.max(1.3, t.facilidad - 0.2);
+    } else if (nivel === 'dificil') {
+      t.repeticiones = (t.repeticiones || 0) + 1;
+      t.intervalo = Math.max(1, Math.round((t.intervalo || 1) * 1.2));
+      t.facilidad = Math.max(1.3, t.facilidad - 0.15);
+    } else if (nivel === 'bien') {
+      t.repeticiones = (t.repeticiones || 0) + 1;
+      t.intervalo = t.repeticiones === 1 ? 1 : t.repeticiones === 2 ? 3 : Math.round((t.intervalo || 3) * t.facilidad);
+    } else {                                   // fácil
+      t.repeticiones = (t.repeticiones || 0) + 1;
+      t.intervalo = Math.max(4, Math.round((t.intervalo || 2) * t.facilidad * 1.4));
+      t.facilidad = Math.min(3.2, t.facilidad + 0.1);
+    }
+    // antes del examen no tiene sentido programar más allá del 7 de noviembre
+    const tope = Math.max(1, diasEntre(hoy, '2026-11-07'));
+    t.intervalo = Math.min(t.intervalo, tope);
+    t.proximo_repaso = sumaDias(hoy, Math.max(0, t.intervalo));
+    t.dominada = t.intervalo >= 7 && t.repeticiones >= 3;
+    this.commit();
+  },
+
+  /** CSV para importar en Anki: frente, reverso y etiquetas. */
+  tarjetasCSV() {
+    const esc = (x) => '"' + String(x ?? '').replace(/"/g, '""').replace(/\r?\n/g, '<br>') + '"';
+    const filas = [['Frente', 'Reverso', 'Etiquetas'].map(esc).join(',')];
+    for (const t of this.d.tarjetas || []) {
+      const reverso = [t.reverso, t.porque, t.nemotecnia ? '🧠 ' + t.nemotecnia : null]
+        .filter(Boolean).join('<br><br>');
+      const etiquetas = [t.especialidad, t.tema, t.tipo]
+        .filter(Boolean).map((x) => String(x).replace(/\s+/g, '_')).join(' ');
+      filas.push([esc(t.frente), esc(reverso), esc(etiquetas)].join(','));
+    }
+    return '\ufeff' + filas.join('\n');
   },
 
   exportar() {

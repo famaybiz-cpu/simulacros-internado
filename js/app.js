@@ -7,6 +7,10 @@ import { pantallaPre, pantallaExamen, salirDelExamen } from './exam.js';
 import { pantallaResultados } from './results.js';
 import { pantallaProgreso } from './progress.js';
 import { pantallaErrores, pantallaRepaso, pantallaPerlas, pantallaHistorial } from './tools.js';
+import { pantallaTarjetas, pantallaRepasarTarjetas, pantallaAudioTarjetas } from './tarjetas.js';
+import { aplicarTema, leerTema, guardarTema, PALETAS, MODOS } from './tema.js';
+import { caminoAl16, metaDiaria, panelInsignias } from './motivacion.js';
+import { sincronizarTarjetas } from './data.js';
 
 const vista = $('#vista');
 let rutaActual = '';
@@ -35,6 +39,10 @@ async function router() {
       case 'errores':    titulo('Errores');             pantallaErrores(vista); break;
       case 'repaso':     titulo('Repaso');              pantallaRepaso(vista, p2); break;
       case 'perlas':     titulo('Perlas');              pantallaPerlas(vista); break;
+      case 'tarjetas':   titulo('Mis tarjetas');        await pantallaTarjetas(vista); break;
+      case 'repasar-tarjetas': titulo('Repaso');        pantallaRepasarTarjetas(vista); break;
+      case 'audio-tarjetas':   titulo('Repaso en audio'); pantallaAudioTarjetas(vista); break;
+      case 'mas':        titulo('Más');                 pantallaMas(vista); break;
       case 'historial':  titulo('Historial');           await pantallaHistorial(vista); break;
       case 'ajustes':    titulo('Ajustes');             pantallaAjustes(vista); break;
       default:           location.hash = '#/';
@@ -93,6 +101,14 @@ async function pantallaHoy(v) {
   g.append(await tarjetaSim(d.noche, '🌙 Simulacro de la noche', '50 preguntas · 2 temas', d.meta));
   v.append(g);
 
+  v.append(caminoAl16());
+  v.append(metaDiaria());
+
+  // tarjetas pendientes de hoy
+  const pend = store.tarjetasVencidas().length;
+  if (pend) v.append(el('a', { class: 'btn pri full', href: '#/repasar-tarjetas', style: 'margin:0 0 14px' },
+    `🃏 Repasar ${pend} tarjeta${pend === 1 ? '' : 's'} de hoy`));
+
   // racha + checklist
   const r = store.racha();
   const ck = store.d.checklist[hoy] || {};
@@ -130,6 +146,8 @@ async function pantallaHoy(v) {
     }
     v.append(c);
   }
+
+  v.append(panelInsignias());
 
   // accesos rápidos
   const venc = store.erroresVencidos().length;
@@ -184,6 +202,28 @@ function pantallaAjustes(v) {
   const c = cfg.leer();
   const es = estadoSync();
   v.append(el('h1', {}, 'Ajustes'));
+
+  // --- apariencia ---
+  const tema = leerTema();
+  const cTema = el('div', { class: 'card' }, el('h3', {}, 'Colores'));
+  const pal = el('div', { class: 'paletas' });
+  for (const [k, p] of Object.entries(PALETAS)) {
+    pal.append(el('button', {
+      class: 'paleta', 'aria-pressed': tema.paleta === k ? 'true' : 'false',
+      onclick: () => { guardarTema({ paleta: k }); router(); },
+    }, el('span', { class: 'muestras' }, ...p.muestra.map((c) => el('i', { style: `background:${c}` }))),
+       el('b', {}, p.nombre)));
+  }
+  cTema.append(pal);
+  const modos = el('div', { class: 'row', style: 'margin-top:12px' });
+  for (const [k, et] of Object.entries(MODOS)) {
+    modos.append(el('button', {
+      class: 'btn sm', style: tema.modo === k ? 'border-color:var(--ac);background:var(--ac-soft);color:var(--ac)' : '',
+      onclick: () => { guardarTema({ modo: k }); router(); },
+    }, et));
+  }
+  cTema.append(el('small', { style: 'display:block;margin-top:14px;color:var(--fg2);font-weight:700' }, 'Claro u oscuro'), modos);
+  v.append(cTema);
 
   // --- sincronización ---
   const card = el('div', { class: 'card' }, el('h3', {}, 'Sincronizar iPad y celular'));
@@ -260,6 +300,27 @@ function pantallaAjustes(v) {
     } }, 'Borrar el progreso de este dispositivo')));
 }
 
+/* ---------------- pantalla «Más» ---------------- */
+function pantallaMas(v) {
+  v.append(el('h1', {}, 'Más'));
+  const enlaces = [
+    ['#/perlas', '💡', 'Perlas', 'Tus perlas con repetición espaciada'],
+    ['#/audio-tarjetas', '🎧', 'Repaso en audio', 'Escucha las tarjetas, sin mirar la pantalla'],
+    ['#/alto-rendimiento', '🎯', 'Alto rendimiento', 'Temas que se repiten, Top 100 perlas y normas técnicas'],
+    ['#/historial', '🗂', 'Historial', 'Reabre cualquier simulacro pasado'],
+    ['#/repaso/mini', '⚡', 'Mini-repaso', '5 preguntas para un tiempo muerto'],
+    ['#/ajustes', '⚙', 'Ajustes', 'Colores, sincronización y copias'],
+  ];
+  const lista = el('div');
+  for (const [href, ic, tit, sub] of enlaces) {
+    lista.append(el('a', { class: 'fila-mas', href },
+      el('span', { class: 'ic' }, ic),
+      el('span', { style: 'flex:1' }, el('b', {}, tit), el('small', { style: 'display:block' }, sub)),
+      el('span', { style: 'color:var(--fg3)' }, '›')));
+  }
+  v.append(el('div', { class: 'card' }, lista));
+}
+
 /* ---------------- arranque ---------------- */
 $('#btn-atras').addEventListener('click', () => (history.length > 1 ? history.back() : (location.hash = '#/')));
 $('#btn-ajustes').addEventListener('click', () => (location.hash = '#/ajustes'));
@@ -275,5 +336,6 @@ if ('serviceWorker' in navigator) {
   addEventListener('load', () => navigator.serviceWorker.register('sw.js').catch(() => {}));
 }
 
+aplicarTema();
 router();
-sincronizar({ silencioso: true });
+sincronizar({ silencioso: true }).then(() => sincronizarTarjetas(store).catch(() => {}));

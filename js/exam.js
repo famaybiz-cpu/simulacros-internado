@@ -1,4 +1,4 @@
-// Motor del examen: cronómetro por pregunta, modo examen / estudio, seguridad y marcas.
+// Motor del examen: reloj total, modo examen o «¿Por qué?», seguridad, marcas y lápiz.
 import { el, $, LETRAS, mmss, vibrar, toast, hoyLima, CONFIANZA } from './util.js';
 import { store, cfg } from './store.js';
 import { simulacro } from './data.js';
@@ -13,6 +13,7 @@ export const RITMOS = {
   real:     { nombre: 'Examen real', total: 120, objetivo: 30, detalle: '2 horas para 100 · objetivo 30 s por pregunta' },
   exigente: { nombre: 'Exigente',    total: 100, objetivo: 25, detalle: '1 h 40 para 100 · objetivo 25 s por pregunta' },
   holgado:  { nombre: 'Holgado',     total: 150, objetivo: 45, detalle: '2 h 30 para 100 · objetivo 45 s por pregunta' },
+  libre:    { nombre: 'Sin reloj',   total: 0,   objetivo: 0,  detalle: 'sin límite ni objetivo, para estudiar tranquila' },
 };
 /** Minutos totales para este simulacro, en proporción a sus preguntas. */
 const minutosTotales = (ritmo, n) => Math.round((RITMOS[ritmo].total * n) / 100);
@@ -26,7 +27,8 @@ export async function pantallaPre(vista, id) {
   const borr = store.borrador(id);
   let sueno = borr?.sueno_horas ?? 7;
   let animo = borr?.animo ?? 3;
-  let modo = borr?.modo ?? cfg.leer().modo ?? 'examen';
+  // La mañana se rinde como examen; la noche, con el «¿Por qué?» inmediato (CLAUDE.md).
+  let modo = borr?.modo ?? (s.turno === 'noche' ? 'porque' : 'examen');
   let ritmo = borr?.ritmo ?? cfg.leer().ritmo ?? 'real';
 
   const c = el('div');
@@ -74,10 +76,10 @@ export async function pantallaPre(vista, id) {
   const mk = (val, tit, sub) => el('button', {
     class: 'opt', 'aria-pressed': modo === val ? 'true' : 'false',
     onclick: (ev) => { modo = val; [...fModo.querySelectorAll('.opt')].forEach((x) => x.setAttribute('aria-pressed', 'false')); ev.currentTarget.setAttribute('aria-pressed', 'true'); },
-  }, el('span', { class: 'le' }, val === 'examen' ? '⏱' : '📖'), el('span', {}, el('b', {}, tit), el('small', { style: 'display:block' }, sub)));
+  }, el('span', { class: 'le' }, val === 'examen' ? '⏱' : '💡'), el('span', {}, el('b', {}, tit), el('small', { style: 'display:block' }, sub)));
   fModo.append(el('div', { class: 'opts' },
-    mk('examen', 'Examen', 'Con reloj total, sin respuestas hasta el final'),
-    mk('estudio', 'Estudio', 'Sin reloj, con la explicación al instante')));
+    mk('examen', 'Examen', 'Las respuestas y explicaciones, solo al final'),
+    mk('porque', '¿Por qué?', 'Al responder, el reloj se pausa y te explico al instante')));
 
   // --- ritmo: el reloj nunca corta, solo orienta ---
   const fRitmo = el('div', { class: 'card' }, el('h3', {}, 'Ritmo'),
@@ -136,7 +138,8 @@ export async function pantallaExamen(vista, id) {
   Object.assign(E.resp, b.respuestas || {});
   for (const r of Object.values(E.resp)) r.descartadas ||= [];   // intentos empezados antes de esta mejora
   const R = RITMOS[E.ritmo] || RITMOS.real;
-  E.totalInicial = minutosTotales(E.ritmo, S.n) * 60;
+  E.sinReloj = E.ritmo === 'libre';
+  E.totalInicial = E.sinReloj ? 0 : minutosTotales(E.ritmo, S.n) * 60;
   E.totalRestante = b.totalRestante ?? E.totalInicial;
   E.objetivo = R.objetivo;
 
@@ -145,8 +148,8 @@ export async function pantallaExamen(vista, id) {
   vista.replaceChildren();
   vista.append(barraTiempo(), el('div', { id: 'q' }));
   pintarPregunta();
-  if (E.modo === 'examen') iniciarReloj();
-  else pintarTiempo();
+  if (!E.sinReloj) iniciarReloj();
+  pintarTiempo();
 }
 
 export function salirDelExamen() {
@@ -161,7 +164,7 @@ export function salirDelExamen() {
  * pregunta es solo un objetivo de ritmo y nunca corta ni bloquea nada.
  */
 function barraTiempo() {
-  const conReloj = E.modo === 'examen';
+  const conReloj = !E.sinReloj;
   return el('div', { class: 'timerbar', id: 'tb' },
     el('div', { class: 'bar' }, el('i', { id: 'tb-i' })),
     el('div', { class: 'meta' },
@@ -171,7 +174,7 @@ function barraTiempo() {
       conReloj ? el('span', { id: 'tb-ritmo', class: 'ritmo' }, '') : null,
       conReloj
         ? el('span', {}, 'quedan ', el('b', { class: 'seg', id: 'tb-total' }, mmss(E.totalRestante)))
-        : el('span', {}, 'modo estudio · ', el('b', { id: 'tb-total' }, '0:00')),
+        : el('span', {}, 'sin reloj · ', el('b', { id: 'tb-total' }, '0:00')),
       conReloj ? el('button', {
         class: 'btn-pausa', id: 'tb-pausa', title: 'Pausar el reloj',
         onclick: () => alternarPausa(),
@@ -207,6 +210,7 @@ function iniciarReloj() {
     const q = S.preguntas[E.i];
     E.resp[q.id].segundos = (E.resp[q.id].segundos || 0) + 1;
 
+    if (E.sinReloj) { pintarTiempo(); return; }
     E.totalRestante = Math.max(0, E.totalRestante - 1);
 
     // Avisos antes del corte, como en el examen real.
@@ -237,11 +241,11 @@ function pintarTiempo() {
   const p = obj ? Math.min(100, (100 * usados) / obj) : 100;
   $('#tb-i').style.width = p + '%';
   tb.classList.toggle('pasada', !!obj && usados > obj);
-  tb.classList.toggle('rojo', E.modo === 'examen' && E.totalRestante > 0 && E.totalRestante <= 60);
+  tb.classList.toggle('rojo', !E.sinReloj && E.totalRestante > 0 && E.totalRestante <= 60);
 
   $('#tb-n').textContent = String(i + 1);
   const tot = $('#tb-total');
-  if (tot) tot.textContent = E.modo === 'examen' ? mmss(E.totalRestante) : mmss(E.transcurrido);
+  if (tot) tot.textContent = E.sinReloj ? mmss(E.transcurrido) : mmss(E.totalRestante);
 
   const sin = S.preguntas.filter((x) => E.resp[x.id].elegida === null).length;
   const chip = $('#tb-sin');
@@ -273,7 +277,7 @@ function pintarPregunta() {
   const i = E.i, q = S.preguntas[i], r = E.resp[q.id];
   const cont = $('#q'); if (!cont) return;
   const agotada = false;   // ninguna pregunta se cierra nunca
-  const revelar = E.modo === 'estudio' && r.elegida !== null;
+  const revelar = E.modo === 'porque' && r.elegida !== null;
 
   E.lienzo?.destruir(); E.lienzo = null;
   cont.replaceChildren();
@@ -323,10 +327,10 @@ function pintarPregunta() {
 
   if (revelar) cont.append(explicacion(q, r));
 
-  cont.append(el('div', { class: 'navq' },
+  if (!revelar) cont.append(el('div', { class: 'navq' },
     el('button', { class: 'btn ghost', disabled: i === 0, onclick: () => ir(i - 1) }, '‹ Anterior'),
     el('button', { class: 'btn', 'aria-pressed': r.marcada ? 'true' : 'false', onclick: (ev) => { r.marcada = !r.marcada; guardar(); ev.currentTarget.textContent = r.marcada ? '🔖 Marcada' : '🔖 Marcar'; pintarRejilla(); } }, r.marcada ? '🔖 Marcada' : '🔖 Marcar'),
-    el('button', { class: 'btn pri', disabled: i === S.n - 1 && !revelar, onclick: () => ir(i + 1) }, 'Siguiente ›'),
+    el('button', { class: 'btn pri', disabled: i === S.n - 1, onclick: () => ir(i + 1) }, 'Siguiente ›'),
   ));
 
   cont.append(el('div', { class: 'card tight' },
@@ -354,17 +358,21 @@ function barraLapiz() {
   const barra = el('div', { class: 'lapiz' });
   TINTAS.forEach((t, k) => {
     barra.append(el('button', {
-      class: 'tinta', 'aria-pressed': E.tinta === k ? 'true' : 'false',
-      title: t.nombre, 'aria-label': t.nombre, style: `background:${t.color}`,
+      class: 'tinta' + (t.borra ? ' goma' : ''),
+      'aria-pressed': E.tinta === k ? 'true' : 'false',
+      title: t.borra ? 'Borrador: pasa por encima para quitar solo esa parte' : t.nombre,
+      'aria-label': t.nombre,
+      style: t.borra ? '' : `background:${t.color}`,
       onclick: () => {
         E.tinta = k; E.lienzo?.elegirTinta(t);
         [...barra.querySelectorAll('.tinta')].forEach((x, j) => x.setAttribute('aria-pressed', j === k ? 'true' : 'false'));
+        barra.actualizar();
       },
-    }));
+    }, t.borra ? '🧽' : null));
   });
   const pista = el('span', { class: 'pista' }, 'Escribe con el Pencil');
   const deshacer = el('button', { class: 'txt', title: 'Deshacer el último trazo', onclick: () => E.lienzo?.deshacer() }, '↶');
-  const borrar = el('button', { class: 'txt', title: 'Borrar todo lo anotado', onclick: () => E.lienzo?.borrar() }, 'Borrar');
+  const borrar = el('button', { class: 'txt', title: 'Borrar todo lo anotado de esta pregunta', onclick: () => E.lienzo?.borrar() }, 'Todo');
   const conDedo = el('button', {
     class: 'txt', 'aria-pressed': E.dedo ? 'true' : 'false',
     title: 'Dibujar con el dedo (en el celular)',
@@ -381,9 +389,11 @@ function barraLapiz() {
     deshacer.disabled = vacio;
     borrar.disabled = vacio;
     conDedo.setAttribute('aria-pressed', E.dedo ? 'true' : 'false');
-    pista.textContent = E.dedo
-      ? 'El dedo dibuja: apágalo para marcar'
-      : 'Escribe con el Pencil';
+    pista.textContent = TINTAS[E.tinta]?.borra
+      ? 'Pasa el borrador por lo que quieras quitar'
+      : E.dedo
+        ? 'El dedo dibuja: apágalo para marcar'
+        : 'Escribe, o mantén el dedo y arrastra';
   };
   return barra;
 }
@@ -402,15 +412,33 @@ function descartar(q, k) {
   pintarPregunta();
 }
 
+/** Pantalla «¿Por qué?»: lo que aparece al responder en el modo de la noche. */
 function explicacion(q, r) {
   const ok = r.elegida === q.clave0;
-  const c = el('div', { style: 'margin:0 0 16px' });
-  c.append(el('div', { class: 'chip ' + (ok ? 'ok' : 'bad'), style: 'margin:0 0 10px' }, ok ? '✓ Correcto' : '✗ Incorrecto'));
-  if (q.razonamiento) c.append(el('div', { class: 'bloque' }, el('span', { class: 'et' }, 'Razonamiento'), q.razonamiento));
-  const mal = (q.por_que_no || []).map((t, k) => (k === q.clave0 || !t ? null : `${LETRAS[k]}. ${t}`)).filter(Boolean);
-  if (mal.length) c.append(el('div', { class: 'bloque' }, el('span', { class: 'et' }, 'Por qué no las otras'), el('div', { html: mal.map((x) => `<div style="margin:0 0 6px">${x}</div>`).join('') })));
+  const c = el('div', { class: 'porque' });
+  c.append(el('div', { class: 'row sp', style: 'margin:0 0 12px' },
+    el('span', { class: 'chip grande ' + (ok ? 'ok' : 'bad') }, ok ? '✓ Correcta' : '✗ Incorrecta'),
+    E.pausado ? el('small', {}, '⏸ reloj en pausa') : null));
+
+  if (!ok && r.elegida !== null) {
+    c.append(el('div', { class: 'bloque' }, el('span', { class: 'et' }, 'Por qué fallaste'),
+      `Marcaste ${LETRAS[r.elegida]}. ${q.por_que_no?.[r.elegida] || 'No es la correcta en este caso.'}`));
+  }
+  if (q.razonamiento) c.append(el('div', { class: 'bloque' }, el('span', { class: 'et' }, 'Razonamiento paso a paso'), q.razonamiento));
+  const mal = (q.por_que_no || []).map((x, k) => (k === q.clave0 || k === r.elegida || !x ? null
+    : `<div style="margin:0 0 6px"><b>${LETRAS[k]}.</b> ${x}</div>`)).filter(Boolean);
+  if (mal.length) c.append(el('div', { class: 'bloque' }, el('span', { class: 'et' }, 'Por qué no las otras'), el('div', { html: mal.join('') })));
   if (q.perla) c.append(el('div', { class: 'perla' }, '💡 ' + q.perla));
-  if (q.fuente) c.append(el('small', { style: 'display:block;margin-top:8px;color:var(--fg3)' }, fuenteTxt(q.fuente)));
+  if (q.fuente) c.append(el('small', { style: 'display:block;margin-top:8px;color:var(--fg3)' }, '📂 ' + fuenteTxt(q.fuente)));
+
+  const ultima = E.i === S.n - 1;
+  c.append(el('button', {
+    class: 'btn pri full', style: 'margin-top:14px',
+    onclick: () => {
+      E.pausado = false;
+      if (ultima) pedirTerminar(); else ir(E.i + 1);
+    },
+  }, ultima ? 'Terminar ›' : 'Siguiente pregunta ›'));
   return c;
 }
 
@@ -446,9 +474,12 @@ function elegir(q, k) {
   r.elegida = k;
   if (!r.confianza) r.confianza = 'dudoso';
   guardar();
-  if (E.modo === 'estudio') { pintarPregunta(); return; }
+  if (E.modo === 'porque') {
+    E.pausado = true;            // el reloj se detiene mientras lee la explicación
+    pintarPregunta();
+    return;
+  }
   pintarPregunta();
-  // en modo examen avanza solo si queda tiempo en la siguiente
   if (E.i < S.n - 1) setTimeout(() => ir(E.i + 1), 160);
 }
 

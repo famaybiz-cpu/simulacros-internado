@@ -2,6 +2,10 @@
 
 export const EXAMEN = { fechaISO: '2026-11-08T07:00:00-05:00', meta: 16 };
 
+/** El progreso oficial empieza acá: lo anterior no cuenta para nada (CLAUDE.md). */
+export const INICIO_OFICIAL = '2026-10-21';
+export const cuenta = (intento) => (intento?.fecha || '') >= INICIO_OFICIAL;
+
 export const $  = (s, r = document) => r.querySelector(s);
 export const $$ = (s, r = document) => [...r.querySelectorAll(s)];
 

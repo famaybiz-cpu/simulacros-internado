@@ -93,3 +93,40 @@ export async function delDia(fecha = hoyLima()) {
     todos: [...new Set([...meta.keys(), ...locales])].sort().reverse(),
   };
 }
+
+/* ---------------- tarjetas tipo Anki ---------------- */
+const K_TAR = 'si.tarjetas.indice';
+
+/** Lotes de tarjetas publicados (los crean las rutinas). */
+export async function indiceTarjetas() {
+  try {
+    const i = await pedirJSON('tarjetas/index.json');
+    localStorage.setItem(K_TAR, JSON.stringify(i));
+    return i;
+  } catch {
+    try { return JSON.parse(localStorage.getItem(K_TAR)) || { lotes: [] }; }
+    catch { return { lotes: [] }; }
+  }
+}
+
+export async function loteTarjetas(fecha) {
+  try { return await pedirJSON(`tarjetas/${fecha}.json`); }
+  catch {
+    const c = localStorage.getItem('si.tarjetas.' + fecha);
+    return c ? JSON.parse(c) : null;
+  }
+}
+
+/** Baja los lotes que falten y los incorpora al progreso. Devuelve cuántas nuevas. */
+export async function sincronizarTarjetas(store) {
+  const idx = await indiceTarjetas();
+  let nuevas = 0;
+  for (const fecha of idx.lotes || []) {
+    if ((store.d.tarjetas_cargadas || []).includes(fecha)) continue;
+    const lote = await loteTarjetas(fecha);
+    if (!lote) continue;
+    try { localStorage.setItem('si.tarjetas.' + fecha, JSON.stringify(lote)); } catch {}
+    nuevas += store.cargarLoteTarjetas(fecha, lote.tarjetas || lote);
+  }
+  return nuevas;
+}

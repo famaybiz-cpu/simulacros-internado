@@ -1,34 +1,82 @@
-/* Simulacros Internado — iPad y celular primero */
+/* ---------------------------------------------------------------
+   Paletas. Se eligen en Ajustes y se guardan en el dispositivo.
+   El resto de la hoja usa solo estas variables, así que cambiar de
+   paleta no toca ni una línea más.
+   --------------------------------------------------------------- */
 :root{
-  --bg:#f6f7f9; --bg2:#ffffff; --bg3:#eef1f5;
-  --fg:#15181d; --fg2:#5a6472; --fg3:#8d97a6;
-  --line:#dde2e9;
-  --ac:#1f6feb; --ac-fg:#ffffff; --ac-soft:#e8f0fe;
-  --ok:#17803d; --ok-soft:#e6f4ea;
-  --warn:#9a6700; --warn-soft:#fdf5e2;
-  --bad:#c0392b; --bad-soft:#fdecea;
-  --r:16px; --r2:12px;
-  --sp:16px;
-  --tap:56px;
+  --r:20px; --r2:14px; --sp:16px; --tap:56px;
   --f0:15px; --f1:17px; --f2:20px; --f3:26px; --f4:34px;
+  --sombra:0 2px 10px rgba(31,74,122,.07), 0 8px 28px rgba(31,74,122,.05);
+  --sombra-alta:0 6px 18px rgba(31,74,122,.12), 0 18px 48px rgba(31,74,122,.10);
   font-synthesis-weight:none;
 }
-@media (prefers-color-scheme:dark){
-  :root{
-    --bg:#101317; --bg2:#191d23; --bg3:#232933;
-    --fg:#eef1f5; --fg2:#a4aebd; --fg3:#7a848f;
-    --line:#2b323c;
-    --ac:#4c8dff; --ac-fg:#07101f; --ac-soft:#1b2b45;
-    --ok:#4ade80; --ok-soft:#14301f;
-    --warn:#fbbf24; --warn-soft:#332611;
-    --bad:#f87171; --bad-soft:#341a1a;
-  }
+
+/* --- Cielo y durazno (por defecto) --- */
+:root, :root[data-tema="cielo"]{
+  --bg:#F5FAFF; --bg2:#FFFFFF; --bg3:#E8F2FD;
+  --fg:#17273D; --fg2:#53677F; --fg3:#8398B0;
+  --line:#DCE9F7;
+  --ac:#4AA8FF; --ac-fg:#06243F; --ac-soft:#E2F0FF;
+  --ac2:#FFB38A; --ac2-soft:#FFF0E6;
+  --ok:#3DD6A3; --ok-fg:#06301F; --ok-soft:#E2FAF2;
+  --warn:#F2A33C; --warn-soft:#FFF3E0;
+  --bad:#FF8A80; --bad-fg:#4A0F0A; --bad-soft:#FFEBE9;
 }
+:root[data-tema="menta"]{
+  --bg:#F2FBF8; --bg2:#FFFFFF; --bg3:#E2F5F1;
+  --fg:#10302C; --fg2:#4A6D67; --fg3:#7D9C96;
+  --line:#D5EDE7;
+  --ac:#2EC4B6; --ac-fg:#042B27; --ac-soft:#DFF6F3;
+  --ac2:#FFD166; --ac2-soft:#FFF6E0;
+  --ok:#2EC4B6; --ok-fg:#042B27; --ok-soft:#DFF6F3;
+  --warn:#FFD166; --warn-soft:#FFF6E0;
+  --bad:#FF6B6B; --bad-fg:#450F0F; --bad-soft:#FFE8E8;
+}
+:root[data-tema="lavanda"]{
+  --bg:#F8F5FF; --bg2:#FFFFFF; --bg3:#EFE9FD;
+  --fg:#241B3D; --fg2:#5B4E7A; --fg3:#8D82A8;
+  --line:#E4DCF8;
+  --ac:#8B5CF6; --ac-fg:#FFFFFF; --ac-soft:#EFE7FE;
+  --ac2:#F472B6; --ac2-soft:#FDE8F2;
+  --ok:#34D399; --ok-fg:#04291C; --ok-soft:#DFF8EE;
+  --warn:#FBBF24; --warn-soft:#FEF3DA;
+  --bad:#FB7185; --bad-fg:#450A12; --bad-soft:#FEE7EA;
+}
+
+/* --- Modo oscuro: azul noche, nunca gris triste --- */
+@media (prefers-color-scheme:dark){
+  :root:not([data-claro]){
+    --bg:#1E2A4A; --bg2:#263559; --bg3:#2F4069;
+    --fg:#EAF1FF; --fg2:#A9BCDD; --fg3:#7D91B5;
+    --line:#3A4E7C;
+    --ac-fg:#06243F;
+    --sombra:0 2px 10px rgba(0,0,0,.22), 0 8px 28px rgba(0,0,0,.18);
+    --sombra-alta:0 6px 18px rgba(0,0,0,.3), 0 18px 48px rgba(0,0,0,.26);
+  }
+  :root:not([data-claro])[data-tema="menta"]{ --bg:#17302F; --bg2:#1F403E; --bg3:#2A5250; --line:#35605D; --fg:#E6FAF7; --fg2:#9FC9C4; --fg3:#78A5A0; }
+  :root:not([data-claro])[data-tema="lavanda"]{ --bg:#241F3D; --bg2:#302950; --bg3:#3C3365; --line:#4A3F7A; --fg:#F0EBFF; --fg2:#B9AEDC; --fg3:#8E82B3; }
+  :root:not([data-claro]){ --ac-soft:color-mix(in srgb,var(--ac) 22%,transparent);
+    --ok-soft:color-mix(in srgb,var(--ok) 20%,transparent);
+    --warn-soft:color-mix(in srgb,var(--warn) 20%,transparent);
+    --bad-soft:color-mix(in srgb,var(--bad) 22%,transparent);
+    --ac2-soft:color-mix(in srgb,var(--ac2) 20%,transparent); }
+}
+:root[data-oscuro]{
+  --bg:#1E2A4A; --bg2:#263559; --bg3:#2F4069;
+  --fg:#EAF1FF; --fg2:#A9BCDD; --fg3:#7D91B5; --line:#3A4E7C; --ac-fg:#06243F;
+  --ac-soft:color-mix(in srgb,var(--ac) 22%,transparent);
+  --ok-soft:color-mix(in srgb,var(--ok) 20%,transparent);
+  --warn-soft:color-mix(in srgb,var(--warn) 20%,transparent);
+  --bad-soft:color-mix(in srgb,var(--bad) 22%,transparent);
+  --ac2-soft:color-mix(in srgb,var(--ac2) 20%,transparent);
+  --sombra:0 2px 10px rgba(0,0,0,.22), 0 8px 28px rgba(0,0,0,.18);
+}
+
 *{box-sizing:border-box;-webkit-tap-highlight-color:transparent}
 html{-webkit-text-size-adjust:100%}
 body{
   margin:0;background:var(--bg);color:var(--fg);
-  font:var(--f1)/1.5 -apple-system,BlinkMacSystemFont,"SF Pro Text","Segoe UI",system-ui,sans-serif;
+  font:var(--f1)/1.55 Nunito,-apple-system,BlinkMacSystemFont,"SF Pro Text",system-ui,sans-serif;
   padding-bottom:env(safe-area-inset-bottom);
   overscroll-behavior-y:contain;
 }
@@ -73,7 +121,7 @@ nav.tabs a[aria-current]{color:var(--ac)}
 body.en-examen nav.tabs{display:none}
 
 /* --- tarjetas --- */
-.card{background:var(--bg2);border:1px solid var(--line);border-radius:var(--r);padding:var(--sp);margin:0 0 14px}
+.card{background:var(--bg2);border:1px solid var(--line);border-radius:var(--r);padding:var(--sp);margin:0 0 14px;box-shadow:var(--sombra)}
 .card.tight{padding:12px 14px}
 .card h3{margin:0 0 6px}
 .grid2{display:grid;grid-template-columns:1fr;gap:14px}
@@ -85,11 +133,12 @@ body.en-examen nav.tabs{display:none}
 /* --- botones --- */
 .btn{
   display:inline-flex;align-items:center;justify-content:center;gap:8px;
-  min-height:var(--tap);padding:0 22px;border:1px solid var(--line);border-radius:14px;
-  background:var(--bg2);color:var(--fg);font:650 var(--f1)/1 inherit;cursor:pointer;
-  text-decoration:none;transition:transform .06s
+  min-height:var(--tap);padding:0 22px;border:1px solid var(--line);border-radius:16px;
+  background:var(--bg2);color:var(--fg);font:700 var(--f1)/1 inherit;cursor:pointer;
+  text-decoration:none;transition:transform .1s ease,box-shadow .15s ease;box-shadow:var(--sombra)
 }
-.btn:active{transform:scale(.98)}
+.btn:active{transform:scale(.96)}
+.btn.pri{box-shadow:var(--sombra-alta)}
 .btn.pri{background:var(--ac);border-color:var(--ac);color:var(--ac-fg)}
 .btn.ok{background:var(--ok);border-color:var(--ok);color:#fff}
 .btn.bad{background:var(--bad);border-color:var(--bad);color:#fff}
@@ -126,7 +175,7 @@ body.en-examen nav.tabs{display:none}
 .opts{display:grid;gap:10px;margin:0 0 18px}
 .opt{
   display:flex;gap:12px;align-items:flex-start;width:100%;text-align:left;
-  min-height:var(--tap);padding:14px 16px;border:1.5px solid var(--line);border-radius:14px;
+  min-height:var(--tap);padding:14px 16px;border:2px solid var(--line);border-radius:16px;
   background:var(--bg2);color:var(--fg);font:var(--f1)/1.45 inherit;cursor:pointer
 }
 .opt .le{flex:none;width:30px;height:30px;border-radius:50%;background:var(--bg3);display:grid;place-items:center;font-weight:700;font-size:var(--f0)}
@@ -268,3 +317,71 @@ canvas.lienzo-rev{width:100%;height:auto;display:block;border:1px solid var(--li
   background:color-mix(in srgb,var(--bg) 82%,transparent);backdrop-filter:blur(6px)
 }
 .pausa-capa .card{margin:0}
+.lapiz .tinta.goma{
+  background:var(--bg3);display:grid;place-items:center;font-size:17px;border-color:var(--line)
+}
+.lapiz .tinta.goma[aria-pressed="true"]{border-color:var(--fg);background:var(--bg2)}
+
+/* --- pantalla «¿Por qué?» (retroalimentación inmediata) --- */
+.porque{
+  margin:0 0 16px;padding:16px;border-radius:var(--r);
+  background:var(--bg2);border:1px solid var(--line);
+  animation:aparece .22s ease-out
+}
+@keyframes aparece{from{opacity:0;transform:translateY(8px)}to{opacity:1;transform:none}}
+.chip.grande{font-size:var(--f1);padding:8px 16px;font-weight:700}
+
+/* --- camino al 16, anillos e insignias --- */
+.pista16{position:relative;height:14px;border-radius:999px;background:var(--bg3);overflow:visible}
+.pista16 .relleno{display:block;height:100%;border-radius:999px;background:linear-gradient(90deg,var(--ac),var(--ac2))}
+.pista16 .marca16{position:absolute;top:-5px;width:3px;height:24px;border-radius:2px;background:var(--ok)}
+.pista16 .punto{position:absolute;top:-4px;width:22px;height:22px;margin-left:-11px;border-radius:50%;
+  background:var(--bg2);border:3px solid var(--ac);box-shadow:var(--sombra)}
+.camino b{font-size:var(--f2);font-variant-numeric:tabular-nums}
+.camino b.nv{color:var(--ok)} .camino b.na{color:var(--warn)} .camino b.nr{color:var(--bad)}
+.anillos{display:flex;gap:10px;justify-content:space-around;margin-top:6px}
+.anillo-caja{text-align:center;flex:1}
+.anillo{width:72px;height:72px;display:block;margin:0 auto 4px}
+.insignias{display:grid;grid-template-columns:repeat(auto-fill,minmax(104px,1fr));gap:10px;margin-top:10px}
+.insignia{background:var(--bg3);border-radius:var(--r2);padding:12px 8px;text-align:center;opacity:.45;transition:.2s}
+.insignia .ic{font-size:26px;display:block;filter:grayscale(1)}
+.insignia b{display:block;font-size:13px;margin:4px 0 2px}
+.insignia small{font-size:11px;line-height:1.3;display:block;color:var(--fg3)}
+.insignia.ganada{opacity:1;background:var(--ac-soft);box-shadow:var(--sombra)}
+.insignia.ganada .ic{filter:none}
+.insignia.ganada small{color:var(--ac)}
+
+/* --- tarjetas tipo Anki --- */
+.tarjeta{background:var(--bg2);border:1px solid var(--line);border-radius:var(--r);padding:16px;margin:0 0 12px;box-shadow:var(--sombra)}
+.tarjeta.mini{box-shadow:none;background:var(--bg3);padding:13px}
+.tarjeta.grande{min-height:180px;font-size:var(--f2)}
+.tarjeta .frente{font-size:var(--f2);font-weight:700;line-height:1.45}
+.tarjeta.grande .frente{font-size:23px}
+.tarjeta .reverso{font-size:var(--f1);color:var(--ac);font-weight:700;margin:8px 0}
+.nemo{background:var(--ac2-soft);color:var(--fg);border-radius:12px;padding:11px 13px;font-size:var(--f0);font-weight:700;margin-top:8px}
+.niveles{display:grid;grid-template-columns:repeat(2,1fr);gap:9px;margin-top:14px}
+@media(min-width:520px){.niveles{grid-template-columns:repeat(4,1fr)}}
+.btn.nivel{flex-direction:column;gap:2px;min-height:62px;padding:0 6px}
+.btn.nivel small{font-weight:600;opacity:.75;font-size:12px}
+.btn.nivel.bad{border-color:var(--bad);color:var(--bad)}
+.btn.nivel.warn{border-color:var(--warn);color:var(--warn)}
+.btn.nivel.ac{border-color:var(--ac);color:var(--ac)}
+.btn.nivel.ok{border-color:var(--ok);color:var(--ok)}
+
+/* --- paletas, mensajes de ánimo y pantalla Más --- */
+.paletas{display:grid;gap:9px}
+.paleta{display:flex;align-items:center;gap:12px;min-height:58px;padding:10px 14px;border:2px solid var(--line);
+  border-radius:16px;background:var(--bg2);color:var(--fg);font:700 var(--f1)/1 inherit;cursor:pointer;text-align:left}
+.paleta[aria-pressed="true"]{border-color:var(--ac);background:var(--ac-soft)}
+.paleta .muestras{display:flex;gap:5px;flex:none}
+.paleta .muestras i{width:22px;height:22px;border-radius:50%;display:block}
+.animo{padding:14px 16px;border-radius:var(--r);margin:0 0 14px;font-weight:700;font-size:var(--f1);
+  box-shadow:var(--sombra);animation:aparece .3s ease-out}
+.animo.v{background:var(--ok-soft);color:var(--ok)}
+.animo.a{background:var(--warn-soft);color:var(--warn)}
+.animo.r{background:var(--ac-soft);color:var(--ac)}
+.fila-mas{display:flex;align-items:center;gap:14px;padding:14px 2px;border-bottom:1px solid var(--line);
+  text-decoration:none;color:inherit}
+.fila-mas:last-child{border-bottom:0}
+.fila-mas .ic{font-size:24px;width:34px;text-align:center;flex:none}
+.fila-mas small{color:var(--fg2);font-weight:500}
