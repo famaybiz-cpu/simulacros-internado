@@ -13,3 +13,6 @@ resumenes/
 
 # Herramienta gh descargada, no se publica.
 .herramientas/
+
+# Respaldos de progreso: son míos, no se publican.
+respaldos/

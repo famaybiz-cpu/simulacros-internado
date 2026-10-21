@@ -1,5 +1,5 @@
 {
-  "actualizado": "2026-10-20",
+  "actualizado": "2026-10-21",
   "simulacros": [
     {
       "id": "2026-10-17-manana",
@@ -49,6 +49,13 @@
       "turno": "noche",
       "titulo": "Simulacro de la noche",
       "n": 50
+    },
+    {
+      "id": "2026-10-21-manana",
+      "fecha": "2026-10-21",
+      "turno": "manana",
+      "titulo": "Simulacro de la mañana",
+      "n": 100
     }
   ]
 }
