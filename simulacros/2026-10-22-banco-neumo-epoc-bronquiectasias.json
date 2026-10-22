@@ -1,0 +1,1190 @@
+{
+ "id": "2026-10-22-banco-neumo-epoc-bronquiectasias",
+ "fecha": "2026-10-22",
+ "turno": "noche",
+ "titulo": "Banco · EPOC y bronquiectasias",
+ "segundos_por_pregunta": 60,
+ "temas_noche": [
+  "EPOC y bronquiectasias"
+ ],
+ "feedback_noche": "Aprueba este tema quien separa los tres ejes: la relación VEF1/CVF posbroncodilatador confirma, el VEF1 % gradúa la obstrucción y los síntomas más las exacerbaciones definen el grupo A/B/E y el fármaco. Los errores típicos: usar los grupos C/D ya retirados, dar corticoide inhalado sin mirar eosinófilos (o en monoterapia), olvidar que solo el cese tabáquico y el oxígeno crónico alargan la vida, oxigenar a flujo alto al retenedor de CO2 y confundir 5–7 días de antibiótico (exacerbación) con 10–14 días (bronquiectasias).",
+ "perlas_noche": [
+  "VEF1/CVF < 0,7 posbroncodilatador confirma; el VEF1 % posbroncodilatador gradúa: ≥80 / 50–79 / 30–49 / < 30.",
+  "Grupo E = ≥2 exacerbaciones moderadas o ≥1 hospitalizada, sin importar síntomas: LABA + LAMA (+ ICS si eosinófilos ≥300).",
+  "Sobrevida: cese tabáquico y oxígeno domiciliario (PaO2 ≤55 o SatO2 ≤88 %, o 55–59 con policitemia/falla derecha).",
+  "Exacerbación: SABA + SAMA, O2 meta 88–92 %, prednisona 40 mg × 5 d, amoxicilina-clavulánico 5–7 d si hay criterios; VNI si acidosis respiratoria.",
+  "Dilatación bronquial irreversible: TEM de alta resolución (raíl de tranvía, anillo de sello); antibiótico por cultivo 10–14 días."
+ ],
+ "preguntas": [
+  {
+   "id": "2026-10-22-banco-neumo-epoc-bronquiectasias-001",
+   "enunciado": "Varón de 58 años, chofer de transporte interprovincial, fuma 20 cigarrillos al día desde hace 35 años. Desde hace 3 años presenta tos matutina con expectoración mucosa y disnea al subir dos pisos. Niega rinitis o eccema en la infancia. PA 130/80 mmHg, FC 84 X', FR 18 X', T° 36,7 °C, SatO2 94 % (FiO2 0,21). Murmullo vesicular disminuido en ambos campos y espiración prolongada, sin crepitantes. Espirometría basal: VEF1 2,0 L (64 % del predicho), CVF 3,2 L, VEF1/CVF 0,63. ¿Cuál es el siguiente paso para definir la naturaleza de la alteración funcional?",
+   "opciones": [
+    "Solicitar TEM de tórax de alta resolución",
+    "Iniciar LABA + LAMA y reevaluar a los 3 meses",
+    "Repetir espirometría tras broncodilatador",
+    "Prueba de broncoprovocación con metacolina",
+    "Medir la DLCO por respiración única"
+   ],
+   "clave": 3,
+   "especialidad": "Neumología",
+   "tema": "Diagnóstico · espirometría",
+   "diagnostico": "Sospecha de EPOC en fumador: falta prueba posbroncodilatador",
+   "tipo": "prueba",
+   "dificultad": "media",
+   "razonamiento": "Paso 1: fumador intenso (35 paquetes-año) con tos y disnea crónicas y VEF1/CVF basal de 0,63. Paso 2: la relación prebroncodilatador < 0,7 solo plantea la sospecha de obstrucción crónica; falta demostrar que no revierte. Paso 3: la confirmación exige repetir la espirometría posbroncodilatador: si persiste < 0,7, la limitación es no reversible.",
+   "por_que_no": [
+    "La imagen no mide la limitación al flujo aéreo; sí sería de elección ante sospecha de dilataciones bronquiales o evaluación prequirúrgica.",
+    "El tratamiento se decide después de confirmar la obstrucción persistente; sí correspondería si el VEF1/CVF posbroncodilatador sigue < 0,7 y el paciente es muy sintomático.",
+    "",
+    "Se usa cuando la espirometría es normal y se sospecha hiperreactividad; aquí ya existe obstrucción, por lo que no aporta.",
+    "La DLCO orienta al fenotipo destructivo pero no define si la obstrucción es reversible; sí se pide para valorar pérdida de superficie alveolar ya confirmada la obstrucción."
+   ],
+   "trampa": [
+    "no-confirmatorio",
+    "otro-momento",
+    "",
+    "diferencial",
+    "no-confirmatorio"
+   ],
+   "perla": "Pre-BD < 0,7 = sospecha; post-BD < 0,7 = confirmación de obstrucción no reversible.",
+   "fuente": {
+    "carpeta": "6.NEUMOLOGIA",
+    "archivo": "12. EPOC.pdf",
+    "seccion": "p. 1 · algoritmo diagnóstico (VEF1/CVF pre y posbroncodilatador)"
+   },
+   "gemela_de": null
+  },
+  {
+   "id": "2026-10-22-banco-neumo-epoc-bronquiectasias-002",
+   "enunciado": "Mujer de 66 años, natural de Cajamarca, nunca fumó; cocinó con leña en un ambiente sin chimenea durante 40 años. Refiere tos con expectoración y disnea progresiva de 6 años; ahora camina más lento que las personas de su edad. PA 118/72 mmHg, FC 90 X', FR 22 X', T° 36,5 °C, SatO2 91 % (FiO2 0,21). Sibilantes espiratorios dispersos. Espirometría posbroncodilatador: VEF1 1,05 L (42 % del predicho), CVF 1,85 L (68 %), VEF1/CVF 0,57. ¿Cuál es el grado de limitación al flujo aéreo de esta paciente?",
+   "opciones": [
+    "Grado 1 (leve), por VEF1 posbroncodilatador mayor de 80 %",
+    "Grado 4 (muy grave), por VEF1/CVF posbroncodilatador < 0,6",
+    "Grado 2 (moderada), por VEF1 posbroncodilatador de 50-79 %",
+    "Grado 3 (grave), por VEF1 posbroncodilatador de 30-49 %",
+    "Grado 4 (muy grave), por la exposición prolongada a biomasa"
+   ],
+   "clave": 4,
+   "especialidad": "Neumología",
+   "tema": "Diagnóstico · grado de obstrucción",
+   "diagnostico": "EPOC por biomasa, obstrucción grave (GOLD 3)",
+   "tipo": "severidad",
+   "dificultad": "alta",
+   "razonamiento": "Paso 1: VEF1/CVF posbroncodilatador 0,57 (< 0,7) en expuesta a humo de leña: obstrucción persistente. Paso 2: la gravedad se gradúa con el VEF1 % del predicho posbroncodilatador, no con la relación ni con la causa. Paso 3: VEF1 42 % cae en 30-49 %: limitación grave (grado 3).",
+   "por_que_no": [
+    "No aplica con VEF1 de 42 %; sería leve si el VEF1 posbroncodilatador fuera ≥80 % con relación < 0,7.",
+    "La relación VEF1/CVF confirma la obstrucción pero no la gradúa; el grado 4 exige VEF1 < 30 % del predicho.",
+    "Su VEF1 es 42 %, por debajo de 50 %; sería el grado correcto si el VEF1 posbroncodilatador estuviera entre 50 y 79 %.",
+    "",
+    "El tipo de exposición no define la gravedad; el grado depende solo del VEF1 % posbroncodilatador, que aquí está en 30-49 %."
+   ],
+   "trampa": [
+    "otro-estadio",
+    "umbral",
+    "otro-estadio",
+    "",
+    "otro"
+   ],
+   "perla": "La relación confirma; el VEF1 % gradúa: ≥80 leve, 50-79 moderada, 30-49 grave, < 30 muy grave.",
+   "fuente": {
+    "carpeta": "6.NEUMOLOGIA",
+    "archivo": "12. EPOC.pdf",
+    "seccion": "p. 1 · clasificación por VEF1 (leve, moderado, grave, muy grave)"
+   },
+   "gemela_de": null
+  },
+  {
+   "id": "2026-10-22-banco-neumo-epoc-bronquiectasias-003",
+   "enunciado": "Varón de 70 años, jubilado, ex fumador de 40 paquetes-año. Refiere que desde hace un año se detiene a respirar después de caminar unos 100 metros en terreno llano; su puntaje CAT es 18. No ha tenido episodios de empeoramiento ni hospitalizaciones en el último año. Usa solo salbutamol a demanda. PA 128/76 mmHg, FC 82 X', FR 20 X', SatO2 93 % (FiO2 0,21). Espirometría posbroncodilatador: VEF1/CVF 0,61; VEF1 55 % del predicho. Eosinófilos 150/µL. ¿Cuál es el tratamiento de mantenimiento indicado?",
+   "opciones": [
+    "SABA + SAMA inhalados en horario fijo",
+    "LABA + LAMA inhalados en combinación",
+    "LABA + LAMA + corticoide inhalado",
+    "Un solo broncodilatador de acción larga",
+    "Corticoide inhalado como monoterapia"
+   ],
+   "clave": 2,
+   "especialidad": "Neumología",
+   "tema": "Tratamiento estable · grupo B",
+   "diagnostico": "EPOC grupo B (muy sintomático, sin exacerbaciones)",
+   "tipo": "tratamiento",
+   "dificultad": "alta",
+   "razonamiento": "Paso 1: se detiene a los 100 m (mMRC 3) y CAT 18: más sintomático. Paso 2: sin exacerbaciones en el último año, bajo riesgo: grupo B. Paso 3: el grupo B se trata con doble broncodilatación de acción larga, LABA + LAMA.",
+   "por_que_no": [
+    "Los de acción corta se usan como rescate y en la exacerbación, no como mantenimiento del paciente estable.",
+    "",
+    "El corticoide inhalado se agrega en el grupo E con eosinófilos ≥300; aquí no hay exacerbaciones y tiene 150/µL.",
+    "Es el esquema del grupo A (mMRC 0-1, CAT < 10); este paciente tiene mMRC 3 y CAT 18.",
+    "Es base del manejo del asma; en esta obstrucción fija sin broncodilatador aumenta el riesgo de neumonía sin beneficio."
+   ],
+   "trampa": [
+    "otro-momento",
+    "",
+    "umbral",
+    "otro-estadio",
+    "diferencial"
+   ],
+   "perla": "Grupo A: un broncodilatador; grupo B: LABA + LAMA; grupo E: LABA + LAMA (+ ICS si eosinófilos ≥300).",
+   "fuente": {
+    "carpeta": "6.NEUMOLOGIA",
+    "archivo": "12. EPOC.pdf",
+    "seccion": "p. 1 · tratamiento por grupos A, B y E"
+   },
+   "gemela_de": null
+  },
+  {
+   "id": "2026-10-22-banco-neumo-epoc-bronquiectasias-004",
+   "enunciado": "Mujer de 68 años, ex fumadora de 30 paquetes-año. En los últimos 12 meses tuvo dos episodios de mayor disnea y esputo purulento tratados en forma ambulatoria con prednisona y antibiótico, sin hospitalización. Entre episodios solo se fatiga al caminar rápido; CAT 8. Usa tiotropio diario con buena técnica. PA 122/70 mmHg, FC 80 X', FR 18 X', SatO2 94 % (FiO2 0,21). Espirometría posbroncodilatador: VEF1/CVF 0,60; VEF1 58 %. Hemograma: eosinófilos 380/µL. ¿Cuál es el esquema de mantenimiento más adecuado?",
+   "opciones": [
+    "LABA + corticoide inhalado sin LAMA",
+    "Continuar LAMA en monoterapia",
+    "LAMA + roflumilast por vía oral",
+    "LABA + LAMA + corticoide inhalado",
+    "LABA + LAMA sin corticoide inhalado"
+   ],
+   "clave": 4,
+   "especialidad": "Neumología",
+   "tema": "Tratamiento estable · grupo E y eosinófilos",
+   "diagnostico": "EPOC grupo E con eosinófilos ≥300",
+   "tipo": "tratamiento",
+   "dificultad": "muy alta",
+   "razonamiento": "Paso 1: dos exacerbaciones moderadas en un año, aunque tenga pocos síntomas (CAT 8). Paso 2: el riesgo de exacerbación define el grupo E sin importar los síntomas. Paso 3: grupo E recibe LABA + LAMA y, con eosinófilos ≥300/µL, se agrega corticoide inhalado (terapia triple).",
+   "por_que_no": [
+    "Es combinación propia del asma; aquí la base debe ser la doble broncodilatación y el corticoide se suma a ella.",
+    "Un solo broncodilatador corresponde al grupo A, poco sintomático y sin exacerbaciones; ella tiene dos exacerbaciones.",
+    "El roflumilast se añade en el refractario con tos productiva y exacerbaciones pese a terapia triple, no como primer ajuste.",
+    "",
+    "Es el esquema del grupo E con eosinófilos < 300/µL; con 380/µL se agrega el corticoide inhalado."
+   ],
+   "trampa": [
+    "diferencial",
+    "otro-estadio",
+    "otro-momento",
+    "",
+    "umbral"
+   ],
+   "perla": "En el grupo E los eosinófilos ≥300/µL deciden el corticoide inhalado.",
+   "fuente": {
+    "carpeta": "6.NEUMOLOGIA",
+    "archivo": "Neumología -  Fundamentos teóricos_ENAM 2024.pdf",
+    "seccion": "p. 129 · eligiendo el fármaco (+ CI si eosinofilia ≥300)"
+   },
+   "gemela_de": null
+  },
+  {
+   "id": "2026-10-22-banco-neumo-epoc-bronquiectasias-005",
+   "enunciado": "Varón de 74 años, ex fumador, acude a control. Hace 5 meses estuvo hospitalizado 6 días por aumento de disnea y esputo purulento con requerimiento de oxígeno; no tuvo otros episodios en el año. Actualmente solo se fatiga al caminar rápido en llano o subir una pendiente leve; CAT 7. PA 134/80 mmHg, FC 76 X', FR 18 X', SatO2 94 % (FiO2 0,21). Espirometría posbroncodilatador: VEF1/CVF 0,64; VEF1 61 %. Eosinófilos 120/µL. ¿En qué grupo de la evaluación combinada se clasifica?",
+   "opciones": [
+    "Grupo D, por una exacerbación con hospitalización",
+    "Grupo E, por la hospitalización por exacerbación",
+    "Grupo A, por mMRC 0-1 y CAT menor de 10",
+    "Grupo B, por VEF1 entre 50 y 79 % del predicho",
+    "Grupo C, por bajo nivel de síntomas y alto riesgo"
+   ],
+   "clave": 2,
+   "especialidad": "Neumología",
+   "tema": "Evaluación combinada · grupos A/B/E",
+   "diagnostico": "EPOC grupo E por una hospitalización",
+   "tipo": "severidad",
+   "dificultad": "muy alta",
+   "razonamiento": "Paso 1: mMRC 1 y CAT 7 indican pocos síntomas. Paso 2: una exacerbación que requirió hospitalización basta para alto riesgo, independiente de los síntomas. Paso 3: la clasificación vigente lo ubica en el grupo E (los antiguos C y D se fusionaron).",
+   "por_que_no": [
+    "El grupo D es de la clasificación previa; la versión vigente lo incluye en el grupo E.",
+    "",
+    "Sus síntomas son escasos, pero sería grupo A solo con 0-1 exacerbación sin hospitalización.",
+    "El VEF1 gradúa la obstrucción (moderada), no el grupo; el grupo B exige mMRC ≥2 o CAT ≥10 sin exacerbaciones relevantes.",
+    "El grupo C pertenece a la clasificación anterior a 2023; hoy C y D se fusionaron en el grupo E."
+   ],
+   "trampa": [
+    "otro-contexto",
+    "",
+    "otro-estadio",
+    "umbral",
+    "otro-contexto"
+   ],
+   "perla": "≥2 exacerbaciones moderadas o ≥1 hospitalizada = grupo E; los grupos C y D ya no existen.",
+   "fuente": {
+    "carpeta": "_SISTEMA_BANCOS/fichas",
+    "archivo": "Neumologia/EPOC_y_Bronquiectasias.md",
+    "seccion": "Clasificación ABE y TRAMPA DE FUENTE (grupos C y D)"
+   },
+   "gemela_de": null
+  },
+  {
+   "id": "2026-10-22-banco-neumo-epoc-bronquiectasias-006",
+   "enunciado": "Varón de 55 años, taxista, fuma 25 cigarrillos al día desde los 20 años. Presenta tos matutina y disnea al subir una pendiente leve desde hace 2 años. Hipertensión arterial controlada con losartán. Sin exacerbaciones en el último año. PA 130/84 mmHg, FC 78 X', FR 16 X', SatO2 96 % (FiO2 0,21). Espirometría posbroncodilatador: VEF1/CVF 0,66; VEF1 82 %. Usa salbutamol a demanda y pregunta qué puede hacer para vivir más años. ¿Qué intervención modifica en mayor medida su pronóstico?",
+   "opciones": [
+    "Vacunación antineumocócica conjugada única",
+    "Iniciar doble broncodilatación de mantenimiento con LABA + LAMA",
+    "Rehabilitación pulmonar en programa supervisado",
+    "Oxigenoterapia domiciliaria de forma continua",
+    "Cese tabáquico con consejería y apoyo farmacológico"
+   ],
+   "clave": 5,
+   "especialidad": "Neumología",
+   "tema": "Tratamiento estable · cese tabáquico",
+   "diagnostico": "EPOC leve en fumador activo",
+   "tipo": "conducta",
+   "dificultad": "media",
+   "razonamiento": "Paso 1: fumador activo de 43 paquetes-año con VEF1/CVF 0,66 posbroncodilatador y VEF1 82 %. Paso 2: obstrucción leve, poco sintomática y sin hipoxemia. Paso 3: la intervención que frena la progresión y mejora la sobrevida es dejar de fumar (consejería más bupropión o reemplazo nicotínico).",
+   "por_que_no": [
+    "Es prevención indicada que reduce infecciones, pero no detiene la progresión; se aplica además del cese tabáquico.",
+    "Corresponde al grupo B muy sintomático y mejora síntomas, pero no prolonga la vida; él es poco sintomático.",
+    "Mejora la capacidad de ejercicio y la calidad de vida en el paciente sintomático limitado, pero no es el principal factor pronóstico aquí.",
+    "Mejora la sobrevida solo si PaO2 ≤55 mmHg o SatO2 ≤88 % en reposo; él satura 96 %.",
+    ""
+   ],
+   "trampa": [
+    "mismo-grupo",
+    "otro-estadio",
+    "otra-poblacion",
+    "umbral",
+    ""
+   ],
+   "perla": "Dejar de fumar frena la progresión pero no revierte el daño alveolar ya establecido.",
+   "fuente": {
+    "carpeta": "6.NEUMOLOGIA",
+    "archivo": "12. EPOC.pdf",
+    "seccion": "p. 1 · manejo de tabaco y tratamiento que mejora sobrevida"
+   },
+   "gemela_de": null
+  },
+  {
+   "id": "2026-10-22-banco-neumo-epoc-bronquiectasias-007",
+   "enunciado": "Varón de 72 años, ex fumador de 50 paquetes-año, con VEF1 posbroncodilatador de 32 % y VEF1/CVF 0,48, en tratamiento con LABA + LAMA. Lleva 8 semanas sin exacerbaciones. Se fatiga al vestirse. En reposo y con aire ambiente: PA 125/75 mmHg, FC 88 X', FR 20 X', T° 36,6 °C, SatO2 87 %. AGA: pH 7,40; PaO2 53 mmHg; PaCO2 46 mmHg; HCO3 28 mEq/L. Hematocrito 46 %. Sin edemas ni ingurgitación yugular. ¿Cuál es la conducta respecto a la oxigenación?",
+   "opciones": [
+    "Oxígeno solo nocturno durante el sueño",
+    "Oxígeno solo si la SatO2 baja de 85 %",
+    "Oxígeno solo durante el esfuerzo físico",
+    "Oxigenoterapia continua domiciliaria a largo plazo",
+    "Repetir la gasometría en 6 meses sin indicar oxígeno"
+   ],
+   "clave": 4,
+   "especialidad": "Neumología",
+   "tema": "Oxigenoterapia crónica domiciliaria",
+   "diagnostico": "EPOC muy grave con hipoxemia crónica en reposo",
+   "tipo": "conducta",
+   "dificultad": "media",
+   "razonamiento": "Paso 1: estable más de 8 semanas, en reposo con PaO2 53 mmHg y SatO2 87 %. Paso 2: cumple PaO2 ≤55 mmHg o SatO2 ≤88 %, criterio de hipoxemia crónica. Paso 3: indicar oxígeno domiciliario continuo, que junto al cese tabáquico es lo que mejora la sobrevida.",
+   "por_que_no": [
+    "El uso exclusivamente nocturno no corrige la hipoxemia diurna en reposo, que es la que define la indicación.",
+    "El umbral correcto es SatO2 ≤88 % o PaO2 ≤55 mmHg en reposo, y este paciente ya lo cumple.",
+    "La hipoxemia está en reposo; el beneficio en sobrevida exige oxígeno de uso continuo, no solo con el ejercicio.",
+    "",
+    "Sería válido si la PaO2 estuviera por encima de 55-59 mmHg sin policitemia ni falla derecha; aquí es 53 mmHg."
+   ],
+   "trampa": [
+    "mismo-grupo",
+    "umbral",
+    "mismo-grupo",
+    "",
+    "umbral"
+   ],
+   "perla": "Oxígeno domiciliario: PaO2 ≤55 mmHg o SatO2 ≤88 % en reposo, en fase estable.",
+   "fuente": {
+    "carpeta": "6.NEUMOLOGIA",
+    "archivo": "Neumología -  Fundamentos teóricos_ENAM 2024.pdf",
+    "seccion": "p. 128 · oxígeno domiciliario (PaO2 ≤55 mmHg o SatO2 ≤88 %)"
+   },
+   "gemela_de": null
+  },
+  {
+   "id": "2026-10-22-banco-neumo-epoc-bronquiectasias-008",
+   "enunciado": "Mujer de 69 años, cocinó con leña por 45 años; tiene tos con expectoración diaria desde hace muchos años. Obesa, con cianosis labial. Lleva 2 meses sin exacerbaciones. PA 136/82 mmHg, FC 92 X', FR 20 X', T° 36,4 °C, SatO2 89 % (FiO2 0,21). Edema maleolar bilateral, ingurgitación yugular a 45°, hepatomegalia dolorosa de 3 cm y segundo ruido pulmonar reforzado. AGA en reposo: PaO2 57 mmHg; PaCO2 52 mmHg. Hematocrito 58 %. ¿Cuál es la conducta respecto a la oxigenoterapia?",
+   "opciones": [
+    "Flebotomías periódicas como medida principal",
+    "Oxígeno solo nocturno durante el sueño",
+    "Diurético y reevaluar la gasometría en 3 meses sin oxígeno",
+    "No indicar oxígeno por tener PaO2 mayor de 55 mmHg",
+    "Indicar oxígeno domiciliario continuo pese a PaO2 > 55"
+   ],
+   "clave": 5,
+   "especialidad": "Neumología",
+   "tema": "Oxigenoterapia · policitemia y falla derecha",
+   "diagnostico": "EPOC bronquítico con cor pulmonale y PaO2 55-59",
+   "tipo": "conducta",
+   "dificultad": "muy alta",
+   "razonamiento": "Paso 1: PaO2 57 mmHg con hematocrito 58 % y edema, ingurgitación yugular, hepatomegalia y P2 reforzado. Paso 2: hipoxemia crónica con poliglobulia y falla ventricular derecha por hipertensión pulmonar. Paso 3: con PaO2 55-59 mmHg más policitemia o falla derecha, el oxígeno domiciliario continuo también está indicado.",
+   "por_que_no": [
+    "La poliglobulia es secundaria a la hipoxemia crónica; lo que mejora la sobrevida es corregir la hipoxemia con oxígeno.",
+    "La hipoxemia es diurna y en reposo; el beneficio exige oxígeno continuo, no solo nocturno.",
+    "El diurético alivia el edema pero diferir el oxígeno deja progresar la hipertensión pulmonar; ya cumple criterio hoy.",
+    "Sería correcto con PaO2 56-59 mmHg sin policitemia ni falla derecha; ella tiene hematocrito 58 % y signos de congestión derecha.",
+    ""
+   ],
+   "trampa": [
+    "otro",
+    "mismo-grupo",
+    "otro-momento",
+    "umbral",
+    ""
+   ],
+   "perla": "PaO2 55-59 mmHg también indica oxígeno si hay policitemia o cor pulmonale.",
+   "fuente": {
+    "carpeta": "TARJETAS",
+    "archivo": "EPOC_Tarjetas_ENAM_EsSalud.pdf",
+    "seccion": "Parte 2 · ⑤ oxigenoterapia domiciliaria continua"
+   },
+   "gemela_de": null
+  },
+  {
+   "id": "2026-10-22-banco-neumo-epoc-bronquiectasias-009",
+   "enunciado": "Varón de 66 años, agricultor, ex fumador de 45 paquetes-año, con tos productiva crónica y disnea al caminar 100 metros. Acude a control sin cambios en sus síntomas desde hace meses; no usa diuréticos ni ha tenido vómitos. PA 132/78 mmHg, FC 86 X', FR 20 X', T° 36,6 °C, SatO2 89 % (FiO2 0,21). Murmullo vesicular disminuido con roncantes. AGA: pH 7,37; PaCO2 60 mmHg; HCO3 34 mEq/L; PaO2 58 mmHg. Hematocrito 52 %. ¿Qué mecanismo explica principalmente el pH casi normal?",
+   "opciones": [
+    "Aumento de la eritropoyesis por la hipoxemia",
+    "Hiperventilación por estímulo de quimiorreceptores",
+    "Alcalosis metabólica primaria por pérdida gástrica",
+    "Aumento de la reabsorción renal de bicarbonato",
+    "Tamponamiento intracelular agudo por hemoglobina"
+   ],
+   "clave": 4,
+   "especialidad": "Neumología",
+   "tema": "Fisiopatología · compensación crónica",
+   "diagnostico": "Acidosis respiratoria crónica compensada en EPOC",
+   "tipo": "mecanismo",
+   "dificultad": "muy alta",
+   "razonamiento": "Paso 1: PaCO2 60 mmHg con HCO3 34 mEq/L y pH 7,37, en paciente estable por meses. Paso 2: acidosis respiratoria crónica compensada en un retenedor de CO2. Paso 3: el riñón retiene bicarbonato durante días, mecanismo principal de compensación crónica que normaliza el pH.",
+   "por_que_no": [
+    "La poliglobulia compensa el transporte de oxígeno, no el pH; es otra adaptación crónica del mismo paciente.",
+    "Es la compensación respiratoria de una acidosis metabólica; aquí el CO2 está alto, no bajo.",
+    "Explicaría un bicarbonato alto con vómitos o diuréticos, que este paciente no tiene.",
+    "",
+    "Es la respuesta de los primeros minutos y eleva poco el bicarbonato; en la retención de CO2 de meses predomina la compensación renal."
+   ],
+   "trampa": [
+    "mismo-grupo",
+    "diferencial",
+    "diferencial",
+    "",
+    "otro-momento"
+   ],
+   "perla": "Principal compensación en el retenedor crónico de CO2: reabsorción renal de bicarbonato.",
+   "fuente": {
+    "carpeta": "6.NEUMOLOGIA",
+    "archivo": "12. EPOC.pdf",
+    "seccion": "p. 1 · principal mecanismo de compensación en EPOC crónica"
+   },
+   "gemela_de": null
+  },
+  {
+   "id": "2026-10-22-banco-neumo-epoc-bronquiectasias-010",
+   "enunciado": "Varón de 64 años, delgado (IMC 18 kg/m²), ex fumador de 45 paquetes-año, con disnea progresiva e intensa de 4 años; tose poco y casi no expectora. PA 118/70 mmHg, FC 92 X', FR 24 X', T° 36,5 °C, SatO2 93 % (FiO2 0,21). Tórax en tonel, espira con los labios fruncidos y usa músculos accesorios; murmullo vesicular muy disminuido sin ruidos agregados; sin edemas. AGA: PaO2 70 mmHg; PaCO2 37 mmHg. Hematocrito 44 %. Radiografía: hiperinsuflación, diafragmas aplanados y corazón pequeño. DLCO 42 %. ¿Qué fenotipo clínico predomina en este paciente?",
+   "opciones": [
+    "Predominio enfisematoso: soplador rosado",
+    "Enfisema paraseptal con bullas subpleurales",
+    "Enfisema panacinar por déficit hereditario",
+    "Solapamiento asma-EPOC con reversibilidad",
+    "Predominio bronquítico: congestivo azulado"
+   ],
+   "clave": 1,
+   "especialidad": "Neumología",
+   "tema": "Fenotipos clínicos",
+   "diagnostico": "Fenotipo enfisematoso (soplador rosado)",
+   "tipo": "diagnostico",
+   "dificultad": "alta",
+   "razonamiento": "Paso 1: delgado, disnea intensa temprana, poca tos, tórax en tonel y labios fruncidos. Paso 2: PaCO2 normal, PaO2 levemente baja, hematocrito normal, hiperinsuflación y DLCO baja indican destrucción alveolar. Paso 3: corresponde al fenotipo enfisematoso o soplador rosado (tipo A).",
+   "por_que_no": [
+    "",
+    "Es típico de jóvenes altos y delgados con neumotórax espontáneo, no de disnea progresiva con DLCO baja.",
+    "Se sospecha en menores de 45 años, poco fumadores y con predominio basal; él es un fumador intenso de 64 años.",
+    "Requiere rasgos de asma con respuesta broncodilatadora significativa; nada en el caso lo sugiere.",
+    "Tendría tos productiva abundante, hipercapnia, poliglobulia y edemas; aquí hay PaCO2 normal y hematocrito normal."
+   ],
+   "trampa": [
+    "",
+    "diferencial",
+    "otra-poblacion",
+    "diferencial",
+    "diferencial"
+   ],
+   "perla": "Soplador rosado: delgado, disnea intensa, PaCO2 normal, DLCO baja; azul abotargado: obeso, tos, hipercapnia, poliglobulia.",
+   "fuente": {
+    "carpeta": "6.NEUMOLOGIA",
+    "archivo": "Neumología -  Fundamentos teóricos_ENAM 2024.pdf",
+    "seccion": "p. 118 · enfisema tipo A vs bronquitis crónica tipo B"
+   },
+   "gemela_de": null
+  },
+  {
+   "id": "2026-10-22-banco-neumo-epoc-bronquiectasias-011",
+   "enunciado": "Varón de 38 años, contador, fumó 4 cigarrillos al día durante 6 años y dejó hace 10. Desde hace 2 años tiene disnea progresiva de esfuerzo. Su padre falleció a los 50 años por insuficiencia respiratoria. PA 116/72 mmHg, FC 84 X', FR 20 X', T° 36,6 °C, SatO2 93 % (FiO2 0,21). Murmullo vesicular disminuido en ambas bases. ALT 88 U/L, AST 70 U/L. Espirometría posbroncodilatador: VEF1/CVF 0,55; VEF1 58 %. TEM: hiperlucencia y escasez de vasos de predominio en ambas bases. ¿Qué patrón anatomopatológico es esperable?",
+   "opciones": [
+    "Destrucción panacinar de predominio en las bases",
+    "Fibrosis peribronquial con patrón mixto",
+    "Destrucción centroacinar de predominio en vértices",
+    "Hiperplasia glandular con índice de Reid > 0,4",
+    "Destrucción paraseptal subpleural apical"
+   ],
+   "clave": 1,
+   "especialidad": "Neumología",
+   "tema": "Etiología · causa genética",
+   "diagnostico": "Enfisema panacinar por déficit de alfa-1 antitripsina",
+   "tipo": "mecanismo",
+   "dificultad": "alta",
+   "razonamiento": "Paso 1: obstrucción no reversible a los 38 años con tabaquismo mínimo, padre fallecido joven y transaminasas elevadas. Paso 2: sugiere déficit hereditario de alfa-1 antitripsina (cromosoma 14), con hígado y pulmón afectados. Paso 3: este déficit produce destrucción panacinar de predominio en las bases.",
+   "por_que_no": [
+    "",
+    "Es lo descrito en la exposición a humo de biomasa, con componente restrictivo; no hay ese antecedente.",
+    "Es el patrón del fumador intenso de mayor edad; aquí la exposición es mínima y el compromiso es basal.",
+    "Define al componente bronquítico con tos productiva crónica, no la hiperlucencia basal de este paciente.",
+    "Se asocia a neumotórax espontáneo en jóvenes altos y delgados, no a obstrucción basal con daño hepático."
+   ],
+   "trampa": [
+    "",
+    "otro-contexto",
+    "otra-poblacion",
+    "diferencial",
+    "diferencial"
+   ],
+   "perla": "Joven, poco fumador, bases e hígado alterado: pensar en déficit de alfa-1 antitripsina (panacinar).",
+   "fuente": {
+    "carpeta": "TARJETAS",
+    "archivo": "EPOC_Tarjetas_ENAM_EsSalud.pdf",
+    "seccion": "Parte 1 · ① perla del déficit de alfa-1 antitripsina"
+   },
+   "gemela_de": null
+  },
+  {
+   "id": "2026-10-22-banco-neumo-epoc-bronquiectasias-012",
+   "enunciado": "Varón de 67 años, ex fumador, con VEF1 posbroncodilatador de 48 %; no usó antibióticos ni fue hospitalizado en el último año. Hace 4 días presenta más disnea y mayor volumen de esputo, que ahora es verde amarillento. No es alérgico a fármacos. PA 135/80 mmHg, FC 98 X', FR 24 X', T° 37,4 °C, SatO2 90 % (FiO2 0,21), Glasgow 15. Sibilantes y roncantes difusos. Radiografía: hiperinsuflación sin infiltrados. AGA: pH 7,38; PaCO2 44 mmHg. Se inician broncodilatadores y prednisona. ¿Qué antibiótico corresponde agregar al tratamiento?",
+   "opciones": [
+    "Ninguno: solo broncodilatador y corticoide sistémico",
+    "Ceftazidima endovenosa con cobertura antipseudomónica",
+    "Amoxicilina-ácido clavulánico por 10 a 14 días",
+    "Azitromicina oral diaria como profilaxis prolongada",
+    "Amoxicilina-ácido clavulánico por 5 a 7 días"
+   ],
+   "clave": 5,
+   "especialidad": "Neumología",
+   "tema": "Exacerbación · antibiótico",
+   "diagnostico": "Exacerbación de EPOC tipo I de Anthonisen",
+   "tipo": "tratamiento",
+   "dificultad": "alta",
+   "razonamiento": "Paso 1: más disnea, más volumen de esputo y esputo purulento, sin infiltrado radiológico. Paso 2: exacerbación con los tres síntomas cardinales (tipo I), probable causa bacteriana (H. influenzae, Moraxella, neumococo). Paso 3: amoxicilina-ácido clavulánico por 5 a 7 días.",
+   "por_que_no": [
+    "Sería correcto con un solo síntoma cardinal sin purulencia; aquí están los tres.",
+    "Se reserva para casos graves con riesgo de Pseudomonas (antibióticos frecuentes, hospitalizaciones); él no los tiene.",
+    "Esa duración corresponde a la exacerbación de dilataciones bronquiales; en este cuadro bastan 5 a 7 días.",
+    "Es prevención en exacerbadores frecuentes en fase estable, no el tratamiento del episodio agudo.",
+    ""
+   ],
+   "trampa": [
+    "umbral",
+    "otra-poblacion",
+    "otro-contexto",
+    "otro-momento",
+    ""
+   ],
+   "perla": "Tres síntomas cardinales (o dos con purulencia) = antibiótico: amoxicilina-clavulánico 5-7 días.",
+   "fuente": {
+    "carpeta": "6.NEUMOLOGIA",
+    "archivo": "12. EPOC.pdf",
+    "seccion": "p. 1 · cuándo añadir ATB y tratamiento de reagudización"
+   },
+   "gemela_de": null
+  },
+  {
+   "id": "2026-10-22-banco-neumo-epoc-bronquiectasias-013",
+   "enunciado": "Mujer de 71 años, ex fumadora, con VEF1 posbroncodilatador de 52 % en tratamiento con LABA + LAMA. Tras un resfrío, hace 2 días nota más disnea; su esputo sigue escaso y blanquecino, sin cambios de volumen ni de color. Afebril. PA 120/70 mmHg, FC 96 X', FR 22 X', T° 36,8 °C, SatO2 90 % (FiO2 0,21), Glasgow 15. Sibilantes espiratorios difusos. Radiografía sin infiltrados. Leucocitos 8 200/mm³. AGA: pH 7,39; PaCO2 45 mmHg. ¿Cuál es el manejo ambulatorio más adecuado?",
+   "opciones": [
+    "SABA + SAMA, prednisona y azitromicina por 5 días",
+    "SABA + SAMA y prednisona oral, sin antibiótico",
+    "SABA + SAMA, prednisona y amoxicilina-clavulánico",
+    "Hospitalizar e iniciar ceftriaxona endovenosa",
+    "Duplicar el LAMA y agregar corticoide inhalado"
+   ],
+   "clave": 2,
+   "especialidad": "Neumología",
+   "tema": "Exacerbación · sin antibiótico",
+   "diagnostico": "Exacerbación moderada sin criterio de antibiótico",
+   "tipo": "conducta",
+   "dificultad": "alta",
+   "razonamiento": "Paso 1: tras infección viral solo aumenta la disnea; el esputo no cambia y no hay infiltrado. Paso 2: exacerbación con un solo síntoma cardinal (tipo III), sin acidosis: manejable en casa. Paso 3: broncodilatadores de acción corta y prednisona por 5 días, sin antibiótico.",
+   "por_que_no": [
+    "Cualquier antibiótico es innecesario sin cambio en el esputo; sí cabría si apareciera purulencia.",
+    "",
+    "El antibiótico se indica con los tres síntomas cardinales o dos con purulencia; ella solo tiene más disnea.",
+    "Corresponde a una exacerbación grave con acidosis o falla de oxigenación; ella tiene pH normal y responde a bajo flujo.",
+    "Son ajustes del mantenimiento en fase estable, no el tratamiento de rescate del episodio agudo."
+   ],
+   "trampa": [
+    "mismo-grupo",
+    "",
+    "umbral",
+    "otro-estadio",
+    "otro-momento"
+   ],
+   "perla": "Solo más disnea, sin cambios del esputo: broncodilatador + corticoide, sin antibiótico.",
+   "fuente": {
+    "carpeta": "6.NEUMOLOGIA",
+    "archivo": "E25 - Villateca I - Neumología.pdf",
+    "seccion": "p. 29 · exacerbación de EPOC: clasificación de Anthonisen"
+   },
+   "gemela_de": null
+  },
+  {
+   "id": "2026-10-22-banco-neumo-epoc-bronquiectasias-014",
+   "enunciado": "Varón de 63 años, ex fumador, con diabetes tipo 2 en tratamiento con metformina (glucosa de hoy 160 mg/dl). Hace 3 días tiene más disnea y esputo purulento abundante. PA 138/84 mmHg, FC 102 X', FR 24 X', T° 37,6 °C, SatO2 89 % (FiO2 0,21), Glasgow 15. Sibilantes difusos. Radiografía sin consolidación. AGA: pH 7,36; PaCO2 46 mmHg. Tolera la vía oral. Recibe salbutamol con ipratropio nebulizados y amoxicilina-ácido clavulánico. ¿Qué esquema de corticoide sistémico corresponde?",
+   "opciones": [
+    "Prednisona 1 mg/kg/día VO por 10 días",
+    "Metilprednisolona 125 mg EV cada 6 horas",
+    "Prednisona 40 mg VO al día por 5 días",
+    "Budesonida inhalada a dosis altas sin sistémico",
+    "Prednisona 40 mg VO al día por 14 días"
+   ],
+   "clave": 3,
+   "especialidad": "Neumología",
+   "tema": "Exacerbación · corticoide sistémico",
+   "diagnostico": "Exacerbación moderada en diabético",
+   "tipo": "dosis",
+   "dificultad": "media",
+   "razonamiento": "Paso 1: más disnea y esputo purulento, SatO2 89 %, pH normal y tolera la vía oral. Paso 2: exacerbación moderada en diabético, en quien conviene el curso más corto eficaz. Paso 3: prednisona 40 mg VO diaria por 5 días.",
+   "por_que_no": [
+    "Los esquemas por peso son propios de otras patologías; aquí la dosis es fija y el curso corto.",
+    "Las dosis altas EV no superan a la vía oral corta y descompensan la glucemia; la vía EV se reserva si no tolera la oral.",
+    "",
+    "El corticoide inhalado es de mantenimiento en el grupo E con eosinófilos altos, no sustituye al sistémico en el episodio agudo.",
+    "El curso largo no mejora el desenlace y aumenta la hiperglucemia; en la exacerbación bastan 5 días."
+   ],
+   "trampa": [
+    "otra-poblacion",
+    "otro-estadio",
+    "",
+    "mismo-grupo",
+    "otro-momento"
+   ],
+   "perla": "Corticoide en la exacerbación: prednisona 40 mg/día VO × 5 días.",
+   "fuente": {
+    "carpeta": "6.NEUMOLOGIA",
+    "archivo": "12. EPOC.pdf",
+    "seccion": "p. 1 · BOCA-VENTILA: C → prednisona 40 mg × 5 días"
+   },
+   "gemela_de": null
+  },
+  {
+   "id": "2026-10-22-banco-neumo-epoc-bronquiectasias-015",
+   "enunciado": "Varón de 75 años con VEF1 posbroncodilatador de 28 %; en su último control estable tenía PaCO2 de 56 mmHg. Acude a emergencia por 2 días de mayor disnea y esputo purulento. PA 140/85 mmHg, FC 108 X', FR 26 X', T° 37,8 °C, SatO2 84 % (FiO2 0,21), Glasgow 15. Usa músculos accesorios; sibilantes y roncantes difusos. Se inician broncodilatadores nebulizados y se toma muestra para gasometría arterial. ¿Qué indicación de oxígeno corresponde mientras llega el resultado?",
+   "opciones": [
+    "Reservorio a 15 L/min con meta de SatO2 94-98 %",
+    "Cánula nasal a 5 L/min con meta de SatO2 > 96 %",
+    "Venturi al 24-28 % con meta de SatO2 88-92 %",
+    "Venturi al 50 % con meta de SatO2 92-96 %",
+    "Diferir el oxígeno hasta conocer la gasometría"
+   ],
+   "clave": 3,
+   "especialidad": "Neumología",
+   "tema": "Exacerbación · oxígeno controlado",
+   "diagnostico": "Exacerbación en retenedor crónico de CO2",
+   "tipo": "conducta",
+   "dificultad": "alta",
+   "razonamiento": "Paso 1: exacerbación con SatO2 84 % en paciente con PaCO2 basal de 56 mmHg. Paso 2: retenedor crónico de CO2, con riesgo de hipoventilación si recibe oxígeno en exceso. Paso 3: oxígeno controlado con Venturi 24-28 % buscando SatO2 88-92 %.",
+   "por_que_no": [
+    "Es la meta en pacientes sin riesgo de hipercapnia o tras un paro; en el retenedor de CO2 empeora la hipoventilación.",
+    "Una meta tan alta en retenedor crónico favorece la narcosis por CO2; se busca 88-92 %.",
+    "",
+    "FiO2 alta y meta alta; el Venturi es correcto, pero al 24-28 % y apuntando a 88-92 %.",
+    "Con SatO2 84 % no se debe esperar; se inicia oxígeno controlado y luego se ajusta con la gasometría."
+   ],
+   "trampa": [
+    "otra-poblacion",
+    "umbral",
+    "",
+    "umbral",
+    "otro-momento"
+   ],
+   "perla": "Retenedor de CO2: Venturi 24-28 % y meta de SatO2 88-92 %.",
+   "fuente": {
+    "carpeta": "6.NEUMOLOGIA",
+    "archivo": "Neumología -  Fundamentos teóricos_ENAM 2024.pdf",
+    "seccion": "p. 10 · manejo de IRA II: SaO2 88-92 %, Venturi 24-28 %"
+   },
+   "gemela_de": null
+  },
+  {
+   "id": "2026-10-22-banco-neumo-epoc-bronquiectasias-016",
+   "enunciado": "Varón de 70 años, retenedor crónico de CO2 (PaCO2 basal de 54 mmHg), presenta 3 días de más disnea y esputo purulento. En la ambulancia, con SatO2 82 %, recibió mascarilla con reservorio a 15 L/min durante 50 minutos. Al llegar está somnoliento, Glasgow 11, con asterixis y piel caliente. PA 150/90 mmHg, FC 112 X', FR 12 X', T° 37,7 °C, SatO2 99 %. AGA: pH 7,19; PaCO2 92 mmHg; HCO3 34 mEq/L; PaO2 160 mmHg. Glucosa 110 mg/dl. ¿Qué complicación explica el deterioro neurológico?",
+   "opciones": [
+    "Encefalopatía hipóxica por hipoxemia prolongada",
+    "Acidosis metabólica por hipoperfusión tisular",
+    "Narcosis por CO2 por oxígeno a flujo alto no controlado",
+    "Toxicidad pulmonar por oxígeno con daño alveolar",
+    "Atelectasia por reabsorción por fracción alta de oxígeno"
+   ],
+   "clave": 3,
+   "especialidad": "Neumología",
+   "tema": "Exacerbación · complicación del oxígeno",
+   "diagnostico": "Narcosis por CO2 por hiperoxigenación",
+   "tipo": "complicacion",
+   "dificultad": "alta",
+   "razonamiento": "Paso 1: retenedor crónico que recibió FiO2 alta; ahora PaO2 160 mmHg, PaCO2 92 mmHg, pH 7,19, FR 12 y somnolencia con asterixis. Paso 2: el exceso de oxígeno deprimió la ventilación y empeoró la hipercapnia aguda. Paso 3: narcosis por CO2; requiere bajar la FiO2 a meta 88-92 % y soporte ventilatorio.",
+   "por_que_no": [
+    "Su PaO2 es 160 mmHg; la encefalopatía hipóxica se ve con PaO2 muy baja sostenida.",
+    "Tendría bicarbonato bajo; aquí el HCO3 es 34 mEq/L y el pH bajo se explica por el CO2.",
+    "",
+    "Requiere horas o días de FiO2 muy alta y produce hipoxemia, no hipercapnia aguda en 50 minutos.",
+    "Puede ocurrir con FiO2 alta, pero causaría hipoxemia, no el CO2 de 92 mmHg con somnolencia."
+   ],
+   "trampa": [
+    "diferencial",
+    "diferencial",
+    "",
+    "otro-momento",
+    "mismo-grupo"
+   ],
+   "perla": "Oxígeno a flujo alto sin control en retenedor de CO2 puede precipitar narcosis por CO2.",
+   "fuente": {
+    "carpeta": "TARJETAS",
+    "archivo": "EPOC_Tarjetas_ENAM_EsSalud.pdf",
+    "seccion": "Parte 2 · ⑥ error común: oxígeno a flujo alto en retenedor de CO2"
+   },
+   "gemela_de": null
+  },
+  {
+   "id": "2026-10-22-banco-neumo-epoc-bronquiectasias-017",
+   "enunciado": "Varón de 69 años, ex fumador de 55 paquetes-año, con exacerbación de 3 días. Tras 1 hora de salbutamol con ipratropio nebulizados, corticoide sistémico y oxígeno por Venturi al 28 %: alerta, Glasgow 15, colabora y moviliza sus secreciones. PA 130/80 mmHg, FC 110 X', FR 30 X', T° 37,5 °C, SatO2 90 %. Tiraje intercostal y respiración paradójica leve. AGA: pH 7,30; PaCO2 59 mmHg; HCO3 28 mEq/L; PaO2 61 mmHg. ¿Cuál es la conducta ventilatoria indicada?",
+   "opciones": [
+    "CPAP continua por mascarilla facial",
+    "VNI con dos niveles de presión (BiPAP)",
+    "Subir la FiO2 con Venturi al 50 %",
+    "Intubación orotraqueal y ventilación invasiva",
+    "Mantener tratamiento y repetir AGA en 6 horas"
+   ],
+   "clave": 2,
+   "especialidad": "Neumología",
+   "tema": "Exacerbación · ventilación no invasiva",
+   "diagnostico": "Exacerbación con acidosis respiratoria moderada",
+   "tipo": "conducta",
+   "dificultad": "alta",
+   "razonamiento": "Paso 1: tras tratamiento óptimo persiste pH 7,30 con PaCO2 59 mmHg y FR 30. Paso 2: acidosis respiratoria aguda moderada por fatiga, en paciente alerta que protege su vía aérea. Paso 3: indicar VNI binivel (BiPAP), que ventila y reduce el CO2.",
+   "por_que_no": [
+    "El CPAP solo recluta alvéolos y no lava CO2; sirve en la falla hipoxémica (edema pulmonar), no en la hipercápnica.",
+    "",
+    "Más oxígeno no corrige la hipoventilación y puede agravar la hipercapnia; la meta es SatO2 88-92 %.",
+    "Se reserva si fracasa la VNI, hay pH ≤7,25 con deterioro, compromiso de conciencia o contraindicación de VNI.",
+    "Sería aceptable con pH ≥7,35 y sin fatiga; aquí persiste la acidosis con FR 30 pese al tratamiento."
+   ],
+   "trampa": [
+    "diferencial",
+    "",
+    "umbral",
+    "otro-estadio",
+    "otro-momento"
+   ],
+   "perla": "Exacerbación con acidosis respiratoria y paciente colaborador: VNI binivel; el CPAP no ventila.",
+   "fuente": {
+    "carpeta": "6.NEUMOLOGIA",
+    "archivo": "Neumología -  Fundamentos teóricos_ENAM 2024.pdf",
+    "seccion": "p. 11 · VNI en exacerbaciones de EPOC con acidemia moderada"
+   },
+   "gemela_de": null
+  },
+  {
+   "id": "2026-10-22-banco-neumo-epoc-bronquiectasias-018",
+   "enunciado": "Varón de 73 años, con oxígeno domiciliario por obstrucción muy grave, es traído por su hija por 4 días de disnea creciente y esputo purulento. Llega con Glasgow 8, no protege la vía aérea, vomitó dos veces y tiene abundantes secreciones que no logra expulsar. PA 100/60 mmHg, FC 124 X', FR 34 X' superficial, T° 38,0 °C, SatO2 82 % con Venturi al 35 %. AGA: pH 7,17; PaCO2 95 mmHg; PaO2 50 mmHg. ¿Cuál es el soporte ventilatorio indicado?",
+   "opciones": [
+    "Prueba de VNI binivel durante 1 hora y repetir gasometría",
+    "VNI binivel tras aspirar y dar antiemético",
+    "Mascarilla con reservorio a 15 L/min",
+    "CPAP continua por mascarilla facial",
+    "Intubación orotraqueal y ventilación mecánica invasiva"
+   ],
+   "clave": 5,
+   "especialidad": "Neumología",
+   "tema": "Exacerbación · contraindicación de VNI",
+   "diagnostico": "Exacerbación grave con encefalopatía: VNI contraindicada",
+   "tipo": "contraindicacion",
+   "dificultad": "alta",
+   "razonamiento": "Paso 1: pH 7,17, PaCO2 95 mmHg, Glasgow 8, vómitos y secreciones que no puede eliminar. Paso 2: falla hipercápnica grave con encefalopatía grave e incapacidad para proteger la vía aérea, contraindicaciones de VNI. Paso 3: intubación orotraqueal y ventilación mecánica invasiva.",
+   "por_que_no": [
+    "Sería lo indicado con paciente alerta y colaborador; la encefalopatía grave y el riesgo de aspiración la contraindican.",
+    "Retrasar la vía aérea definitiva con Glasgow 8 y vómitos expone a aspiración; la VNI sirve si estuviera alerta.",
+    "Agrava la hipercapnia y no ofrece soporte ventilatorio a un paciente que no protege su vía aérea.",
+    "No ventila ni protege la vía aérea; se usa en la falla hipoxémica de pacientes conscientes.",
+    ""
+   ],
+   "trampa": [
+    "otro-estadio",
+    "otro-momento",
+    "otro",
+    "diferencial",
+    ""
+   ],
+   "perla": "Glasgow < 10, vómitos o no protege vía aérea: VNI contraindicada, ir a intubación.",
+   "fuente": {
+    "carpeta": "6.NEUMOLOGIA",
+    "archivo": "Neumología -  Fundamentos teóricos_ENAM 2024.pdf",
+    "seccion": "p. 12 · contraindicaciones de VNI"
+   },
+   "gemela_de": null
+  },
+  {
+   "id": "2026-10-22-banco-neumo-epoc-bronquiectasias-019",
+   "enunciado": "Mujer de 77 años, ex fumadora, con exacerbación de 3 días. Tras el tratamiento inicial en emergencia está somnolienta pero responde órdenes (Glasgow 13), FR 28 X', PA 128/76 mmHg, FC 104 X', T° 37,4 °C, SatO2 90 % con mascarilla de alto flujo. AGA: pH 7,25; PaCO2 66 mmHg; HCO3 29 mEq/L. Creatinina, bilirrubina y plaquetas normales; diuresis conservada. Se inicia ventilación no invasiva con buena tolerancia. ¿En qué nivel de atención debe continuar su manejo?",
+   "opciones": [
+    "Observación en emergencia y alta en 24 horas",
+    "Unidad de cuidados intermedios con monitoreo",
+    "Unidad de cuidados intensivos con ventilación invasiva",
+    "Manejo ambulatorio con control a las 48 horas",
+    "Sala general de hospitalización con O2 de bajo flujo"
+   ],
+   "clave": 2,
+   "especialidad": "Neumología",
+   "tema": "Exacerbación · lugar de manejo",
+   "diagnostico": "Falla respiratoria hipercápnica moderada",
+   "tipo": "severidad",
+   "dificultad": "muy alta",
+   "razonamiento": "Paso 1: pH 7,25, FR 28, Glasgow 13, sin otras fallas y requiere alto flujo. Paso 2: en la tabla de severidad cumple la categoría moderada (pH 7,3-7,2; FR 25-35 obstructivo; Glasgow 10-14). Paso 3: manejo en unidad de cuidados intermedios con VNI y monitoreo.",
+   "por_que_no": [
+    "Con acidosis respiratoria en VNI no es candidata a alta precoz; sería posible en la exacerbación leve.",
+    "",
+    "Se reserva para pH < 7,2, FR > 35, Glasgow < 10, falla de otros órganos o hipoxemia no corregida.",
+    "Solo en exacerbación leve sin acidosis ni falla respiratoria; aquí hay pH 7,25.",
+    "Corresponde a pH 7,30-7,35, FR < 25, Glasgow 15 y corrección con bajo flujo; ella no los cumple."
+   ],
+   "trampa": [
+    "otro-momento",
+    "",
+    "otro-estadio",
+    "otro-estadio",
+    "otro-estadio"
+   ],
+   "perla": "pH 7,3-7,2 y Glasgow 10-14: cuidados intermedios; pH < 7,2 o Glasgow < 10: UCI.",
+   "fuente": {
+    "carpeta": "6.NEUMOLOGIA",
+    "archivo": "Neumología -  Fundamentos teóricos_ENAM 2024.pdf",
+    "seccion": "p. 9 · severidad de la IRA y lugar de manejo"
+   },
+   "gemela_de": null
+  },
+  {
+   "id": "2026-10-22-banco-neumo-epoc-bronquiectasias-020",
+   "enunciado": "Varón de 64 años, ex fumador, acude en abril al centro de salud para control. Tiene VEF1 posbroncodilatador de 55 % y usa LABA + LAMA; no ha tenido exacerbaciones en el último año. PA 126/78 mmHg, FC 76 X', FR 18 X', T° 36,6 °C, SatO2 94 % (FiO2 0,21). No recuerda haber recibido vacunas de adulto; su última antitetánica fue hace 12 años. Pregunta qué vacunas le corresponden. ¿Qué esquema de inmunización le corresponde?",
+   "opciones": [
+    "Influenza anual y neumococo; Tdap contraindicada",
+    "Influenza anual, neumococo anual, Tdap cada 5 años",
+    "Solo influenza anual; neumococo desde los 70 años",
+    "Influenza anual, neumococo única, Tdap cada 10 años",
+    "Influenza cada 5 años, neumococo anual, Tdap única"
+   ],
+   "clave": 4,
+   "especialidad": "Neumología",
+   "tema": "Prevención · vacunación",
+   "diagnostico": "EPOC moderado estable: esquema de vacunas",
+   "tipo": "norma",
+   "dificultad": "media",
+   "razonamiento": "Paso 1: 64 años con obstrucción moderada (VEF1 55 %) estable. Paso 2: tiene indicación de vacunas que reducen infecciones y exacerbaciones. Paso 3: influenza anual, neumococo conjugado en dosis única (≥60 años o moderada-grave) y Tdap cada 10 años; además COVID-19, VSR y zóster.",
+   "por_que_no": [
+    "La enfermedad pulmonar no contraindica Tdap; se recomienda su refuerzo cada 10 años.",
+    "El neumococo conjugado (PCV20/21) es de dosis única y el refuerzo de Tdap es cada 10 años.",
+    "El neumococo se indica a los ≥60 años o con obstrucción moderada-grave; él cumple ambos criterios.",
+    "",
+    "Invierte las frecuencias: la influenza se aplica cada año por el cambio de cepas y el neumococo conjugado es dosis única."
+   ],
+   "trampa": [
+    "otro",
+    "umbral",
+    "otra-poblacion",
+    "",
+    "umbral"
+   ],
+   "perla": "Vacunas: influenza anual, neumococo dosis única, Tdap c/10 años, zóster 2 dosis ≥50 años, COVID y VSR.",
+   "fuente": {
+    "carpeta": "6.NEUMOLOGIA",
+    "archivo": "12. EPOC.pdf",
+    "seccion": "p. 1 · vacunas recomendadas en EPOC"
+   },
+   "gemela_de": null
+  },
+  {
+   "id": "2026-10-22-banco-neumo-epoc-bronquiectasias-021",
+   "enunciado": "Mujer de 62 años, ex fumadora, dada de alta hace 3 semanas tras su primera hospitalización por exacerbación. Usa LABA + LAMA con técnica verificada y buena adherencia. Persiste con disnea: se detiene a respirar a los 100 metros y dejó de hacer sus compras. No tiene tos productiva crónica. IMC 20 kg/m². PA 118/74 mmHg, FC 84 X', FR 18 X', T° 36,5 °C, SatO2 93 % en reposo (FiO2 0,21). VEF1 posbroncodilatador 46 %. Eosinófilos 90/µL. ¿Qué intervención corresponde añadir a su manejo?",
+   "opciones": [
+    "Programa de rehabilitación pulmonar supervisado",
+    "Oxigenoterapia domiciliaria continua",
+    "Agregar roflumilast por vía oral",
+    "Azitromicina profiláctica de forma prolongada",
+    "Agregar corticoide inhalado al esquema de doble broncodilatación"
+   ],
+   "clave": 1,
+   "especialidad": "Neumología",
+   "tema": "Tratamiento estable · rehabilitación",
+   "diagnostico": "EPOC con disnea persistente pese a doble broncodilatación",
+   "tipo": "tratamiento",
+   "dificultad": "alta",
+   "razonamiento": "Paso 1: disnea mMRC 3 y limitación funcional pese a doble broncodilatación bien usada, sin hipoxemia en reposo ni eosinofilia. Paso 2: el problema es el desacondicionamiento tras la hospitalización. Paso 3: rehabilitación pulmonar, que mejora capacidad de ejercicio, calidad de vida y reduce hospitalizaciones.",
+   "por_que_no": [
+    "",
+    "Requiere PaO2 ≤55 mmHg o SatO2 ≤88 % en reposo; ella satura 93 %.",
+    "Se reserva al fenotipo con tos productiva crónica y exacerbaciones repetidas pese a terapia óptima; no es su caso.",
+    "Se plantea en exacerbadores frecuentes; su problema actual es la disnea y la intolerancia al ejercicio.",
+    "Se agrega con eosinófilos ≥300/µL en el grupo E; con 90/µL solo aumenta el riesgo de neumonía."
+   ],
+   "trampa": [
+    "",
+    "umbral",
+    "otra-poblacion",
+    "otro-momento",
+    "umbral"
+   ],
+   "perla": "Rehabilitación pulmonar: mejora ejercicio, calidad de vida y reduce hospitalizaciones; no es «solo ejercicio».",
+   "fuente": {
+    "carpeta": "TARJETAS",
+    "archivo": "EPOC_Tarjetas_ENAM_EsSalud.pdf",
+    "seccion": "Parte 2 · ⑤ medidas no farmacológicas: rehabilitación pulmonar"
+   },
+   "gemela_de": null
+  },
+  {
+   "id": "2026-10-22-banco-neumo-epoc-bronquiectasias-022",
+   "enunciado": "Varón de 66 años, ex fumador desde hace 4 años, con tos productiva diaria desde hace más de una década. Pese a LABA + LAMA + corticoide inhalado (eosinófilos 340/µL), con buena técnica y adherencia, tuvo tres exacerbaciones el último año, una de ellas hospitalizada. Vacunas al día y ya completó rehabilitación. PA 130/80 mmHg, FC 82 X', FR 20 X', T° 36,7 °C, SatO2 91 % (FiO2 0,21). Roncantes dispersos. VEF1 posbroncodilatador 38 %. ¿Qué fármaco corresponde agregar a su esquema?",
+   "opciones": [
+    "Prednisona oral continua a dosis baja diaria",
+    "Suspender el LAMA y duplicar el corticoide inhalado",
+    "Cambiar a SABA + SAMA nebulizados en horario fijo",
+    "Mucolítico oral como única medida añadida",
+    "Roflumilast oral, inhibidor de la fosfodiesterasa 4"
+   ],
+   "clave": 5,
+   "especialidad": "Neumología",
+   "tema": "Tratamiento estable · refractario",
+   "diagnostico": "EPOC fenotipo bronquítico exacerbador pese a triple terapia",
+   "tipo": "tratamiento",
+   "dificultad": "muy alta",
+   "razonamiento": "Paso 1: tos productiva crónica, VEF1 38 % y tres exacerbaciones pese a terapia triple bien usada. Paso 2: fenotipo bronquítico exacerbador frecuente, refractario. Paso 3: agregar roflumilast (inhibidor de la PDE4), que reduce exacerbaciones en este fenotipo.",
+   "por_que_no": [
+    "El corticoide sistémico se usa solo 5 días en la exacerbación; crónico no reduce exacerbaciones y suma toxicidad.",
+    "Retirar broncodilatación empeora la obstrucción; escalar el corticoide es lógica del asma, no de este cuadro.",
+    "Los de acción corta son de rescate y de la exacerbación; no reemplazan al mantenimiento de acción larga.",
+    "Puede aliviar la expectoración, pero no es la opción para el exacerbador frecuente con tos productiva y VEF1 bajo.",
+    ""
+   ],
+   "trampa": [
+    "otro",
+    "diferencial",
+    "otro-momento",
+    "mismo-grupo",
+    ""
+   ],
+   "perla": "Tos productiva + exacerbaciones pese a triple terapia: agregar roflumilast (inhibidor de PDE4).",
+   "fuente": {
+    "carpeta": "TARJETAS",
+    "archivo": "EPOC_Tarjetas_ENAM_EsSalud.pdf",
+    "seccion": "Parte 2 · ⑤ tratamiento escalonado: refractario + roflumilast"
+   },
+   "gemela_de": null
+  },
+  {
+   "id": "2026-10-22-banco-neumo-epoc-bronquiectasias-023",
+   "enunciado": "Mujer de 70 años, ex fumadora de 35 paquetes-año. Hace un año otro médico le indicó budesonida inhalada como único tratamiento. Persiste con disnea: camina más lento que sus amigas y debe detenerse en el llano; CAT 16. No tuvo exacerbaciones, pero en invierno presentó fiebre con consolidación lobar tratada en casa. PA 124/76 mmHg, FC 80 X', FR 18 X', SatO2 94 % (FiO2 0,21). Espirometría posbroncodilatador: VEF1/CVF 0,62; VEF1 58 %. Eosinófilos 110/µL. ¿Cuál es el ajuste terapéutico correcto?",
+   "opciones": [
+    "Retirar budesonida e iniciar LABA + LAMA",
+    "Mantener budesonida y añadir salbutamol a demanda",
+    "Agregar LABA a la budesonida (ICS + LABA)",
+    "Duplicar la dosis de budesonida inhalada",
+    "Agregar LABA y LAMA manteniendo budesonida"
+   ],
+   "clave": 1,
+   "especialidad": "Neumología",
+   "tema": "Tratamiento estable · corticoide inhalado",
+   "diagnostico": "EPOC grupo B mal tratado con ICS en monoterapia",
+   "tipo": "contraindicacion",
+   "dificultad": "alta",
+   "razonamiento": "Paso 1: mMRC 2 y CAT 16 sin exacerbaciones, eosinófilos 110/µL, en monoterapia con corticoide inhalado y con una neumonía. Paso 2: grupo B mal tratado; el corticoide inhalado sin broncodilatador aumenta el riesgo de neumonía sin beneficio. Paso 3: retirar budesonida e iniciar LABA + LAMA.",
+   "por_que_no": [
+    "",
+    "Es un esquema propio del asma leve; aquí el corticoide solo no aporta y aumenta el riesgo de neumonía.",
+    "Es la combinación del asma; en este cuadro la base es LABA + LAMA y el corticoide solo con eosinófilos ≥300.",
+    "Escalar el corticoide es lógica del asma; en esta obstrucción fija sin broncodilatador de base está contraindicado.",
+    "La terapia triple es para el grupo E con eosinófilos ≥300/µL; ella es grupo B con 110/µL."
+   ],
+   "trampa": [
+    "",
+    "otro-contexto",
+    "diferencial",
+    "diferencial",
+    "umbral"
+   ],
+   "perla": "Nunca corticoide inhalado en monoterapia en la obstrucción crónica fija (a diferencia del asma).",
+   "fuente": {
+    "carpeta": "TARJETAS",
+    "archivo": "EPOC_Tarjetas_ENAM_EsSalud.pdf",
+    "seccion": "Parte 2 · ⑤ trampa: ICS en monoterapia"
+   },
+   "gemela_de": null
+  },
+  {
+   "id": "2026-10-22-banco-neumo-epoc-bronquiectasias-024",
+   "enunciado": "Varón de 63 años, ex fumador de 60 paquetes-año que dejó de fumar hace 3 años. Pese a LABA + LAMA, rehabilitación completa y oxígeno domiciliario, tiene disnea al vestirse. Sin exacerbaciones en el último año; eosinófilos 80/µL. PA 120/74 mmHg, FC 90 X', FR 22 X', T° 36,5 °C, SatO2 92 % con O2 a 2 L/min. VEF1 posbroncodilatador 24 %; volumen residual 260 % y CPT 140 % del predicho; PaCO2 46 mmHg. TEM: destrucción heterogénea con hiperlucencia de predominio en lóbulos superiores y bases relativamente conservadas. ¿Qué opción terapéutica corresponde valorar?",
+   "opciones": [
+    "Azitromicina profiláctica de forma prolongada",
+    "Aumentar el oxígeno a flujo alto de forma continua",
+    "Agregar corticoide inhalado al esquema de doble broncodilatación",
+    "Reducción de volumen pulmonar, quirúrgica o con válvulas",
+    "Agregar roflumilast por vía oral al esquema"
+   ],
+   "clave": 4,
+   "especialidad": "Neumología",
+   "tema": "Tratamiento invasivo · reducción de volumen",
+   "diagnostico": "Enfisema heterogéneo de lóbulos superiores refractario",
+   "tipo": "tratamiento",
+   "dificultad": "muy alta",
+   "razonamiento": "Paso 1: VEF1 24 %, VR 260 % con destrucción heterogénea de lóbulos superiores, refractario a tratamiento óptimo y rehabilitación. Paso 2: hiperinsuflación marcada por destrucción alveolar apical y bases útiles. Paso 3: es candidato a reducción de volumen pulmonar quirúrgica o con válvulas endobronquiales.",
+   "por_que_no": [
+    "Reduce exacerbaciones en el exacerbador frecuente; su problema es la hiperinsuflación, no las infecciones.",
+    "Ya satura 92 %; subir el flujo no reduce la hiperinsuflación y en hipercápnicos puede retener CO2.",
+    "Se indica en el grupo E con eosinófilos ≥300/µL; él no se exacerba y tiene 80/µL.",
+    "",
+    "Es para el fenotipo con tos productiva y exacerbaciones frecuentes, no para la hiperinsuflación sin exacerbaciones."
+   ],
+   "trampa": [
+    "otra-poblacion",
+    "otro",
+    "umbral",
+    "",
+    "otra-poblacion"
+   ],
+   "perla": "Destrucción heterogénea de lóbulos superiores + hiperinsuflación refractaria: reducción de volumen o válvulas.",
+   "fuente": {
+    "carpeta": "TARJETAS",
+    "archivo": "EPOC_Tarjetas_ENAM_EsSalud.pdf",
+    "seccion": "Parte 1 · ① opción quirúrgica en enfisema severo seleccionado"
+   },
+   "gemela_de": null
+  },
+  {
+   "id": "2026-10-22-banco-neumo-epoc-bronquiectasias-025",
+   "enunciado": "Varón de 68 años, fumador de 40 paquetes-año, con tos y expectoración diaria desde hace 15 años. Desde hace 2 meses presenta edema progresivo de miembros inferiores y aumento del perímetro abdominal. PA 120/80 mmHg, FC 96 X', FR 22 X', T° 36,7 °C, SatO2 86 % (FiO2 0,21). Cianosis central, ingurgitación yugular a 45° con reflujo hepatoyugular, hepatomegalia de 4 cm, edema con fóvea ++, P2 aumentado y soplo sistólico tricuspídeo que aumenta con la inspiración. Hematocrito 60 %. EKG: eje a +120° y R alta en V1. Ecocardiograma: FEVI 60 %, ventrículo derecho dilatado. ¿Qué complicación explica este cuadro?",
+   "opciones": [
+    "Tromboembolismo pulmonar agudo masivo",
+    "Cirrosis hepática con ascitis y edema",
+    "Policitemia vera primaria con hiperviscosidad",
+    "Insuficiencia cardíaca izquierda con fracción reducida",
+    "Cor pulmonale por hipertensión pulmonar hipoxémica"
+   ],
+   "clave": 5,
+   "especialidad": "Neumología",
+   "tema": "Complicaciones · falla cardíaca derecha",
+   "diagnostico": "Cor pulmonale crónico",
+   "tipo": "complicacion",
+   "dificultad": "alta",
+   "razonamiento": "Paso 1: tosedor crónico hipoxémico con poliglobulia, ingurgitación yugular, hepatomegalia, edema, P2 aumentado y VD dilatado con FEVI normal. Paso 2: la hipoxemia crónica produce vasoconstricción e hipertensión pulmonar. Paso 3: falla ventricular derecha secundaria, cor pulmonale, frecuente en el fenotipo bronquítico.",
+   "por_que_no": [
+    "Daría inicio súbito con hipotensión; aquí la evolución es de meses con hipoxemia crónica y poliglobulia.",
+    "La ingurgitación yugular y el reflujo hepatoyugular indican congestión cardíaca, no hepatopatía primaria.",
+    "El hematocrito alto es secundario a la hipoxemia crónica; la forma primaria no explica la falla derecha.",
+    "La FEVI es 60 % y el ventrículo dilatado es el derecho; sería la opción con FEVI baja y congestión pulmonar.",
+    ""
+   ],
+   "trampa": [
+    "diferencial",
+    "diferencial",
+    "diferencial",
+    "diferencial",
+    ""
+   ],
+   "perla": "Cor pulmonale: frecuente en el bronquítico (azul abotargado), tardío en el enfisematoso.",
+   "fuente": {
+    "carpeta": "6.NEUMOLOGIA",
+    "archivo": "Neumología -  Fundamentos teóricos_ENAM 2024.pdf",
+    "seccion": "p. 118 · cor pulmonar y poliglobulia en bronquitis crónica"
+   },
+   "gemela_de": null
+  },
+  {
+   "id": "2026-10-22-banco-neumo-epoc-bronquiectasias-026",
+   "enunciado": "Varón de 61 años, mecánico, fumador de 30 paquetes-año, con tos y disnea de esfuerzo de 2 años; sin rinitis, eccema ni síntomas nocturnos. PA 128/82 mmHg, FC 80 X', FR 18 X', T° 36,6 °C, SatO2 94 % (FiO2 0,21). Espiración prolongada. Espirometría basal: VEF1 1,60 L (55 %), CVF 2,90 L, VEF1/CVF 0,55. Tras 400 µg de salbutamol: VEF1 1,82 L (aumento de 14 % y 220 mL), CVF 3,05 L, VEF1/CVF 0,60. ¿Cómo se interpreta la prueba?",
+   "opciones": [
+    "Obstrucción persistente pese a respuesta al broncodilatador",
+    "Prueba no válida: debe repetirse sin broncodilatador",
+    "Obstrucción reversible que descarta limitación crónica fija del flujo",
+    "Respuesta positiva que obliga a iniciar ICS como base",
+    "Patrón restrictivo por CVF disminuida"
+   ],
+   "clave": 1,
+   "especialidad": "Neumología",
+   "tema": "Diagnóstico · prueba broncodilatadora",
+   "diagnostico": "EPOC con respuesta parcial al broncodilatador",
+   "tipo": "prueba",
+   "dificultad": "muy alta",
+   "razonamiento": "Paso 1: el VEF1 sube 14 % y 220 mL, pero la relación VEF1/CVF posbroncodilatador queda en 0,60. Paso 2: hay cierta respuesta al broncodilatador sin normalizar la relación: la obstrucción persiste. Paso 3: se confirma limitación crónica no reversible; la diferencia con el asma es de grado, no de técnica.",
+   "por_que_no": [
+    "",
+    "La prueba está bien hecha; la confirmación se basa justamente en el valor posbroncodilatador.",
+    "Sería así si la relación se normalizara (≥0,7) tras el broncodilatador; aquí sigue en 0,60.",
+    "La lógica del corticoide de base es del asma; el tratamiento aquí se decide por síntomas, exacerbaciones y eosinófilos.",
+    "La restricción tiene relación VEF1/CVF normal o alta con CVF baja; aquí la relación es baja."
+   ],
+   "trampa": [
+    "",
+    "otro",
+    "diferencial",
+    "diferencial",
+    "diferencial"
+   ],
+   "perla": "Puede mejorar el VEF1 tras broncodilatador; si la relación sigue < 0,7, la obstrucción es persistente.",
+   "fuente": {
+    "carpeta": "TARJETAS",
+    "archivo": "EPOC_Tarjetas_ENAM_EsSalud.pdf",
+    "seccion": "Parte 2 · ④ prueba de reversibilidad"
+   },
+   "gemela_de": null
+  },
+  {
+   "id": "2026-10-22-banco-neumo-epoc-bronquiectasias-027",
+   "enunciado": "Mujer de 45 años, comerciante, tratada por tuberculosis pulmonar hace 15 años con alta por curación. Desde hace 3 años presenta tos diaria con expectoración purulenta abundante (unos 100 mL al día), hemoptisis leves ocasionales y cuatro infecciones respiratorias en el último año. Dos baciloscopías de este mes fueron negativas. PA 112/70 mmHg, FC 86 X', FR 18 X', T° 36,8 °C, SatO2 95 % (FiO2 0,21). Crepitantes gruesos en base derecha. Radiografía: engrosamiento inespecífico de paredes bronquiales basales. ¿Qué examen confirma la sospecha clínica?",
+   "opciones": [
+    "Broncoscopía con lavado broncoalveolar",
+    "TEM de tórax de alta resolución",
+    "Cultivo de esputo para bacterias comunes",
+    "Espirometría con prueba broncodilatadora",
+    "Radiografía de tórax PA y lateral repetida"
+   ],
+   "clave": 2,
+   "especialidad": "Neumología",
+   "tema": "Dilatación bronquial · estudio de imagen",
+   "diagnostico": "Bronquiectasias post-TBC",
+   "tipo": "prueba",
+   "dificultad": "media",
+   "razonamiento": "Paso 1: secuela de tuberculosis con tos productiva purulenta abundante, hemoptisis e infecciones recurrentes; baciloscopías negativas. Paso 2: sugiere dilatación irreversible del árbol bronquial, cuya causa infecciosa más frecuente es la TBC. Paso 3: el estándar es la TEM de alta resolución (sensibilidad 97 %).",
+   "por_que_no": [
+    "Se reserva para localizar sangrado o tomar muestras dirigidas, no para demostrar la dilatación de la vía aérea.",
+    "",
+    "Sirve para guiar el antibiótico en las exacerbaciones, no para confirmar la alteración estructural.",
+    "Mide la repercusión funcional, pero no muestra la anatomía bronquial que define el cuadro.",
+    "Es el estudio inicial, pero su sensibilidad es de 50 %; ya fue inespecífica y repetirla no confirma."
+   ],
+   "trampa": [
+    "otro-momento",
+    "",
+    "otro-momento",
+    "no-confirmatorio",
+    "no-confirmatorio"
+   ],
+   "perla": "Dilatación bronquial: Rx sensibilidad 50 %, TEM 97 %; la TEM de alta resolución es el gold standard.",
+   "fuente": {
+    "carpeta": "6.NEUMOLOGIA",
+    "archivo": "Neumología -  Fundamentos teóricos_ENAM 2024.pdf",
+    "seccion": "p. 226 · Rx sensibilidad 50 % vs TEM 97 %"
+   },
+   "gemela_de": null
+  },
+  {
+   "id": "2026-10-22-banco-neumo-epoc-bronquiectasias-028",
+   "enunciado": "Varón de 35 años, profesor, con neumonías a repetición en la infancia y tos con expectoración mucopurulenta diaria desde la adolescencia. PA 116/74 mmHg, FC 80 X', FR 18 X', T° 36,6 °C, SatO2 96 % (FiO2 0,21). Crepitantes gruesos en hemitórax derecho anterior. TEM de alta resolución: en lóbulo medio, bronquios con diámetro interno mayor que el de la arteria acompañante (imagen en anillo de sello en cortes transversales) y paredes paralelas que no se afinan hacia la periferia, sin constricciones arrosariadas ni formaciones quísticas. ¿Qué tipo morfológico describe la tomografía?",
+   "opciones": [
+    "Enfisema paraseptal con bullas",
+    "Bronquiectasias saculares o quísticas",
+    "Bronquiectasias cilíndricas",
+    "Panal de abeja por fibrosis intersticial",
+    "Bronquiectasias varicosas"
+   ],
+   "clave": 3,
+   "especialidad": "Neumología",
+   "tema": "Dilatación bronquial · morfología en TEM",
+   "diagnostico": "Bronquiectasias cilíndricas",
+   "tipo": "diagnostico",
+   "dificultad": "alta",
+   "razonamiento": "Paso 1: bronquio mayor que su arteria (anillo de sello) con paredes paralelas que no se afinan (raíl de tranvía). Paso 2: dilatación irreversible y uniforme del bronquio, sin constricciones ni quistes. Paso 3: corresponde al tipo cilíndrico, el primero de la clasificación (cilíndricas, varicosas, saculares).",
+   "por_que_no": [
+    "Es destrucción alveolar subpleural con bullas, no dilatación de la luz bronquial.",
+    "Mostrarían dilataciones quísticas terminales, a veces con niveles; aquí no hay quistes.",
+    "",
+    "Son quistes subpleurales agrupados de fase tardía; no corresponde a bronquios de paredes paralelas.",
+    "Tendrían dilataciones con constricciones alternas, de aspecto arrosariado, que la TEM descarta."
+   ],
+   "trampa": [
+    "diferencial",
+    "otro-estadio",
+    "",
+    "otro-estadio",
+    "diferencial"
+   ],
+   "perla": "TEM: raíl de tranvía y anillo de sello; tipos: cilíndricas, varicosas y saculares o quísticas.",
+   "fuente": {
+    "carpeta": "6.NEUMOLOGIA",
+    "archivo": "Neumología -  Fundamentos teóricos_ENAM 2024.pdf",
+    "seccion": "p. 227 · clasificación: cilíndricas, varicosas, saculares"
+   },
+   "gemela_de": null
+  },
+  {
+   "id": "2026-10-22-banco-neumo-epoc-bronquiectasias-029",
+   "enunciado": "Varón de 58 años, con TEM previa que muestra signo de raíl de tranvía y de anillo de sello en ambos lóbulos inferiores, y tres cultivos de esputo del último año con Pseudomonas aeruginosa. Hace 5 días presenta mayor volumen y purulencia del esputo y fiebre. Sin alergias. PA 124/78 mmHg, FC 98 X', FR 22 X', T° 38,3 °C, SatO2 93 % (FiO2 0,21), Glasgow 15. Crepitantes gruesos bibasales. Tolera la vía oral. Cultivo actual: P. aeruginosa sensible a ciprofloxacino. ¿Qué tratamiento antibiótico corresponde en este episodio?",
+   "opciones": [
+    "Amoxicilina-ácido clavulánico por 10 a 14 días",
+    "Ciprofloxacino oral según cultivo por 5 a 7 días",
+    "Ciprofloxacino oral según cultivo por 10 a 14 días",
+    "Amoxicilina-ácido clavulánico por 5 a 7 días",
+    "Azitromicina oral por 3 días como único fármaco"
+   ],
+   "clave": 3,
+   "especialidad": "Neumología",
+   "tema": "Dilatación bronquial · exacerbación",
+   "diagnostico": "Exacerbación de bronquiectasias colonizadas por Pseudomonas",
+   "tipo": "tratamiento",
+   "dificultad": "muy alta",
+   "razonamiento": "Paso 1: dilatación bronquial en TEM (raíl de tranvía, anillo de sello) con colonización por Pseudomonas. Paso 2: exacerbación infecciosa no grave, con cultivo que muestra sensibilidad a quinolona. Paso 3: antibiótico dirigido por cultivo (antipseudomónico oral) durante 10 a 14 días.",
+   "por_que_no": [
+    "No cubre Pseudomonas; sería útil si el germen fuera H. influenzae sensible.",
+    "Esa duración corresponde a la exacerbación de la obstrucción crónica por tabaco; aquí se tratan 10 a 14 días.",
+    "",
+    "Es el esquema de la exacerbación bacteriana por tabaco, sin Pseudomonas; no aplica a este paciente colonizado.",
+    "No es antipseudomónico y el curso es corto; los macrólidos se eligen según cultivo y gravedad en otros gérmenes."
+   ],
+   "trampa": [
+    "mismo-grupo",
+    "otro-contexto",
+    "",
+    "otro-contexto",
+    "mismo-grupo"
+   ],
+   "perla": "Exacerbación de dilataciones bronquiales: antibiótico según cultivo por 10-14 días (vs 5-7 en la exacerbación por tabaco).",
+   "fuente": {
+    "carpeta": "6.NEUMOLOGIA",
+    "archivo": "Neumología -  Fundamentos teóricos_ENAM 2024.pdf",
+    "seccion": "p. 229 · tratamiento antibiótico por cultivo, 10-14 días"
+   },
+   "gemela_de": null
+  },
+  {
+   "id": "2026-10-22-banco-neumo-epoc-bronquiectasias-030",
+   "enunciado": "Varón de 52 años, albañil, con neumonías graves en la infancia y tos con expectoración purulenta abundante desde hace 20 años; una TEM de hace 2 años mostró bronquios en anillo de sello en el lóbulo inferior izquierdo. Desde hace 10 días tiene fiebre, esputo fétido y dolor pleurítico izquierdo. PA 118/72 mmHg, FC 108 X', FR 24 X', T° 39,0 °C, SatO2 92 % (FiO2 0,21). Radiografía: cavidad de 5 cm con nivel hidroaéreo en lóbulo inferior izquierdo. Leucocitos 18 000/mm³. ¿Qué complicación explica el cuadro actual?",
+   "opciones": [
+    "Absceso pulmonar sobre las dilataciones bronquiales",
+    "Hemorragia masiva por erosión de arterias bronquiales",
+    "Reactivación de tuberculosis cavitada apical",
+    "Colonización crónica por Pseudomonas aeruginosa",
+    "Neumotórax por ruptura de bulla subpleural"
+   ],
+   "clave": 1,
+   "especialidad": "Neumología",
+   "tema": "Dilatación bronquial · complicaciones",
+   "diagnostico": "Absceso pulmonar complicando bronquiectasias",
+   "tipo": "complicacion",
+   "dificultad": "alta",
+   "razonamiento": "Paso 1: tos purulenta crónica con anillo de sello en TEM previa: dilatación bronquial irreversible. Paso 2: fiebre, esputo fétido y cavidad con nivel hidroaéreo en el mismo lóbulo. Paso 3: complicación supurativa: absceso pulmonar, una de las más frecuentes junto con infecciones y hemorragia masiva.",
+   "por_que_no": [
+    "",
+    "Es otra complicación frecuente, pero se manifiesta con hemoptisis abundante, que este paciente no presenta.",
+    "La cavidad está en lóbulo inferior con nivel hidroaéreo y esputo fétido, más propio de infección piógena.",
+    "Es frecuente en estos pacientes, pero no explica una cavidad nueva con nivel hidroaéreo.",
+    "Daría una línea pleural sin trama y colapso pulmonar, no una cavidad con nivel hidroaéreo."
+   ],
+   "trampa": [
+    "",
+    "otro-momento",
+    "diferencial",
+    "mismo-grupo",
+    "diferencial"
+   ],
+   "perla": "Complicaciones más frecuentes de la dilatación bronquial: infecciones, hemorragia masiva y absceso pulmonar.",
+   "fuente": {
+    "carpeta": "6.NEUMOLOGIA",
+    "archivo": "18. BRONQUIESTASIAS.pdf",
+    "seccion": "p. 1 · gold standard, signos tomográficos y complicaciones"
+   },
+   "gemela_de": null
+  }
+ ]
+}

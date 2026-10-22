@@ -1,68 +1,166 @@
 {
-  "actualizado": "2026-10-21",
-  "simulacros": [
-    {
-      "id": "2026-10-17-manana",
-      "fecha": "2026-10-17",
-      "turno": "manana",
-      "titulo": "Simulacro de prueba",
-      "n": 10
-    },
-    {
-      "id": "2026-10-18-manana",
-      "fecha": "2026-10-18",
-      "turno": "manana",
-      "titulo": "Simulacro de la mañana",
-      "n": 100
-    },
-    {
-      "id": "2026-10-18-noche",
-      "fecha": "2026-10-18",
-      "turno": "noche",
-      "titulo": "Simulacro de la noche",
-      "n": 50
-    },
-    {
-      "id": "2026-10-19-manana",
-      "fecha": "2026-10-19",
-      "turno": "manana",
-      "titulo": "Simulacro de la mañana",
-      "n": 100
-    },
-    {
-      "id": "2026-10-19-noche",
-      "fecha": "2026-10-19",
-      "turno": "noche",
-      "titulo": "Simulacro de la noche",
-      "n": 50
-    },
-    {
-      "id": "2026-10-20-manana",
-      "fecha": "2026-10-20",
-      "turno": "manana",
-      "titulo": "Simulacro de la mañana",
-      "n": 100
-    },
-    {
-      "id": "2026-10-20-noche",
-      "fecha": "2026-10-20",
-      "turno": "noche",
-      "titulo": "Simulacro de la noche",
-      "n": 50
-    },
-    {
-      "id": "2026-10-21-manana",
-      "fecha": "2026-10-21",
-      "turno": "manana",
-      "titulo": "Simulacro de la mañana",
-      "n": 100
-    },
-    {
-      "id": "2026-10-21-noche",
-      "fecha": "2026-10-21",
-      "turno": "noche",
-      "titulo": "Simulacro de la noche",
-      "n": 50
-    }
-  ]
+ "actualizado": "2026-10-22",
+ "simulacros": [
+  {
+   "id": "2026-10-17-manana",
+   "fecha": "2026-10-17",
+   "turno": "manana",
+   "titulo": "Simulacro de prueba",
+   "n": 10
+  },
+  {
+   "id": "2026-10-18-manana",
+   "fecha": "2026-10-18",
+   "turno": "manana",
+   "titulo": "Simulacro de la mañana",
+   "n": 100
+  },
+  {
+   "id": "2026-10-18-noche",
+   "fecha": "2026-10-18",
+   "turno": "noche",
+   "titulo": "Simulacro de la noche",
+   "n": 50
+  },
+  {
+   "id": "2026-10-19-manana",
+   "fecha": "2026-10-19",
+   "turno": "manana",
+   "titulo": "Simulacro de la mañana",
+   "n": 100
+  },
+  {
+   "id": "2026-10-19-noche",
+   "fecha": "2026-10-19",
+   "turno": "noche",
+   "titulo": "Simulacro de la noche",
+   "n": 50
+  },
+  {
+   "id": "2026-10-20-manana",
+   "fecha": "2026-10-20",
+   "turno": "manana",
+   "titulo": "Simulacro de la mañana",
+   "n": 100
+  },
+  {
+   "id": "2026-10-20-noche",
+   "fecha": "2026-10-20",
+   "turno": "noche",
+   "titulo": "Simulacro de la noche",
+   "n": 50
+  },
+  {
+   "id": "2026-10-21-manana",
+   "fecha": "2026-10-21",
+   "turno": "manana",
+   "titulo": "Simulacro de la mañana",
+   "n": 100
+  },
+  {
+   "id": "2026-10-21-noche",
+   "fecha": "2026-10-21",
+   "turno": "noche",
+   "titulo": "Simulacro de la noche",
+   "n": 50
+  },
+  {
+   "id": "2026-10-22-banco-cpn-hta",
+   "fecha": "2026-10-22",
+   "turno": "noche",
+   "titulo": "Banco · control prenatal e hipertensión del embarazo",
+   "n": 80
+  },
+  {
+   "id": "2026-10-22-banco-dbg-vih",
+   "fecha": "2026-10-22",
+   "turno": "noche",
+   "titulo": "Banco · alteración glucémica y VIH en la gestación",
+   "n": 80
+  },
+  {
+   "id": "2026-10-22-banco-neumo-asma",
+   "fecha": "2026-10-22",
+   "turno": "noche",
+   "titulo": "Banco · Asma bronquial",
+   "n": 30
+  },
+  {
+   "id": "2026-10-22-banco-neumo-epoc-bronquiectasias",
+   "fecha": "2026-10-22",
+   "turno": "noche",
+   "titulo": "Banco · EPOC y bronquiectasias",
+   "n": 30
+  },
+  {
+   "id": "2026-10-22-banco-neumo-neumonia",
+   "fecha": "2026-10-22",
+   "turno": "noche",
+   "titulo": "Banco · Neumonía",
+   "n": 30
+  },
+  {
+   "id": "2026-10-22-banco-neumo-tbc",
+   "fecha": "2026-10-22",
+   "turno": "noche",
+   "titulo": "Banco · Tuberculosis",
+   "n": 30
+  },
+  {
+   "id": "2026-10-22-banco-neumo-tep-htp",
+   "fecha": "2026-10-22",
+   "turno": "noche",
+   "titulo": "Banco · Tromboembolismo pulmonar e hipertensión pulmonar",
+   "n": 30
+  },
+  {
+   "id": "2026-10-22-banco-neumo-insuf-resp-sdra",
+   "fecha": "2026-10-22",
+   "turno": "noche",
+   "titulo": "Banco · Insuficiencia respiratoria, gases arteriales y SDRA",
+   "n": 30
+  },
+  {
+   "id": "2026-10-22-banco-neumo-pleura",
+   "fecha": "2026-10-22",
+   "turno": "noche",
+   "titulo": "Banco · Patología pleural: derrame, empiema y neumotórax",
+   "n": 30
+  },
+  {
+   "id": "2026-10-22-banco-neumo-neoplasias",
+   "fecha": "2026-10-22",
+   "turno": "noche",
+   "titulo": "Banco · Neoplasias pulmonares",
+   "n": 30
+  },
+  {
+   "id": "2026-10-22-banco-neumo-epid-neumoconiosis-micosis",
+   "fecha": "2026-10-22",
+   "turno": "noche",
+   "titulo": "Banco · Intersticiales, neumoconiosis y micosis pulmonares",
+   "n": 30
+  },
+  {
+   "id": "2026-10-22-banco-neumo-funcion-pulmonar",
+   "fecha": "2026-10-22",
+   "turno": "noche",
+   "titulo": "Banco · Fisiología respiratoria y pruebas funcionales",
+   "n": 30
+  },
+  {
+   "id": "2026-10-22-banco-neumo-altura-co",
+   "fecha": "2026-10-22",
+   "turno": "noche",
+   "titulo": "Banco · Patología de altura e intoxicación por monóxido de carbono",
+   "n": 30
+  },
+  {
+   "id": "2026-10-22-manana",
+   "fecha": "2026-10-22",
+   "turno": "manana",
+   "titulo": "Simulacro de la mañana",
+   "n": 100
+  }
+ ]
 }

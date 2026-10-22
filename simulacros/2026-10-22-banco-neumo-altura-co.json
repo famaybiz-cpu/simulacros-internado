@@ -1,0 +1,1190 @@
+{
+ "id": "2026-10-22-banco-neumo-altura-co",
+ "fecha": "2026-10-22",
+ "turno": "noche",
+ "titulo": "Banco · Patología de altura e intoxicación por monóxido de carbono",
+ "segundos_por_pregunta": 60,
+ "temas_noche": [
+  "Patología de altura e intoxicación por monóxido de carbono"
+ ],
+ "feedback_noche": "Aprueba quien separa las tres formas por el tiempo y el órgano: cefalea a las 6-24 h (leve), ataxia o confusión (cerebral: dexametasona c/6 h) y disnea en reposo con crépitos al 2.º-4.º día (pulmonar: nifedipino); en las graves manda el descenso de 500-1000 m. En el gas del brasero se falla por confiar en la SatO2 y la PaO2 normales: se confirma con carboxihemoglobina y el hiperbárico se reserva para coma, gestación, acidosis severa o nivel muy alto.",
+ "perlas_noche": [
+  "Profilaxis: acetazolamida 125-250 mg c/12 h desde 24-48 h antes hasta 48 h en la altitud máxima.",
+  "Ataxia o confusión tras el ascenso = forma cerebral: descenso + O2 + dexametasona 4 mg c/6 h.",
+  "Esputo rosado y crépitos al 2.º-4.º día = forma pulmonar: descenso + O2 + nifedipino 10 mg c/8 h.",
+  "Brasero o calentador: SatO2 y PaO2 normales no descartan nada; se pide carboxihemoglobina.",
+  "Vida media de la COHb: 4-5 h en aire, 60-90 min con O2 al 100 %, 20-30 min en cámara hiperbárica."
+ ],
+ "preguntas": [
+  {
+   "id": "2026-10-22-banco-neumo-altura-co-001",
+   "enunciado": "Mujer de 34 años, de Lima, llegó en avión a Cusco (3400 msnm) hace 9 horas y por la tarde recorrió el centro histórico a pie. Refiere cefalea frontal opresiva, náuseas sin vómitos y cansancio. Sin antecedentes ni medicación habitual. PA 118/76 mmHg, FC 98 X', FR 20 X', T° 36,8 °C, SatO2 86 % (FiO2 0,21). Lúcida, marcha en tándem normal, sin rigidez de nuca; murmullo vesicular sin ruidos agregados. Se indica reposo, no seguir subiendo y paracetamol. ¿Qué fármaco adicional, con su dosis, acelera la aclimatación en este cuadro?",
+   "opciones": [
+    "Acetazolamida 125 mg VO en dosis única diaria",
+    "Dexametasona 4 mg VO cada 12 horas",
+    "Nifedipino 10 mg VO cada 8 horas",
+    "Dexametasona 4 mg VO cada 6 horas",
+    "Acetazolamida 250 mg VO cada 12 horas"
+   ],
+   "clave": 5,
+   "especialidad": "Neumología",
+   "tema": "Altura · forma leve: tratamiento",
+   "diagnostico": "Mal agudo de montaña leve en turista",
+   "tipo": "tratamiento",
+   "dificultad": "media",
+   "razonamiento": "Paso 1: cefalea con náuseas y cansancio a las 9 horas de un ascenso rápido a 3400 msnm, con marcha, conciencia y pulmones normales. Paso 2: corresponde a la forma leve de la enfermedad de altura, sin signos cerebrales ni pulmonares. Paso 3: además de reposo, no ascender y analgésico, se agrega acetazolamida 250 mg VO c/12 h, que acelera la aclimatación.",
+   "por_que_no": [
+    "Dosis y frecuencia insuficientes; incluso la profilaxis usa 125-250 mg cada 12 horas.",
+    "Es la profilaxis alternativa para quien no tolera acetazolamida, no el tratamiento del cuadro ya instalado.",
+    "Se usa en la forma pulmonar con disnea y crépitos; esta paciente tiene pulmones limpios.",
+    "Es la dosis de la forma cerebral con ataxia o confusión; aquí la marcha y la conciencia son normales.",
+    ""
+   ],
+   "trampa": [
+    "umbral",
+    "otra-poblacion",
+    "diferencial",
+    "otro-estadio",
+    ""
+   ],
+   "perla": "Forma leve: reposo, no subir, O2 2-4 L/min, paracetamol y acetazolamida 250 mg c/12 h.",
+   "fuente": {
+    "carpeta": "6.NEUMOLOGIA",
+    "archivo": "21. MAL AGUDO DE MONTAÑA.pdf",
+    "seccion": "pág 1 · Tratamiento del MAM leve"
+   },
+   "gemela_de": null
+  },
+  {
+   "id": "2026-10-22-banco-neumo-altura-co-002",
+   "enunciado": "Varón de 27 años, de Trujillo, acude 5 días antes de volar directo a Juliaca (3800 msnm) para un trabajo de campo de 10 días con caminatas hasta 4600 msnm. Hace 2 años, a las 12 horas de llegar a Huaraz, tuvo cefalea intensa, vómitos e insomnio que cedieron al bajar. Sin alergias; creatinina 0,9 mg/dl. PA 120/70 mmHg, FC 72 X', FR 14 X', IMC 31 kg/m². Examen cardiopulmonar y neurológico normal. Pregunta cómo evitar que se repita. ¿Qué esquema farmacológico preventivo corresponde indicarle?",
+   "opciones": [
+    "Acetazolamida 250 mg c/12 h, solo durante las 24 h previas al vuelo",
+    "Dexametasona 4 mg c/12 h, de 24-48 h antes a 48 h en la cota máxima",
+    "Acetazolamida 125-250 mg c/12 h, de 24-48 h antes a 48 h en la cota máxima",
+    "Acetazolamida 250 mg c/12 h, solo si aparece cefalea tras llegar a Juliaca",
+    "Nifedipino 10 mg c/8 h, de 24-48 h antes a 48 h en la cota máxima"
+   ],
+   "clave": 3,
+   "especialidad": "Neumología",
+   "tema": "Altura · profilaxis farmacológica",
+   "diagnostico": "Prevención en viajero con episodio previo",
+   "tipo": "dosis",
+   "dificultad": "alta",
+   "razonamiento": "Paso 1: viajero con episodio previo tras ascenso, obesidad y ascenso rápido programado a 3800-4600 msnm. Paso 2: tiene varios factores de riesgo y tolera la acetazolamida, que es el fármaco preventivo de elección. Paso 3: 125-250 mg VO c/12 h, iniciando 24-48 h antes y manteniendo hasta 48 h después de alcanzar la altitud máxima, junto con ascenso gradual.",
+   "por_que_no": [
+    "La duración es insuficiente: debe continuarse hasta 48 horas después de llegar a la altitud máxima.",
+    "Es la alternativa preventiva solo para quien no tolera acetazolamida; él no tiene esa limitación.",
+    "",
+    "Esa es la pauta de tratamiento del cuadro leve ya instalado; él necesita prevenir por su antecedente.",
+    "Es el fármaco de la forma pulmonar ya establecida (disnea, crépitos); el material no lo da como profilaxis."
+   ],
+   "trampa": [
+    "umbral",
+    "otra-poblacion",
+    "",
+    "otro-momento",
+    "diferencial"
+   ],
+   "perla": "Profilaxis: acetazolamida 125-250 mg c/12 h, de 24-48 h antes a 48 h tras la altitud máxima.",
+   "fuente": {
+    "carpeta": "6.NEUMOLOGIA",
+    "archivo": "21. MAL AGUDO DE MONTAÑA.pdf",
+    "seccion": "pág 1 · Profilaxis del MAM"
+   },
+   "gemela_de": null
+  },
+  {
+   "id": "2026-10-22-banco-neumo-altura-co-003",
+   "enunciado": "Mujer de 45 años, de Piura, planea el trekking de Salkantay saliendo de Cusco (3400 msnm) hasta un paso a 4600 msnm. En un viaje a Puno el año pasado inició acetazolamida 250 mg c/12 h dos días antes de subir y la suspendió al segundo día por efectos adversos que no toleró; aun así presentó cefalea y náuseas al llegar. Hipotiroidea con levotiroxina. PA 112/70 mmHg, FC 76 X', FR 14 X', SatO2 98 % (FiO2 0,21). Examen normal. ¿Qué fármaco y dosis preventiva corresponde indicarle para este viaje?",
+   "opciones": [
+    "Dexametasona 4 mg VO cada 12 horas",
+    "Nifedipino 10 mg VO cada 8 horas",
+    "Paracetamol VO a demanda por cefalea",
+    "Dexametasona 4 mg VO cada 6 horas",
+    "Acetazolamida 125 mg VO cada 12 horas"
+   ],
+   "clave": 1,
+   "especialidad": "Neumología",
+   "tema": "Altura · profilaxis alternativa",
+   "diagnostico": "Prevención en intolerante a acetazolamida",
+   "tipo": "tratamiento",
+   "dificultad": "alta",
+   "razonamiento": "Paso 1: viajera que subirá rápido a 4600 msnm y que ya tuvo síntomas tras un ascenso previo. Paso 2: necesita profilaxis, pero no toleró acetazolamida, el fármaco de primera línea. Paso 3: la alternativa del material es dexametasona 4 mg c/12 h, además de ascenso gradual, hidratación y evitar alcohol.",
+   "por_que_no": [
+    "",
+    "Se indica para tratar la forma pulmonar con crépitos y esputo rosado, no como prevención en ella.",
+    "Es analgesia del cuadro leve ya instalado; no previene la aparición de síntomas tras el ascenso.",
+    "Es la dosis de tratamiento de la forma cerebral con ataxia o confusión, no la preventiva.",
+    "Es la profilaxis de elección en quien la tolera; ella ya la suspendió por intolerancia."
+   ],
+   "trampa": [
+    "",
+    "otro-contexto",
+    "otro-momento",
+    "otro-estadio",
+    "otra-poblacion"
+   ],
+   "perla": "No tolera acetazolamida → profilaxis con dexametasona 4 mg c/12 h (c/6 h es para tratar la forma cerebral).",
+   "fuente": {
+    "carpeta": "6.NEUMOLOGIA",
+    "archivo": "21. MAL AGUDO DE MONTAÑA.pdf",
+    "seccion": "pág 1 · Profilaxis: alternativa"
+   },
+   "gemela_de": null
+  },
+  {
+   "id": "2026-10-22-banco-neumo-altura-co-004",
+   "enunciado": "Varón de 39 años, andinista argentino, lleva 3 días en un campamento a 4900 msnm en la Cordillera Blanca. Desde ayer tiene cefalea intensa con vómitos que no cedió con ibuprofeno; hoy sus compañeros lo notan desorientado y tambaleante. PA 130/84 mmHg, FC 112 X', FR 22 X', T° 36,9 °C, SatO2 71 % (FiO2 0,21). Glasgow 13 (O3 V4 M6), no logra la marcha talón-punta, pupilas isocóricas reactivas, sin déficit motor focal; pulmones sin crépitos. Glucemia capilar 108 mg/dl. Ya se organiza el descenso con oxígeno. ¿Qué fármaco y dosis debe administrarse además?",
+   "opciones": [
+    "Nifedipino 10 mg VO cada 8 horas",
+    "Dexametasona 4 mg IV cada 6 horas",
+    "Acetazolamida 125 mg VO cada 12 horas",
+    "Dexametasona 4 mg VO cada 12 horas",
+    "Acetazolamida 250 mg VO cada 12 horas"
+   ],
+   "clave": 2,
+   "especialidad": "Neumología",
+   "tema": "Altura · forma cerebral: fármaco",
+   "diagnostico": "Edema cerebral de altura en andinista",
+   "tipo": "dosis",
+   "dificultad": "alta",
+   "razonamiento": "Paso 1: tras 3 días a 4900 msnm, cefalea y vómitos progresan a desorientación, Glasgow 13 y ataxia, con glucemia normal y pulmones limpios. Paso 2: es la forma cerebral grave de la enfermedad de altura. Paso 3: es una emergencia: descenso, oxígeno y dexametasona 4 mg VO/IM/IV c/6 h.",
+   "por_que_no": [
+    "Corresponde a la forma pulmonar con disnea y crépitos; sus pulmones están limpios.",
+    "",
+    "Es la dosis baja de profilaxis antes del ascenso, no el tratamiento de una forma grave.",
+    "Es la dosis preventiva para quien no tolera acetazolamida; el tratamiento cerebral va cada 6 horas.",
+    "Es el fármaco de la forma leve sin signos neurológicos; con ataxia y confusión no basta."
+   ],
+   "trampa": [
+    "diferencial",
+    "",
+    "otro-momento",
+    "umbral",
+    "otro-estadio"
+   ],
+   "perla": "Confusión o ataxia tras el ascenso → descenso + O2 + dexametasona 4 mg c/6 h.",
+   "fuente": {
+    "carpeta": "6.NEUMOLOGIA",
+    "archivo": "21. MAL AGUDO DE MONTAÑA.pdf",
+    "seccion": "pág 1 · Tratamiento moderado-grave"
+   },
+   "gemela_de": null
+  },
+  {
+   "id": "2026-10-22-banco-neumo-altura-co-005",
+   "enunciado": "Varón de 24 años, de Chiclayo, llegó hace 3 días a Cerro de Pasco (4300 msnm) para trabajar en una mina y desde el primer día cargó material pesado. Ayer inició tos seca; hoy expectora esputo espumoso rosado y tiene disnea en reposo. PA 116/72 mmHg, FC 124 X', FR 34 X', T° 37,4 °C, SatO2 64 % (FiO2 0,21) y 85 % con mascarilla simple a 6 L/min. Cianosis labial, crepitantes en ambos campos pulmonares; Glasgow 15, marcha normal. Radiografía: opacidades alveolares en parches bilaterales con silueta cardíaca normal. Se coordina el traslado a menor altitud. ¿Qué fármaco específico y dosis se indica?",
+   "opciones": [
+    "Acetazolamida 250 mg VO cada 12 horas",
+    "Dexametasona 4 mg VO cada 6 horas",
+    "Acetazolamida 125 mg VO cada 12 horas",
+    "Nifedipino 10 mg VO cada 24 horas",
+    "Nifedipino 10 mg VO cada 8 horas"
+   ],
+   "clave": 5,
+   "especialidad": "Neumología",
+   "tema": "Altura · forma pulmonar: fármaco",
+   "diagnostico": "Edema pulmonar de altura en trabajador minero",
+   "tipo": "tratamiento",
+   "dificultad": "alta",
+   "razonamiento": "Paso 1: al tercer día de un ascenso rápido con esfuerzo intenso, tos que pasa a esputo rosado, disnea en reposo, crépitos bilaterales y SatO2 64 %, con corazón normal. Paso 2: es la forma pulmonar grave de la enfermedad de altura. Paso 3: descenso y oxígeno, con nifedipino 10 mg VO c/8 h como fármaco específico.",
+   "por_que_no": [
+    "Trata la forma leve con cefalea sin hipoxemia grave; aquí hay disnea en reposo y crépitos.",
+    "Es el fármaco de la forma cerebral con ataxia o confusión; él está lúcido y con marcha normal.",
+    "Es dosis preventiva previa al ascenso; no trata la ocupación alveolar ya establecida.",
+    "El fármaco es correcto, pero la frecuencia es insuficiente: la pauta del material es cada 8 horas.",
+    ""
+   ],
+   "trampa": [
+    "otro-estadio",
+    "diferencial",
+    "otro-momento",
+    "umbral",
+    ""
+   ],
+   "perla": "Disnea + crépitos + esputo rosado al 2.º-4.º día de altura → nifedipino 10 mg c/8 h.",
+   "fuente": {
+    "carpeta": "6.NEUMOLOGIA",
+    "archivo": "21. MAL AGUDO DE MONTAÑA.pdf",
+    "seccion": "pág 1 · Tratamiento moderado-grave"
+   },
+   "gemela_de": null
+  },
+  {
+   "id": "2026-10-22-banco-neumo-altura-co-006",
+   "enunciado": "Mujer de 31 años, turista estadounidense, cursa el cuarto día de un trekking alrededor del Ausangate y duerme a 4700 msnm. Desde anoche presenta tos, expectoración rosada y disnea que le impide caminar 20 metros. PA 110/70 mmHg, FC 118 X', FR 30 X', T° 37,2 °C, SatO2 68 % (FiO2 0,21). Crepitantes bilaterales hasta campos medios; lúcida, marcha conservada. El guía tiene un balón de oxígeno, nifedipino y una camioneta a 2 horas que puede bajar hasta 3700 msnm. ¿Cuál es la medida principal que debe indicarse?",
+   "opciones": [
+    "Nifedipino 10 mg y reposo en el campamento hoy",
+    "Acetazolamida 250 mg y no seguir subiendo hoy",
+    "Reposo en el campamento con oxígeno a 2-4 L/min",
+    "Descenso de 100 a 200 m y reevaluar en 12 horas",
+    "Descenso inmediato de 500 a 1000 m con oxígeno"
+   ],
+   "clave": 5,
+   "especialidad": "Neumología",
+   "tema": "Altura · forma pulmonar: medida principal",
+   "diagnostico": "Edema pulmonar de altura en trekking",
+   "tipo": "conducta",
+   "dificultad": "alta",
+   "razonamiento": "Paso 1: cuarto día a 4700 msnm con esputo rosado, disnea en reposo, crépitos y SatO2 68 %. Paso 2: es la forma pulmonar grave de la enfermedad de altura, una emergencia. Paso 3: la medida principal es el descenso inmediato de 500-1000 m con oxígeno; el nifedipino es complementario y no sustituye el descenso.",
+   "por_que_no": [
+    "El nifedipino complementa el descenso en la forma pulmonar, pero no lo reemplaza.",
+    "Esa pauta corresponde a la forma leve con cefalea aislada; aquí ya hay ocupación alveolar.",
+    "Es manejo de la forma leve sin compromiso pulmonar; con disnea en reposo y crépitos hay que bajar.",
+    "El descenso es insuficiente: en las formas graves se recomienda bajar de 500 a 1000 m de inmediato.",
+    ""
+   ],
+   "trampa": [
+    "otro-momento",
+    "otro-estadio",
+    "otro-estadio",
+    "umbral",
+    ""
+   ],
+   "perla": "Forma grave de altura: lo primero es bajar 500-1000 m; los fármacos acompañan, no reemplazan.",
+   "fuente": {
+    "carpeta": "6.NEUMOLOGIA",
+    "archivo": "21. MAL AGUDO DE MONTAÑA.pdf",
+    "seccion": "pág 1 · Tratamiento moderado-grave"
+   },
+   "gemela_de": null
+  },
+  {
+   "id": "2026-10-22-banco-neumo-altura-co-007",
+   "enunciado": "Varón de 52 años, de Lima, hipertenso con enalapril, está en un refugio a 4800 msnm en el Huascarán. Tras 2 días con cefalea y vómitos, hoy está somnoliento y no puede mantenerse de pie sin apoyo. Una tormenta de nieve impide bajar hasta el amanecer, en 10 horas, y el único balón de oxígeno se agotó. PA 150/92 mmHg, FC 108 X', FR 24 X', T° 36,6 °C, SatO2 70 % (FiO2 0,21). Glasgow 12, ataxia troncal, sin déficit focal; pulmones limpios. El refugio cuenta con un botiquín de montaña completo. ¿Qué conducta corresponde mientras no es posible descender?",
+   "opciones": [
+    "Nifedipino 10 mg c/8 h y reposo hasta el amanecer",
+    "Acetazolamida 250 mg c/12 h y reposo hasta el amanecer",
+    "Dexametasona 4 mg c/12 h y reposo hasta el amanecer",
+    "Cámara hiperbárica portátil y dexametasona 4 mg c/6 h",
+    "Paracetamol, hidratación y reposo hasta el amanecer"
+   ],
+   "clave": 4,
+   "especialidad": "Neumología",
+   "tema": "Altura · sin posibilidad de descenso",
+   "diagnostico": "Edema cerebral de altura en refugio aislado",
+   "tipo": "conducta",
+   "dificultad": "muy alta",
+   "razonamiento": "Paso 1: somnolencia, Glasgow 12 y ataxia tras 2 días a 4800 msnm, con pulmones limpios. Paso 2: es la forma cerebral grave, que exige descenso y oxígeno, ambos imposibles ahora. Paso 3: la cámara hiperbárica portátil sustituye al descenso y al oxígeno, y se asocia dexametasona 4 mg c/6 h.",
+   "por_que_no": [
+    "Es el fármaco de la forma pulmonar con crépitos; aquí los pulmones están limpios.",
+    "Sirve en la forma leve sin signos neurológicos; con Glasgow 12 y ataxia es insuficiente.",
+    "La frecuencia es la preventiva; además, sin oxígeno ni descenso falta la medida que suple la presión.",
+    "",
+    "Es solo sintomático de la forma leve; no trata la forma cerebral con alteración de conciencia."
+   ],
+   "trampa": [
+    "diferencial",
+    "otro-estadio",
+    "umbral",
+    "",
+    "otro-estadio"
+   ],
+   "perla": "Sin descenso ni oxígeno posibles: cámara hiperbárica portátil + fármaco específico.",
+   "fuente": {
+    "carpeta": "6.NEUMOLOGIA",
+    "archivo": "21. MAL AGUDO DE MONTAÑA.pdf",
+    "seccion": "pág 1 · Tratamiento moderado-grave: O2 o cámara hiperbárica portátil"
+   },
+   "gemela_de": null
+  },
+  {
+   "id": "2026-10-22-banco-neumo-altura-co-008",
+   "enunciado": "Varón de 58 años, de Tumbes, fumador de 10 paquetes-año, llegó ayer por carretera a Puno (3800 msnm) para un congreso. Desde la madrugada tiene cefalea, náuseas, falta de apetito y durmió mal. PA 134/82 mmHg, FC 96 X', FR 20 X', T° 36,7 °C, SatO2 85 % (FiO2 0,21). Lúcido, sin déficit neurológico, pulmones sin ruidos agregados. Recibe reposo, acetazolamida y paracetamol en el hotel, y se programa un control por la tarde. ¿Qué hallazgo en ese control obligaría a indicar el descenso inmediato?",
+   "opciones": [
+    "No logra caminar en línea recta talón-punta",
+    "Anorexia y astenia de predominio matinal",
+    "Náuseas con dos episodios de vómitos",
+    "Insomnio con despertares frecuentes",
+    "Cefalea que persiste pese a dosis de paracetamol"
+   ],
+   "clave": 1,
+   "especialidad": "Neumología",
+   "tema": "Altura · signo de alarma",
+   "diagnostico": "Mal agudo de montaña: vigilancia de progresión",
+   "tipo": "severidad",
+   "dificultad": "media",
+   "razonamiento": "Paso 1: cefalea, náuseas, anorexia e insomnio a las pocas horas del ascenso, con examen neurológico y pulmonar normal. Paso 2: es la forma leve, que puede progresar a la cerebral. Paso 3: la ataxia (marcha talón-punta fallida) indica forma cerebral y exige descenso, oxígeno y dexametasona; los demás síntomas son del cuadro leve.",
+   "por_que_no": [
+    "",
+    "Son criterios menores de la forma leve; acompañan a la cefalea sin indicar edema cerebral.",
+    "Los vómitos forman parte del cuadro leve clásico; sin ataxia ni confusión no exigen descenso.",
+    "Es un síntoma acompañante de la forma leve; sí obliga a evitar sedantes, no a bajar.",
+    "La cefalea es el síntoma central de la forma leve; su persistencia sola no define gravedad."
+   ],
+   "trampa": [
+    "",
+    "otro-estadio",
+    "otro-estadio",
+    "otro-estadio",
+    "otro-estadio"
+   ],
+   "perla": "En altura, la ataxia es la bandera roja: separa la forma leve de la cerebral.",
+   "fuente": {
+    "carpeta": "6.NEUMOLOGIA",
+    "archivo": "21. MAL AGUDO DE MONTAÑA.pdf",
+    "seccion": "pág 1 · Complicaciones graves del MAM"
+   },
+   "gemela_de": null
+  },
+  {
+   "id": "2026-10-22-banco-neumo-altura-co-009",
+   "enunciado": "Mujer de 22 años, estudiante de Ica, viajó en bus de Arequipa a Chivay (3600 msnm) cruzando un abra a 4900 msnm. A las 14 horas de llegar presenta cefalea, náuseas y mareo. PA 108/68 mmHg, FC 94 X', FR 18 X', T° 36,6 °C, SatO2 87 % (FiO2 0,21); glucemia capilar 96 mg/dl. Examen neurológico y pulmonar normales. En el puesto de salud aplican la escala clínica internacional de autoevaluación de síntomas tras el ascenso. ¿Desde qué puntaje total esa escala considera probable el cuadro, si hay cefalea?",
+   "opciones": [
+    "Tres puntos o más",
+    "Dos puntos o más",
+    "Seis puntos o más",
+    "Un punto o más",
+    "Cinco puntos o más"
+   ],
+   "clave": 1,
+   "especialidad": "Neumología",
+   "tema": "Altura · escala de severidad",
+   "diagnostico": "Mal agudo de montaña probable por puntaje",
+   "tipo": "severidad",
+   "dificultad": "alta",
+   "razonamiento": "Paso 1: cefalea con náuseas y mareo a las 14 horas de un ascenso rápido, con glucemia y examen normales. Paso 2: el cuadro es clínico y la escala de autoevaluación tras el ascenso cuantifica los síntomas. Paso 3: un puntaje de 3 o más, con cefalea, hace probable el cuadro leve de altura.",
+   "por_que_no": [
+    "",
+    "Queda por debajo del corte; la escala exige al menos tres puntos con cefalea presente.",
+    "Es un corte excesivo; el diagnóstico clínico probable se establece desde tres puntos.",
+    "Umbral demasiado bajo: una cefalea mínima aislada no alcanza el puntaje que hace probable el cuadro.",
+    "Exigir cinco puntos dejaría sin reconocer casos leves que ya cumplen el corte de tres."
+   ],
+   "trampa": [
+    "",
+    "umbral",
+    "umbral",
+    "umbral",
+    "umbral"
+   ],
+   "perla": "Escala de autoevaluación tras el ascenso (Lake Louise): ≥3 puntos con cefalea = cuadro probable.",
+   "fuente": {
+    "carpeta": "6.NEUMOLOGIA",
+    "archivo": "21. MAL AGUDO DE MONTAÑA.pdf",
+    "seccion": "pág 1 · Diagnóstico: escala de Lake Louise"
+   },
+   "gemela_de": null
+  },
+  {
+   "id": "2026-10-22-banco-neumo-altura-co-010",
+   "enunciado": "Varón de 41 años, de Lima, llegó a Huaraz (3050 msnm) y el mismo día subió a la Laguna 69 (4600 msnm). A las 10 horas presenta cefalea, anorexia y un vómito. Sin antecedentes; comió con normalidad. PA 124/80 mmHg, FC 92 X', FR 18 X', T° 36,7 °C, SatO2 88 % (FiO2 0,21). Lúcido, marcha talón-punta normal, sin rigidez de nuca ni focalización; pulmones limpios. El médico del hostal propone exámenes antes de iniciar el tratamiento. ¿Qué estudio se requiere para establecer el cuadro?",
+   "opciones": [
+    "Gasometría arterial con gradiente A-a",
+    "Radiografía de tórax posteroanterior",
+    "Tomografía cerebral simple sin medio de contraste",
+    "Ninguno: el cuadro es de diagnóstico clínico",
+    "Glucemia capilar y hemograma completo"
+   ],
+   "clave": 4,
+   "especialidad": "Neumología",
+   "tema": "Altura · estudio diagnóstico",
+   "diagnostico": "Mal agudo de montaña leve: diagnóstico clínico",
+   "tipo": "prueba",
+   "dificultad": "media",
+   "razonamiento": "Paso 1: cefalea con anorexia y vómito a las 10 horas de un ascenso rápido, con examen neurológico y pulmonar normal. Paso 2: es la forma leve de la enfermedad de altura, que se reconoce por la clínica. Paso 3: el diagnóstico es clínico (cefalea tras ascenso + ≥1 síntoma) y no requiere imágenes ni laboratorio; se inicia el tratamiento.",
+   "por_que_no": [
+    "Mostraría hipoxemia por baja presión inspirada, presente en todo viajero; no confirma el cuadro.",
+    "Se plantearía con disnea en reposo y crépitos (forma pulmonar); aquí los pulmones están limpios.",
+    "No se requieren imágenes; solo se considera si hubiera focalidad o dudas ante un cuadro neurológico grave.",
+    "",
+    "La glucemia sirve si hay riesgo de hipoglucemia (insulina, ayuno); este paciente comió y no la usa."
+   ],
+   "trampa": [
+    "no-confirmatorio",
+    "diferencial",
+    "otro-estadio",
+    "",
+    "otra-poblacion"
+   ],
+   "perla": "Cefalea tras ascenso + ≥1 síntoma = diagnóstico clínico; no se piden imágenes.",
+   "fuente": {
+    "carpeta": "6.NEUMOLOGIA",
+    "archivo": "21. MAL AGUDO DE MONTAÑA.pdf",
+    "seccion": "pág 1 · Diagnóstico"
+   },
+   "gemela_de": null
+  },
+  {
+   "id": "2026-10-22-banco-neumo-altura-co-011",
+   "enunciado": "Mujer de 63 años, de Chimbote, con diabetes tipo 2 en tratamiento con insulina NPH, llegó en avión a Cusco (3400 msnm) hace 7 horas. Por náuseas casi no comió en todo el día, pero se aplicó su dosis habitual. Presenta cefalea, mareo, temblor fino, sudoración fría y somnolencia leve. PA 128/80 mmHg, FC 106 X', FR 18 X', T° 36,4 °C, SatO2 87 % (FiO2 0,21). Glasgow 14, sin déficit focal; pulmones limpios. El familiar atribuye todo a la altura. ¿Qué examen debe realizarse primero en ella?",
+   "opciones": [
+    "Ninguno; basta la clínica",
+    "Radiografía de tórax frontal",
+    "Glucemia capilar inmediata",
+    "Gasometría arterial en reposo",
+    "Tomografía cerebral sin contraste"
+   ],
+   "clave": 3,
+   "especialidad": "Neumología",
+   "tema": "Altura · diferencial con hipoglucemia",
+   "diagnostico": "Hipoglucemia en diabética recién llegada a la altura",
+   "tipo": "prueba",
+   "dificultad": "muy alta",
+   "razonamiento": "Paso 1: cefalea y mareo tras ascenso, pero con insulina sin ingesta, temblor, sudoración fría y somnolencia. Paso 2: la hipoglucemia es un diferencial de la enfermedad de altura y aquí es muy probable. Paso 3: antes de atribuir el cuadro a la altitud se mide la glucemia capilar, que cambia la conducta de inmediato.",
+   "por_que_no": [
+    "Vale en el viajero sano; con insulina, ayuno, temblor y sudoración hay que medir glucosa.",
+    "Sería útil ante disnea y crépitos de la forma pulmonar; sus pulmones están limpios.",
+    "",
+    "Mostraría la hipoxemia propia de la altitud y no explica sudoración ni temblor.",
+    "Se reservaría si persistiera el compromiso de conciencia tras descartar causas metabólicas."
+   ],
+   "trampa": [
+    "otra-poblacion",
+    "diferencial",
+    "",
+    "no-confirmatorio",
+    "otro-estadio"
+   ],
+   "perla": "Diferenciales del cuadro de altura: migraña, gastroenteritis, infección respiratoria, deshidratación e hipoglucemia.",
+   "fuente": {
+    "carpeta": "6.NEUMOLOGIA",
+    "archivo": "21. MAL AGUDO DE MONTAÑA.pdf",
+    "seccion": "pág 1 · Diagnósticos diferenciales"
+   },
+   "gemela_de": null
+  },
+  {
+   "id": "2026-10-22-banco-neumo-altura-co-012",
+   "enunciado": "Varón de 30 años, ingeniero de Lima, sin antecedentes, lleva 2 días en La Oroya (3750 msnm) y consulta por cefalea leve. PA 118/74 mmHg, FC 90 X', FR 22 X', T° 36,5 °C, SatO2 87 % (FiO2 0,21). Pulmones limpios, neurológico normal. AGA (presión barométrica 490 mmHg, FiO2 0,21): pH 7,48; PaCO2 29 mmHg; PaO2 52 mmHg; HCO3 21 mEq/l; gradiente alveoloarterial calculado 5 mmHg. Hemoglobina 14,8 g/dl. Radiografía de tórax normal. ¿Qué mecanismo explica la hipoxemia de este paciente?",
+   "opciones": [
+    "Cortocircuito de derecha a izquierda",
+    "Menor presión inspirada de oxígeno",
+    "Desequilibrio ventilación/perfusión",
+    "Trastorno de la difusión alveolar",
+    "Hipoventilación alveolar central"
+   ],
+   "clave": 2,
+   "especialidad": "Neumología",
+   "tema": "Altura · mecanismo de la hipoxemia",
+   "diagnostico": "Hipoxemia por hipobaria con gradiente A-a normal",
+   "tipo": "mecanismo",
+   "dificultad": "muy alta",
+   "razonamiento": "Paso 1: PaO2 52 con gradiente A-a normal (5 mmHg) y PaCO2 baja (29) con pH 7,48. Paso 2: gradiente normal descarta V/Q, difusión y cortocircuito; la PaCO2 baja descarta hipoventilación. Paso 3: queda la hipobaria: menor presión inspirada de O2 a 3750 msnm, con hiperventilación compensadora.",
+   "por_que_no": [
+    "Eleva el gradiente y no responde al O2, como en neumonía o atelectasia; no es el caso.",
+    "",
+    "Cursa con gradiente A-a alto, como en asma o EPOC; aquí el gradiente es normal.",
+    "Propio de enfermedad intersticial o enfisema, con gradiente A-a elevado; no aplica aquí.",
+    "Tendría gradiente normal pero PaCO2 mayor de 45; aquí la PaCO2 está baja."
+   ],
+   "trampa": [
+    "diferencial",
+    "",
+    "diferencial",
+    "diferencial",
+    "diferencial"
+   ],
+   "perla": "Hipoxemia + gradiente A-a normal + PaCO2 baja = pensar en hipobaria (altura).",
+   "fuente": {
+    "carpeta": "6.NEUMOLOGIA",
+    "archivo": "5. INSUFICIENCIA RESPIRATORIA .pdf",
+    "seccion": "Algoritmo del AGA: gradiente A-a normal con CO2 bajo → hipobaria"
+   },
+   "gemela_de": null
+  },
+  {
+   "id": "2026-10-22-banco-neumo-altura-co-013",
+   "enunciado": "Mujer de 48 años, de Tacna, con IMC 29 kg/m², consulta dos semanas antes de una expedición que parte de Huaraz (3050 msnm) hacia campamentos sobre 5000 msnm. En un viaje previo a Cusco tuvo cefalea y vómitos a las pocas horas de llegar. No fuma; bebe alcohol los fines de semana. PA 122/78 mmHg, FC 74 X', FR 14 X', SatO2 98 % (FiO2 0,21). Examen físico normal. Se le indicará profilaxis farmacológica. ¿Qué indicación sobre el ritmo de ascenso es la adecuada?",
+   "opciones": [
+    "Dormir en el punto más alto alcanzado cada día",
+    "Hacer ejercicio intenso al llegar para aclimatar",
+    "Subir de 300 a 500 m de altura de dormir por día",
+    "Subir de 800 a 1000 m de altura de dormir por día",
+    "Subir directo al campamento y reposar allí 48 h"
+   ],
+   "clave": 3,
+   "especialidad": "Neumología",
+   "tema": "Altura · prevención no farmacológica",
+   "diagnostico": "Planificación del ascenso en viajera de riesgo",
+   "tipo": "conducta",
+   "dificultad": "media",
+   "razonamiento": "Paso 1: viajera con sobrepeso, alcohol y antecedente de síntomas tras ascenso, que subirá sobre 5000 msnm. Paso 2: su riesgo de enfermedad de altura es alto y la profilaxis no reemplaza la aclimatación. Paso 3: por encima de 2500 m debe ganar no más de 300-500 m por día, dormir más abajo, hidratarse y evitar alcohol.",
+   "por_que_no": [
+    "Dormir a gran altitud es factor de riesgo; se recomienda dormir más abajo cuando se pueda.",
+    "El esfuerzo intenso al llegar es factor de riesgo; se aconseja reposo relativo los primeros días.",
+    "",
+    "Duplica el ritmo seguro; sobre 2500 m no se debe ganar más de 300-500 m diarios.",
+    "El ascenso rápido sin aclimatación es el principal factor de riesgo, aunque luego se repose."
+   ],
+   "trampa": [
+    "otro-contexto",
+    "otro",
+    "",
+    "umbral",
+    "otro-momento"
+   ],
+   "perla": "Sobre 2500 m: no más de 300-500 m/día, dormir más abajo, hidratarse, sin alcohol ni sedantes.",
+   "fuente": {
+    "carpeta": "6.NEUMOLOGIA",
+    "archivo": "21. MAL AGUDO DE MONTAÑA.pdf",
+    "seccion": "pág 1 · Prevención: ascenso gradual"
+   },
+   "gemela_de": null
+  },
+  {
+   "id": "2026-10-22-banco-neumo-altura-co-014",
+   "enunciado": "Niño de 8 años, 26 kg, de Lima, llegó en avión con su familia a Puno (3800 msnm) hace 10 horas. Presenta cefalea, dos vómitos, irritabilidad y rechazo a la comida; orina con normalidad. PA 100/60 mmHg, FC 118 X', FR 26 X', T° 36,9 °C, SatO2 85 % (FiO2 0,21). Despierto, juega en la camilla, marcha normal, sin rigidez de nuca; mucosas húmedas; pulmones limpios. Glucemia capilar 92 mg/dl. Los padres quieren seguir mañana hacia un mirador a 4300 msnm. ¿Cuál es el manejo inicial indicado?",
+   "opciones": [
+    "Traslado a menor altitud y nifedipino por vía oral",
+    "Reposo, no ascender, O2 a 2-4 L/min y paracetamol",
+    "Hidratación endovenosa y tomografía cerebral",
+    "Descenso inmediato de 500 a 1000 m y dexametasona",
+    "Seguir el itinerario con hidratación por vía oral"
+   ],
+   "clave": 2,
+   "especialidad": "Neumología",
+   "tema": "Altura · población pediátrica",
+   "diagnostico": "Mal agudo de montaña leve en escolar",
+   "tipo": "conducta",
+   "dificultad": "alta",
+   "razonamiento": "Paso 1: a las 10 horas de un ascenso rápido, cefalea y vómitos con conciencia, marcha, pulmones e hidratación normales y glucemia 92. Paso 2: es la forma leve de la enfermedad de altura, sin datos cerebrales ni pulmonares. Paso 3: reposo, no seguir subiendo, oxígeno 2-4 L/min y analgésico; el viaje al mirador se pospone.",
+   "por_que_no": [
+    "Corresponde a la forma pulmonar con disnea y crépitos, ausentes en este niño.",
+    "",
+    "Está hidratado y sin focalidad; el cuadro es clínico y no requiere imágenes.",
+    "Es el manejo de la forma cerebral con ataxia o letargo; el niño juega y camina normal.",
+    "Con síntomas activos hay que evitar mayor ascenso hasta que remitan."
+   ],
+   "trampa": [
+    "diferencial",
+    "",
+    "otro",
+    "otro-estadio",
+    "otro-momento"
+   ],
+   "perla": "Forma leve con síntomas activos: no se sube más hasta que remitan.",
+   "fuente": {
+    "carpeta": "6.NEUMOLOGIA",
+    "archivo": "21. MAL AGUDO DE MONTAÑA.pdf",
+    "seccion": "pág 1 · Tratamiento del MAM leve"
+   },
+   "gemela_de": null
+  },
+  {
+   "id": "2026-10-22-banco-neumo-altura-co-015",
+   "enunciado": "Mujer de 36 años, de Iquitos, llegó en bus a Puno (3800 msnm) hace 3 días para la festividad de la Candelaria y bailó varias horas el día de su llegada. Desde ayer tiene tos seca que hoy es con esputo rosado y disnea al mínimo esfuerzo. PA 112/68 mmHg, FC 120 X', FR 30 X', T° 37,5 °C, SatO2 66 % (FiO2 0,21) y 86 % con cánula a 4 L/min. Crepitantes bilaterales sin soplo tubario; lúcida, marcha normal. Leucocitos 10 800/mm³ sin desviación. Radiografía: opacidades alveolares en parches bilaterales, corazón de tamaño normal. ¿Qué complicación del ascenso presenta?",
+   "opciones": [
+    "Edema cerebral de altura",
+    "Neumonía adquirida en la comunidad",
+    "Mal agudo de montaña leve",
+    "Edema pulmonar de altura",
+    "Deshidratación por el esfuerzo"
+   ],
+   "clave": 4,
+   "especialidad": "Neumología",
+   "tema": "Altura · forma pulmonar vs neumonía",
+   "diagnostico": "Edema pulmonar de altura en bailarina",
+   "tipo": "complicacion",
+   "dificultad": "alta",
+   "razonamiento": "Paso 1: al tercer día de un ascenso rápido con esfuerzo intenso, tos que progresa a esputo rosado, disnea, crépitos bilaterales y opacidades en parches con corazón normal, sin fiebre ni leucocitosis. Paso 2: el tiempo (2-4 días) y la clínica pulmonar definen la forma pulmonar de la enfermedad de altura. Paso 3: requiere descenso, oxígeno y nifedipino.",
+   "por_que_no": [
+    "Daría ataxia, confusión o somnolencia; ella está lúcida y con marcha normal.",
+    "Daría fiebre, leucocitosis y consolidación lobar; aquí hay parches bilaterales afebriles al 3.er día.",
+    "Es cefalea con síntomas digestivos a las 6-24 h; no explica crépitos ni esputo rosado.",
+    "",
+    "Es un diferencial de la cefalea de altura, pero no produce ocupación alveolar."
+   ],
+   "trampa": [
+    "diferencial",
+    "diferencial",
+    "otro-estadio",
+    "",
+    "diferencial"
+   ],
+   "perla": "Forma pulmonar: 2-4 días tras el ascenso, tos seca → esputo rosado, crépitos y cianosis.",
+   "fuente": {
+    "carpeta": "6.NEUMOLOGIA",
+    "archivo": "Neumología -  Fundamentos teóricos_ENAM 2024.pdf",
+    "seccion": "pág 236 · Enfermedad de altura (tabla MAM/ECA/EPA)"
+   },
+   "gemela_de": null
+  },
+  {
+   "id": "2026-10-22-banco-neumo-altura-co-016",
+   "enunciado": "Varón de 29 años, de Lima, tuvo cefalea y náuseas en su primer día en Cusco (3400 msnm), pero no reposó y al día siguiente subió a la montaña Vinicunca (5000 msnm). Esa noche, ya de regreso en Cusco, sus amigos lo notan confuso, somnoliento y con marcha tambaleante; vomitó dos veces. PA 128/80 mmHg, FC 110 X', FR 22 X', T° 36,8 °C, SatO2 72 % (FiO2 0,21). Glasgow 12, ataxia, pupilas isocóricas, sin rigidez de nuca; pulmones sin crépitos. Glucemia capilar 104 mg/dl. ¿Qué complicación presenta este paciente?",
+   "opciones": [
+    "Edema cerebral de altura",
+    "Hipoglucemia por ayuno",
+    "Mal agudo de montaña leve",
+    "Migraña con aura",
+    "Edema pulmonar de altura"
+   ],
+   "clave": 1,
+   "especialidad": "Neumología",
+   "tema": "Altura · progresión a forma cerebral",
+   "diagnostico": "Edema cerebral de altura tras seguir ascendiendo",
+   "tipo": "complicacion",
+   "dificultad": "alta",
+   "razonamiento": "Paso 1: cefalea y náuseas iniciales que, al seguir ascendiendo, progresan a confusión, somnolencia, Glasgow 12 y ataxia, con pulmones limpios y glucemia normal. Paso 2: la forma leve evolucionó a la forma cerebral de la enfermedad de altura. Paso 3: requiere descenso, oxígeno y dexametasona 4 mg c/6 h.",
+   "por_que_no": [
+    "",
+    "Es un diferencial que se descarta con la glucemia capilar normal de 104 mg/dl.",
+    "Fue su cuadro inicial; la confusión y la ataxia indican progresión a la forma grave.",
+    "Cursa con cefalea recurrente sin ataxia ni caída del Glasgow ligada al ascenso.",
+    "Requeriría disnea, crépitos y esputo rosado; sus pulmones están limpios."
+   ],
+   "trampa": [
+    "",
+    "diferencial",
+    "otro-estadio",
+    "diferencial",
+    "diferencial"
+   ],
+   "perla": "Forma cerebral: marcha atáxica y trastorno de conciencia tras un cuadro leve no tratado.",
+   "fuente": {
+    "carpeta": "6.NEUMOLOGIA",
+    "archivo": "Neumología -  Fundamentos teóricos_ENAM 2024.pdf",
+    "seccion": "pág 236 · Enfermedad de altura (tabla MAM/ECA/EPA)"
+   },
+   "gemela_de": null
+  },
+  {
+   "id": "2026-10-22-banco-neumo-altura-co-017",
+   "enunciado": "Mujer de 55 años, de Lima, con trastorno de ansiedad leve sin tratamiento actual, llegó a Cusco (3400 msnm) hace 20 horas. Refiere cefalea leve, náuseas y que no pudo dormir; pide «algo fuerte para dormir». PA 126/78 mmHg, FC 92 X', FR 20 X', T° 36,6 °C, SatO2 87 % (FiO2 0,21). Lúcida, marcha talón-punta normal; pulmones limpios. Glucemia capilar 98 mg/dl. Planea quedarse 4 días en la ciudad sin subir más. ¿Cuál de estas indicaciones debe evitarse en ella?",
+   "opciones": [
+    "Hidratación oral abundante durante el día",
+    "Acetazolamida 250 mg VO cada 12 horas",
+    "Paracetamol VO según necesidad por la cefalea",
+    "Reposo relativo y no ascender a mayor altitud aún",
+    "Alprazolam 0,5 mg VO por la noche para dormir"
+   ],
+   "clave": 5,
+   "especialidad": "Neumología",
+   "tema": "Altura · fármaco a evitar",
+   "diagnostico": "Mal agudo de montaña leve con insomnio",
+   "tipo": "contraindicacion",
+   "dificultad": "alta",
+   "razonamiento": "Paso 1: cefalea, náuseas e insomnio a las 20 horas de llegar a 3400 msnm, con examen normal. Paso 2: es la forma leve de la enfermedad de altura, y el insomnio es uno de sus síntomas. Paso 3: el material indica evitar alcohol y sedantes; el resto (analgésico, acetazolamida, reposo, hidratación) es correcto.",
+   "por_que_no": [
+    "La deshidratación es factor de riesgo, por lo que hidratarse es correcto en todo viajero.",
+    "Está indicada en la forma leve y acelera la aclimatación; se evitaría solo si no la tolerara.",
+    "Es el analgésico recomendado en la forma leve; solo se evitaría si hubiera alergia o hepatopatía.",
+    "Es medida base del cuadro leve; dejaría de bastar si aparecieran ataxia o disnea en reposo.",
+    ""
+   ],
+   "trampa": [
+    "mismo-grupo",
+    "mismo-grupo",
+    "mismo-grupo",
+    "mismo-grupo",
+    ""
+   ],
+   "perla": "En la altura: evitar alcohol y sedantes, aunque el insomnio sea el síntoma que más molesta.",
+   "fuente": {
+    "carpeta": "6.NEUMOLOGIA",
+    "archivo": "21. MAL AGUDO DE MONTAÑA.pdf",
+    "seccion": "pág 1 · Prevención: evitar alcohol y sedantes"
+   },
+   "gemela_de": null
+  },
+  {
+   "id": "2026-10-22-banco-neumo-altura-co-018",
+   "enunciado": "Varón de 70 años, jubilado de Ica, hipertenso controlado con amlodipino, llegó en avión a Cusco (3400 msnm) hace 12 horas con un grupo de turismo. Presenta cefalea, náuseas y astenia; niega disnea. PA 136/84 mmHg, FC 96 X', FR 20 X', T° 36,5 °C, SatO2 83 % (FiO2 0,21). Lúcido, marcha talón-punta normal, sin focalización; murmullo vesicular conservado sin crépitos. Glucemia 110 mg/dl. Se indica reposo, acetazolamida y paracetamol, y se decide oxígeno suplementario. ¿Con qué dispositivo y flujo debe darse?",
+   "opciones": [
+    "Cánula nasal a 2-4 L/min",
+    "Cánula nasal a 0,5-1 L/min",
+    "Mascarilla Venturi al 50 %",
+    "Mascarilla con reservorio al 100 %",
+    "Cámara hiperbárica portátil"
+   ],
+   "clave": 1,
+   "especialidad": "Neumología",
+   "tema": "Altura · oxigenoterapia en forma leve",
+   "diagnostico": "Mal agudo de montaña leve en adulto mayor",
+   "tipo": "dosis",
+   "dificultad": "media",
+   "razonamiento": "Paso 1: cefalea, náuseas y astenia a las 12 horas de llegar a 3400 msnm, con SatO2 83 % y examen neurológico y pulmonar normal. Paso 2: es la forma leve de la enfermedad de altura en un adulto mayor. Paso 3: el oxígeno suplementario de la forma leve es de 2-4 L/min por cánula, junto con reposo y fármacos.",
+   "por_que_no": [
+    "",
+    "Flujo insuficiente; el material indica 2-4 L/min en la forma leve de altura.",
+    "Alta FiO2 que se usaría en hipoxemia grave, como la forma pulmonar, no en este cuadro leve.",
+    "Es el O2 del paciente expuesto a gas de combustión, para acortar la vida media de la COHb.",
+    "Se usa en formas graves cuando no hay oxígeno ni descenso posible; no en la forma leve."
+   ],
+   "trampa": [
+    "",
+    "umbral",
+    "otro-estadio",
+    "otro-contexto",
+    "otro-estadio"
+   ],
+   "perla": "Forma leve de altura: O2 2-4 L/min; el 100 % con reservorio es para el gas del brasero.",
+   "fuente": {
+    "carpeta": "6.NEUMOLOGIA",
+    "archivo": "21. MAL AGUDO DE MONTAÑA.pdf",
+    "seccion": "pág 1 · Tratamiento del MAM leve"
+   },
+   "gemela_de": null
+  },
+  {
+   "id": "2026-10-22-banco-neumo-altura-co-019",
+   "enunciado": "Varón de 26 años, de Pucallpa, soldado trasladado en avión a una base en Puno (3800 msnm); el segundo día realizó una marcha de 15 km. Al tercer día presenta disnea en reposo, tos con esputo rosado y cianosis. PA 114/70 mmHg, FC 122 X', FR 32 X', T° 37,3 °C, SatO2 67 % (FiO2 0,21). Crepitantes bilaterales; sin ingurgitación yugular ni edema de miembros. Ecocardiograma: ventrículo izquierdo con fracción de eyección de 65 % y válvulas normales. Radiografía: opacidades alveolares en parches. ¿Qué mecanismo explica la ocupación alveolar?",
+   "opciones": [
+    "Hipoalbuminemia con baja presión oncótica plasmática",
+    "Falla sistólica del ventrículo izquierdo dilatado",
+    "Infección bacteriana del espacio alveolar",
+    "Aspiración de contenido gástrico",
+    "Permeabilidad capilar aumentada por hipobaria"
+   ],
+   "clave": 5,
+   "especialidad": "Neumología",
+   "tema": "Altura · fisiopatología de la forma pulmonar",
+   "diagnostico": "Edema pulmonar de altura no cardiogénico",
+   "tipo": "mecanismo",
+   "dificultad": "muy alta",
+   "razonamiento": "Paso 1: ocupación alveolar bilateral al tercer día de un ascenso rápido con esfuerzo, con función ventricular normal y sin fiebre. Paso 2: es la forma pulmonar de la enfermedad de altura, un edema no cardiogénico. Paso 3: la hipoxia hipobárica aumenta la permeabilidad capilar pulmonar y el líquido ocupa los alvéolos.",
+   "por_que_no": [
+    "Se acompañaría de edemas periféricos y desnutrición o nefropatía, ausentes en este soldado.",
+    "Daría fracción de eyección baja e ingurgitación; aquí la función ventricular es normal.",
+    "Daría fiebre y consolidación; aquí el cuadro aparece al 3.er día de altura sin fiebre.",
+    "Requiere un evento de vómito con conciencia alterada; él está lúcido y sin ese antecedente.",
+    ""
+   ],
+   "trampa": [
+    "otro",
+    "diferencial",
+    "diferencial",
+    "otro-contexto",
+    ""
+   ],
+   "perla": "Altura: la hipoxia hipobárica aumenta la permeabilidad capilar → edema pulmonar o cerebral.",
+   "fuente": {
+    "carpeta": "6.NEUMOLOGIA",
+    "archivo": "21. MAL AGUDO DE MONTAÑA.pdf",
+    "seccion": "pág 1 · Fisiopatología"
+   },
+   "gemela_de": null
+  },
+  {
+   "id": "2026-10-22-banco-neumo-altura-co-020",
+   "enunciado": "Mujer de 74 años, hipertensa, vive sola en Huancayo y su hija la encuentra a las 7 am somnolienta en su dormitorio cerrado, junto a un brasero de carbón apagado. Refiere cefalea y náuseas desde la noche. PA 138/84 mmHg, FC 104 X', FR 22 X', T° 36,5 °C, SatO2 por pulsioxímetro 97 % (FiO2 0,21). Confusa, Glasgow 14, sin focalización; piel rosada. Electrocardiograma: ritmo sinusal sin cambios del ST. Ya recibe oxígeno al 100 %. ¿Qué examen confirma la sospecha clínica?",
+   "opciones": [
+    "Carboxihemoglobina por cooximetría",
+    "PaO2 en gasometría arterial",
+    "Electrocardiograma de 12 derivaciones",
+    "Tomografía cerebral sin contraste",
+    "Pulsioximetría seriada cada hora"
+   ],
+   "clave": 1,
+   "especialidad": "Neumología",
+   "tema": "Monóxido · examen confirmatorio",
+   "diagnostico": "Intoxicación por CO por brasero en adulta mayor",
+   "tipo": "prueba",
+   "dificultad": "alta",
+   "razonamiento": "Paso 1: cefalea, náuseas y confusión al despertar en un cuarto cerrado con brasero, con SatO2 97 %. Paso 2: la exposición a combustión incompleta orienta a gas que se une a la hemoglobina; la SatO2 normal no la descarta. Paso 3: la confirmación es la carboxihemoglobina elevada por cooximetría.",
+   "por_que_no": [
+    "",
+    "La PaO2 mide O2 disuelto y suele ser normal en esta exposición; no confirma ni descarta.",
+    "Sirve para buscar arritmias de la forma grave, pero no confirma el tóxico.",
+    "Se pediría ante focalidad para descartar un evento vascular; aquí no confirma la exposición.",
+    "El pulsioxímetro no distingue COHb de oxihemoglobina y puede ser falsamente normal."
+   ],
+   "trampa": [
+    "",
+    "no-confirmatorio",
+    "otro",
+    "diferencial",
+    "no-confirmatorio"
+   ],
+   "perla": "Brasero + cefalea + SatO2 normal → pedir carboxihemoglobina por cooximetría.",
+   "fuente": {
+    "carpeta": "6.NEUMOLOGIA",
+    "archivo": "23. INTOXICACION POR CO.pdf",
+    "seccion": "pág 1 · Diagnóstico: prueba confirmatoria"
+   },
+   "gemela_de": null
+  },
+  {
+   "id": "2026-10-22-banco-neumo-altura-co-021",
+   "enunciado": "Varón de 35 años, vigilante, pasó la noche en una caseta cerrada con un calentador a gas. Acude por cefalea, mareo, náuseas y debilidad desde la madrugada. PA 126/80 mmHg, FC 100 X', FR 20 X', T° 36,7 °C, SatO2 99 % (FiO2 0,21). Lúcido, sin focalización. AGA (FiO2 0,21): pH 7,38; PaO2 96 mmHg; PaCO2 36 mmHg; HCO3 21 mEq/l. El residente propone el alta porque «la oxigenación es normal». ¿Cuál es la interpretación correcta de estos resultados?",
+   "opciones": [
+    "La PaO2 normal obliga a buscar otra causa de la cefalea actual",
+    "La PaO2 normal asegura un transporte de oxígeno normal",
+    "Los datos indican una falla ventilatoria pulmonar leve",
+    "Ni la SatO2 ni la PaO2 normales descartan hipoxia tisular",
+    "La SatO2 de 99 % excluye una carboxihemoglobina relevante"
+   ],
+   "clave": 4,
+   "especialidad": "Neumología",
+   "tema": "Monóxido · trampa de la oximetría",
+   "diagnostico": "Intoxicación por CO con SatO2 y PaO2 normales",
+   "tipo": "prueba",
+   "dificultad": "muy alta",
+   "razonamiento": "Paso 1: cefalea, mareo y náuseas tras una noche con calentador a gas en ambiente cerrado, con SatO2 99 % y PaO2 96. Paso 2: la PaO2 mide O2 disuelto y el pulsioxímetro no distingue COHb de oxihemoglobina. Paso 3: ninguno descarta hipoxia tisular; se mide carboxihemoglobina y se mantiene O2 al 100 %.",
+   "por_que_no": [
+    "Sería razonable sin exposición; con calentador en ambiente cerrado se mide COHb.",
+    "La PaO2 mide O2 disuelto, no el unido a la Hb; aquí el transporte está alterado.",
+    "El mecanismo es del transporte de O2, no de la ventilación; la PaCO2 es normal.",
+    "",
+    "El pulsioxímetro lee la COHb como oxihemoglobina; solo sería fiable sin exposición a combustión."
+   ],
+   "trampa": [
+    "diferencial",
+    "no-confirmatorio",
+    "otro",
+    "",
+    "no-confirmatorio"
+   ],
+   "perla": "PaO2 normal no descarta hipoxia y el pulsioxímetro puede ser falsamente normal: las 2 trampas clásicas.",
+   "fuente": {
+    "carpeta": "6.NEUMOLOGIA",
+    "archivo": "23. INTOXICACION POR CO.pdf",
+    "seccion": "pág 1 · Diagnóstico: PaO2 y pulsioxímetro"
+   },
+   "gemela_de": null
+  },
+  {
+   "id": "2026-10-22-banco-neumo-altura-co-022",
+   "enunciado": "Varón de 19 años, estudiante universitario, es hallado por su compañero de cuarto con cefalea y náuseas tras una ducha de 40 minutos en un baño sin ventana con terma a gas. Sin antecedentes. PA 122/78 mmHg, FC 98 X', FR 18 X', T° 36,6 °C, SatO2 98 % (FiO2 0,21). Lúcido, Glasgow 15, sin déficit neurológico; pulmones limpios. pH 7,36 y HCO3 22 mEq/l en gasometría venosa; electrocardiograma en ritmo sinusal. Se envía muestra para cooximetría. ¿Cuál es el tratamiento inicial indicado?",
+   "opciones": [
+    "Oxígeno por cánula nasal a 2-4 L/min",
+    "Mascarilla Venturi al 28 % titulada",
+    "Aire ambiente y observación clínica por 6 horas",
+    "Oxígeno al 100 % con mascarilla de reservorio",
+    "Oxígeno hiperbárico en cámara fija"
+   ],
+   "clave": 4,
+   "especialidad": "Neumología",
+   "tema": "Monóxido · tratamiento inicial",
+   "diagnostico": "Intoxicación por CO leve en estudiante",
+   "tipo": "tratamiento",
+   "dificultad": "media",
+   "razonamiento": "Paso 1: cefalea y náuseas tras exposición a terma a gas en baño cerrado, lúcido, sin acidosis ni arritmias. Paso 2: es una exposición leve a gas de combustión incompleta, sin criterios de hiperbárico. Paso 3: el tratamiento inicial es O2 al 100 % con mascarilla, que reduce la vida media de 4-5 h a 60-90 min.",
+   "por_que_no": [
+    "Es el flujo de la forma leve de altura; aquí se necesita FiO2 máxima para desplazar la COHb.",
+    "La FiO2 baja sirve para titular en retenedores de CO2; aquí se busca O2 al 100 %.",
+    "En aire ambiente la vida media de la COHb es de 4-5 horas; prolonga la hipoxia tisular.",
+    "",
+    "Se reserva para coma, gestación, acidosis severa o COHb muy alta; él está lúcido y sin acidosis."
+   ],
+   "trampa": [
+    "otro-contexto",
+    "umbral",
+    "otro",
+    "",
+    "otro-estadio"
+   ],
+   "perla": "Tratamiento inicial del gas de combustión: O2 al 100 % con mascarilla, sin esperar el resultado.",
+   "fuente": {
+    "carpeta": "6.NEUMOLOGIA",
+    "archivo": "23. INTOXICACION POR CO.pdf",
+    "seccion": "pág 1 · Tratamiento inicial"
+   },
+   "gemela_de": null
+  },
+  {
+   "id": "2026-10-22-banco-neumo-altura-co-023",
+   "enunciado": "Mujer de 27 años, gestante de 28 semanas, de Juliaca, durmió con un brasero encendido en su habitación por el frío. Despierta con cefalea, mareo y náuseas; su esposo presenta lo mismo. PA 112/70 mmHg, FC 104 X', FR 20 X', T° 36,6 °C, SatO2 97 % (FiO2 0,21). Lúcida, Glasgow 15, sin déficit focal. Altura uterina 28 cm, latidos fetales 150 X', sin dinámica uterina. Carboxihemoglobina 16 %; pH 7,35. Recibe O2 al 100 % con mascarilla de reservorio. ¿Cuál es la conducta siguiente más adecuada?",
+   "opciones": [
+    "Cánula nasal a 2-4 L/min y monitoreo fetal",
+    "O2 al 100 % hasta que la SatO2 marque 100 %",
+    "Oxígeno hiperbárico, indicado por la gestación",
+    "Aire ambiente con monitoreo fetal continuo",
+    "O2 al 100 % por mascarilla y alta al mejorar"
+   ],
+   "clave": 3,
+   "especialidad": "Neumología",
+   "tema": "Monóxido · gestante",
+   "diagnostico": "Intoxicación por CO en gestante",
+   "tipo": "conducta",
+   "dificultad": "muy alta",
+   "razonamiento": "Paso 1: cefalea y mareo tras dormir con brasero, con otro conviviente afectado y COHb 16 %. Paso 2: es una exposición a gas de combustión en una gestante de 28 semanas, lúcida y sin acidosis. Paso 3: el embarazo es por sí mismo indicación de oxígeno hiperbárico, además del O2 al 100 % inicial.",
+   "por_que_no": [
+    "Ese flujo es para la forma leve de altura; aquí se requiere al menos O2 al 100 %.",
+    "La SatO2 es falsamente normal con COHb; no sirve como meta del tratamiento.",
+    "",
+    "Sin oxígeno la vida media de la COHb es de 4-5 horas, inaceptable en la gestante.",
+    "Bastaría en una mujer no gestante, lúcida y sin acidosis; el embarazo cambia la indicación."
+   ],
+   "trampa": [
+    "otro-contexto",
+    "no-confirmatorio",
+    "",
+    "otro",
+    "otra-poblacion"
+   ],
+   "perla": "Gas del brasero en gestante = oxígeno hiperbárico, aunque esté lúcida.",
+   "fuente": {
+    "carpeta": "6.NEUMOLOGIA",
+    "archivo": "23. INTOXICACION POR CO.pdf",
+    "seccion": "pág 1 · Indicación de oxígeno hiperbárico"
+   },
+   "gemela_de": null
+  },
+  {
+   "id": "2026-10-22-banco-neumo-altura-co-024",
+   "enunciado": "Varón de 46 años, mecánico, es hallado inconsciente en un taller cerrado con el motor de un auto encendido. Durante el traslado presenta una convulsión tónico-clónica generalizada. PA 100/62 mmHg, FC 128 X', FR 10 X', T° 36,9 °C, SatO2 96 % (FiO2 0,21). Glasgow 7, pupilas isocóricas, mucosas de color rojo intenso. Se intuba y se ventila con FiO2 1,0. Carboxihemoglobina 38 %; pH 7,26; HCO3 15 mEq/l. Electrocardiograma: taquicardia sinusal. ¿Cuál es la conducta siguiente?",
+   "opciones": [
+    "FiO2 1,0 por 4 a 5 horas y luego reevaluar",
+    "FiO2 1,0 hasta que la SatO2 llegue a 100 %",
+    "Tomografía cerebral antes de cualquier otra medida",
+    "Oxígeno hiperbárico por el compromiso neurológico",
+    "Pasar a cánula de 2-4 L/min al despertar"
+   ],
+   "clave": 4,
+   "especialidad": "Neumología",
+   "tema": "Monóxido · coma",
+   "diagnostico": "Intoxicación por CO grave con coma",
+   "tipo": "conducta",
+   "dificultad": "alta",
+   "razonamiento": "Paso 1: inconsciencia y convulsión tras exposición a un motor en ambiente cerrado, con Glasgow 7 y COHb 38 %. Paso 2: es una exposición grave a gas de combustión con compromiso neurológico. Paso 3: el coma es indicación de oxígeno hiperbárico, que reduce la vida media a 20-30 minutos y disuelve O2 en el plasma.",
+   "por_que_no": [
+    "4-5 h es la vida media en aire ambiente; el coma indica acortarla con hiperbárico.",
+    "La SatO2 no refleja la COHb; además el coma exige más que O2 normobárico.",
+    "Con exposición clara no debe retrasar el tratamiento; se pediría con focalidad o trauma.",
+    "",
+    "Es el flujo de la forma leve de altura; aquí la prioridad es eliminar la COHb rápido."
+   ],
+   "trampa": [
+    "umbral",
+    "no-confirmatorio",
+    "otro-momento",
+    "",
+    "otro-contexto"
+   ],
+   "perla": "Coma tras exposición a gas de combustión → oxígeno hiperbárico.",
+   "fuente": {
+    "carpeta": "6.NEUMOLOGIA",
+    "archivo": "23. INTOXICACION POR CO.pdf",
+    "seccion": "pág 1 · Indicación de oxígeno hiperbárico"
+   },
+   "gemela_de": null
+  },
+  {
+   "id": "2026-10-22-banco-neumo-altura-co-025",
+   "enunciado": "Mujer de 51 años, comerciante, durmió con una estufa a querosene encendida en un cuarto sin ventilación en Cerro de Pasco. Llega con cefalea, vómitos persistentes y debilidad. Diabética con metformina. PA 108/70 mmHg, FC 116 X', FR 28 X', T° 36,4 °C, SatO2 98 % (FiO2 0,21). Lúcida, Glasgow 15, sin focalización; piel rojiza. AGA con O2 al 100 %: pH 7,09; PaCO2 27 mmHg; PaO2 340 mmHg; HCO3 8 mEq/l. Cooximetría en proceso. ¿Qué dato de este caso indica oxígeno hiperbárico?",
+   "opciones": [
+    "Frecuencia cardiaca de 116 X'",
+    "pH de 7,09 con HCO3 de 8 mEq/l",
+    "SatO2 de 98 % en aire ambiente",
+    "Cefalea con vómitos persistentes",
+    "Piel de coloración rojiza"
+   ],
+   "clave": 2,
+   "especialidad": "Neumología",
+   "tema": "Monóxido · criterio de hiperbárico",
+   "diagnostico": "Intoxicación por CO con acidosis severa",
+   "tipo": "severidad",
+   "dificultad": "muy alta",
+   "razonamiento": "Paso 1: exposición a estufa en cuarto cerrado con cefalea, vómitos y SatO2 falsamente normal. Paso 2: el AGA muestra pH 7,09 con HCO3 8, acidosis severa por hipoxia tisular. Paso 3: la acidosis severa es indicación de oxígeno hiperbárico, junto con coma, gestación o COHb muy elevada.",
+   "por_que_no": [
+    "La taquicardia es inespecífica; sí preocuparían arritmias en el monitor.",
+    "",
+    "Es falsamente normal por la COHb; no mide gravedad ni indica tratamiento.",
+    "Son síntomas leves a moderados; solos no indican hiperbárico si no hay coma ni acidosis.",
+    "Es el signo clásico pero poco frecuente; no es criterio de oxígeno hiperbárico."
+   ],
+   "trampa": [
+    "otro",
+    "",
+    "no-confirmatorio",
+    "otro-estadio",
+    "diferencial"
+   ],
+   "perla": "Hiperbárico: coma o déficit neurológico, embarazo, acidosis severa o COHb muy elevada.",
+   "fuente": {
+    "carpeta": "6.NEUMOLOGIA",
+    "archivo": "23. INTOXICACION POR CO.pdf",
+    "seccion": "pág 1 · Indicación de oxígeno hiperbárico"
+   },
+   "gemela_de": null
+  },
+  {
+   "id": "2026-10-22-banco-neumo-altura-co-026",
+   "enunciado": "Mujer de 39 años, docente, no gestante (prueba de embarazo negativa), despierta con cefalea y mareo tras dormir con un calefactor a gas en un departamento cerrado de Arequipa. PA 118/76 mmHg, FC 96 X', FR 18 X', T° 36,6 °C, SatO2 98 % (FiO2 0,21). Lúcida, Glasgow 15, sin déficit focal. pH 7,37; carboxihemoglobina elevada; electrocardiograma normal. Se inicia O2 al 100 % con mascarilla de reservorio. La familia pregunta cuánto tarda en reducirse a la mitad el gas en su sangre. ¿Cuál es la vida media aproximada con esta terapia?",
+   "opciones": [
+    "Entre 5 y 10 minutos",
+    "Entre 4 y 5 horas",
+    "Entre 60 y 90 minutos",
+    "Entre 20 y 30 minutos",
+    "Entre 8 y 10 horas"
+   ],
+   "clave": 3,
+   "especialidad": "Neumología",
+   "tema": "Monóxido · vida media",
+   "diagnostico": "Intoxicación por CO leve en tratamiento",
+   "tipo": "mecanismo",
+   "dificultad": "alta",
+   "razonamiento": "Paso 1: cefalea y mareo tras exposición a calefactor en ambiente cerrado, lúcida, sin acidosis ni gestación. Paso 2: es una exposición leve sin criterios de hiperbárico, tratada con O2 al 100 %. Paso 3: con O2 al 100 % la vida media de la COHb baja de 4-5 h a 60-90 minutos.",
+   "por_que_no": [
+    "Es más corta que la lograda con cámara hiperbárica (20-30 min); ninguna terapia la alcanza.",
+    "Es la vida media respirando aire ambiente, sin oxígeno suplementario.",
+    "",
+    "Es la vida media en cámara hiperbárica, que ella no requiere al estar lúcida y sin acidosis.",
+    "Supera incluso la vida media en aire ambiente (4-5 h); no corresponde a ninguna modalidad."
+   ],
+   "trampa": [
+    "umbral",
+    "otro-contexto",
+    "",
+    "otro-contexto",
+    "umbral"
+   ],
+   "perla": "COHb: aire 4-5 h · O2 100 % 60-90 min · hiperbárico 20-30 min.",
+   "fuente": {
+    "carpeta": "6.NEUMOLOGIA",
+    "archivo": "23. INTOXICACION POR CO.pdf",
+    "seccion": "pág 1 · Cámara hiperbárica: vida media"
+   },
+   "gemela_de": null
+  },
+  {
+   "id": "2026-10-22-banco-neumo-altura-co-027",
+   "enunciado": "Varón de 28 años, minero residente en Cerro de Pasco desde la infancia, trabajó 6 horas en un socavón con motores diésel y ventilación averiada. Sale con cefalea, mareo y náuseas; luego se torna confuso. PA 120/76 mmHg, FC 108 X', FR 22 X', T° 36,8 °C, SatO2 95 % (FiO2 0,21). Glasgow 14, sin focalización; pulmones limpios. Hemoglobina 17,2 g/dl. AGA: PaO2 61 mmHg, PaCO2 32 mmHg, gradiente A-a normal. Carboxihemoglobina 24 %. ¿Qué mecanismo explica la hipoxia tisular de este paciente?",
+   "opciones": [
+    "Hipoventilación alveolar por depresión central",
+    "Unión a la Hb y curva desviada a la izquierda",
+    "Unión a la Hb y curva desviada a la derecha",
+    "Defecto de difusión en la membrana alveolar",
+    "Menor presión inspirada por la altitud local"
+   ],
+   "clave": 2,
+   "especialidad": "Neumología",
+   "tema": "Monóxido · mecanismo de hipoxia",
+   "diagnostico": "Intoxicación por CO en minero de socavón",
+   "tipo": "mecanismo",
+   "dificultad": "alta",
+   "razonamiento": "Paso 1: confusión tras motores diésel en socavón cerrado, con COHb 24 %, gradiente A-a normal y PaCO2 baja. Paso 2: la PaO2 de 61 es la basal del residente de altura; la clínica aguda la explica el gas. Paso 3: con afinidad 200-250 veces mayor forma COHb y desvía la curva a la izquierda: hipoxia por transporte, no por ventilación.",
+   "por_que_no": [
+    "Daría PaCO2 mayor de 45; aquí está en 32 y el problema es el transporte de O2.",
+    "",
+    "La desviación a la derecha facilita la entrega de O2 (fiebre, acidosis); aquí la entrega está dificultada.",
+    "Elevaría el gradiente A-a, como en la enfermedad intersticial; aquí el gradiente es normal.",
+    "Explica la PaO2 basal del residente de altura, no su confusión aguda con COHb de 24 %."
+   ],
+   "trampa": [
+    "diferencial",
+    "",
+    "otro",
+    "diferencial",
+    "diferencial"
+   ],
+   "perla": "Gas de combustión: COHb + curva a la izquierda = falla del transporte de O2, no de la ventilación.",
+   "fuente": {
+    "carpeta": "6.NEUMOLOGIA",
+    "archivo": "23. INTOXICACION POR CO.pdf",
+    "seccion": "pág 1 · Fisiopatología: afinidad y curva de disociación"
+   },
+   "gemela_de": null
+  },
+  {
+   "id": "2026-10-22-banco-neumo-altura-co-028",
+   "enunciado": "Mujer de 44 años, cocinera de un restaurante en Huánuco, trabajó 5 horas en una cocina cerrada con hornillas a gas mal reguladas. Sus compañeros la notan desorientada; refiere debilidad generalizada y ha vomitado tres veces. Sin antecedentes. PA 116/74 mmHg, FC 106 X', FR 20 X', T° 36,7 °C, SatO2 98 % (FiO2 0,21). Glasgow 14 (desorientada en tiempo), sin focalización; no hubo pérdida de conciencia ni convulsiones. Monitor en ritmo sinusal. Carboxihemoglobina elevada. ¿En qué grado de severidad clínica se clasifica este cuadro?",
+   "opciones": [
+    "Grave, con arritmias en el monitor",
+    "Moderado, con confusión, debilidad y vómitos",
+    "Grave, con síncope, convulsión o coma",
+    "Leve, con cefalea, mareo y náuseas aislados",
+    "Leve, con SatO2 y estado hemodinámico normales"
+   ],
+   "clave": 2,
+   "especialidad": "Neumología",
+   "tema": "Monóxido · grados de severidad",
+   "diagnostico": "Intoxicación por CO moderada",
+   "tipo": "severidad",
+   "dificultad": "alta",
+   "razonamiento": "Paso 1: tras 5 horas en cocina cerrada con hornillas a gas, desorientación, debilidad y vómitos, sin síncope, convulsión ni arritmias. Paso 2: es una exposición a gas de combustión con COHb elevada. Paso 3: confusión, debilidad y vómitos definen el grado moderado; leve es cefalea-mareo-náuseas y grave síncope, coma, convulsiones o arritmias.",
+   "por_que_no": [
+    "El monitor muestra ritmo sinusal; las arritmias definirían la forma grave.",
+    "",
+    "No perdió la conciencia ni convulsionó; sería grave si aparecieran esos signos.",
+    "Sería leve sin confusión ni debilidad; ella ya está desorientada y vomita.",
+    "La SatO2 es falsamente normal y no sirve para graduar; se gradúa por la clínica."
+   ],
+   "trampa": [
+    "otro-estadio",
+    "",
+    "otro-estadio",
+    "otro-estadio",
+    "no-confirmatorio"
+   ],
+   "perla": "Leve: cefalea-mareo-náuseas · Moderada: confusión-debilidad-vómitos · Grave: síncope, coma, convulsión, arritmia.",
+   "fuente": {
+    "carpeta": "6.NEUMOLOGIA",
+    "archivo": "23. INTOXICACION POR CO.pdf",
+    "seccion": "pág 1 · Clínica por severidad"
+   },
+   "gemela_de": null
+  },
+  {
+   "id": "2026-10-22-banco-neumo-altura-co-029",
+   "enunciado": "Varón de 68 años, con angina estable en tratamiento con aspirina y atorvastatina, es traído desde Ayacucho tras dormir con un brasero en su cuarto cerrado; refiere cefalea y náuseas. PA 132/80 mmHg, FC 102 X', FR 20 X', SatO2 97 % (FiO2 0,21); Glasgow 15. Carboxihemoglobina 22 %. A los 40 minutos, ya con O2 al 100 %, pierde la conciencia por 20 segundos y el monitor registra complejos QRS anchos, regulares, a 180 X' durante 15 segundos, con recuperación espontánea. Potasio 4,1 mEq/l. ¿Qué complicación presenta y por qué mecanismo?",
+   "opciones": [
+    "Bloqueo AV por fármacos cronotrópicos",
+    "Arritmia por hiperpotasemia de acidosis",
+    "Arritmia ventricular por hipoxia miocárdica",
+    "Crisis convulsiva por hipoxia cerebral",
+    "Síncope vasovagal por náuseas y vómito"
+   ],
+   "clave": 3,
+   "especialidad": "Neumología",
+   "tema": "Monóxido · complicación cardíaca",
+   "diagnostico": "Intoxicación por CO con arritmia en coronario",
+   "tipo": "complicacion",
+   "dificultad": "muy alta",
+   "razonamiento": "Paso 1: tras dormir con brasero, COHb 22 % en un coronario, que presenta síncope con QRS anchos a 180 X' y potasio normal. Paso 2: el gas causa hipoxia tisular de predominio en cerebro y corazón. Paso 3: la arritmia ventricular por hipoxia miocárdica es una manifestación grave que obliga a monitoreo y a considerar hiperbárico.",
+   "por_que_no": [
+    "Daría frecuencia baja y él no toma betabloqueadores; aquí la frecuencia es de 180 X'.",
+    "Se plantearía con potasio alto; su potasio es normal (4,1 mEq/l).",
+    "",
+    "Es otra forma grave del cuadro, pero no hubo movimientos y el monitor explica el evento.",
+    "Daría bradicardia e hipotensión, no QRS anchos a 180 X'; sería válido sin hallazgos en el monitor."
+   ],
+   "trampa": [
+    "otro-contexto",
+    "otro",
+    "",
+    "diferencial",
+    "diferencial"
+   ],
+   "perla": "La hipoxia por COHb golpea cerebro y corazón: las arritmias son criterio de forma grave.",
+   "fuente": {
+    "carpeta": "6.NEUMOLOGIA",
+    "archivo": "23. INTOXICACION POR CO.pdf",
+    "seccion": "pág 1 · Consecuencias y clínica grave"
+   },
+   "gemela_de": null
+  },
+  {
+   "id": "2026-10-22-banco-neumo-altura-co-030",
+   "enunciado": "Familia de turistas de Lima lleva 6 días en un hostal de Puno (3800 msnm), sin molestias hasta ayer. Hoy al amanecer los cuatro que durmieron en la misma habitación, con un calentador a gas y la ventana cerrada, despiertan con cefalea, mareo y náuseas; la abuela, que durmió en otro cuarto, está asintomática. Todos cenaron platos distintos. El padre, de 42 años: PA 124/78 mmHg, FC 104 X', FR 20 X', T° 36,6 °C, SatO2 97 % (FiO2 0,21), lúcido, marcha normal, pulmones limpios. Mejoran al salir al patio. ¿Cuál es el diagnóstico más probable de este grupo?",
+   "opciones": [
+    "Edema cerebral de altura",
+    "Gastroenteritis por alimentos",
+    "Migraña desencadenada por hipoxia",
+    "Mal agudo de montaña leve",
+    "Intoxicación por monóxido de carbono"
+   ],
+   "clave": 5,
+   "especialidad": "Neumología",
+   "tema": "Monóxido · diferencial con la altura",
+   "diagnostico": "Intoxicación por CO en turistas en Puno",
+   "tipo": "diagnostico",
+   "dificultad": "muy alta",
+   "razonamiento": "Paso 1: cuatro personas con cefalea, mareo y náuseas al despertar en un cuarto cerrado con calentador a gas, tras 6 días en Puno; la que durmió aparte está bien y mejoran al aire libre. Paso 2: la SatO2 de 97 % a 3800 msnm es más alta de lo esperable (falsa por COHb). Paso 3: el patrón ambiental orienta a gas de combustión incompleta; se confirma con carboxihemoglobina.",
+   "por_que_no": [
+    "Daría ataxia y alteración de conciencia; están lúcidos con marcha normal.",
+    "Requeriría una comida común y diarrea; cenaron distinto y el patrón sigue a la habitación.",
+    "No explica un brote simultáneo en cuatro personas que mejora al salir del cuarto.",
+    "Aparece a las 6-24 h del ascenso; llevan 6 días aclimatados y la abuela no tiene síntomas.",
+    ""
+   ],
+   "trampa": [
+    "otro-estadio",
+    "diferencial",
+    "diferencial",
+    "diferencial",
+    ""
+   ],
+   "perla": "Brote familiar al despertar, en la misma habitación con calentador = gas de combustión, no la altura.",
+   "fuente": {
+    "carpeta": "6.NEUMOLOGIA",
+    "archivo": "23. INTOXICACION POR CO.pdf",
+    "seccion": "pág 1 · Fisiopatología y diagnóstico"
+   },
+   "gemela_de": null
+  }
+ ]
+}

@@ -1,0 +1,1190 @@
+{
+ "id": "2026-10-22-banco-neumo-neumonia",
+ "fecha": "2026-10-22",
+ "turno": "noche",
+ "titulo": "Banco · Neumonía",
+ "segundos_por_pregunta": 60,
+ "temas_noche": [
+  "Neumonía"
+ ],
+ "feedback_noche": "Aprueba quien puntúa la escala de gravedad con sus umbrales exactos (BUN >19, FR ≥30, PAD ≤60, edad ≥65) y luego elige el esquema según el lugar de manejo y los factores de riesgo (comorbilidad, Pseudomonas, SARM, alergia, embarazo). Se suele fallar al confundir el esquema de la comunidad con el intrahospitalario, al olvidar el ajuste renal de vancomicina y al no reconocer por sus hallazgos la cavidad supurada y el pus pleural.",
+ "perlas_noche": [
+  "CURB-65: 0-1 ambulatorio, 2 sala, ≥3 UCI; CRB-65 en primer nivel: ≥1 = hospitalizar.",
+  "Ambulatorio sano: amoxicilina o macrólido (alergia: doxiciclina); con comorbilidad: amoxi-clavulánico + macrólido o levofloxacino.",
+  "Hospital: ceftriaxona + macrólido; UCI con riesgo de Pseudomonas: mero/pipetazo + levofloxacino; SARM: vancomicina (daño renal: linezolid).",
+  "Intrahospitalaria <4 días: S. aureus; >4 días o ventilador: Pseudomonas, Acinetobacter, SARM → vancomicina + antipseudomónico.",
+  "Pus pleural (pH <7,2, glucosa <40, LDH >1000): tubo + ATB; cavidad >6 cm: drenaje percutáneo; ATB 4-6 semanas."
+ ],
+ "preguntas": [
+  {
+   "id": "2026-10-22-banco-neumo-neumonia-001",
+   "enunciado": "Varón de 71 años, jubilado, hipertenso controlado, acude por 3 días de fiebre, tos con esputo herrumbroso y dolor en hemitórax derecho al inspirar. Está lúcido y orientado. PA 128/76 mmHg, FC 104 X', FR 26 X', T° 38,9 °C, SatO2 93% con FiO2 0,21. Matidez, soplo tubárico y crépitos en base derecha. Urea 62 mg/dl (BUN 29 mg/dl), creatinina 1,1 mg/dl. Radiografía: opacidad homogénea en lóbulo inferior derecho con broncograma aéreo. ¿Cuál es el lugar de manejo que corresponde a este paciente?",
+   "opciones": [
+    "Tratamiento ambulatorio con control en 48 horas",
+    "Observación en emergencia por 6 horas y alta",
+    "Hospitalizar solo si sigue febril a las 72 horas",
+    "Ingreso directo a la unidad de cuidados intensivos",
+    "Hospitalización en sala general de medicina"
+   ],
+   "clave": 5,
+   "especialidad": "Neumología",
+   "tema": "Gravedad · escala con urea y lugar de manejo",
+   "diagnostico": "Neumonía típica lobar, CURB-65 = 2",
+   "tipo": "severidad",
+   "dificultad": "alta",
+   "razonamiento": "Paso 1: se puntúa la escala de gravedad: edad ≥65 (1) y BUN 29 >19 mg/dl (1); conciencia, FR 26 y PA normales no suman. Paso 2: total 2 puntos en un cuadro típico lobar. Paso 3: 2 puntos indican hospitalización en sala; la UCI se reserva para 3 o más.",
+   "por_que_no": [
+    "Corresponde a 0-1 puntos; aquí suman 2 (edad y BUN), por lo que no califica para manejo ambulatorio.",
+    "Solo sería razonable con 0-1 puntos y duda sobre la tolerancia oral; con 2 puntos se hospitaliza.",
+    "La reevaluación a las 72 h mide la respuesta al antibiótico ya iniciado; el destino inicial lo define el puntaje.",
+    "Se reserva para 3 o más puntos; sería correcto si además tuviera confusión, FR ≥30 o PA baja.",
+    ""
+   ],
+   "trampa": [
+    "umbral",
+    "otro-momento",
+    "otro-momento",
+    "otro-estadio",
+    ""
+   ],
+   "perla": "CURB-65: 0-1 ambulatorio, 2 hospitalización, ≥3 UCI; la urea cuenta si el BUN es >19 mg/dl.",
+   "fuente": {
+    "carpeta": "6.NEUMOLOGIA",
+    "archivo": "8. NEUMONIA.pdf",
+    "seccion": "p. 1 · CURB-65"
+   },
+   "gemela_de": null
+  },
+  {
+   "id": "2026-10-22-banco-neumo-neumonia-002",
+   "enunciado": "Mujer de 58 años, sin comorbilidades, traída por su hija por 4 días de fiebre y tos purulenta; hoy está desorientada en tiempo y espacio. PA 86/54 mmHg, FC 122 X', FR 33 X', T° 39,4 °C, SatO2 88% con FiO2 0,21. Crépitos y soplo tubárico en hemitórax izquierdo. BUN 31 mg/dl, leucocitos 21 000/mm³ con 9% de abastonados, PCR 190 mg/l. Radiografía: consolidación del lóbulo inferior izquierdo con broncograma aéreo. No recibió antibióticos en el último año ni tiene enfermedad pulmonar estructural. ¿Cuál es el esquema antibiótico empírico indicado?",
+   "opciones": [
+    "Vancomicina más piperacilina-tazobactam",
+    "Azitromicina oral en monoterapia",
+    "Meropenem más levofloxacino endovenosos",
+    "Ceftriaxona más azitromicina endovenosas",
+    "Amoxicilina-clavulánico más azitromicina oral"
+   ],
+   "clave": 4,
+   "especialidad": "Neumología",
+   "tema": "Antibiótico empírico · UCI sin riesgo de Pseudomonas",
+   "diagnostico": "Neumonía grave (CURB-65 = 4) sin factores de riesgo para Pseudomonas",
+   "tipo": "tratamiento",
+   "dificultad": "muy alta",
+   "razonamiento": "Paso 1: confusión, BUN 31, FR 33 y PA 86/54 suman 4 puntos. Paso 2: la gravedad indica UCI y no hay EPOC severo, bronquiectasias ni antibióticos previos, es decir, no hay factores de riesgo para Pseudomonas. Paso 3: en UCI sin esos factores el esquema es betalactámico (ceftriaxona) más macrólido.",
+   "por_que_no": [
+    "Es el esquema de la infección adquirida tras 48 h de hospitalización; correcto en el paciente intrahospitalario.",
+    "Sirve solo en el ambulatorio sin factores de riesgo; es insuficiente en un cuadro que requiere UCI.",
+    "Exige factores de riesgo para Pseudomonas (EPOC severo, bronquiectasias, antibióticos recientes), ausentes aquí.",
+    "",
+    "Esquema ambulatorio con comorbilidad; no corresponde a un puntaje de 4 con hipotensión."
+   ],
+   "trampa": [
+    "otro-contexto",
+    "otro-estadio",
+    "otra-poblacion",
+    "",
+    "otro-estadio"
+   ],
+   "perla": "UCI sin riesgo de Pseudomonas: ceftriaxona + macrólido; con riesgo: antipseudomónico + quinolona respiratoria.",
+   "fuente": {
+    "carpeta": "6.NEUMOLOGIA",
+    "archivo": "8. NEUMONIA.pdf",
+    "seccion": "p. 1 · Tratamiento de NAC en UCI"
+   },
+   "gemela_de": null
+  },
+  {
+   "id": "2026-10-22-banco-neumo-neumonia-003",
+   "enunciado": "En un puesto de salud rural sin laboratorio ni radiografía, una mujer de 68 años, viuda, sin comorbilidades, consulta por 2 días de fiebre, escalofríos y tos con esputo amarillento. Está lúcida y deambula sola. PA 124/78 mmHg, FC 98 X', FR 24 X', T° 38,6 °C, SatO2 94% con FiO2 0,21. Crépitos localizados y aumento de vibraciones vocales en base izquierda. Tolera la vía oral. El establecimiento no puede dosar urea. ¿Cuál es la decisión correcta respecto al lugar de manejo?",
+   "opciones": [
+    "Iniciar azitromicina y reevaluar en 72 horas",
+    "Diferir la decisión hasta contar con urea",
+    "Referir a UCI por tener 65 años o más",
+    "Ambulatorio con amoxicilina oral por 5 días",
+    "Referir para hospitalización por puntaje de 1"
+   ],
+   "clave": 5,
+   "especialidad": "Neumología",
+   "tema": "Gravedad · escala sin urea en el primer nivel",
+   "diagnostico": "Neumonía típica, CRB-65 = 1 en establecimiento sin laboratorio",
+   "tipo": "severidad",
+   "dificultad": "media",
+   "razonamiento": "Paso 1: sin laboratorio se usa la escala sin urea (confusión, FR ≥30, PA baja, edad ≥65). Paso 2: solo puntúa la edad, total 1 punto. Paso 3: con 1 o más puntos se indica hospitalización, por lo que se refiere; solo 0 puntos permitiría el manejo ambulatorio.",
+   "por_que_no": [
+    "Es un manejo ambulatorio válido con 0 puntos; aquí la edad ya indica hospitalización.",
+    "La escala sin urea existe para el primer nivel sin laboratorio; esperar el dato retrasa la referencia.",
+    "La UCI exige mayor gravedad (≥3 en la escala con urea); un punto solo indica hospitalizar.",
+    "Aplicaría con 0 puntos en la escala sin urea; la edad ≥65 ya suma 1 y obliga a referir.",
+    ""
+   ],
+   "trampa": [
+    "umbral",
+    "otro-contexto",
+    "otro-estadio",
+    "umbral",
+    ""
+   ],
+   "perla": "CRB-65 (primer nivel, sin urea): 0 = ambulatorio; ≥1 = hospitalizar.",
+   "fuente": {
+    "carpeta": "6.NEUMOLOGIA",
+    "archivo": "Neumología -  Fundamentos teóricos_ENAM 2024.pdf",
+    "seccion": "p. 33-34 · CRB-65 y severidad"
+   },
+   "gemela_de": null
+  },
+  {
+   "id": "2026-10-22-banco-neumo-neumonia-004",
+   "enunciado": "Mujer de 34 años, vendedora ambulante, con 3 días de fiebre, tos productiva y vómitos persistentes que le impiden ingerir líquidos y medicación oral. Orientada. PA 112/70 mmHg, FC 112 X', FR 26 X', T° 38,8 °C, SatO2 89% con FiO2 0,21. Crépitos y soplo tubárico en base derecha. BUN 14 mg/dl. Radiografía: consolidación del lóbulo medio con broncograma aéreo. Vive sola y no tiene quién la cuide. ¿Cuál es la conducta más adecuada respecto al lugar de manejo?",
+   "opciones": [
+    "Ingreso a UCI por la saturación de 89%",
+    "Observar 6 horas y alta si cede el vómito",
+    "Azitromicina oral y control en 48 horas",
+    "Manejo ambulatorio con amoxicilina oral",
+    "Hospitalizar pese al puntaje de gravedad bajo"
+   ],
+   "clave": 5,
+   "especialidad": "Neumología",
+   "tema": "Lugar de manejo · criterios adicionales de hospitalización",
+   "diagnostico": "Neumonía con CURB-65 = 0 e hipoxemia sin vía oral",
+   "tipo": "conducta",
+   "dificultad": "alta",
+   "razonamiento": "Paso 1: la escala de gravedad da 0 puntos (joven, orientada, FR 26, PA y BUN normales). Paso 2: hay criterios adicionales de hospitalización: SatO2 <92%, imposibilidad de vía oral y falta de soporte social. Paso 3: se hospitaliza aunque el puntaje sea bajo, porque la escala no reemplaza estos criterios.",
+   "por_que_no": [
+    "La hipoxemia aislada no basta para UCI; sería correcto con 3 o más puntos o shock.",
+    "La hipoxemia persiste aunque ceda el vómito; sería razonable solo con SatO2 ≥92% y buen soporte social.",
+    "Es el esquema ambulatorio sin factores de riesgo; con vómitos e hipoxemia no puede cumplirse en casa.",
+    "Lo sugiere el puntaje de 0, pero la saturación <92% y la intolerancia oral obligan a hospitalizar.",
+    ""
+   ],
+   "trampa": [
+    "otro-estadio",
+    "otro-momento",
+    "otro-contexto",
+    "umbral",
+    ""
+   ],
+   "perla": "Se hospitaliza aun con CURB-65 bajo si SatO2 <92%, no hay vía oral o hay deterioro cognitivo, funcional o social.",
+   "fuente": {
+    "carpeta": "6.NEUMOLOGIA",
+    "archivo": "Neumología -  Fundamentos teóricos_ENAM 2024.pdf",
+    "seccion": "p. 33 · Si se hospitaliza"
+   },
+   "gemela_de": null
+  },
+  {
+   "id": "2026-10-22-banco-neumo-neumonia-005",
+   "enunciado": "Varón de 82 años, con artrosis de rodillas, llega por 5 días de tos productiva y fiebre. Lúcido y orientado. PA 96/64 mmHg, FC 116 X', FR 28 X', T° 38,3 °C. AGA con FiO2 0,21: pH 7,27; pCO2 30 mmHg; PaO2 50 mmHg; HCO3 13 mEq/l. BUN 34 mg/dl. Radiografía: consolidación limitada al lóbulo inferior derecho. El equipo aplica el índice de severidad que pondera como criterios mayores el pH <7,30 y la PAS <90 mmHg. ¿Qué puntaje obtiene y en qué categoría de riesgo se ubica?",
+   "opciones": [
+    "40 puntos: riesgo alto",
+    "16 puntos: riesgo intermedio",
+    "34 puntos: riesgo alto",
+    "29 puntos: riesgo alto",
+    "24 puntos: riesgo alto"
+   ],
+   "clave": 4,
+   "especialidad": "Neumología",
+   "tema": "Gravedad · índice de severidad con criterios mayores y menores",
+   "diagnostico": "Neumonía en mayor de 80 años, índice SCAP = 29",
+   "tipo": "severidad",
+   "dificultad": "muy alta",
+   "razonamiento": "Paso 1: criterio mayor: pH 7,27 (13); la PAS 96 no suma. Paso 2: criterios menores: PaO2/FiO2 = 50/0,21 ≈ 238, <250 (6); BUN 34 >30 (5); edad ≥80 (5); FR 28, sensorio y lóbulo único no suman. Paso 3: total 29 puntos; 20 o más es riesgo alto.",
+   "por_que_no": [
+    "Suma 11 por PAS, pero 96 mmHg no es <90; sería correcto con una PAS de 85 mmHg.",
+    "Omite el criterio mayor del pH <7,30 (13 puntos); sería correcto solo si el pH fuera ≥7,30.",
+    "Agrega 5 por infiltrado multilobar; sería correcto si la radiografía mostrara compromiso de varios lóbulos.",
+    "",
+    "Omite los 5 puntos de la edad ≥80; sería el total en un paciente de 75 años con los mismos datos."
+   ],
+   "trampa": [
+    "umbral",
+    "umbral",
+    "otro-estadio",
+    "",
+    "umbral"
+   ],
+   "perla": "SCAP: pH <7,30 (13) y PAS <90 (11) son mayores; ≥20 puntos = riesgo alto.",
+   "fuente": {
+    "carpeta": "6.NEUMOLOGIA",
+    "archivo": "Neumología -  Fundamentos teóricos_ENAM 2024.pdf",
+    "seccion": "p. 34 · Índice SCAP"
+   },
+   "gemela_de": null
+  },
+  {
+   "id": "2026-10-22-banco-neumo-neumonia-006",
+   "enunciado": "Varón de 22 años, estudiante que vive en una residencia universitaria, con 8 días de malestar, cefalea, odinofagia, febrícula y tos seca persistente. Hace un año presentó urticaria generalizada y edema de labios tras recibir azitromicina. PA 118/72 mmHg, FC 92 X', FR 20 X', T° 37,9 °C, SatO2 96% con FiO2 0,21. Subcrépitos bilaterales escasos. Leucocitos 8 200/mm³, PCR 35 mg/l. Radiografía: infiltrado reticular bilateral en parches, más extenso de lo que sugiere el examen físico. ¿Cuál es el antibiótico oral de elección?",
+   "opciones": [
+    "Doxiciclina oral por 5 días",
+    "Claritromicina oral por 7 días",
+    "Azitromicina oral por 5 días",
+    "Levofloxacino oral por 5 días",
+    "Amoxicilina oral por 5 días"
+   ],
+   "clave": 1,
+   "especialidad": "Neumología",
+   "tema": "Ambulatorio sin factores de riesgo · alergia a macrólidos",
+   "diagnostico": "Neumonía atípica ambulatoria en joven alérgico a macrólidos",
+   "tipo": "tratamiento",
+   "dificultad": "alta",
+   "razonamiento": "Paso 1: joven, inicio insidioso, tos seca, febrícula, PCR <80 e infiltrado intersticial bilateral con disociación clínico-radiológica. Paso 2: cuadro atípico ambulatorio, sin puntaje de gravedad ni comorbilidades. Paso 3: el macrólido sería de elección, pero hay alergia; la alternativa indicada es doxiciclina.",
+   "por_que_no": [
+    "",
+    "Es otro macrólido y comparte la alergia; sería alternativa a azitromicina en un paciente no alérgico.",
+    "Es la primera elección en el ambulatorio sin factores de riesgo, pero este paciente es alérgico a macrólidos.",
+    "Se reserva para el ambulatorio con comorbilidad o riesgo de resistencia; este joven sano no lo requiere.",
+    "Sirve para el cuadro típico; no cubre a los gérmenes atípicos sin pared que sugiere este patrón."
+   ],
+   "trampa": [
+    "",
+    "mismo-grupo",
+    "otra-poblacion",
+    "otro-contexto",
+    "diferencial"
+   ],
+   "perla": "Ambulatorio sin factores de riesgo: macrólido o amoxicilina; si es alérgico a macrólidos: doxiciclina.",
+   "fuente": {
+    "carpeta": "6.NEUMOLOGIA",
+    "archivo": "8. NEUMONIA.pdf",
+    "seccion": "p. 1 · Tratamiento ambulatorio"
+   },
+   "gemela_de": null
+  },
+  {
+   "id": "2026-10-22-banco-neumo-neumonia-007",
+   "enunciado": "Mujer de 44 años con infección por VIH en TARV desde hace 6 años (CD4 420/mm³, carga viral indetectable), acude por 3 días de fiebre de 39 °C, escalofríos y tos con esputo purulento. Orientada. PA 118/74 mmHg, FC 104 X', FR 22 X', SatO2 95% con FiO2 0,21. Crépitos y soplo tubárico en base izquierda. BUN 15 mg/dl. Leucocitos 15 800/mm³ con 7% de abastonados. Radiografía: consolidación lobar izquierda con broncograma aéreo. Tolera la vía oral y tiene soporte familiar. ¿Cuál es el esquema antibiótico ambulatorio más adecuado?",
+   "opciones": [
+    "Amoxicilina oral en monoterapia por 5 días",
+    "Doxiciclina oral en monoterapia por 5 días",
+    "Ceftriaxona más azitromicina endovenosas",
+    "Azitromicina oral en monoterapia por 5 días",
+    "Amoxicilina-clavulánico más azitromicina oral"
+   ],
+   "clave": 5,
+   "especialidad": "Neumología",
+   "tema": "Ambulatorio con comorbilidad · VIH",
+   "diagnostico": "Neumonía típica ambulatoria en paciente con VIH",
+   "tipo": "tratamiento",
+   "dificultad": "media",
+   "razonamiento": "Paso 1: cuadro típico lobar con 0 puntos de gravedad, saturación 95% y tolerancia oral: manejo ambulatorio. Paso 2: el VIH es una comorbilidad que aumenta el riesgo de resistencia. Paso 3: corresponde betalactámico con inhibidor de betalactamasa más macrólido (o levofloxacino) por 5 días.",
+   "por_que_no": [
+    "Es válida sin comorbilidades; con VIH se amplía a betalactámico con inhibidor más macrólido.",
+    "Es la alternativa del alérgico a macrólidos sin comorbilidad; no corresponde a una paciente con VIH.",
+    "Es el esquema del hospitalizado; con 0 puntos, buena saturación y vía oral no se requiere.",
+    "Es para el ambulatorio sin comorbilidad; el VIH es un factor de riesgo de resistencia.",
+    ""
+   ],
+   "trampa": [
+    "otra-poblacion",
+    "mismo-grupo",
+    "otro-estadio",
+    "otra-poblacion",
+    ""
+   ],
+   "perla": "Ambulatorio con comorbilidad (DM, ERC, alcohol, VIH, cirrosis): amoxicilina-clavulánico + macrólido o levofloxacino.",
+   "fuente": {
+    "carpeta": "6.NEUMOLOGIA",
+    "archivo": "E25 - Villateca I - Neumología.pdf",
+    "seccion": "p. 6 · Tratamiento NAC con comorbilidad"
+   },
+   "gemela_de": null
+  },
+  {
+   "id": "2026-10-22-banco-neumo-neumonia-008",
+   "enunciado": "Varón de 69 años, con diabetes tipo 2, hospitalizado en sala hace 3 días por fiebre, tos productiva y consolidación lobar derecha; al ingreso estaba orientado, con BUN 26 mg/dl, FR 24 X' y PA 130/80 mmHg. Recibe ceftriaxona más azitromicina endovenosas. Hoy lleva 36 horas afebril, PA 126/78 mmHg, FC 84 X', FR 18 X', SatO2 95% con FiO2 0,21, tolera la vía oral y la PCR descendió de 160 a 45 mg/l. Se planifica el paso a vía oral. ¿Cuál es la duración total del tratamiento antibiótico?",
+   "opciones": [
+    "4 a 6 semanas en total",
+    "14 días en total",
+    "5 días en total",
+    "7 días en total",
+    "10 días en total"
+   ],
+   "clave": 4,
+   "especialidad": "Neumología",
+   "tema": "Duración del tratamiento · paciente hospitalizado",
+   "diagnostico": "Neumonía hospitalizada en sala con buena respuesta",
+   "tipo": "dosis",
+   "dificultad": "media",
+   "razonamiento": "Paso 1: al ingreso tenía edad ≥65 y BUN >19: 2 puntos, por eso se hospitalizó en sala. Paso 2: hoy hay estabilidad clínica y descenso de la PCR: buena respuesta sin complicaciones. Paso 3: el tratamiento del hospitalizado dura 7 días; el ambulatorio, 5 días.",
+   "por_que_no": [
+    "Es la duración del tratamiento de la cavidad supurada; no aplica a un cuadro lobar sin complicación.",
+    "Duración excesiva para un cuadro lobar sin complicación; no figura como esquema estándar.",
+    "Es la duración del manejo ambulatorio; en el paciente hospitalizado se completan 7 días.",
+    "",
+    "Prolonga sin indicación a un paciente que respondió; solo se extiende ante complicaciones."
+   ],
+   "trampa": [
+    "otro-estadio",
+    "otro-estadio",
+    "otro-contexto",
+    "",
+    "umbral"
+   ],
+   "perla": "Duración: ambulatorio 5 días; hospitalizado 7 días; cavidad supurada 4-6 semanas.",
+   "fuente": {
+    "carpeta": "6.NEUMOLOGIA",
+    "archivo": "8. NEUMONIA.pdf",
+    "seccion": "p. 2 · Duración del tratamiento"
+   },
+   "gemela_de": null
+  },
+  {
+   "id": "2026-10-22-banco-neumo-neumonia-009",
+   "enunciado": "Varón de 56 años, fumador, regresó hace 6 días de un crucero de 10 días; desde hace 4 días tiene fiebre de 39,5 °C, mialgias, deposiciones líquidas 5 veces al día y luego tos poco productiva. Orientado. PA 118/72 mmHg, FC 88 X', FR 26 X', SatO2 91% con FiO2 0,21. Crépitos en base izquierda. Na 127 mEq/l, TGO 98 UI/l, TGP 110 UI/l, BUN 18 mg/dl. Radiografía: infiltrado en parche en el lóbulo inferior izquierdo con pequeño derrame. ¿Cuál es el antibiótico de elección para el agente sospechado?",
+   "opciones": [
+    "Ceftriaxona endovenosa",
+    "Oxacilina endovenosa",
+    "Levofloxacino endovenoso",
+    "Ampicilina-sulbactam endovenosa",
+    "Amoxicilina en dosis altas"
+   ],
+   "clave": 3,
+   "especialidad": "Neumología",
+   "tema": "Etiología según contexto · crucero, diarrea e hiponatremia",
+   "diagnostico": "Neumonía por Legionella",
+   "tipo": "tratamiento",
+   "dificultad": "alta",
+   "razonamiento": "Paso 1: crucero reciente, fiebre alta, diarrea, Na 127 y transaminasas elevadas con infiltrado en parche. Paso 2: la combinación respiratoria, digestiva e hiponatremia orienta a Legionella. Paso 3: el tratamiento es una fluoroquinolona respiratoria, levofloxacino; los betalactámicos no cubren intracelulares.",
+   "por_que_no": [
+    "Cubre al germen típico más frecuente, pero no a un intracelular asociado a cruceros, diarrea e hiponatremia.",
+    "Es para S. aureus sensible (posgripal, neumatoceles); no corresponde a este cuadro.",
+    "",
+    "Indicada en la aspiración con anaerobios orales; no cubre el agente de este caso.",
+    "Útil en el cuadro típico ambulatorio; no actúa sobre gérmenes intracelulares."
+   ],
+   "trampa": [
+    "diferencial",
+    "otro-contexto",
+    "",
+    "otro-contexto",
+    "diferencial"
+   ],
+   "perla": "Fiebre + diarrea + hiponatremia (± hotel o crucero) → Legionella → levofloxacino.",
+   "fuente": {
+    "carpeta": "6.NEUMOLOGIA",
+    "archivo": "8. NEUMONIA.pdf",
+    "seccion": "p. 2 · Pepas (diarrea + hiponatremia)"
+   },
+   "gemela_de": null
+  },
+  {
+   "id": "2026-10-22-banco-neumo-neumonia-010",
+   "enunciado": "Mujer de 37 años, previamente sana, tuvo hace 10 días fiebre, mialgias intensas y rinorrea durante un brote de influenza en su oficina; mejoró, pero hace 3 días reaparece fiebre de 39,6 °C con tos purulenta y disnea. PA 104/66 mmHg, FC 118 X', FR 28 X', SatO2 90% con FiO2 0,21. Crépitos bilaterales. Radiografía: consolidaciones bilaterales con varias imágenes quísticas de pared fina. Hemocultivos y esputo: cocos grampositivos en racimos; antibiograma sensible a oxacilina. ¿Cuál es el antibiótico dirigido de elección?",
+   "opciones": [
+    "Vancomicina endovenosa",
+    "Oxacilina endovenosa",
+    "Daptomicina endovenosa",
+    "Linezolid endovenoso",
+    "Ceftriaxona más azitromicina"
+   ],
+   "clave": 2,
+   "especialidad": "Neumología",
+   "tema": "Etiología según contexto · posgripal con neumatoceles",
+   "diagnostico": "Neumonía posgripal por S. aureus sensible a meticilina",
+   "tipo": "tratamiento",
+   "dificultad": "muy alta",
+   "razonamiento": "Paso 1: cuadro gripal seguido, tras una mejoría, de fiebre alta y consolidaciones con imágenes quísticas (neumatoceles). Paso 2: el contexto posgripal y el neumatocele orientan a S. aureus, confirmado por cocos en racimos sensibles a oxacilina. Paso 3: el estafilococo sensible se trata con oxacilina; vancomicina queda para SARM.",
+   "por_que_no": [
+    "Se reserva para la cepa resistente a meticilina; con antibiograma sensible a oxacilina no es la elección.",
+    "",
+    "Es activa contra estafilococos en sangre, pero el surfactante la inactiva; sirve en infecciones no pulmonares.",
+    "Es alternativa a vancomicina para la cepa resistente cuando hay daño renal; no es la elección aquí.",
+    "Es el esquema empírico del hospitalizado; con germen y sensibilidad conocidos se dirige el tratamiento."
+   ],
+   "trampa": [
+    "otro-contexto",
+    "",
+    "mismo-grupo",
+    "otra-poblacion",
+    "otro-momento"
+   ],
+   "perla": "Posgripal o neumatocele → S. aureus: sensible, oxacilina; SARM, vancomicina (linezolid si hay daño renal).",
+   "fuente": {
+    "carpeta": "6.NEUMOLOGIA",
+    "archivo": "8. NEUMONIA.pdf",
+    "seccion": "p. 2 · Pepas (posgripal, neumatocele, SASM/SARM)"
+   },
+   "gemela_de": null
+  },
+  {
+   "id": "2026-10-22-banco-neumo-neumonia-011",
+   "enunciado": "Varón de 64 años con enfermedad renal crónica por diabetes (creatinina basal 3,6 mg/dl, TFG 17 ml/min); hace 2 meses tuvo infección de su fístula por estafilococo resistente a meticilina. Ingresa a UCI por 3 días de fiebre, tos purulenta con estrías de sangre y disnea. PA 88/56 mmHg, FC 124 X', FR 34 X', SatO2 86% con FiO2 0,21; somnoliento. Radiografía: consolidación multilobar con pequeñas cavitaciones. Gram de esputo de buena calidad: abundantes cocos grampositivos en racimos. Recibe ceftriaxona más azitromicina. ¿Qué fármaco se agrega para cubrir el germen sospechado?",
+   "opciones": [
+    "Oxacilina endovenosa",
+    "Amikacina endovenosa",
+    "Vancomicina endovenosa",
+    "Linezolid endovenoso",
+    "Daptomicina endovenosa"
+   ],
+   "clave": 4,
+   "especialidad": "Neumología",
+   "tema": "UCI con sospecha de SARM · enfermedad renal crónica",
+   "diagnostico": "Neumonía grave por SARM en paciente con ERC",
+   "tipo": "contraindicacion",
+   "dificultad": "muy alta",
+   "razonamiento": "Paso 1: shock, FR 34 y somnolencia obligan a UCI; cocos en racimos, cavitación y antecedente de cepa resistente sugieren SARM. Paso 2: en UCI con sospecha de SARM se agrega cobertura específica. Paso 3: vancomicina es nefrotóxica y requiere ajuste renal; con TFG de 17 se prefiere linezolid, que no lo requiere.",
+   "por_que_no": [
+    "Sirve para S. aureus sensible a meticilina; no cubre el antecedente de cepa resistente.",
+    "Es un aminoglucósido con ajuste renal que se usa como doble cobertura antipseudomónica, no contra SARM.",
+    "Es la elección para SARM con función renal conservada; su nefrotoxicidad y ajuste la desplazan con TFG de 17.",
+    "",
+    "Es activa frente a SARM en bacteriemia, pero el surfactante la inactiva en el pulmón."
+   ],
+   "trampa": [
+    "otro-contexto",
+    "otro-contexto",
+    "otra-poblacion",
+    "",
+    "mismo-grupo"
+   ],
+   "perla": "UCI con sospecha de SARM: vancomicina; si hay daño renal: linezolid (sin ajuste renal).",
+   "fuente": {
+    "carpeta": "6.NEUMOLOGIA",
+    "archivo": "8. NEUMONIA.pdf",
+    "seccion": "p. 1 · UCI SARM y ATB con o sin ajuste renal"
+   },
+   "gemela_de": null
+  },
+  {
+   "id": "2026-10-22-banco-neumo-neumonia-012",
+   "enunciado": "Mujer de 63 años con bronquiectasias difusas por secuela de infecciones en la infancia, expectoración crónica y tres cursos de antibiótico en los últimos 4 meses. Llega con 3 días de fiebre, aumento del esputo verdoso y confusión. PA 84/50 mmHg, FC 128 X', FR 35 X', T° 39,1 °C, SatO2 84% con FiO2 0,21. BUN 33 mg/dl. Radiografía: consolidación en ambos lóbulos inferiores. No refiere alergias. Ingresa a UCI. ¿Cuál es el esquema empírico más adecuado?",
+   "opciones": [
+    "Ceftriaxona más azitromicina endovenosas",
+    "Amoxicilina-clavulánico más azitromicina",
+    "Meropenem más levofloxacino endovenosos",
+    "Aztreonam más levofloxacino endovenosos",
+    "Vancomicina más ceftriaxona endovenosas"
+   ],
+   "clave": 3,
+   "especialidad": "Neumología",
+   "tema": "Antibiótico empírico · UCI con riesgo de Pseudomonas",
+   "diagnostico": "Neumonía grave en paciente con bronquiectasias",
+   "tipo": "tratamiento",
+   "dificultad": "muy alta",
+   "razonamiento": "Paso 1: confusión, BUN 33, FR 35 y PA 84/50 suman 4 puntos: UCI. Paso 2: bronquiectasias y antibióticos repetidos son factores de riesgo para Pseudomonas. Paso 3: corresponde betalactámico antipseudomónico (meropenem, imipenem o piperacilina-tazobactam) más fluoroquinolona respiratoria.",
+   "por_que_no": [
+    "Es el esquema de UCI sin factores de riesgo para Pseudomonas; aquí hay bronquiectasias y antibióticos recientes.",
+    "Es el esquema ambulatorio con comorbilidad; insuficiente para shock con riesgo de Pseudomonas.",
+    "",
+    "Es la alternativa para alérgicos a betalactámicos; la paciente no refiere alergia.",
+    "Cubre SARM, pero la ceftriaxona no es antipseudomónica; vancomicina se agrega solo si se sospecha SARM."
+   ],
+   "trampa": [
+    "otra-poblacion",
+    "otro-estadio",
+    "",
+    "otra-poblacion",
+    "otro-contexto"
+   ],
+   "perla": "Riesgo de Pseudomonas: EPOC severo, bronquiectasias, fibrosis quística, antibióticos previos → mero/imi/pipetazo + levofloxacino.",
+   "fuente": {
+    "carpeta": "6.NEUMOLOGIA",
+    "archivo": "8. NEUMONIA.pdf",
+    "seccion": "p. 1 · UCI con FR para Pseudomonas"
+   },
+   "gemela_de": null
+  },
+  {
+   "id": "2026-10-22-banco-neumo-neumonia-013",
+   "enunciado": "Varón de 50 años, con anafilaxia documentada a penicilina (hipotensión y edema laríngeo tras amoxicilina hace 5 años), ingresa por 4 días de fiebre, escalofríos y tos con esputo herrumbroso. Desorientado. PA 92/58 mmHg, FC 116 X', FR 31 X', T° 39,2 °C, SatO2 89% con FiO2 0,21. BUN 28 mg/dl. Radiografía: consolidación lobar derecha con broncograma aéreo. Se decide su ingreso a UCI; no tiene enfermedad pulmonar crónica ni uso reciente de antibióticos. ¿Cuál es el esquema antibiótico empírico apropiado?",
+   "opciones": [
+    "Ampicilina-sulbactam más clindamicina",
+    "Ceftriaxona más azitromicina endovenosas",
+    "Aztreonam más levofloxacino endovenosos",
+    "Meropenem más levofloxacino endovenosos",
+    "Amoxicilina-clavulánico más azitromicina"
+   ],
+   "clave": 3,
+   "especialidad": "Neumología",
+   "tema": "Alergia a betalactámicos · paciente en UCI",
+   "diagnostico": "Neumonía grave en paciente con anafilaxia a penicilina",
+   "tipo": "contraindicacion",
+   "dificultad": "alta",
+   "razonamiento": "Paso 1: confusión, BUN 28, FR 31 y PAD 58 suman 4 puntos: UCI. Paso 2: sin riesgo de Pseudomonas el esquema habitual sería ceftriaxona más macrólido, pero hay anafilaxia a penicilina. Paso 3: en el alérgico a betalactámicos se usa aztreonam más fluoroquinolona respiratoria (levofloxacino).",
+   "por_que_no": [
+    "Cubre la aspiración con anaerobios y contiene una penicilina, contraindicada por la anafilaxia.",
+    "Es el esquema de UCI sin alergia; con anafilaxia a penicilina se evita el betalactámico.",
+    "",
+    "Se indica con riesgo de Pseudomonas y sin alergia; además es un betalactámico.",
+    "Es el esquema ambulatorio con comorbilidad y además contiene una penicilina."
+   ],
+   "trampa": [
+    "otro-contexto",
+    "otra-poblacion",
+    "",
+    "otro-contexto",
+    "otro-estadio"
+   ],
+   "perla": "Alérgico a betalactámicos (hospital o UCI): aztreonam + levofloxacino.",
+   "fuente": {
+    "carpeta": "6.NEUMOLOGIA",
+    "archivo": "8. NEUMONIA.pdf",
+    "seccion": "p. 1 · Alérgico a PNC"
+   },
+   "gemela_de": null
+  },
+  {
+   "id": "2026-10-22-banco-neumo-neumonia-014",
+   "enunciado": "Mujer de 78 años, operada de fractura de cadera, lleva 9 días hospitalizada en traumatología. Desde ayer presenta fiebre de 38,7 °C, tos con esputo verdoso abundante y disnea. PA 108/68 mmHg, FC 110 X', FR 27 X', SatO2 89% con FiO2 0,21. Crépitos en ambas bases. Leucocitos 17 400/mm³. Radiografía: infiltrados nuevos en ambos campos inferiores, ausentes en la placa del ingreso. ¿Cuál es el agente etiológico más probable?",
+   "opciones": [
+    "Anaerobios de la flora oral",
+    "Streptococcus pneumoniae",
+    "Pseudomonas aeruginosa",
+    "Staphylococcus aureus sensible",
+    "Haemophilus influenzae"
+   ],
+   "clave": 3,
+   "especialidad": "Neumología",
+   "tema": "Intrahospitalaria · etiología según tiempo de internamiento",
+   "diagnostico": "Neumonía intrahospitalaria tardía",
+   "tipo": "diagnostico",
+   "dificultad": "alta",
+   "razonamiento": "Paso 1: infiltrado nuevo con fiebre y esputo purulento tras más de 48 h de hospitalización: infección intrahospitalaria. Paso 2: aparece al noveno día, es decir, tardía (>4 días). Paso 3: en la forma tardía predominan gérmenes resistentes, sobre todo Pseudomonas; en la temprana, S. aureus.",
+   "por_que_no": [
+    "Se piensa en ellos ante macroaspiración (alcohol, ACV, convulsión), sin datos de ese evento aquí.",
+    "Es el agente más frecuente adquirido en la comunidad, no tras más de 4 días de internamiento.",
+    "",
+    "Predomina cuando el cuadro aparece antes del cuarto día de hospitalización.",
+    "Es típico del fumador o del paciente con EPOC con infección adquirida en la comunidad."
+   ],
+   "trampa": [
+    "diferencial",
+    "otro-contexto",
+    "",
+    "otro-momento",
+    "otra-poblacion"
+   ],
+   "perla": "Intrahospitalaria: <4 días → S. aureus; >4 días → Pseudomonas y gramnegativos resistentes.",
+   "fuente": {
+    "carpeta": "6.NEUMOLOGIA",
+    "archivo": "8. NEUMONIA.pdf",
+    "seccion": "p. 1 · Clasificación (NIH temprana y tardía)"
+   },
+   "gemela_de": null
+  },
+  {
+   "id": "2026-10-22-banco-neumo-neumonia-015",
+   "enunciado": "Varón de 70 años con EPOC muy severo (VEF1 28% del predicho) y oxígeno domiciliario, hospitalizado hace 7 días por una colecistectomía complicada. Inicia fiebre de 38,9 °C, secreciones purulentas abundantes y mayor requerimiento de oxígeno. PA 100/64 mmHg, FC 118 X', FR 29 X', SatO2 87% con FiO2 0,35. Radiografía: infiltrado nuevo en el lóbulo inferior derecho. Creatinina 0,9 mg/dl. No tiene alergias. ¿Cuál es el esquema empírico recomendado?",
+   "opciones": [
+    "Vancomicina + meropenem + amikacina",
+    "Ceftriaxona + azitromicina",
+    "Piperacilina-tazobactam sola",
+    "Meropenem + levofloxacino",
+    "Vancomicina + piperacilina-tazobactam"
+   ],
+   "clave": 1,
+   "especialidad": "Neumología",
+   "tema": "Intrahospitalaria · esquema con riesgo de Pseudomonas",
+   "diagnostico": "Neumonía intrahospitalaria tardía en EPOC muy severo",
+   "tipo": "tratamiento",
+   "dificultad": "muy alta",
+   "razonamiento": "Paso 1: infiltrado nuevo con fiebre y secreción purulenta al séptimo día de internamiento: infección intrahospitalaria tardía. Paso 2: el EPOC muy severo es factor de riesgo para Pseudomonas. Paso 3: se cubre SARM (vancomicina) más betalactámico antipseudomónico y se agrega amikacina o levofloxacino como doble cobertura.",
+   "por_que_no": [
+    "",
+    "Es el esquema del hospitalizado de la comunidad; no cubre gérmenes resistentes intrahospitalarios.",
+    "Es útil en la aspiración hospitalaria, pero no cubre SARM ni da doble cobertura antipseudomónica.",
+    "Es el esquema de UCI con riesgo de Pseudomonas adquirido en la comunidad; deja sin cubrir SARM intrahospitalario.",
+    "Basta en el intrahospitalario sin riesgo de Pseudomonas; el EPOC muy severo exige doble cobertura."
+   ],
+   "trampa": [
+    "",
+    "otro-contexto",
+    "mismo-grupo",
+    "otro-contexto",
+    "otra-poblacion"
+   ],
+   "perla": "Intrahospitalaria con riesgo de Pseudomonas: vancomicina + antipseudomónico + levofloxacino o amikacina.",
+   "fuente": {
+    "carpeta": "6.NEUMOLOGIA",
+    "archivo": "8. NEUMONIA.pdf",
+    "seccion": "p. 1 · Tratamiento de NIH / ventilador mecánico"
+   },
+   "gemela_de": null
+  },
+  {
+   "id": "2026-10-22-banco-neumo-neumonia-016",
+   "enunciado": "Varón de 27 años, con traumatismo craneoencefálico grave por accidente de moto, intubado y en ventilación mecánica desde hace 5 días en UCI; no tenía enfermedades previas ni recibió antibióticos antes del ingreso. Hoy presenta fiebre de 38,8 °C, aumento de secreciones purulentas por el tubo y caída de la PaO2/FiO2 de 320 a 190. PA 110/70 mmHg, FC 112 X'. Leucocitos 18 900/mm³. Radiografía: infiltrado nuevo en el lóbulo inferior derecho. ¿Cuál es el esquema empírico más adecuado?",
+   "opciones": [
+    "Vancomicina más meropenem",
+    "Meropenem en monoterapia",
+    "Ceftriaxona más azitromicina",
+    "Vancomicina en monoterapia",
+    "Clindamicina en monoterapia"
+   ],
+   "clave": 1,
+   "especialidad": "Neumología",
+   "tema": "Asociada a ventilador · esquema empírico",
+   "diagnostico": "Neumonía asociada a ventilación mecánica",
+   "tipo": "tratamiento",
+   "dificultad": "alta",
+   "razonamiento": "Paso 1: infiltrado nuevo, fiebre, secreciones purulentas y caída de la PaO2/FiO2 tras más de 48 h de intubación. Paso 2: infección asociada al ventilador, cuyos agentes son Pseudomonas, Acinetobacter y SARM. Paso 3: se combina vancomicina con un carbapenémico o betalactámico antipseudomónico.",
+   "por_que_no": [
+    "",
+    "Cubre gramnegativos resistentes, pero deja sin cobertura a SARM, también frecuente en el ventilado.",
+    "Es el esquema de la infección de la comunidad; no cubre Pseudomonas, Acinetobacter ni SARM.",
+    "Cubre solo SARM y omite a Pseudomonas, el agente más frecuente en el ventilado.",
+    "Es para la aspiración con anaerobios de la comunidad; no cubre la flora del ventilador."
+   ],
+   "trampa": [
+    "",
+    "mismo-grupo",
+    "otro-contexto",
+    "mismo-grupo",
+    "otro-contexto"
+   ],
+   "perla": "Asociada a ventilador (>48 h post-intubación): Pseudomonas, Acinetobacter, SARM → carbapenémico + vancomicina.",
+   "fuente": {
+    "carpeta": "6.NEUMOLOGIA",
+    "archivo": "Neumología -  Fundamentos teóricos_ENAM 2024.pdf",
+    "seccion": "p. 44 · Neumonía asociada a ventilación"
+   },
+   "gemela_de": null
+  },
+  {
+   "id": "2026-10-22-banco-neumo-neumonia-017",
+   "enunciado": "Varón de 52 años, con consumo diario de alcohol, fue encontrado inconsciente en la vía pública tras una ingesta prolongada hace 4 días. Desde hace 2 días tiene fiebre, tos con esputo abundante de olor fétido y dolor torácico derecho. Piezas dentarias en mal estado. PA 122/76 mmHg, FC 106 X', FR 24 X', T° 38,5 °C, SatO2 92% con FiO2 0,21. Crépitos en base derecha. Radiografía: consolidación en el segmento posterior del lóbulo inferior derecho, sin cavitación. ¿Cuál es el antibiótico de elección?",
+   "opciones": [
+    "Ampicilina-sulbactam endovenosa",
+    "Ceftriaxona más azitromicina",
+    "Piperacilina-tazobactam endovenosa",
+    "Azitromicina oral en monoterapia",
+    "Metronidazol en monoterapia"
+   ],
+   "clave": 1,
+   "especialidad": "Neumología",
+   "tema": "Aspiración en la comunidad · alcoholismo",
+   "diagnostico": "Neumonía aspirativa de la comunidad por anaerobios",
+   "tipo": "tratamiento",
+   "dificultad": "alta",
+   "razonamiento": "Paso 1: alcoholismo, pérdida de conciencia, mala dentición y esputo fétido con consolidación en el segmento posterior derecho. Paso 2: aspiración adquirida en la comunidad con anaerobios orales. Paso 3: de elección ampicilina-sulbactam (o clindamicina + amoxicilina-clavulánico); piperacilina-tazobactam queda para la aspiración hospitalaria.",
+   "por_que_no": [
+    "",
+    "Es el esquema del cuadro típico hospitalizado; no cubre bien a los anaerobios orales.",
+    "Se reserva para la aspiración ocurrida en el hospital; esta es de la comunidad.",
+    "Es para el ambulatorio sin factores de riesgo; no cubre anaerobios de la aspiración.",
+    "Cubre anaerobios, pero solo es insuficiente para la flora oral mixta; sirve combinado en otros esquemas."
+   ],
+   "trampa": [
+    "",
+    "diferencial",
+    "otro-contexto",
+    "otro-estadio",
+    "mismo-grupo"
+   ],
+   "perla": "Aspiración en la comunidad: ampicilina-sulbactam o clindamicina; en el hospital: piperacilina-tazobactam.",
+   "fuente": {
+    "carpeta": "6.NEUMOLOGIA",
+    "archivo": "Neumología -  Fundamentos teóricos_ENAM 2024.pdf",
+    "seccion": "p. 41 · Neumonía aspirativa"
+   },
+   "gemela_de": null
+  },
+  {
+   "id": "2026-10-22-banco-neumo-neumonia-018",
+   "enunciado": "Mujer de 45 años con epilepsia mal controlada y crisis tónico-clónicas frecuentes, consulta por 3 semanas de fiebre vespertina, tos con esputo pútrido abundante y pérdida de 4 kg. PA 116/72 mmHg, FC 98 X', FR 20 X', T° 38,2 °C, SatO2 95% con FiO2 0,21. Halitosis y gingivitis. Radiografía: cavidad de 4 cm de diámetro, de pared gruesa y con nivel hidroaéreo, en el segmento posterior del lóbulo superior derecho. Baciloscopías seriadas de esputo negativas. ¿Cuál es el manejo de elección?",
+   "opciones": [
+    "Metronidazol por 4 a 6 semanas",
+    "Ceftriaxona más azitromicina 7 días",
+    "Drenaje percutáneo más antibiótico",
+    "Clindamicina por 7 días",
+    "Clindamicina por 4 a 6 semanas"
+   ],
+   "clave": 5,
+   "especialidad": "Neumología",
+   "tema": "Cavidad supurada · tratamiento antibiótico",
+   "diagnostico": "Absceso pulmonar de 4 cm por aspiración en epiléptica",
+   "tipo": "tratamiento",
+   "dificultad": "alta",
+   "razonamiento": "Paso 1: epilepsia (riesgo de aspiración), curso subagudo, esputo pútrido y cavidad con nivel hidroaéreo en segmento posterior. Paso 2: colección supurada por anaerobios tras aspiración; la baciloscopía negativa aleja el diferencial. Paso 3: se trata con clindamicina o ampicilina-sulbactam por 4-6 semanas; el drenaje se reserva para cavidades >6 cm.",
+   "por_que_no": [
+    "Es antianaerobio, pero en monoterapia no sirve para esta cavidad de flora mixta.",
+    "Es el esquema del cuadro típico hospitalizado; no cubre anaerobios de la aspiración crónica.",
+    "Se indica si la cavidad mide más de 6 cm o no responde; esta mide 4 cm.",
+    "Es la duración del cuadro hospitalizado sin cavidad; la lesión cavitada exige semanas.",
+    ""
+   ],
+   "trampa": [
+    "mismo-grupo",
+    "diferencial",
+    "otro-estadio",
+    "umbral",
+    ""
+   ],
+   "perla": "Cavidad supurada por aspiración: clindamicina o ampicilina-sulbactam 4-6 semanas; drenaje percutáneo si >6 cm.",
+   "fuente": {
+    "carpeta": "6.NEUMOLOGIA",
+    "archivo": "8. NEUMONIA.pdf",
+    "seccion": "p. 2 · Absceso pulmonar"
+   },
+   "gemela_de": null
+  },
+  {
+   "id": "2026-10-22-banco-neumo-neumonia-019",
+   "enunciado": "Varón de 39 años, alcohólico, hospitalizado hace 12 días por fiebre y tos con esputo fétido; recibe clindamicina endovenosa desde el ingreso. Persiste con fiebre de 38,6 °C, PA 118/70 mmHg, FC 104 X', FR 22 X', SatO2 93% con FiO2 0,21. Tomografía de tórax con contraste: cavidad periférica de 7,5 cm, de pared gruesa y con nivel hidroaéreo, en contacto con la pleura del lóbulo inferior izquierdo; no hay líquido en el espacio pleural. ¿Cuál es la conducta más adecuada?",
+   "opciones": [
+    "Toracotomía con decorticación",
+    "Drenaje percutáneo de la cavidad",
+    "Prolongar clindamicina hasta 6 semanas",
+    "Cambiar a metronidazol en monoterapia",
+    "Colocar tubo de drenaje pleural"
+   ],
+   "clave": 2,
+   "especialidad": "Neumología",
+   "tema": "Cavidad supurada · falta de respuesta y tamaño",
+   "diagnostico": "Absceso pulmonar mayor de 6 cm sin respuesta",
+   "tipo": "complicacion",
+   "dificultad": "muy alta",
+   "razonamiento": "Paso 1: cavidad de pared gruesa con nivel hidroaéreo en un alcohólico con esputo fétido: colección supurada por aspiración. Paso 2: tras 12 días de clindamicina persiste la fiebre y la cavidad mide 7,5 cm, sin líquido pleural. Paso 3: con más de 6 cm se indica drenaje percutáneo, manteniendo el antibiótico.",
+   "por_que_no": [
+    "Se reserva para la fase organizada pleural con pulmón atrapado, no para una cavidad del parénquima.",
+    "",
+    "Basta si la cavidad mide menos de 6 cm; aquí supera ese límite y no responde.",
+    "El metronidazol solo no sirve para esta colección; no es alternativa a la clindamicina.",
+    "Es para el pus en el espacio pleural; la tomografía no muestra líquido pleural."
+   ],
+   "trampa": [
+    "diferencial",
+    "",
+    "otro-estadio",
+    "mismo-grupo",
+    "diferencial"
+   ],
+   "perla": "Absceso pulmonar >6 cm: drenaje percutáneo; metronidazol solo y daptomicina no sirven.",
+   "fuente": {
+    "carpeta": "6.NEUMOLOGIA",
+    "archivo": "8. NEUMONIA.pdf",
+    "seccion": "p. 2 · Absceso pulmonar (>6 cm: drenaje)"
+   },
+   "gemela_de": null
+  },
+  {
+   "id": "2026-10-22-banco-neumo-neumonia-020",
+   "enunciado": "Mujer de 61 años, con hipotiroidismo, hospitalizada por fiebre, tos productiva y consolidación del lóbulo superior derecho; recibe ceftriaxona más azitromicina a dosis adecuadas desde hace 3 días. Persiste con fiebre de 38,7 °C, FC 108 X', FR 24 X', PA 120/74 mmHg, SatO2 91% con FiO2 0,21; los leucocitos no descienden y la PCR es 170 mg/l. La radiografía de control es poco nítida y no permite precisar si hay lesión cavitada o colección adyacente. ¿Cuál es el examen que corresponde solicitar?",
+   "opciones": [
+    "Tomografía de tórax",
+    "Gram y cultivo de esputo",
+    "Repetir radiografía PA y lateral",
+    "Procalcitonina sérica de control",
+    "Ecografía torácica al pie de cama"
+   ],
+   "clave": 1,
+   "especialidad": "Neumología",
+   "tema": "Falta de respuesta a las 72 horas · imagen",
+   "diagnostico": "Neumonía sin respuesta a las 72 h",
+   "tipo": "prueba",
+   "dificultad": "alta",
+   "razonamiento": "Paso 1: tras 72 h de antibiótico adecuado persisten fiebre, taquicardia y PCR alta: falta de respuesta. Paso 2: la radiografía no es concluyente para descartar cavitación o colección. Paso 3: la tomografía de tórax se indica si no hay mejoría a las 72 h, si la radiografía no es concluyente o si el cuadro es recurrente.",
+   "por_que_no": [
+    "",
+    "Se toma antes del antibiótico en el cuadro grave; no define la causa estructural de la falla.",
+    "Es el examen inicial; ya resultó no concluyente y no aclara la falta de respuesta.",
+    "Orienta a etiología bacteriana, pero no identifica complicaciones estructurales.",
+    "Sirve para guiar la punción de un derrame ya sospechado; no evalúa cavitaciones del parénquima."
+   ],
+   "trampa": [
+    "",
+    "otro-momento",
+    "otro-momento",
+    "no-confirmatorio",
+    "diferencial"
+   ],
+   "perla": "Tomografía de tórax si: no mejora en 72 h, radiografía no concluyente o cuadro recurrente.",
+   "fuente": {
+    "carpeta": "6.NEUMOLOGIA",
+    "archivo": "E25 - Villateca I - Neumología.pdf",
+    "seccion": "p. 5 · ¿TAC? cuándo"
+   },
+   "gemela_de": null
+  },
+  {
+   "id": "2026-10-22-banco-neumo-neumonia-021",
+   "enunciado": "Varón de 48 años, con diabetes tipo 2, hospitalizado hace 5 días por fiebre, tos productiva y consolidación del lóbulo inferior izquierdo, en tratamiento con ceftriaxona más azitromicina. Persiste febril (38,5 °C) y refiere dolor pleurítico izquierdo. PA 124/80 mmHg, FC 102 X', FR 22 X', SatO2 93% con FiO2 0,21. Matidez y murmullo vesicular abolido en base izquierda. Ecografía torácica: líquido libre de 24 mm de espesor en el seno costofrénico izquierdo. ¿Cuál es el siguiente paso?",
+   "opciones": [
+    "Observar y repetir ecografía en 72 horas",
+    "Toracocentesis diagnóstica del líquido",
+    "Escalar a meropenem sin puncionar",
+    "Toracotomía con decorticación pleural",
+    "Tubo de drenaje torácico inmediato"
+   ],
+   "clave": 2,
+   "especialidad": "Neumología",
+   "tema": "Complicación pleural · indicación de punción",
+   "diagnostico": "Derrame paraneumónico mayor de 10 mm",
+   "tipo": "prueba",
+   "dificultad": "media",
+   "razonamiento": "Paso 1: fiebre persistente, dolor pleurítico, matidez y murmullo abolido con líquido de 24 mm en la ecografía. Paso 2: complicación pleural del cuadro infeccioso, que puede ser simple o purulenta. Paso 3: con derrame >10 mm y sospecha de infección pleural se punza para medir pH, glucosa, LDH y Gram antes de decidir el drenaje.",
+   "por_que_no": [
+    "Aplicaría a un derrame menor de 10 mm; este mide 24 mm y persiste la fiebre.",
+    "",
+    "Cambiar el antibiótico sin estudiar el líquido omite la causa más probable de la falla.",
+    "Corresponde a la fase proliferativa con pulmón atrapado, no a un líquido libre recién detectado.",
+    "Se coloca cuando el análisis del líquido muestra pus o pH <7,2; aún no se ha estudiado."
+   ],
+   "trampa": [
+    "umbral",
+    "",
+    "otro-contexto",
+    "otro-estadio",
+    "otro-momento"
+   ],
+   "perla": "Derrame >10 mm con sospecha de infección pleural → toracocentesis (pH, glucosa, LDH, Gram).",
+   "fuente": {
+    "carpeta": "6.NEUMOLOGIA",
+    "archivo": "E25 - Villateca I - Neumología.pdf",
+    "seccion": "p. 5 · Toracocentesis"
+   },
+   "gemela_de": null
+  },
+  {
+   "id": "2026-10-22-banco-neumo-neumonia-022",
+   "enunciado": "Varón de 66 años, con secuela de ACV isquémico y disfagia, hospitalizado hace 9 días por consolidación basal derecha; recibe antibiótico desde el ingreso. Persiste con fiebre de 39 °C y escalofríos. PA 110/68 mmHg, FC 112 X', FR 26 X', SatO2 91% con FiO2 0,21. Matidez, vibraciones vocales disminuidas y murmullo vesicular abolido en base derecha. Toracocentesis: líquido turbio, espeso y fétido; pH 7,02; glucosa 28 mg/dl; LDH 1 650 UI/l; leucocitos 48 000/mm³; Gram con bacilos gramnegativos y cocos grampositivos. ¿Cuál es el manejo indicado?",
+   "opciones": [
+    "Mantener solo antibióticos sin drenar",
+    "Pleurodesis química con talco",
+    "Toracocentesis evacuadora y alta precoz",
+    "Toracotomía con decorticación inmediata",
+    "Tubo de drenaje torácico más antibióticos"
+   ],
+   "clave": 5,
+   "especialidad": "Neumología",
+   "tema": "Complicación pleural · líquido purulento",
+   "diagnostico": "Empiema tras neumonía aspirativa",
+   "tipo": "complicacion",
+   "dificultad": "muy alta",
+   "razonamiento": "Paso 1: líquido turbio y fétido con pH 7,02, glucosa 28, LDH 1650 y bacterias en el Gram. Paso 2: derrame complicado con pus (empiema) tras 9 días de un cuadro aspirativo. Paso 3: pH <7,2 y glucosa <40 obligan a tubo de drenaje torácico más antibiótico; la decorticación queda para la fase proliferativa.",
+   "por_que_no": [
+    "Es el manejo del derrame no complicado sin bacterias, con pH y glucosa normales.",
+    "Se usa en el derrame neoplásico recidivante; no se aplica ante pus.",
+    "La punción aislada no resuelve una colección purulenta con pH <7,2; requiere drenaje continuo.",
+    "Se reserva para la fase proliferativa con pulmón atrapado que no reexpande.",
+    ""
+   ],
+   "trampa": [
+    "otro-estadio",
+    "diferencial",
+    "otro-momento",
+    "otro-estadio",
+    ""
+   ],
+   "perla": "Empiema (pH <7,2, glucosa <40, LDH >1000, pus): tubo de drenaje + ATB; fase proliferativa: decorticación.",
+   "fuente": {
+    "carpeta": "6.NEUMOLOGIA",
+    "archivo": "8. NEUMONIA.pdf",
+    "seccion": "p. 2 · Empiema (criterios y fases)"
+   },
+   "gemela_de": null
+  },
+  {
+   "id": "2026-10-22-banco-neumo-neumonia-023",
+   "enunciado": "Varón de 60 años, hospitalizado por fiebre, tos purulenta y consolidación lobar, entrega cuatro muestras de esputo antes de iniciar el antibiótico. PA 130/80 mmHg, FC 100 X', FR 24 X', T° 38,7 °C, SatO2 92% con FiO2 0,21. El laboratorio informa, por campo de bajo aumento, polimorfonucleares (PMN) y porcentaje de células epiteliales: muestra 1, 8 PMN y 30%; muestra 2, 30 PMN y 25%; muestra 3, 35 PMN y 6%; muestra 4, 15 PMN y 4%. ¿Qué muestra es adecuada para el Gram y el cultivo?",
+   "opciones": [
+    "Muestra 4: 15 PMN y 4% epiteliales",
+    "Muestra 3: 35 PMN y 6% epiteliales",
+    "Muestra 2: 30 PMN y 25% epiteliales",
+    "Cualquiera, si se obtuvo antes del antibiótico",
+    "Muestra 1: 8 PMN y 30% epiteliales"
+   ],
+   "clave": 2,
+   "especialidad": "Neumología",
+   "tema": "Microbiología · calidad de la muestra de esputo",
+   "diagnostico": "Neumonía hospitalizada: validación de esputo",
+   "tipo": "prueba",
+   "dificultad": "muy alta",
+   "razonamiento": "Paso 1: se compara cada muestra con el criterio de calidad: más de 25 PMN y menos de 10% de células epiteliales. Paso 2: solo la muestra 3 cumple ambos; las otras están contaminadas con saliva o tienen pocos PMN. Paso 3: esa muestra es válida para Gram y cultivo.",
+   "por_que_no": [
+    "Tiene poca contaminación oral, pero no alcanza los más de 25 PMN que exige una buena muestra.",
+    "",
+    "Tiene PMN suficientes, pero el exceso de células epiteliales indica contaminación con saliva.",
+    "El momento importa, pero no compensa una muestra contaminada con flora oral.",
+    "Es prácticamente saliva: pocos PMN y muchas células epiteliales; debe descartarse y repetirse."
+   ],
+   "trampa": [
+    "umbral",
+    "",
+    "umbral",
+    "otro-momento",
+    "otro"
+   ],
+   "perla": "Esputo válido para cultivo: >25 PMN y <10% de células epiteliales.",
+   "fuente": {
+    "carpeta": "6.NEUMOLOGIA",
+    "archivo": "8. NEUMONIA.pdf",
+    "seccion": "p. 1 · Muestra ideal para cultivo"
+   },
+   "gemela_de": null
+  },
+  {
+   "id": "2026-10-22-banco-neumo-neumonia-024",
+   "enunciado": "Mujer de 73 años, con insuficiencia cardiaca, llega a emergencia por 2 días de fiebre, tos purulenta y somnolencia. PA 88/52 mmHg, FC 126 X', FR 32 X', T° 39,0 °C, SatO2 87% con FiO2 0,21. BUN 36 mg/dl. Radiografía: consolidación de los lóbulos medio e inferior derechos. Se decide su ingreso a UCI y todavía no ha recibido antibiótico. ¿Qué estudios microbiológicos deben obtenerse antes de la primera dosis?",
+   "opciones": [
+    "Broncoscopía con lavado broncoalveolar",
+    "Dos hemocultivos, Gram y cultivo de esputo",
+    "PCR y procalcitonina como únicos estudios",
+    "Un hemocultivo aislado tras la primera dosis",
+    "Ninguno; basta la radiografía para iniciar"
+   ],
+   "clave": 2,
+   "especialidad": "Neumología",
+   "tema": "Microbiología · estudios en el cuadro grave",
+   "diagnostico": "Neumonía grave con ingreso a UCI",
+   "tipo": "prueba",
+   "dificultad": "media",
+   "razonamiento": "Paso 1: somnolencia, BUN 36, FR 32, PA 88/52 y edad 73 suman 5 puntos: cuadro grave para UCI. Paso 2: en el caso grave o con sospecha de SARM o Pseudomonas se busca el germen y su sensibilidad. Paso 3: antes del antibiótico se toman dos hemocultivos y Gram con cultivo de un esputo de buena calidad.",
+   "por_que_no": [
+    "Comparte las indicaciones de la tomografía (falta de respuesta, recurrencia); no es un estudio inicial.",
+    "",
+    "Orientan a etiología bacteriana, pero no identifican el germen ni su sensibilidad.",
+    "Uno solo y tomado después del antibiótico reduce el rendimiento; se toman dos antes de iniciar.",
+    "Es lo usual en el ambulatorio leve; en el cuadro grave se busca bacteriemia y germen resistente."
+   ],
+   "trampa": [
+    "otro-momento",
+    "",
+    "no-confirmatorio",
+    "umbral",
+    "otra-poblacion"
+   ],
+   "perla": "Cuadro grave o sospecha de SARM/Pseudomonas: hemocultivos ×2 + Gram y cultivo de esputo antes del ATB.",
+   "fuente": {
+    "carpeta": "6.NEUMOLOGIA",
+    "archivo": "E25 - Villateca I - Neumología.pdf",
+    "seccion": "p. 5 · Neumonía grave, MARSA o Pseudomona"
+   },
+   "gemela_de": null
+  },
+  {
+   "id": "2026-10-22-banco-neumo-neumonia-025",
+   "enunciado": "Mujer de 19 años, cadete de una escuela militar donde varios compañeros tienen tos, refiere 10 días de cefalea, odinofagia, febrícula y tos seca; desde ayer, dolor intenso en el oído derecho. PA 110/70 mmHg, FC 90 X', FR 20 X', T° 37,8 °C, SatO2 96% con FiO2 0,21. Otoscopía: vesículas hemorrágicas en la membrana timpánica derecha. Lesiones cutáneas en diana en las palmas. Subcrépitos bilaterales. Leucocitos 7 900/mm³, PCR 28 mg/l. Radiografía: infiltrado reticulonodular bilateral en parches. ¿Cuál es el agente etiológico más probable?",
+   "opciones": [
+    "Streptococcus pneumoniae",
+    "Chlamydia pneumoniae",
+    "Legionella pneumophila",
+    "Mycoplasma pneumoniae",
+    "Chlamydia psittaci"
+   ],
+   "clave": 4,
+   "especialidad": "Neumología",
+   "tema": "Etiología · cuadro atípico con manifestaciones extrapulmonares",
+   "diagnostico": "Neumonía atípica por Mycoplasma",
+   "tipo": "diagnostico",
+   "dificultad": "media",
+   "razonamiento": "Paso 1: joven en comunidad cerrada, inicio insidioso, tos seca, febrícula, PCR <80 e infiltrado intersticial bilateral. Paso 2: miringitis bullosa y lesiones en diana (eritema multiforme) son manifestaciones extrapulmonares características. Paso 3: el agente es Mycoplasma pneumoniae, que se trata con macrólido.",
+   "por_que_no": [
+    "Da cuadro típico: inicio brusco, fiebre alta, consolidación lobar y PCR >80.",
+    "También produce cuadro atípico, pero predomina en el adulto mayor y no da miringitis bullosa.",
+    "Es atípico con diarrea, hiponatremia y antecedente de hotel o crucero, ausentes aquí.",
+    "",
+    "Se adquiere por exposición a aves; no hay ese antecedente en esta paciente."
+   ],
+   "trampa": [
+    "diferencial",
+    "otra-poblacion",
+    "diferencial",
+    "",
+    "otro-contexto"
+   ],
+   "perla": "Joven + cuadro atípico + miringitis bullosa o eritema multiforme → Mycoplasma.",
+   "fuente": {
+    "carpeta": "6.NEUMOLOGIA",
+    "archivo": "8. NEUMONIA.pdf",
+    "seccion": "p. 2 · Pepas (atípica en joven)"
+   },
+   "gemela_de": null
+  },
+  {
+   "id": "2026-10-22-banco-neumo-neumonia-026",
+   "enunciado": "Mujer de 81 años, independiente, traída por su nieta porque desde ayer come poco y está más cansada; no refiere fiebre. Lúcida y orientada. PA 112/60 mmHg, FC 104 X', FR 30 X', T° 37,0 °C, SatO2 91% con FiO2 0,21. Crépitos en base izquierda. BUN 18 mg/dl, leucocitos 13 600/mm³ con 8% de abastonados. Radiografía: consolidación del lóbulo inferior izquierdo con broncograma aéreo. ¿Cuál es el lugar de manejo que corresponde?",
+   "opciones": [
+    "Observación hasta confirmar fiebre",
+    "Unidad de cuidados intensivos",
+    "Hospitalización en sala general",
+    "Sala general y reevaluar a las 72 horas",
+    "Ambulatorio con control en 48 horas"
+   ],
+   "clave": 2,
+   "especialidad": "Neumología",
+   "tema": "Gravedad · umbrales de la escala en el adulto mayor",
+   "diagnostico": "Neumonía afebril en anciana, CURB-65 = 3",
+   "tipo": "severidad",
+   "dificultad": "muy alta",
+   "razonamiento": "Paso 1: FR 30 (≥30) y PAD 60 (≤60) puntúan; BUN 18 no supera 19 y no hay confusión. Paso 2: con la edad ≥65 suman 3 puntos, en un cuadro lobar sin fiebre, presentación frecuente en el anciano. Paso 3: 3 o más puntos indican manejo en UCI.",
+   "por_que_no": [
+    "El anciano puede no tener fiebre; esperarla retrasa el tratamiento de un cuadro grave.",
+    "",
+    "Correspondería a 2 puntos; aquí FR de 30 y PAD de 60 sí puntúan y el total es 3.",
+    "La reevaluación a 72 h mide la respuesta, pero con 3 puntos el destino inicial es la UCI.",
+    "Aplica a 0-1 puntos; la ausencia de fiebre en el anciano no resta gravedad."
+   ],
+   "trampa": [
+    "otra-poblacion",
+    "",
+    "umbral",
+    "otro-momento",
+    "otra-poblacion"
+   ],
+   "perla": "En la escala, FR ≥30 y PAD ≤60 sí cuentan; el anciano puede cursar sin fiebre.",
+   "fuente": {
+    "carpeta": "6.NEUMOLOGIA",
+    "archivo": "8. NEUMONIA.pdf",
+    "seccion": "p. 1-2 · CURB-65; anciano puede no presentar fiebre"
+   },
+   "gemela_de": null
+  },
+  {
+   "id": "2026-10-22-banco-neumo-neumonia-027",
+   "enunciado": "Varón de 62 años, obeso (IMC 34) y diabético, con 8 días de fiebre, mialgias, anosmia y tos seca; hoy tiene disnea progresiva. Prueba antigénica nasofaríngea para SARS-CoV-2 positiva. PA 132/80 mmHg, FC 106 X', FR 30 X', T° 38,2 °C, SatO2 86% con FiO2 0,21. Crépitos finos bilaterales. Leucocitos 6 100/mm³. Tomografía: opacidades bilaterales periféricas en vidrio esmerilado. Se hospitaliza con oxígeno. ¿Cuál es el tratamiento farmacológico indicado en este momento?",
+   "opciones": [
+    "Ceftriaxona más azitromicina",
+    "Ivermectina por 5 días",
+    "Dexametasona por 10 días",
+    "Solo paracetamol y aislamiento",
+    "Azitromicina por 5 días"
+   ],
+   "clave": 3,
+   "especialidad": "Neumología",
+   "tema": "Infección viral grave por SARS-CoV-2",
+   "diagnostico": "Neumonía COVID-19 grave",
+   "tipo": "tratamiento",
+   "dificultad": "alta",
+   "razonamiento": "Paso 1: anosmia, prueba antigénica positiva, opacidades bilaterales en vidrio esmerilado y SatO2 86%. Paso 2: infección grave por SARS-CoV-2 en un paciente con factores de riesgo (obesidad, diabetes). Paso 3: en el cuadro grave con oxígeno se indica dexametasona por 10 días; en el leve no se usan corticoides, ivermectina ni antibióticos.",
+   "por_que_no": [
+    "Es el esquema del cuadro bacteriano hospitalizado; no está indicado de rutina en esta infección viral.",
+    "No se indica ni en el cuadro leve ni en el grave; su uso carece de sustento en ninguna fase.",
+    "",
+    "Es el manejo del cuadro leve sin hipoxemia; la saturación de 86% indica gravedad.",
+    "Sirve para gérmenes bacterianos atípicos; en este cuadro viral no se usan antibióticos de rutina."
+   ],
+   "trampa": [
+    "otro-contexto",
+    "otro",
+    "",
+    "otro-estadio",
+    "otro-contexto"
+   ],
+   "perla": "SARS-CoV-2 grave: dexametasona 10 días; leve: sin corticoides, sin ivermectina, sin antibióticos.",
+   "fuente": {
+    "carpeta": "6.NEUMOLOGIA",
+    "archivo": "Neumología -  Fundamentos teóricos_ENAM 2024.pdf",
+    "seccion": "p. 39-40 · Neumonía COVID: manejo"
+   },
+   "gemela_de": null
+  },
+  {
+   "id": "2026-10-22-banco-neumo-neumonia-028",
+   "enunciado": "Varón de 58 años, con consumo de alcohol desde hace 30 años y desnutrición, inicia hace 2 días fiebre de 39,8 °C, escalofríos y tos con esputo espeso y hemoptoico. PA 100/62 mmHg, FC 120 X', FR 28 X', SatO2 89% con FiO2 0,21. Matidez y soplo tubárico en el ápice derecho. Radiografía: consolidación densa del lóbulo superior derecho que abomba y desplaza hacia abajo la cisura menor, con pequeñas zonas de cavitación. ¿Cuál es el agente etiológico más probable?",
+   "opciones": [
+    "Pseudomonas aeruginosa",
+    "Streptococcus pneumoniae",
+    "Staphylococcus aureus",
+    "Klebsiella pneumoniae",
+    "Anaerobios de la flora oral"
+   ],
+   "clave": 4,
+   "especialidad": "Neumología",
+   "tema": "Etiología según contexto · alcoholismo y lóbulo pesado",
+   "diagnostico": "Neumonía por Klebsiella en alcohólico",
+   "tipo": "diagnostico",
+   "dificultad": "alta",
+   "razonamiento": "Paso 1: alcohólico desnutrido con cuadro agudo grave y consolidación densa del lóbulo superior. Paso 2: la cisura abombada indica un lóbulo pesado con tendencia a cavitar. Paso 3: alcoholismo más lóbulo pesado con abombamiento de cisura orienta a Klebsiella pneumoniae, que puede complicarse con cavitación y pus pleural.",
+   "por_que_no": [
+    "Es propia de la infección intrahospitalaria tardía o de bronquiectasias y EPOC severo.",
+    "Es el agente típico más frecuente, incluso en el alcohólico, pero sin la consolidación pesada que abomba la cisura.",
+    "Se sospecha tras influenza o con neumatoceles, no ante este patrón lobar pesado.",
+    "",
+    "También frecuentes en el alcohólico por aspiración, pero con esputo fétido, curso indolente y sin cisura abombada."
+   ],
+   "trampa": [
+    "otro-contexto",
+    "mismo-grupo",
+    "otro-contexto",
+    "",
+    "diferencial"
+   ],
+   "perla": "Alcohólico + lóbulo pesado con abombamiento de cisura → Klebsiella.",
+   "fuente": {
+    "carpeta": "6.NEUMOLOGIA",
+    "archivo": "8. NEUMONIA.pdf",
+    "seccion": "p. 2 · Pepas (neumonía pesada)"
+   },
+   "gemela_de": null
+  },
+  {
+   "id": "2026-10-22-banco-neumo-neumonia-029",
+   "enunciado": "Mujer de 46 años en hemodiálisis por catéter venoso central yugular desde hace 3 meses, presenta 5 días de fiebre con escalofríos que aparecen durante las sesiones, tos leve y dolor torácico pleurítico. PA 104/64 mmHg, FC 114 X', FR 24 X', T° 39,3 °C, SatO2 93% con FiO2 0,21. Eritema y secreción purulenta en el sitio de salida del catéter. Hemocultivos: S. aureus en 2 de 2 frascos. Tomografía: múltiples nódulos periféricos bilaterales, algunos cavitados. ¿Cuál es el mecanismo de llegada del germen al pulmón?",
+   "opciones": [
+    "Diseminación hematógena desde el catéter",
+    "Inhalación de aerosoles infectantes",
+    "Macroaspiración de contenido gástrico",
+    "Extensión por contigüidad desde el mediastino",
+    "Microaspiración de flora orofaríngea"
+   ],
+   "clave": 1,
+   "especialidad": "Neumología",
+   "tema": "Mecanismo de invasión del parénquima",
+   "diagnostico": "Neumonía estafilocócica de origen hematógeno por catéter",
+   "tipo": "mecanismo",
+   "dificultad": "alta",
+   "razonamiento": "Paso 1: fiebre durante la diálisis, catéter con secreción y hemocultivos positivos para S. aureus: bacteriemia. Paso 2: la tomografía muestra nódulos periféricos bilaterales cavitados, distribuidos por el flujo sanguíneo. Paso 3: el germen llegó por vía hematógena, mecanismo propio de S. aureus y Pseudomonas.",
+   "por_que_no": [
+    "",
+    "Es la vía de atípicos y virus, con patrón intersticial difuso.",
+    "Ocurre con alteración del sensorio, alcohol o ACV y afecta segmentos declives, no nódulos bilaterales.",
+    "Parte de un foco vecino y no explica nódulos bilaterales con hemocultivos positivos.",
+    "Es el mecanismo de los gérmenes típicos de la comunidad, con consolidación lobar única."
+   ],
+   "trampa": [
+    "",
+    "otro-contexto",
+    "diferencial",
+    "diferencial",
+    "otro-contexto"
+   ],
+   "perla": "Vías: microaspiración (típicos), inhalación (atípicos y virus), macroaspiración (anaerobios), hematógena (S. aureus, Pseudomonas).",
+   "fuente": {
+    "carpeta": "6.NEUMOLOGIA",
+    "archivo": "8. NEUMONIA.pdf",
+    "seccion": "p. 1 · Mecanismo de invasión parenquimal"
+   },
+   "gemela_de": null
+  },
+  {
+   "id": "2026-10-22-banco-neumo-neumonia-030",
+   "enunciado": "Primigesta de 27 años, cursando la semana 24, sana hasta hace 48 horas, cuando comenzó con escalofríos, dolor punzante en el costado derecho al respirar y expectoración amarillo-verdosa. Lúcida. PA 112/68 mmHg, FC 104 X', FR 22 X', T° 38,9 °C, SatO2 96% con FiO2 0,21. Altura uterina acorde, latidos fetales 148 X'. Matidez y crepitantes en base derecha. BUN 9 mg/dl, PCR 120 mg/l. Placa de tórax con mandil plomado: opacidad homogénea basal derecha. Come con normalidad y su pareja la acompaña. ¿Qué antibiótico oral corresponde indicarle?",
+   "opciones": [
+    "Ceftriaxona más azitromicina EV",
+    "Amoxicilina oral por 10 días",
+    "Amoxicilina oral por 5 días",
+    "Levofloxacino oral por 5 días",
+    "Doxiciclina oral por 5 días"
+   ],
+   "clave": 3,
+   "especialidad": "Neumología",
+   "tema": "Gestante · antibiótico ambulatorio",
+   "diagnostico": "Neumonía típica ambulatoria en gestante de 24 semanas",
+   "tipo": "contraindicacion",
+   "dificultad": "media",
+   "razonamiento": "Paso 1: cuadro típico lobar con 0 puntos de gravedad, SatO2 96% y tolerancia oral: manejo ambulatorio. Paso 2: no tiene comorbilidad, pero está embarazada, lo que excluye tetraciclinas y quinolonas. Paso 3: se indica amoxicilina (o un macrólido) por 5 días.",
+   "por_que_no": [
+    "Es el esquema del hospitalizado; esta gestante tiene 0 puntos de gravedad y tolera la vía oral.",
+    "El fármaco es correcto, pero el tratamiento ambulatorio dura 5 días.",
+    "",
+    "Es opción ambulatoria con comorbilidad en la adulta no gestante; las quinolonas se evitan en el embarazo.",
+    "Es la alternativa del alérgico a macrólidos fuera del embarazo; las tetraciclinas se evitan en la gestante."
+   ],
+   "trampa": [
+    "otro-estadio",
+    "umbral",
+    "",
+    "otra-poblacion",
+    "otra-poblacion"
+   ],
+   "perla": "Gestante ambulatoria sin comorbilidad: amoxicilina o macrólido; evitar doxiciclina y quinolonas.",
+   "fuente": {
+    "carpeta": "6.NEUMOLOGIA",
+    "archivo": "8. NEUMONIA.pdf",
+    "seccion": "p. 1 · Tratamiento ambulatorio sin FR"
+   },
+   "gemela_de": null
+  }
+ ]
+}

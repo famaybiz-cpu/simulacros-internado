@@ -1,0 +1,1190 @@
+{
+ "id": "2026-10-22-banco-neumo-asma",
+ "fecha": "2026-10-22",
+ "turno": "noche",
+ "titulo": "Banco · Asma bronquial",
+ "segundos_por_pregunta": 60,
+ "temas_noche": [
+  "Asma bronquial"
+ ],
+ "feedback_noche": "Aprueba este tema quien interpreta números y no etiquetas: reversibilidad (≥12 % y ≥200 ml), variabilidad del PEF, PaCO2 normal en plena crisis y SatO2 contra la basal en altura. Se falla por esquemas antiguos (salbutamol solo, LABA sin corticoide inhalado), por esperar a que falle el SABA para dar corticoide y por elegir BiPAP en un paciente somnoliento. Antes de subir de escalón, revisa técnica y adherencia.",
+ "perlas_noche": [
+  "Prueba broncodilatadora positiva: VEF1 +12 % y +200 ml; espirometría normal no descarta: pide metacolina (caída ≥20 %).",
+  "Hoy el rescate preferido es ICS-formoterol; salbutamol solo y LABA sin corticoide inhalado aumentan crisis graves y muerte.",
+  "Crisis: O2 94-98 % + SABA ± ipratropio + corticoide desde el inicio; sin respuesta en 1 h → sulfato de Mg 2 g EV en 20 min.",
+  "PaCO2 normal o alta en plena crisis, tórax silente, bradicardia o somnolencia = riesgo vital: intubar, no BiPAP.",
+  "Alta con PEF >70 %, SatO2 >94 % al aire: prednisona 5-7 días + corticoide inhalado + plan escrito + control en 2-7 días."
+ ],
+ "preguntas": [
+  {
+   "id": "2026-10-22-banco-neumo-asma-001",
+   "enunciado": "Mujer de 26 años, docente, consulta por 5 meses de tos seca que la despierta hacia las 5 de la mañana y episodios de opresión torácica con silbido al pecho al subir escaleras en días fríos; entre episodios está bien. Tiene rinitis alérgica y no fuma. Hoy está asintomática: PA 110/70 mmHg, FC 76 X', FR 16 X', SatO2 98 % al aire ambiente, murmullo vesicular conservado sin ruidos agregados. Espirometría: VEF1 3,05 L (96 % del predicho), VEF1/CVF 0,84; tras 400 µg de salbutamol el VEF1 sube a 3,12 L. Radiografía de tórax sin hallazgos. ¿Qué examen corresponde solicitar a continuación para confirmar el cuadro?",
+   "opciones": [
+    "Capacidad de difusión pulmonar del monóxido de carbono",
+    "Prueba de provocación bronquial con metacolina",
+    "Búsqueda de espirales de Curschmann en esputo",
+    "Dosaje de IgE sérica total y específica",
+    "Tomografía de tórax de alta resolución"
+   ],
+   "clave": 2,
+   "especialidad": "Neumología",
+   "tema": "Diagnóstico funcional · espirometría normal",
+   "diagnostico": "Sospecha clínica con espirometría basal normal: prueba de provocación",
+   "tipo": "prueba",
+   "dificultad": "alta",
+   "razonamiento": "Paso 1: síntomas nocturnos de madrugada, variables, con atopia, pero VEF1/CVF 0,84 y cambio de solo 70 ml tras salbutamol: espirometría normal sin reversibilidad. Paso 2: una espirometría normal no descarta la enfermedad porque la obstrucción es variable. Paso 3: se demuestra la hiperrespuesta con metacolina; es positiva si el VEF1 cae ≥20 %.",
+   "por_que_no": [
+    "La DLCO es normal en este cuadro; se pide cuando se sospecha destrucción alveolar o enfermedad intersticial.",
+    "",
+    "Es un hallazgo de apoyo del laboratorio; no confirma la enfermedad cuando la espirometría basal es normal.",
+    "Apoya un fenotipo alérgico y orienta biológicos, pero no demuestra hiperrespuesta ni reversibilidad del flujo.",
+    "Busca daño estructural del parénquima; sirve ante sospecha de enfermedad intersticial, no para demostrar obstrucción variable."
+   ],
+   "trampa": [
+    "otro-contexto",
+    "",
+    "no-confirmatorio",
+    "no-confirmatorio",
+    "diferencial"
+   ],
+   "perla": "Clínica típica con espirometría normal: provocación con metacolina (positiva si el VEF1 cae ≥20 %).",
+   "fuente": {
+    "carpeta": "TARJETAS",
+    "archivo": "ASMA_Tarjetas_ENAM_EsSalud.pdf",
+    "seccion": "Parte 1 · ③ Espirometría y diagnóstico"
+   },
+   "gemela_de": null
+  },
+  {
+   "id": "2026-10-22-banco-neumo-asma-002",
+   "enunciado": "Varón de 31 años, agricultor atendido en un puesto de salud rural sin espirómetro, refiere desde hace 4 meses episodios de disnea con silbido al pecho y tos nocturna que ceden solos o con un inhalador que le prestó su hermano. Antecedente de dermatitis atópica en la infancia; no fuma. Hoy: PA 118/72 mmHg, FC 80 X', FR 18 X', T° 36,6 °C, SatO2 97 % al aire ambiente, sibilancias espiratorias aisladas en ambos campos. El médico desea demostrar en forma objetiva la obstrucción variable antes de iniciar un tratamiento de fondo. ¿Qué estudio permite hacerlo con los recursos del establecimiento?",
+   "opciones": [
+    "Radiografía de tórax en inspiración y espiración forzada",
+    "Oximetría de pulso nocturna durante una semana en casa",
+    "Registro domiciliario del flujo espiratorio pico por 15 a 20 días",
+    "Hemograma con recuento absoluto de eosinófilos en sangre periférica",
+    "Dosaje de IgE sérica total en laboratorio de referencia"
+   ],
+   "clave": 3,
+   "especialidad": "Neumología",
+   "tema": "Diagnóstico funcional · variabilidad del PEF",
+   "diagnostico": "Sospecha de obstrucción variable en primer nivel sin espirómetro",
+   "tipo": "prueba",
+   "dificultad": "media",
+   "razonamiento": "Paso 1: síntomas episódicos nocturnos con atopia y sibilancias sugieren obstrucción variable. Paso 2: sin espirómetro, la variabilidad se objetiva con flujometría. Paso 3: el registro domiciliario del flujo espiratorio máximo es positivo si la variabilidad alcanza 20 % en 3 o más días durante 15-20 días.",
+   "por_que_no": [
+    "Fuera de crisis suele ser normal y en crisis solo muestra atrapamiento aéreo; no mide variabilidad del flujo.",
+    "Detecta desaturación nocturna, útil en trastornos del sueño o hipoxemia crónica, no la variabilidad del flujo.",
+    "",
+    "La eosinofilia orienta el fenotipo y el tratamiento biológico, pero no demuestra obstrucción variable.",
+    "Solo apoya atopia; sería útil para elegir anti-IgE en un caso grave, no para objetivar la obstrucción."
+   ],
+   "trampa": [
+    "no-confirmatorio",
+    "otro-contexto",
+    "",
+    "no-confirmatorio",
+    "no-confirmatorio"
+   ],
+   "perla": "RDFEM positivo: variabilidad ≥20 % en ≥3 días dentro de un registro de 15-20 días.",
+   "fuente": {
+    "carpeta": "6.NEUMOLOGIA",
+    "archivo": "E25 - Villateca I - Neumología.pdf",
+    "seccion": "p. 17 · Diagnóstico: RDFEM y pruebas funcionales"
+   },
+   "gemela_de": null
+  },
+  {
+   "id": "2026-10-22-banco-neumo-asma-003",
+   "enunciado": "Varón de 47 años, fumador de 9 paquetes-año, consulta por disnea episódica con silbido al pecho desde la adolescencia, peor en las madrugadas y al barrer su casa; entre episodios juega fútbol sin limitación. PA 124/78 mmHg, FC 84 X', FR 18 X', T° 36,5 °C, SatO2 96 % al aire ambiente, espiración prolongada con sibilancias difusas. Espirometría basal: VEF1 2,30 L (68 % del predicho), VEF1/CVF 0,61. El médico duda si la obstrucción se debe al cigarrillo o a otro proceso de inicio temprano. ¿Qué resultado tras el broncodilatador apoya más la causa no tabáquica?",
+   "opciones": [
+    "Relación VEF1/CVF menor de 0,7 en la prueba basal",
+    "VEF1 basal entre 50 % y 80 % del valor predicho",
+    "Aumento del VEF1 de 6 % y 90 ml tras el salbutamol",
+    "Aumento del VEF1 de 17 % y 390 ml tras el salbutamol",
+    "Volumen residual y capacidad residual funcional elevados"
+   ],
+   "clave": 4,
+   "especialidad": "Neumología",
+   "tema": "Diferencial con obstrucción por tabaco",
+   "diagnostico": "Obstrucción reversible en fumador leve (no EPOC)",
+   "tipo": "prueba",
+   "dificultad": "alta",
+   "razonamiento": "Paso 1: VEF1/CVF 0,61 confirma obstrucción, presente tanto en fumadores como en la enfermedad de inicio juvenil. Paso 2: lo que separa ambas es la reversibilidad. Paso 3: un aumento del VEF1 ≥12 % y ≥200 ml tras salbutamol demuestra obstrucción reversible, propia del cuadro de inicio temprano y no del daño tabáquico irreversible.",
+   "por_que_no": [
+    "Solo define patrón obstructivo y lo comparten ambas entidades; no orienta el origen de la obstrucción.",
+    "Gradúa la severidad de la obstrucción, pero no informa si esta revierte con el broncodilatador.",
+    "No alcanza 12 % ni 200 ml; una respuesta así favorece la obstrucción fija del fumador de mayor edad.",
+    "",
+    "El atrapamiento aéreo aparece en las dos enfermedades obstructivas; no separa reversible de irreversible."
+   ],
+   "trampa": [
+    "no-confirmatorio",
+    "umbral",
+    "umbral",
+    "",
+    "mismo-grupo"
+   ],
+   "perla": "VEF1/CVF <0,7 define obstrucción; la reversibilidad (≥12 % y ≥200 ml) es la que la separa de la EPOC.",
+   "fuente": {
+    "carpeta": "6.NEUMOLOGIA",
+    "archivo": "7. ASMA.pdf",
+    "seccion": "p. 1 · Diagnóstico: test de broncodilatación y de provocación"
+   },
+   "gemela_de": null
+  },
+  {
+   "id": "2026-10-22-banco-neumo-asma-004",
+   "enunciado": "Niño de 4 años traído por su quinto episodio de tos y sibilancias en el último año; dos aparecieron sin resfrío previo, tras jugar con el gato del vecino, y todos mejoraron con salbutamol en el centro de salud. Tiene dermatitis atópica y su padre usa inhaladores desde joven. Hoy, sin síntomas: FC 98 X', FR 24 X', T° 36,7 °C, SatO2 97 % al aire ambiente, peso y talla en percentil 50, murmullo vesicular normal. La madre pide para su hijo el mismo examen de soplar que le hicieron al padre. ¿Qué estrategia corresponde para sustentar el cuadro a esta edad?",
+   "opciones": [
+    "Radiografía de tórax y hemograma con recuento absoluto de eosinófilos",
+    "Prueba terapéutica con corticoide inhalado y evaluar la respuesta",
+    "Espirometría con prueba broncodilatadora en la consulta",
+    "Test del sudor para descartar una enfermedad genética de base",
+    "Prueba de provocación bronquial con metacolina en el hospital"
+   ],
+   "clave": 2,
+   "especialidad": "Neumología",
+   "tema": "Población pediátrica · preescolar con sibilancias",
+   "diagnostico": "Sibilancias recurrentes atópicas en preescolar",
+   "tipo": "prueba",
+   "dificultad": "alta",
+   "razonamiento": "Paso 1: sibilancias recurrentes, episodios sin resfrío desencadenados por alérgeno, dermatitis atópica y padre con la enfermedad. Paso 2: a los 4 años la espirometría no es fiable, así que el sustento es clínico. Paso 3: la atopia y la respuesta al corticoide inhalado apoyan el cuadro, por eso se indica una prueba terapéutica y se evalúa la respuesta.",
+   "por_que_no": [
+    "Pueden apoyar o descartar otras causas, pero no sustentan la obstrucción reversible del preescolar.",
+    "",
+    "Antes de los 5-6 años la espirometría no es fiable; sería la prueba de elección en un escolar o adulto.",
+    "Se pide si hay falla de medro o infecciones a repetición; este niño crece bien y tiene atopia clara.",
+    "Requiere maniobras espirométricas fiables; se usa en adultos con clínica típica y espirometría normal."
+   ],
+   "trampa": [
+    "no-confirmatorio",
+    "",
+    "otra-poblacion",
+    "diferencial",
+    "otra-poblacion"
+   ],
+   "perla": "Antes de los 5-6 años no hay espirometría fiable: el sustento es clínico y por respuesta al corticoide inhalado.",
+   "fuente": {
+    "carpeta": "TARJETAS",
+    "archivo": "Neumo_T2_Asma_ENAM.pdf",
+    "seccion": "Tarjeta 1/2 · ⑥ Particularidades en el niño"
+   },
+   "gemela_de": null
+  },
+  {
+   "id": "2026-10-22-banco-neumo-asma-005",
+   "enunciado": "Mujer de 38 años, contadora, recibe budesonida-formoterol a demanda desde hace 6 meses por episodios de silbido al pecho. En el control refiere que en las últimas 4 semanas tuvo síntomas diurnos 3 a 4 veces por semana, se despertó por tos y disnea dos noches y usó el inhalador como rescate 4 veces por semana; sigue yendo al gimnasio sin limitación. PA 116/74 mmHg, FC 78 X', FR 16 X', SatO2 98 % al aire ambiente, sin sibilancias hoy. Su técnica inhalatoria es correcta. ¿Cómo se clasifica el nivel de control actual de su enfermedad?",
+   "opciones": [
+    "Persistente moderado: despertares nocturnos frecuentes",
+    "No controlado: cumple 3 de los 4 criterios evaluados",
+    "Parcialmente controlado: cumple 1 a 2 criterios evaluados",
+    "Bien controlado: no presenta limitación de la actividad",
+    "Persistente leve: síntomas más de 2 veces por semana"
+   ],
+   "clave": 2,
+   "especialidad": "Neumología",
+   "tema": "Evaluación del control",
+   "diagnostico": "Enfermedad no controlada (3 de 4 criterios)",
+   "tipo": "severidad",
+   "dificultad": "media",
+   "razonamiento": "Paso 1: en 4 semanas tiene síntomas diurnos >2 por semana, despertares nocturnos y rescate >2 por semana; no tiene limitación de actividad. Paso 2: son 3 respuestas afirmativas de 4. Paso 3: 0 = bien controlado, 1-2 = parcialmente, 3-4 = no controlado; corresponde no controlado y revisar el escalón.",
+   "por_que_no": [
+    "Usa la escala antigua de severidad y además exige despertares más de una vez por semana, que ella no tiene.",
+    "",
+    "Correspondería si solo tuviera uno o dos ítems positivos; ella suma síntomas, despertares y rescate.",
+    "Bien controlado exige ninguna respuesta afirmativa; un solo ítem negativo no basta.",
+    "Es la clasificación clásica por severidad estática; la evaluación actual del seguimiento es por nivel de control."
+   ],
+   "trampa": [
+    "otro-contexto",
+    "",
+    "umbral",
+    "umbral",
+    "otro-contexto"
+   ],
+   "perla": "Control en 4 semanas: síntomas >2/sem, despertar, rescate >2/sem, limitación; 3-4 sí = no controlado.",
+   "fuente": {
+    "carpeta": "TARJETAS",
+    "archivo": "Neumo_T2_Asma_ENAM.pdf",
+    "seccion": "Tarjeta 2/2 · ① Evaluación del control y ③ antes de subir de escalón"
+   },
+   "gemela_de": null
+  },
+  {
+   "id": "2026-10-22-banco-neumo-asma-006",
+   "enunciado": "Varón de 52 años, chofer, recibe budesonida-formoterol en dosis baja como mantenimiento y rescate desde hace 3 meses, pero sigue con síntomas diurnos casi diarios y despertares semanales. En su casa se cocina con leña. En la consulta muestra cómo usa su inhalador presurizado: lo dispara mientras inspira por la nariz y no retiene la respiración. PA 128/80 mmHg, FC 82 X', FR 18 X', T° 36,6 °C, SatO2 95 % al aire ambiente, sibilancias espiratorias escasas. ¿Cuál es la conducta inicial más adecuada antes de modificar la medicación?",
+   "opciones": [
+    "Subir a budesonida-formoterol en dosis media como mantenimiento",
+    "Corregir la técnica con espaciador y reducir la exposición al humo",
+    "Agregar montelukast diario al esquema que ya está recibiendo",
+    "Añadir tiotropio y derivar al especialista en forma inmediata",
+    "Indicar un ciclo de prednisona oral por 7 días y reevaluarlo luego"
+   ],
+   "clave": 2,
+   "especialidad": "Neumología",
+   "tema": "Mal control · antes de subir de escalón",
+   "diagnostico": "Falla aparente por mala técnica inhalatoria y exposición a humo",
+   "tipo": "conducta",
+   "dificultad": "media",
+   "razonamiento": "Paso 1: síntomas casi diarios pese a MART en dosis baja. Paso 2: la técnica es incorrecta y hay exposición a humo de leña: la falla es aparente. Paso 3: antes de subir de escalón se corrige la técnica (mejor con espaciador), se verifica adherencia y se controlan desencadenantes y comorbilidades.",
+   "por_que_no": [
+    "Es el siguiente escalón, pero solo después de corregir técnica, adherencia y desencadenantes.",
+    "",
+    "Es un agregado posible en escalones altos; no resuelve la causa más frecuente de falla, que es la técnica.",
+    "Corresponde al paso 5, en enfermedad grave no controlada pese a dosis media bien administrada.",
+    "El corticoide oral se reserva para crisis o como último recurso en el paso 5, no para mala técnica."
+   ],
+   "trampa": [
+    "otro-momento",
+    "",
+    "mismo-grupo",
+    "otro-estadio",
+    "otro-contexto"
+   ],
+   "perla": "Antes de subir de escalón: técnica, adherencia, desencadenantes y comorbilidades; la técnica es la causa más frecuente.",
+   "fuente": {
+    "carpeta": "TARJETAS",
+    "archivo": "Neumo_T2_Asma_ENAM.pdf",
+    "seccion": "Tarjeta 2/2 · ① Evaluación del control y ③ antes de subir de escalón"
+   },
+   "gemela_de": null
+  },
+  {
+   "id": "2026-10-22-banco-neumo-asma-007",
+   "enunciado": "Mujer de 20 años, universitaria, presenta desde hace 8 meses episodios de tos y silbido al pecho con el polvo o los cambios de clima, aproximadamente uno cada dos semanas, sin despertares nocturnos ni visitas a emergencia. Espirometría del mes pasado: VEF1/CVF 0,66 con aumento del VEF1 de 15 % y 330 ml tras salbutamol. Hoy PA 108/66 mmHg, FC 74 X', FR 16 X', SatO2 98 % al aire ambiente, examen pulmonar normal. No usa ningún medicamento. ¿Qué esquema de tratamiento corresponde según la estrategia vigente?",
+   "opciones": [
+    "Montelukast oral diario como único controlador",
+    "Salbutamol inhalado solo a demanda, sin otro fármaco",
+    "Budesonida diaria en dosis baja más salbutamol de rescate",
+    "Salmeterol a demanda asociado a budesonida inhalada",
+    "Budesonida-formoterol en dosis baja solo a demanda"
+   ],
+   "clave": 5,
+   "especialidad": "Neumología",
+   "tema": "Tratamiento escalonado · paso 1",
+   "diagnostico": "Enfermedad leve con síntomas ocasionales (paso 1)",
+   "tipo": "tratamiento",
+   "dificultad": "media",
+   "razonamiento": "Paso 1: reversibilidad de 15 % y 330 ml con clínica variable confirma la enfermedad. Paso 2: síntomas cada dos semanas, sin despertares ni crisis: perfil de paso 1. Paso 3: la estrategia vigente prefiere ICS-formoterol en dosis baja a demanda; el salbutamol solo ya no se recomienda.",
+   "por_que_no": [
+    "El antileucotrieno es alternativa si no tolera beta2 o agregado en escalones altos, no el preferido.",
+    "Era el esquema antiguo del paso 1; hoy no se recomienda SABA solo por más crisis graves y mortalidad.",
+    "Es la alternativa del paso 2; ella tiene síntomas ≤2 por mes, perfil del paso 1.",
+    "Salmeterol inicia a las 2 horas y no sirve de rescate; el LABA del esquema a demanda es formoterol.",
+    ""
+   ],
+   "trampa": [
+    "mismo-grupo",
+    "otro-momento",
+    "otro-estadio",
+    "mismo-grupo",
+    ""
+   ],
+   "perla": "Paso 1 y 2 actuales: ICS-formoterol a demanda; el SABA solo ya no es tratamiento único.",
+   "fuente": {
+    "carpeta": "6.NEUMOLOGIA",
+    "archivo": "7. ASMA.pdf",
+    "seccion": "p. 1-2 · Manejo de asma crónica según GINA 2026 (pasos 1-5)"
+   },
+   "gemela_de": null
+  },
+  {
+   "id": "2026-10-22-banco-neumo-asma-008",
+   "enunciado": "Varón de 29 años, cocinero, usa budesonida-formoterol solo a demanda desde hace 4 meses con técnica y adherencia comprobadas. Ahora refiere síntomas diarios, se despierta por tos y disnea una a dos veces por semana y usa el inhalador casi todos los días; no tuvo crisis que requirieran emergencia. PA 120/76 mmHg, FC 86 X', FR 18 X', T° 36,7 °C, SatO2 96 % al aire ambiente, sibilancias espiratorias leves. PEF 78 % de su mejor valor personal. ¿Qué ajuste del tratamiento de fondo corresponde?",
+   "opciones": [
+    "Budesonida-formoterol en dosis media como mantenimiento y rescate",
+    "Agregar tiotropio a su esquema actual solo a demanda",
+    "Budesonida-formoterol en dosis baja como mantenimiento y rescate",
+    "Budesonida diaria en dosis baja con salbutamol a demanda",
+    "Mantener budesonida-formoterol a demanda y control en 3 meses"
+   ],
+   "clave": 3,
+   "especialidad": "Neumología",
+   "tema": "Tratamiento escalonado · paso 3 (MART)",
+   "diagnostico": "Síntomas diarios con despertares semanales (paso 3)",
+   "tipo": "tratamiento",
+   "dificultad": "alta",
+   "razonamiento": "Paso 1: técnica y adherencia comprobadas, pero síntomas diarios y despertares semanales. Paso 2: perfil de paso 3 en quien falla el uso solo a demanda. Paso 3: corresponde ICS-formoterol en dosis baja como mantenimiento y rescate (MART): el mismo inhalador diario y para los síntomas.",
+   "por_que_no": [
+    "Es el paso 4; se usaría si persiste sin control con el MART en dosis baja bien administrado.",
+    "El LAMA se añade en el paso 5, en enfermedad grave pese a ICS-LABA en dosis media o alta.",
+    "",
+    "Es la alternativa del paso 2; no aumenta la intensidad del tratamiento que ya recibe.",
+    "Sería válido con buen control; él tiene síntomas diarios y despertares, debe subir de escalón."
+   ],
+   "trampa": [
+    "otro-estadio",
+    "otro-estadio",
+    "",
+    "otro-estadio",
+    "otro-momento"
+   ],
+   "perla": "MART: un solo inhalador ICS-formoterol para mantenimiento y rescate; dosis baja en paso 3, media en paso 4.",
+   "fuente": {
+    "carpeta": "6.NEUMOLOGIA",
+    "archivo": "7. ASMA.pdf",
+    "seccion": "p. 1-2 · Manejo de asma crónica según GINA 2026 (pasos 1-5)"
+   },
+   "gemela_de": null
+  },
+  {
+   "id": "2026-10-22-banco-neumo-asma-009",
+   "enunciado": "Mujer de 49 años, cuyos síntomas comenzaron a los 40 años y sin antecedentes alérgicos personales ni familiares, recibe budesonida-formoterol en dosis media como mantenimiento y rescate más tiotropio, con técnica y adherencia verificadas por el especialista. Aun así tuvo tres crisis que requirieron prednisona oral en el último año. Hoy PA 126/80 mmHg, FC 88 X', FR 20 X', SatO2 94 % al aire ambiente, sibilancias difusas. Eosinófilos en sangre 780/mm³; IgE sérica total normal; pruebas cutáneas a ácaros y pólenes negativas. ¿Qué terapia dirigida corresponde al mecanismo predominante?",
+   "opciones": [
+    "Anticuerpo anti-IL-5 como mepolizumab o reslizumab",
+    "Anticuerpo anti-IgE como omalizumab subcutáneo",
+    "Prednisona oral diaria en dosis baja continua",
+    "Cromoglicato de sodio inhalado de mantenimiento",
+    "Montelukast oral diario como agregado al esquema actual"
+   ],
+   "clave": 1,
+   "especialidad": "Neumología",
+   "tema": "Enfermedad grave · terapia biológica",
+   "diagnostico": "Fenotipo eosinofílico no alérgico refractario (paso 5)",
+   "tipo": "tratamiento",
+   "dificultad": "muy alta",
+   "razonamiento": "Paso 1: inicio adulto, sin atopia, IgE normal, pruebas cutáneas negativas y eosinofilia de 780. Paso 2: fenotipo eosinofílico (tipo II), refractario pese a paso 4 más tiotropio y buena adherencia. Paso 3: la IL-5 media la eosinofilia, por eso el biológico indicado es anti-IL-5 (mepolizumab o reslizumab).",
+   "por_que_no": [
+    "",
+    "Es el biológico del fenotipo atópico con IgE alta; aquí la IgE es normal y las pruebas cutáneas negativas.",
+    "Es el último recurso por sus efectos adversos; antes se usa el biológico dirigido al fenotipo.",
+    "Estabiliza mastocitos en el fenotipo alérgico leve; no controla la inflamación eosinofílica grave.",
+    "Bloquea leucotrienos y es útil en intolerancia a AINE o ejercicio; no actúa sobre la vía de IL-5."
+   ],
+   "trampa": [
+    "",
+    "diferencial",
+    "otro-momento",
+    "mismo-grupo",
+    "mismo-grupo"
+   ],
+   "perla": "IgE alta y atopia → omalizumab; eosinofilia sin atopia → anti-IL-5 (mepolizumab, reslizumab).",
+   "fuente": {
+    "carpeta": "6.NEUMOLOGIA",
+    "archivo": "7. ASMA.pdf",
+    "seccion": "p. 1-2 · Farmacología (SABA, LABA, ICS, SAMA, biológicos)"
+   },
+   "gemela_de": null
+  },
+  {
+   "id": "2026-10-22-banco-neumo-asma-010",
+   "enunciado": "Varón de 35 años, ingeniero, recibe budesonida-formoterol en dosis media como mantenimiento y rescate desde que tuvo una crisis hace 7 meses. En los últimos 4 meses no ha tenido síntomas diurnos ni nocturnos, casi no usa dosis de rescate y hace ciclismo sin limitación. PA 118/70 mmHg, FC 68 X', FR 14 X', SatO2 98 % al aire ambiente, murmullo vesicular normal. PEF 96 % de su mejor valor personal. Pregunta si ya puede dejar los inhaladores. ¿Qué conducta corresponde con su tratamiento de fondo?",
+   "opciones": [
+    "Retirar todo el tratamiento inhalado y citarlo si reaparecen síntomas",
+    "Cambiar a formoterol solo, sin corticoide, como mantenimiento",
+    "Suspender el corticoide inhalado y dejar salbutamol a demanda",
+    "Bajar en forma gradual a dosis baja sin retirar el corticoide inhalado",
+    "Mantener la misma dosis sin cambios durante doce meses más"
+   ],
+   "clave": 4,
+   "especialidad": "Neumología",
+   "tema": "Seguimiento · descenso de escalón",
+   "diagnostico": "Buen control sostenido por más de 3 meses",
+   "tipo": "conducta",
+   "dificultad": "alta",
+   "razonamiento": "Paso 1: 4 meses sin síntomas, rescate mínimo y PEF 96 %: buen control sostenido. Paso 2: tras 3 meses de buen control se considera bajar de escalón para reducir efectos adversos. Paso 3: se reduce en forma gradual, sin suspender por completo el corticoide inhalado, con control posterior en 1-3 meses.",
+   "por_que_no": [
+    "Sería correcto solo si no fuera una enfermedad crónica; aquí la suspensión total favorece nuevas crisis.",
+    "El LABA en monoterapia aumenta crisis graves y muerte; siempre va combinado con corticoide inhalado.",
+    "El corticoide inhalado no se suspende por completo en la enfermedad persistente; el SABA solo eleva el riesgo.",
+    "",
+    "Tras 3 meses de buen control se considera bajar; mantener dosis media expone a efectos adversos innecesarios."
+   ],
+   "trampa": [
+    "otro",
+    "mismo-grupo",
+    "otro-contexto",
+    "",
+    "otro-momento"
+   ],
+   "perla": "Bajar escalón tras 3 meses de buen control, gradual y sin retirar del todo el corticoide inhalado.",
+   "fuente": {
+    "carpeta": "TARJETAS",
+    "archivo": "Neumo_T2_Asma_ENAM.pdf",
+    "seccion": "Tarjeta 2/2 · ⑤-⑦ Escalones, efectos adversos y descenso"
+   },
+   "gemela_de": null
+  },
+  {
+   "id": "2026-10-22-banco-neumo-asma-011",
+   "enunciado": "Mujer de 44 años, comerciante, refiere silbido al pecho y tos nocturna desde hace varios años. Hace 2 meses un médico particular le indicó salmeterol inhalado cada 12 horas como único medicamento. Hoy está estable: PA 122/78 mmHg, FC 92 X', FR 18 X', T° 36,8 °C, SatO2 96 % al aire ambiente, sibilancias espiratorias aisladas. Espirometría previa: VEF1/CVF 0,65 con aumento del VEF1 de 14 % y 280 ml tras salbutamol. Trae la receta para que se la renueven. ¿Cuál es el riesgo más grave que conlleva el esquema que recibe?",
+   "opciones": [
+    "Retención urinaria por efecto anticolinérgico del inhalador",
+    "Supresión del eje adrenal y osteoporosis por exposición prolongada",
+    "Hiperglicemia sostenida por el estímulo beta2 de cada dosis",
+    "Candidiasis orofaríngea y disfonía por depósito del fármaco en boca",
+    "Más crisis graves y muerte por usar el LABA sin corticoide inhalado"
+   ],
+   "clave": 5,
+   "especialidad": "Neumología",
+   "tema": "Seguridad · LABA en monoterapia",
+   "diagnostico": "Uso de salmeterol sin corticoide inhalado",
+   "tipo": "contraindicacion",
+   "dificultad": "alta",
+   "razonamiento": "Paso 1: obstrucción reversible (14 % y 280 ml) con síntomas crónicos. Paso 2: recibe un LABA solo, sin corticoide inhalado que trate la inflamación. Paso 3: el LABA en monoterapia se asocia a mayor riesgo de crisis graves y muerte; debe ir combinado con corticoide inhalado, idealmente en el mismo dispositivo.",
+   "por_que_no": [
+    "Es propio del bromuro de ipratropio en varones mayores con próstata grande, no del beta2 agonista.",
+    "Corresponde al corticoide sistémico usado por tiempo prolongado, no a un beta2 agonista inhalado.",
+    "Es un efecto adverso leve y transitorio de los beta2 agonistas; no es lo que amenaza la vida.",
+    "Son efectos del corticoide inhalado, que justamente no recibe; se previenen con espaciador y enjuague.",
+    ""
+   ],
+   "trampa": [
+    "diferencial",
+    "otro-contexto",
+    "otro",
+    "mismo-grupo",
+    ""
+   ],
+   "perla": "LABA nunca solo: siempre combinado con corticoide inhalado, idealmente en el mismo inhalador.",
+   "fuente": {
+    "carpeta": "TARJETAS",
+    "archivo": "Neumo_T2_Asma_ENAM.pdf",
+    "seccion": "Tarjeta 2/2 · ⑤-⑦ Escalones, efectos adversos y descenso"
+   },
+   "gemela_de": null
+  },
+  {
+   "id": "2026-10-22-banco-neumo-asma-012",
+   "enunciado": "Mujer de 23 años, estudiante de enfermería, acude por cuarta vez en dos meses a emergencia por episodios súbitos de falta de aire con ruido al inspirar y sensación de cierre en la garganta, que aparecen durante exámenes y discusiones. En las visitas previas recibió salbutamol nebulizado e hidrocortisona sin cambio claro; los episodios ceden solos en 20 minutos. Ahora: PA 124/80 mmHg, FC 104 X', FR 26 X', SatO2 98 % al aire ambiente; ruido agudo inspiratorio audible sobre el cuello y tórax sin sibilancias espiratorias. Espirometría entre episodios normal. ¿Cuál es la entidad más probable en esta paciente?",
+   "opciones": [
+    "Edema pulmonar por insuficiencia cardiaca",
+    "Cuerpo extraño alojado en la vía aérea superior",
+    "Hiperventilación por crisis de ansiedad aislada",
+    "Crisis aguda de asma refractaria al salbutamol",
+    "Disfunción paradójica de las cuerdas vocales"
+   ],
+   "clave": 5,
+   "especialidad": "Neumología",
+   "tema": "Diagnóstico diferencial · estridor inspiratorio",
+   "diagnostico": "Disfunción de cuerdas vocales",
+   "tipo": "diagnostico",
+   "dificultad": "muy alta",
+   "razonamiento": "Paso 1: episodios súbitos con ruido inspiratorio cervical, SatO2 98 %, sin sibilancias espiratorias y espirometría intercrisis normal. Paso 2: no responde a broncodilatador ni a corticoide y se gatilla con estrés. Paso 3: el estridor inspiratorio sin respuesta al broncodilatador orienta a disfunción de cuerdas vocales, el diferencial clásico.",
+   "por_que_no": [
+    "Daría crepitantes, ortopnea y cardiomegalia en una persona con cardiopatía, no estridor con SatO2 normal.",
+    "Es típico del niño con inicio súbito y sibilancia unilateral; no da episodios repetidos que ceden solos.",
+    "Explicaría el gatillo emocional, pero no produce un estridor inspiratorio audible sobre el cuello.",
+    "Daría sibilancias espiratorias, hipoxemia y respuesta al tratamiento; aquí el ruido es inspiratorio y cervical.",
+    ""
+   ],
+   "trampa": [
+    "diferencial",
+    "otra-poblacion",
+    "diferencial",
+    "diferencial",
+    ""
+   ],
+   "perla": "Estridor inspiratorio que no responde al broncodilatador: piensa en disfunción de cuerdas vocales.",
+   "fuente": {
+    "carpeta": "TARJETAS",
+    "archivo": "Neumo_T2_Asma_ENAM.pdf",
+    "seccion": "Tarjeta 1/2 · ⑧ Diagnóstico diferencial"
+   },
+   "gemela_de": null
+  },
+  {
+   "id": "2026-10-22-banco-neumo-asma-013",
+   "enunciado": "Mujer de 46 años, con obstrucción nasal crónica y pérdida del olfato por pólipos nasales operados hace 2 años, recibe budesonida-formoterol por episodios de silbido al pecho. Ayer tomó ibuprofeno por dolor lumbar y a la hora presentó rinorrea, enrojecimiento facial y disnea intensa; refiere un episodio similar años atrás con aspirina. Hoy PA 130/84 mmHg, FC 112 X', FR 26 X', SatO2 92 % al aire ambiente, habla en frases, sibilancias difusas, sin ronchas ni edema de labios. ¿Qué mecanismo explica la reacción desencadenada por el analgésico?",
+   "opciones": [
+    "Bloqueo de receptores beta2 del músculo liso bronquial",
+    "Estímulo parasimpático de receptores M3 en la vía aérea",
+    "Reacción de hipersensibilidad tipo I mediada por IgE específica al fármaco",
+    "Bloqueo de COX-1 con desvío del ácido araquidónico a leucotrienos",
+    "Liberación de neuropéptidos como la sustancia P en el bronquio"
+   ],
+   "clave": 4,
+   "especialidad": "Neumología",
+   "tema": "Desencadenantes · intolerancia a AINE",
+   "diagnostico": "Enfermedad respiratoria exacerbada por AINE (tríada de Samter)",
+   "tipo": "mecanismo",
+   "dificultad": "alta",
+   "razonamiento": "Paso 1: pólipos nasales, anosmia y crisis tras ibuprofeno y aspirina: tríada con intolerancia a AINE. Paso 2: no hay ronchas ni angioedema, así que no es reacción IgE. Paso 3: la inhibición de COX-1 desvía el ácido araquidónico hacia la vía de los leucotrienos broncoconstrictores; se evitan los AINE y el antileucotrieno es útil.",
+   "por_que_no": [
+    "Es el mecanismo de los betabloqueadores, otro desencadenante farmacológico; el ibuprofeno no actúa así.",
+    "Explica la broncoconstricción vagal que bloquea el ipratropio, no la reacción por inhibición de COX.",
+    "Es el mecanismo del fenotipo alérgico o de la anafilaxia, que daría ronchas o angioedema; aquí no los hay.",
+    "",
+    "Es un mediador reconocido de la inflamación bronquial, pero no explica la intolerancia cruzada a AINE."
+   ],
+   "trampa": [
+    "otro-contexto",
+    "mismo-grupo",
+    "diferencial",
+    "",
+    "otro"
+   ],
+   "perla": "Samter: pólipos nasales + crisis con AINE; COX-1 bloqueada desvía a leucotrienos; evitar AINE.",
+   "fuente": {
+    "carpeta": "TARJETAS",
+    "archivo": "ASMA_Tarjetas_ENAM_EsSalud.pdf",
+    "seccion": "Parte 1 · ② Tríada de Samter"
+   },
+   "gemela_de": null
+  },
+  {
+   "id": "2026-10-22-banco-neumo-asma-014",
+   "enunciado": "Varón de 57 años, con silbido al pecho desde joven bien controlado con budesonida-formoterol a demanda, fue atendido hace 10 días por migraña frecuente y presión elevada, y se le inició un nuevo fármaco oral. Desde hace una semana presenta disnea con sibilancias diarias y despertares nocturnos que no ceden bien con su inhalador; no tiene tos seca persistente. PA 128/82 mmHg, FC 56 X', FR 22 X', T° 36,6 °C, SatO2 94 % al aire ambiente, sibilancias espiratorias difusas. ¿Qué fármaco iniciado hace 10 días explica el deterioro?",
+   "opciones": [
+    "Enalapril oral 10 mg cada 12 horas",
+    "Propranolol oral 40 mg cada 12 horas",
+    "Amlodipino oral 5 mg cada 24 horas",
+    "Losartán oral 50 mg cada 24 horas",
+    "Hidroclorotiazida oral 25 mg cada 24 horas"
+   ],
+   "clave": 2,
+   "especialidad": "Neumología",
+   "tema": "Desencadenantes · fármacos contraindicados",
+   "diagnostico": "Descompensación por betabloqueador no selectivo",
+   "tipo": "contraindicacion",
+   "dificultad": "alta",
+   "razonamiento": "Paso 1: deterioro del control tras un fármaco nuevo para migraña y presión elevada, con FC 56 X'. Paso 2: un solo fármaco cubre ambas indicaciones y baja la frecuencia: el betabloqueador no selectivo. Paso 3: el bloqueo beta2 bronquial desencadena las crisis; los betabloqueadores son desencadenantes que deben evitarse en estos pacientes.",
+   "por_que_no": [
+    "Produce tos seca por bradicinina sin sibilancias difusas; sería sospechoso si la queja fuera solo tos.",
+    "",
+    "Es un antihipertensivo seguro en estos pacientes; no produce bradicardia ni obstrucción bronquial.",
+    "No afecta los receptores beta2 bronquiales; es alternativa segura si el IECA da tos.",
+    "Puede bajar el potasio, pero no causa obstrucción bronquial ni explica la frecuencia de 56 X'."
+   ],
+   "trampa": [
+    "diferencial",
+    "",
+    "mismo-grupo",
+    "mismo-grupo",
+    "mismo-grupo"
+   ],
+   "perla": "Betabloqueadores (propranolol) son desencadenantes de crisis: evitarlos en pacientes con obstrucción reversible.",
+   "fuente": {
+    "carpeta": "6.NEUMOLOGIA",
+    "archivo": "7. ASMA.pdf",
+    "seccion": "p. 1-2 · Manejo de asma crónica según GINA 2026 (pasos 1-5)"
+   },
+   "gemela_de": null
+  },
+  {
+   "id": "2026-10-22-banco-neumo-asma-015",
+   "enunciado": "Varón de 78 años, con hiperplasia prostática en espera de cirugía, está hospitalizado desde hace 2 días por una crisis de disnea con sibilancias difusas; recibe nebulizaciones repetidas de salbutamol y bromuro de ipratropio, hidrocortisona EV, recibió una dosis de sulfato de magnesio y reinició su budesonida-formoterol. Hoy refiere dolor suprapúbico y no orina desde hace 10 horas. PA 146/88 mmHg, FC 98 X', FR 20 X', T° 36,8 °C, SatO2 95 % con cánula a 2 L/min; globo vesical palpable hasta el ombligo, sibilancias escasas. Glucosa 168 mg/dl, K 3,6 mEq/l. ¿Qué fármaco es el responsable más probable de la complicación?",
+   "opciones": [
+    "Hidrocortisona endovenosa cada 6 horas",
+    "Budesonida-formoterol inhalada",
+    "Bromuro de ipratropio nebulizado",
+    "Sulfato de magnesio endovenoso 2 g",
+    "Salbutamol nebulizado en dosis repetidas"
+   ],
+   "clave": 3,
+   "especialidad": "Neumología",
+   "tema": "Efectos adversos · anticolinérgico",
+   "diagnostico": "Retención urinaria aguda por bromuro de ipratropio",
+   "tipo": "complicacion",
+   "dificultad": "alta",
+   "razonamiento": "Paso 1: varón mayor con próstata grande, dolor suprapúbico, anuria de 10 horas y globo vesical. Paso 2: es una retención urinaria aguda aparecida durante el tratamiento de la crisis. Paso 3: el bromuro de ipratropio, antimuscarínico, puede precipitar retención urinaria en varones con hiperplasia prostática; es el fármaco responsable.",
+   "por_que_no": [
+    "Explica la glucosa de 168 mg/dl, pero el corticoide sistémico no causa retención urinaria.",
+    "Sus efectos locales son disfonía y candidiasis oral; no tiene acción anticolinérgica sobre la vejiga.",
+    "",
+    "En exceso puede causar hipotensión o depresión respiratoria, no retención urinaria con globo vesical.",
+    "Da temblor, taquicardia, hipokalemia e hiperglicemia; no retiene orina como el antimuscarínico."
+   ],
+   "trampa": [
+    "otro",
+    "mismo-grupo",
+    "",
+    "otro-contexto",
+    "mismo-grupo"
+   ],
+   "perla": "Varón mayor con próstata grande que recibe ipratropio y deja de orinar: efecto anticolinérgico.",
+   "fuente": {
+    "carpeta": "6.NEUMOLOGIA",
+    "archivo": "7. ASMA.pdf",
+    "seccion": "p. 1 · Pepas: complicaciones y RAM"
+   },
+   "gemela_de": null
+  },
+  {
+   "id": "2026-10-22-banco-neumo-asma-016",
+   "enunciado": "Mujer de 33 años, sin otras enfermedades, lleva 3 horas en emergencia por disnea con sibilancias; recibió salbutamol con cámara 8 inhalaciones cada 20 minutos en la primera hora y luego nebulizaciones cada hora, bromuro de ipratropio por tres dosis, oxígeno por mascarilla en la primera hora, prednisona 50 mg VO y sulfato de magnesio 2 g EV. Ahora refiere palpitaciones y temblor fino de manos; ya habla en frases completas. PA 132/70 mmHg, FC 132 X', FR 22 X', SatO2 95 % al aire ambiente. Glucosa 176 mg/dl, K 2,9 mEq/l, Na 139 mEq/l. EKG: ritmo sinusal con ondas U prominentes. ¿Qué fármaco explica mejor el conjunto de alteraciones?",
+   "opciones": [
+    "Prednisona oral 50 mg",
+    "Salbutamol en dosis repetidas",
+    "Sulfato de magnesio 2 g EV",
+    "Bromuro de ipratropio nebulizado",
+    "Oxígeno húmedo por mascarilla"
+   ],
+   "clave": 2,
+   "especialidad": "Neumología",
+   "tema": "Efectos adversos · beta2 agonista",
+   "diagnostico": "Hipokalemia, hiperglicemia y temblor por salbutamol repetido",
+   "tipo": "complicacion",
+   "dificultad": "muy alta",
+   "razonamiento": "Paso 1: temblor fino, FC 132 X', glucosa 176 mg/dl, K 2,9 mEq/l y ondas U. Paso 2: la combinación taquicardia, temblor, hipokalemia e hiperglicemia es el perfil de efectos del beta2 agonista, que entra potasio a la célula. Paso 3: el responsable es el salbutamol a dosis repetidas; vigilar y reponer potasio.",
+   "por_que_no": [
+    "Puede elevar la glucosa, pero no explica el temblor fino, la taquicardia ni el potasio de 2,9 mEq/l.",
+    "",
+    "Su toxicidad da hipotensión, hiporreflexia y depresión respiratoria, no taquicardia con hipokalemia.",
+    "Da boca seca y retención urinaria en varones mayores; no baja el potasio ni causa temblor.",
+    "No altera el potasio ni la glucosa; solo podría importar en retenedores crónicos de CO2."
+   ],
+   "trampa": [
+    "otro",
+    "",
+    "otro-contexto",
+    "mismo-grupo",
+    "diferencial"
+   ],
+   "perla": "SABA a dosis altas: temblor, taquicardia, hipokalemia e hiperglicemia.",
+   "fuente": {
+    "carpeta": "6.NEUMOLOGIA",
+    "archivo": "7. ASMA.pdf",
+    "seccion": "p. 1-2 · Farmacología (SABA, LABA, ICS, SAMA, biológicos)"
+   },
+   "gemela_de": null
+  },
+  {
+   "id": "2026-10-22-banco-neumo-asma-017",
+   "enunciado": "Mujer de 61 años, con diabetes tipo 2 controlada, usa fluticasona-salmeterol en inhalador presurizado sin espaciador cada 12 horas por episodios de silbido al pecho, con buen control de síntomas. Desde hace 3 semanas tiene ronquera y ardor bucal. PA 128/76 mmHg, FC 76 X', FR 16 X', T° 36,7 °C, SatO2 96 % al aire ambiente. Placas blanquecinas removibles en paladar y lengua sobre base eritematosa; sin adenopatías; pulmones sin sibilancias. Glucosa en ayunas 118 mg/dl. Además del antifúngico local, ¿qué indicación corresponde respecto a su inhalador?",
+   "opciones": [
+    "Suspenderlo y usar solo salbutamol cuando tenga síntomas",
+    "Reemplazar el inhalador por montelukast oral como controlador único",
+    "Mantenerlo con espaciador y enjuague bucal después de cada uso",
+    "Cambiar el inhalador por prednisona oral en dosis baja",
+    "Suspender el corticoide y dejar solo el salmeterol inhalado"
+   ],
+   "clave": 3,
+   "especialidad": "Neumología",
+   "tema": "Efectos adversos · corticoide inhalado",
+   "diagnostico": "Candidiasis orofaríngea y disfonía por corticoide inhalado",
+   "tipo": "conducta",
+   "dificultad": "media",
+   "razonamiento": "Paso 1: ronquera y placas blancas removibles en quien usa corticoide inhalado sin espaciador. Paso 2: son los efectos locales más frecuentes del corticoide inhalado, favorecidos por el depósito orofaríngeo y la diabetes. Paso 3: no se suspende el controlador: se agrega espaciador y enjuague bucal tras cada uso.",
+   "por_que_no": [
+    "Era el esquema antiguo; dejar sin corticoide inhalado favorece crisis y remodelación.",
+    "Es menos eficaz que el corticoide inhalado; se usaría si no tolera beta2 agonistas.",
+    "",
+    "El corticoide oral se reserva para crisis o paso 5 y además empeoraría su glucosa.",
+    "Deja un LABA en monoterapia, con mayor riesgo de crisis graves y muerte; nunca es la solución."
+   ],
+   "trampa": [
+    "otro-momento",
+    "mismo-grupo",
+    "",
+    "otro-contexto",
+    "mismo-grupo"
+   ],
+   "perla": "Corticoide inhalado: disfonía y candidiasis oral; se previenen con espaciador y enjuague, sin suspenderlo.",
+   "fuente": {
+    "carpeta": "TARJETAS",
+    "archivo": "Neumo_T2_Asma_ENAM.pdf",
+    "seccion": "Tarjeta 2/2 · ⑤-⑦ Escalones, efectos adversos y descenso"
+   },
+   "gemela_de": null
+  },
+  {
+   "id": "2026-10-22-banco-neumo-asma-018",
+   "enunciado": "Varón de 27 años, con dos hospitalizaciones previas por crisis, llega tras 10 horas de disnea progresiva. Al ingreso hablaba con palabras sueltas y tenía sibilancias intensas en ambos campos. Tras 40 minutos de tratamiento está más tranquilo, casi no habla y apenas responde al llamado. PA 104/60 mmHg, FC 54 X', FR 10 X', SatO2 86 % con mascarilla de reservorio, cianosis peribucal; el murmullo vesicular es casi inaudible y ya no se escuchan sibilancias. La enfermera comenta que el paciente mejoró. ¿Cómo deben interpretarse estos cambios clínicos?",
+   "opciones": [
+    "Paro respiratorio inminente por fatiga y obstrucción extrema",
+    "Mejoría por respuesta adecuada al tratamiento broncodilatador",
+    "Crisis grave estable que sigue respondiendo al salbutamol",
+    "Crisis moderada en vías de resolución con menos sibilancias",
+    "Sedación transitoria por el sulfato de magnesio administrado"
+   ],
+   "clave": 1,
+   "especialidad": "Neumología",
+   "tema": "Crisis · signos de riesgo vital",
+   "diagnostico": "Crisis con paro respiratorio inminente (tórax silente)",
+   "tipo": "severidad",
+   "dificultad": "alta",
+   "razonamiento": "Paso 1: desaparecen las sibilancias, el murmullo es casi inaudible, FC 54 X', FR 10 X', somnolencia y cianosis. Paso 2: el tórax silente no es mejoría: el flujo es tan escaso que no genera ruido. Paso 3: con bradicardia y trastorno de conciencia es paro respiratorio inminente; requiere intubación y UCI.",
+   "por_que_no": [
+    "",
+    "La mejoría real trae más murmullo, mejor saturación y habla fluida; aquí desatura y se deprime.",
+    "La crisis grave tiene taquicardia >120 y habla en palabras; la bradicardia y el silencio indican un estadio peor.",
+    "La crisis moderada habla en frases con FC 100-120; no cursa con bradicardia, cianosis ni somnolencia.",
+    "El magnesio en exceso deprime, pero no explica el silencio auscultatorio con SatO2 de 86 %."
+   ],
+   "trampa": [
+    "",
+    "otro-momento",
+    "otro-estadio",
+    "otro-estadio",
+    "diferencial"
+   ],
+   "perla": "Tórax silente + bradicardia + somnolencia en plena crisis = paro inminente, no mejoría.",
+   "fuente": {
+    "carpeta": "6.NEUMOLOGIA",
+    "archivo": "7. ASMA.pdf",
+    "seccion": "p. 1 · Criterios de gravedad y ventilación mecánica"
+   },
+   "gemela_de": null
+  },
+  {
+   "id": "2026-10-22-banco-neumo-asma-019",
+   "enunciado": "Mujer de 41 años, con obesidad grado I, ingresa por crisis de disnea de 14 horas. Ha recibido oxígeno, salbutamol con ipratropio cada 20 minutos por 1 hora, metilprednisolona 80 mg EV y sulfato de magnesio 2 g EV. A los 90 minutos está somnolienta, responde con monosílabos y no colabora; PA 100/62 mmHg, FC 128 X', FR 12 X', SatO2 88 % con mascarilla de reservorio. AGA: pH 7,22; PaCO2 64 mmHg; PaO2 56 mmHg; HCO3 25 mEq/l. Murmullo vesicular muy disminuido. ¿Cuál es el siguiente paso en su manejo ventilatorio?",
+   "opciones": [
+    "Intubación orotraqueal y ventilación mecánica invasiva",
+    "Aminofilina endovenosa como broncodilatador adicional",
+    "Segunda dosis de sulfato de magnesio de 2 g endovenoso",
+    "Adrenalina intramuscular 0,3 mg de solución 1:1000",
+    "Ventilación no invasiva con BiPAP por mascarilla oronasal"
+   ],
+   "clave": 1,
+   "especialidad": "Neumología",
+   "tema": "Crisis · soporte ventilatorio",
+   "diagnostico": "Crisis refractaria con hipercapnia progresiva y somnolencia",
+   "tipo": "conducta",
+   "dificultad": "muy alta",
+   "razonamiento": "Paso 1: pH 7,22 con PaCO2 64 y HCO3 25 es retención aguda de CO2; FR 12 X' y somnolencia. Paso 2: hay fatiga ventilatoria pese a O2, SABA, ipratropio, corticoide y magnesio. Paso 3: PaCO2 >45 progresiva, somnolencia y bradipnea indican intubación; la BiPAP está contraindicada si no colabora.",
+   "por_que_no": [
+    "",
+    "Se reserva cuando no hay otra alternativa y no corrige la falla ventilatoria ya establecida.",
+    "El magnesio es el paso previo ya dado; con hipercapnia y somnolencia lo que falta es ventilar.",
+    "Se indica si la crisis se asocia a anafilaxia o angioedema, que esta paciente no presenta.",
+    "Solo si hay fatiga con paciente consciente y colaborador; somnolienta, corre riesgo de broncoaspiración."
+   ],
+   "trampa": [
+    "",
+    "otro-momento",
+    "umbral",
+    "otro-contexto",
+    "otra-poblacion"
+   ],
+   "perla": "Crisis con PaCO2 >45 progresiva y somnolencia: intubar; BiPAP solo en paciente consciente y colaborador.",
+   "fuente": {
+    "carpeta": "6.NEUMOLOGIA",
+    "archivo": "7. ASMA.pdf",
+    "seccion": "p. 2-4 · Manejo de crisis asmática según GINA 2025"
+   },
+   "gemela_de": null
+  },
+  {
+   "id": "2026-10-22-banco-neumo-asma-020",
+   "enunciado": "Varón de 34 años, natural y residente de Huancayo (3250 m s. n. m.), cuya PaCO2 basal en un control previo fue 31 mmHg, acude por 8 horas de disnea con silbido al pecho tras un resfrío. Habla en frases cortas; PA 122/78 mmHg, FC 118 X', FR 28 X', T° 37,1 °C, SatO2 84 % al aire ambiente (basal conocida 90 %), uso de músculos accesorios. AGA al aire ambiente: pH 7,38; PaCO2 40 mmHg; PaO2 48 mmHg; HCO3 23 mEq/l. ¿Cómo debe interpretarse la PaCO2 de este paciente en plena crisis?",
+   "opciones": [
+    "Valor normal que descarta compromiso de la ventilación",
+    "Compensación metabólica propia del residente de altura",
+    "Hallazgo esperado de la hiperventilación en la crisis",
+    "Retención crónica de CO2 por enfermedad pulmonar de base",
+    "Signo de fatiga incipiente que indica una crisis más grave"
+   ],
+   "clave": 5,
+   "especialidad": "Neumología",
+   "tema": "Crisis en altura · interpretación gasométrica",
+   "diagnostico": "Crisis grave con normocapnia relativa (fatiga) en residente de altura",
+   "tipo": "severidad",
+   "dificultad": "muy alta",
+   "razonamiento": "Paso 1: en crisis se espera hipocapnia; su basal en altura es 31 mmHg y hoy está en 40 con pH 7,38. Paso 2: una PaCO2 normal para el nivel del mar en plena crisis significa que ya se está fatigando. Paso 3: en altura es un signo de gravedad más precoz; exige tratamiento intensivo y vigilancia estrecha.",
+   "por_que_no": [
+    "40 mmHg es normal a nivel del mar, pero en crisis lo esperable es hipocapnia por hiperventilación.",
+    "La adaptación a la altura baja la PaCO2 basal; no la eleva durante una crisis aguda.",
+    "La hiperventilación daría PaCO2 por debajo de su basal de 31; un valor de 40 indica que ya no compensa.",
+    "Se vería en un retenedor crónico con HCO3 alto; aquí el bicarbonato es normal y la basal es 31.",
+    ""
+   ],
+   "trampa": [
+    "umbral",
+    "otra-poblacion",
+    "otro-momento",
+    "diferencial",
+    ""
+   ],
+   "perla": "En altura la PaCO2 basal es baja: una PaCO2 normal en plena crisis ya indica fatiga y gravedad.",
+   "fuente": {
+    "carpeta": "TARJETAS",
+    "archivo": "Neumo_T2_Asma_ENAM.pdf",
+    "seccion": "Tarjeta 1/2 · ⑨ Altitud: interpretación gasométrica"
+   },
+   "gemela_de": null
+  },
+  {
+   "id": "2026-10-22-banco-neumo-asma-021",
+   "enunciado": "Varón de 19 años, estudiante, con episodios de silbido al pecho desde niño y sin tratamiento de fondo, acude a emergencia por 5 horas de disnea tras limpiar un depósito con mucho polvo. Habla en frases y prefiere estar sentado; PA 120/74 mmHg, FC 108 X', FR 24 X', T° 36,8 °C, SatO2 95 % al aire ambiente, sibilancias espiratorias difusas sin tiraje. PEF 62 % del predicho. No vomita y tolera la vía oral. No ha sido hospitalizado antes. ¿Qué esquema inicial corresponde indicar en emergencia?",
+   "opciones": [
+    "Salbutamol con cámara a demanda, sin corticoide sistémico",
+    "Salbutamol con ipratropio, hidrocortisona EV y sulfato de magnesio",
+    "Salbutamol con cámara cada 20 minutos y corticoide solo si no mejora",
+    "Salbutamol con cámara cada 20 minutos y prednisona oral temprana",
+    "Oxígeno por cánula y salbutamol, con el corticoide al alta"
+   ],
+   "clave": 4,
+   "especialidad": "Neumología",
+   "tema": "Crisis leve-moderada · manejo inicial",
+   "diagnostico": "Crisis leve-moderada en adulto joven sin tratamiento de fondo",
+   "tipo": "tratamiento",
+   "dificultad": "alta",
+   "razonamiento": "Paso 1: habla en frases, FC 108, FR 24, SatO2 95 % y PEF 62 %: crisis leve-moderada. Paso 2: no requiere O2 y tolera la vía oral. Paso 3: SABA con cámara cada 20 minutos por una hora más corticoide sistémico temprano por vía oral, que es tan eficaz como la endovenosa; luego reevaluar a los 30-60 minutos.",
+   "por_que_no": [
+    "Ninguna crisis atendida en emergencia se maneja solo con SABA; todas reciben corticoide sistémico.",
+    "Es el esquema de la crisis grave o refractaria; él habla en frases, SatO2 95 % y tolera la vía oral.",
+    "El corticoide sistémico se da desde el inicio, aunque mejore con SABA; esperar la falla aumenta recaídas.",
+    "",
+    "Con SatO2 95 % no necesita O2 (meta 94-98 %) y el corticoide no se difiere hasta el alta."
+   ],
+   "trampa": [
+    "otro-estadio",
+    "otro-estadio",
+    "otro-momento",
+    "",
+    "otro-momento"
+   ],
+   "perla": "Toda crisis atendida recibe corticoide sistémico temprano; la vía oral es tan eficaz como la EV.",
+   "fuente": {
+    "carpeta": "6.NEUMOLOGIA",
+    "archivo": "7. ASMA.pdf",
+    "seccion": "p. 2-4 · Manejo de crisis asmática según GINA 2025"
+   },
+   "gemela_de": null
+  },
+  {
+   "id": "2026-10-22-banco-neumo-asma-022",
+   "enunciado": "Mujer de 66 años, de 62 kg, con diabetes tipo 2 tratada con metformina y episodios de silbido al pecho desde los 30 años, acude por 2 días de disnea progresiva tras un resfrío. Habla en frases; PA 138/80 mmHg, FC 112 X', FR 26 X', T° 37,2 °C, SatO2 92 % al aire ambiente, sibilancias espiratorias difusas; PEF 58 % de su mejor valor. Glucosa capilar 210 mg/dl, sin cetonas. Tolera la vía oral. Se inicia oxígeno y salbutamol con cámara. ¿Qué esquema de corticoide sistémico corresponde indicar?",
+   "opciones": [
+    "Hidrocortisona 100 mg EV cada 6 horas por 5 días",
+    "Prednisona 2 mg/kg al día VO por 3 a 5 días",
+    "Prednisona 10 mg al día VO por 14 días seguidos",
+    "Prednisona 40-50 mg al día VO por 5 a 7 días",
+    "Prednisona 1 mg/kg al día VO por 3 a 5 días"
+   ],
+   "clave": 4,
+   "especialidad": "Neumología",
+   "tema": "Crisis · dosis de corticoide sistémico",
+   "diagnostico": "Crisis moderada en adulta mayor diabética",
+   "tipo": "dosis",
+   "dificultad": "media",
+   "razonamiento": "Paso 1: habla en frases, FC 112, SatO2 92 % y PEF 58 %: crisis moderada. Paso 2: la diabetes con glucosa de 210 no contraindica el corticoide; se vigila y corrige la glucosa. Paso 3: en el adulto que tolera la vía oral corresponde prednisona 40-50 mg al día por 5-7 días.",
+   "por_que_no": [
+    "Se usa si no tolera la vía oral o está grave; ella tolera VO y la vía oral es igual de eficaz.",
+    "Corresponde a la crisis grave del niño; en esta adulta daría 124 mg al día, una dosis excesiva.",
+    "Es una dosis insuficiente para una crisis; la hiperglicemia se controla, no obliga a reducir la dosis.",
+    "",
+    "Es la dosis pediátrica de la crisis moderada; en el adulto se usan 40-50 mg al día por 5-7 días."
+   ],
+   "trampa": [
+    "otro-contexto",
+    "otra-poblacion",
+    "umbral",
+    "",
+    "otra-poblacion"
+   ],
+   "perla": "Adulto en crisis: prednisona 40-50 mg/día VO por 5-7 días; si no tolera VO, hidrocortisona 100 mg EV c/6 h.",
+   "fuente": {
+    "carpeta": "6.NEUMOLOGIA",
+    "archivo": "7. ASMA.pdf",
+    "seccion": "p. 2-4 · Manejo de crisis asmática según GINA 2025"
+   },
+   "gemela_de": null
+  },
+  {
+   "id": "2026-10-22-banco-neumo-asma-023",
+   "enunciado": "Varón de 45 años, albañil, está en emergencia por una crisis de disnea iniciada hace 12 horas. Ha recibido oxígeno, salbutamol con ipratropio cada 20 minutos por tres dosis e hidrocortisona 100 mg EV. A la hora de reevaluación sigue hablando con palabras, FC 124 X', FR 32 X', PA 118/72 mmHg, SatO2 92 % con cánula a 3 L/min, sibilancias inspiratorias y espiratorias; está despierto y colaborador. PEF 38 % del predicho. Creatinina 0,9 mg/dl. ¿Qué fármaco y dosis corresponde agregar en este momento?",
+   "opciones": [
+    "Sulfato de magnesio 4 g EV en 15 a 20 minutos",
+    "Salbutamol 5 mg nebulizado cada 4 horas",
+    "Metilprednisolona 80 mg EV como dosis extra",
+    "Adrenalina 0,3 mg IM de solución 1:1000",
+    "Sulfato de magnesio 2 g EV en 20 minutos"
+   ],
+   "clave": 5,
+   "especialidad": "Neumología",
+   "tema": "Crisis grave · terapia adicional",
+   "diagnostico": "Crisis grave sin respuesta a la primera hora de tratamiento",
+   "tipo": "dosis",
+   "dificultad": "alta",
+   "razonamiento": "Paso 1: tras una hora de O2, SABA, ipratropio y corticoide persiste hablando con palabras, FR 32, FC 124 y PEF 38 %. Paso 2: es una crisis grave sin respuesta, aún despierto y colaborador. Paso 3: la terapia adicional es sulfato de magnesio 2 g EV en 20 minutos, antes de considerar ventilación.",
+   "por_que_no": [
+    "Es la dosis de carga usada en la gestante con preeclampsia grave; en la crisis bronquial se usan 2 g.",
+    "Espaciar el SABA sería propio de la fase de mejoría; aquí no respondió y requiere terapia adicional.",
+    "Ya recibe corticoide sistémico en dosis plena; sumar otro corticoide no añade broncodilatación.",
+    "Se reserva para la crisis asociada a anafilaxia o angioedema, ausentes en este paciente.",
+    ""
+   ],
+   "trampa": [
+    "otra-poblacion",
+    "otro-momento",
+    "mismo-grupo",
+    "otro-contexto",
+    ""
+   ],
+   "perla": "Crisis sin respuesta en la primera hora: sulfato de magnesio 2 g EV en 20 minutos.",
+   "fuente": {
+    "carpeta": "6.NEUMOLOGIA",
+    "archivo": "7. ASMA.pdf",
+    "seccion": "p. 2-4 · Manejo de crisis asmática según GINA 2025"
+   },
+   "gemela_de": null
+  },
+  {
+   "id": "2026-10-22-banco-neumo-asma-024",
+   "enunciado": "Niña de 8 años, de 24 kg, con episodios recurrentes de silbido al pecho desde los 5 años y dermatitis atópica, llega a la emergencia de un hospital de Lima por 6 horas de tos y dificultad respiratoria tras un resfrío. Habla en frases cortas; FC 126 X', FR 34 X', T° 37,4 °C, SatO2 93 % al aire ambiente, tiraje subcostal leve y sibilancias espiratorias difusas. Se coloca oxígeno y se decide nebulizar. ¿Qué dosis de salbutamol nebulizado corresponde indicar a esta niña?",
+   "opciones": [
+    "3,6 mg cada 20 minutos por 3 dosis",
+    "1,2 mg cada 20 minutos por 3 dosis",
+    "5 mg cada 20 minutos por 3 dosis seguidas",
+    "7,2 mg cada 20 minutos por 3 dosis",
+    "3,6 mg cada 6 horas desde el ingreso"
+   ],
+   "clave": 1,
+   "especialidad": "Neumología",
+   "tema": "Población pediátrica · crisis en escolar",
+   "diagnostico": "Crisis moderada en escolar de 24 kg",
+   "tipo": "dosis",
+   "dificultad": "muy alta",
+   "razonamiento": "Paso 1: habla en frases cortas, FR 34, FC 126, tiraje y SatO2 93 %: crisis moderada que requiere O2. Paso 2: la dosis nebulizada pediátrica es 0,15 mg/kg con máximo de 5 mg. Paso 3: 0,15 × 24 kg = 3,6 mg cada 20 minutos por tres dosis, y luego reevaluar.",
+   "por_que_no": [
+    "",
+    "Equivale a 0,05 mg/kg, un tercio de la dosis; sería insuficiente para su crisis.",
+    "Es el tope pediátrico y la dosis alta del adulto; con 24 kg el cálculo a 0,15 mg/kg da 3,6 mg.",
+    "Equivale a 0,3 mg/kg y supera el máximo de 5 mg por nebulización.",
+    "La dosis es correcta, pero en la fase inicial se repite cada 20 minutos; espaciar es para la mejoría."
+   ],
+   "trampa": [
+    "",
+    "umbral",
+    "otra-poblacion",
+    "umbral",
+    "otro-momento"
+   ],
+   "perla": "Salbutamol nebulizado pediátrico: 0,15 mg/kg (máx. 5 mg) cada 20 minutos por 3 dosis.",
+   "fuente": {
+    "carpeta": "4.PEDIATRIA",
+    "archivo": "13. ASMA.pdf",
+    "seccion": "p. 1 · Crisis moderada: salbutamol NBZ 0,15 mg/kg"
+   },
+   "gemela_de": null
+  },
+  {
+   "id": "2026-10-22-banco-neumo-asma-025",
+   "enunciado": "Mujer de 28 años, con gastroenteritis desde ayer y vómitos cada hora, presenta desde hace 6 horas disnea con silbido al pecho; tiene crisis similares desde la adolescencia. Habla solo con palabras; PA 108/64 mmHg, FC 126 X', FR 32 X', T° 37,6 °C, SatO2 89 % al aire ambiente, uso de músculos accesorios y sibilancias difusas. Se inicia oxígeno y nebulización de salbutamol con ipratropio. Vomita incluso pequeños sorbos de agua. ¿Qué corticoide sistémico corresponde indicar en este momento?",
+   "opciones": [
+    "Prednisona 50 mg VO cada 24 horas por 5 días",
+    "Hidrocortisona 100 mg EV si no responde al salbutamol",
+    "Hidrocortisona 100 mg EV cada 6 horas desde ahora",
+    "Fluticasona inhalada en dosis alta cada 12 horas",
+    "Prednisona 2 mg/kg VO en dosis única diaria"
+   ],
+   "clave": 3,
+   "especialidad": "Neumología",
+   "tema": "Crisis grave · vía del corticoide",
+   "diagnostico": "Crisis grave con intolerancia oral por vómitos",
+   "tipo": "tratamiento",
+   "dificultad": "alta",
+   "razonamiento": "Paso 1: habla con palabras, FR 32, FC 126 y SatO2 89 %: crisis grave. Paso 2: necesita corticoide sistémico desde el inicio, pero vomita todo y no tolera la vía oral. Paso 3: corresponde hidrocortisona 100 mg EV cada 6 horas (alternativa metilprednisolona EV), junto con O2, SABA e ipratropio.",
+   "por_que_no": [
+    "Es la elección si tolera la vía oral; con vómitos repetidos no se asegura su absorción.",
+    "El fármaco es correcto, pero el corticoide se inicia desde el comienzo, no tras la falla del SABA.",
+    "",
+    "El corticoide inhalado es el controlador de fondo; no reemplaza al sistémico en la crisis.",
+    "Es la dosis del niño con crisis grave y además es oral, inviable con vómitos."
+   ],
+   "trampa": [
+    "otro-contexto",
+    "otro-momento",
+    "",
+    "mismo-grupo",
+    "otra-poblacion"
+   ],
+   "perla": "Sin tolerancia oral: hidrocortisona 100 mg EV cada 6 horas; con tolerancia, prednisona VO igual de eficaz.",
+   "fuente": {
+    "carpeta": "6.NEUMOLOGIA",
+    "archivo": "7. ASMA.pdf",
+    "seccion": "p. 2-4 · Manejo de crisis asmática según GINA 2025"
+   },
+   "gemela_de": null
+  },
+  {
+   "id": "2026-10-22-banco-neumo-asma-026",
+   "enunciado": "Varón de 39 años, mototaxista de Piura, con episodios de silbido al pecho desde la infancia, acude por 4 horas de disnea tras inhalar el humo de una quema de basura. Habla en frases cortas; PA 126/80 mmHg, FC 116 X', FR 28 X', T° 36,9 °C, SatO2 90 % al aire ambiente, sibilancias espiratorias difusas con buena entrada de aire; PEF 52 % del predicho. No tiene enfermedad cardiaca ni otra enfermedad pulmonar y nunca fumó. ¿Cuál es la indicación inicial más adecuada para este paciente?",
+   "opciones": [
+    "Oxígeno hasta SatO2 de 88-92 % junto con salbutamol inmediato",
+    "Oxígeno a alto flujo hasta SatO2 de 100 % y luego salbutamol",
+    "Oxígeno y esperar 20 minutos antes de dar el salbutamol",
+    "Oxígeno hasta SatO2 de 94-98 % junto con salbutamol inmediato",
+    "Salbutamol y diferir el oxígeno hasta tener el resultado del AGA"
+   ],
+   "clave": 4,
+   "especialidad": "Neumología",
+   "tema": "Crisis · oxigenoterapia inicial",
+   "diagnostico": "Crisis moderada con hipoxemia en adulto sin retención de CO2",
+   "tipo": "conducta",
+   "dificultad": "alta",
+   "razonamiento": "Paso 1: frases cortas, FR 28, FC 116, PEF 52 % y SatO2 90 % a nivel del mar: crisis con hipoxemia. Paso 2: sin enfermedad que retenga CO2, la meta de saturación es la estándar. Paso 3: O2 titulado a 94-98 % y SABA en simultáneo, sin esperar; luego se agregan corticoide e ipratropio según severidad.",
+   "por_que_no": [
+    "Es la meta del retenedor crónico de CO2; en esta crisis sin enfermedad de base la meta es 94-98 %.",
+    "La meta no es 100 % y el broncodilatador no se posterga; ambos van al mismo tiempo.",
+    "No se espera: el SABA se administra en simultáneo con el oxígeno desde el primer minuto.",
+    "",
+    "La SatO2 de 90 % basta para indicar O2; esperar el AGA retrasa la corrección de la hipoxemia."
+   ],
+   "trampa": [
+    "otra-poblacion",
+    "umbral",
+    "otro-momento",
+    "",
+    "otro-momento"
+   ],
+   "perla": "Crisis: O2 para SatO2 94-98 % y SABA al mismo tiempo, sin esperar uno por el otro.",
+   "fuente": {
+    "carpeta": "6.NEUMOLOGIA",
+    "archivo": "7. ASMA.pdf",
+    "seccion": "p. 2-4 · Manejo de crisis asmática según GINA 2025"
+   },
+   "gemela_de": null
+  },
+  {
+   "id": "2026-10-22-banco-neumo-asma-027",
+   "enunciado": "Mujer de 25 años, con episodios de silbido al pecho desde niña y alergia conocida al maní, acude 20 minutos después de comer un postre en una fiesta por disnea súbita, ronchas pruriginosas generalizadas e hinchazón de labios y párpados. PA 84/50 mmHg, FC 134 X', FR 30 X', T° 36,8 °C, SatO2 90 % al aire ambiente; habones en tronco, edema labial y sibilancias difusas. Se coloca oxígeno. ¿Qué fármaco debe administrarse primero en esta paciente?",
+   "opciones": [
+    "Hidrocortisona 100 mg EV cada 6 horas",
+    "Salbutamol nebulizado 5 mg cada 20 minutos",
+    "Aminofilina EV como broncodilatador inicial",
+    "Sulfato de magnesio 2 g EV en 20 minutos",
+    "Adrenalina 0,3 mg IM de solución 1:1000"
+   ],
+   "clave": 5,
+   "especialidad": "Neumología",
+   "tema": "Crisis · terapias adicionales",
+   "diagnostico": "Crisis bronquial asociada a anafilaxia por alimento",
+   "tipo": "tratamiento",
+   "dificultad": "muy alta",
+   "razonamiento": "Paso 1: tras exposición al alérgeno conocido aparecen habones, angioedema, PA 84/50 y sibilancias. Paso 2: es una crisis bronquial dentro de una anafilaxia con compromiso circulatorio. Paso 3: la terapia adicional indicada es adrenalina IM 0,3 mg (1:1000); luego SABA, corticoide y el resto del manejo.",
+   "por_que_no": [
+    "Se indica después; el corticoide tarda horas y no revierte el compromiso circulatorio inmediato.",
+    "Es el primer fármaco de la crisis sin anafilaxia; aquí no corrige la hipotensión ni el angioedema.",
+    "Se usa solo si no hay alternativas por su toxicidad; no trata la reacción sistémica.",
+    "Es la terapia adicional de la crisis grave sin respuesta a la primera hora, sin anafilaxia.",
+    ""
+   ],
+   "trampa": [
+    "otro-momento",
+    "otro-contexto",
+    "mismo-grupo",
+    "otro-estadio",
+    ""
+   ],
+   "perla": "Crisis con angioedema o anafilaxia: adrenalina IM 0,3 mg de 1:1000.",
+   "fuente": {
+    "carpeta": "6.NEUMOLOGIA",
+    "archivo": "7. ASMA.pdf",
+    "seccion": "p. 2-4 · Manejo de crisis asmática según GINA 2025"
+   },
+   "gemela_de": null
+  },
+  {
+   "id": "2026-10-22-banco-neumo-asma-028",
+   "enunciado": "Varón de 23 años, repartidor, fue atendido por una crisis de disnea con sibilancias; recibió salbutamol con cámara y prednisona 50 mg VO. Tras 3 horas está asintomático y habla con normalidad; PA 118/72 mmHg, FC 88 X', FR 16 X', SatO2 97 % al aire ambiente, sibilancias escasas al final de la espiración; PEF 78 % del predicho, estable 60 minutos después de la última dosis. Antes solo usaba salbutamol cuando se agitaba, unas 4 veces por semana. ¿Qué indicación de alta corresponde en este paciente?",
+   "opciones": [
+    "Prednisona 5-7 días, iniciar corticoide inhalado y control en 2-7 días",
+    "Prednisona 5-7 días, continuar solo salbutamol y control en un mes",
+    "Prednisona 5-7 días con salmeterol solo y control en 2-7 días",
+    "Sin prednisona al haber mejorado; corticoide inhalado y control en 2-7 días",
+    "Hospitalizar 24 horas para nebulizaciones y corticoide endovenoso"
+   ],
+   "clave": 1,
+   "especialidad": "Neumología",
+   "tema": "Crisis · criterios y plan de alta",
+   "diagnostico": "Crisis resuelta que cumple criterios de alta en paciente sin controlador",
+   "tipo": "conducta",
+   "dificultad": "alta",
+   "razonamiento": "Paso 1: asintomático, SatO2 97 % al aire y PEF 78 % estable por 60 minutos: cumple criterios de alta. Paso 2: usaba SABA solo 4 veces por semana, sin controlador. Paso 3: alta con prednisona 5-7 días, inicio de corticoide inhalado, revisión de técnica, plan de acción escrito y control en 2-7 días.",
+   "por_que_no": [
+    "",
+    "Nunca se da de alta solo con salbutamol; además el control debe ser en 2-7 días.",
+    "El LABA sin corticoide inhalado aumenta crisis graves y muerte; no es controlador aceptable.",
+    "Aunque mejore, el corticoide oral se completa 5-7 días para evitar recaídas.",
+    "Se hospitaliza si persiste PEF <40 % o signos de gravedad; él cumple PEF >70 % y SatO2 >94 %."
+   ],
+   "trampa": [
+    "",
+    "otro-momento",
+    "mismo-grupo",
+    "otro",
+    "umbral"
+   ],
+   "perla": "Alta con PEF >70 % y SatO2 >94 %: corticoide oral 5-7 días + corticoide inhalado + control en 2-7 días.",
+   "fuente": {
+    "carpeta": "TARJETAS",
+    "archivo": "Neumo_T2_Asma_ENAM.pdf",
+    "seccion": "Tarjeta 2/2 · ⑩ Al alta"
+   },
+   "gemela_de": null
+  },
+  {
+   "id": "2026-10-22-banco-neumo-asma-029",
+   "enunciado": "Mujer de 30 años es evaluada en emergencia tras mejorar de una crisis: PEF 72 % del predicho, SatO2 95 % al aire ambiente, FC 92 X', FR 18 X', PA 116/70 mmHg, sibilancias escasas. En su historia figuran rinitis alérgica, dermatitis atópica en la infancia, IgE sérica total de 620 UI/ml, prueba cutánea positiva a ácaros del polvo e intubación en cuidados intensivos por una crisis hace 2 años. El médico debe decidir el umbral para observarla más tiempo. ¿Cuál de sus antecedentes eleva más el riesgo de una crisis fatal?",
+   "opciones": [
+    "Dermatitis atópica en los primeros años de vida",
+    "Prueba cutánea positiva a ácaros del polvo doméstico",
+    "Intubación en cuidados intensivos por crisis previa",
+    "Rinitis alérgica persistente desde la niñez",
+    "IgE sérica total de 620 UI/ml en el último control"
+   ],
+   "clave": 3,
+   "especialidad": "Neumología",
+   "tema": "Riesgo de crisis fatal",
+   "diagnostico": "Antecedente de crisis casi fatal con intubación",
+   "tipo": "severidad",
+   "dificultad": "alta",
+   "razonamiento": "Paso 1: la paciente tiene varios rasgos atópicos y una intubación en UCI hace 2 años. Paso 2: la atopia define el fenotipo, pero el mayor predictor de muerte es una crisis previa casi fatal. Paso 3: ese antecedente baja el umbral para hospitalizar u observar más tiempo, aun con buena respuesta inicial.",
+   "por_que_no": [
+    "Apoya el fenotipo alérgico de inicio temprano; no eleva por sí sola el riesgo de crisis mortal.",
+    "Identifica el alérgeno a evitar; sería relevante para el control ambiental, no para estimar mortalidad.",
+    "",
+    "Es una comorbilidad atópica que empeora el control, pero no figura entre los predictores de muerte.",
+    "Orienta el fenotipo atópico y la opción anti-IgE, pero no mide el riesgo de una crisis fatal."
+   ],
+   "trampa": [
+    "diferencial",
+    "mismo-grupo",
+    "",
+    "otro",
+    "no-confirmatorio"
+   ],
+   "perla": "Crisis previa con intubación o UCI: el factor de riesgo de crisis fatal más importante; baja el umbral para hospitalizar.",
+   "fuente": {
+    "carpeta": "6.NEUMOLOGIA",
+    "archivo": "Neumología -  Fundamentos teóricos_ENAM 2024.pdf",
+    "seccion": "p. 25 · Factores de riesgo para asma fatal"
+   },
+   "gemela_de": null
+  },
+  {
+   "id": "2026-10-22-banco-neumo-asma-030",
+   "enunciado": "Varón de 21 años, delgado, ingresado hace 3 horas por una crisis grave de disnea con silbido al pecho, recibe oxígeno, salbutamol con ipratropio e hidrocortisona y había mejorado en parte. De pronto presenta dolor torácico derecho punzante y más disnea. PA 86/54 mmHg, FC 138 X', FR 36 X', SatO2 84 % con mascarilla de reservorio; ingurgitación yugular, tráquea desviada a la izquierda, hemitórax derecho hiperresonante y sin murmullo vesicular, con sibilancias en el lado izquierdo. ¿Qué complicación explica este deterioro brusco del paciente?",
+   "opciones": [
+    "Neumotórax a tensión por ruptura alveolar",
+    "Tromboembolismo pulmonar agudo con shock",
+    "Atelectasia por tapón de moco bronquial",
+    "Anafilaxia por hipersensibilidad a los fármacos",
+    "Paro respiratorio inminente por fatiga muscular"
+   ],
+   "clave": 1,
+   "especialidad": "Neumología",
+   "tema": "Crisis grave · complicaciones agudas",
+   "diagnostico": "Neumotórax a tensión como complicación de crisis grave",
+   "tipo": "complicacion",
+   "dificultad": "muy alta",
+   "razonamiento": "Paso 1: dolor torácico súbito, hipotensión, yugulares ingurgitadas, tráquea desviada a la izquierda e hiperresonancia derecha sin murmullo. Paso 2: aire a presión en la pleura derecha durante una crisis grave con hiperinsuflación. Paso 3: es la complicación más grave de la crisis, por ruptura alveolar; requiere descompresión inmediata.",
+   "por_que_no": [
+    "",
+    "Puede dar hipotensión y yugulares llenas, pero no hiperresonancia unilateral ni desvío traqueal.",
+    "Es la complicación más frecuente, pero da matidez y desvío traqueal hacia el lado afectado, no hiperresonancia.",
+    "Cursaría con habones o angioedema y sibilancias bilaterales, sin hallazgos unilaterales.",
+    "Daría silencio bilateral, bradicardia y somnolencia; aquí el hallazgo es unilateral con tráquea desviada."
+   ],
+   "trampa": [
+    "",
+    "diferencial",
+    "diferencial",
+    "otro",
+    "otro-estadio"
+   ],
+   "perla": "Complicación más frecuente de la crisis: atelectasia; la más grave: neumotórax por ruptura alveolar.",
+   "fuente": {
+    "carpeta": "6.NEUMOLOGIA",
+    "archivo": "7. ASMA.pdf",
+    "seccion": "p. 1 · Pepas: complicaciones y RAM"
+   },
+   "gemela_de": null
+  }
+ ]
+}

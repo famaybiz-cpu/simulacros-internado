@@ -1,0 +1,1190 @@
+{
+ "id": "2026-10-22-banco-neumo-tep-htp",
+ "fecha": "2026-10-22",
+ "turno": "noche",
+ "titulo": "Banco · Tromboembolismo pulmonar e hipertensión pulmonar",
+ "segundos_por_pregunta": 60,
+ "temas_noche": [
+  "Tromboembolismo pulmonar e hipertensión pulmonar"
+ ],
+ "feedback_noche": "Aprueba quien calcula primero la probabilidad clínica y recién entonces elige el examen: dímero D solo con probabilidad baja o moderada (ajustado por edad en >50 años), angiotomografía directa si es alta, gammagrafía V/Q si el contraste está contraindicado y eco a la cabecera si el paciente está inestable. Se suele fallar al trombolizar sin hipotensión, al olvidar el puente de heparina con warfarina y, en HTP, al confundir el eco (tamizaje) con el cateterismo derecho (confirmación, PAPm ≥20 mmHg).",
+ "perlas_noche": [
+  "Wells <2 baja, 2–6 moderada, >6 alta: baja/moderada → dímero D; alta → anticoagular y angiotomografía.",
+  "Alto riesgo = PA <90/60 o trastorno del sensorio → heparina EV y alteplasa 100 mg en 2 h; si está contraindicada, embolectomía.",
+  "TFG <30 o diálisis → heparina no fraccionada (80 U/kg bolo + 18 U/kg/h, control con TTPa).",
+  "Duración: factor transitorio 3 meses; cáncer activo, recurrencia o trombofilia → indefinida.",
+  "HTP: PAPm ≥20 mmHg por cateterismo derecho; PCP ≤15 precapilar, >15 poscapilar (corazón izquierdo, la causa más frecuente)."
+ ],
+ "preguntas": [
+  {
+   "id": "2026-10-22-banco-neumo-tep-htp-001",
+   "enunciado": "Mujer de 36 años, usuaria de anticonceptivos orales combinados, consulta por dolor punzante en hemitórax izquierdo de 2 días que aumenta con la inspiración profunda, precedido de rinorrea y odinofagia. Niega hemoptisis, cirugías, inmovilización, viajes y episodios trombóticos previos; no tiene cáncer. PA 118/74 mmHg, FC 104 X', FR 20 X', T° 37,2 °C, SatO2 97 % (FiO2 0,21). Pantorrillas simétricas y no dolorosas. Murmullo vesicular conservado. Radiografía de tórax normal y EKG con taquicardia sinusal. El médico considera más probable una causa viral o musculoesquelética. ¿Cuál es el examen que corresponde solicitar a continuación?",
+   "opciones": [
+    "Dímero D cuantitativo en sangre",
+    "Angiografía pulmonar convencional",
+    "Gammagrafía de ventilación-perfusión",
+    "Angiotomografía de arterias pulmonares",
+    "Ecocardiograma transtorácico urgente"
+   ],
+   "clave": 1,
+   "especialidad": "Neumología",
+   "tema": "TEP · probabilidad clínica baja",
+   "diagnostico": "Sospecha de TEP con probabilidad clínica baja (1,5 puntos)",
+   "tipo": "prueba",
+   "dificultad": "media",
+   "razonamiento": "Paso 1: solo suma FC >100 (1,5 puntos); no hay signos en pantorrillas, hemoptisis, cáncer, cirugía ni antecedente trombótico, y otro diagnóstico es más probable. Paso 2: puntaje <2 = probabilidad clínica baja de TEP. Paso 3: con probabilidad baja o moderada se pide dímero D por su alto valor predictivo negativo; si es negativo descarta y evita radiación y contraste.",
+   "por_que_no": [
+    "",
+    "Es el estándar histórico e invasivo; se reserva para resultados discordantes, no como examen inicial.",
+    "Es la imagen alternativa con alergia al contraste, ERC o gestación; no es el primer paso con probabilidad baja.",
+    "Se reserva para probabilidad alta o dímero D positivo; aquí la probabilidad pretest es baja (1,5 puntos).",
+    "Sirve en el paciente inestable que no puede trasladarse; esta paciente está hemodinámicamente estable."
+   ],
+   "trampa": [
+    "",
+    "no-confirmatorio",
+    "otro-contexto",
+    "otro-estadio",
+    "otra-poblacion"
+   ],
+   "perla": "Probabilidad baja o moderada → dímero D primero; alta → directo a angiotomografía.",
+   "fuente": {
+    "carpeta": "6.NEUMOLOGIA",
+    "archivo": "20.TEP.pdf",
+    "seccion": "p. 1 · Diagnóstico: score de Wells y dímero D"
+   },
+   "gemela_de": null
+  },
+  {
+   "id": "2026-10-22-banco-neumo-tep-htp-002",
+   "enunciado": "Mujer de 35 años, sin comorbilidades, refiere 14 meses de disnea de esfuerzo progresiva y fatiga fácil. PA 108/68 mmHg, FC 92 X', FR 20 X', T° 36,6 °C, SatO2 94 % (FiO2 0,21). Segundo ruido pulmonar intenso, sin edema ni ingurgitación yugular. Espirometría y gammagrafía de ventilación-perfusión normales; ecocardiograma con ventrículo izquierdo normal. Cateterismo cardíaco derecho en reposo: presión arterial pulmonar media 23 mmHg y presión capilar pulmonar de enclavamiento 9 mmHg. ¿Cómo se interpretan estos hallazgos hemodinámicos?",
+   "opciones": [
+    "Hipertensión pulmonar precapilar",
+    "Presión pulmonar en el límite superior normal",
+    "Hipertensión pulmonar poscapilar",
+    "Hipertensión pulmonar mixta pre y poscapilar",
+    "Presión pulmonar normal: el umbral es 25 mmHg"
+   ],
+   "clave": 1,
+   "especialidad": "Neumología",
+   "tema": "HTP · definición hemodinámica",
+   "diagnostico": "Hipertensión pulmonar precapilar (PAPm 23, PCP 9)",
+   "tipo": "diagnostico",
+   "dificultad": "muy alta",
+   "razonamiento": "Paso 1: la PAPm normal es ~14 ± 3 mmHg con límite superior <20 mmHg; 23 mmHg en reposo por cateterismo derecho cumple el criterio (≥20 mmHg). Paso 2: la presión capilar de 9 mmHg (≤15) ubica el problema antes de los capilares, en las arterias pulmonares. Paso 3: es HTP precapilar; si la presión capilar fuera >15 mmHg sería poscapilar, por corazón izquierdo.",
+   "por_que_no": [
+    "",
+    "El límite superior normal es <20 mmHg (normal ~14 ± 3); 23 mmHg en reposo ya es patológico.",
+    "Requiere presión capilar >15 mmHg por enfermedad del corazón izquierdo; aquí la presión capilar es 9 mmHg.",
+    "Cualquier componente poscapilar exige presión capilar >15 mmHg, que esta paciente no tiene.",
+    "El criterio vigente del material es PAPm ≥20 mmHg; 25 mmHg es un umbral antiguo que ya no se usa."
+   ],
+   "trampa": [
+    "",
+    "otro",
+    "diferencial",
+    "mismo-grupo",
+    "umbral"
+   ],
+   "perla": "HTP: PAPm ≥20 mmHg por cateterismo derecho; PCP ≤15 precapilar, >15 poscapilar.",
+   "fuente": {
+    "carpeta": "6.NEUMOLOGIA",
+    "archivo": "16. HTP.pdf",
+    "seccion": "p. 1 · Definición y cateterismo: PCP pre/poscapilar"
+   },
+   "gemela_de": null
+  },
+  {
+   "id": "2026-10-22-banco-neumo-tep-htp-003",
+   "enunciado": "Mujer de 47 años, a los 16 días de una histerectomía abdominal por miomatosis, presenta disnea súbita y dolor pleurítico derecho. PA 124/80 mmHg, FC 118 X', FR 26 X', T° 37,3 °C, SatO2 90 % (FiO2 0,21). Pierna izquierda con edema hasta la rodilla, 3 cm más gruesa que la derecha y dolorosa a la palpación del trayecto venoso. Radiografía de tórax sin infiltrados; EKG con taquicardia sinusal. Ningún otro diagnóstico explica mejor el cuadro. Creatinina 0,7 mg/dl, sin alergias ni sangrado. ¿Cuál es la conducta inicial más adecuada?",
+   "opciones": [
+    "Pedir gammagrafía V/Q y anticoagular solo si es positiva",
+    "Administrar alteplasa 100 mg EV en 2 horas sin demora",
+    "Anticoagular con enoxaparina y pedir angiotomografía",
+    "Pedir dímero D y esperar su resultado para decidir",
+    "Colocar un filtro de vena cava inferior de inmediato"
+   ],
+   "clave": 3,
+   "especialidad": "Neumología",
+   "tema": "TEP · probabilidad alta: conducta inicial",
+   "diagnostico": "TEP con probabilidad clínica alta (9 puntos) en posoperada",
+   "tipo": "conducta",
+   "dificultad": "alta",
+   "razonamiento": "Paso 1: signos de trombosis en la pierna (3), otro diagnóstico menos probable (3), FC >100 (1,5) y cirugía en las últimas 4 semanas (1,5) = 9 puntos. Paso 2: probabilidad clínica alta, estable y con función renal normal. Paso 3: se anticoagula apenas se sospecha, sin esperar la imagen, y se va directo a la angiotomografía, examen de elección; el dímero D no sirve con probabilidad alta.",
+   "por_que_no": [
+    "La gammagrafía es para contraindicación al contraste, y la anticoagulación no espera a la imagen.",
+    "La trombólisis es para el inestable (PA <90/60 o trastorno del sensorio); ella está normotensa y lúcida.",
+    "",
+    "El dímero D sirve con probabilidad baja o moderada; con 9 puntos no excluye y solo retrasa el diagnóstico.",
+    "El filtro se indica cuando no se puede anticoagular; ella no tiene sangrado ni contraindicaciones."
+   ],
+   "trampa": [
+    "otro-contexto",
+    "otro-estadio",
+    "",
+    "otro-estadio",
+    "otro-contexto"
+   ],
+   "perla": "La anticoagulación empieza con la sospecha de TEP, no con la confirmación por imagen.",
+   "fuente": {
+    "carpeta": "6.NEUMOLOGIA",
+    "archivo": "20.TEP.pdf",
+    "seccion": "p. 1 · Tratamiento: se inicia anticoagulación apenas se sospecha"
+   },
+   "gemela_de": null
+  },
+  {
+   "id": "2026-10-22-banco-neumo-tep-htp-004",
+   "enunciado": "Varón de 55 años, taxista, con disnea súbita de 10 horas tras 2 semanas de reposo en cama por lumbalgia. PA 128/82 mmHg sostenida, FC 108 X', FR 24 X', T° 37 °C, SatO2 92 % (FiO2 0,21), sensorio conservado. Angiotomografía: defectos de llenado en ambas arterias lobares inferiores. Ecocardiograma: ventrículo derecho dilatado (relación VD/VI 1,2) con hipocinesia de la pared libre. Troponina I 0,09 ng/ml (normal <0,04) y BNP 620 pg/ml. ¿Cómo se estratifica el riesgo de este paciente?",
+   "opciones": [
+    "Bajo riesgo: taquicardia leve y SatO2 mayor de 90 %",
+    "Riesgo intermedio: disfunción del VD sin hipotensión",
+    "Alto riesgo: VD dilatado con troponina y BNP elevados",
+    "Bajo riesgo: presión arterial normal y sensorio lúcido",
+    "Alto riesgo: compromiso de dos arterias lobares"
+   ],
+   "clave": 2,
+   "especialidad": "Neumología",
+   "tema": "TEP · estratificación de riesgo",
+   "diagnostico": "TEP de riesgo intermedio (submasivo)",
+   "tipo": "severidad",
+   "dificultad": "alta",
+   "razonamiento": "Paso 1: normotenso y lúcido, sin shock. Paso 2: el ecocardiograma (VD/VI 1,2, hipocinesia) y la troponina y el BNP elevados muestran disfunción del VD. Paso 3: normotensión con disfunción del VD = riesgo intermedio (submasivo): se hospitaliza y anticoagula, y la trombólisis se considera según la evolución; el alto riesgo exige hipotensión sostenida o shock.",
+   "por_que_no": [
+    "La saturación y la frecuencia cardiaca no reemplazan la evaluación del VD por eco y biomarcadores.",
+    "",
+    "El alto riesgo (masivo) lo define la hipotensión sostenida o el shock, no los biomarcadores elevados.",
+    "Bajo riesgo exige normotensión sin disfunción del VD; aquí hay disfunción en el eco y en los biomarcadores.",
+    "La extensión anatómica no define el riesgo; lo definen la hemodinámica y la función del VD."
+   ],
+   "trampa": [
+    "otro",
+    "",
+    "umbral",
+    "otro-estadio",
+    "diferencial"
+   ],
+   "perla": "Alto = hipotensión o shock; intermedio = normotenso con VD disfuncionante; bajo = normotenso sin disfunción del VD.",
+   "fuente": {
+    "carpeta": "TARJETAS",
+    "archivo": "TEP_Tarjetas_ENAM_EsSalud.pdf",
+    "seccion": "Parte 2 · ⑤ Severidad y tratamiento"
+   },
+   "gemela_de": null
+  },
+  {
+   "id": "2026-10-22-banco-neumo-tep-htp-005",
+   "enunciado": "Mujer de 45 años anticoagulada con warfarina desde hace 4 meses por un episodio de disnea súbita con defectos segmentarios en la angiotomografía; sus controles de coagulación eran estables y en rango terapéutico. Hace 3 semanas inició en su centro de salud isoniazida, rifampicina, pirazinamida, etambutol y piridoxina por baciloscopía positiva. Hoy el control de coagulación está por debajo del rango y refiere dolor y edema en la pantorrilla derecha. PA 118/74 mmHg, FC 96 X', FR 18 X', SatO2 96 % (FiO2 0,21). ¿Cuál de estos fármacos explica el hallazgo de laboratorio?",
+   "opciones": [
+    "Piridoxina",
+    "Isoniazida",
+    "Pirazinamida",
+    "Rifampicina",
+    "Etambutol"
+   ],
+   "clave": 4,
+   "especialidad": "Neumología",
+   "tema": "TEP · anticoagulación oral: interacciones",
+   "diagnostico": "Pérdida de efecto de la warfarina por rifampicina con nueva TVP",
+   "tipo": "mecanismo",
+   "dificultad": "muy alta",
+   "razonamiento": "Paso 1: anticoagulación estable que cae bajo el rango tras iniciar el tratamiento antituberculoso, con nuevos signos de trombosis en la pierna. Paso 2: la warfarina se metaboliza por el citocromo P450; un inductor acelera su eliminación. Paso 3: la rifampicina es inductor y figura entre los fármacos que disminuyen el efecto de los anticoagulantes orales (con barbitúricos, estrógenos y griseofulvina); la isoniazida, inhibidor, lo aumentaría.",
+   "por_que_no": [
+    "Se da para prevenir la neuropatía por isoniazida; no modifica el efecto anticoagulante.",
+    "Es inhibidor del citocromo P450: tendería a aumentar el efecto de la warfarina, no a reducirlo.",
+    "Su toxicidad es hepática e hiperuricemia; no induce el metabolismo de la warfarina.",
+    "",
+    "Su efecto adverso clave es la neuritis óptica; no interfiere con la anticoagulación oral."
+   ],
+   "trampa": [
+    "diferencial",
+    "mismo-grupo",
+    "otro",
+    "",
+    "otro-contexto"
+   ],
+   "perla": "Bajan el efecto de la warfarina: barbitúricos, estrógenos, rifampicina y griseofulvina.",
+   "fuente": {
+    "carpeta": "6.NEUMOLOGIA",
+    "archivo": "20.TEP.pdf",
+    "seccion": "p. 1 · Pepas: fármacos que disminuyen el efecto de los anticoagulantes orales"
+   },
+   "gemela_de": null
+  },
+  {
+   "id": "2026-10-22-banco-neumo-tep-htp-006",
+   "enunciado": "Varón de 58 años, en el quinto día posoperatorio de una laparotomía por obstrucción intestinal, presenta bruscamente disnea intensa, sudoración fría y confusión. PA 74/42 mmHg pese a 500 ml de cristaloides, FC 136 X', FR 34 X', T° 36,8 °C, SatO2 82 % con máscara de reservorio. Ingurgitación yugular, pulmones limpios a la auscultación y pantorrilla derecha aumentada de volumen. El tomógrafo está en otro edificio y el equipo considera que el traslado no es seguro. ¿Qué examen permite decidir la conducta de inmediato?",
+   "opciones": [
+    "Dímero D cuantitativo urgente",
+    "Ecocardiograma transtorácico a la cabecera",
+    "Angiografía pulmonar convencional",
+    "Angiotomografía pulmonar con contraste",
+    "Gammagrafía de ventilación-perfusión"
+   ],
+   "clave": 2,
+   "especialidad": "Neumología",
+   "tema": "TEP · inestable: examen inicial",
+   "diagnostico": "TEP de alto riesgo no trasladable",
+   "tipo": "prueba",
+   "dificultad": "media",
+   "razonamiento": "Paso 1: posoperado con disnea súbita, hipotensión persistente, alteración del sensorio, ingurgitación yugular y pierna aumentada de volumen. Paso 2: sospecha de TEP de alto riesgo con shock obstructivo por falla del VD. Paso 3: en el inestable que no puede trasladarse, el ecocardiograma a la cabecera (VD dilatado e hipocinético) basta para decidir la trombólisis.",
+   "por_que_no": [
+    "Solo excluye con probabilidad baja o moderada; en shock no confirma ni cambia la conducta.",
+    "",
+    "Es invasiva y se reserva para discrepancias diagnósticas, no para el paciente en shock.",
+    "Es el examen de elección en el estable o trasladable; este paciente no puede ir al tomógrafo.",
+    "Es la alternativa por contraindicación al contraste; requiere traslado y tiempo que el paciente no tiene."
+   ],
+   "trampa": [
+    "no-confirmatorio",
+    "",
+    "otro-momento",
+    "otro-estadio",
+    "otro-contexto"
+   ],
+   "perla": "TEP de alto riesgo no trasladable → ecocardiograma de urgencia; el VD dilatado basta para tratar.",
+   "fuente": {
+    "carpeta": "6.NEUMOLOGIA",
+    "archivo": "Neumología -  Fundamentos teóricos_ENAM 2024.pdf",
+    "seccion": "p. 172 y 174 · Ecocardiograma; TEP de alto riesgo"
+   },
+   "gemela_de": null
+  },
+  {
+   "id": "2026-10-22-banco-neumo-tep-htp-007",
+   "enunciado": "Varón de 71 años con infarto de miocardio antiguo e hipertensión arterial, refiere ortopnea y disnea progresiva de 1 año. PA 138/84 mmHg, FC 96 X', FR 22 X', T° 36,5 °C, SatO2 95 % (FiO2 0,21). Crepitantes bibasales, tercer ruido y edema maleolar. Ecocardiograma: fracción de eyección del VI 30 % con aurícula izquierda dilatada. Cateterismo cardíaco derecho: presión arterial pulmonar media 34 mmHg y presión capilar pulmonar de enclavamiento 24 mmHg. ¿Cuál es el pilar del manejo de la elevación de la presión pulmonar?",
+   "opciones": [
+    "Gammagrafía V/Q para buscar trombos crónicos",
+    "Suspender diuréticos para mantener la precarga",
+    "Tratar la cardiopatía izquierda que la origina",
+    "Anticoagular de forma indefinida con warfarina",
+    "Oxígeno domiciliario continuo de inicio inmediato"
+   ],
+   "clave": 3,
+   "especialidad": "Neumología",
+   "tema": "HTP · poscapilar: manejo",
+   "diagnostico": "Hipertensión pulmonar poscapilar por cardiopatía izquierda",
+   "tipo": "conducta",
+   "dificultad": "alta",
+   "razonamiento": "Paso 1: cardiopatía isquémica con FEVI 30 %, ortopnea y crepitantes. Paso 2: PAPm 34 mmHg (≥20) con presión capilar 24 mmHg (>15): HTP poscapilar, cuyo origen es el corazón izquierdo, la causa más frecuente de HTP. Paso 3: el principio básico es tratar la causa subyacente, es decir, la cardiopatía izquierda; oxígeno solo si hay hipoxemia y anticoagulación según la etiología.",
+   "por_que_no": [
+    "La presión capilar >15 mmHg ya ubica el origen en el corazón izquierdo, no en trombos crónicos.",
+    "Los diuréticos sí se usan en la congestión y en la insuficiencia derecha; suspenderlos lo empeora.",
+    "",
+    "La anticoagulación se indica según la etiología, como en la causa tromboembólica crónica; no es el pilar aquí.",
+    "El oxígeno se indica si hay hipoxemia; su SatO2 es 95 % al aire ambiente."
+   ],
+   "trampa": [
+    "diferencial",
+    "otro",
+    "",
+    "otro-contexto",
+    "umbral"
+   ],
+   "perla": "Causa más frecuente de HTP: cardiopatía izquierda (poscapilar, PCP >15) → se trata el corazón izquierdo.",
+   "fuente": {
+    "carpeta": "6.NEUMOLOGIA",
+    "archivo": "16. HTP.pdf",
+    "seccion": "p. 1 · Etiología y tratamiento"
+   },
+   "gemela_de": null
+  },
+  {
+   "id": "2026-10-22-banco-neumo-tep-htp-008",
+   "enunciado": "Varón de 49 años, comerciante, llega al hospital de apoyo de una provincia altoandina tras un viaje de 22 horas en bus, con disnea súbita y lipotimia. PA 78/46 mmHg pese a cristaloides, FC 132 X', FR 30 X', T° 36,9 °C, SatO2 80 % con máscara de reservorio. Pierna izquierda edematosa y dolorosa. Ecocardiograma: ventrículo derecho dilatado e hipocinético. No tiene contraindicaciones para fibrinólisis. Ya recibe heparina EV, la referencia no es posible en las próximas horas y el único trombolítico disponible es la estreptoquinasa. ¿Cuál es el esquema correcto de este fármaco?",
+   "opciones": [
+    "250 000 U EV en 30 min y luego 100 000 U/h por 24 h",
+    "250 000 U EV en 30 min sin infusión de mantenimiento",
+    "80 U/kg EV en bolo y luego 18 U/kg/h en infusión",
+    "4400 U/kg EV en 10 min y luego 4400 U/kg/h por 12 h",
+    "100 mg EV en infusión continua durante 2 horas"
+   ],
+   "clave": 1,
+   "especialidad": "Neumología",
+   "tema": "TEP masivo · dosis del trombolítico",
+   "diagnostico": "TEP masivo tratado con estreptoquinasa",
+   "tipo": "dosis",
+   "dificultad": "muy alta",
+   "razonamiento": "Paso 1: viaje prolongado, pierna edematosa, disnea súbita e hipotensión persistente. Paso 2: el VD dilatado e hipocinético confirma un TEP masivo sin contraindicación para fibrinólisis. Paso 3: la estreptoquinasa se da como carga de 250 000 U EV en 30 minutos seguida de 100 000 U/h durante 24 horas; la alteplasa (100 mg en 2 h) y la uroquinasa tienen esquemas distintos.",
+   "por_que_no": [
+    "",
+    "La carga sola es incompleta: el esquema exige luego 100 000 U/h durante 24 horas.",
+    "Es la heparina no fraccionada, que anticoagula pero no lisa el trombo; ya se inició.",
+    "Es el esquema de uroquinasa, otro trombolítico del material, no el de estreptoquinasa.",
+    "Es la dosis de alteplasa, no de estreptoquinasa; sería correcta si se dispusiera de alteplasa."
+   ],
+   "trampa": [
+    "",
+    "umbral",
+    "otro-contexto",
+    "mismo-grupo",
+    "mismo-grupo"
+   ],
+   "perla": "Estreptoquinasa: 250 000 U en 30 min + 100 000 U/h × 24 h; alteplasa: 100 mg en 2 h.",
+   "fuente": {
+    "carpeta": "6.NEUMOLOGIA",
+    "archivo": "Neumología -  Fundamentos teóricos_ENAM 2024.pdf",
+    "seccion": "p. 179 · Paciente inestable: TEP masivo, trombolíticos"
+   },
+   "gemela_de": null
+  },
+  {
+   "id": "2026-10-22-banco-neumo-tep-htp-009",
+   "enunciado": "Varón de 33 años, futbolista aficionado, acude a control 3 meses después de un episodio de disnea súbita con defectos de llenado segmentarios en la angiotomografía, ocurrido a las 2 semanas de una fractura de tobillo inmovilizada con yeso. Recibe rivaroxabán 20 mg al día sin sangrado. Ya no usa yeso, camina y entrena con normalidad. No tiene antecedentes familiares de trombosis ni cáncer. PA 118/70 mmHg, FC 68 X', FR 16 X', SatO2 98 % (FiO2 0,21), pantorrillas simétricas. ¿Cuál es la conducta respecto a la anticoagulación?",
+   "opciones": [
+    "Suspenderla al haber completado los 3 meses",
+    "Prolongarla hasta 12 meses y luego suspender",
+    "Suspenderla y colocar filtro de vena cava",
+    "Mantenerla hasta que el dímero D sea negativo",
+    "Mantenerla de forma indefinida"
+   ],
+   "clave": 1,
+   "especialidad": "Neumología",
+   "tema": "TEP · duración de la anticoagulación",
+   "diagnostico": "TEP provocado por factor transitorio resuelto",
+   "tipo": "conducta",
+   "dificultad": "media",
+   "razonamiento": "Paso 1: el episodio ocurrió tras inmovilización con yeso por fractura: factor de riesgo transitorio. Paso 2: el factor ya desapareció y no hay cáncer, trombofilia ni recurrencia. Paso 3: con factor transitorio la anticoagulación dura como mínimo 3 meses y luego se suspende; la indefinida queda para recurrencia, cáncer activo o trombofilia.",
+   "por_que_no": [
+    "",
+    "Con un factor transitorio ya resuelto, extenderla a un año solo agrega riesgo de sangrado.",
+    "El filtro es para quien no puede anticoagularse, no una forma de cerrar el tratamiento.",
+    "El dímero D no guía la duración; la define el tipo de factor de riesgo, transitorio o persistente.",
+    "La duración indefinida se reserva para recurrencia, cáncer activo o trombofilia, que él no tiene."
+   ],
+   "trampa": [
+    "",
+    "umbral",
+    "otro-contexto",
+    "no-confirmatorio",
+    "otra-poblacion"
+   ],
+   "perla": "Factor transitorio → 3 meses; recurrente, cáncer activo o trombofilia → indefinida.",
+   "fuente": {
+    "carpeta": "TARJETAS",
+    "archivo": "TEP_Tarjetas_ENAM_EsSalud.pdf",
+    "seccion": "Parte 2 · ⑤ Tratamiento: duración"
+   },
+   "gemela_de": null
+  },
+  {
+   "id": "2026-10-22-banco-neumo-tep-htp-010",
+   "enunciado": "Mujer de 41 años, en el quinto día de puerperio tras una cesárea de emergencia, presenta disnea súbita y palpitaciones. PA 112/70 mmHg, FC 118 X', FR 26 X', T° 37,1 °C, SatO2 91 % (FiO2 0,21). Pulmones limpios; pantorrilla izquierda edematosa. EKG: ritmo sinusal a 118 X', onda S profunda en DI, onda Q y onda T negativa en DIII, y ondas T negativas de V1 a V3, sin elevación del ST. Troponina normal. ¿Qué refleja este patrón electrocardiográfico?",
+   "opciones": [
+    "Pericarditis aguda en fase inicial",
+    "Bloqueo completo de rama izquierda",
+    "Isquemia aguda de la cara inferior del ventrículo izquierdo",
+    "Hipertrofia crónica del ventrículo derecho",
+    "Sobrecarga aguda de presión del ventrículo derecho"
+   ],
+   "clave": 5,
+   "especialidad": "Neumología",
+   "tema": "TEP · electrocardiograma",
+   "diagnostico": "TEP en puérpera con patrón S1Q3T3",
+   "tipo": "mecanismo",
+   "dificultad": "media",
+   "razonamiento": "Paso 1: puérpera poscesárea con disnea súbita, taquicardia, hipoxemia y pierna edematosa. Paso 2: S profunda en DI, Q y T negativa en DIII (S1Q3T3) y T negativas en V1–V3 traducen sobrecarga aguda del VD por TEP. Paso 3: es un patrón típico pero raro (~10 %); el hallazgo más frecuente es la taquicardia sinusal, y su ausencia no descarta.",
+   "por_que_no": [
+    "La pericarditis da elevación difusa del ST, no el patrón S en DI con Q y T negativa en DIII.",
+    "El bloqueo asociado a la sobrecarga derecha es el de rama derecha, no el de rama izquierda.",
+    "La Q y la T negativa aisladas en DIII, sin elevación del ST ni troponina, no indican isquemia inferior.",
+    "Un cuadro súbito en una puérpera sin enfermedad previa refleja sobrecarga aguda, no remodelado crónico.",
+    ""
+   ],
+   "trampa": [
+    "diferencial",
+    "mismo-grupo",
+    "diferencial",
+    "otro-momento",
+    ""
+   ],
+   "perla": "EKG en TEP: lo más frecuente es taquicardia sinusal; S1Q3T3 es típico pero raro (~10 %).",
+   "fuente": {
+    "carpeta": "6.NEUMOLOGIA",
+    "archivo": "20.TEP.pdf",
+    "seccion": "p. 1 · Pepas: EKG típico, frecuencia de hallazgos"
+   },
+   "gemela_de": null
+  },
+  {
+   "id": "2026-10-22-banco-neumo-tep-htp-011",
+   "enunciado": "Mujer de 31 años, gestante de 29 semanas, presenta disnea de inicio súbito hace 6 horas y dolor torácico pleurítico izquierdo. PA 110/68 mmHg, FC 114 X', FR 26 X', T° 36,9 °C, SatO2 91 % (FiO2 0,21). Altura uterina acorde y latidos fetales 146 X'. Pantorrillas sin asimetría. Radiografía de tórax con protección abdominal: sin opacidades ni derrame. Dímero D 1850 ng/ml. Creatinina 0,6 mg/dl. Se inicia enoxaparina. ¿Cuál es el estudio de imagen más adecuado para confirmar la sospecha en esta paciente?",
+   "opciones": [
+    "Repetir el dímero D a las 24 horas para confirmar",
+    "Gammagrafía pulmonar de ventilación-perfusión",
+    "Ecocardiograma transtorácico a la cabecera",
+    "Angiotomografía de arterias pulmonares con contraste",
+    "Angiografía pulmonar convencional por catéter"
+   ],
+   "clave": 2,
+   "especialidad": "Neumología",
+   "tema": "TEP · gestante: imagen confirmatoria",
+   "diagnostico": "Sospecha de TEP en gestante de 29 semanas",
+   "tipo": "prueba",
+   "dificultad": "alta",
+   "razonamiento": "Paso 1: gestante con disnea súbita, dolor pleurítico, taquicardia e hipoxemia, estable y con radiografía normal. Paso 2: el dímero D elevado no confirma en el embarazo (sube fisiológicamente); hace falta imagen. Paso 3: el embarazo es una contraindicación al contraste en el material, que indica la gammagrafía V/Q como alternativa a la angiotomografía; además una radiografía normal favorece su interpretación.",
+   "por_que_no": [
+    "El dímero D sube fisiológicamente en la gestación y solo sirve para excluir, no para confirmar.",
+    "",
+    "Se usa en el inestable que no puede trasladarse; en la paciente estable no confirma la oclusión.",
+    "Es el examen de elección fuera del embarazo; en la gestante el material prefiere la gammagrafía (menos radiación, sin contraste).",
+    "Es el estándar histórico, invasivo y con complicaciones; se reserva para discrepancias entre estudios."
+   ],
+   "trampa": [
+    "otro-momento",
+    "",
+    "otro-contexto",
+    "otra-poblacion",
+    "no-confirmatorio"
+   ],
+   "perla": "Contraste contraindicado (ERC, alergia, gestación) → gammagrafía V/Q.",
+   "fuente": {
+    "carpeta": "TARJETAS",
+    "archivo": "TEP_Tarjetas_ENAM_EsSalud.pdf",
+    "seccion": "Parte 2 · ④ Algoritmo diagnóstico: estudios de imagen"
+   },
+   "gemela_de": null
+  },
+  {
+   "id": "2026-10-22-banco-neumo-tep-htp-012",
+   "enunciado": "Mujer de 54 años presentó hace 14 meses disnea súbita con defectos de llenado en arterias segmentarias bilaterales en la angiotomografía; recibió rivaroxabán por 3 meses. Desde hace 6 meses refiere disnea de esfuerzo progresiva y un síncope al subir una cuesta. PA 112/70 mmHg, FC 94 X', FR 22 X', T° 36,7 °C, SatO2 90 % (FiO2 0,21). Segundo ruido pulmonar intenso y edema maleolar. Ecocardiograma: ventrículo derecho dilatado, velocidad del jet tricuspídeo 3,7 m/s, ventrículo izquierdo normal. Espirometría normal. ¿Cuál es el examen de tamizaje para la causa más probable de su cuadro actual?",
+   "opciones": [
+    "Gammagrafía pulmonar de ventilación-perfusión",
+    "Dímero D cuantitativo",
+    "Ecografía Doppler venosa de miembros inferiores",
+    "Cateterismo cardíaco derecho",
+    "Angiotomografía de arterias pulmonares"
+   ],
+   "clave": 1,
+   "especialidad": "Neumología",
+   "tema": "HTP · causa tromboembólica crónica: tamizaje",
+   "diagnostico": "Hipertensión pulmonar tromboembólica crónica",
+   "tipo": "prueba",
+   "dificultad": "muy alta",
+   "razonamiento": "Paso 1: TEP hace 14 meses y ahora disnea progresiva, síncope de esfuerzo, P2 intenso y edema. Paso 2: VD dilatado y VIT >3,4 m/s con espirometría normal: presión pulmonar elevada por un TEP no resuelto (TEP crónico). Paso 3: la prueba de tamizaje del TEP crónico es la gammagrafía de ventilación-perfusión; la presión se confirma luego con cateterismo derecho.",
+   "por_que_no": [
+    "",
+    "Sirve para excluir un evento agudo con probabilidad baja, no para tamizar lesiones vasculares crónicas.",
+    "Busca trombos en las piernas, pero no evalúa la obstrucción crónica del lecho arterial pulmonar.",
+    "Confirma la presión pulmonar elevada, pero no es el tamizaje de su causa tromboembólica.",
+    "Es el examen de elección del evento agudo; para tamizar la forma crónica el material indica la gammagrafía V/Q."
+   ],
+   "trampa": [
+    "",
+    "no-confirmatorio",
+    "diferencial",
+    "otro-estadio",
+    "otro-momento"
+   ],
+   "perla": "TEP no resuelto → HTP tromboembólica crónica; se tamiza con gammagrafía V/Q.",
+   "fuente": {
+    "carpeta": "6.NEUMOLOGIA",
+    "archivo": "20.TEP.pdf",
+    "seccion": "p. 1 · Pepas: tromboembolismo crónico, prueba de tamizaje"
+   },
+   "gemela_de": null
+  },
+  {
+   "id": "2026-10-22-banco-neumo-tep-htp-013",
+   "enunciado": "Varón de 76 años, jubilado, con hipertensión arterial controlada, consulta por disnea leve y dolor torácico punzante derecho de 3 días tras un cuadro gripal. No ha tenido cirugías, viajes ni inmovilización; sin hemoptisis ni cáncer conocido. PA 136/82 mmHg, FC 96 X', FR 19 X', T° 37,6 °C, SatO2 94 % (FiO2 0,21). Miembros inferiores simétricos y no dolorosos. Radiografía de tórax sin opacidades. Se considera más probable un cuadro viral. Creatinina 0,9 mg/dl. Dímero D 640 ng/ml (punto de corte del laboratorio: 500 ng/ml). ¿Cuál es la conducta más adecuada con este resultado?",
+   "opciones": [
+    "Solicitar angiotomografía por superar los 500 ng/ml",
+    "Repetir el dímero D en 24 horas y luego decidir",
+    "Considerarlo negativo y buscar otra causa del cuadro",
+    "Solicitar gammagrafía de ventilación-perfusión",
+    "Iniciar enoxaparina y solicitar angiotomografía"
+   ],
+   "clave": 3,
+   "especialidad": "Neumología",
+   "tema": "TEP · dímero D ajustado por edad",
+   "diagnostico": "TEP descartado con dímero D bajo el corte ajustado por edad",
+   "tipo": "conducta",
+   "dificultad": "muy alta",
+   "razonamiento": "Paso 1: sin signos en piernas, taquicardia, cirugía, hemoptisis ni cáncer, y con otra causa más probable: probabilidad clínica baja. Paso 2: en mayores de 50 años el dímero D se ajusta por edad (76 × 10 = 760 ng/ml); 640 ng/ml está por debajo, es negativo. Paso 3: dímero D negativo con probabilidad baja descarta TEP; no se pide imagen y se busca otro diagnóstico.",
+   "por_que_no": [
+    "En mayores de 50 años el corte se ajusta a edad × 10 (760 ng/ml); el corte fijo aplica a menores de 50.",
+    "No hay motivo para repetirlo: un dímero D bajo el corte ajustado ya excluye con probabilidad baja.",
+    "",
+    "La gammagrafía es la alternativa de imagen si hay contraindicación al contraste; aquí no se requiere imagen.",
+    "Anticoagular e ir a la imagen corresponde a probabilidad alta o a dímero D positivo, no a este caso."
+   ],
+   "trampa": [
+    "umbral",
+    "otro-momento",
+    "",
+    "otro-contexto",
+    "otro-estadio"
+   ],
+   "perla": "Mayor de 50 años: corte del dímero D = edad × 10 ng/ml (76 años → 760).",
+   "fuente": {
+    "carpeta": "6.NEUMOLOGIA",
+    "archivo": "E25 - Villateca I - Neumología.pdf",
+    "seccion": "p. 39 · Algoritmo: dímero D en >50 años (edad × 10)"
+   },
+   "gemela_de": null
+  },
+  {
+   "id": "2026-10-22-banco-neumo-tep-htp-014",
+   "enunciado": "Varón de 72 años ingresa a emergencia con disnea súbita y PA 76/44 mmHg que no mejora con cristaloides ni con norepinefrina a dosis bajas; FC 134 X', FR 32 X', T° 36,6 °C, SatO2 81 % con máscara de reservorio. El ecocardiograma muestra el ventrículo derecho dilatado e hipocinético y se plantea fibrinólisis. En su historia figuran: hemorragia intracerebral hace 5 años, herniorrafia inguinal hace 7 semanas, úlcera duodenal en tratamiento, infarto cerebral isquémico hace 10 meses e hipertensión arterial crónica mal controlada. ¿Cuál de estos antecedentes contraindica de forma absoluta la fibrinólisis?",
+   "opciones": [
+    "Infarto cerebral isquémico hace 10 meses",
+    "Hipertensión arterial crónica mal controlada",
+    "Herniorrafia inguinal realizada hace 7 semanas",
+    "Hemorragia intracerebral hace 5 años",
+    "Úlcera duodenal activa en tratamiento"
+   ],
+   "clave": 4,
+   "especialidad": "Neumología",
+   "tema": "TEP masivo · contraindicaciones de la fibrinólisis",
+   "diagnostico": "TEP masivo candidato a fibrinólisis",
+   "tipo": "contraindicacion",
+   "dificultad": "alta",
+   "razonamiento": "Paso 1: hipotensión refractaria con VD dilatado e hipocinético: TEP masivo, candidato a trombólisis. Paso 2: son absolutas la hemorragia intracerebral previa, el ACV isquémico <3 meses, la cirugía o el trauma craneal reciente, el sangrado activo, la disección aórtica y la HTA severa no controlada. Paso 3: la hemorragia intracerebral previa es absoluta en cualquier momento; las demás del caso son relativas.",
+   "por_que_no": [
+    "El infarto cerebral es absoluto solo si ocurrió en los 3 meses previos; a los 10 meses es relativo.",
+    "La HTA crónica no controlada es relativa; la absoluta es la HTA severa no controlada en ese momento.",
+    "La cirugía mayor en los 3 meses previos es contraindicación relativa, no absoluta.",
+    "",
+    "La úlcera péptica activa es contraindicación relativa: obliga a sopesar el riesgo, no impide la fibrinólisis."
+   ],
+   "trampa": [
+    "umbral",
+    "diferencial",
+    "umbral",
+    "",
+    "mismo-grupo"
+   ],
+   "perla": "Hemorragia intracerebral previa: contraindicación absoluta de fibrinólisis sin importar cuándo ocurrió.",
+   "fuente": {
+    "carpeta": "6.NEUMOLOGIA",
+    "archivo": "Neumología -  Fundamentos teóricos_ENAM 2024.pdf",
+    "seccion": "p. 180-181 · Fibrinólisis: contraindicaciones absolutas y relativas"
+   },
+   "gemela_de": null
+  },
+  {
+   "id": "2026-10-22-banco-neumo-tep-htp-015",
+   "enunciado": "Mujer de 62 años, hipertensa, refiere 8 meses de disnea progresiva hasta los esfuerzos moderados, fatiga y edema maleolar vespertino; hace un mes tuvo un desvanecimiento al subir escaleras. PA 132/80 mmHg, FC 90 X', FR 20 X', T° 36,5 °C, SatO2 94 % (FiO2 0,21). Ingurgitación yugular leve, segundo ruido pulmonar intenso y hepatomegalia leve. Radiografía de tórax sin infiltrados. Hemoglobina y función tiroidea normales. ¿Cuál es el examen inicial más adecuado para estudiar este cuadro?",
+   "opciones": [
+    "Angiografía pulmonar por catéter",
+    "Cateterismo cardíaco derecho",
+    "Ecocardiograma transtorácico",
+    "Gammagrafía de ventilación-perfusión",
+    "Angiotomografía de arterias pulmonares"
+   ],
+   "clave": 3,
+   "especialidad": "Neumología",
+   "tema": "HTP · examen inicial",
+   "diagnostico": "Sospecha de hipertensión pulmonar",
+   "tipo": "prueba",
+   "dificultad": "media",
+   "razonamiento": "Paso 1: disnea progresiva, fatiga, síncope de esfuerzo, edema, ingurgitación y P2 intenso. Paso 2: el cuadro sugiere presión arterial pulmonar elevada con insuficiencia derecha. Paso 3: el examen de tamizaje inicial de HTP es el ecocardiograma transtorácico (velocidad del jet tricuspídeo >3,4 m/s, tamaño del VD, función del VI); el cateterismo derecho confirma después.",
+   "por_que_no": [
+    "Es invasiva y se reserva para discrepancias del evento agudo; no estima la presión pulmonar.",
+    "Confirma y mide la PAPm, pero se pide después de un eco que sugiera presión pulmonar elevada.",
+    "",
+    "Se usa para tamizar la causa tromboembólica crónica una vez sospechada la presión elevada.",
+    "Es el examen de elección del evento trombótico agudo, no el tamizaje de una disnea crónica."
+   ],
+   "trampa": [
+    "no-confirmatorio",
+    "otro-momento",
+    "",
+    "otro-contexto",
+    "diferencial"
+   ],
+   "perla": "Disnea progresiva + P2 intenso → primero ecocardiograma transtorácico; el cateterismo derecho confirma.",
+   "fuente": {
+    "carpeta": "6.NEUMOLOGIA",
+    "archivo": "16. HTP.pdf",
+    "seccion": "p. 1 · Diagnóstico: examen de tamizaje inicial"
+   },
+   "gemela_de": null
+  },
+  {
+   "id": "2026-10-22-banco-neumo-tep-htp-016",
+   "enunciado": "Varón de 39 años, programador, con disnea y dolor pleurítico izquierdo de 2 días, sin factor desencadenante claro. PA 130/80 mmHg, FC 96 X', FR 18 X', T° 36,8 °C, SatO2 96 % (FiO2 0,21). Angiotomografía: defecto de llenado en una arteria segmentaria de la língula; ventrículo derecho normal y troponina negativa. Creatinina 0,9 mg/dl (TFG 98 ml/min), sin sangrado ni hepatopatía. Rechaza las inyecciones subcutáneas y desea iniciar ese mismo día un anticoagulante oral sin heparina previa. ¿Cuál es el esquema más adecuado?",
+   "opciones": [
+    "Warfarina 5 mg al día desde el primer día",
+    "Edoxabán 60 mg al día desde el primer día",
+    "Rivaroxabán 20 mg al día desde el primer día y sin carga",
+    "Dabigatrán 150 mg c/12 h desde el primer día, sin heparina",
+    "Apixabán 10 mg c/12 h por 7 días, luego 5 mg c/12 h"
+   ],
+   "clave": 5,
+   "especialidad": "Neumología",
+   "tema": "TEP · anticoagulantes orales directos",
+   "diagnostico": "TEP de bajo riesgo tratado solo por vía oral",
+   "tipo": "tratamiento",
+   "dificultad": "muy alta",
+   "razonamiento": "Paso 1: estable, VD normal y troponina negativa: TEP segmentario de bajo riesgo. Paso 2: función renal normal y rechazo a las inyecciones: necesita un anticoagulante oral que no requiera heparina inicial, es decir, rivaroxabán o apixabán. Paso 3: apixabán se inicia con 10 mg c/12 h por 7 días y luego 5 mg c/12 h; rivaroxabán exige 15 mg c/12 h por 21 días antes de 20 mg al día.",
+   "por_que_no": [
+    "La warfarina requiere puente con heparina al inicio, que el paciente rechaza.",
+    "Edoxabán también va después de la heparina; no es la opción para iniciar sin inyecciones.",
+    "Rivaroxabán sí puede iniciarse solo, pero con 15 mg c/12 h por 21 días antes de pasar a 20 mg.",
+    "Dabigatrán requiere anticoagulación parenteral inicial; se usaría tras unos días de heparina.",
+    ""
+   ],
+   "trampa": [
+    "otro-momento",
+    "mismo-grupo",
+    "umbral",
+    "mismo-grupo",
+    ""
+   ],
+   "perla": "Sin heparina previa: apixabán 10 mg c/12 h × 7 d → 5 mg c/12 h; rivaroxabán 15 mg c/12 h × 21 d → 20 mg/d.",
+   "fuente": {
+    "carpeta": "6.NEUMOLOGIA",
+    "archivo": "Neumología -  Fundamentos teóricos_ENAM 2024.pdf",
+    "seccion": "p. 177-178 · Anticoagulación a largo plazo y NAOS"
+   },
+   "gemela_de": null
+  },
+  {
+   "id": "2026-10-22-banco-neumo-tep-htp-017",
+   "enunciado": "Varón de 67 años, a los 10 días de una prostatectomía radical, presenta dolor pleurítico derecho de 3 días, esputo con estrías de sangre y T° 37,8 °C. PA 128/76 mmHg, FC 104 X', FR 22 X', SatO2 93 % (FiO2 0,21). Matidez y disminución del murmullo vesicular en la base derecha. Radiografía: opacidad periférica triangular, de base pleural y vértice dirigido al hilio, en el lóbulo inferior derecho, con escaso derrame. La angiotomografía muestra un defecto de llenado en la arteria segmentaria que irriga esa zona. ¿Qué representa la opacidad radiográfica?",
+   "opciones": [
+    "Consolidación infecciosa sobreagregada",
+    "Atelectasia segmentaria por hipoventilación",
+    "Dilatación de la arteria pulmonar proximal",
+    "Oligohemia focal distal al vaso ocluido",
+    "Infarto pulmonar distal al vaso ocluido"
+   ],
+   "clave": 5,
+   "especialidad": "Neumología",
+   "tema": "TEP · radiografía de tórax",
+   "diagnostico": "Infarto pulmonar (joroba de Hampton)",
+   "tipo": "complicacion",
+   "dificultad": "alta",
+   "razonamiento": "Paso 1: posoperado con dolor pleurítico, hemoptisis leve y febrícula. Paso 2: la opacidad periférica en cuña, de base pleural, en el territorio de una arteria ocluida es la joroba de Hampton. Paso 3: representa un infarto pulmonar distal al trombo, complicación poco frecuente porque las arterias bronquiales mantienen circulación colateral.",
+   "por_que_no": [
+    "La cuña pleural en el territorio de la arteria ocluida, con hemoptisis y febrícula, es propia del infarto.",
+    "La atelectasia produce pérdida de volumen con desplazamiento de cisuras, no una cuña de base pleural.",
+    "Es el signo de Fleischner o Palla (arteria en salchicha) en el hilio, no una cuña periférica.",
+    "La oligohemia (signo de Westermark) es una zona hiperlúcida, no una opacidad en cuña.",
+    ""
+   ],
+   "trampa": [
+    "otro-contexto",
+    "diferencial",
+    "diferencial",
+    "mismo-grupo",
+    ""
+   ],
+   "perla": "Hampton = cuña pleural (infarto); Westermark = hiperlucidez (oligohemia); Fleischner/Palla = arteria en salchicha.",
+   "fuente": {
+    "carpeta": "6.NEUMOLOGIA",
+    "archivo": "20.TEP.pdf",
+    "seccion": "p. 1 · Radiografía: signos de Hampton, Westermark y Pall"
+   },
+   "gemela_de": null
+  },
+  {
+   "id": "2026-10-22-banco-neumo-tep-htp-018",
+   "enunciado": "Mujer de 66 años con enfermedad renal crónica en hemodiálisis trisemanal por nefropatía diabética, pesa 60 kg. Presenta disnea súbita y dolor pleurítico tras 5 días en cama por una celulitis de pierna. PA 132/78 mmHg, FC 106 X', FR 24 X', T° 37,2 °C, SatO2 91 % (FiO2 0,21). La gammagrafía de ventilación-perfusión muestra defectos de perfusión segmentarios con ventilación conservada. Ecocardiograma sin disfunción del ventrículo derecho. Plaquetas 210 000/mm³, sin sangrado. ¿Cuál es el esquema de anticoagulación inicial más adecuado?",
+   "opciones": [
+    "Heparina no fraccionada 18 U/kg en bolo y 80 U/kg/h, control con TTPa",
+    "Dabigatrán 150 mg cada 12 horas tras la heparina",
+    "Enoxaparina 60 mg SC cada 12 horas",
+    "Rivaroxabán 15 mg cada 12 horas por 21 días",
+    "Heparina no fraccionada 80 U/kg en bolo y 18 U/kg/h, con TTPa"
+   ],
+   "clave": 5,
+   "especialidad": "Neumología",
+   "tema": "TEP · anticoagulación en ERC terminal",
+   "diagnostico": "TEP estable en paciente en hemodiálisis",
+   "tipo": "dosis",
+   "dificultad": "alta",
+   "razonamiento": "Paso 1: estable, sin disfunción del VD, con defectos de perfusión y ventilación conservada: TEP confirmado. Paso 2: la hemodiálisis (TFG <30) contraindica enoxaparina, rivaroxabán y dabigatrán, que dependen del riñón. Paso 3: la heparina no fraccionada no se elimina por vía renal y se monitoriza con TTPa: bolo de 80 U/kg (4800 U) y luego 18 U/kg/h (1080 U/h).",
+   "por_que_no": [
+    "Invierte las cifras: el bolo es de 80 U/kg y la infusión de 18 U/kg/h.",
+    "También se contraindica con TFG <30 ml/min por su eliminación renal.",
+    "Es la dosis correcta con función renal conservada; está contraindicada con TFG <30 o en diálisis.",
+    "Está contraindicado con TFG <30 ml/min; sería válido con función renal normal.",
+    ""
+   ],
+   "trampa": [
+    "umbral",
+    "mismo-grupo",
+    "otra-poblacion",
+    "otra-poblacion",
+    ""
+   ],
+   "perla": "ERC terminal o diálisis → heparina no fraccionada (80 U/kg en bolo + 18 U/kg/h, control con TTPa).",
+   "fuente": {
+    "carpeta": "6.NEUMOLOGIA",
+    "archivo": "20.TEP.pdf",
+    "seccion": "p. 1 · Tratamiento: ventaja de HNF en ERC terminal"
+   },
+   "gemela_de": null
+  },
+  {
+   "id": "2026-10-22-banco-neumo-tep-htp-019",
+   "enunciado": "Varón de 34 años, comerciante natural de Cerro de Pasco (4300 msnm), vuelve a su ciudad tras 3 semanas de trabajo en Lima. A las 36 horas de llegar presenta disnea progresiva, tos seca, náuseas y vómitos. Sin cirugías, inmovilización ni antecedentes trombóticos; el viaje fue de 1 hora en avión y 4 horas en auto. PA 124/78 mmHg, FC 112 X', FR 28 X', T° 37,4 °C, SatO2 68 % (FiO2 0,21). Crepitantes bilaterales; pantorrillas simétricas. Radiografía: infiltrados algodonosos parcheados bilaterales. ¿Cuál es el diagnóstico más probable?",
+   "opciones": [
+    "Embolia pulmonar aguda de riesgo intermedio",
+    "Mal agudo de montaña sin compromiso pulmonar",
+    "Edema pulmonar de altura por reascenso",
+    "Mal de montaña crónico descompensado",
+    "Neumonía bilateral adquirida en la comunidad"
+   ],
+   "clave": 3,
+   "especialidad": "Neumología",
+   "tema": "TEP · diferencial en la altura",
+   "diagnostico": "Edema pulmonar de altura por reascenso (no TEP)",
+   "tipo": "diagnostico",
+   "dificultad": "alta",
+   "razonamiento": "Paso 1: residente de altura que bajó a la costa por semanas y reascendió a 4300 msnm; a las 36 horas, disnea, náuseas y vómitos con hipoxemia severa y crepitantes. Paso 2: no hay factor de Virchow ni signos en las piernas, y la radiografía muestra infiltrados parcheados bilaterales. Paso 3: es edema pulmonar de altura de reingreso, no TEP; mejora con descenso y oxígeno, no con anticoagulación.",
+   "por_que_no": [
+    "Requiere factor de Virchow e inicio súbito con radiografía normal u oligohemia; aquí no hay factor y hay infiltrados.",
+    "Daría cefalea y náuseas, pero no hipoxemia severa con crepitantes e infiltrados bilaterales.",
+    "",
+    "Es propio del residente con poliglobulia de larga evolución, no de un cuadro agudo tras el reascenso.",
+    "Cursaría con fiebre alta y consolidación; este cuadro aparece a las 36 horas del reascenso."
+   ],
+   "trampa": [
+    "diferencial",
+    "otro-estadio",
+    "",
+    "otro-momento",
+    "diferencial"
+   ],
+   "perla": "Reascenso tras días en la costa + infiltrados parcheados = edema de altura; súbito + Virchow + Rx normal = TEP.",
+   "fuente": {
+    "carpeta": "TARJETAS",
+    "archivo": "TEP_Tarjetas_ENAM_EsSalud.pdf",
+    "seccion": "Parte 2 · ⑥ Diferencial crítico en altura"
+   },
+   "gemela_de": null
+  },
+  {
+   "id": "2026-10-22-banco-neumo-tep-htp-020",
+   "enunciado": "Mujer de 52 años con yeso inguinopédico desde hace 2 semanas por fractura de tibia presenta disnea súbita y un episodio sincopal en casa. Al ingreso: PA 80/50 mmHg sostenida tras 500 ml de cristaloides, FC 128 X', FR 32 X', T° 36,7 °C, SatO2 84 % con máscara de reservorio, somnolienta. Ecocardiograma: ventrículo derecho dilatado e hipocinético con insuficiencia tricuspídea. No tiene sangrado, cirugías recientes, ACV ni hipertensión arterial. Ya recibe heparina no fraccionada EV. ¿Cuál es el tratamiento de elección a continuación?",
+   "opciones": [
+    "Rivaroxabán 15 mg VO cada 12 horas",
+    "Embolectomía quirúrgica de entrada",
+    "Enoxaparina 1 mg/kg SC cada 12 horas",
+    "Alteplasa 100 mg EV en 2 horas",
+    "Filtro de vena cava inferior"
+   ],
+   "clave": 4,
+   "especialidad": "Neumología",
+   "tema": "TEP masivo · reperfusión",
+   "diagnostico": "TEP masivo sin contraindicación para fibrinólisis",
+   "tipo": "tratamiento",
+   "dificultad": "media",
+   "razonamiento": "Paso 1: inmovilización, disnea súbita, síncope, PA <90/60 persistente y somnolencia. Paso 2: el VD dilatado e hipocinético confirma un TEP de alto riesgo (masivo). Paso 3: sin contraindicaciones, tras iniciar heparina EV corresponde la trombólisis sistémica: alteplasa 100 mg EV en 2 horas, con vasopresores y fluidoterapia limitada.",
+   "por_que_no": [
+    "Es un anticoagulante oral para el estable de bajo riesgo; no lisa el trombo en el shock.",
+    "Se reserva para contraindicación o falta de respuesta a la fibrinólisis; aquí no hay contraindicación.",
+    "Es la anticoagulación del paciente estable; con hipotensión sostenida no basta por sí sola.",
+    "",
+    "Se indica si no se puede anticoagular; ella sí puede y necesita reperfusión."
+   ],
+   "trampa": [
+    "otro-estadio",
+    "otro-momento",
+    "otro-estadio",
+    "",
+    "otro-contexto"
+   ],
+   "perla": "TEP masivo (PA <90/60 o trastorno del sensorio) → heparina EV y luego alteplasa 100 mg en 2 h.",
+   "fuente": {
+    "carpeta": "6.NEUMOLOGIA",
+    "archivo": "Neumología -  Fundamentos teóricos_ENAM 2024.pdf",
+    "seccion": "p. 179 · Paciente inestable: TEP masivo"
+   },
+   "gemela_de": null
+  },
+  {
+   "id": "2026-10-22-banco-neumo-tep-htp-021",
+   "enunciado": "Varón de 68 años, exfumador de 45 paquetes-año, con obstrucción crónica al flujo aéreo (VEF1/CVF posbroncodilatador 0,52), refiere aumento progresivo del edema de piernas y del perímetro abdominal en 3 meses. PA 126/78 mmHg, FC 98 X', FR 22 X', T° 36,6 °C, SatO2 84 % (FiO2 0,21) y PaO2 50 mmHg. Ingurgitación yugular, hepatomegalia dolorosa, edema con fóvea hasta las rodillas y P2 intenso. Ecocardiograma: ventrículo derecho dilatado, velocidad del jet tricuspídeo 3,8 m/s y ventrículo izquierdo normal. ¿Cuál es el manejo más adecuado de este cuadro?",
+   "opciones": [
+    "Anticoagulación oral indefinida con warfarina",
+    "Oxígeno suplementario crónico y diurético para el edema",
+    "Cateterismo derecho antes de iniciar cualquier medida",
+    "Oxígeno solo durante las exacerbaciones, sin diurético",
+    "Diurético solo, sin oxígeno, para no retener CO2"
+   ],
+   "clave": 2,
+   "especialidad": "Neumología",
+   "tema": "HTP · manejo general",
+   "diagnostico": "Hipertensión pulmonar por enfermedad pulmonar crónica con insuficiencia derecha",
+   "tipo": "tratamiento",
+   "dificultad": "alta",
+   "razonamiento": "Paso 1: obstrucción crónica al flujo aéreo, PaO2 50 mmHg, ingurgitación, hepatomegalia y edema: insuficiencia cardiaca derecha. Paso 2: VD dilatado y VIT >3,4 m/s: HTP de causa pulmonar con hipoxemia. Paso 3: se trata la causa, se da oxígeno porque hay hipoxemia y diuréticos para la insuficiencia derecha; la anticoagulación depende de la etiología.",
+   "por_que_no": [
+    "Se anticoagula según la etiología (causa tromboembólica crónica); aquí la causa es la enfermedad pulmonar.",
+    "",
+    "El cateterismo confirma, pero no debe retrasar el oxígeno y el diurético en un paciente hipoxémico y congestivo.",
+    "La hipoxemia es crónica y hay insuficiencia derecha: requiere oxígeno continuo y diurético.",
+    "La PaO2 de 50 mmHg es indicación de oxígeno; corregir la hipoxemia es central en la causa pulmonar."
+   ],
+   "trampa": [
+    "otro-contexto",
+    "",
+    "no-confirmatorio",
+    "otro-momento",
+    "otro"
+   ],
+   "perla": "Manejo general de HTP: tratar la causa, O2 si hay hipoxemia, diuréticos si hay IC derecha, anticoagular según etiología.",
+   "fuente": {
+    "carpeta": "6.NEUMOLOGIA",
+    "archivo": "16. HTP.pdf",
+    "seccion": "p. 1 · Tratamiento: manejo general"
+   },
+   "gemela_de": null
+  },
+  {
+   "id": "2026-10-22-banco-neumo-tep-htp-022",
+   "enunciado": "Varón de 70 años, hospitalizado por fractura de pelvis hace 6 días, presenta disnea súbita y dolor pleurítico. PA 122/74 mmHg, FC 110 X', FR 24 X', T° 37 °C, SatO2 91 % (FiO2 0,21). La angiotomografía confirma defectos de llenado en ramas segmentarias derechas y el ecocardiograma no muestra disfunción del ventrículo derecho. Desde ayer tiene melenas y hoy hematemesis; Hb 7,1 g/dl (previa 11,8) y la endoscopia muestra una úlcera gástrica con sangrado activo en chorro. ¿Cuál es la conducta más adecuada para prevenir nuevos émbolos?",
+   "opciones": [
+    "Enoxaparina 1 mg/kg SC cada 12 horas",
+    "Alteplasa 100 mg EV en 2 horas",
+    "Embolectomía quirúrgica de urgencia",
+    "Heparina no fraccionada con TTPa estrecho",
+    "Filtro en la vena cava inferior"
+   ],
+   "clave": 5,
+   "especialidad": "Neumología",
+   "tema": "TEP · imposibilidad de anticoagular",
+   "diagnostico": "TEP moderado con hemorragia digestiva activa",
+   "tipo": "conducta",
+   "dificultad": "alta",
+   "razonamiento": "Paso 1: TEP confirmado, normotenso y sin disfunción del VD (moderado). Paso 2: hemorragia digestiva activa con caída de la hemoglobina: contraindicación para anticoagular y para la fibrinólisis. Paso 3: cuando el TEP es moderado y no se puede anticoagular, se coloca un filtro de vena cava inferior para evitar nuevos émbolos desde las piernas.",
+   "por_que_no": [
+    "Es la anticoagulación del estable sin sangrado; el sangrado activo la contraindica.",
+    "Es para el inestable sin contraindicaciones; el sangrado activo es contraindicación absoluta.",
+    "Se reserva para el inestable con contraindicación o falla de la fibrinólisis; él está estable.",
+    "Su vida media corta no elimina el riesgo: el sangrado activo contraindica toda anticoagulación.",
+    ""
+   ],
+   "trampa": [
+    "otro-estadio",
+    "otra-poblacion",
+    "otro-contexto",
+    "mismo-grupo",
+    ""
+   ],
+   "perla": "TEP que no se puede anticoagular → filtro de vena cava inferior.",
+   "fuente": {
+    "carpeta": "6.NEUMOLOGIA",
+    "archivo": "20.TEP.pdf",
+    "seccion": "p. 1 · Pepas: TEP moderado sin posibilidad de anticoagular"
+   },
+   "gemela_de": null
+  },
+  {
+   "id": "2026-10-22-banco-neumo-tep-htp-023",
+   "enunciado": "Varón de 61 años con cáncer de colon en quimioterapia, operado de hemicolectomía hace 3 semanas, consulta por 4 días de tos con expectoración purulenta, fiebre y esputo con estrías de sangre. PA 112/70 mmHg, FC 112 X', FR 24 X', T° 38,6 °C, SatO2 92 % (FiO2 0,21). Crepitantes y soplo tubárico en la base derecha; pantorrillas simétricas y no dolorosas. Radiografía: consolidación basal derecha con broncograma aéreo, por lo que la infección se considera la causa más probable. Sin antecedente trombótico. ¿Qué puntaje obtiene en la escala de probabilidad clínica pretest de oclusión embólica arterial pulmonar y cómo se clasifica?",
+   "opciones": [
+    "3,5 puntos: probabilidad clínica moderada",
+    "1,5 puntos: probabilidad clínica baja",
+    "8 puntos: probabilidad clínica alta",
+    "5 puntos: probabilidad clínica moderada",
+    "4 puntos: probabilidad clínica moderada"
+   ],
+   "clave": 4,
+   "especialidad": "Neumología",
+   "tema": "TEP · cálculo de la probabilidad clínica",
+   "diagnostico": "Probabilidad clínica moderada (5 puntos) con neumonía como alternativa",
+   "tipo": "severidad",
+   "dificultad": "muy alta",
+   "razonamiento": "Paso 1: cáncer activo (1), cirugía en las últimas 4 semanas (1,5), hemoptisis (1) y FC >100 (1,5); sin signos de trombosis en las piernas ni antecedente trombótico. Paso 2: la consolidación febril hace más probable otro diagnóstico, así que no suma los 3 puntos. Paso 3: total 5 puntos = probabilidad moderada (2–6), que se estudia con dímero D.",
+   "por_que_no": [
+    "Omite la cirugía de hace 3 semanas, que suma 1,5 puntos igual que la FC >100.",
+    "Contaría solo la taquicardia; el cáncer, la cirugía y la hemoptisis también suman.",
+    "Sumaría 8 solo si otro diagnóstico fuera menos probable (3 puntos); aquí la consolidación febril es más probable.",
+    "",
+    "Omite la hemoptisis, que suma 1 punto aunque sean solo estrías de sangre."
+   ],
+   "trampa": [
+    "mismo-grupo",
+    "otro-estadio",
+    "umbral",
+    "",
+    "otro"
+   ],
+   "perla": "Wells: TVP 3, otro dx menos probable 3; FC >100, cirugía o TVP/TEP previo 1,5; hemoptisis y cáncer 1.",
+   "fuente": {
+    "carpeta": "6.NEUMOLOGIA",
+    "archivo": "20.TEP.pdf",
+    "seccion": "p. 1 · Score de Wells"
+   },
+   "gemela_de": null
+  },
+  {
+   "id": "2026-10-22-banco-neumo-tep-htp-024",
+   "enunciado": "Mujer de 30 años, sin cardiopatía previa, refiere 2 años de disnea de esfuerzo progresiva y fatiga. PA 104/66 mmHg, FC 96 X', FR 20 X', T° 36,5 °C, SatO2 93 % (FiO2 0,21). Segundo ruido pulmonar intenso y soplo diastólico decreciente, de alta frecuencia, en el segundo espacio intercostal izquierdo, que aumenta con la inspiración. Pulsos periféricos normales, sin chasquido de apertura. Cateterismo derecho: presión arterial pulmonar media 48 mmHg y presión capilar 8 mmHg; estudios de pulmón, tejido conectivo y gammagrafía normales. ¿Cuál es el origen del soplo diastólico?",
+   "opciones": [
+    "Estenosis mitral de origen reumático",
+    "Estenosis pulmonar valvular congénita",
+    "Insuficiencia aórtica por dilatación de la raíz",
+    "Insuficiencia pulmonar funcional",
+    "Insuficiencia tricuspídea funcional"
+   ],
+   "clave": 4,
+   "especialidad": "Neumología",
+   "tema": "HTP · examen físico",
+   "diagnostico": "Hipertensión arterial pulmonar idiopática con soplo de Graham-Steell",
+   "tipo": "mecanismo",
+   "dificultad": "alta",
+   "razonamiento": "Paso 1: PAPm 48 mmHg con presión capilar 8 mmHg y estudios negativos: HTP precapilar idiopática (forma primaria). Paso 2: el soplo diastólico decreciente en foco pulmonar con P2 intenso es el soplo de Graham-Steell. Paso 3: traduce insuficiencia pulmonar funcional por dilatación de la arteria pulmonar; la HTP es la causa más frecuente de insuficiencia tricuspídea y pulmonar funcionales.",
+   "por_que_no": [
+    "Daría chasquido de apertura y presión capilar >15 mmHg (poscapilar); aquí es 8 mmHg.",
+    "Produce soplo sistólico eyectivo y P2 disminuido, no P2 intenso con soplo diastólico.",
+    "Daría pulsos amplios y no aumentaría con la inspiración; los pulsos son normales.",
+    "",
+    "Es el soplo más común asociado, pero es holosistólico, no diastólico."
+   ],
+   "trampa": [
+    "diferencial",
+    "otro-contexto",
+    "diferencial",
+    "",
+    "mismo-grupo"
+   ],
+   "perla": "Graham-Steell = insuficiencia pulmonar funcional (diastólico); el soplo más común en HTP es la insuficiencia tricuspídea.",
+   "fuente": {
+    "carpeta": "6.NEUMOLOGIA",
+    "archivo": "16. HTP.pdf",
+    "seccion": "p. 1 · Examen físico: P2 intenso y soplo de Graham-Steell"
+   },
+   "gemela_de": null
+  },
+  {
+   "id": "2026-10-22-banco-neumo-tep-htp-025",
+   "enunciado": "Mujer de 63 años, operada de un meningioma por craneotomía hace 4 semanas, presenta en sala disnea súbita y desvanecimiento. PA 82/48 mmHg pese a volumen y norepinefrina, FC 130 X', FR 30 X', T° 36,9 °C, SatO2 83 % con máscara de reservorio. Ecocardiograma: ventrículo derecho dilatado e hipocinético con un trombo móvil en la aurícula derecha. Recibe heparina no fraccionada EV desde hace 1 hora sin sangrado del lecho quirúrgico. Hay cirujano cardiovascular disponible. ¿Cuál es la conducta de reperfusión más adecuada?",
+   "opciones": [
+    "Alteplasa 100 mg EV en infusión de 2 horas",
+    "Embolectomía quirúrgica o tromboaspiración por catéter",
+    "Cambiar a enoxaparina SC y vigilar en sala",
+    "Estreptoquinasa 250 000 U en 30 min y luego infusión por 24 h",
+    "Filtro de vena cava inferior como única medida"
+   ],
+   "clave": 2,
+   "especialidad": "Neumología",
+   "tema": "TEP masivo · fibrinólisis contraindicada",
+   "diagnostico": "TEP masivo con craneotomía reciente",
+   "tipo": "conducta",
+   "dificultad": "muy alta",
+   "razonamiento": "Paso 1: disnea súbita, hipotensión pese a vasopresor y VD dilatado: TEP masivo de alto riesgo. Paso 2: la craneotomía hace 4 semanas es contraindicación absoluta para fibrinólisis (cirugía intracraneal <3 meses). Paso 3: si la trombólisis está contraindicada o falla, la reperfusión se hace por embolectomía quirúrgica o tromboaspiración, manteniendo heparina y soporte.",
+   "por_que_no": [
+    "Es la reperfusión de elección sin contraindicaciones; la craneotomía <3 meses la contraindica de forma absoluta.",
+    "",
+    "La heparina de bajo peso sola es para el estable; en shock persistente no basta.",
+    "Es otro fibrinolítico con la misma contraindicación absoluta por la cirugía intracraneal reciente.",
+    "El filtro es para quien no puede anticoagularse; ella tolera la heparina y necesita retirar el trombo."
+   ],
+   "trampa": [
+    "otra-poblacion",
+    "",
+    "otro-estadio",
+    "mismo-grupo",
+    "otro-contexto"
+   ],
+   "perla": "TEP masivo + contraindicación (o falla) de fibrinólisis → embolectomía o tromboaspiración.",
+   "fuente": {
+    "carpeta": "TARJETAS",
+    "archivo": "TEP_Tarjetas_ENAM_EsSalud.pdf",
+    "seccion": "Parte 2 · ⑤ Tratamiento: TEP masivo, embolectomía si hay contraindicación"
+   },
+   "gemela_de": null
+  },
+  {
+   "id": "2026-10-22-banco-neumo-tep-htp-026",
+   "enunciado": "Mujer de 26 años, fumadora y usuaria de anticonceptivos orales, presenta disnea súbita en Lima (nivel del mar) tras 12 horas de viaje en bus. PA 116/72 mmHg, FC 112 X', FR 30 X', T° 36,8 °C. Pulmones limpios a la auscultación. AGA con FiO2 0,21: pH 7,49; PaCO2 29 mmHg; PaO2 62 mmHg; HCO3 22 mEq/l; gradiente alvéolo-arterial de O2 50 mmHg. Radiografía de tórax sin opacidades. ¿Cuál es el mecanismo principal de la alteración gasométrica?",
+   "opciones": [
+    "Espacio muerto con desequilibrio V/Q e hiperventilación refleja",
+    "Hipoventilación alveolar global con gradiente alvéolo-arterial normal",
+    "Disminución de la fracción inspirada de oxígeno por altitud",
+    "Hiperventilación primaria por ansiedad sin defecto pulmonar",
+    "Trastorno de la difusión por engrosamiento intersticial"
+   ],
+   "clave": 1,
+   "especialidad": "Neumología",
+   "tema": "TEP · gases arteriales",
+   "diagnostico": "TEP con hipoxemia, hipocapnia y gradiente A-a aumentado",
+   "tipo": "mecanismo",
+   "dificultad": "alta",
+   "razonamiento": "Paso 1: pH 7,49 con PaCO2 29: hiperventilación aguda; PaO2 62 con gradiente A-a 50 mmHg: hipoxemia de causa pulmonar. Paso 2: disnea súbita con anticonceptivos, tabaco y viaje prolongado sugiere TEP. Paso 3: las zonas ventiladas no perfundidas (espacio muerto) alteran la relación V/Q e inducen hiperventilación refleja: hipoxemia, hipocapnia y gradiente A-a aumentado.",
+   "por_que_no": [
+    "",
+    "Cursaría con PaCO2 alta y gradiente normal; aquí la PaCO2 es baja y el gradiente está aumentado.",
+    "Está a nivel del mar; además, una FiO2 baja daría gradiente alvéolo-arterial normal.",
+    "La ansiedad no explica la hipoxemia ni el gradiente alvéolo-arterial aumentado.",
+    "Requiere enfermedad intersticial con infiltrados; la radiografía es normal y el inicio fue súbito."
+   ],
+   "trampa": [
+    "",
+    "diferencial",
+    "otro-contexto",
+    "otro",
+    "diferencial"
+   ],
+   "perla": "AGA típica del TEP: hipoxemia + hipocapnia + gradiente A-a aumentado.",
+   "fuente": {
+    "carpeta": "TARJETAS",
+    "archivo": "TEP_Tarjetas_ENAM_EsSalud.pdf",
+    "seccion": "Parte 1 · ① Fisiopatología: consecuencias gasométricas"
+   },
+   "gemela_de": null
+  },
+  {
+   "id": "2026-10-22-banco-neumo-tep-htp-027",
+   "enunciado": "Varón de 52 años con esclerosis sistémica de 6 años (fenómeno de Raynaud, esclerodactilia y telangiectasias) refiere disnea de esfuerzo progresiva de 8 meses. PA 118/74 mmHg, FC 88 X', FR 20 X', T° 36,4 °C, SatO2 93 % (FiO2 0,21). P2 intenso y soplo holosistólico en el borde paraesternal izquierdo bajo que aumenta con la inspiración. Ecocardiograma transtorácico: velocidad del jet de insuficiencia tricuspídea 3,9 m/s, ventrículo derecho dilatado y ventrículo izquierdo normal. ¿Qué examen confirma el compromiso sospechado?",
+   "opciones": [
+    "Ecocardiograma transtorácico de control",
+    "Dosaje de péptido natriurético tipo B",
+    "Angiotomografía de arterias pulmonares",
+    "Gammagrafía de ventilación-perfusión",
+    "Cateterismo cardíaco derecho"
+   ],
+   "clave": 5,
+   "especialidad": "Neumología",
+   "tema": "HTP · prueba confirmatoria",
+   "diagnostico": "Hipertensión pulmonar asociada a esclerosis sistémica",
+   "tipo": "prueba",
+   "dificultad": "alta",
+   "razonamiento": "Paso 1: enfermedad del tejido conectivo con disnea progresiva, P2 intenso y soplo de insuficiencia tricuspídea. Paso 2: el eco con VIT >3,4 m/s y VD dilatado sugiere HTP, pero solo es tamizaje. Paso 3: la confirmación exige cateterismo cardíaco derecho (PAPm ≥20 mmHg), que además mide la presión capilar para clasificarla en pre o poscapilar.",
+   "por_que_no": [
+    "El eco es el tamizaje y ya estimó presión elevada; no confirma el diagnóstico hemodinámico.",
+    "El BNP orienta sobre la disfunción del VD, pero no confirma ni clasifica la presión pulmonar.",
+    "Busca trombos agudos; no mide la presión pulmonar media ni la presión capilar.",
+    "Tamiza la causa tromboembólica crónica, pero no mide la presión arterial pulmonar.",
+    ""
+   ],
+   "trampa": [
+    "no-confirmatorio",
+    "otro",
+    "diferencial",
+    "otro-contexto",
+    ""
+   ],
+   "perla": "HTP: el eco transtorácico tamiza (VIT >3,4 m/s); el cateterismo derecho confirma.",
+   "fuente": {
+    "carpeta": "6.NEUMOLOGIA",
+    "archivo": "16. HTP.pdf",
+    "seccion": "p. 1 · Diagnóstico: prueba confirmatoria"
+   },
+   "gemela_de": null
+  },
+  {
+   "id": "2026-10-22-banco-neumo-tep-htp-028",
+   "enunciado": "Mujer de 44 años presenta disnea súbita de 1 día tras un viaje en bus de 16 horas. PA 122/76 mmHg, FC 98 X', FR 20 X', T° 36,8 °C, SatO2 95 % (FiO2 0,21). La angiotomografía muestra defectos de llenado segmentarios en el lóbulo inferior derecho; el ecocardiograma y la troponina son normales. Peso 70 kg, creatinina 0,8 mg/dl, sin sangrado ni alergias. Recibirá alta precoz y, por costo, el equipo decide usar warfarina como anticoagulante oral de largo plazo. ¿Cuál es el esquema inicial más adecuado?",
+   "opciones": [
+    "Enoxaparina 70 mg SC c/24 h superpuesta a warfarina",
+    "Warfarina sola por vía oral desde el primer día",
+    "Fondaparinux 5 mg SC al día superpuesto a warfarina",
+    "Enoxaparina 70 mg SC c/12 h superpuesta a warfarina",
+    "Alteplasa 100 mg EV en 2 h y luego warfarina oral"
+   ],
+   "clave": 4,
+   "especialidad": "Neumología",
+   "tema": "TEP · anticoagulación inicial con warfarina",
+   "diagnostico": "TEP de bajo riesgo con alta precoz",
+   "tipo": "tratamiento",
+   "dificultad": "alta",
+   "razonamiento": "Paso 1: normotensa, con eco y troponina normales: TEP confirmado de bajo riesgo, apto para alta precoz. Paso 2: con función renal normal, la anticoagulación inicial es enoxaparina 1 mg/kg SC cada 12 h (70 mg). Paso 3: la warfarina demora en alcanzar efecto, por eso se superpone a la heparina desde el inicio (puente); la duración habitual es de 3 a 6 meses.",
+   "por_que_no": [
+    "En el tratamiento la enoxaparina se da 1 mg/kg dos veces al día, no una vez al día.",
+    "La warfarina tarda días en anticoagular y requiere puente con heparina al inicio.",
+    "La dosis de 5 mg es para <50 kg; con 70 kg corresponde 7,5 mg al día.",
+    "",
+    "La trombólisis es para el inestable; ella es de bajo riesgo."
+   ],
+   "trampa": [
+    "umbral",
+    "otro-momento",
+    "umbral",
+    "",
+    "otro-estadio"
+   ],
+   "perla": "Warfarina con puente de heparina; rivaroxabán y apixabán pueden iniciarse solos desde el primer día.",
+   "fuente": {
+    "carpeta": "6.NEUMOLOGIA",
+    "archivo": "Neumología -  Fundamentos teóricos_ENAM 2024.pdf",
+    "seccion": "p. 176-177 · Paciente estable: anticoagulación inicial y a largo plazo"
+   },
+   "gemela_de": null
+  },
+  {
+   "id": "2026-10-22-banco-neumo-tep-htp-029",
+   "enunciado": "Mujer de 57 años, hospitalizada por disnea súbita con defectos segmentarios en la angiotomografía, recibe heparina no fraccionada EV desde hace 8 días. Plaquetas al ingreso 260 000/mm³; hoy 98 000/mm³. Desde ayer refiere dolor y aumento de volumen del brazo derecho, donde tiene una vía periférica; la ecografía muestra un trombo en la vena axilar. No hay sangrado. PA 124/76 mmHg, FC 92 X', FR 18 X', SatO2 95 % (FiO2 0,21). ¿Cuál es la conducta más adecuada?",
+   "opciones": [
+    "Suspender toda anticoagulación y transfundir plaquetas",
+    "Cambiar la heparina no fraccionada por enoxaparina a dosis plena",
+    "Suspender toda heparina e iniciar anticoagulante no heparínico",
+    "Mantener la heparina y repetir plaquetas en 48 horas",
+    "Colocar un filtro de vena cava y suspender la anticoagulación"
+   ],
+   "clave": 3,
+   "especialidad": "Neumología",
+   "tema": "TEP · complicaciones del tratamiento",
+   "diagnostico": "Trombocitopenia inducida por heparina con nueva trombosis",
+   "tipo": "complicacion",
+   "dificultad": "muy alta",
+   "razonamiento": "Paso 1: las plaquetas caen de 260 000 a 98 000 (>50 %) al día 8 de heparina, con nueva trombosis en el brazo. Paso 2: es trombocitopenia inducida por heparina, complicación protrombótica del tratamiento. Paso 3: se suspende de inmediato toda heparina, incluida la de bajo peso, y se cambia a un anticoagulante no heparínico.",
+   "por_que_no": [
+    "Esta plaquetopenia es protrombótica, no hemorrágica; sin anticoagulación progresa la trombosis.",
+    "La enoxaparina también es heparina y mantiene la reacción; se debe evitar toda heparina.",
+    "",
+    "Una caída >50 % entre los días 5 y 10, con nueva trombosis, exige retirar la heparina de inmediato.",
+    "El filtro es para contraindicación a anticoagular; aquí se puede anticoagular con un fármaco no heparínico."
+   ],
+   "trampa": [
+    "diferencial",
+    "mismo-grupo",
+    "",
+    "otro-momento",
+    "otro-contexto"
+   ],
+   "perla": "Plaquetas caen >50 % entre los días 5 y 10 de heparina → suspender toda heparina y pasar a anticoagulante no heparínico.",
+   "fuente": {
+    "carpeta": "TARJETAS",
+    "archivo": "TEP_Tarjetas_ENAM_EsSalud.pdf",
+    "seccion": "Parte 2 · ⑤ Complicaciones del tratamiento"
+   },
+   "gemela_de": null
+  },
+  {
+   "id": "2026-10-22-banco-neumo-tep-htp-030",
+   "enunciado": "Mujer de 58 años con cáncer de páncreas metastásico en quimioterapia paliativa presentó hace 2 semanas disnea súbita con defectos de llenado segmentarios bilaterales en la angiotomografía; quedó estable y recibe enoxaparina 1 mg/kg SC cada 12 h. Hoy acude a control: PA 116/72 mmHg, FC 88 X', FR 18 X', T° 36,7 °C, SatO2 95 % (FiO2 0,21). Creatinina 0,7 mg/dl, plaquetas 180 000/mm³, sin sangrado. Pregunta por cuánto tiempo deberá anticoagularse. ¿Cuál es la indicación más adecuada sobre la duración?",
+   "opciones": [
+    "Hasta que la angiotomografía de control sea normal",
+    "Indefinida, mientras el cáncer siga activo",
+    "Seis meses y luego suspender",
+    "Suspender y colocar filtro de vena cava inferior",
+    "Tres meses y luego suspender"
+   ],
+   "clave": 2,
+   "especialidad": "Neumología",
+   "tema": "TEP · cáncer activo",
+   "diagnostico": "TEP asociado a cáncer de páncreas activo",
+   "tipo": "tratamiento",
+   "dificultad": "alta",
+   "razonamiento": "Paso 1: TEP estable en una paciente con cáncer metastásico en quimioterapia. Paso 2: el cáncer activo es un factor de riesgo persistente, no transitorio. Paso 3: la anticoagulación se mantiene de forma indefinida mientras el cáncer siga activo; los 3 a 6 meses son para factores transitorios.",
+   "por_que_no": [
+    "La resolución en la imagen no define la duración; la define el factor de riesgo.",
+    "",
+    "Los 3–6 meses son la regla general; con cáncer activo el riesgo persiste y se prolonga.",
+    "El filtro es para quien no puede anticoagularse; ella la tolera sin sangrado.",
+    "Es la duración para un factor transitorio resuelto; el cáncer activo es un factor persistente."
+   ],
+   "trampa": [
+    "no-confirmatorio",
+    "",
+    "umbral",
+    "otro-contexto",
+    "otra-poblacion"
+   ],
+   "perla": "Cáncer activo: suma 1 punto en la probabilidad clínica y obliga a anticoagulación indefinida.",
+   "fuente": {
+    "carpeta": "TARJETAS",
+    "archivo": "TEP_Tarjetas_ENAM_EsSalud.pdf",
+    "seccion": "Parte 2 · ⑤ Tratamiento: duración"
+   },
+   "gemela_de": null
+  }
+ ]
+}

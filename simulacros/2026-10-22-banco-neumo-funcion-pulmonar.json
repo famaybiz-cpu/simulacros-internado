@@ -1,0 +1,1190 @@
+{
+ "id": "2026-10-22-banco-neumo-funcion-pulmonar",
+ "fecha": "2026-10-22",
+ "turno": "noche",
+ "titulo": "Banco · Fisiología respiratoria y pruebas funcionales",
+ "segundos_por_pregunta": 60,
+ "temas_noche": [
+  "Fisiología respiratoria y pruebas funcionales"
+ ],
+ "feedback_noche": "Aprueba quien interpreta números y no espera nombres: lee VEF1/CVF y CVF, sabe que la restricción se confirma con CPT en pletismografía y ubica la DLCO (baja en destrucción alveolar, membrana engrosada, lecho vascular reducido o anemia; alta en sangrado alveolar y poliglobulia). Se falla al confundir ventilación minuto con alveolar, el sentido de la curva de la hemoglobina y los ritmos respiratorios (periódico con apneas, atáxico, profundo y regular).",
+ "perlas_noche": [
+  "VEF1/CVF <0,70 → prueba broncodilatadora; ≥0,70 con CVF baja → confirmar CPT <80 % en pletismografía.",
+  "DLCO alta: sangrado alveolar, poliglobulia, IC temprana; baja: destrucción alveolar, fibrosis, lecho vascular reducido, anemia.",
+  "La PaCO2 sigue a la ventilación alveolar: (volumen corriente − 150 ml de espacio muerto) × FR.",
+  "Fiebre, acidez, CO2 y 2,3-DPG altos desvían la curva a la derecha: la hemoglobina suelta O2 en los tejidos.",
+  "Cíclica con apneas = IC o daño cerebral; caótica sin ciclo = tronco; profunda y regular = ácido metabólico."
+ ],
+ "preguntas": [
+  {
+   "id": "2026-10-22-banco-neumo-funcion-pulmonar-001",
+   "enunciado": "Varón de 46 años, con cifoescoliosis dorsal severa desde la infancia, consulta por disnea de esfuerzo progresiva de 1 año. No fuma. PA 122/78 mmHg, FC 88 X', FR 22 X', T° 36,8 °C, SatO2 94 % (FiO2 0,21). Tórax asimétrico con giba costal derecha; murmullo vesicular disminuido en forma global, sin crepitantes ni sibilancias. Espirometría: VEF1 58 % del predicho, CVF 55 %, VEF1/CVF 0,85; sin cambio significativo tras broncodilatador. ¿Cuál es el siguiente examen para confirmar la alteración ventilatoria que sugiere este resultado?",
+   "opciones": [
+    "Nueva espirometría con FEF 25-75 %",
+    "Prueba broncodilatadora con dosis repetida",
+    "Capacidad de difusión de monóxido (DLCO)",
+    "Pletismografía corporal para medir la CPT",
+    "Test de provocación bronquial con metacolina"
+   ],
+   "clave": 4,
+   "especialidad": "Neumología",
+   "tema": "Espirometría · confirmar defecto de llenado",
+   "diagnostico": "Patrón restrictivo por cifoescoliosis (sospecha espirométrica)",
+   "tipo": "conducta",
+   "dificultad": "media",
+   "razonamiento": "Paso 1: VEF1/CVF 0,85 (≥0,70) con CVF 55 % (<80 %) sugiere defecto de llenado pulmonar. Paso 2: la espirometría no mide el VR ni la CPT; la restricción se confirma solo con CPT <80 %, que exige pletismografía o dilución de helio. Paso 3: la deformidad torácica explica el patrón, pero debe confirmarse con volúmenes estáticos.",
+   "por_que_no": [
+    "El FEF 25-75 % detecta compromiso precoz de vía aérea pequeña en fumadores; no confirma la reducción de volúmenes estáticos.",
+    "La reversibilidad se evalúa cuando VEF1/CVF es menor de 0,70; con relación normal no confirma una CPT baja.",
+    "Evalúa la membrana alveolocapilar y orienta la causa, pero no mide la CPT; se pide para caracterizar daño del parénquima.",
+    "",
+    "Busca hiperrespuesta cuando la espirometría es normal y hay síntomas episódicos; aquí la CVF está baja con relación normal."
+   ],
+   "trampa": [
+    "no-confirmatorio",
+    "otro-estadio",
+    "no-confirmatorio",
+    "",
+    "otro-contexto"
+   ],
+   "perla": "Relación ≥0,70 con CVF baja solo sugiere restricción: se confirma con CPT <80 % en pletismografía.",
+   "fuente": {
+    "carpeta": "6.NEUMOLOGIA",
+    "archivo": "3. BASICS 3.pdf",
+    "seccion": "Espirometría: valores normales, patrones y contraindicaciones (p. 1)"
+   },
+   "gemela_de": null
+  },
+  {
+   "id": "2026-10-22-banco-neumo-funcion-pulmonar-002",
+   "enunciado": "Mujer de 61 años, no fumadora, con disnea de esfuerzo y tos seca de 10 meses. PA 130/80 mmHg, FC 92 X', FR 24 X', T° 36,6 °C, SatO2 92 % (FiO2 0,21). Acropaquia y crepitantes finos tipo «velcro» en ambas bases. TACAR: reticulación subpleural bibasal con imágenes en panal de abeja. Espirometría: VEF1 66 %, CVF 62 %, VEF1/CVF 0,87. Se programa pletismografía corporal. ¿Qué combinación de volúmenes estáticos es esperable en esta paciente?",
+   "opciones": [
+    "CPT aumentada con VR alto y CV reducida",
+    "CPT, CV, VR y CRF disminuidos",
+    "CPT disminuida con VR y CRF aumentados",
+    "CPT, CV y VR dentro de valores normales",
+    "VR y CRF aumentados con CPT normal o alta"
+   ],
+   "clave": 2,
+   "especialidad": "Neumología",
+   "tema": "Volúmenes estáticos en el pulmón rígido",
+   "diagnostico": "Patrón restrictivo parenquimatoso (fibrosis pulmonar)",
+   "tipo": "mecanismo",
+   "dificultad": "alta",
+   "razonamiento": "Paso 1: relación 0,87 con CVF 62 % y TACAR con panal de abeja indican pulmón rígido de baja distensibilidad. Paso 2: si el pulmón no se llena, disminuyen CPT, CV y VEF1, y también la CRF y el VR. Paso 3: lo opuesto (VR y CRF altos con CPT normal o alta) es el atrapamiento aéreo de la limitación al flujo espiratorio.",
+   "por_que_no": [
+    "Corresponde a la hiperinsuflación por destrucción alveolar del fumador; la fibrosis reduce todos los volúmenes.",
+    "",
+    "Sugiere coexistencia de atrapamiento y defecto de llenado (patrón mixto); sin limitación al flujo no hay causa de VR alto.",
+    "Sería el resultado si la CVF baja se debiera a mal esfuerzo; con TACAR fibrosante y CVF 62 % la CPT cae.",
+    "Es el atrapamiento aéreo de la limitación al flujo espiratorio; aquí la relación VEF1/CVF es normal y el pulmón es rígido."
+   ],
+   "trampa": [
+    "diferencial",
+    "",
+    "diferencial",
+    "umbral",
+    "otro-contexto"
+   ],
+   "perla": "Llenado difícil: todo baja (CPT, CV, VR, CRF); vaciado difícil: VR y CRF suben, CPT normal o alta.",
+   "fuente": {
+    "carpeta": "6.NEUMOLOGIA",
+    "archivo": "Neumología -  Fundamentos teóricos_ENAM 2024.pdf",
+    "seccion": "EPID · Espirometría y pletismografía (pág 103)"
+   },
+   "gemela_de": null
+  },
+  {
+   "id": "2026-10-22-banco-neumo-funcion-pulmonar-003",
+   "enunciado": "Estudiante de 19 años, mujer, refiere desde hace 6 meses episodios de tos seca nocturna, opresión torácica y silbido al respirar, desencadenados por el frío y el ejercicio, que ceden solos en horas. Tiene rinitis alérgica. Hoy asintomática: FC 76 X', FR 16 X', SatO2 99 % (FiO2 0,21), auscultación normal. Espirometría: VEF1 97 %, CVF 99 %, VEF1/CVF 0,83; tras salbutamol el VEF1 sube 40 ml (2 %). ¿Qué examen corresponde solicitar a continuación?",
+   "opciones": [
+    "Test de provocación bronquial con metacolina",
+    "Capacidad de difusión de monóxido (DLCO)",
+    "Esputo para espirales de Curschmann",
+    "Dosaje de IgE sérica total",
+    "Pletismografía corporal con medida de CPT"
+   ],
+   "clave": 1,
+   "especialidad": "Neumología",
+   "tema": "Síntomas episódicos con espirometría normal",
+   "diagnostico": "Asma con espirometría normal (sospecha de hiperreactividad)",
+   "tipo": "conducta",
+   "dificultad": "media",
+   "razonamiento": "Paso 1: síntomas episódicos con desencadenantes y espirometría normal sin respuesta broncodilatadora significativa. Paso 2: la normalidad entre episodios no descarta limitación variable del flujo; falta demostrar hiperrespuesta bronquial. Paso 3: el test de provocación bronquial es la prueba indicada cuando la sospecha persiste con espirometría normal.",
+   "por_que_no": [
+    "",
+    "Se pide ante disnea progresiva con crepitantes o sospecha vascular; no evalúa la variabilidad bronquial.",
+    "Es un hallazgo de laboratorio de apoyo en la crisis; no reemplaza la prueba funcional con espirometría basal normal.",
+    "Apoya el fenotipo atópico, pero no demuestra la hiperrespuesta bronquial que se busca con espirometría normal.",
+    "Confirma defecto de llenado cuando la CVF está baja con relación normal; aquí la CVF es 99 %."
+   ],
+   "trampa": [
+    "",
+    "diferencial",
+    "no-confirmatorio",
+    "no-confirmatorio",
+    "otro-contexto"
+   ],
+   "perla": "Clínica episódica + espirometría normal sin reversibilidad → test de provocación bronquial.",
+   "fuente": {
+    "carpeta": "6.NEUMOLOGIA",
+    "archivo": "Neumología -  Fundamentos teóricos_ENAM 2024.pdf",
+    "seccion": "Asma · Diagnóstico: test de reversibilidad y de provocación (pág 19)"
+   },
+   "gemela_de": null
+  },
+  {
+   "id": "2026-10-22-banco-neumo-funcion-pulmonar-004",
+   "enunciado": "Varón de 24 años, no fumador, con crisis de disnea sibilante desde la adolescencia, eccema en la infancia y eosinófilos de 650/µl. FC 84 X', FR 18 X', SatO2 97 % (FiO2 0,21); sibilantes espiratorios aislados. Espirometría basal: VEF1 68 %, CVF 92 %, VEF1/CVF 0,63; 15 minutos después de salbutamol el VEF1 aumenta 460 ml (27 %) y la relación sube a 0,78. Se completa el estudio con DLCO. ¿Qué resultado de DLCO es esperable en este paciente?",
+   "opciones": [
+    "Baja, por engrosamiento de la membrana alveolar",
+    "Baja, por menor hemoglobina que capta el CO",
+    "Normal o elevada, por flujo capilar conservado o mayor",
+    "Baja, por reducción del lecho vascular pulmonar",
+    "Baja, por destrucción de paredes alveolares"
+   ],
+   "clave": 3,
+   "especialidad": "Neumología",
+   "tema": "DLCO en la limitación reversible",
+   "diagnostico": "Asma bronquial (obstrucción reversible) con DLCO conservada",
+   "tipo": "prueba",
+   "dificultad": "alta",
+   "razonamiento": "Paso 1: relación 0,63 que se corrige a 0,78 con aumento de 460 ml (27 %), con atopia y eosinofilia, indica limitación al flujo reversible. Paso 2: en este cuadro la membrana alveolocapilar y el lecho vascular están indemnes. Paso 3: la DLCO es normal o incluso alta por mayor flujo capilar, a diferencia del fumador con destrucción alveolar, en quien cae.",
+   "por_que_no": [
+    "Corresponde a la fibrosis del parénquima con relación VEF1/CVF normal; este paciente tiene limitación reversible.",
+    "La anemia reduce la DLCO sin enfermedad pulmonar; en este paciente no se describe anemia.",
+    "",
+    "Se ve en obstrucción vascular o presión pulmonar elevada con espirometría normal; no explica sibilancias reversibles.",
+    "Es lo típico del fumador con limitación no reversible y pérdida de superficie alveolar; aquí el flujo se normaliza con broncodilatador."
+   ],
+   "trampa": [
+    "otro-contexto",
+    "otro-contexto",
+    "",
+    "diferencial",
+    "diferencial"
+   ],
+   "perla": "Limitación al flujo con DLCO normal o alta → joven atópico reversible; con DLCO baja → destrucción alveolar.",
+   "fuente": {
+    "carpeta": "_SISTEMA_BANCOS/fichas",
+    "archivo": "Neumología.md",
+    "seccion": "§XI Pruebas funcionales respiratorias · DLCO"
+   },
+   "gemela_de": null
+  },
+  {
+   "id": "2026-10-22-banco-neumo-funcion-pulmonar-005",
+   "enunciado": "Varón de 69 años, extrabajador de construcción, fumador de 55 paquetes-año, con disnea progresiva de 4 años, hoy al caminar 100 m. IMC 18 kg/m². PA 124/76 mmHg, FC 96 X', FR 24 X', SatO2 91 % (FiO2 0,21). Tórax en tonel, espiración prolongada con labios fruncidos y murmullo vesicular muy disminuido, sin crepitantes. Espirometría posbroncodilatador: VEF1 38 %, VEF1/CVF 0,44 (cambio de 30 ml). DLCO 34 % del predicho con Hb 15,1 g/dl. ¿Qué mecanismo explica el valor de DLCO?",
+   "opciones": [
+    "Menor masa de hemoglobina capilar que capta el CO",
+    "Broncoconstricción que impide la entrada del gas trazador",
+    "Reducción del lecho vascular por obstrucción arterial",
+    "Pérdida de superficie de intercambio por destrucción alveolar",
+    "Engrosamiento fibroso de la membrana alveolocapilar"
+   ],
+   "clave": 4,
+   "especialidad": "Neumología",
+   "tema": "DLCO baja en el fumador con hiperinsuflación",
+   "diagnostico": "EPOC fenotipo enfisema",
+   "tipo": "mecanismo",
+   "dificultad": "alta",
+   "razonamiento": "Paso 1: relación 0,44 sin respuesta broncodilatadora, tabaquismo intenso y tórax en tonel indican limitación al flujo no reversible con hiperinsuflación. Paso 2: la DLCO de 34 % con Hb normal señala pérdida de la interfaz alveolocapilar. Paso 3: la destrucción de las paredes alveolares reduce la superficie de intercambio, lo que no ocurre en la broncoconstricción reversible.",
+   "por_que_no": [
+    "Sería la causa en la anemia; con Hb de 15,1 g/dl la captación de CO por la hemoglobina está conservada.",
+    "La broncoconstricción reversible no reduce la DLCO, que puede ser normal o alta; aquí tampoco hay respuesta al broncodilatador.",
+    "Explica DLCO baja con espirometría normal en la obstrucción vascular pulmonar, no la limitación al flujo con tórax en tonel.",
+    "",
+    "Baja la DLCO en la fibrosis del parénquima, que cursa con relación VEF1/CVF normal y crepitantes; aquí hay hiperinsuflación."
+   ],
+   "trampa": [
+    "otro-contexto",
+    "otro",
+    "diferencial",
+    "",
+    "mismo-grupo"
+   ],
+   "perla": "Limitación al flujo + DLCO baja con Hb normal = destrucción alveolar del fumador.",
+   "fuente": {
+    "carpeta": "6.NEUMOLOGIA",
+    "archivo": "Neumología -  Fundamentos teóricos_ENAM 2024.pdf",
+    "seccion": "EPID · Test de difusión de CO (pág 104-105)"
+   },
+   "gemela_de": null
+  },
+  {
+   "id": "2026-10-22-banco-neumo-funcion-pulmonar-006",
+   "enunciado": "Mujer de 52 años con artritis reumatoide de 9 años en tratamiento, disnea de esfuerzo de 7 meses y tos seca. PA 118/74 mmHg, FC 90 X', FR 22 X', T° 36,7 °C, SatO2 93 % (FiO2 0,21). Crepitantes finos bibasales. TACAR: reticulación subpleural en bases. Espirometría: CVF 69 %, VEF1/CVF 0,86; pletismografía: CPT 71 %. DLCO 52 % del predicho, corregida por Hb de 13,6 g/dl. ¿Cómo se clasifica la alteración de la difusión en esta paciente?",
+   "opciones": [
+    "Deterioro leve de la difusión",
+    "Deterioro severo de la difusión",
+    "Deterioro moderado de la difusión",
+    "Difusión anormalmente elevada",
+    "Difusión dentro del rango normal"
+   ],
+   "clave": 3,
+   "especialidad": "Neumología",
+   "tema": "Gravedad de la alteración de la difusión",
+   "diagnostico": "EPID asociada a artritis reumatoide con DLCO moderadamente reducida",
+   "tipo": "severidad",
+   "dificultad": "media",
+   "razonamiento": "Paso 1: CVF baja con relación normal y CPT 71 % confirman defecto de llenado, con TACAR fibrosante en contexto reumatológico. Paso 2: la DLCO de 52 %, ya corregida por hemoglobina, refleja daño de la membrana alveolocapilar. Paso 3: según los rangos (normal 76–140 %, leve 61–75 %, moderado 41–60 %, severo <40 %), 52 % es deterioro moderado.",
+   "por_que_no": [
+    "Corresponde a una DLCO entre 61 y 75 %; la paciente tiene 52 %, por debajo de ese rango.",
+    "Se reserva para una DLCO menor de 40 %; con 52 % aún no alcanza ese grado.",
+    "",
+    "Se define por DLCO mayor de 140 %, como en el sangrado alveolar o la poliglobulia, no en la fibrosis.",
+    "El rango normal va de 76 a 140 %; un valor de 52 % está claramente por debajo."
+   ],
+   "trampa": [
+    "umbral",
+    "umbral",
+    "",
+    "otro-contexto",
+    "umbral"
+   ],
+   "perla": "DLCO: normal 76–140 %, leve 61–75 %, moderado 41–60 %, severo <40 %, anormalmente alta >140 %.",
+   "fuente": {
+    "carpeta": "6.NEUMOLOGIA",
+    "archivo": "Neumología -  Fundamentos teóricos_ENAM 2024.pdf",
+    "seccion": "EPID · Test de difusión de CO (pág 104-105)"
+   },
+   "gemela_de": null
+  },
+  {
+   "id": "2026-10-22-banco-neumo-funcion-pulmonar-007",
+   "enunciado": "Varón de 57 años, chofer, exfumador de 32 paquetes-año, con tos productiva matinal de 3 años y disnea al subir dos pisos. PA 136/84 mmHg, FC 82 X', FR 20 X', SatO2 93 % (FiO2 0,21). Espiración prolongada y roncantes dispersos. Primera espirometría (basal, sin medicación previa): VEF1 61 %, CVF 90 %, VEF1/CVF 0,59, con curvas técnicamente aceptables. ¿Cuál es el siguiente paso en el estudio funcional?",
+   "opciones": [
+    "Medición aislada del FEF 25-75 %",
+    "Repetir la espirometría tras salbutamol",
+    "Capacidad de difusión de monóxido (DLCO)",
+    "Test de provocación bronquial con metacolina",
+    "Pletismografía corporal para medir la CPT"
+   ],
+   "clave": 2,
+   "especialidad": "Neumología",
+   "tema": "Limitación al flujo · siguiente paso",
+   "diagnostico": "Limitación al flujo aéreo en exfumador (estudio de reversibilidad)",
+   "tipo": "conducta",
+   "dificultad": "alta",
+   "razonamiento": "Paso 1: VEF1/CVF 0,59 (<0,70) con CVF normal indica limitación al flujo espiratorio. Paso 2: ante este hallazgo hay que definir si es reversible: la reversibilidad orienta a enfermedad bronquial variable y la falta de respuesta, al daño crónico del fumador. Paso 3: el siguiente paso es la prueba posbroncodilatador; DLCO y volúmenes estáticos se piden después.",
+   "por_que_no": [
+    "Detecta compromiso precoz de vía pequeña cuando la relación es normal; aquí la limitación ya está establecida.",
+    "",
+    "Ayuda después a estimar destrucción alveolar en el fumador, pero primero debe definirse si la limitación es reversible.",
+    "Sirve cuando la espirometría es normal y se sospecha hiperrespuesta; con limitación ya demostrada no es el paso siguiente.",
+    "Confirma defecto de llenado cuando la CVF está baja con relación normal; aquí la CVF es 90 % y la relación está baja."
+   ],
+   "trampa": [
+    "no-confirmatorio",
+    "",
+    "otro-momento",
+    "otro-estadio",
+    "otro-contexto"
+   ],
+   "perla": "VEF1/CVF <0,70 → prueba broncodilatadora: reversible orienta a enfermedad variable; no reversible, al daño del fumador.",
+   "fuente": {
+    "carpeta": "6.NEUMOLOGIA",
+    "archivo": "Neumología -  Fundamentos teóricos_ENAM 2024.pdf",
+    "seccion": "Asma · Diagnóstico: test de reversibilidad y de provocación (pág 19)"
+   },
+   "gemela_de": null
+  },
+  {
+   "id": "2026-10-22-banco-neumo-funcion-pulmonar-008",
+   "enunciado": "Mujer de 31 años con hemoptisis de 3 días, disnea progresiva y orina oscura. PA 150/94 mmHg, FC 112 X', FR 28 X', T° 37,4 °C, SatO2 89 % (FiO2 0,21). Palidez y crepitantes bilaterales. Hb 12,8 g/dl hace 48 horas y hoy 9,0 g/dl; creatinina 2,4 mg/dl; examen de orina con hematíes dismórficos. Radiografía: opacidades alveolares bilaterales de predominio central. DLCO 156 % del predicho (sin corregir). ¿Qué condición explica mejor el valor de DLCO junto con el resto del cuadro?",
+   "opciones": [
+    "Embolia pulmonar con infarto",
+    "Fibrosis del parénquima",
+    "Poliglobulia secundaria",
+    "Sangrado alveolar difuso",
+    "Insuficiencia cardiaca temprana"
+   ],
+   "clave": 4,
+   "especialidad": "Neumología",
+   "tema": "DLCO elevada · causa",
+   "diagnostico": "Hemorragia alveolar difusa (síndrome pulmón-riñón)",
+   "tipo": "diagnostico",
+   "dificultad": "muy alta",
+   "razonamiento": "Paso 1: hemoptisis, caída de Hb de 12,8 a 9,0 g/dl, opacidades alveolares y hematuria dismórfica. Paso 2: la anemia debería bajar la DLCO; un valor de 156 % indica hemoglobina extravasada en los alveolos que capta el CO inhalado. Paso 3: entre las causas de DLCO alta (poliglobulia, insuficiencia cardiaca temprana, sangrado alveolar), solo el sangrado alveolar explica todo el cuadro.",
+   "por_que_no": [
+    "Puede dar hemoptisis, pero reduce la DLCO por obstrucción del lecho vascular pulmonar.",
+    "Reduce la DLCO por engrosamiento de la membrana; un valor de 156 % la descarta como causa.",
+    "Eleva la DLCO por mayor masa de hemoglobina, pero aquí la Hb cae de 12,8 a 9,0 g/dl.",
+    "",
+    "Puede elevar la DLCO por mayor volumen capilar, pero no explica hemoptisis, caída de Hb ni hematuria dismórfica."
+   ],
+   "trampa": [
+    "diferencial",
+    "otro-contexto",
+    "diferencial",
+    "",
+    "diferencial"
+   ],
+   "perla": "DLCO alta con Hb que cae = sangre dentro del alveolo («al monóxido le gusta la sangre»).",
+   "fuente": {
+    "carpeta": "6.NEUMOLOGIA",
+    "archivo": "2. BASICAS 2.pdf",
+    "seccion": "Fisiología: control de la respiración, volúmenes, DLCO, zonas del pulmón (p. 1)"
+   },
+   "gemela_de": null
+  },
+  {
+   "id": "2026-10-22-banco-neumo-funcion-pulmonar-009",
+   "enunciado": "Mujer de 39 años con menorragia de 8 meses refiere cansancio y disnea al subir escaleras. Nunca fumó. PA 108/66 mmHg, FC 104 X', FR 18 X', SatO2 98 % (FiO2 0,21). Palidez marcada y auscultación pulmonar normal. Hb 7,1 g/dl, VCM 68 fl. Espirometría y volúmenes pulmonares normales; TEM de tórax sin alteraciones; ecocardiograma con PSAP de 22 mmHg. DLCO 57 % del predicho (no corregida). ¿Cuál es la interpretación más adecuada de la DLCO?",
+   "opciones": [
+    "Descenso por destrucción de paredes alveolares",
+    "Descenso por menor hemoglobina capilar",
+    "Valor esperable por gasto cardiaco alto",
+    "Descenso por reducción del lecho vascular",
+    "Descenso por engrosamiento de la membrana"
+   ],
+   "clave": 2,
+   "especialidad": "Neumología",
+   "tema": "DLCO baja con pulmón normal",
+   "diagnostico": "Anemia ferropénica que reduce la DLCO",
+   "tipo": "prueba",
+   "dificultad": "alta",
+   "razonamiento": "Paso 1: anemia microcítica severa (Hb 7,1 g/dl) con espirometría, volúmenes, TEM y PSAP normales. Paso 2: la DLCO mide la captación de CO por la hemoglobina capilar; con menos hemoglobina el valor cae sin enfermedad pulmonar. Paso 3: antes de atribuir una DLCO baja al parénquima o a los vasos, se interpreta según la hemoglobina.",
+   "por_que_no": [
+    "Se ve en el fumador con limitación al flujo; aquí nunca fumó y la espirometría y la TEM son normales.",
+    "",
+    "El gasto cardiaco alto tiende a elevar la DLCO, no a bajarla; no explica un valor de 57 %.",
+    "Ocurre en la obstrucción vascular o con presión pulmonar alta; una PSAP de 22 mmHg es normal.",
+    "Lo produce la fibrosis del parénquima, que daría volúmenes bajos y alteraciones en la TEM."
+   ],
+   "trampa": [
+    "diferencial",
+    "",
+    "otro",
+    "diferencial",
+    "diferencial"
+   ],
+   "perla": "DLCO baja con pulmón normal: revisa la Hb; la anemia la baja y la poliglobulia la sube.",
+   "fuente": {
+    "carpeta": "6.NEUMOLOGIA",
+    "archivo": "2. BASICAS 2.pdf",
+    "seccion": "Fisiología: control de la respiración, volúmenes, DLCO, zonas del pulmón (p. 1)"
+   },
+   "gemela_de": null
+  },
+  {
+   "id": "2026-10-22-banco-neumo-funcion-pulmonar-010",
+   "enunciado": "Varón de 66 años, carpintero jubilado, con disnea de esfuerzo progresiva de 5 meses y tos seca. Exfumador de 8 paquetes-año. PA 128/80 mmHg, FC 86 X', FR 20 X', SatO2 95 % en reposo y 87 % tras caminar 3 minutos (FiO2 0,21). Crepitantes finos en ambas bases y acropaquia leve. Radiografía con dudoso aumento de trama basal. Espirometría: VEF1 86 %, CVF 83 %, VEF1/CVF 0,80. ¿Qué examen funcional corresponde solicitar ahora?",
+   "opciones": [
+    "Capacidad de difusión de monóxido (DLCO)",
+    "Pletismografía para cuantificar el VR",
+    "Medición del FEF 25-75 % en seis meses",
+    "Repetir la espirometría tras salbutamol",
+    "Test de provocación bronquial con metacolina"
+   ],
+   "clave": 1,
+   "especialidad": "Neumología",
+   "tema": "Espirometría normal con sospecha de daño de membrana",
+   "diagnostico": "EPID inicial con espirometría normal",
+   "tipo": "conducta",
+   "dificultad": "alta",
+   "razonamiento": "Paso 1: crepitantes finos, acropaquia y caída de SatO2 de 95 a 87 % al esfuerzo sugieren daño de la membrana alveolocapilar. Paso 2: una espirometría normal no lo descarta, porque en fases iniciales los volúmenes pueden conservarse. Paso 3: la DLCO evalúa la transferencia de gas a través de la membrana y es el examen funcional indicado.",
+   "por_que_no": [
+    "",
+    "Los volúmenes estáticos se piden si la CVF está baja; con CVF 83 % lo que falta evaluar es la difusión.",
+    "Detecta compromiso precoz de vía pequeña en fumadores; no evalúa el intercambio gaseoso que aquí está alterado.",
+    "La reversibilidad se evalúa con relación VEF1/CVF baja; aquí la relación es 0,80 y no hay limitación al flujo.",
+    "Se usa ante síntomas episódicos con espirometría normal; este paciente tiene disnea progresiva con crepitantes y desaturación."
+   ],
+   "trampa": [
+    "",
+    "otro-estadio",
+    "otro-momento",
+    "otro-contexto",
+    "diferencial"
+   ],
+   "perla": "Espirometría normal no descarta daño de membrana: crepitantes + desaturación al esfuerzo → DLCO.",
+   "fuente": {
+    "carpeta": "6.NEUMOLOGIA",
+    "archivo": "Neumología -  Fundamentos teóricos_ENAM 2024.pdf",
+    "seccion": "EPID · Test de difusión de CO (pág 104-105)"
+   },
+   "gemela_de": null
+  },
+  {
+   "id": "2026-10-22-banco-neumo-funcion-pulmonar-011",
+   "enunciado": "Varón de 34 años, fumador de 12 paquetes-año, acude a su examen médico ocupacional en una empresa minera. Está asintomático. PA 120/76 mmHg, FC 72 X', FR 14 X', SatO2 97 % (FiO2 0,21); auscultación normal. Espirometría: VEF1 93 %, CVF 96 %, VEF1/CVF 0,80, FEF 25-75 % de 51 % del predicho; sin respuesta significativa al broncodilatador. ¿Cuál es la interpretación correcta de esta espirometría?",
+   "opciones": [
+    "Compromiso precoz de la vía aérea pequeña",
+    "Limitación al flujo aéreo ya establecida",
+    "Defecto de llenado por menor distensibilidad",
+    "Hiperrespuesta bronquial demostrada",
+    "Espirometría normal sin hallazgos relevantes"
+   ],
+   "clave": 1,
+   "especialidad": "Neumología",
+   "tema": "FEF 25-75 % en el fumador",
+   "diagnostico": "Enfermedad precoz de vía aérea pequeña en fumador",
+   "tipo": "prueba",
+   "dificultad": "media",
+   "razonamiento": "Paso 1: VEF1, CVF y VEF1/CVF normales descartan limitación establecida y defecto de llenado. Paso 2: el FEF 25-75 % de 51 % refleja el flujo en las vías de pequeño calibre. Paso 3: es la primera medida espirométrica que se altera en fumadores e indica compromiso precoz de la vía aérea pequeña.",
+   "por_que_no": [
+    "",
+    "Requiere VEF1/CVF menor de 0,70; aquí la relación es 0,80, por lo que la alteración aún es precoz.",
+    "Implicaría CVF menor de 80 % con CPT baja; la CVF de este paciente es 96 %.",
+    "Solo se demuestra con test de provocación bronquial; un FEF 25-75 % bajo no la confirma.",
+    "VEF1, CVF y relación son normales, pero el FEF 25-75 % de 51 % es la primera alteración del fumador."
+   ],
+   "trampa": [
+    "",
+    "otro-estadio",
+    "diferencial",
+    "no-confirmatorio",
+    "umbral"
+   ],
+   "perla": "FEF 25-75 %: primera alteración del fumador; detecta daño de vía pequeña con relación aún normal.",
+   "fuente": {
+    "carpeta": "6.NEUMOLOGIA",
+    "archivo": "2. BASICAS 2.pdf",
+    "seccion": "Fisiología: control de la respiración, volúmenes, DLCO, zonas del pulmón (p. 1)"
+   },
+   "gemela_de": null
+  },
+  {
+   "id": "2026-10-22-banco-neumo-funcion-pulmonar-012",
+   "enunciado": "Varón de 63 años, hipertenso y fumador de 40 paquetes-año, hospitalizado por infarto de miocardio con elevación del ST anterior tratado con angioplastia hace 5 días. Hoy refiere disnea leve al caminar por el pasillo. PA 116/72 mmHg, FC 76 X', FR 18 X', SatO2 95 % (FiO2 0,21). Espiración levemente prolongada. El residente propone hacer hoy una espirometría forzada antes del alta para estudiar la disnea y el tabaquismo. ¿Cuál es la conducta adecuada respecto a esa espirometría?",
+   "opciones": [
+    "Diferirla hasta superar la fase aguda del infarto",
+    "Sustituirla por test de provocación bronquial",
+    "Realizarla hoy con monitoreo ECG continuo",
+    "Realizarla hoy con prueba broncodilatadora",
+    "Realizar solo la medición del FEF 25-75 %"
+   ],
+   "clave": 1,
+   "especialidad": "Neumología",
+   "tema": "Espirometría tras infarto reciente",
+   "diagnostico": "Contraindicación absoluta de espirometría (IMA reciente)",
+   "tipo": "conducta",
+   "dificultad": "media",
+   "razonamiento": "Paso 1: infarto con angioplastia hace 5 días, ahora estable. Paso 2: la espirometría forzada exige un esfuerzo espiratorio máximo y el infarto agudo es contraindicación absoluta, igual que la angina inestable. Paso 3: la prueba se difiere hasta superar la fase aguda; la indicación por tabaquismo y disnea se mantiene para después.",
+   "por_que_no": [
+    "",
+    "Es una prueba aún más exigente, tampoco indicada en la fase aguda, y no estudia la limitación fija del fumador.",
+    "El monitoreo no elimina la contraindicación absoluta del infarto reciente; la maniobra se pospone.",
+    "La prueba broncodilatadora es parte del estudio, pero el infarto reciente contraindica ahora la maniobra forzada.",
+    "El FEF 25-75 % se obtiene de la misma maniobra forzada, así que comparte la contraindicación."
+   ],
+   "trampa": [
+    "",
+    "otro",
+    "otro-contexto",
+    "otro-momento",
+    "mismo-grupo"
+   ],
+   "perla": "IMA reciente, angina inestable y desprendimiento de retina contraindican la espirometría: se difiere.",
+   "fuente": {
+    "carpeta": "6.NEUMOLOGIA",
+    "archivo": "3. BASICS 3.pdf",
+    "seccion": "Espirometría: valores normales, patrones y contraindicaciones (p. 1)"
+   },
+   "gemela_de": null
+  },
+  {
+   "id": "2026-10-22-banco-neumo-funcion-pulmonar-013",
+   "enunciado": "Mujer de 58 años, fumadora de 25 paquetes-año, en evaluación preoperatoria para colecistectomía electiva. Antecedentes: angina estable de esfuerzo controlada, hemoptisis leve hace 3 meses ya resuelta, neumotórax espontáneo hace 2 años y vitrectomía por desprendimiento de retina hace 9 días. PA 128/78 mmHg, FC 74 X', FR 16 X', T° 36,5 °C, SatO2 95 % (FiO2 0,21). Se solicitó espirometría para hoy. ¿Cuál de sus condiciones contraindica realizar hoy la espirometría?",
+   "opciones": [
+    "Tabaquismo activo de 25 paquetes-año",
+    "Neumotórax espontáneo de hace 2 años",
+    "Angina estable de esfuerzo controlada",
+    "Hemoptisis leve resuelta hace 3 meses",
+    "Desprendimiento de retina reciente"
+   ],
+   "clave": 5,
+   "especialidad": "Neumología",
+   "tema": "Contraindicaciones de la espirometría",
+   "diagnostico": "Desprendimiento de retina reciente como contraindicación",
+   "tipo": "contraindicacion",
+   "dificultad": "alta",
+   "razonamiento": "Paso 1: contraindicaciones absolutas de la espirometría: inestabilidad hemodinámica, TEP, neumotórax, hemoptisis aguda, infarto, angina inestable, hipertensión intracraneal y desprendimiento de retina. Paso 2: la cirugía de retina de hace 9 días es la única condición vigente; las demás son estables o pasadas. Paso 3: la espirometría se difiere.",
+   "por_que_no": [
+    "Es justamente una indicación para hacer la espirometría, no una contraindicación.",
+    "Contraindica el neumotórax actual; uno resuelto hace 2 años no es contraindicación.",
+    "La contraindicación absoluta es la angina inestable o el infarto reciente; la angina estable controlada no impide la prueba.",
+    "Contraindica la hemoptisis aguda; un episodio leve ya resuelto hace meses no impide la maniobra.",
+    ""
+   ],
+   "trampa": [
+    "otro",
+    "otro-momento",
+    "otro-estadio",
+    "otro-momento",
+    ""
+   ],
+   "perla": "Contraindican la espirometría lo agudo: IMA, angina inestable, HIC, retina, neumotórax, hemoptisis, TEP e inestabilidad.",
+   "fuente": {
+    "carpeta": "6.NEUMOLOGIA",
+    "archivo": "3. BASICS 3.pdf",
+    "seccion": "Espirometría: valores normales, patrones y contraindicaciones (p. 1)"
+   },
+   "gemela_de": null
+  },
+  {
+   "id": "2026-10-22-banco-neumo-funcion-pulmonar-014",
+   "enunciado": "Mujer de 67 años en el segundo día de una gastrectomía abierta, con dolor intenso al toser. Al llegar a piso respiraba con FR 14 X' y volumen corriente de 500 ml. Hoy: PA 138/84 mmHg, FC 108 X', FR 38 X', volumen corriente medido de 220 ml, T° 37,6 °C, SatO2 91 % (FiO2 0,28). La PaCO2 ascendió de 39 a 51 mmHg. Asuma un espacio muerto anatómico de 150 ml. ¿Qué explica el ascenso de la PaCO2 pese a que la ventilación minuto aumentó?",
+   "opciones": [
+    "Menor ventilación minuto por volumen corriente bajo",
+    "Menor ventilación alveolar por más espacio muerto",
+    "Engrosamiento de la membrana alveolocapilar",
+    "Perfusión de alveolos no ventilados (V/Q = 0)",
+    "Depresión del centro respiratorio del bulbo"
+   ],
+   "clave": 2,
+   "especialidad": "Neumología",
+   "tema": "Ventilación minuto vs alveolar",
+   "diagnostico": "Hipoventilación alveolar por respiración rápida y superficial posoperatoria",
+   "tipo": "mecanismo",
+   "dificultad": "muy alta",
+   "razonamiento": "Paso 1: ventilación minuto = VC × FR: subió de 7,0 a 8,4 l/min. Paso 2: ventilación alveolar = (VC − espacio muerto) × FR: cayó de (500 − 150) × 14 = 4,9 a (220 − 150) × 38 = 2,7 l/min. Paso 3: la PaCO2 refleja la ventilación alveolar; la respiración rápida y superficial por dolor la reduce aunque la ventilación minuto aumente.",
+   "por_que_no": [
+    "La ventilación minuto subió de 7,0 a 8,4 l/min (VC × FR); lo que cayó es la fracción que llega a los alveolos.",
+    "",
+    "Limita la difusión del O2 y empeora con el ejercicio; no explica el ascenso de la PaCO2 en este posoperatorio.",
+    "Produce hipoxemia que mejora poco con oxígeno, pero no explica la retención de CO2 con taquipnea.",
+    "Causaría bradipnea, como con opioides; aquí la FR es 38 X', con impulso respiratorio aumentado."
+   ],
+   "trampa": [
+    "umbral",
+    "",
+    "otro-contexto",
+    "diferencial",
+    "diferencial"
+   ],
+   "perla": "La PaCO2 sigue a la ventilación alveolar, no a la minuto: rápida y superficial = más espacio muerto.",
+   "fuente": {
+    "carpeta": "6.NEUMOLOGIA",
+    "archivo": "14. PRUEBAS FUNCIONALES.pdf",
+    "seccion": "Ventilación, control respiratorio y consecuencias de la hipoxemia (p. 1)"
+   },
+   "gemela_de": null
+  },
+  {
+   "id": "2026-10-22-banco-neumo-funcion-pulmonar-015",
+   "enunciado": "Varón de 72 años, fumador de 60 paquetes-año, con gasometrías ambulatorias estables con PaCO2 de 55–58 mmHg y HCO3 de 33 mEq/l. Durante el traslado por una infección bronquial recibe oxígeno por mascarilla con reservorio a 15 l/min. Al llegar está somnoliento: FR 9 X', FC 98 X', PA 142/86 mmHg, T° 37,8 °C, SatO2 99 %. AGA: pH 7,24, PaO2 165 mmHg, PaCO2 82 mmHg. ¿Qué mecanismo explica principalmente la depresión ventilatoria?",
+   "opciones": [
+    "Inhibición del centro neumotáxico de la protuberancia",
+    "Supresión del estímulo hipóxico de los cuerpos carotídeos",
+    "Supresión del estímulo del CO2 en quimiorreceptores centrales",
+    "Estimulación de quimiorreceptores aórticos por vía vagal",
+    "Fatiga diafragmática por lesión del nervio frénico"
+   ],
+   "clave": 2,
+   "especialidad": "Neumología",
+   "tema": "Control de la ventilación en el retenedor crónico",
+   "diagnostico": "EPOC hipercápnico con depresión ventilatoria por O2 a alto flujo",
+   "tipo": "mecanismo",
+   "dificultad": "muy alta",
+   "razonamiento": "Paso 1: retenedor crónico de CO2 (PaCO2 basal 55–58 con HCO3 33) que tras oxígeno a alto flujo presenta somnolencia, bradipnea y PaCO2 82 con PaO2 165. Paso 2: en la persona sana el principal estímulo es el CO2 a nivel central; en el retenedor crónico ese estímulo está atenuado y predomina la hipoxemia sensada por los cuerpos carotídeos (glosofaríngeo). Paso 3: al elevar en exceso la PaO2 se suprime ese estímulo y cae la ventilación.",
+   "por_que_no": [
+    "Ese centro regula frecuencia y patrón, pero el oxígeno no lo inhibe; el cambio está en el quimiorreceptor periférico.",
+    "",
+    "El CO2 es el principal estímulo en la persona sana; en el retenedor crónico ese estímulo está atenuado y manda la hipoxemia.",
+    "Los cuerpos aórticos también sensan hipoxemia vía vago, pero el oxígeno los apaga en vez de estimularlos.",
+    "Daría debilidad sin relación con el oxígeno; aquí la depresión aparece tras administrar FiO2 alta."
+   ],
+   "trampa": [
+    "mismo-grupo",
+    "",
+    "otra-poblacion",
+    "mismo-grupo",
+    "diferencial"
+   ],
+   "perla": "Retenedor crónico de CO2: respira por la hipoxemia sensada en los cuerpos carotídeos; el O2 en exceso la apaga.",
+   "fuente": {
+    "carpeta": "6.NEUMOLOGIA",
+    "archivo": "14. PRUEBAS FUNCIONALES.pdf",
+    "seccion": "Ventilación, control respiratorio y consecuencias de la hipoxemia (p. 1)"
+   },
+   "gemela_de": null
+  },
+  {
+   "id": "2026-10-22-banco-neumo-funcion-pulmonar-016",
+   "enunciado": "Mujer de 64 años de una zona rural de Piura, que cocinó con leña durante 45 años, con disnea crónica y PaO2 de 51 mmHg en reposo (FiO2 0,21) en controles previos. Consulta por aumento de volumen de piernas de 2 meses. PA 118/70 mmHg, FC 96 X', FR 22 X', SatO2 84 %. Ingurgitación yugular, segundo ruido pulmonar intenso, hepatomegalia dolorosa y edema con fóvea hasta rodillas; ecocardiograma con ventrículo derecho dilatado y FEVI de 62 %. ¿Cuál es el mecanismo inicial de esta complicación?",
+   "opciones": [
+    "Obstrucción trombótica de las arterias pulmonares",
+    "Vasodilatación pulmonar mediada por óxido nítrico",
+    "Vasoconstricción arterial pulmonar inducida por hipoxia",
+    "Retención renal de sodio como causa primaria",
+    "Disfunción sistólica primaria del ventrículo izquierdo"
+   ],
+   "clave": 3,
+   "especialidad": "Neumología",
+   "tema": "Consecuencia cardiaca de la hipoxemia crónica",
+   "diagnostico": "Cor pulmonale por hipoxemia crónica (exposición a biomasa)",
+   "tipo": "complicacion",
+   "dificultad": "alta",
+   "razonamiento": "Paso 1: hipoxemia crónica (PaO2 51 mmHg) por humo de leña, con ingurgitación yugular, P2 intenso, hepatomegalia y VD dilatado con FEVI normal. Paso 2: se deduce falla del ventrículo derecho secundaria a enfermedad pulmonar. Paso 3: la hipoxemia produce vasoconstricción de las arterias pulmonares, eleva la presión pulmonar y sobrecarga al ventrículo derecho.",
+   "por_que_no": [
+    "Eleva la presión pulmonar por oclusión vascular, pero aquí el contexto es hipoxemia crónica por humo de leña sin evento agudo.",
+    "El óxido nítrico es el vasodilatador pulmonar natural; reduciría la presión pulmonar en lugar de elevarla.",
+    "",
+    "La retención de sodio agrava el edema, pero es consecuencia de la falla derecha, no su mecanismo inicial.",
+    "Daría congestión pulmonar con FEVI baja; aquí la FEVI es 62 % y la sobrecarga es del ventrículo derecho."
+   ],
+   "trampa": [
+    "diferencial",
+    "mismo-grupo",
+    "",
+    "otro-momento",
+    "diferencial"
+   ],
+   "perla": "Hipoxemia crónica → vasoconstricción pulmonar → presión pulmonar alta → falla del ventrículo derecho.",
+   "fuente": {
+    "carpeta": "6.NEUMOLOGIA",
+    "archivo": "14. PRUEBAS FUNCIONALES.pdf",
+    "seccion": "Ventilación, control respiratorio y consecuencias de la hipoxemia (p. 1)"
+   },
+   "gemela_de": null
+  },
+  {
+   "id": "2026-10-22-banco-neumo-funcion-pulmonar-017",
+   "enunciado": "Varón de 19 años se lanzó de cabeza a una poza poco profunda. Llega consciente, con collarín y sin movilidad de las cuatro extremidades. PA 88/50 mmHg, FC 54 X', FR 32 X', T° 36,1 °C, SatO2 90 % (FiO2 0,50). Respiración superficial con hundimiento del abdomen en cada inspiración y uso visible de músculos del cuello. La resonancia muestra sección medular a nivel C3–C4. ¿La pérdida de qué estructura explica el compromiso ventilatorio principal de este paciente?",
+   "opciones": [
+    "Diafragma, por lesión de las raíces del frénico",
+    "Músculos abdominales de la espiración forzada",
+    "Cuerdas vocales, por lesión del laríngeo recurrente",
+    "Intercostales externos, por lesión de nervios intercostales",
+    "Esternocleidomastoideo y escalenos accesorios"
+   ],
+   "clave": 1,
+   "especialidad": "Neumología",
+   "tema": "Inervación de la musculatura respiratoria",
+   "diagnostico": "Lesión medular C3-C4 con parálisis diafragmática",
+   "tipo": "complicacion",
+   "dificultad": "alta",
+   "razonamiento": "Paso 1: tetraplejía por lesión C3–C4 con respiración superficial, movimiento paradójico del abdomen y uso de músculos del cuello. Paso 2: el nervio frénico nace de las raíces C3, C4 y C5 e inerva el diafragma, principal músculo de la inspiración. Paso 3: su compromiso causa la falla ventilatoria; los accesorios del cuello quedan como único apoyo.",
+   "por_que_no": [
+    "",
+    "Su pérdida limita la tos y la espiración forzada, pero no es el déficit inspiratorio principal.",
+    "El recurrente, rama del vago, se lesiona en la tiroidectomía y causa disfonía; no depende de C3–C5.",
+    "Son los principales inspiratorios torácicos y también se pierden, pero el diafragma es el músculo principal de la inspiración.",
+    "Son accesorios y aquí siguen actuando (uso visible de músculos del cuello); no explican la falla."
+   ],
+   "trampa": [
+    "",
+    "mismo-grupo",
+    "otro-contexto",
+    "mismo-grupo",
+    "mismo-grupo"
+   ],
+   "perla": "«C3, C4 y C5 mantienen vivo el diafragma»: lesión medular alta = falla del frénico.",
+   "fuente": {
+    "carpeta": "6.NEUMOLOGIA",
+    "archivo": "2. BASICAS 2.pdf",
+    "seccion": "Nervio frénico, músculos de la respiración e histología (p. 1)"
+   },
+   "gemela_de": null
+  },
+  {
+   "id": "2026-10-22-banco-neumo-funcion-pulmonar-018",
+   "enunciado": "Recién nacido varón de 27 semanas y 950 g, nacido por parto precipitado; la madre no recibió corticoide antenatal. A los 30 minutos presenta quejido espiratorio, aleteo nasal y retracciones subcostales. FC 168 X', FR 74 X', T° 36,2 °C, SatO2 84 % (FiO2 0,40). Murmullo vesicular disminuido en ambos campos. Radiografía: volúmenes pulmonares bajos con patrón granular fino difuso y broncograma aéreo. ¿Qué mecanismo explica el cuadro respiratorio de este paciente?",
+   "opciones": [
+    "Falta de células de Clara del bronquiolo terminal",
+    "Etapa alveolar inmadura con hiperplasia incompleta",
+    "Déficit de surfactante de neumocitos tipo II",
+    "Déficit de neumocitos tipo I del epitelio alveolar",
+    "Detención en la etapa pseudoglandular sin acinos"
+   ],
+   "clave": 3,
+   "especialidad": "Neumología",
+   "tema": "Surfactante y desarrollo pulmonar",
+   "diagnostico": "Enfermedad de membrana hialina del prematuro",
+   "tipo": "mecanismo",
+   "dificultad": "media",
+   "razonamiento": "Paso 1: prematuro de 27 semanas sin corticoide antenatal, con quejido, retracciones, volúmenes bajos y patrón granular. Paso 2: los neumocitos tipo II inician el surfactante a las 24 semanas, pero solo a las 32 hay cantidad suficiente para la vida extrauterina independiente. Paso 3: sin dipalmitoilfosfatidilcolina aumenta la tensión superficial y los alveolos colapsan en espiración.",
+   "por_que_no": [
+    "Las células de Clara producen surfactante bronquiolar, no el alveolar que evita el colapso en espiración.",
+    "La etapa alveolar empieza a las 36 semanas y sigue hasta los 8 años; no explica el colapso alveolar del prematuro.",
+    "",
+    "Los tipo I cubren más del 90 % de la superficie y no producen surfactante; el déficit es de secreción de los tipo II.",
+    "La etapa pseudoglandular termina hacia las 16 semanas; a las 27 semanas ya hay sacos terminales (etapa sacular)."
+   ],
+   "trampa": [
+    "mismo-grupo",
+    "otro-estadio",
+    "",
+    "mismo-grupo",
+    "otro-estadio"
+   ],
+   "perla": "Surfactante: 24 semanas empieza, 28 permite sobrevivir con apoyo, 32 es suficiente, 35–36 es óptimo.",
+   "fuente": {
+    "carpeta": "6.NEUMOLOGIA",
+    "archivo": "1. BASICAS.pdf",
+    "seccion": "Embriología: surfactante por semanas; secuestro pulmonar (p. 1)"
+   },
+   "gemela_de": null
+  },
+  {
+   "id": "2026-10-22-banco-neumo-funcion-pulmonar-019",
+   "enunciado": "Varón de 43 años, conductor de mototaxi, con tos productiva de 7 semanas, sudoración nocturna y pérdida de 6 kg. PA 112/70 mmHg, FC 98 X', FR 20 X', T° 38,1 °C, SatO2 95 % (FiO2 0,21). Estertores en la región infraclavicular derecha. Radiografía: cavidad de paredes gruesas en el segmento apical-posterior del lóbulo superior derecho, sin lesiones basales. ¿Qué característica fisiológica de esa región pulmonar favorece esta localización?",
+   "opciones": [
+    "Bronquio más vertical que favorece la aspiración",
+    "Mayor perfusión regional por efecto gravitacional",
+    "Mayor ventilación alveolar regional del pulmón",
+    "Relación V/Q más baja, con PACO2 alveolar mayor",
+    "Relación V/Q más alta del pulmón, con PAO2 mayor"
+   ],
+   "clave": 5,
+   "especialidad": "Neumología",
+   "tema": "Zonas del pulmón y relación V/Q",
+   "diagnostico": "Tuberculosis de reactivación apical",
+   "tipo": "mecanismo",
+   "dificultad": "muy alta",
+   "razonamiento": "Paso 1: tos crónica, fiebre, sudoración, baja de peso y cavidad apical posterior indican una infección crónica cavitada de reactivación. Paso 2: en el ápice (zona 1) ventilación y perfusión son menores que en las bases, pero la perfusión cae más, así que la V/Q y la PAO2 son las más altas. Paso 3: ese ambiente rico en oxígeno favorece al germen.",
+   "por_que_no": [
+    "Explica la aspiración hacia el pulmón derecho y los segmentos declives, no la preferencia por el ápice en la reactivación.",
+    "La mayor perfusión está en las bases (zona 3); en el ápice la perfusión es la más baja.",
+    "La ventilación también es mayor en las bases; lo que predomina en el ápice es la relación V/Q alta.",
+    "La V/Q más baja corresponde a las bases; el germen prefiere el ápice, con V/Q y oxígeno alveolar altos.",
+    ""
+   ],
+   "trampa": [
+    "diferencial",
+    "diferencial",
+    "diferencial",
+    "otro-contexto",
+    ""
+   ],
+   "perla": "Ápice = V/Q y PAO2 más altos; bases = mayor ventilación y mayor perfusión.",
+   "fuente": {
+    "carpeta": "6.NEUMOLOGIA",
+    "archivo": "2. BASICAS 2.pdf",
+    "seccion": "Fisiología: control de la respiración, volúmenes, DLCO, zonas del pulmón (p. 1)"
+   },
+   "gemela_de": null
+  },
+  {
+   "id": "2026-10-22-banco-neumo-funcion-pulmonar-020",
+   "enunciado": "Varón de 58 años en el tercer día de una laparotomía por perforación de colon, con peritonitis. PA 96/58 mmHg, FC 122 X', FR 26 X', T° 39,8 °C, SatO2 92 % (FiO2 0,35). AGA: pH 7,21, PaCO2 52 mmHg, HCO3 20 mEq/l; lactato 4,6 mmol/l. El equipo discute cómo estos cambios modifican la entrega de oxígeno a los tejidos. ¿Qué ocurre con la curva de disociación de la hemoglobina en este paciente?",
+   "opciones": [
+    "Se desvía a la derecha: menor afinidad y más liberación",
+    "No cambia: la saturación arterial supera el 90 %",
+    "Se desvía a la izquierda por la fiebre y la acidemia",
+    "Se desvía a la derecha: mayor afinidad por el oxígeno",
+    "Se desvía a la izquierda: mayor afinidad y menos liberación"
+   ],
+   "clave": 1,
+   "especialidad": "Neumología",
+   "tema": "Curva de disociación de la hemoglobina",
+   "diagnostico": "Desviación a la derecha por sepsis con fiebre, acidemia e hipercapnia",
+   "tipo": "mecanismo",
+   "dificultad": "alta",
+   "razonamiento": "Paso 1: fiebre de 39,8 °C, pH 7,21 y PaCO2 52 mmHg en un paciente séptico. Paso 2: el aumento de temperatura, de PCO2 y de hidrogeniones (efecto Bohr) reduce la afinidad de la hemoglobina por el oxígeno. Paso 3: la curva se desvía a la derecha y facilita la liberación de oxígeno en los tejidos.",
+   "por_que_no": [
+    "",
+    "La posición de la curva depende de pH, PCO2, temperatura y 2,3-DPG, no del valor de saturación.",
+    "Fiebre y acidemia desplazan la curva a la derecha; a la izquierda la llevan la hipotermia y la alcalosis.",
+    "La dirección es correcta, pero la desviación a la derecha disminuye la afinidad, no la aumenta.",
+    "Ocurre con alcalosis, hipotermia, PCO2 baja o 2,3-DPG bajo; aquí hay fiebre, acidemia y CO2 elevado."
+   ],
+   "trampa": [
+    "",
+    "umbral",
+    "mismo-grupo",
+    "mismo-grupo",
+    "otro-contexto"
+   ],
+   "perla": "Fiebre, acidez, CO2 y 2,3-DPG altos → curva a la derecha → la hemoglobina suelta O2 en los tejidos.",
+   "fuente": {
+    "carpeta": "6.NEUMOLOGIA",
+    "archivo": "2. BASICAS 2.pdf",
+    "seccion": "Curva de disociación de la hemoglobina (p. 1-2)"
+   },
+   "gemela_de": null
+  },
+  {
+   "id": "2026-10-22-banco-neumo-funcion-pulmonar-021",
+   "enunciado": "Adolescente de 16 años con diabetes tipo 1 que suspendió la insulina hace 3 días; presenta poliuria, vómitos y dolor abdominal. PA 98/60 mmHg, FC 124 X', FR 32 X', T° 36,9 °C, SatO2 98 % (FiO2 0,21). Mucosas secas, aliento afrutado y respiraciones regulares, rápidas y muy profundas. Glucosa 512 mg/dl, cetonuria +++; AGA: pH 7,08, PaCO2 15 mmHg, HCO3 5 mEq/l. ¿Cuál es el propósito fisiológico de este patrón respiratorio?",
+   "opciones": [
+    "Reflejar depresión del centro respiratorio bulbar",
+    "Corregir hipoxemia por alteración ventilación/perfusión",
+    "Responder a ansiedad con descenso primario del CO2",
+    "Eliminar CO2 para compensar la caída del bicarbonato",
+    "Compensar un retraso circulatorio de bajo gasto"
+   ],
+   "clave": 4,
+   "especialidad": "Neumología",
+   "tema": "Respiración rápida, profunda y regular",
+   "diagnostico": "Respiración de Kussmaul en cetoacidosis diabética",
+   "tipo": "mecanismo",
+   "dificultad": "media",
+   "razonamiento": "Paso 1: glucosa 512, cetonuria y pH 7,08 con HCO3 5 indican un trastorno ácido metabólico grave. Paso 2: el exceso de hidrogeniones estimula los quimiorreceptores y genera una respiración rápida, profunda y regular. Paso 3: el objetivo es eliminar CO2 (PaCO2 15) para atenuar la caída del pH; no responde a hipoxemia.",
+   "por_que_no": [
+    "La depresión del centro produce bradipnea o patrones irregulares; aquí el impulso respiratorio está aumentado.",
+    "La SatO2 es 98 %; el estímulo no es la hipoxemia sino el exceso de hidrogeniones.",
+    "En la hiperventilación por ansiedad el pH sube; aquí el pH es 7,08 con HCO3 de 5 mEq/l.",
+    "",
+    "El bajo gasto produce respiración periódica con apneas, no un patrón regular y profundo."
+   ],
+   "trampa": [
+    "otro",
+    "diferencial",
+    "diferencial",
+    "",
+    "otro-contexto"
+   ],
+   "perla": "Respiración rápida, profunda y regular + pH y HCO3 bajos = compensación respiratoria del ácido metabólico.",
+   "fuente": {
+    "carpeta": "6.NEUMOLOGIA",
+    "archivo": "4. PATRONES RESPIRATORIOS.pdf",
+    "seccion": "Tabla de patrones respiratorios y tipos de disnea (p. 1)"
+   },
+   "gemela_de": null
+  },
+  {
+   "id": "2026-10-22-banco-neumo-funcion-pulmonar-022",
+   "enunciado": "Varón de 71 años, hipertenso no controlado, ingresa por pérdida brusca de conciencia hace 2 horas. PA 210/120 mmHg, FC 58 X', T° 37,2 °C, SatO2 88 % (FiO2 0,21), Glasgow 5 y pupilas puntiformes. Se observa respiración totalmente irregular: respiraciones de amplitud variable separadas por pausas de duración impredecible, sin patrón cíclico. La TEM cerebral muestra un hematoma de 3 cm en la protuberancia con extensión al bulbo. ¿Qué indica este patrón respiratorio?",
+   "opciones": [
+    "Compensación respiratoria de un ácido metabólico",
+    "Depresión leve y reversible por fármacos",
+    "Retraso circulatorio por bajo gasto cardiaco",
+    "Lesión hemisférica bilateral con tronco indemne",
+    "Daño estructural grave del tronco encefálico"
+   ],
+   "clave": 5,
+   "especialidad": "Neumología",
+   "tema": "Respiración irregular con pausas impredecibles",
+   "diagnostico": "Respiración atáxica de Biot por hemorragia pontobulbar",
+   "tipo": "severidad",
+   "dificultad": "muy alta",
+   "razonamiento": "Paso 1: coma (Glasgow 5) con hematoma pontino que se extiende al bulbo. Paso 2: la respiración irregular, de amplitud variable y pausas impredecibles sin ciclo es la respiración atáxica. Paso 3: este patrón traduce daño severo del SNC a nivel del tronco, donde está el centro respiratorio bulbar, y anuncia pronóstico grave.",
+   "por_que_no": [
+    "Da respiración rápida, profunda y regular; aquí la respiración es irregular con pausas impredecibles.",
+    "Los opioides causan bradipnea regular y miosis, pero la TEM muestra una lesión estructural que explica el patrón.",
+    "Produce respiración cíclica en crescendo-decrescendo con apneas, típica de la insuficiencia cardiaca, no un patrón sin ciclo.",
+    "El daño cerebral más alto se asocia a respiración periódica cíclica; la respiración atáxica implica lesión baja del tronco.",
+    ""
+   ],
+   "trampa": [
+    "otro-contexto",
+    "diferencial",
+    "diferencial",
+    "otro-estadio",
+    ""
+   ],
+   "perla": "Respiración caótica sin ciclo = atáxica = tronco dañado; cíclica con apneas = periódica (IC o daño cerebral).",
+   "fuente": {
+    "carpeta": "6.NEUMOLOGIA",
+    "archivo": "4. PATRONES RESPIRATORIOS.pdf",
+    "seccion": "Tabla de patrones respiratorios y tipos de disnea (p. 1)"
+   },
+   "gemela_de": null
+  },
+  {
+   "id": "2026-10-22-banco-neumo-funcion-pulmonar-023",
+   "enunciado": "Varón de 77 años con diabetes tipo 2, exfumador, dolor lumbar crónico tratado con tramadol 50 mg cada 12 horas y FEVI de 22 % en un ecocardiograma reciente. Su esposa refiere que de noche respira con ciclos de inspiraciones cada vez más profundas y luego más superficiales, seguidos de pausas de 15 a 20 segundos. Despierto: PA 102/64 mmHg, FC 94 X', FR 22 X', SatO2 92 % (FiO2 0,21), Glasgow 15, glucosa 146 mg/dl, crepitantes bibasales y edema maleolar. ¿Con cuál condición se relaciona mejor este patrón respiratorio?",
+   "opciones": [
+    "Uso crónico de tramadol",
+    "Diabetes tipo 2 de larga data",
+    "Lesión estructural del bulbo",
+    "Insuficiencia cardiaca con FEVI de 22 %",
+    "Antecedente de tabaquismo intenso"
+   ],
+   "clave": 4,
+   "especialidad": "Neumología",
+   "tema": "Respiración periódica con apneas",
+   "diagnostico": "Respiración de Cheyne-Stokes por insuficiencia cardiaca",
+   "tipo": "diagnostico",
+   "dificultad": "alta",
+   "razonamiento": "Paso 1: ciclos de respiraciones crecientes y decrecientes con pausas de 15–20 s durante el sueño. Paso 2: es la respiración periódica con apneas intercaladas, asociada a insuficiencia cardiaca y daño cerebral. Paso 3: con FEVI 22 %, crepitantes y edema, la causa es la cardiopatía; el tramadol daría bradipnea regular y la diabetes solo en cetosis daría respiración profunda.",
+   "por_que_no": [
+    "Los opioides producen bradipnea regular por depresión del centro; no dan ciclos crescendo-decrescendo con apneas.",
+    "Solo en cetoacidosis produciría respiración rápida, profunda y regular; su glucosa es 146 mg/dl.",
+    "Daría respiración atáxica irregular sin ciclos y con alteración de conciencia; el paciente está lúcido.",
+    "",
+    "La limitación crónica al flujo se asocia a espiración con labios fruncidos, no a respiración periódica con apneas."
+   ],
+   "trampa": [
+    "diferencial",
+    "diferencial",
+    "diferencial",
+    "",
+    "otro-contexto"
+   ],
+   "perla": "Ciclos crescendo-decrescendo con apneas → buscar insuficiencia cardiaca o daño cerebral.",
+   "fuente": {
+    "carpeta": "6.NEUMOLOGIA",
+    "archivo": "4. PATRONES RESPIRATORIOS.pdf",
+    "seccion": "Tabla de patrones respiratorios y tipos de disnea (p. 1)"
+   },
+   "gemela_de": null
+  },
+  {
+   "id": "2026-10-22-banco-neumo-funcion-pulmonar-024",
+   "enunciado": "Mujer de 70 años con miocardiopatía hipertensiva en control irregular. Refiere que en el último mes le falta el aire a los 30 segundos de inclinarse hacia adelante para atarse los zapatos y que cede al volver a sentarse erguida; además duerme con 3 almohadas. PA 104/66 mmHg, FC 104 X', FR 24 X', T° 36,4 °C, SatO2 92 % (FiO2 0,21). Ingurgitación yugular, crepitantes bibasales, hepatomegalia y edema hasta los tobillos. ¿Qué indica el síntoma que aparece al inclinarse respecto a su cardiopatía?",
+   "opciones": [
+    "Disfunción ventricular leve y compensada",
+    "Paso de sangre por foramen oval permeable",
+    "Derrame pleural unilateral significativo",
+    "Insuficiencia cardiaca en fase avanzada",
+    "Compresión diafragmática por obesidad"
+   ],
+   "clave": 4,
+   "especialidad": "Neumología",
+   "tema": "Disnea al inclinarse hacia adelante",
+   "diagnostico": "Bendopnea en insuficiencia cardiaca avanzada",
+   "tipo": "severidad",
+   "dificultad": "alta",
+   "razonamiento": "Paso 1: disnea a los pocos segundos de inclinarse hacia adelante, que cede al erguirse, junto con ortopnea, ingurgitación y edema. Paso 2: la disnea al inclinarse (bendopnea) traduce congestión con presiones de llenado muy altas. Paso 3: indica insuficiencia cardiaca avanzada; se distingue de la platipnea (empeora erguido) y de la trepopnea (decúbito lateral).",
+   "por_que_no": [
+    "La disnea al inclinarse aparece en la insuficiencia cardiaca avanzada, no en la disfunción leve compensada.",
+    "Produce disnea al estar erguido que mejora acostado (platipnea), patrón distinto al de esta paciente.",
+    "El derrame unilateral da disnea en decúbito lateral sobre un lado (trepopnea), no al inclinarse hacia adelante.",
+    "",
+    "La obesidad y la ascitis causan disnea en decúbito supino, no un síntoma específico al flexionar el tronco."
+   ],
+   "trampa": [
+    "otro-estadio",
+    "diferencial",
+    "diferencial",
+    "",
+    "otro-contexto"
+   ],
+   "perla": "Disnea al atarse los zapatos (bendopnea) = insuficiencia cardiaca avanzada.",
+   "fuente": {
+    "carpeta": "6.NEUMOLOGIA",
+    "archivo": "4. PATRONES RESPIRATORIOS.pdf",
+    "seccion": "Tabla de patrones respiratorios y tipos de disnea (p. 1)"
+   },
+   "gemela_de": null
+  },
+  {
+   "id": "2026-10-22-banco-neumo-funcion-pulmonar-025",
+   "enunciado": "Varón de 55 años con cirrosis por alcohol (ascitis moderada, arañas vasculares y acropaquia). Refiere disnea que empeora al sentarse o ponerse de pie y mejora al acostarse. PA 106/62 mmHg, FC 92 X', FR 22 X', T° 36,7 °C. SatO2 94 % en decúbito supino y 85 % de pie (FiO2 0,21). Pulmones limpios a la auscultación; radiografía sin opacidades ni líquido pleural; ecocardiograma transtorácico con función normal y tabique interauricular íntegro. ¿Qué entidad explica mejor este cuadro?",
+   "opciones": [
+    "Hidrotórax hepático derecho",
+    "Ascitis que eleva el diafragma",
+    "Síndrome hepatopulmonar",
+    "Insuficiencia cardiaca izquierda",
+    "Foramen oval permeable"
+   ],
+   "clave": 3,
+   "especialidad": "Neumología",
+   "tema": "Disnea que empeora de pie y mejora acostado",
+   "diagnostico": "Platipnea-ortodeoxia por síndrome hepatopulmonar",
+   "tipo": "diagnostico",
+   "dificultad": "muy alta",
+   "razonamiento": "Paso 1: disnea y desaturación (94 → 85 %) al pasar de decúbito a de pie, con mejoría acostado: platipnea. Paso 2: sus causas son el paso de sangre de derecha a izquierda intracardiaco o intrapulmonar. Paso 3: con cirrosis, acropaquia, tabique íntegro y radiografía normal, la causa es intrapulmonar: síndrome hepatopulmonar.",
+   "por_que_no": [
+    "Daría matidez y líquido en la radiografía, con disnea en decúbito lateral; aquí no hay líquido.",
+    "La ascitis da disnea en decúbito supino (ortopnea) que mejora al sentarse, lo opuesto a este paciente.",
+    "",
+    "Produce ortopnea y crepitantes; aquí la disnea mejora acostado y el ecocardiograma es normal.",
+    "También causa platipnea, pero el tabique íntegro y la cirrosis orientan a un origen intrapulmonar."
+   ],
+   "trampa": [
+    "diferencial",
+    "diferencial",
+    "",
+    "otro-contexto",
+    "diferencial"
+   ],
+   "perla": "Disnea al ponerse de pie que mejora acostado + cirrosis = síndrome hepatopulmonar.",
+   "fuente": {
+    "carpeta": "6.NEUMOLOGIA",
+    "archivo": "4. PATRONES RESPIRATORIOS.pdf",
+    "seccion": "Tabla de patrones respiratorios y tipos de disnea (p. 1)"
+   },
+   "gemela_de": null
+  },
+  {
+   "id": "2026-10-22-banco-neumo-funcion-pulmonar-026",
+   "enunciado": "Puérpera de 29 años, a las 8 horas de una cesárea, recibe morfina por bomba de analgesia controlada, con dosis extra administradas por un familiar. La enfermera la encuentra muy somnolienta: PA 108/64 mmHg, FC 62 X', FR 6 X' regular y superficial, T° 36,4 °C, SatO2 85 % (FiO2 0,21) y pupilas mióticas. Fuerza muscular conservada y pulmones limpios. AGA: pH 7,26, PaCO2 63 mmHg, PaO2 52 mmHg. ¿Qué estructura es la principal responsable de la alteración ventilatoria?",
+   "opciones": [
+    "Centro neumotáxico de la protuberancia",
+    "Placa neuromuscular de los músculos respiratorios",
+    "Quimiorreceptores de los cuerpos carotídeos",
+    "Centro apnéustico de la protuberancia",
+    "Centro respiratorio del bulbo raquídeo"
+   ],
+   "clave": 5,
+   "especialidad": "Neumología",
+   "tema": "Centro respiratorio y narcóticos",
+   "diagnostico": "Depresión respiratoria por morfina (hipoventilación central)",
+   "tipo": "mecanismo",
+   "dificultad": "alta",
+   "razonamiento": "Paso 1: bradipnea de 6 X', miosis y somnolencia tras dosis extra de morfina, con PaCO2 63 mmHg y pulmones limpios. Paso 2: la retención de CO2 con pulmón sano indica que la paciente no ventila lo suficiente por falla del control. Paso 3: los narcóticos deprimen el centro respiratorio ubicado en el bulbo raquídeo; la fuerza conservada descarta causa neuromuscular.",
+   "por_que_no": [
+    "Modula frecuencia y patrón, pero el control principal de la ventilación, deprimido por narcóticos, está en el bulbo.",
+    "La falla neuromuscular también reduce la ventilación, pero la fuerza está conservada y hay miosis tras morfina.",
+    "Sensan hipoxemia y envían aferencias por el glosofaríngeo; su falla no explica la bradipnea por narcóticos.",
+    "Modula la profundidad de la inspiración; no es el centro respiratorio principal deprimido por opioides.",
+    ""
+   ],
+   "trampa": [
+    "mismo-grupo",
+    "diferencial",
+    "mismo-grupo",
+    "mismo-grupo",
+    ""
+   ],
+   "perla": "Narcóticos = depresión del centro respiratorio bulbar: bradipnea, CO2 alto y pulmón sano.",
+   "fuente": {
+    "carpeta": "6.NEUMOLOGIA",
+    "archivo": "3. BASICS 3.pdf",
+    "seccion": "Fisiopatología: hipoxemia por hipoventilación (p. 1)"
+   },
+   "gemela_de": null
+  },
+  {
+   "id": "2026-10-22-banco-neumo-funcion-pulmonar-027",
+   "enunciado": "Varón de 73 años, exagricultor, en tratamiento con pirfenidona desde hace 2 años. En reposo: PA 126/78 mmHg, FC 84 X', FR 20 X', T° 36,6 °C, SatO2 93 % (FiO2 0,21); crepitantes tipo velcro bibasales y acropaquia. TACAR previa con panal de abeja subpleural basal; DLCO 38 %. En la caminata de 6 minutos la SatO2 cae de 93 a 80 %, con PaCO2 de 34 mmHg al terminar. ¿Por qué la oxigenación empeora tanto durante el esfuerzo?",
+   "opciones": [
+    "Depresión del centro respiratorio por fatiga",
+    "Menor tiempo de tránsito capilar en membrana engrosada",
+    "Mayor espacio muerto por respiración superficial",
+    "Perfusión de alveolos no ventilados (V/Q = 0)",
+    "Caída de la presión inspirada de oxígeno"
+   ],
+   "clave": 2,
+   "especialidad": "Neumología",
+   "tema": "Hipoxemia que empeora con el esfuerzo",
+   "diagnostico": "Fibrosis pulmonar idiopática con defecto de difusión",
+   "tipo": "mecanismo",
+   "dificultad": "muy alta",
+   "razonamiento": "Paso 1: fibrosis con panal de abeja, DLCO 38 % y caída de SatO2 de 93 a 80 % al caminar, con PaCO2 baja. Paso 2: el oxígeno atraviesa con dificultad la membrana alveolocapilar engrosada. Paso 3: en el ejercicio aumenta el gasto cardiaco y se acorta el tiempo de contacto del eritrocito con el alveolo, por lo que la hipoxemia por difusión empeora.",
+   "por_que_no": [
+    "Daría CO2 elevado con gradiente normal; una PaCO2 de 34 mmHg indica ventilación adecuada.",
+    "",
+    "Un espacio muerto excesivo retiene CO2; aquí la PaCO2 es 34 mmHg, lo que descarta ventilación alveolar insuficiente.",
+    "Es el mecanismo de la consolidación o el colapso alveolar, con hipoxemia que casi no responde al oxígeno, no ligada al esfuerzo.",
+    "Corresponde a la altura con pulmón normal y gradiente normal; el paciente camina respirando la misma FiO2."
+   ],
+   "trampa": [
+    "diferencial",
+    "",
+    "otro",
+    "diferencial",
+    "diferencial"
+   ],
+   "perla": "Hipoxemia que empeora con el ejercicio = defecto de difusión (menos tiempo de contacto alveolocapilar).",
+   "fuente": {
+    "carpeta": "6.NEUMOLOGIA",
+    "archivo": "6. MECANISMO DE HIPOXEMIA.pdf",
+    "seccion": "2. Deterioro de la difusión (p. 1)"
+   },
+   "gemela_de": null
+  },
+  {
+   "id": "2026-10-22-banco-neumo-funcion-pulmonar-028",
+   "enunciado": "Niña de 8 años con 4 episodios de fiebre, tos productiva y opacidad en el mismo sitio en los últimos 2 años, todos tratados con antibiótico. Vacunas completas, crecimiento adecuado, sin diarrea crónica ni atragantamiento previo. Hoy afebril: FC 96 X', FR 22 X', T° 36,8 °C, SatO2 97 % (FiO2 0,21); crepitantes y murmullo disminuido en la base posterior izquierda. Radiografía: opacidad persistente en el segmento basal posterior del lóbulo inferior izquierdo. ¿Cuál es el examen de elección para confirmar la causa?",
+   "opciones": [
+    "Test del sudor con cloro",
+    "TACAR de tórax sin contraste",
+    "Broncoscopia flexible con lavado",
+    "Radiografía en inspiración y espiración",
+    "Angiotomografía de tórax con contraste"
+   ],
+   "clave": 5,
+   "especialidad": "Neumología",
+   "tema": "Neumonías a repetición en el mismo segmento",
+   "diagnostico": "Secuestro pulmonar",
+   "tipo": "prueba",
+   "dificultad": "alta",
+   "razonamiento": "Paso 1: neumonías a repetición siempre en el mismo segmento basal posterior izquierdo, sin datos de cuerpo extraño ni de enfermedad difusa. Paso 2: se sospecha tejido pulmonar irrigado directamente por una arteria sistémica. Paso 3: la angiotomografía con contraste es el examen de elección porque demuestra la arteria anómala; el tratamiento posterior es la lobectomía.",
+   "por_que_no": [
+    "Se pide ante infecciones respiratorias difusas con diarrea o mal crecimiento; aquí la afectación es de un único segmento.",
+    "Muestra la lesión del parénquima, pero sin contraste no identifica la arteria sistémica que la irriga.",
+    "Se indica ante sospecha de cuerpo extraño o lesión endobronquial; no demuestra la irrigación arterial anómala.",
+    "Busca atrapamiento aéreo por cuerpo extraño; la niña no tiene atragantamiento y la opacidad es fija.",
+    ""
+   ],
+   "trampa": [
+    "diferencial",
+    "no-confirmatorio",
+    "diferencial",
+    "diferencial",
+    ""
+   ],
+   "perla": "Neumonías a repetición en el mismo lóbulo inferior → irrigación arterial anómala: angio-TEM; tratamiento, lobectomía.",
+   "fuente": {
+    "carpeta": "6.NEUMOLOGIA",
+    "archivo": "1. BASICAS.pdf",
+    "seccion": "Embriología: surfactante por semanas; secuestro pulmonar (p. 1)"
+   },
+   "gemela_de": null
+  },
+  {
+   "id": "2026-10-22-banco-neumo-funcion-pulmonar-029",
+   "enunciado": "Mujer de 68 años, diabética, con fiebre, escalofríos y tos con esputo herrumbroso de 3 días. PA 112/70 mmHg, FC 108 X', FR 26 X', T° 39,2 °C, SatO2 91 % (FiO2 0,21). En la base derecha posterior hay matidez a la percusión, vibraciones vocales aumentadas, murmullo vesicular disminuido y crepitantes inspiratorios; el resto del tórax es normal. ¿Qué otro hallazgo auscultatorio esperaría sobre la zona descrita?",
+   "opciones": [
+    "Soplo anfórico",
+    "Soplo cavernoso",
+    "Sibilancias difusas",
+    "Egofonía con roce pleural",
+    "Soplo tubárico"
+   ],
+   "clave": 5,
+   "especialidad": "Neumología",
+   "tema": "Semiología · síndrome de condensación",
+   "diagnostico": "Neumonía lobar basal derecha (síndrome de condensación)",
+   "tipo": "mecanismo",
+   "dificultad": "media",
+   "razonamiento": "Paso 1: fiebre, esputo herrumbroso y foco basal derecho con matidez, vibraciones vocales aumentadas y crepitantes. Paso 2: el parénquima condensado con bronquios permeables transmite mejor el sonido: síndrome de condensación. Paso 3: por eso se ausculta soplo tubárico; con vibraciones disminuidas y egofonía se pensaría en líquido pleural.",
+   "por_que_no": [
+    "Se ausculta sobre aire libre en la pleura, con timpanismo; aquí la percusión es mate.",
+    "Aparece si la zona se excava y forma una cavidad comunicada con un bronquio; no en la condensación inicial.",
+    "Indican estrechamiento bronquial difuso; no se limitan a una zona mate con vibraciones aumentadas.",
+    "Acompaña al líquido pleural, donde las vibraciones vocales están disminuidas; aquí están aumentadas.",
+    ""
+   ],
+   "trampa": [
+    "diferencial",
+    "otro-estadio",
+    "otro-contexto",
+    "diferencial",
+    ""
+   ],
+   "perla": "Matidez + vibraciones ↑ + soplo tubárico = condensación; matidez + vibraciones ↓ + egofonía = líquido.",
+   "fuente": {
+    "carpeta": "6.NEUMOLOGIA",
+    "archivo": "3. BASICS 3.pdf",
+    "seccion": "Semiología: soplo tubárico, anfórico, cavernoso y egofonía (p. 1)"
+   },
+   "gemela_de": null
+  },
+  {
+   "id": "2026-10-22-banco-neumo-funcion-pulmonar-030",
+   "enunciado": "Varón de 47 años con consumo diario de alcohol, encontrado ebrio en la calle hace 4 semanas. Desde entonces tiene fiebre, tos con abundante esputo pútrido y mal aliento. PA 118/74 mmHg, FC 102 X', FR 22 X', T° 38,4 °C, SatO2 94 % (FiO2 0,21). Mala higiene dental. En la región subescapular derecha se ausculta un soplo de timbre hueco, grave y de baja intensidad, con estertores gruesos. ¿Qué lesión anatómica explica este hallazgo auscultatorio?",
+   "opciones": [
+    "Líquido libre en el espacio pleural",
+    "Parénquima condensado con bronquios permeables",
+    "Cavidad aérea comunicada con un bronquio",
+    "Aire libre en la cavidad pleural",
+    "Bronquios estrechados por broncoconstricción"
+   ],
+   "clave": 3,
+   "especialidad": "Neumología",
+   "tema": "Semiología · soplo de timbre hueco",
+   "diagnostico": "Absceso pulmonar por aspiración (soplo cavernoso)",
+   "tipo": "mecanismo",
+   "dificultad": "alta",
+   "razonamiento": "Paso 1: aspiración probable (ebriedad, mala higiene dental) seguida de fiebre y esputo pútrido de 4 semanas. Paso 2: el soplo hueco y grave localizado es el soplo cavernoso, propio de cavidades (absceso, caverna, bronquiectasias). Paso 3: la necrosis excavó el parénquima y formó una cavidad con aire comunicada con un bronquio.",
+   "por_que_no": [
+    "Se asocia a egofonía y roce pleural con matidez y vibraciones disminuidas, no a soplo cavernoso.",
+    "Genera soplo tubárico de timbre agudo; es la fase previa, antes de que la necrosis excave una cavidad.",
+    "",
+    "Produce soplo anfórico con timpanismo y vibraciones disminuidas; aquí el soplo es hueco y grave.",
+    "Producen sibilancias difusas espiratorias, no un soplo localizado de timbre hueco."
+   ],
+   "trampa": [
+    "diferencial",
+    "otro-estadio",
+    "",
+    "diferencial",
+    "otro-contexto"
+   ],
+   "perla": "Soplo tubárico = condensación; cavernoso = cavidad; anfórico = aire pleural; egofonía + roce = líquido.",
+   "fuente": {
+    "carpeta": "6.NEUMOLOGIA",
+    "archivo": "3. BASICS 3.pdf",
+    "seccion": "Semiología: soplo tubárico, anfórico, cavernoso y egofonía (p. 1)"
+   },
+   "gemela_de": null
+  }
+ ]
+}

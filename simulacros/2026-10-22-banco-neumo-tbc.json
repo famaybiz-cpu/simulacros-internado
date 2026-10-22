@@ -1,0 +1,1190 @@
+{
+ "id": "2026-10-22-banco-neumo-tbc",
+ "fecha": "2026-10-22",
+ "turno": "noche",
+ "titulo": "Banco · Tuberculosis",
+ "segundos_por_pregunta": 60,
+ "temas_noche": [
+  "Tuberculosis"
+ ],
+ "feedback_noche": "Aprueba este tema quien lee el resultado de laboratorio antes de elegir esquema: rifampicina resistente → BPaLM (BPaL si también resiste a quinolona); solo isoniacida → Lfx-R-E-Z 6 meses. Se falla al confundir esquemas por población (12 meses solo SNC/osteoarticular/diseminada; 2HREZ/2HR solo niño no grave), al dar TPT sin descartar enfermedad activa y al mezclar condiciones de ingreso y egreso (recaída, pérdida en seguimiento, fracaso, completo).",
+ "perlas_noche": [
+  "Sintomático respiratorio = tos con flema ≥15 días; dos esputos de ≥3 ml (mismo día con ≥30 min si no puede volver).",
+  "Sensible: 2HREZ (50) / 4HR (100) diario; SNC, osteoarticular o diseminada: 2HREZ / 10HR (12 meses) + corticoide en meníngea.",
+  "Resistencia a rifampicina → BPaLM 6 meses; + quinolona → BPaL; solo isoniacida → Lfx-R-E-Z 6 meses (180 dosis).",
+  "TPT: <5 años contacto pulmonar y VIH sin mirar PPD; ≥5 años con caso no confirmado exige PPD ≥10 mm; siempre descartar enfermedad.",
+  "Etambutol → ojo; isoniacida → nervio (B6 50 mg); rifampicina → naranja e inductor (falla el anticonceptivo); pirazinamida → úrico."
+ ],
+ "preguntas": [
+  {
+   "id": "2026-10-22-banco-neumo-tbc-001",
+   "enunciado": "En el consultorio de un centro de salud de Ate, un albañil de 42 años acude por lumbalgia mecánica de 1 semana tras cargar bolsas de cemento. Al interrogatorio dirigido refiere tos con flema desde hace 17 días, sin fiebre ni baja de peso cuantificada. Fuma 5 cigarrillos al día. PA 120/80 mmHg, FC 82 X', FR 18 X', T° 36,8 °C, SatO2 97 % (FiO2 0,21). Murmullo vesicular conservado, sin ruidos agregados; dolor a la palpación paravertebral lumbar. Además de tratar la lumbalgia, ¿cuál es la conducta que corresponde frente a la tos según la norma vigente?",
+   "opciones": [
+    "Indicar amoxicilina 7 días y pedir esputo si no mejora",
+    "Registrarlo como sintomático respiratorio y pedir dos esputos",
+    "Solicitar radiografía de tórax y decidir el esputo según su resultado",
+    "Indicar antitusígeno y citarlo si la tos supera los 30 días",
+    "Aplicar PPD y estudiar el esputo solo si la induración es ≥10 mm"
+   ],
+   "clave": 2,
+   "especialidad": "Neumología",
+   "tema": "Sintomático respiratorio · captación",
+   "diagnostico": "Sintomático respiratorio captado en consulta por otro motivo",
+   "tipo": "norma",
+   "dificultad": "media",
+   "razonamiento": "Paso 1: mayor de 15 años con tos y flema de 17 días, aunque consulta por otro motivo. Paso 2: cumple la definición operativa de sintomático respiratorio (tos con flema ≥15 días) y la captación es obligatoria en cualquier servicio. Paso 3: se registra en el libro de sintomáticos respiratorios y se solicitan dos muestras de esputo para baciloscopía o prueba molecular, sin esperar ni dar antibióticos de prueba.",
+   "por_que_no": [
+    "Un ciclo antibiótico de prueba retrasa la captación; sería la conducta ante tos aguda febril con foco, no ante tos con flema de más de 15 días.",
+    "",
+    "La radiografía apoya pero no confirma; el tamizaje radiológico se usa en grupos de riesgo asintomáticos, no para condicionar el estudio de un sintomático respiratorio.",
+    "Esperar sería razonable en tos aguda de menos de 15 días; con 17 días de tos con flema ya cumple la definición operativa y debe estudiarse.",
+    "El PPD mide infección latente y no diagnostica enfermedad; se usa en contactos asintomáticos, no para decidir si se examina el esputo."
+   ],
+   "trampa": [
+    "otro-momento",
+    "",
+    "no-confirmatorio",
+    "umbral",
+    "otro-contexto"
+   ],
+   "perla": "Sintomático respiratorio = tos con flema ≥15 días: se capta en cualquier consultorio, sea cual sea el motivo de consulta.",
+   "fuente": {
+    "carpeta": "28. NT",
+    "archivo": "5. NT TBC.pdf",
+    "seccion": "pág 1 · Definiciones, estudio de contactos y TPT"
+   },
+   "gemela_de": null
+  },
+  {
+   "id": "2026-10-22-banco-neumo-tbc-002",
+   "enunciado": "Un agricultor de 58 años, que vive a 4 horas de caminata del puesto de salud de una comunidad de Huancavelica, acude por tos con expectoración purulenta de 3 semanas, sudoración nocturna y pérdida de 4 kg. PA 110/70 mmHg, FC 96 X', FR 20 X', T° 37,8 °C, SatO2 90 % (FiO2 0,21) a 3700 m s. n. m. Crépitos en el ápice derecho. Avisa que no podrá volver al establecimiento al día siguiente porque debe regresar a su chacra. ¿Cómo debe obtenerse la muestra de esputo para el estudio bacteriológico?",
+   "opciones": [
+    "Una muestra ahora y la segunda al día siguiente, matutina y en ayunas",
+    "Una sola muestra de 1 ml procesada por baciloscopía",
+    "Dos muestras el mismo día, con al menos 30 minutos de diferencia",
+    "Una muestra hoy enviada a temperatura ambiente en 5 días",
+    "Tres muestras seriadas en tres días consecutivos"
+   ],
+   "clave": 3,
+   "especialidad": "Neumología",
+   "tema": "Recolección de esputo · zona rural",
+   "diagnostico": "Caso presuntivo en zona alejada",
+   "tipo": "norma",
+   "dificultad": "alta",
+   "razonamiento": "Paso 1: tos con flema de 3 semanas, sudoración y baja de peso: caso presuntivo. Paso 2: el paciente no puede volver al día siguiente por la distancia. Paso 3: la norma acepta tomar las dos muestras (≥3 ml, mucopurulentas, no saliva) el mismo día con al menos 30 minutos de diferencia; luego se conservan refrigeradas a 2-8 °C y se envían dentro de 72 horas.",
+   "por_que_no": [
+    "Es la forma habitual cuando el paciente puede regresar; aquí la distancia hace preferible tomar ambas el mismo día para no perder la segunda.",
+    "Se requieren dos muestras de al menos 3 ml de esputo mucopurulento; una sola de 1 ml reduce el rendimiento diagnóstico.",
+    "",
+    "La muestra debe ir refrigerada a 2-8 °C y llegar al laboratorio dentro de 72 horas; cinco días sin frío la degradan.",
+    "La norma vigente pide dos muestras; exigir tres días seguidos sería impracticable en este paciente y retrasa la confirmación."
+   ],
+   "trampa": [
+    "otro-contexto",
+    "umbral",
+    "",
+    "umbral",
+    "otro-momento"
+   ],
+   "perla": "Dos esputos de ≥3 ml; si no puede volver, ambos el mismo día con ≥30 minutos de separación; transporte a 2-8 °C.",
+   "fuente": {
+    "carpeta": "28. NT",
+    "archivo": "5. NT TBC.pdf",
+    "seccion": "pág 1-2 · Recolección y transporte de muestras"
+   },
+   "gemela_de": null
+  },
+  {
+   "id": "2026-10-22-banco-neumo-tbc-003",
+   "enunciado": "Varón de 31 años con infección por VIH conocida desde hace 2 meses, aún sin TAR (CD4 140 células/mm3), consulta por tos con flema de 3 semanas, fiebre vespertina y pérdida de 6 kg. PA 105/65 mmHg, FC 104 X', FR 22 X', T° 38,2 °C, SatO2 93 % (FiO2 0,21). IMC 18 kg/m2, muguet oral. Radiografía de tórax: infiltrado reticulonodular en ambos campos inferiores, sin cavidades ni derrame. Logra expectorar una muestra mucopurulenta de 4 ml. ¿Cuál es la prueba inicial de elección en su esputo?",
+   "opciones": [
+    "Dos baciloscopías de esputo con tinción de Ziehl-Neelsen",
+    "Cultivo en medio sólido Löwenstein-Jensen como única prueba",
+    "Prueba molecular rápida Xpert MTB/RIF en el esputo",
+    "PPD con punto de corte de 5 mm por la inmunosupresión",
+    "Prueba de liberación de interferón gamma (IGRA) en sangre"
+   ],
+   "clave": 3,
+   "especialidad": "Neumología",
+   "tema": "Prueba inicial · VIH",
+   "diagnostico": "Caso presuntivo pulmonar paucibacilar en VIH avanzado",
+   "tipo": "prueba",
+   "dificultad": "alta",
+   "razonamiento": "Paso 1: VIH con CD4 140, tos con flema de 3 semanas, fiebre y baja de peso: caso presuntivo. Paso 2: en VIH la carga bacilar suele ser baja y la radiografía atípica (campos inferiores, sin cavidad), por lo que la baciloscopía rinde poco. Paso 3: la prueba molecular rápida (Xpert MTB/RIF, unas 2 horas) es la inicial de elección y además detecta resistencia a rifampicina; se complementa con cultivo.",
+   "por_que_no": [
+    "La baciloscopía es poco sensible en paucibacilares como el VIH avanzado; sigue siendo la prueba de control mensual del tratamiento.",
+    "El cultivo es obligatorio en VIH, pero tarda semanas; se pide junto con la prueba molecular, no como prueba inicial única.",
+    "",
+    "El corte de 5 mm aplica a inmunosuprimidos para infección latente; no confirma enfermedad activa en un sintomático.",
+    "El IGRA detecta infección y no distingue enfermedad activa; sirve para contactos asintomáticos y candidatos a terapia preventiva."
+   ],
+   "trampa": [
+    "no-confirmatorio",
+    "otro-momento",
+    "",
+    "otra-poblacion",
+    "diferencial"
+   ],
+   "perla": "En VIH, niños y extrapulmonar (paucibacilares) la prueba inicial es la molecular rápida; la baciloscopía queda para el control.",
+   "fuente": {
+    "carpeta": "6.NEUMOLOGIA",
+    "archivo": "9.TBC.pdf",
+    "seccion": "pág 1-2 · Baciloscopía, recolección de muestra y pruebas diagnósticas"
+   },
+   "gemela_de": null
+  },
+  {
+   "id": "2026-10-22-banco-neumo-tbc-004",
+   "enunciado": "Mujer de 66 años, diabética con HbA1c 9,8 %, refiere tos con flema de 5 semanas, sudoración nocturna y baja de 5 kg. PA 130/80 mmHg, FC 92 X', FR 20 X', T° 37,6 °C, SatO2 94 % (FiO2 0,21). Crépitos y soplo en la región infraclavicular izquierda. Radiografía: opacidad apical izquierda con imagen anular de pared gruesa de 3 cm, sin nivel hidroaéreo. Las dos baciloscopías de esputo resultan negativas (0 BAAR en 100 campos). No tiene signos de gravedad. ¿Cuál es el siguiente paso más apropiado?",
+   "opciones": [
+    "Iniciar el esquema de 6 meses sin estudio bacteriológico adicional",
+    "Cultivo y prueba molecular rápida en una nueva muestra de esputo",
+    "Antibiótico de amplio espectro 14 días y control radiológico",
+    "Descartar la etiología bacilar por las dos baciloscopías negativas",
+    "Aplicar PPD para decidir el inicio del tratamiento"
+   ],
+   "clave": 2,
+   "especialidad": "Neumología",
+   "tema": "Baciloscopía negativa con alta sospecha",
+   "diagnostico": "Enfermedad pulmonar cavitada con baciloscopías negativas",
+   "tipo": "prueba",
+   "dificultad": "alta",
+   "razonamiento": "Paso 1: diabética con 5 semanas de tos, sudoración, baja de peso y cavidad apical de pared gruesa: alta sospecha. Paso 2: dos baciloscopías negativas no descartan, porque requieren 5000-10 000 bacilos/ml. Paso 3: se solicita cultivo (patrón de oro que permite la prueba de sensibilidad) y prueba molecular rápida; la diabetes además es comorbilidad asociada a resistencia.",
+   "por_que_no": [
+    "El tratamiento sin confirmación se decide tras agotar cultivo y prueba molecular, o antes solo si la gravedad no permite esperar.",
+    "",
+    "Sería razonable ante cavidad con nivel hidroaéreo y vómica (absceso); esta cavidad apical de pared gruesa con 5 semanas de síntomas orienta a micobacteria.",
+    "La baciloscopía requiere miles de bacilos por mililitro; dos negativas solo tranquilizan si la sospecha clínica y radiológica es baja.",
+    "El PPD mide infección; positivo o negativo no confirma ni descarta enfermedad activa en esta paciente sintomática."
+   ],
+   "trampa": [
+    "otro-momento",
+    "",
+    "diferencial",
+    "no-confirmatorio",
+    "otro-contexto"
+   ],
+   "perla": "Baciloscopía negativa con clínica y cavidad sugerentes → cultivo + prueba molecular; nunca descartar con BK negativa.",
+   "fuente": {
+    "carpeta": "6.NEUMOLOGIA",
+    "archivo": "Neumología -  Fundamentos teóricos_ENAM 2024.pdf",
+    "seccion": "pág 48-54 · Diagnóstico y esquemas"
+   },
+   "gemela_de": null
+  },
+  {
+   "id": "2026-10-22-banco-neumo-tbc-005",
+   "enunciado": "Varón de 27 años, interno de un penal de Lima, con tos y flema de 6 semanas y pérdida de 7 kg. Nunca recibió tratamiento antibacilar. PA 115/70 mmHg, FC 98 X', FR 20 X', T° 37,9 °C, SatO2 95 % (FiO2 0,21). Radiografía: infiltrado apical derecho con cavidad de 2 cm. Prueba molecular rápida de esputo: MTB detectado, resistencia a rifampicina detectada. La sensibilidad a fluoroquinolonas aún no se conoce. EKG con QTc 410 ms, hemograma normal. ¿Cuál es el esquema que corresponde?",
+   "opciones": [
+    "Bedaquilina, pretomanid, linezolid y moxifloxacino 6 meses",
+    "Isoniacida, rifampicina, pirazinamida y etambutol 6 meses",
+    "Kanamicina, levofloxacino y etionamida por 18 a 24 meses",
+    "Levofloxacino, rifampicina, etambutol y pirazinamida 6 meses",
+    "Bedaquilina, pretomanid y linezolid 6 meses, sin quinolona"
+   ],
+   "clave": 1,
+   "especialidad": "Neumología",
+   "tema": "Resistencia a rifampicina · esquema",
+   "diagnostico": "Enfermedad pulmonar con resistencia a rifampicina (manejo como MDR)",
+   "tipo": "tratamiento",
+   "dificultad": "alta",
+   "razonamiento": "Paso 1: cuadro bacilífero cavitado en persona privada de libertad. Paso 2: la prueba molecular detecta resistencia a rifampicina, que se maneja como multidrogorresistente aunque no se conozca la isoniacida. Paso 3: la NTS 221-2024 indica BPaLM oral por 6 meses si la sensibilidad a fluoroquinolonas es conocida o desconocida, iniciado hasta 15 días tras el diagnóstico, con vigilancia de QT y hemograma.",
+   "por_que_no": [
+    "",
+    "Es el esquema para cepa sensible a isoniacida y rifampicina; con resistencia a rifampicina detectada fracasaría.",
+    "Los esquemas largos con inyectables pertenecen a la norma previa a 2024; hoy la primera línea es totalmente oral.",
+    "Es el esquema de la resistencia aislada a isoniacida con rifampicina sensible; aquí la resistente es la rifampicina.",
+    "Se retira el moxifloxacino solo si se demuestra resistencia a fluoroquinolonas; con sensibilidad desconocida se mantiene."
+   ],
+   "trampa": [
+    "",
+    "otro-contexto",
+    "otro-momento",
+    "diferencial",
+    "otro-estadio"
+   ],
+   "perla": "Resistencia a rifampicina = se trata como MDR: BPaLM 6 meses; si además resiste a quinolona, BPaL.",
+   "fuente": {
+    "carpeta": "6.NEUMOLOGIA",
+    "archivo": "TBC_2_TRATAMIENTO_SENSIBLE_RESISTENTE_Tarjetas_ENAM_EsSalud.pdf",
+    "seccion": "p. 4 · TB resistente (BPaLM/BPaL) y TPT"
+   },
+   "gemela_de": null
+  },
+  {
+   "id": "2026-10-22-banco-neumo-tbc-006",
+   "enunciado": "Mujer de 35 años con cepa resistente a isoniacida y rifampicina confirmada hace 10 días. El ensayo de sonda en línea informa además resistencia a levofloxacino y moxifloxacino, con sensibilidad conservada a bedaquilina y linezolid. Peso 52 kg. PA 110/70 mmHg, FC 90 X', FR 18 X', T° 37,4 °C, SatO2 96 % (FiO2 0,21). EKG basal: QTc 420 ms. Hemoglobina 12,1 g/dl, plaquetas 260 000/mm3. Prueba de embarazo negativa. ¿Qué esquema corresponde a esta categoría de resistencia?",
+   "opciones": [
+    "Levofloxacino, rifampicina, etambutol y pirazinamida 6 meses",
+    "Amikacina, moxifloxacino y etionamida por 18 a 24 meses",
+    "Esquema individualizado alargado con fármacos de segunda línea",
+    "Bedaquilina, pretomanid, linezolid y moxifloxacino (BPaLM)",
+    "Bedaquilina, pretomanid y linezolid por 6 meses (BPaL)"
+   ],
+   "clave": 5,
+   "especialidad": "Neumología",
+   "tema": "Clasificación de resistencia · quinolonas",
+   "diagnostico": "Cepa pre-extensamente resistente (pre-XDR)",
+   "tipo": "severidad",
+   "dificultad": "muy alta",
+   "razonamiento": "Paso 1: resistencia a isoniacida y rifampicina más resistencia a fluoroquinolonas, con bedaquilina y linezolid sensibles. Paso 2: corresponde a la categoría pre-extensamente resistente; no llega a extensamente resistente, que exige además resistencia a bedaquilina o linezolid. Paso 3: se indica BPaL por 6 meses (se retira el moxifloxacino), con EKG y hemograma seriados por QT y mielosupresión.",
+   "por_que_no": [
+    "Es el esquema de la resistencia aislada a isoniacida; con rifampicina y quinolonas resistidas no sirve.",
+    "Los esquemas con inyectables son de la norma anterior a 2024 y además usan una quinolona ya resistida.",
+    "Se reserva a resistencia a bedaquilina o linezolid, o a intolerancia; aquí ambos conservan sensibilidad.",
+    "BPaLM es para resistencia a rifampicina con quinolona sensible o desconocida; aquí la quinolona está resistida.",
+    ""
+   ],
+   "trampa": [
+    "diferencial",
+    "otro-momento",
+    "otro-estadio",
+    "otro-estadio",
+    ""
+   ],
+   "perla": "Escalera: MDR (H+R) → pre-XDR (+quinolona: BPaL) → XDR (+bedaquilina o linezolid: esquema individualizado).",
+   "fuente": {
+    "carpeta": "6.NEUMOLOGIA",
+    "archivo": "TBC_2_TRATAMIENTO_SENSIBLE_RESISTENTE_Tarjetas_ENAM_EsSalud.pdf",
+    "seccion": "p. 4 · TB resistente (BPaLM/BPaL) y TPT"
+   },
+   "gemela_de": null
+  },
+  {
+   "id": "2026-10-22-banco-neumo-tbc-007",
+   "enunciado": "Varón de 45 años, mototaxista, inició hace 3 semanas el esquema estándar por esputo positivo; la prueba molecular inicial no detectó resistencia a rifampicina. Hoy llega la prueba de sensibilidad rápida (Genotype): resistencia a isoniacida y sensibilidad a rifampicina. Refiere buena tolerancia y menos tos. Peso 64 kg. PA 120/75 mmHg, FC 84 X', FR 18 X', T° 36,9 °C, SatO2 97 % (FiO2 0,21). Perfil hepático y creatinina normales. ¿Cómo se debe modificar su tratamiento?",
+   "opciones": [
+    "Rifampicina, etambutol y pirazinamida 9 meses, sin quinolona",
+    "Levofloxacino, rifampicina, etambutol y pirazinamida por 6 meses",
+    "Bedaquilina, pretomanid, linezolid y moxifloxacino 6 meses",
+    "Agregar solo levofloxacino al esquema actual sin más cambios",
+    "Isoniacida, rifampicina, pirazinamida y etambutol 6 meses"
+   ],
+   "clave": 2,
+   "especialidad": "Neumología",
+   "tema": "Resistencia a isoniacida · esquema",
+   "diagnostico": "Enfermedad pulmonar resistente a isoniacida (Hr)",
+   "tipo": "tratamiento",
+   "dificultad": "alta",
+   "razonamiento": "Paso 1: prueba molecular de sensibilidad con resistencia aislada a isoniacida y rifampicina sensible. Paso 2: corresponde a resistencia a isoniacida, no a multidrogorresistencia, por lo que la rifampicina sigue siendo útil. Paso 3: la NTS 221-2024 indica 6 meses diarios de levofloxacino, rifampicina, etambutol y pirazinamida (180 dosis, de lunes a domingo), retirando la isoniacida.",
+   "por_que_no": [
+    "Omitir la quinolona deja un esquema más débil; la norma peruana incorpora levofloxacino en el esquema de 6 meses.",
+    "",
+    "Es el esquema para resistencia a rifampicina; aquí la rifampicina es sensible y debe conservarse.",
+    "Añadir un único fármaco favorece la monoterapia encubierta; la norma reemplaza la isoniacida por un esquema definido de 6 meses.",
+    "Es correcto con cepa sensible a ambos fármacos; con resistencia a isoniacida esta queda inútil."
+   ],
+   "trampa": [
+    "mismo-grupo",
+    "",
+    "diferencial",
+    "mismo-grupo",
+    "otro-contexto"
+   ],
+   "perla": "Resistencia solo a isoniacida: 6 meses de Lfx-R-E-Z diario (180 dosis); la rifampicina se conserva.",
+   "fuente": {
+    "carpeta": "6.NEUMOLOGIA",
+    "archivo": "9.TBC.pdf",
+    "seccion": "pág 2-3 · Esquemas, dosis y Modificaciones NT 2024"
+   },
+   "gemela_de": null
+  },
+  {
+   "id": "2026-10-22-banco-neumo-tbc-008",
+   "enunciado": "Mujer de 39 años, 70 kg, caso nuevo con esputo positivo y prueba molecular sin resistencia a rifampicina. Sin comorbilidades; creatinina 0,8 mg/dl, transaminasas y bilirrubinas normales. PA 118/76 mmHg, FC 88 X', FR 18 X', T° 37,2 °C, SatO2 97 % (FiO2 0,21). Prueba de embarazo negativa y VIH no reactivo. Usa preservativo como método anticonceptivo. Se iniciará la primera fase supervisada en el establecimiento con fármacos en presentación separada. ¿Cuáles son las dosis diarias correctas de la primera fase?",
+   "opciones": [
+    "H 300 mg, R 600 mg, Z 2000 mg y E 1600 mg",
+    "H 700 mg, R 600 mg, Z 1750 mg y E 1400 mg",
+    "H 350 mg, R 700 mg, Z 1750 mg y E 1400 mg",
+    "H 300 mg, R 450 mg, Z 1750 mg y E 1400 mg",
+    "H 300 mg, R 600 mg, Z 1750 mg y E 1400 mg"
+   ],
+   "clave": 5,
+   "especialidad": "Neumología",
+   "tema": "Dosis por kilo · primera fase",
+   "diagnostico": "Caso nuevo sensible en adulta de 70 kg",
+   "tipo": "dosis",
+   "dificultad": "alta",
+   "razonamiento": "Paso 1: caso nuevo sensible de 70 kg, sin hepatopatía ni nefropatía, por lo que no requiere ajustes. Paso 2: dosis por kilo de la primera fase: H 5, R 10, Z 25 y E 20 mg/kg. Paso 3: 350 y 700 mg superan los topes, de modo que H queda en 300 mg y R en 600 mg; Z 1750 mg y E 1400 mg no alcanzan sus máximos de 2000 y 1600 mg.",
+   "por_que_no": [
+    "Son las dosis máximas de pirazinamida y etambutol, que solo corresponden a pacientes de 80 kg o más.",
+    "Usa isoniacida a 10 mg/kg, propia de esquemas intermitentes antiguos; en la fase diaria es 5 mg/kg con tope de 300 mg.",
+    "Es el cálculo por kilo sin aplicar los topes; la isoniacida tiene máximo de 300 mg y la rifampicina de 600 mg.",
+    "Subdosifica la rifampicina; a 10 mg/kg con 70 kg corresponde aplicar el tope de 600 mg.",
+    ""
+   ],
+   "trampa": [
+    "umbral",
+    "otro-momento",
+    "umbral",
+    "umbral",
+    ""
+   ],
+   "perla": "Primera fase: H 5 (≤300), R 10 (≤600), Z 25 (≤2000) y E 20 mg/kg (≤1600).",
+   "fuente": {
+    "carpeta": "6.NEUMOLOGIA",
+    "archivo": "9.TBC.pdf",
+    "seccion": "pág 2-3 · Esquemas, dosis y Modificaciones NT 2024"
+   },
+   "gemela_de": null
+  },
+  {
+   "id": "2026-10-22-banco-neumo-tbc-009",
+   "enunciado": "Varón de 23 años, estudiante, con 3 semanas de dolor torácico derecho que aumenta con la inspiración, fiebre vespertina y tos seca. PA 115/70 mmHg, FC 98 X', FR 22 X', T° 38,0 °C, SatO2 95 % (FiO2 0,21). Matidez y abolición del murmullo vesicular en la mitad inferior del hemitórax derecho. Toracocentesis: líquido amarillo citrino; proteínas 5,1 g/dl (séricas 6,8); LDH 520 U/l (sérica 300); 2800 células/mm3 con 90 % de linfocitos; glucosa 70 mg/dl; Gram y baciloscopía del líquido negativos. ¿Qué determinación en el líquido apoya mejor la etiología sospechada?",
+   "opciones": [
+    "pH del líquido pleural menor de 7,2 para decidir drenaje",
+    "Relación de LDH pleural/sérica para clasificar el líquido",
+    "Citología del líquido pleural en busca de células malignas",
+    "Repetir la baciloscopía del líquido pleural en tres muestras",
+    "Adenosina desaminasa (ADA) elevada en el líquido pleural"
+   ],
+   "clave": 5,
+   "especialidad": "Neumología",
+   "tema": "Compromiso pleural · prueba de apoyo",
+   "diagnostico": "Derrame pleural bacilar",
+   "tipo": "prueba",
+   "dificultad": "alta",
+   "razonamiento": "Paso 1: proteínas pleura/suero 0,75 y LDH pleura/suero 1,7 con predominio linfocitario y líquido amarillo citrino. Paso 2: líquido inflamatorio linfocitario en un joven con fiebre vespertina y 3 semanas de evolución, con baciloscopía negativa por baja carga bacilar pleural. Paso 3: la determinación que mejor apoya la causa bacilar es la ADA elevada en el líquido; la confirmación definitiva puede requerir biopsia o cultivo.",
+   "por_que_no": [
+    "El pH bajo define el derrame paraneumónico complicado que requiere drenaje; no identifica la causa bacilar.",
+    "Esa relación ya muestra que el líquido es inflamatorio; clasificarlo no identifica la etiología del proceso.",
+    "La citología orienta a neoplasia en el adulto mayor con líquido linfocitario; en un joven febril subagudo la ADA es la más útil.",
+    "La carga bacilar pleural es muy baja (es la forma menos contagiosa); la baciloscopía rinde poco aunque se repita.",
+    ""
+   ],
+   "trampa": [
+    "otro-contexto",
+    "otro-momento",
+    "diferencial",
+    "no-confirmatorio",
+    ""
+   ],
+   "perla": "Líquido pleural linfocitario amarillo citrino en joven febril → ADA elevada apoya causa bacilar; la BK del líquido casi siempre es negativa.",
+   "fuente": {
+    "carpeta": "_SISTEMA_BANCOS/fichas",
+    "archivo": "Neumologia/Tuberculosis.md",
+    "seccion": "Tratamiento sensible, VIH y perlas"
+   },
+   "gemela_de": null
+  },
+  {
+   "id": "2026-10-22-banco-neumo-tbc-010",
+   "enunciado": "Mujer de 29 años, trabajadora sexual, con prueba rápida reactiva para VIH confirmada esta semana (CD4 90 células/mm3, sin TAR previo). Desde hace 1 mes tiene tos con flema, fiebre y diarrea intermitente; perdió 8 kg. PA 100/60 mmHg, FC 108 X', FR 24 X', T° 38,4 °C, SatO2 92 % (FiO2 0,21). Prueba molecular de esputo: MTB detectado, resistencia a rifampicina no detectada. Perfil hepático normal. Hoy inicia el esquema de primera línea. ¿Cuál es la conducta respecto a la terapia antirretroviral?",
+   "opciones": [
+    "Iniciar el TAR hoy mismo junto con el esquema antibacilar",
+    "Iniciar primero el TAR y el esquema antibacilar en 8 semanas",
+    "Diferir el TAR hasta que el cultivo de esputo se negativice",
+    "Iniciar el TAR entre la 2.ª y 8.ª semana del esquema actual",
+    "Diferir el TAR hasta completar los 6 meses del esquema"
+   ],
+   "clave": 4,
+   "especialidad": "Neumología",
+   "tema": "Coinfección VIH · inicio de TAR",
+   "diagnostico": "Enfermedad pulmonar sensible en VIH sin TAR, CD4 90",
+   "tipo": "conducta",
+   "dificultad": "muy alta",
+   "razonamiento": "Paso 1: VIH recién confirmado con CD4 90 y enfermedad pulmonar con prueba molecular positiva sensible. Paso 2: en la coinfección se inicia primero el esquema antibacilar (2HREZ/4HR, 6 meses) y el TAR se agrega dentro de 2 a 8 semanas según CD4; con CD4 bajo, en el extremo temprano. Paso 3: se vigila el síndrome de reconstitución inmune tras iniciar el TAR.",
+   "por_que_no": [
+    "Iniciar ambos a la vez aumenta el riesgo de síndrome de reconstitución inmune; primero va el esquema y luego el TAR en 2-8 semanas.",
+    "Invertir el orden deja progresar una infección bacilífera; en la coinfección el esquema antibacilar va primero.",
+    "La negativización no condiciona el TAR; se inicia dentro de la ventana de 2-8 semanas según el CD4.",
+    "",
+    "Esperar al final expone a progresión del VIH y a otras oportunistas; el TAR no se pospone hasta el término."
+   ],
+   "trampa": [
+    "otro-momento",
+    "otro-contexto",
+    "otro-momento",
+    "",
+    "otro-momento"
+   ],
+   "perla": "Coinfección: primero el esquema antibacilar; TAR entre la 2.ª y 8.ª semana según CD4; vigilar reconstitución inmune.",
+   "fuente": {
+    "carpeta": "_SISTEMA_BANCOS/fichas",
+    "archivo": "Neumologia/Tuberculosis.md",
+    "seccion": "Tratamiento sensible, VIH y perlas"
+   },
+   "gemela_de": null
+  },
+  {
+   "id": "2026-10-22-banco-neumo-tbc-011",
+   "enunciado": "Varón de 38 años con VIH en TAR irregular (CD4 60 células/mm3) presenta 6 semanas de tos con flema, fiebre y adenopatías cervicales de 3 cm, duras, indoloras y adheridas entre sí, una de ellas fistulizada a piel. PA 110/70 mmHg, FC 100 X', FR 22 X', T° 38,0 °C, SatO2 94 % (FiO2 0,21). Sin cefalea, rigidez de nuca ni dolor vertebral; examen neurológico normal. Esputo y aspirado ganglionar con prueba molecular: MTB detectado, sin resistencia a rifampicina. ¿Qué esquema y duración corresponden?",
+   "opciones": [
+    "2HREZ diario (50 dosis) y 4H3R3 intermitente (54 dosis)",
+    "2HREZ diario (50 dosis) y 4HR diario (100 dosis): 6 meses",
+    "2HREZ diario (50 dosis) y 10HR diario (250 dosis): 12 meses",
+    "2HREZ diario (50 dosis) y 2HR diario (50 dosis): 4 meses",
+    "2HPMZ y 2HPM con rifapentina y moxifloxacino: 4 meses"
+   ],
+   "clave": 2,
+   "especialidad": "Neumología",
+   "tema": "Coinfección VIH · forma ganglionar · duración",
+   "diagnostico": "Enfermedad pulmonar y ganglionar cervical en VIH",
+   "tipo": "tratamiento",
+   "dificultad": "muy alta",
+   "razonamiento": "Paso 1: adenopatías cervicales duras, adheridas y fistulizadas más tos, con prueba molecular positiva sensible. Paso 2: es compromiso pulmonar y ganglionar sin afectación del sistema nervioso ni osteoarticular, en VIH con CD4 60. Paso 3: la norma indica para VIH (pulmonar y extrapulmonar sin SNC ni osteoarticular) 2HREZ/4HR diario, 6 meses; el acortado de 4 meses no es elegible con CD4 menor de 100.",
+   "por_que_no": [
+    "La segunda fase tres veces por semana es de la norma antigua; la vigente es diaria con 100 dosis.",
+    "",
+    "Los 12 meses se reservan a compromiso del sistema nervioso, osteoarticular o diseminado; el ganglionar con VIH se trata 6 meses.",
+    "El esquema de 4 meses se reserva a niños con enfermedad no grave, no a adultos con VIH.",
+    "El acortado de la OMS excluye VIH con CD4 menor de 100 y formas extrapulmonares graves; además no es estándar en Perú."
+   ],
+   "trampa": [
+    "otro-momento",
+    "",
+    "otro-estadio",
+    "otra-poblacion",
+    "otra-poblacion"
+   ],
+   "perla": "VIH con forma pulmonar o extrapulmonar sin SNC ni osteoarticular: 2HREZ/4HR, 6 meses, igual que el resto.",
+   "fuente": {
+    "carpeta": "6.NEUMOLOGIA",
+    "archivo": "Neumología -  Fundamentos teóricos_ENAM 2024.pdf",
+    "seccion": "pág 48-54 · Diagnóstico y esquemas"
+   },
+   "gemela_de": null
+  },
+  {
+   "id": "2026-10-22-banco-neumo-tbc-012",
+   "enunciado": "Varón de 24 años, VIH no reactivo, con 3 semanas de cefalea progresiva, fiebre y vómitos; desde ayer ve doble al mirar a la derecha. PA 125/80 mmHg, FC 96 X', FR 18 X', T° 38,3 °C, SatO2 97 % (FiO2 0,21). Glasgow 14, rigidez de nuca, no abduce el ojo derecho. LCR: 280 células/mm3 con 85 % de mononucleares, proteínas 260 mg/dl, glucosa 28 mg/dl (glicemia 110 mg/dl); prueba molecular del LCR positiva, sin resistencia a rifampicina. Pesa 60 kg. ¿Cuál es el tratamiento indicado?",
+   "opciones": [
+    "2HREZ y 4HR (6 meses) más prednisona 1-1,5 mg/kg/día",
+    "Ceftriaxona y vancomicina más dexametasona hasta el cultivo",
+    "2HREZ y 10HR (12 meses) sin corticoide asociado",
+    "2HREZ y 10HR (12 meses) más prednisona 1-1,5 mg/kg/día",
+    "2HREZ y 4HR (6 meses) sin corticoide asociado"
+   ],
+   "clave": 4,
+   "especialidad": "Neumología",
+   "tema": "Compromiso meníngeo · esquema y corticoide",
+   "diagnostico": "Meningoencefalitis bacilar",
+   "tipo": "tratamiento",
+   "dificultad": "muy alta",
+   "razonamiento": "Paso 1: LCR con pleocitosis mononuclear, proteínas muy altas, glucosa baja (índice 0,25), parálisis del VI par y curso de 3 semanas. Paso 2: la prueba molecular del LCR confirma compromiso meníngeo bacilar sensible, forma grave. Paso 3: corresponde 2HREZ (50 dosis) y 10HR (250 dosis), 12 meses, más prednisona 1-1,5 mg/kg/día para reducir inflamación y secuelas.",
+   "por_que_no": [
+    "Seis meses bastan en formas pulmonares o extrapulmonares sin SNC ni osteoarticular; aquí hay compromiso meníngeo.",
+    "Sería el empírico ante LCR purulento con neutrófilos y curso agudo; aquí predominan mononucleares, curso subagudo y prueba molecular positiva.",
+    "Omitir el corticoide es correcto en formas no graves; en la meníngea se asocia para reducir inflamación y secuelas.",
+    "",
+    "Es el manejo de la forma pulmonar simple; en la meníngea faltan duración y corticoide."
+   ],
+   "trampa": [
+    "otro-estadio",
+    "diferencial",
+    "otro-contexto",
+    "",
+    "otro-estadio"
+   ],
+   "perla": "Meníngea, osteoarticular o diseminada: 2HREZ/10HR (12 meses); corticoide en meníngea, pericárdica y diseminada.",
+   "fuente": {
+    "carpeta": "6.NEUMOLOGIA",
+    "archivo": "9.TBC.pdf",
+    "seccion": "pág 2-3 · TB extrapulmonar y corticoides"
+   },
+   "gemela_de": null
+  },
+  {
+   "id": "2026-10-22-banco-neumo-tbc-013",
+   "enunciado": "Niña de 4 años, 13 kg, con tos de 4 semanas, fiebre intermitente y estancamiento ponderal (bajó 1 kg en 2 meses). Su tío, que vive con ella, recibe tratamiento desde hace 1 mes por esputo positivo. FC 120 X', FR 30 X', T° 38,1 °C, SatO2 95 % (FiO2 0,21). Murmullo vesicular disminuido en la base derecha. Radiografía de tórax: adenopatía hiliar derecha con opacidad en el lóbulo medio. PPD 14 mm. No logra expectorar pese a la fisioterapia respiratoria. ¿Qué muestra y prueba son las indicadas para la confirmación bacteriológica?",
+   "opciones": [
+    "Dos esputos espontáneos para baciloscopía con tinción de Ziehl-Neelsen",
+    "Biopsia ganglionar periférica con prueba molecular",
+    "Repetir el PPD en 8 semanas para documentar conversión",
+    "IGRA en sangre para confirmar la enfermedad activa",
+    "Aspirado gástrico en ayunas para prueba molecular y cultivo"
+   ],
+   "clave": 5,
+   "especialidad": "Neumología",
+   "tema": "Niño · confirmación bacteriológica",
+   "diagnostico": "Enfermedad pulmonar pediátrica con adenopatía hiliar",
+   "tipo": "prueba",
+   "dificultad": "alta",
+   "razonamiento": "Paso 1: niña con criterio clínico (tos, fiebre, baja de peso), epidemiológico (conviviente bacilífero), radiológico (adenopatía hiliar) e inmunológico (PPD 14 mm). Paso 2: reúne 3 o más criterios de enfermedad pediátrica, pero no expectora y es paucibacilar. Paso 3: la muestra indicada es el aspirado gástrico en ayunas, procesado con prueba molecular rápida y cultivo, obligatorio en niños.",
+   "por_que_no": [
+    "Es la muestra del adulto que expectora; la niña no logra expectorar y además suele ser paucibacilar.",
+    "Se indica ante adenopatía periférica accesible; aquí la adenopatía es hiliar y la muestra gástrica es suficiente.",
+    "El PPD ya mide 14 mm; la conversión indica infección reciente y no confirma enfermedad.",
+    "Las pruebas inmunológicas muestran infección, no enfermedad; el PPD ya es positivo y tampoco confirma.",
+    ""
+   ],
+   "trampa": [
+    "otra-poblacion",
+    "otro-contexto",
+    "otro-momento",
+    "no-confirmatorio",
+    ""
+   ],
+   "perla": "Niño que no expectora → aspirado gástrico con prueba molecular y cultivo; el diagnóstico pediátrico exige ≥3 criterios.",
+   "fuente": {
+    "carpeta": "6.NEUMOLOGIA",
+    "archivo": "Neumología -  Fundamentos teóricos_ENAM 2024.pdf",
+    "seccion": "pág 48-54 · Diagnóstico y esquemas"
+   },
+   "gemela_de": null
+  },
+  {
+   "id": "2026-10-22-banco-neumo-tbc-014",
+   "enunciado": "Varón de 50 años, con cavidad apical derecha de 4 cm y tratamiento irregular desde hace 3 meses, acude por expectoración de sangre roja rutilante: unos 300 ml en las últimas 12 horas. PA 95/60 mmHg, FC 118 X', FR 26 X', T° 37,5 °C, SatO2 89 % (FiO2 0,21). Palidez marcada, crépitos en todo el hemitórax derecho. Hemoglobina 9,2 g/dl, plaquetas 240 000/mm3, INR 1,1. La radiografía muestra la misma cavidad, sin nivel hidroaéreo ni neumotórax. ¿Cuál es la complicación más probable que explica el sangrado?",
+   "opciones": [
+    "Absceso pulmonar con nivel hidroaéreo y vómica purulenta",
+    "Fístula broncopleural con paso de aire al espacio pleural",
+    "Aneurisma de Rasmussen por erosión arterial en la caverna",
+    "Bola fúngica colonizando la cavidad residual (aspergiloma)",
+    "Empiema por rotura de la caverna hacia la cavidad pleural"
+   ],
+   "clave": 3,
+   "especialidad": "Neumología",
+   "tema": "Caverna · hemoptisis masiva",
+   "diagnostico": "Hemoptisis masiva por aneurisma de Rasmussen",
+   "tipo": "complicacion",
+   "dificultad": "alta",
+   "razonamiento": "Paso 1: 300 ml de sangre en 12 horas con hipotensión, taquicardia y caída de hemoglobina: hemoptisis masiva. Paso 2: coagulación normal y cavidad activa sin nivel ni neumotórax ubican el origen en la pared de la caverna. Paso 3: la complicación vascular típica es la rotura de un aneurisma de Rasmussen (arteria erosionada en la caverna), que exige estabilización y manejo quirúrgico o endovascular.",
+   "por_que_no": [
+    "La vómica purulenta con nivel hidroaéreo orienta a absceso; aquí el sangrado es rutilante en una caverna conocida.",
+    "Es otra complicación de la caverna, pero se manifiesta con neumotórax o hidroneumotórax, no con sangrado masivo.",
+    "",
+    "El aspergiloma también sangra, pero ocupa una cavidad residual con menisco aéreo, no una caverna activa en tratamiento.",
+    "El empiema complica la caverna, pero produce fiebre, dolor pleurítico y derrame, no hemoptisis masiva."
+   ],
+   "trampa": [
+    "diferencial",
+    "mismo-grupo",
+    "",
+    "diferencial",
+    "mismo-grupo"
+   ],
+   "perla": "Caverna activa + hemoptisis masiva = aneurisma de Rasmussen; otras complicaciones: fístula broncopleural y empiema.",
+   "fuente": {
+    "carpeta": "6.NEUMOLOGIA",
+    "archivo": "TBC_Tarjetas_ENAM_EsSalud.pdf",
+    "seccion": "Parte 1 · Clínica y complicaciones; Parte 2 · diferencial de cavidad"
+   },
+   "gemela_de": null
+  },
+  {
+   "id": "2026-10-22-banco-neumo-tbc-015",
+   "enunciado": "Varón de 61 años, 58 kg, en el segundo mes de la primera fase del esquema sensible, refiere desde hace 10 días visión borrosa bilateral, leve dolor periocular y dificultad para distinguir el rojo del verde en el semáforo. PA 130/80 mmHg, FC 76 X', FR 16 X', T° 36,6 °C, SatO2 96 % (FiO2 0,21). Agudeza visual 20/60 en ambos ojos, fondo de ojo normal, sin parestesias ni ictericia. Orina de color anaranjado. ¿A qué fármaco y toxicidad corresponde el cuadro?",
+   "opciones": [
+    "Etambutol, por neuritis óptica retrobulbar",
+    "Rifampicina, por tinción anaranjada de secreciones",
+    "Isoniacida, por encefalopatía y convulsiones",
+    "Isoniacida, por neuropatía periférica por déficit de B6",
+    "Pirazinamida, por hiperuricemia con artralgias"
+   ],
+   "clave": 1,
+   "especialidad": "Neumología",
+   "tema": "RAFA · toxicidad ocular",
+   "diagnostico": "Neuritis óptica retrobulbar por etambutol",
+   "tipo": "mecanismo",
+   "dificultad": "media",
+   "razonamiento": "Paso 1: pérdida de agudeza visual bilateral con discromatopsia rojo-verde, dolor periocular y fondo de ojo normal durante la primera fase. Paso 2: el patrón de lesión del nervio óptico detrás del globo (retrobulbar) es la firma del etambutol, bacteriostático que inhibe la arabinosil-transferasa. Paso 3: la orina naranja es efecto benigno de la rifampicina y no se relaciona; la visión se controla antes y durante el uso de etambutol.",
+   "por_que_no": [
+    "",
+    "La rifampicina tiñe orina y lágrimas sin dañar la visión; explica la orina naranja, no la discromatopsia.",
+    "La encefalopatía con convulsiones por isoniacida se describe en recién nacidos; no explica un déficit visual en el adulto.",
+    "La isoniacida da neuropatía periférica sensitiva prevenible con piridoxina; la discromatopsia rojo-verde con fondo normal es del etambutol.",
+    "La pirazinamida produce hiperuricemia, artralgias y hepatotoxicidad; no causa alteración de la visión cromática."
+   ],
+   "trampa": [
+    "",
+    "mismo-grupo",
+    "otra-poblacion",
+    "mismo-grupo",
+    "mismo-grupo"
+   ],
+   "perla": "Etambutol → ojo (rojo-verde, fondo normal); isoniacida → nervio; rifampicina → naranja; pirazinamida → úrico e hígado.",
+   "fuente": {
+    "carpeta": "6.NEUMOLOGIA",
+    "archivo": "TBC_2_TRATAMIENTO_SENSIBLE_RESISTENTE_Tarjetas_ENAM_EsSalud.pdf",
+    "seccion": "p. 3 · TB sensible: esquema, RAFA, piridoxina"
+   },
+   "gemela_de": null
+  },
+  {
+   "id": "2026-10-22-banco-neumo-tbc-016",
+   "enunciado": "Varón de 55 años, con diabetes tipo 2 de 12 años de evolución y consumo diario de 4 cervezas, inicia la primera fase del esquema sensible por esputo positivo. Refiere ardor ocasional en las plantas desde hace meses. PA 135/85 mmHg, FC 80 X', FR 17 X', T° 36,9 °C, SatO2 96 % (FiO2 0,21). Glicemia 168 mg/dl, creatinina 0,9 mg/dl, transaminasas normales. Sensibilidad vibratoria disminuida en ambos pies. ¿Qué suplemento y dosis deben agregarse para prevenir la toxicidad neurológica del esquema?",
+   "opciones": [
+    "Ácido fólico 5 mg al día durante la primera fase",
+    "Piridoxina 50 mg al día durante todo el uso de isoniacida",
+    "Piridoxina 50 mg al día solo si aparece neuropatía franca",
+    "Tiamina 100 mg al día por el consumo crónico de alcohol",
+    "Cianocobalamina 1000 µg mensual por la neuropatía diabética"
+   ],
+   "clave": 2,
+   "especialidad": "Neumología",
+   "tema": "Prevención de neuropatía · piridoxina",
+   "diagnostico": "Paciente de alto riesgo de neuropatía por isoniacida",
+   "tipo": "dosis",
+   "dificultad": "media",
+   "razonamiento": "Paso 1: diabético y bebedor con neuropatía sensitiva previa que inicia isoniacida. Paso 2: la isoniacida depleta piridoxina y causa neuropatía periférica; diabetes y alcohol elevan ese riesgo. Paso 3: la NTS indica piridoxina 50 mg/día a todo paciente que recibe isoniacida, durante todo su uso, con énfasis en gestantes, VIH, diabéticos, alcohólicos y desnutridos.",
+   "por_que_no": [
+    "El ácido fólico se usa en gestación o anemia megaloblástica; no previene la neuropatía por isoniacida.",
+    "",
+    "La norma la indica de forma profiláctica a todo paciente con isoniacida, no solo cuando ya hay neuropatía.",
+    "La tiamina cubre un déficit nutricional del bebedor, pero la neuropatía por isoniacida se debe a depleción de B6.",
+    "La B12 corrige un déficit específico; la toxicidad neurológica de la isoniacida se previene con piridoxina."
+   ],
+   "trampa": [
+    "mismo-grupo",
+    "",
+    "otro-momento",
+    "diferencial",
+    "diferencial"
+   ],
+   "perla": "Toda isoniacida va con piridoxina 50 mg/día; clave en diabetes, alcohol, VIH, gestación y desnutrición.",
+   "fuente": {
+    "carpeta": "6.NEUMOLOGIA",
+    "archivo": "TBC_2_TRATAMIENTO_SENSIBLE_RESISTENTE_Tarjetas_ENAM_EsSalud.pdf",
+    "seccion": "p. 3 · TB sensible: esquema, RAFA, piridoxina"
+   },
+   "gemela_de": null
+  },
+  {
+   "id": "2026-10-22-banco-neumo-tbc-017",
+   "enunciado": "Varón de 47 años, 80 kg, en la quinta semana de la primera fase del esquema sensible, consulta por dolor intenso, calor y rubor en la primera articulación metatarsofalángica derecha desde hace 12 horas. PA 140/85 mmHg, FC 92 X', FR 18 X', T° 37,6 °C, SatO2 97 % (FiO2 0,21). Ácido úrico 10,4 mg/dl, TGO 38 U/l, TGP 42 U/l, bilirrubina total 0,9 mg/dl. Orina de color anaranjado y sin parestesias. ¿Cuál de estos antibacilares es el responsable más probable del episodio articular?",
+   "opciones": [
+    "Levofloxacino",
+    "Rifampicina",
+    "Pirazinamida",
+    "Isoniacida",
+    "Estreptomicina"
+   ],
+   "clave": 3,
+   "especialidad": "Neumología",
+   "tema": "RAFA · artritis aguda",
+   "diagnostico": "Hiperuricemia con artritis por pirazinamida",
+   "tipo": "complicacion",
+   "dificultad": "alta",
+   "razonamiento": "Paso 1: monoartritis aguda de la primera metatarsofalángica con ácido úrico 10,4 mg/dl en la quinta semana de primera fase. Paso 2: transaminasas casi normales y orina naranja (efecto benigno de la rifampicina) no explican la artritis. Paso 3: la pirazinamida, que actúa en medio ácido intracelular, es la causa clásica de hiperuricemia y artralgias, además de ser la más hepatotóxica del esquema.",
+   "por_que_no": [
+    "La quinolona forma parte de esquemas para resistencia, no del esquema sensible que recibe; no explica la hiperuricemia.",
+    "La rifampicina explica la orina anaranjada y puede dar colestasis, pero no eleva el ácido úrico ni causa artritis.",
+    "",
+    "La isoniacida causa neuropatía periférica y hepatotoxicidad; no produce hiperuricemia ni artritis aguda.",
+    "La estreptomicina es de primera línea pero no del esquema estándar actual; su toxicidad es ótica y renal, no articular."
+   ],
+   "trampa": [
+    "otro-contexto",
+    "diferencial",
+    "",
+    "mismo-grupo",
+    "otro-contexto"
+   ],
+   "perla": "Pirazinamida: la más hepatotóxica y la que sube el ácido úrico (artralgias, gota).",
+   "fuente": {
+    "carpeta": "6.NEUMOLOGIA",
+    "archivo": "TBC_Tarjetas_ENAM_EsSalud.pdf",
+    "seccion": "Parte 2 · Diagnóstico, RAFA y seguimiento"
+   },
+   "gemela_de": null
+  },
+  {
+   "id": "2026-10-22-banco-neumo-tbc-018",
+   "enunciado": "Una estudiante de 19 años, 50 kg, en la segunda semana del esquema sensible, acude asustada porque su orina, sudor y lágrimas se han teñido de color naranja intenso. Niega dolor abdominal, prurito, coluria o vómitos; come bien. PA 105/65 mmHg, FC 78 X', FR 16 X', T° 36,7 °C, SatO2 98 % (FiO2 0,21). Escleras anictéricas. TGP 28 U/l, bilirrubina total 0,8 mg/dl. Usa un anticonceptivo oral combinado desde hace 1 año. ¿Cuál es la conducta más adecuada?",
+   "opciones": [
+    "Suspender la rifampicina y continuar con los otros tres fármacos",
+    "Tranquilizar, continuar el esquema y mantener el mismo anticonceptivo",
+    "Cambiar la rifampicina por levofloxacino en la primera fase",
+    "Tranquilizar, continuar el esquema y usar otro método anticonceptivo",
+    "Suspender todo el esquema hasta repetir el perfil hepático"
+   ],
+   "clave": 4,
+   "especialidad": "Neumología",
+   "tema": "Rifampicina · secreciones e interacciones",
+   "diagnostico": "Tinción anaranjada benigna e inducción enzimática por rifampicina",
+   "tipo": "conducta",
+   "dificultad": "media",
+   "razonamiento": "Paso 1: secreciones anaranjadas sin ictericia, con transaminasas y bilirrubina normales. Paso 2: es la tinción benigna por rifampicina, que no obliga a suspender; pero la rifampicina es inductor del citocromo P450 y reduce la eficacia de anticonceptivos orales, warfarina y otros. Paso 3: se explica que es inocuo, se continúa el esquema supervisado y se indica un método anticonceptivo no hormonal oral durante el tratamiento.",
+   "por_que_no": [
+    "Retirar un fármaco se justifica ante toxicidad grave; la tinción naranja es benigna y la rifampicina es el fármaco más potente.",
+    "Tranquilizar es correcto, pero la rifampicina induce el citocromo P450 y reduce la eficacia del anticonceptivo oral.",
+    "El levofloxacino sustituye a la isoniacida cuando hay resistencia a ella, no a la rifampicina por un efecto benigno.",
+    "",
+    "Se suspendería ante ictericia o daño hepático; aquí bilirrubina y transaminasas son normales."
+   ],
+   "trampa": [
+    "otro-contexto",
+    "otro-contexto",
+    "diferencial",
+    "",
+    "otro-contexto"
+   ],
+   "perla": "Rifampicina: secreciones naranjas (benigno) e inductor del P450 → falla del anticonceptivo oral y de la warfarina.",
+   "fuente": {
+    "carpeta": "6.NEUMOLOGIA",
+    "archivo": "TBC_Tarjetas_ENAM_EsSalud.pdf",
+    "seccion": "Parte 2 · Diagnóstico, RAFA y seguimiento"
+   },
+   "gemela_de": null
+  },
+  {
+   "id": "2026-10-22-banco-neumo-tbc-019",
+   "enunciado": "Mujer de 26 años, gestante de 18 semanas, con tos y flema de 4 semanas, febrícula y baja de 3 kg. PA 100/65 mmHg, FC 94 X', FR 20 X', T° 37,7 °C, SatO2 96 % (FiO2 0,21). Altura uterina acorde a la edad gestacional, latidos fetales 148 X'. Prueba molecular de esputo: MTB detectado, resistencia a rifampicina no detectada. VIH no reactivo, perfil hepático normal. Pesa 54 kg. Pregunta si puede esperar al parto para tratarse. ¿Cuál es el manejo farmacológico adecuado?",
+   "opciones": [
+    "2HREZ/4HR diario con piridoxina 50 mg/día desde el inicio",
+    "2HPMZ/2HPM con rifapentina y moxifloxacino por 4 meses",
+    "Diferir el tratamiento hasta después del parto por seguridad fetal",
+    "2HREZ más estreptomicina diaria y luego 4HR (6 meses)",
+    "2HREZ/4HR diario sin piridoxina, para evitar fármacos extra"
+   ],
+   "clave": 1,
+   "especialidad": "Neumología",
+   "tema": "Gestante · esquema",
+   "diagnostico": "Enfermedad pulmonar sensible en gestante de 18 semanas",
+   "tipo": "tratamiento",
+   "dificultad": "alta",
+   "razonamiento": "Paso 1: gestante de 18 semanas con prueba molecular positiva sin resistencia a rifampicina. Paso 2: la gestación no contraindica la primera línea, pero excluye el acortado con rifapentina y contraindica la estreptomicina (antibacilar contraindicado en gestante). Paso 3: se indica el esquema estándar 2HREZ/4HR diario supervisado, iniciado dentro de 24 horas, más piridoxina 50 mg/día.",
+   "por_que_no": [
+    "",
+    "El acortado de 4 meses de la OMS excluye a gestantes, además de no ser estándar en Perú.",
+    "Diferir expone a progresión materna y contagio al recién nacido; los fármacos de primera línea se usan en la gestación.",
+    "La estreptomicina está contraindicada en la gestación por ototoxicidad; nunca se agrega en este escenario.",
+    "La norma indica piridoxina a todo paciente con isoniacida y la resalta en gestantes."
+   ],
+   "trampa": [
+    "",
+    "otra-poblacion",
+    "otro-momento",
+    "otra-poblacion",
+    "otro-contexto"
+   ],
+   "perla": "Gestante sensible: 2HREZ/4HR + piridoxina; la estreptomicina es el antibacilar contraindicado en el embarazo.",
+   "fuente": {
+    "carpeta": "6.NEUMOLOGIA",
+    "archivo": "9.TBC.pdf",
+    "seccion": "pág 2-3 · Esquemas, dosis y Modificaciones NT 2024"
+   },
+   "gemela_de": null
+  },
+  {
+   "id": "2026-10-22-banco-neumo-tbc-020",
+   "enunciado": "Una mujer de 34 años convive con su esposo, que inició hace 5 días tratamiento por esputo positivo sensible. En la visita del estudio de contactos refiere tos con flema de 3 semanas y sudoración nocturna. PA 110/70 mmHg, FC 90 X', FR 19 X', T° 37,6 °C, SatO2 96 % (FiO2 0,21). Crépitos apicales derechos. PPD 16 mm. VIH no reactivo; no está gestando. La enfermera propone iniciar hoy terapia preventiva por el PPD positivo. ¿Cuál es la conducta correcta?",
+   "opciones": [
+    "No dar terapia preventiva y estudiar el esputo de inmediato",
+    "Iniciar 3HP semanal por 12 dosis al confirmarse el PPD positivo",
+    "Solicitar IGRA para confirmar la infección antes de decidir",
+    "Iniciar 2HREZ/4HR empírico sin estudio bacteriológico",
+    "Iniciar isoniacida 6 meses con piridoxina por el PPD de 16 mm"
+   ],
+   "clave": 1,
+   "especialidad": "Neumología",
+   "tema": "Contacto sintomático · antes de TPT",
+   "diagnostico": "Contacto con probable enfermedad activa",
+   "tipo": "contraindicacion",
+   "dificultad": "muy alta",
+   "razonamiento": "Paso 1: contacto intradomiciliaria con tos y flema de 3 semanas, sudoración y crépitos apicales: es sintomática respiratoria. Paso 2: antes de cualquier terapia preventiva es obligatorio descartar enfermedad activa; dar preventivo a una enferma genera resistencia. Paso 3: se contraindica la TPT por ahora y se estudia el esputo con prueba molecular o baciloscopía y radiografía; si se descarta enfermedad, recién se indica TPT.",
+   "por_que_no": [
+    "",
+    "Sería correcto en una contacto adulta asintomática con radiografía normal; con síntomas primero se descarta enfermedad activa.",
+    "El IGRA, como el PPD, mide infección y no distingue enfermedad activa; el problema aquí es descartar enfermedad.",
+    "El tratamiento sin confirmación se reserva a pruebas negativas con alta sospecha o a gravedad; primero se toma la muestra.",
+    "La isoniacida sola en una enferma activa selecciona resistencia; solo procede si se descarta enfermedad."
+   ],
+   "trampa": [
+    "",
+    "otro-estadio",
+    "no-confirmatorio",
+    "otro-momento",
+    "otro-estadio"
+   ],
+   "perla": "Antes de TPT siempre descartar enfermedad activa: contacto con síntomas → esputo, no profilaxis.",
+   "fuente": {
+    "carpeta": "6.NEUMOLOGIA",
+    "archivo": "TBC_2_TRATAMIENTO_SENSIBLE_RESISTENTE_Tarjetas_ENAM_EsSalud.pdf",
+    "seccion": "p. 4 · TB resistente (BPaLM/BPaL) y TPT"
+   },
+   "gemela_de": null
+  },
+  {
+   "id": "2026-10-22-banco-neumo-tbc-021",
+   "enunciado": "Niño de 3 años, 14 kg, hijo de un caso índice con esputo positivo sensible que inició tratamiento hace 1 semana. Asintomático, sin tos ni fiebre, curva de peso adecuada. PA 90/55 mmHg, FC 104 X', FR 24 X', T° 36,8 °C, SatO2 98 % (FiO2 0,21). Examen físico normal, sin adenopatías. Radiografía de tórax normal. PPD 3 mm. Tiene cicatriz de BCG. En el establecimiento están disponibles todos los esquemas preventivos. ¿Cuál es la conducta según la norma vigente?",
+   "opciones": [
+    "Iniciar 3HP semanal por 12 dosis pese al PPD de 3 mm",
+    "Iniciar isoniacida con rifampicina diario por 3 meses (3HR)",
+    "Repetir el PPD en 8 semanas y decidir según su conversión",
+    "Iniciar 2HREZ/2HR por la edad y la exposición intensa",
+    "No indicar terapia preventiva con un PPD menor de 5 mm"
+   ],
+   "clave": 1,
+   "especialidad": "Neumología",
+   "tema": "TPT · menor de 5 años",
+   "diagnostico": "Contacto pediátrico de 3 años sin enfermedad",
+   "tipo": "conducta",
+   "dificultad": "alta",
+   "razonamiento": "Paso 1: niño de 3 años, contacto de caso pulmonar bacilífero, asintomático con examen y radiografía normales. Paso 2: se descartó enfermedad y, por ser menor de 5 años, tiene indicación de TPT sin importar el PPD (que además puede ser falsamente negativo). Paso 3: de 2 a 14 años el esquema de elección es 3HP (isoniacida más rifapentina semanal, 12 dosis), con 3HR como alternativa.",
+   "por_que_no": [
+    "",
+    "3HR es la elección en menores de 2 años; de 2 a 14 años es la alternativa al 3HP.",
+    "La conversión del PPD es criterio en otros grupos; en el menor de 5 años contacto se inicia TPT tras descartar enfermedad.",
+    "Ese esquema de 4 meses trata enfermedad no grave; este niño asintomático con radiografía normal solo tiene exposición.",
+    "En menores de 5 años contacto de caso pulmonar la TPT no depende del PPD; el corte importa en mayores de 5 años con caso índice no confirmado."
+   ],
+   "trampa": [
+    "",
+    "otra-poblacion",
+    "otro-momento",
+    "otro-estadio",
+    "umbral"
+   ],
+   "perla": "Contacto <5 años de caso pulmonar: TPT tras descartar enfermedad, sin mirar el PPD; ≥2 años 3HP, <2 años 3HR.",
+   "fuente": {
+    "carpeta": "28. NT",
+    "archivo": "5. NT TBC.pdf",
+    "seccion": "pág 1 · Definiciones, estudio de contactos y TPT"
+   },
+   "gemela_de": null
+  },
+  {
+   "id": "2026-10-22-banco-neumo-tbc-022",
+   "enunciado": "Niño de 8 años, 26 kg, convive con su madre, en quien la prueba de sensibilidad confirmó resistencia a isoniacida y rifampicina con sensibilidad a fluoroquinolonas; ella inició esquema oral hace 1 semana. El niño está asintomático, con peso y talla adecuados. FC 90 X', FR 20 X', T° 36,7 °C, SatO2 99 % (FiO2 0,21). Examen físico y radiografía de tórax normales. PPD 12 mm. No tiene alergias ni otras enfermedades. ¿Qué terapia preventiva corresponde a este niño?",
+   "opciones": [
+    "Isoniacida más rifampicina diario por 3 meses (3HR)",
+    "Rifampicina sola diaria por 4 meses (4R)",
+    "Levofloxacino diario por 6 meses (15-20 mg/kg/día)",
+    "Bedaquilina, pretomanid, linezolid y moxifloxacino 6 meses",
+    "Isoniacida más rifapentina semanal por 12 dosis (3HP)"
+   ],
+   "clave": 3,
+   "especialidad": "Neumología",
+   "tema": "TPT · contacto de cepa resistente",
+   "diagnostico": "Contacto pediátrico de caso con resistencia a H y R",
+   "tipo": "tratamiento",
+   "dificultad": "muy alta",
+   "razonamiento": "Paso 1: niño asintomático con radiografía normal y PPD 12 mm, contacto de cepa resistente a isoniacida y rifampicina. Paso 2: tiene infección sin enfermedad, pero los esquemas con isoniacida o rifamicinas no protegen frente a esa cepa. Paso 3: la norma indica levofloxacino diario por 6 meses (en ≤14 años 15-20 mg/kg/día, máximo 750 mg) y controles del contacto cada 3 meses.",
+   "por_que_no": [
+    "3HR sirve en contactos de cepa sensible, sobre todo menores de 2 años; aquí ambos fármacos están resistidos.",
+    "Es opción ante intolerancia a isoniacida con cepa sensible a rifampicina; aquí la rifampicina está resistida.",
+    "",
+    "BPaLM trata enfermedad resistente confirmada; este niño solo tiene infección, sin enfermedad activa.",
+    "Es la elección de 2 a 14 años con caso índice sensible; con cepa resistente a isoniacida no protege."
+   ],
+   "trampa": [
+    "otro-contexto",
+    "diferencial",
+    "",
+    "otro-estadio",
+    "otro-contexto"
+   ],
+   "perla": "Contacto de cepa resistente a rifampicina/MDR: TPT con levofloxacino 6 meses, no con isoniacida ni rifamicinas.",
+   "fuente": {
+    "carpeta": "6.NEUMOLOGIA",
+    "archivo": "9.TBC.pdf",
+    "seccion": "pág 2-3 · TPT (Tabla N° 2-4), RN hijo de madre con TB y lactancia"
+   },
+   "gemela_de": null
+  },
+  {
+   "id": "2026-10-22-banco-neumo-tbc-023",
+   "enunciado": "Varón de 28 años, sin comorbilidades y VIH no reactivo, convive con su hermano, caso índice pulmonar sin confirmación bacteriológica (dos esputos y prueba molecular negativos; tratado por clínica y radiografía). Está asintomático. PA 120/70 mmHg, FC 72 X', FR 16 X', T° 36,5 °C, SatO2 98 % (FiO2 0,21). Examen físico y radiografía de tórax normales. PPD: induración de 7 mm a las 72 horas. No es trabajador de salud ni tiene otro factor de riesgo. ¿Cuál es la conducta respecto a la terapia preventiva?",
+   "opciones": [
+    "Indicar 3HP al superar el PPD el corte de 5 mm",
+    "Indicar 3HP por tratarse de un contacto intradomiciliario",
+    "No indicarla y mantener los controles programados del contacto",
+    "Iniciar 2HREZ/4HR por el antecedente de exposición",
+    "Indicar isoniacida 6 meses y repetir el PPD al terminar"
+   ],
+   "clave": 3,
+   "especialidad": "Neumología",
+   "tema": "TPT · contacto adulto, caso no confirmado",
+   "diagnostico": "Contacto adulto sin criterio de TPT",
+   "tipo": "norma",
+   "dificultad": "muy alta",
+   "razonamiento": "Paso 1: adulto sano, asintomático, con radiografía normal y PPD 7 mm. Paso 2: el caso índice no tiene confirmación bacteriológica; en contactos de 5 años o más la norma exige entonces PPD ≥10 mm u otra prueba inmunológica positiva, y 7 mm no alcanza el corte de inmunocompetentes. Paso 3: no se indica TPT y se mantienen los controles del contacto (inicio, cambio de fase y término).",
+   "por_que_no": [
+    "El corte de 5 mm es para inmunosuprimidos o VIH; en un adulto sano el positivo es ≥10 mm.",
+    "Bastaría el contacto si el caso índice tuviera confirmación bacteriológica; sin ella se exige PPD ≥10 mm.",
+    "",
+    "Tratar enfermedad requiere síntomas, radiografía o bacteriología compatibles; este contacto está sano.",
+    "La isoniacida preventiva se da a contactos con criterio de TPT; con 7 mm y caso no confirmado no lo cumple."
+   ],
+   "trampa": [
+    "otra-poblacion",
+    "otro-contexto",
+    "",
+    "otro-estadio",
+    "umbral"
+   ],
+   "perla": "≥5 años: TPT si el caso índice está confirmado; si no lo está, solo con PPD ≥10 mm o IGRA positivo.",
+   "fuente": {
+    "carpeta": "28. NT",
+    "archivo": "5. NT TBC.pdf",
+    "seccion": "pág 1 · Definiciones, estudio de contactos y TPT"
+   },
+   "gemela_de": null
+  },
+  {
+   "id": "2026-10-22-banco-neumo-tbc-024",
+   "enunciado": "Mujer de 33 años con VIH en TAR desde hace 2 años, carga viral indetectable y CD4 520 células/mm3; nunca recibió terapia preventiva. Su compañero de oficina inició hace 10 días tratamiento por esputo positivo sensible. Está asintomática: sin tos, fiebre, sudoración ni pérdida de peso. PA 115/70 mmHg, FC 74 X', FR 16 X', T° 36,6 °C, SatO2 99 % (FiO2 0,21). Radiografía de tórax normal. PPD 0 mm. ¿Cuál es la conducta indicada?",
+   "opciones": [
+    "Indicar terapia preventiva sin considerar el resultado del PPD",
+    "Solicitar IGRA y dar TPT solo si resulta positivo",
+    "Repetir el PPD en 8 semanas y decidir con el nuevo valor",
+    "Iniciar 2HREZ/4HR por la inmunosupresión y la exposición",
+    "No indicarla por el PPD negativo y el buen recuento de linfocitos CD4"
+   ],
+   "clave": 1,
+   "especialidad": "Neumología",
+   "tema": "TPT · persona con VIH",
+   "diagnostico": "Contacto con VIH sin enfermedad activa",
+   "tipo": "conducta",
+   "dificultad": "alta",
+   "razonamiento": "Paso 1: persona con VIH, contacto de caso bacilífero, asintomática y con radiografía normal: se descartó enfermedad activa. Paso 2: la norma incluye a toda persona con VIH que nunca recibió TPT y, si es contacto de un caso positivo, la indica independientemente del PPD, que puede ser falsamente negativo. Paso 3: se inicia TPT (en VIH, isoniacida 6 meses con piridoxina u otro esquema disponible).",
+   "por_que_no": [
+    "",
+    "Una prueba inmunológica negativa no excluye infección en VIH y no condiciona la TPT en este grupo.",
+    "Esperar la conversión sirve en otros grupos; en VIH contacto se indica tras descartar enfermedad activa.",
+    "Sin síntomas ni radiografía anormal no hay enfermedad que tratar; corresponde solo prevención.",
+    "En VIH el PPD negativo no descarta infección; la TPT se indica independientemente del PPD."
+   ],
+   "trampa": [
+    "",
+    "no-confirmatorio",
+    "otro-momento",
+    "otro-estadio",
+    "umbral"
+   ],
+   "perla": "VIH contacto de caso positivo: TPT sin importar el PPD, siempre tras descartar enfermedad activa.",
+   "fuente": {
+    "carpeta": "6.NEUMOLOGIA",
+    "archivo": "9.TBC.pdf",
+    "seccion": "pág 2-3 · TPT (Tabla N° 2-4), RN hijo de madre con TB y lactancia"
+   },
+   "gemela_de": null
+  },
+  {
+   "id": "2026-10-22-banco-neumo-tbc-025",
+   "enunciado": "Una médica residente de 27 años, vacunada con BCG al nacer, ingresa a rotar en un servicio de infectología de un hospital de Lima. En el tamizaje de ingreso está asintomática, sin tos, fiebre ni pérdida de peso. PA 110/70 mmHg, FC 70 X', FR 15 X', T° 36,4 °C, SatO2 99 % (FiO2 0,21). Examen físico y radiografía de tórax normales. PPD: 11 mm. Se busca la prueba con menor interferencia por la vacuna, de una sola visita y lectura objetiva, para decidir la terapia preventiva. ¿Cuál es la prueba más adecuada?",
+   "opciones": [
+    "Repetir el PPD en el antebrazo contrario a las 2 semanas",
+    "Dos baciloscopías de esputo seriadas en días distintos",
+    "Cultivo de esputo en medio líquido MGIT",
+    "Prueba de liberación de interferón gamma (IGRA) en sangre",
+    "Prueba molecular rápida Xpert MTB/RIF en esputo inducido"
+   ],
+   "clave": 4,
+   "especialidad": "Neumología",
+   "tema": "Infección latente · BCG y elección de prueba",
+   "diagnostico": "Posible infección latente en vacunada con BCG",
+   "tipo": "prueba",
+   "dificultad": "media",
+   "razonamiento": "Paso 1: trabajadora de salud asintomática, radiografía normal y PPD 11 mm. Paso 2: el PPD puede dar falso positivo por BCG o micobacterias atípicas; el IGRA no se afecta por la vacuna, requiere una visita y tiene lectura objetiva (sensibilidad 95 %, especificidad 98 %). Paso 3: se solicita IGRA; si es positivo y se descartó enfermedad, corresponde TPT.",
+   "por_que_no": [
+    "Repetir el PPD mantiene la interferencia por BCG y exige dos visitas con lectura subjetiva.",
+    "La baciloscopía busca bacilos en enfermos; con radiografía normal y sin síntomas no evalúa infección latente.",
+    "El cultivo confirma enfermedad y sensibilidad; no sirve para demostrar infección latente.",
+    "",
+    "La prueba molecular busca enfermedad activa en sintomáticos; no evalúa infección latente en una asintomática."
+   ],
+   "trampa": [
+    "no-confirmatorio",
+    "otro-contexto",
+    "otro-contexto",
+    "",
+    "otro-contexto"
+   ],
+   "perla": "PPD positivo en vacunado con BCG → IGRA: una visita, lectura objetiva y sin interferencia de la vacuna.",
+   "fuente": {
+    "carpeta": "6.NEUMOLOGIA",
+    "archivo": "9.TBC.pdf",
+    "seccion": "pág 1-2 · Baciloscopía, recolección de muestra y pruebas diagnósticas"
+   },
+   "gemela_de": null
+  },
+  {
+   "id": "2026-10-22-banco-neumo-tbc-026",
+   "enunciado": "Varón de 52 años, caso nuevo con esputo positivo y prueba molecular inicial sin resistencia a rifampicina, cumple 5 meses de 2HREZ/4HR supervisado con 125 dosis registradas en la tarjeta. La baciloscopía negativizó al 2.º mes, pero las de control del 4.º y 5.º mes son positivas (6 y 9 BAAR en 100 campos). Refiere tos persistente. PA 120/75 mmHg, FC 88 X', FR 19 X', T° 37,3 °C, SatO2 95 % (FiO2 0,21). Peso estable. ¿Cuál es la conducta inmediata?",
+   "opciones": [
+    "Prolongar la segunda fase con HR hasta 9 meses en total",
+    "Iniciar BPaLM de inmediato sin esperar la sensibilidad",
+    "Continuar igual: 1-9 BAAR es un resultado paucibacilar",
+    "Declarar fracaso y pedir cultivo con prueba de sensibilidad",
+    "Agregar levofloxacino al esquema actual mientras se espera el cultivo"
+   ],
+   "clave": 4,
+   "especialidad": "Neumología",
+   "tema": "Fracaso bacteriológico · conducta",
+   "diagnostico": "Fracaso del esquema sensible (sospecha de resistencia)",
+   "tipo": "conducta",
+   "dificultad": "muy alta",
+   "razonamiento": "Paso 1: baciloscopía que negativizó y vuelve a positivizar al 4.º y 5.º mes pese a tratamiento supervisado. Paso 2: reversión y positividad desde el 4.º mes definen fracaso del esquema sensible y obligan a sospechar resistencia. Paso 3: se solicita cultivo con prueba de sensibilidad (molecular rápida para H y R) y se decide el nuevo esquema según el resultado, sin agregar fármacos aislados.",
+   "por_que_no": [
+    "Prolongar sin conocer la sensibilidad perpetúa un esquema que falla y favorece la resistencia adquirida.",
+    "BPaLM requiere demostrar resistencia a rifampicina; primero se documenta con prueba de sensibilidad rápida.",
+    "Paucibacilar sigue siendo positivo; la reversión o la positividad desde el 4.º mes definen fracaso.",
+    "",
+    "Añadir un solo fármaco a un esquema que falla es monoterapia encubierta y genera resistencia adquirida."
+   ],
+   "trampa": [
+    "otro-estadio",
+    "otro-momento",
+    "umbral",
+    "",
+    "otro-contexto"
+   ],
+   "perla": "BK positiva desde el 4.º mes o reversión = fracaso → cultivo y prueba de sensibilidad; nunca añadir un solo fármaco.",
+   "fuente": {
+    "carpeta": "6.NEUMOLOGIA",
+    "archivo": "9.TBC.pdf",
+    "seccion": "pág 1 · Definiciones operativas y condición de ingreso/egreso"
+   },
+   "gemela_de": null
+  },
+  {
+   "id": "2026-10-22-banco-neumo-tbc-027",
+   "enunciado": "Mujer de 36 años, vendedora ambulante, inició 2HREZ/4HR hace 4 meses; tras completar 50 dosis de primera fase y 10 de segunda, dejó de acudir durante 45 días consecutivos por un viaje. Regresa al establecimiento con tos y flema. PA 110/70 mmHg, FC 92 X', FR 20 X', T° 37,8 °C, SatO2 94 % (FiO2 0,21). Crépitos apicales izquierdos. Baciloscopía actual positiva. Nunca recibió otro tratamiento. ¿Cómo se clasifica su condición de ingreso y qué se debe solicitar?",
+   "opciones": [
+    "Recaída; reiniciar el mismo esquema sin otras pruebas",
+    "Caso nuevo; reiniciar 2HREZ/4HR desde la primera dosis",
+    "Fracaso de tratamiento; iniciar BPaLM de forma empírica",
+    "Pérdida en seguimiento recuperada; completar las dosis faltantes",
+    "Pérdida en seguimiento recuperada; prueba rápida de sensibilidad"
+   ],
+   "clave": 5,
+   "especialidad": "Neumología",
+   "tema": "Condición de ingreso · interrupción",
+   "diagnostico": "Pérdida en el seguimiento recuperada",
+   "tipo": "norma",
+   "dificultad": "muy alta",
+   "razonamiento": "Paso 1: recibió 60 dosis (más de 30 días) y luego interrumpió 45 días consecutivos. Paso 2: interrumpir 30 días o más define pérdida en el seguimiento; al ser captada de nuevo para reiniciar, ingresa como pérdida en seguimiento recuperada (caso antes tratado). Paso 3: el abandono es factor de riesgo de resistencia, por lo que se evalúa de inmediato con prueba rápida de sensibilidad antes de definir el esquema.",
+   "por_que_no": [
+    "La recaída exige haber egresado curada o con tratamiento completo; ella interrumpió antes de terminar.",
+    "Caso nuevo es quien nunca recibió o recibió menos de 30 días; ella recibió 60 dosis.",
+    "El fracaso es positividad persistente o reversión estando en tratamiento; aquí hubo interrupción de 30 días o más.",
+    "La clasificación es correcta, pero continuar sin evaluar sensibilidad ignora el riesgo de resistencia por abandono.",
+    ""
+   ],
+   "trampa": [
+    "diferencial",
+    "umbral",
+    "diferencial",
+    "otro-momento",
+    ""
+   ],
+   "perla": "Interrupción ≥30 días = pérdida en seguimiento; al regresar es recuperada y requiere prueba rápida de sensibilidad.",
+   "fuente": {
+    "carpeta": "6.NEUMOLOGIA",
+    "archivo": "9.TBC.pdf",
+    "seccion": "pág 1 · Definiciones operativas y condición de ingreso/egreso"
+   },
+   "gemela_de": null
+  },
+  {
+   "id": "2026-10-22-banco-neumo-tbc-028",
+   "enunciado": "En la revisión de tarjetas de control de un centro de salud de San Juan de Lurigancho, una paciente de 44 años con esputo positivo inicial completó sus 150 dosis (50 de primera fase y 100 de segunda) en 6 meses. Su baciloscopía fue negativa al 2.º y 3.º mes; no acudió a dejar muestras en el 5.º ni en el 6.º mes. En el último control está asintomática y recuperó 4 kg: PA 115/70 mmHg, FC 76 X', FR 16 X', T° 36,6 °C, SatO2 98 % (FiO2 0,21). ¿Cómo debe registrarse su condición de egreso?",
+   "opciones": [
+    "Curada, por las baciloscopías negativas durante el tratamiento",
+    "Tratamiento completo, que cuenta como éxito de tratamiento",
+    "Pérdida en seguimiento, por no entregar las muestras finales",
+    "Fracaso de tratamiento, por falta de conversión documentada",
+    "No evaluado, hasta obtener un cultivo de control final"
+   ],
+   "clave": 2,
+   "especialidad": "Neumología",
+   "tema": "Condición de egreso · tarjeta de control",
+   "diagnostico": "Tratamiento completo (éxito de tratamiento)",
+   "tipo": "norma",
+   "dificultad": "alta",
+   "razonamiento": "Paso 1: completó las 150 dosis del esquema en 6 meses. Paso 2: no tiene baciloscopía ni cultivo negativo del último mes, requisito para registrarla como curada. Paso 3: la condición de egreso es tratamiento completo (cumple el esquema sin criterios de curado), que junto con curado suma al indicador de éxito de tratamiento.",
+   "por_que_no": [
+    "Curado exige baciloscopía o cultivo negativo en el último mes; los negativos intermedios no bastan.",
+    "",
+    "Pérdida en seguimiento es interrumpir 30 días o más el tratamiento; ella tomó todas las dosis.",
+    "El fracaso requiere positividad desde el 4.º mes o falta de conversión; ella negativizó al 2.º mes.",
+    "No evaluado se usa cuando se desconoce el resultado; aquí está documentado que completó el esquema."
+   ],
+   "trampa": [
+    "umbral",
+    "",
+    "diferencial",
+    "diferencial",
+    "otro-momento"
+   ],
+   "perla": "Curado = BK/cultivo negativo en el último mes; completo = terminó sin ese control; éxito = curado + completo.",
+   "fuente": {
+    "carpeta": "6.NEUMOLOGIA",
+    "archivo": "9.TBC.pdf",
+    "seccion": "pág 1 · Definiciones operativas y condición de ingreso/egreso"
+   },
+   "gemela_de": null
+  },
+  {
+   "id": "2026-10-22-banco-neumo-tbc-029",
+   "enunciado": "La enfermera del programa de un centro de salud de Arequipa recibe a un caso índice de 40 años con esputo positivo sensible que inicia hoy 2HREZ/4HR. Vive con su esposa de 38 años y tres hijos de 6, 10 y 15 años, todos asintomáticos; además trabaja en un taller con 6 compañeros. Funciones vitales del caso: PA 120/80 mmHg, FC 86 X', FR 18 X', T° 37,4 °C, SatO2 96 % (FiO2 0,21). ¿Cómo debe organizarse el estudio de contactos según la norma?",
+   "opciones": [
+    "Esperar a que el caso índice negativice para censar contactos",
+    "Censar solo a los convivientes y examinarlos recién al cambio de fase",
+    "Censar a todos y controlarlos cada 3 meses hasta el término",
+    "Censar intra y extradomiciliarios y examinarlos en máximo 2 semanas",
+    "Examinar solo a los menores de 5 años, que son de mayor riesgo"
+   ],
+   "clave": 4,
+   "especialidad": "Neumología",
+   "tema": "Estudio de contactos · organización",
+   "diagnostico": "Caso índice sensible con contactos intra y extradomiciliarios",
+   "tipo": "norma",
+   "dificultad": "alta",
+   "razonamiento": "Paso 1: caso índice bacilífero sensible con contactos intradomiciliarios (esposa e hijos) y extradomiciliarios (taller). Paso 2: el estudio comprende censo, examen integral (evaluación clínica más radiografía, PPD/IGRA o bacteriología) y control, sin esperar la evolución del caso índice. Paso 3: censo y examen integral se completan en un plazo máximo de 2 semanas; luego al menos 3 controles: inicio, cambio de fase y término.",
+   "por_que_no": [
+    "El estudio de contactos se hace independientemente de que el caso índice haya iniciado o no tratamiento.",
+    "Se incluyen también los extradomiciliarios y el examen no espera al cambio de fase, que es un control posterior.",
+    "Los controles cada 3 meses son para contactos de cepa resistente; en sensible son al inicio, cambio de fase y término.",
+    "",
+    "Los menores de 5 años son prioridad para TPT, pero el censo y el examen incluyen a todos los contactos."
+   ],
+   "trampa": [
+    "otro-momento",
+    "otro-momento",
+    "otro-contexto",
+    "",
+    "otra-poblacion"
+   ],
+   "perla": "Contactos: censo + examen integral en ≤2 semanas; controles en sensible al inicio, cambio de fase y término; en resistente cada 3 meses.",
+   "fuente": {
+    "carpeta": "28. NT",
+    "archivo": "5. NT TBC.pdf",
+    "seccion": "pág 1 · Definiciones, estudio de contactos y TPT"
+   },
+   "gemela_de": null
+  },
+  {
+   "id": "2026-10-22-banco-neumo-tbc-030",
+   "enunciado": "Lactante de 3 meses, 5,8 kg, cuya madre fue confirmada con esputo positivo sensible al momento del parto e inició tratamiento ese mismo día. Al nacer tenía examen físico normal, no recibió BCG e inició terapia preventiva con isoniacida. Hoy acude a control: recibe lactancia materna directa con la madre usando mascarilla, sin tos ni fiebre y con ganancia ponderal adecuada. FC 130 X', FR 36 X', T° 36,8 °C, SatO2 98 % (FiO2 0,21). Examen físico normal. PPD: 2 mm. ¿Cuál es la conducta con este lactante en el control?",
+   "opciones": [
+    "Suspender la isoniacida y diferir la BCG hasta el año",
+    "Pasar a leche extraída y repetir el PPD en 3 meses",
+    "Completar 6 meses de isoniacida y luego aplicar BCG",
+    "Iniciar 2HREZ/2HR por ser hijo de madre bacilífera",
+    "Suspender la isoniacida y aplicar la vacuna BCG"
+   ],
+   "clave": 5,
+   "especialidad": "Neumología",
+   "tema": "Recién nacido de madre bacilífera · control",
+   "diagnostico": "Lactante expuesto sin infección a los 3 meses",
+   "tipo": "conducta",
+   "dificultad": "alta",
+   "razonamiento": "Paso 1: lactante de madre bacilífera sensible, sano al nacer, que recibió terapia preventiva y hoy está asintomático. Paso 2: a los 3 meses el PPD de 2 mm (menor de 5 mm) indica que no se infectó. Paso 3: la conducta es suspender la isoniacida y vacunar con BCG; la lactancia directa con mascarilla continúa porque la madre está en tratamiento.",
+   "por_que_no": [
+    "No hay motivo para diferir; la BCG se aplica al suspender la terapia preventiva con PPD menor de 5 mm.",
+    "La leche extraída se indica si la madre no recibe tratamiento; con madre tratada se mantiene la lactancia directa con mascarilla.",
+    "Se completan 6 meses solo si el PPD a los 3 meses es ≥5 mm y se descarta enfermedad.",
+    "Tratar enfermedad requiere clínica o radiología compatibles; el lactante está sano y su PPD es negativo.",
+    ""
+   ],
+   "trampa": [
+    "otro-momento",
+    "otro-contexto",
+    "umbral",
+    "otro-estadio",
+    ""
+   ],
+   "perla": "RN de madre bacilífera: isoniacida; a los 3 meses PPD <5 mm → suspender y BCG; ≥5 mm → descartar enfermedad y completar 6 meses.",
+   "fuente": {
+    "carpeta": "6.NEUMOLOGIA",
+    "archivo": "9.TBC.pdf",
+    "seccion": "pág 2-3 · TPT (Tabla N° 2-4), RN hijo de madre con TB y lactancia"
+   },
+   "gemela_de": null
+  }
+ ]
+}

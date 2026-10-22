@@ -1,0 +1,3141 @@
+{
+ "id": "2026-10-22-banco-dbg-vih",
+ "fecha": "2026-10-22",
+ "turno": "noche",
+ "titulo": "Banco · alteración glucémica y VIH en la gestación",
+ "segundos_por_pregunta": 60,
+ "temas_noche": [
+  "Diabetes gestacional",
+  "VIH en la gestante"
+ ],
+ "feedback_noche": "Banco de 80 de los dos temas, en modo retroalimentación. En la alteración glucémica lo que se falla son los números: 92-180-153 de la curva, las metas (<90, <140, <120) y las kilocalorías por kilo. En la infección viral, ordena los tres escenarios: de ellos salen la vía del parto y el esquema del recién nacido.",
+ "perlas_noche": [
+  "Curva de 75 g: ayunas 92, una hora 180, dos horas 153; basta un valor alterado.",
+  "Primera consulta: ayunas 126, glicosilada 6,5 % o azar 200 es previa; 92-125 es del embarazo.",
+  "Dieta 30 kcal/kg, o 25 si el índice pasa de 30; si falla, insulina. Glibenclamida no.",
+  "Carga viral de 1000 o más, o desconocida: cesárea. Menos de 1000: vaginal.",
+  "Recién nacido: zidovudina 4 semanas; carga alta o escenario tres, triple por 6 semanas."
+ ],
+ "preguntas": [
+  {
+   "id": "2026-10-22-banco-dbg-vih-001",
+   "enunciado": "Gestante de 29 años, sin antecedentes, con glucosa en ayunas de 84 mg/dL a las 10 semanas. A las 26 semanas, con la misma dieta y sin cambio de peso significativo, su glucosa en ayunas sube a 97 mg/dL y a la hora de la carga llega a 186 mg/dL. ¿Qué hormona placentaria explica principalmente este cambio del metabolismo materno?",
+   "opciones": [
+    "La prolactina de la hipófisis materna",
+    "La gonadotropina coriónica",
+    "La hormona estimulante de tiroides",
+    "El lactógeno placentario",
+    "La hormona de crecimiento hipofisaria"
+   ],
+   "clave": 4,
+   "especialidad": "Obstetricia",
+   "tema": "Diabetes gestacional",
+   "diagnostico": "Hormona placentaria responsable de la resistencia a la insulina",
+   "tipo": "mecanismo",
+   "dificultad": "alta",
+   "razonamiento": "Paso 1: la glucosa sube en la segunda mitad del embarazo sin cambio de dieta ni de peso. Paso 2: el lactógeno placentario es la hormona que produce resistencia a la insulina, acompañado de la progesterona y los estrógenos que elevan la glucemia. Paso 3: ese mecanismo explica el ascenso de las cifras.",
+   "por_que_no": [
+    "La prolactina prepara la glándula mamaria y no es la hormona de la resistencia descrita.",
+    "La gonadotropina coriónica sostiene el cuerpo lúteo del primer trimestre y no genera esta resistencia.",
+    "La hormona tiroidea no participa del mecanismo de resistencia propio de la segunda mitad.",
+    "",
+    "La hormona de crecimiento hipofisaria disminuye durante la gestación y no explica el cambio descrito."
+   ],
+   "trampa": [
+    "otra-hormona",
+    "otra-hormona",
+    "otra-hormona",
+    "",
+    "otra-hormona"
+   ],
+   "perla": "La resistencia del embarazo la produce el lactógeno placentario.",
+   "fuente": {
+    "carpeta": "2. OBSTETRICIA",
+    "archivo": "8. DM GESTACIONAL.pdf",
+    "seccion": "p. 1, Diagnóstico y tratamiento"
+   },
+   "gemela_de": null
+  },
+  {
+   "id": "2026-10-22-banco-dbg-vih-002",
+   "enunciado": "En una sesión se analiza por qué el feto acelera su ganancia de peso en el tercer trimestre y se revisa el papel de las hormonas placentarias sobre el propio feto, más allá de su efecto sobre el metabolismo materno. Se precisa el momento a partir del cual esa acción fetal se hace evidente, cerca de las 26 semanas. ¿Cuál es esa función fetal?",
+   "opciones": [
+    "La hematopoyesis hepática fetal",
+    "La maduración pulmonar fetal",
+    "El crecimiento fetal",
+    "La producción de líquido amniótico",
+    "La mielinización del sistema nervioso"
+   ],
+   "clave": 3,
+   "especialidad": "Obstetricia",
+   "tema": "Diabetes gestacional",
+   "diagnostico": "Función fetal del lactógeno placentario después de las 26 semanas",
+   "tipo": "mecanismo",
+   "dificultad": "muy alta",
+   "razonamiento": "Paso 1: la pregunta separa el efecto materno del efecto fetal de la hormona placentaria. Paso 2: en el feto, después de las 26 semanas, el lactógeno placentario participa del crecimiento. Paso 3: la insulina fetal, a partir de las 20 semanas, cumple también una función de crecimiento.",
+   "por_que_no": [
+    "La hematopoyesis hepática responde a la eritropoyetina fetal y no a esta hormona.",
+    "La maduración pulmonar depende del cortisol y de los corticoides, no de esta hormona placentaria.",
+    "",
+    "El líquido amniótico depende sobre todo de la diuresis fetal y del pulmón.",
+    "La mielinización depende del aporte de hormona tiroidea y de nutrientes, no de esta vía."
+   ],
+   "trampa": [
+    "otra-funcion",
+    "otra-funcion",
+    "",
+    "otra-funcion",
+    "otra-funcion"
+   ],
+   "perla": "En el feto, lactógeno después de 26 semanas e insulina desde 20: crecimiento.",
+   "fuente": {
+    "carpeta": "2. OBSTETRICIA",
+    "archivo": "8. DM GESTACIONAL.pdf",
+    "seccion": "p. 1, Diagnóstico y tratamiento"
+   },
+   "gemela_de": null
+  },
+  {
+   "id": "2026-10-22-banco-dbg-vih-003",
+   "enunciado": "Cuatro gestantes acuden a su primer control: la primera tiene 36 años, la segunda un índice de masa corporal pregestacional de 34 kg/m2, la tercera una madre con hiperglucemia crónica y la cuarta ciclos irregulares con hiperandrogenismo previos al embarazo. Todas tienen glucosa en ayunas de 85 mg/dL. ¿Cuál de esos antecedentes constituye el factor de riesgo de mayor peso?",
+   "opciones": [
+    "La edad materna mayor de treinta y cinco años",
+    "El índice de masa corporal mayor de treinta",
+    "El antecedente de aborto del primer trimestre",
+    "El antecedente de ciclos irregulares con hiperandrogenismo",
+    "El antecedente familiar de primer grado"
+   ],
+   "clave": 2,
+   "especialidad": "Obstetricia",
+   "tema": "Diabetes gestacional",
+   "diagnostico": "Factor de riesgo de mayor peso para la alteración glucémica del embarazo",
+   "tipo": "norma",
+   "dificultad": "alta",
+   "razonamiento": "Paso 1: los cuatro antecedentes son factores de riesgo reconocidos. Paso 2: la lista incluye edad mayor de 35 años, antecedente familiar, índice de masa corporal mayor de 30, abortos y óbitos, macrosomía previa y ovario poliquístico. Paso 3: el índice mayor de 30 es señalado como el factor de mayor riesgo.",
+   "por_que_no": [
+    "La edad mayor de treinta y cinco es factor de riesgo, pero de menor peso que la obesidad.",
+    "",
+    "Los abortos y los óbitos previos son factores de riesgo de menor peso que la obesidad.",
+    "El síndrome de ovario poliquístico es factor de riesgo reconocido pero no el principal.",
+    "El antecedente familiar cuenta como factor de riesgo sin ser el de mayor magnitud."
+   ],
+   "trampa": [
+    "otro-orden",
+    "",
+    "otro-orden",
+    "otro-orden",
+    "otro-orden"
+   ],
+   "perla": "El índice de masa corporal mayor de 30 es el factor de riesgo número uno.",
+   "fuente": {
+    "carpeta": "2. OBSTETRICIA",
+    "archivo": "8. DM GESTACIONAL.pdf",
+    "seccion": "p. 1, Diagnóstico y tratamiento"
+   },
+   "gemela_de": null
+  },
+  {
+   "id": "2026-10-22-banco-dbg-vih-004",
+   "enunciado": "Gestante de 33 años, de 9 semanas, acude por poliuria, polidipsia y pérdida de 4 kg en el último mes. IMC 31 kg/m2, PA 112/70 mmHg, mucosas algo secas. Se toma una muestra sin ayuno que informa glucosa de 243 mg/dL, con cetonuria negativa y bicarbonato de 24 mEq/L. ¿Cuál es el diagnóstico que corresponde establecer?",
+   "opciones": [
+    "Resistencia fisiológica propia del primer trimestre",
+    "Alteración glucémica propia del embarazo",
+    "Alteración glucémica previa al embarazo",
+    "Hallazgo sin valor diagnóstico por falta de ayuno",
+    "Hiperglucemia por estrés sin alteración metabólica"
+   ],
+   "clave": 3,
+   "especialidad": "Obstetricia",
+   "tema": "Diabetes gestacional",
+   "diagnostico": "Glucemia al azar mayor de 200 en el primer trimestre",
+   "tipo": "diagnostico",
+   "dificultad": "alta",
+   "razonamiento": "Paso 1: en la primera consulta se aceptan tres criterios: ayunas de 126 o más, hemoglobina glicosilada de 6,5 por ciento o más y glucemia al azar de 200 o más. Paso 2: la paciente tiene 243 mg/dL al azar con síntomas clásicos. Paso 3: eso define una alteración que ya existía antes del embarazo.",
+   "por_que_no": [
+    "La resistencia fisiológica aparece en la segunda mitad y no produce estas cifras al inicio.",
+    "La alteración propia del embarazo se define con ayunas entre noventa y dos y ciento veinticinco.",
+    "",
+    "Una glucemia al azar de doscientos o más con síntomas sí tiene valor diagnóstico por sí sola.",
+    "La hiperglucemia por estrés no alcanza estas cifras con poliuria, polidipsia y baja de peso."
+   ],
+   "trampa": [
+    "otro-momento",
+    "otro-criterio",
+    "",
+    "dato-falso",
+    "otro-diagnostico"
+   ],
+   "perla": "Azar de 200 o más en el primer trimestre: la alteración ya venía de antes.",
+   "fuente": {
+    "carpeta": "2. OBSTETRICIA",
+    "archivo": "8. DM GESTACIONAL.pdf",
+    "seccion": "p. 1, Diagnóstico y tratamiento"
+   },
+   "gemela_de": null
+  },
+  {
+   "id": "2026-10-22-banco-dbg-vih-005",
+   "enunciado": "Gestante de 37 años, de 8 semanas, asintomática, acude a su primera atención. IMC 29 kg/m2, con madre y hermana con hiperglucemia crónica. Glucosa en ayunas de 118 mg/dL y hemoglobina glicosilada de 7,1 %. Creatinina 0,6 mg/dL, examen de orina sin glucosuria ni cetonuria. ¿Cuál es el diagnóstico que corresponde establecer?",
+   "opciones": [
+    "Prediabetes que requiere repetir la prueba",
+    "Alteración glucémica previa al embarazo",
+    "Alteración glucémica descartada por la glucosa",
+    "Alteración glucémica propia del embarazo",
+    "Hallazgo de laboratorio sin significado clínico"
+   ],
+   "clave": 2,
+   "especialidad": "Obstetricia",
+   "tema": "Diabetes gestacional",
+   "diagnostico": "Hemoglobina glicosilada elevada en la primera consulta prenatal",
+   "tipo": "diagnostico",
+   "dificultad": "alta",
+   "razonamiento": "Paso 1: la glucosa en ayunas de 118 por sí sola caería en el rango de 92 a 125. Paso 2: la hemoglobina glicosilada de 7,1 por ciento supera el corte de 6,5 por ciento, que en la primera consulta define la alteración previa al embarazo. Paso 3: ese criterio tiene prioridad sobre el rango de ayunas.",
+   "por_que_no": [
+    "Con una glicosilada de seis coma cinco o más no corresponde repetir, el diagnóstico ya está hecho.",
+    "",
+    "La glucosa de ciento dieciocho no descarta nada y la glicosilada ya cumple criterio.",
+    "El valor de ayunas entre noventa y dos y ciento veinticinco define la forma propia del embarazo.",
+    "Una glicosilada de siete coma uno por ciento en el primer trimestre tiene pleno significado clínico."
+   ],
+   "trampa": [
+    "otro-escalon",
+    "",
+    "invertido",
+    "otro-criterio",
+    "dato-falso"
+   ],
+   "perla": "Glicosilada de 6,5 % o más en el primer trimestre: alteración previa.",
+   "fuente": {
+    "carpeta": "2. OBSTETRICIA",
+    "archivo": "8. DM GESTACIONAL.pdf",
+    "seccion": "p. 1, Diagnóstico y tratamiento"
+   },
+   "gemela_de": null
+  },
+  {
+   "id": "2026-10-22-banco-dbg-vih-006",
+   "enunciado": "Gestante de 26 años, sin factores de riesgo, con glucosa en ayunas de 86 mg/dL en su primer control. A las 26 semanas se le realiza la prueba de tolerancia con carga oral de 75 gramos. La obstetra necesita precisar los tres puntos de corte con los que interpretará el resultado. ¿Cuáles son esos tres valores en miligramos por decilitro?",
+   "opciones": [
+    "Noventa en ayunas, ciento sesenta y cinco a la hora y ciento cuarenta y cinco a las dos horas",
+    "Noventa y dos en ayunas, ciento ochenta a la hora y ciento cincuenta y tres a las dos horas",
+    "Ciento veintiséis en ayunas, doscientos a la hora y ciento ochenta a las dos horas",
+    "Noventa y cinco en ayunas, ciento ochenta a la hora y ciento cincuenta y cinco a las dos horas",
+    "Ciento cinco en ayunas, ciento noventa a la hora y ciento sesenta y cinco a las dos horas"
+   ],
+   "clave": 2,
+   "especialidad": "Obstetricia",
+   "tema": "Diabetes gestacional",
+   "diagnostico": "Valores de la curva de tolerancia con 75 gramos",
+   "tipo": "criterio",
+   "dificultad": "alta",
+   "razonamiento": "Paso 1: la prueba indicada entre las 24 y 28 semanas es la de un paso con 75 gramos. Paso 2: sus puntos de corte son 92 en ayunas, 180 a la hora y 153 a las dos horas. Paso 3: basta un valor alterado, a diferencia de los esquemas de dos pasos con 100 gramos.",
+   "por_que_no": [
+    "Esos valores corresponden al criterio original de O'Sullivan con carga de cien gramos.",
+    "",
+    "Esos valores corresponden a los criterios de la alteración glucémica fuera del embarazo.",
+    "Esos valores corresponden a la prueba con carga de cien gramos según el criterio de Carpenter.",
+    "Esos valores corresponden al criterio del grupo nacional de datos, con carga de cien gramos."
+   ],
+   "trampa": [
+    "otro-criterio",
+    "",
+    "otro-contexto",
+    "otro-criterio",
+    "otro-criterio"
+   ],
+   "perla": "Setenta y cinco gramos: 92, 180 y 153.",
+   "fuente": {
+    "carpeta": "2. OBSTETRICIA",
+    "archivo": "8. DM GESTACIONAL.pdf",
+    "seccion": "p. 1, Diagnóstico y tratamiento"
+   },
+   "gemela_de": null
+  },
+  {
+   "id": "2026-10-22-banco-dbg-vih-007",
+   "enunciado": "Gestante de 30 años con prueba de cincuenta gramos alterada, acude para la prueba confirmatoria con carga de cien gramos. Sus valores son: ayunas 98 mg/dL, una hora 172 mg/dL, dos horas 150 mg/dL y tres horas 146 mg/dL. La residente necesita los puntos de corte del criterio de Carpenter y Coustan para interpretarlos. ¿Cuáles son esos cuatro valores?",
+   "opciones": [
+    "Ciento veintiséis, doscientos, ciento ochenta y ciento sesenta",
+    "Noventa y cinco, ciento ochenta, ciento cincuenta y cinco y ciento cuarenta",
+    "Noventa y dos, ciento ochenta, ciento cincuenta y tres y ciento cuarenta",
+    "Noventa, ciento sesenta y cinco, ciento cuarenta y cinco y ciento veinticinco",
+    "Ciento cinco, ciento noventa, ciento sesenta y cinco y ciento cuarenta y cinco"
+   ],
+   "clave": 2,
+   "especialidad": "Obstetricia",
+   "tema": "Diabetes gestacional",
+   "diagnostico": "Criterio de Carpenter y Coustan a las tres horas",
+   "tipo": "criterio",
+   "dificultad": "muy alta",
+   "razonamiento": "Paso 1: la prueba de dos pasos confirma con carga de 100 gramos y cuatro tomas. Paso 2: el criterio de Carpenter y Coustan fija 95 en ayunas, 180 a la hora, 155 a las dos horas y 140 a las tres horas. Paso 3: con esos cortes, dos de los valores de la paciente resultan alterados.",
+   "por_que_no": [
+    "Esos valores corresponden a los criterios aplicables fuera del embarazo.",
+    "",
+    "Los dos primeros corresponden a la carga de setenta y cinco gramos, que no tiene toma de tres horas.",
+    "Esos valores corresponden al criterio original de O'Sullivan y no al de Carpenter.",
+    "Esos valores corresponden al criterio del grupo nacional de datos de diabetes."
+   ],
+   "trampa": [
+    "otro-contexto",
+    "",
+    "otro-criterio",
+    "otro-criterio",
+    "otro-criterio"
+   ],
+   "perla": "Carpenter con cien gramos: 95, 180, 155 y 140.",
+   "fuente": {
+    "carpeta": "2. OBSTETRICIA",
+    "archivo": "8. DM GESTACIONAL.pdf",
+    "seccion": "p. 1, Diagnóstico y tratamiento"
+   },
+   "gemela_de": null
+  },
+  {
+   "id": "2026-10-22-banco-dbg-vih-008",
+   "enunciado": "Gestante de 31 años, G3P1, con un óbito a las 36 semanas de causa no determinada hace tres años y un parto previo de recién nacido de 4 200 g. IMC 27 kg/m2. En su primer control, a las 11 semanas, la glucosa en ayunas fue de 88 mg/dL y la hemoglobina glicosilada de 5,4 %. ¿En qué momento corresponde realizarle la prueba de tolerancia a la glucosa?",
+   "opciones": [
+    "A las treinta y dos semanas, por ser un embarazo de riesgo",
+    "A las veinte semanas, por sus antecedentes",
+    "No requiere la prueba, pues el tamizaje inicial fue normal",
+    "En la siguiente consulta, sin importar la edad gestacional",
+    "A las veinticuatro a veintiocho semanas, como a cualquier gestante"
+   ],
+   "clave": 2,
+   "especialidad": "Obstetricia",
+   "tema": "Diabetes gestacional",
+   "diagnostico": "Tamizaje adelantado a las 20 semanas por óbito previo inexplicado",
+   "tipo": "examen",
+   "dificultad": "alta",
+   "razonamiento": "Paso 1: la glucosa inicial fue normal, de modo que no hay diagnóstico en el primer trimestre. Paso 2: la mortalidad perinatal inexplicada y la macrosomía previa figuran entre los factores que permiten adelantar el tamizaje. Paso 3: con ellos la prueba se realiza desde las 20 semanas en lugar de esperar a las 24 o 28.",
+   "por_que_no": [
+    "Las treinta y dos semanas retrasan el diagnóstico y no corresponden a ningún esquema.",
+    "",
+    "El tamizaje inicial normal no exime de la prueba posterior, menos aún con antecedentes.",
+    "Adelantar la prueba antes de las veinte semanas reduce su rendimiento diagnóstico.",
+    "Ese es el momento del tamizaje universal, pero sus antecedentes permiten adelantarlo."
+   ],
+   "trampa": [
+    "inventado",
+    "",
+    "dato-falso",
+    "otro-momento",
+    "otra-poblacion"
+   ],
+   "perla": "Con factores de riesgo, la curva se adelanta a las 20 semanas.",
+   "fuente": {
+    "carpeta": "2. OBSTETRICIA",
+    "archivo": "8. DM GESTACIONAL.pdf",
+    "seccion": "p. 1, Diagnóstico y tratamiento"
+   },
+   "gemela_de": null
+  },
+  {
+   "id": "2026-10-22-banco-dbg-vih-009",
+   "enunciado": "Gestante de 28 años, primigesta de 10 semanas, con antecedente de ciclos de sesenta a noventa días desde la menarquia, acné e hirsutismo, que logró el embarazo tras inducción de la ovulación. IMC 26 kg/m2, glucosa en ayunas 89 mg/dL. Pregunta si su antecedente ginecológico la expone a alguna complicación metabólica del embarazo. ¿Cuál es la respuesta correcta?",
+   "opciones": [
+    "Sí, pero el tamizaje se posterga hasta el tercer trimestre",
+    "Sí, ese antecedente es factor de riesgo y obliga a tamizarla",
+    "Sí, pero solo si además tiene un índice de masa corporal mayor de treinta",
+    "No, ese antecedente solo aumenta el riesgo de aborto temprano",
+    "No, ese antecedente desaparece al lograrse la gestación"
+   ],
+   "clave": 2,
+   "especialidad": "Obstetricia",
+   "tema": "Diabetes gestacional",
+   "diagnostico": "Ovario poliquístico como factor de riesgo",
+   "tipo": "norma",
+   "dificultad": "media",
+   "razonamiento": "Paso 1: los ciclos largos con hiperandrogenismo configuran un síndrome de ovario poliquístico. Paso 2: ese síndrome figura entre los factores de riesgo de la alteración glucémica del embarazo, junto con la obesidad, la edad, el antecedente familiar y la macrosomía previa. Paso 3: corresponde tamizarla.",
+   "por_que_no": [
+    "Postergar al tercer trimestre retrasa el diagnóstico y el tratamiento oportuno.",
+    "",
+    "El antecedente cuenta por sí solo, sin necesidad de sumar obesidad para justificar el tamizaje.",
+    "El riesgo descrito no se limita al aborto: incluye la alteración glucémica del embarazo.",
+    "El antecedente no desaparece con el embarazo y mantiene su valor como factor de riesgo."
+   ],
+   "trampa": [
+    "otro-momento",
+    "",
+    "otro-criterio",
+    "otro-desenlace",
+    "dato-falso"
+   ],
+   "perla": "Ovario poliquístico: factor de riesgo que obliga a tamizar.",
+   "fuente": {
+    "carpeta": "2. OBSTETRICIA",
+    "archivo": "8. DM GESTACIONAL.pdf",
+    "seccion": "p. 1, Diagnóstico y tratamiento"
+   },
+   "gemela_de": null
+  },
+  {
+   "id": "2026-10-22-banco-dbg-vih-010",
+   "enunciado": "Gestante de 32 años, de 29 semanas, en manejo con dieta y ejercicio por una alteración glucémica detectada a las 26 semanas. Trae su cuaderno de automonitoreo y pregunta cuáles son las cifras que debe alcanzar antes de comer y después de comer para no necesitar fármacos. ¿Cuáles son las metas que corresponde indicarle?",
+   "opciones": [
+    "Preprandial menor de ciento veinte, una hora menor de ciento ochenta y dos horas menor de ciento cincuenta",
+    "Preprandial menor de cien, una hora menor de ciento sesenta y dos horas menor de ciento cuarenta",
+    "Preprandial menor de noventa, una hora menor de ciento cuarenta y dos horas menor de ciento veinte",
+    "Preprandial menor de setenta, una hora menor de ciento veinte y dos horas menor de cien",
+    "Preprandial menor de ciento veintiséis, una hora menor de doscientos y dos horas menor de ciento ochenta"
+   ],
+   "clave": 3,
+   "especialidad": "Obstetricia",
+   "tema": "Diabetes gestacional",
+   "diagnostico": "Metas de control glucémico en la alteración propia del embarazo",
+   "tipo": "norma",
+   "dificultad": "alta",
+   "razonamiento": "Paso 1: la paciente está en tratamiento no farmacológico y necesita metas para su automonitoreo. Paso 2: las metas son glucosa preprandial menor de 90, posprandial de una hora menor de 140 y de dos horas menor de 120. Paso 3: si no se alcanzan, corresponde iniciar el tratamiento farmacológico.",
+   "por_que_no": [
+    "Esas cifras corresponden a los puntos de corte diagnósticos y no a las metas del tratamiento.",
+    "Esas cifras no corresponden a las metas normadas para el control de la gestante.",
+    "",
+    "Esas metas son excesivamente estrictas y exponen a la gestante a hipoglucemia.",
+    "Esas cifras corresponden a criterios diagnósticos fuera del embarazo, no a metas de control."
+   ],
+   "trampa": [
+    "otro-objetivo",
+    "inventado",
+    "",
+    "dosis-excesiva",
+    "otro-contexto"
+   ],
+   "perla": "Metas: menos de 90 antes, menos de 140 a la hora y menos de 120 a las dos horas.",
+   "fuente": {
+    "carpeta": "2. OBSTETRICIA",
+    "archivo": "8. DM GESTACIONAL.pdf",
+    "seccion": "p. 1, Diagnóstico y tratamiento"
+   },
+   "gemela_de": null
+  },
+  {
+   "id": "2026-10-22-banco-dbg-vih-011",
+   "enunciado": "Gestante de 34 años, de 31 semanas, con alteración glucémica detectada a las 25 semanas, en dieta e insulina desde hace tres semanas. Sus glucemias capilares están en meta y se solicita hemoglobina glicosilada de control, que informa 6,2 %. Pregunta si ese valor es aceptable para su embarazo. ¿Cuál es la meta que corresponde en este caso?",
+   "opciones": [
+    "Menor de siete coma cinco por ciento",
+    "Menor de ocho por ciento",
+    "Menor de siete por ciento",
+    "Menor de seis por ciento",
+    "Menor de seis coma cinco por ciento"
+   ],
+   "clave": 5,
+   "especialidad": "Obstetricia",
+   "tema": "Diabetes gestacional",
+   "diagnostico": "Meta de hemoglobina glicosilada en la alteración propia del embarazo",
+   "tipo": "norma",
+   "dificultad": "alta",
+   "razonamiento": "Paso 1: la paciente tiene una alteración glucémica que apareció durante el embarazo. Paso 2: en esa situación la meta de hemoglobina glicosilada es menor de 6,5 por ciento. Paso 3: en la alteración previa al embarazo la meta es más estricta, menor de 6 por ciento, con glucosas preprandiales entre 60 y 99.",
+   "por_que_no": [
+    "Ese valor corresponde a metas de poblaciones con comorbilidad fuera del embarazo.",
+    "Ese valor es claramente insuficiente como meta durante la gestación.",
+    "Ese valor es más permisivo que la meta establecida para la gestante.",
+    "Ese valor más estricto corresponde a la meta de la alteración que ya existía antes del embarazo.",
+    ""
+   ],
+   "trampa": [
+    "otro-contexto",
+    "otro-objetivo",
+    "otro-objetivo",
+    "otra-poblacion",
+    ""
+   ],
+   "perla": "Glicosilada: menos de 6,5 % si apareció en el embarazo; menos de 6 % si ya existía.",
+   "fuente": {
+    "carpeta": "2. OBSTETRICIA",
+    "archivo": "8. DM GESTACIONAL.pdf",
+    "seccion": "p. 1, Diagnóstico y tratamiento"
+   },
+   "gemela_de": null
+  },
+  {
+   "id": "2026-10-22-banco-dbg-vih-012",
+   "enunciado": "Gestante de 30 años con hiperglucemia diagnosticada hace seis años, en insulina, acude a las 12 semanas. Trae automonitoreo con glucosas preprandiales entre 110 y 130 mg/dL y posprandiales de una hora entre 150 y 170 mg/dL, con hemoglobina glicosilada de 7,2 %. ¿Cuáles son las metas que corresponde fijarle para el resto de la gestación?",
+   "opciones": [
+    "Preprandial entre ochenta y ciento diez, una hora menor de ciento cincuenta, glicosilada menor de ocho",
+    "Preprandial entre cien y ciento treinta, una hora menor de ciento sesenta, glicosilada menor de siete",
+    "Preprandial menor de noventa, una hora menor de ciento cuarenta, glicosilada menor de seis coma cinco",
+    "Preprandial menor de ciento veintiséis, una hora menor de ciento ochenta, glicosilada menor de siete",
+    "Preprandial entre sesenta y noventa y nueve, una hora entre cien y ciento veintinueve, glicosilada menor de seis"
+   ],
+   "clave": 5,
+   "especialidad": "Obstetricia",
+   "tema": "Diabetes gestacional",
+   "diagnostico": "Metas de control en la alteración glucémica previa al embarazo",
+   "tipo": "norma",
+   "dificultad": "muy alta",
+   "razonamiento": "Paso 1: la hiperglucemia precede al embarazo, de modo que las metas son las más estrictas. Paso 2: corresponde glucosa preprandial entre 60 y 99, posprandial de una hora entre 100 y 129 y hemoglobina glicosilada menor de 6 por ciento. Paso 3: sus cifras actuales están por encima y exigen ajuste de la insulina.",
+   "por_que_no": [
+    "Esas metas no corresponden a ninguna de las dos situaciones clínicas del embarazo.",
+    "Esas son justamente las cifras que la paciente ya tiene y que deben corregirse.",
+    "Esas son las metas de la alteración que aparece durante el embarazo, menos estrictas que las suyas.",
+    "Esas cifras corresponden a criterios diagnósticos y no a metas de control de la gestante.",
+    ""
+   ],
+   "trampa": [
+    "inventado",
+    "dato-del-caso",
+    "otra-poblacion",
+    "otro-objetivo",
+    ""
+   ],
+   "perla": "Si ya venía de antes: preprandial 60-99 y glicosilada menor de 6 %.",
+   "fuente": {
+    "carpeta": "2. OBSTETRICIA",
+    "archivo": "8. DM GESTACIONAL.pdf",
+    "seccion": "p. 1, Diagnóstico y tratamiento"
+   },
+   "gemela_de": null
+  },
+  {
+   "id": "2026-10-22-banco-dbg-vih-013",
+   "enunciado": "Gestante de 35 años, de 30 semanas, con alteración glucémica detectada a las 26 semanas, mantiene glucosas en ayunas de 104 a 112 mg/dL y posprandiales de dos horas de 135 a 145 mg/dL pese a dieta y ejercicio bien cumplidos durante tres semanas. Pesa 78 kg. Una colega sugiere iniciar glibenclamida por la vía oral. ¿Qué corresponde responder?",
+   "opciones": [
+    "Puede usarse en dosis baja si la paciente rechaza la insulina",
+    "Debe usarse asociada a insulina para reducir la dosis total",
+    "Puede usarse solo después de las treinta y dos semanas de gestación",
+    "No debe usarse, pues está contraindicada; corresponde insulina",
+    "Debe usarse como primer fármaco por su comodidad de administración"
+   ],
+   "clave": 4,
+   "especialidad": "Obstetricia",
+   "tema": "Diabetes gestacional",
+   "diagnostico": "Hipoglucemiante oral contraindicado en la gestación",
+   "tipo": "tratamiento",
+   "dificultad": "alta",
+   "razonamiento": "Paso 1: la dieta y el ejercicio fracasaron tras tres semanas de buen cumplimiento. Paso 2: el tratamiento de segunda línea en la gestante es la insulina. Paso 3: la glibenclamida figura expresamente como contraindicada, de modo que no es una alternativa a la insulina en este escenario.",
+   "por_que_no": [
+    "La contraindicación no se levanta por la preferencia de la paciente ni por reducir la dosis.",
+    "La asociación no está indicada: el fármaco figura como contraindicado en la gestación.",
+    "No existe una edad gestacional a partir de la cual se autorice ese fármaco.",
+    "",
+    "El primer fármaco en esta situación es la insulina y no un hipoglucemiante oral."
+   ],
+   "trampa": [
+    "otro-criterio",
+    "mezcla",
+    "otro-momento",
+    "",
+    "invertido"
+   ],
+   "perla": "En la gestante, el fármaco es insulina; glibenclamida contraindicada.",
+   "fuente": {
+    "carpeta": "2. OBSTETRICIA",
+    "archivo": "8. DM GESTACIONAL.pdf",
+    "seccion": "p. 1, Diagnóstico y tratamiento"
+   },
+   "gemela_de": null
+  },
+  {
+   "id": "2026-10-22-banco-dbg-vih-014",
+   "enunciado": "Mujer de 33 años con hiperglucemia diagnosticada hace cuatro años, controlada con metformina 850 mg cada doce horas, acude por amenorrea de 7 semanas y prueba de embarazo positiva. Hemoglobina glicosilada 6,8 %, IMC 30 kg/m2, creatinina 0,7 mg/dL, sin retinopatía ni nefropatía conocidas. ¿Cuál es la conducta farmacológica que corresponde?",
+   "opciones": [
+    "Cambiar a un inhibidor de la dipeptidil peptidasa",
+    "Añadir glibenclamida a la metformina",
+    "Cambiar el tratamiento a insulina",
+    "Mantener la metformina en la misma dosis",
+    "Suspender todo fármaco y manejar solo con dieta"
+   ],
+   "clave": 3,
+   "especialidad": "Obstetricia",
+   "tema": "Diabetes gestacional",
+   "diagnostico": "Tratamiento farmacológico de la alteración glucémica previa al embarazo",
+   "tipo": "tratamiento",
+   "dificultad": "media",
+   "razonamiento": "Paso 1: la hiperglucemia es previa al embarazo y la paciente ya está gestando. Paso 2: el tratamiento de esa situación durante la gestación es la insulina, con metas más estrictas. Paso 3: corresponde el cambio ahora, sin esperar el fracaso de la dieta.",
+   "por_que_no": [
+    "Esos fármacos no están validados en la gestación y no sustituyen a la insulina.",
+    "La glibenclamida está contraindicada en la gestación y no debe añadirse a ningún esquema.",
+    "",
+    "El tratamiento de la hiperglucemia previa al embarazo durante la gestación es la insulina.",
+    "Con una glicosilada de seis coma ocho la dieta sola no alcanzará las metas del embarazo."
+   ],
+   "trampa": [
+    "otro-farmaco",
+    "contraindicado",
+    "",
+    "otro-escalon",
+    "otro-extremo"
+   ],
+   "perla": "Hiperglucemia previa que se embaraza: pasa a insulina.",
+   "fuente": {
+    "carpeta": "2. OBSTETRICIA",
+    "archivo": "8. DM GESTACIONAL.pdf",
+    "seccion": "p. 1, Diagnóstico y tratamiento"
+   },
+   "gemela_de": null
+  },
+  {
+   "id": "2026-10-22-banco-dbg-vih-015",
+   "enunciado": "Puérpera de 29 años, a la que se detectó una alteración glucémica a las 25 semanas y que requirió insulina, acaba de tener un parto vaginal de un recién nacido de 3 900 g. Se suspendió la insulina tras el parto y el equipo quiere definir en qué momento del puerperio inmediato se mide su estado glucémico. ¿Cuál es el momento que corresponde?",
+   "opciones": [
+    "Entre las seis y las doce semanas",
+    "Entre los seis y los doce meses",
+    "Entre las cuarenta y ocho y las setenta y dos horas",
+    "Entre las dos y las cuatro semanas",
+    "Entre las seis y las doce horas"
+   ],
+   "clave": 3,
+   "especialidad": "Obstetricia",
+   "tema": "Diabetes gestacional",
+   "diagnostico": "Momento de evaluación del estado glucémico en el puerperio inmediato",
+   "tipo": "examen",
+   "dificultad": "muy alta",
+   "razonamiento": "Paso 1: la insulina se suspende tras el parto porque la resistencia placentaria desaparece. Paso 2: el estado glucémico del puerperio inmediato se mide entre las 48 y 72 horas. Paso 3: la reclasificación definitiva se hace con la prueba de tolerancia de 75 gramos entre las 6 y 12 semanas.",
+   "por_que_no": [
+    "Ese es el momento de la prueba de tolerancia con setenta y cinco gramos para reclasificarla.",
+    "Ese intervalo es el del seguimiento a largo plazo y no el del puerperio inmediato.",
+    "",
+    "Ese intervalo no corresponde a ninguno de los dos momentos de evaluación establecidos.",
+    "A esas pocas horas el estado glucémico aún refleja el estrés del parto y la infusión recibida."
+   ],
+   "trampa": [
+    "otro-examen",
+    "otro-momento",
+    "",
+    "inventado",
+    "otro-momento"
+   ],
+   "perla": "Posparto: estado glucémico a las 48-72 h; curva a las 6-12 semanas.",
+   "fuente": {
+    "carpeta": "2. OBSTETRICIA",
+    "archivo": "8. DM GESTACIONAL.pdf",
+    "seccion": "p. 1, Diagnóstico y tratamiento"
+   },
+   "gemela_de": null
+  },
+  {
+   "id": "2026-10-22-banco-dbg-vih-016",
+   "enunciado": "Gestante de 27 años, de 24 semanas, con IMC pregestacional de 22 kg/m2 y peso actual de 62 kg, acude a consejería nutricional tras un tamizaje glucémico normal. Pregunta cuántas calorías debe consumir al día durante el embarazo y cuánto representa el incremento respecto de lo que comía antes. ¿Cuál es el requerimiento que corresponde indicarle?",
+   "opciones": [
+    "Cerca de mil ochocientas kilocalorías, sin aumento respecto de lo previo",
+    "Cerca de dos mil doscientas kilocalorías, con un aumento de trescientas",
+    "Cerca de dos mil quinientas kilocalorías, con un aumento de trescientas",
+    "Cerca de tres mil kilocalorías, con un aumento de ochocientas",
+    "Cerca de dos mil quinientas kilocalorías, con un aumento de seiscientas"
+   ],
+   "clave": 3,
+   "especialidad": "Obstetricia",
+   "tema": "Diabetes gestacional",
+   "diagnostico": "Requerimiento calórico total de la gestante",
+   "tipo": "norma",
+   "dificultad": "alta",
+   "razonamiento": "Paso 1: la gestante tiene índice de masa corporal normal y tamizaje glucémico normal. Paso 2: el requerimiento calórico de la gestante se estima en 2 500 kilocalorías al día. Paso 3: eso representa unas 300 kilocalorías más que el requerimiento previo al embarazo.",
+   "por_que_no": [
+    "Ese total es inferior al requerimiento y además el embarazo sí exige un incremento.",
+    "La cifra total no corresponde al requerimiento señalado para la gestante.",
+    "",
+    "Ese total y ese incremento exceden ampliamente lo recomendado en la gestación.",
+    "El total es correcto, pero el incremento descrito duplica el valor señalado."
+   ],
+   "trampa": [
+    "dosis-insuficiente",
+    "otro-total",
+    "",
+    "dosis-excesiva",
+    "otro-incremento"
+   ],
+   "perla": "Gestante: unas 2 500 kcal, es decir 300 más que antes.",
+   "fuente": {
+    "carpeta": "2. OBSTETRICIA",
+    "archivo": "8. DM GESTACIONAL.pdf",
+    "seccion": "p. 1, Diagnóstico y tratamiento"
+   },
+   "gemela_de": null
+  },
+  {
+   "id": "2026-10-22-banco-dbg-vih-017",
+   "enunciado": "Recién nacido de 37 semanas, por cesárea programada, hijo de madre con alteración glucémica del embarazo mal controlada, presenta a las dos horas de vida quejido, aleteo nasal y tiraje con requerimiento de oxígeno. La radiografía muestra infiltrado reticulogranular difuso con broncograma aéreo. ¿Qué efecto de la enfermedad materna explica este cuadro?",
+   "opciones": [
+    "Acelera la producción de surfactante fetal",
+    "Acelera la maduración pulmonar fetal",
+    "Retarda la maduración pulmonar fetal",
+    "Retarda solo la maduración cardíaca fetal",
+    "No modifica la maduración pulmonar fetal"
+   ],
+   "clave": 3,
+   "especialidad": "Obstetricia",
+   "tema": "Diabetes gestacional",
+   "diagnostico": "Efecto de la alteración glucémica sobre la maduración pulmonar fetal",
+   "tipo": "complicacion",
+   "dificultad": "muy alta",
+   "razonamiento": "Paso 1: el neonato de 37 semanas presenta dificultad respiratoria con patrón reticulogranular, compatible con déficit de surfactante. Paso 2: la alteración glucémica materna retarda la maduración pulmonar fetal. Paso 3: en cambio la isoinmunización y el trastorno hipertensivo la aceleran.",
+   "por_que_no": [
+    "La producción de surfactante se retrasa y no se acelera en esta situación materna.",
+    "La aceleración de la maduración se describe con la isoinmunización y el trastorno hipertensivo.",
+    "",
+    "El compromiso cardíaco existe como hipertrofia septal, pero no explica el patrón radiológico.",
+    "Sí modifica la maduración: es justamente lo que explica el cuadro respiratorio del neonato."
+   ],
+   "trampa": [
+    "invertido",
+    "invertido",
+    "",
+    "otra-complicacion",
+    "dato-falso"
+   ],
+   "perla": "La hiperglucemia materna retarda el pulmón; el trastorno hipertensivo lo acelera.",
+   "fuente": {
+    "carpeta": "2. OBSTETRICIA",
+    "archivo": "8. DM GESTACIONAL.pdf",
+    "seccion": "p. 1, Diagnóstico y tratamiento"
+   },
+   "gemela_de": null
+  },
+  {
+   "id": "2026-10-22-banco-dbg-vih-018",
+   "enunciado": "Gestante de 31 años, de 32 semanas, con alteración glucémica en tratamiento, acude con aumento rápido del perímetro abdominal y disnea de esfuerzo. La ecografía informa un pozo mayor de 9 cm y un índice de líquido amniótico de 27 cm, con feto único en presentación cefálica y peso en el percentil 88. ¿Qué criterios ecográficos definen el exceso de líquido que presenta?",
+   "opciones": [
+    "Pozo mayor de menos de dos centímetros o índice menor de cinco",
+    "Pozo mayor de más de cuatro centímetros o índice mayor de quince",
+    "Pozo mayor de más de seis centímetros o índice mayor de veinte",
+    "Pozo mayor de más de diez centímetros o índice mayor de treinta",
+    "Pozo mayor de más de ocho centímetros o índice mayor de veinticinco"
+   ],
+   "clave": 5,
+   "especialidad": "Obstetricia",
+   "tema": "Diabetes gestacional",
+   "diagnostico": "Criterio ecográfico de polihidramnios",
+   "tipo": "criterio",
+   "dificultad": "alta",
+   "razonamiento": "Paso 1: la paciente tiene aumento rápido del perímetro abdominal con disnea. Paso 2: el exceso de líquido amniótico se define por un pozo mayor de más de 8 centímetros o un índice mayor de 25. Paso 3: sus valores de 9 y 27 cumplen ambos criterios.",
+   "por_que_no": [
+    "Esos valores definen el oligoamnios, es decir la situación opuesta a la de esta paciente.",
+    "Esos valores están dentro del rango normal del líquido amniótico y no definen exceso.",
+    "Esos puntos de corte son más bajos que los establecidos y sobrediagnosticarían el exceso.",
+    "Esos puntos de corte son más altos que los establecidos y retrasarían el diagnóstico.",
+    ""
+   ],
+   "trampa": [
+    "invertido",
+    "dato-normal",
+    "otro-punto-de-corte",
+    "otro-punto-de-corte",
+    ""
+   ],
+   "perla": "Exceso de líquido: pozo mayor de 8 o índice mayor de 25.",
+   "fuente": {
+    "carpeta": "2. OBSTETRICIA",
+    "archivo": "8. DM GESTACIONAL.pdf",
+    "seccion": "p. 1, Diagnóstico y tratamiento"
+   },
+   "gemela_de": null
+  },
+  {
+   "id": "2026-10-22-banco-dbg-vih-019",
+   "enunciado": "Gestante de 28 años, de 30 semanas, con índice de líquido amniótico de 28 cm, tiene tamizaje glucémico normal a las 26 semanas, serología negativa, ecografía morfológica sin malformaciones y grupo sanguíneo O positivo con prueba de anticuerpos irregulares negativa. ¿Cuál es la causa más frecuente de este hallazgo en términos generales?",
+   "opciones": [
+    "Las malformaciones del tubo digestivo fetal",
+    "Idiopática, sin causa identificable",
+    "La infección connatal del grupo TORCH",
+    "La alteración glucémica materna",
+    "La isoinmunización por factor Rh"
+   ],
+   "clave": 2,
+   "especialidad": "Obstetricia",
+   "tema": "Diabetes gestacional",
+   "diagnostico": "Causa más frecuente de exceso de líquido amniótico",
+   "tipo": "complicacion",
+   "dificultad": "muy alta",
+   "razonamiento": "Paso 1: el índice de 28 centímetros confirma exceso de líquido amniótico. Paso 2: la causa más frecuente en términos generales es la idiopática, y en esta paciente además se descartaron las causas conocidas. Paso 3: la hiperglucemia materna es la causa identificable más típica, pero aquí el tamizaje fue normal.",
+   "por_que_no": [
+    "Las malformaciones digestivas producen este hallazgo, pero la ecografía morfológica fue normal.",
+    "",
+    "Las infecciones connatales son causa posible, aunque su serología resultó negativa.",
+    "Es una causa frecuente y conocida, pero en esta paciente el tamizaje glucémico fue normal.",
+    "La isoinmunización se descarta con el grupo positivo y los anticuerpos irregulares negativos."
+   ],
+   "trampa": [
+    "otra-causa",
+    "",
+    "otra-causa",
+    "otra-causa",
+    "otra-causa"
+   ],
+   "perla": "Exceso de líquido: la causa más frecuente es idiopática; la clásica, la hiperglucemia materna.",
+   "fuente": {
+    "carpeta": "2. OBSTETRICIA",
+    "archivo": "8. DM GESTACIONAL.pdf",
+    "seccion": "p. 1, Diagnóstico y tratamiento"
+   },
+   "gemela_de": null
+  },
+  {
+   "id": "2026-10-22-banco-dbg-vih-020",
+   "enunciado": "Recién nacido a término de 4 150 g, hijo de madre con alteración glucémica del embarazo, presenta a las treinta horas de vida ictericia que alcanza el tórax. Hematocrito venoso 69 %, bilirrubina total 14 mg/dL con directa de 0,6 mg/dL, grupo sanguíneo compatible con la madre y prueba de antiglobulina negativa. ¿Qué complicación explica la ictericia de este neonato?",
+   "opciones": [
+    "La policitemia con mayor destrucción de glóbulos rojos",
+    "La atresia de las vías biliares extrahepáticas",
+    "La incompatibilidad de grupo entre madre e hijo",
+    "El déficit congénito de glucosa seis fosfato",
+    "La infección connatal por citomegalovirus"
+   ],
+   "clave": 1,
+   "especialidad": "Obstetricia",
+   "tema": "Diabetes gestacional",
+   "diagnostico": "Complicaciones del recién nacido: policitemia e ictericia",
+   "tipo": "complicacion",
+   "dificultad": "alta",
+   "razonamiento": "Paso 1: neonato macrosómico con hematocrito de 69 por ciento e ictericia de bilirrubina indirecta. Paso 2: la hiperglucemia materna produce policitemia en el recién nacido, y el exceso de glóbulos rojos aumenta la carga de bilirrubina. Paso 3: la ictericia es consecuencia de esa policitemia.",
+   "por_que_no": [
+    "",
+    "La atresia biliar eleva la bilirrubina directa, que en este neonato está normal.",
+    "El grupo compatible y la prueba de antiglobulina negativa descartan ese mecanismo inmune.",
+    "Ese déficit produce hemólisis, pero no explica el hematocrito elevado de este neonato.",
+    "La infección connatal cursaría con otros signos y con elevación de la fracción directa."
+   ],
+   "trampa": [
+    "",
+    "otra-causa",
+    "otra-causa",
+    "otra-causa",
+    "otra-causa"
+   ],
+   "perla": "Hijo de madre hiperglucémica: policitemia que termina en ictericia.",
+   "fuente": {
+    "carpeta": "2. OBSTETRICIA",
+    "archivo": "8. DM GESTACIONAL.pdf",
+    "seccion": "p. 1, Diagnóstico y tratamiento"
+   },
+   "gemela_de": null
+  },
+  {
+   "id": "2026-10-22-banco-dbg-vih-021",
+   "enunciado": "Recién nacido de 38 semanas, 4 050 g, hijo de madre con alteración glucémica del embarazo, presenta a las cuarenta horas de vida temblores e irritabilidad. Glucemia 62 mg/dL, calcio total 7,2 mg/dL que no mejora tras la reposición de calcio, y el pediatra solicita un electrolito adicional para explicar la persistencia. ¿Qué alteración corresponde buscar?",
+   "opciones": [
+    "El descenso del magnesio sérico",
+    "El descenso del sodio sérico",
+    "El ascenso del potasio sérico",
+    "El ascenso del cloro sérico",
+    "El descenso del fósforo sérico"
+   ],
+   "clave": 1,
+   "especialidad": "Obstetricia",
+   "tema": "Diabetes gestacional",
+   "diagnostico": "Alteración del magnesio en el recién nacido",
+   "tipo": "complicacion",
+   "dificultad": "muy alta",
+   "razonamiento": "Paso 1: el neonato tiene hipocalcemia sintomática que no responde al calcio. Paso 2: el hijo de madre con alteración glucémica presenta descenso del calcio y también del magnesio. Paso 3: la hipomagnesemia impide corregir la hipocalcemia, por lo que debe medirse y reponerse.",
+   "por_que_no": [
+    "",
+    "El descenso del sodio produce convulsiones, pero no bloquea la corrección del calcio.",
+    "El ascenso del potasio no explica la hipocalcemia que no responde al tratamiento.",
+    "El cloro no participa del mecanismo que mantiene la hipocalcemia refractaria.",
+    "El fósforo no es el electrolito que impide la respuesta a la reposición de calcio."
+   ],
+   "trampa": [
+    "",
+    "otro-electrolito",
+    "otro-electrolito",
+    "otro-electrolito",
+    "otro-electrolito"
+   ],
+   "perla": "Hipocalcemia que no cede en el hijo de madre hiperglucémica: mide el magnesio.",
+   "fuente": {
+    "carpeta": "2. OBSTETRICIA",
+    "archivo": "8. DM GESTACIONAL.pdf",
+    "seccion": "p. 1, Diagnóstico y tratamiento"
+   },
+   "gemela_de": null
+  },
+  {
+   "id": "2026-10-22-banco-dbg-vih-022",
+   "enunciado": "En la consulta de seguimiento, la madre de un niño de 4 años que nació con 4 300 g, producto de un embarazo con alteración glucémica tratada con insulina, pregunta qué riesgos tendrá su hijo cuando sea adulto. El niño tiene hoy índice de masa corporal en el percentil 92 y desarrollo normal. ¿Qué riesgos corresponde informarle?",
+   "opciones": [
+    "Mayor riesgo de alteración glucémica, enfermedad cardiovascular y síndrome metabólico",
+    "Sin riesgos aumentados, pues la alteración materna se resolvió tras el parto",
+    "Mayor riesgo de enfermedad renal crónica, litiasis y gota en la adultez",
+    "Mayor riesgo de enfermedad autoinmune, celiaquía y tiroiditis crónica",
+    "Mayor riesgo de malformación cardíaca, sordera y retraso del desarrollo"
+   ],
+   "clave": 1,
+   "especialidad": "Obstetricia",
+   "tema": "Diabetes gestacional",
+   "diagnostico": "Riesgo metabólico del hijo en la vida adulta",
+   "tipo": "complicacion",
+   "dificultad": "alta",
+   "razonamiento": "Paso 1: el niño fue macrosómico y hoy tiene índice de masa corporal elevado. Paso 2: el hijo de madre con alteración glucémica del embarazo tiene mayor riesgo de alteración glucémica, de enfermedad cardiovascular y de síndrome metabólico en la vida adulta. Paso 3: corresponde informar esos tres riesgos y vigilar el peso.",
+   "por_que_no": [
+    "",
+    "El riesgo del hijo persiste aunque la alteración materna desaparezca con el parto.",
+    "La enfermedad renal y la litiasis no figuran entre los riesgos descritos para el hijo.",
+    "La programación metabólica descrita no se expresa como enfermedad autoinmune del hijo.",
+    "Las malformaciones se producen en el período fetal y no son el riesgo del adulto."
+   ],
+   "trampa": [
+    "",
+    "dato-falso",
+    "otro-desenlace",
+    "otro-desenlace",
+    "otro-momento"
+   ],
+   "perla": "El hijo hereda riesgo: glucemia, corazón y síndrome metabólico.",
+   "fuente": {
+    "carpeta": "2. OBSTETRICIA",
+    "archivo": "8. DM GESTACIONAL.pdf",
+    "seccion": "p. 1, Diagnóstico y tratamiento"
+   },
+   "gemela_de": null
+  },
+  {
+   "id": "2026-10-22-banco-dbg-vih-023",
+   "enunciado": "Gestante de 36 años, de 28 semanas, con alteración glucémica detectada a las 24 semanas, en dieta e insulina, con IMC de 33 kg/m2. Acude a control con PA de 118/74 mmHg y proteinuria negativa. Pregunta qué complicación materna debe vigilarse con mayor atención en las semanas que le quedan de embarazo. ¿Cuál corresponde responder?",
+   "opciones": [
+    "La trombosis venosa profunda de miembros inferiores",
+    "La rotura prematura de las membranas ovulares",
+    "La anemia megaloblástica del tercer trimestre",
+    "La colestasis intrahepática de la gestación",
+    "El trastorno hipertensivo del embarazo"
+   ],
+   "clave": 5,
+   "especialidad": "Obstetricia",
+   "tema": "Diabetes gestacional",
+   "diagnostico": "Riesgo materno de trastorno hipertensivo asociado",
+   "tipo": "complicacion",
+   "dificultad": "alta",
+   "razonamiento": "Paso 1: la paciente suma alteración glucémica del embarazo y obesidad. Paso 2: entre las complicaciones maternas descritas figuran el aumento del riesgo del trastorno hipertensivo, de cesárea, de parto distócico y de alteración glucémica posterior. Paso 3: corresponde vigilar presión y proteinuria en cada control.",
+   "por_que_no": [
+    "La trombosis se asocia a inmovilidad y trombofilia, no a esta alteración metabólica.",
+    "La rotura de membranas no figura entre las complicaciones maternas descritas.",
+    "La anemia megaloblástica depende del aporte de folato y no de la alteración glucémica.",
+    "La colestasis cursa con prurito palmoplantar y no se vincula a la alteración glucémica.",
+    ""
+   ],
+   "trampa": [
+    "otra-complicacion",
+    "otra-complicacion",
+    "otra-complicacion",
+    "otra-complicacion",
+    ""
+   ],
+   "perla": "La hiperglucemia del embarazo trae trastorno hipertensivo, cesárea y distocia.",
+   "fuente": {
+    "carpeta": "2. OBSTETRICIA",
+    "archivo": "8. DM GESTACIONAL.pdf",
+    "seccion": "p. 1, Diagnóstico y tratamiento"
+   },
+   "gemela_de": null
+  },
+  {
+   "id": "2026-10-22-banco-dbg-vih-024",
+   "enunciado": "Gestante de 30 años, de 26 semanas, con prueba de tolerancia a la glucosa que informa ayunas 95 mg/dL, una hora 171 mg/dL y dos horas 158 mg/dL. IMC pregestacional 24 kg/m2, peso actual 65 kg, PA 110/68 mmHg, asintomática. No tiene antecedentes de enfermedad crónica ni uso de fármacos. ¿Cuál es la conducta terapéutica que corresponde iniciar?",
+   "opciones": [
+    "Insulina basal desde el diagnóstico",
+    "Metformina desde el diagnóstico",
+    "Dieta sola, sin indicación de ejercicio",
+    "Dieta con ejercicio como primera medida",
+    "Observación sin cambios de estilo de vida"
+   ],
+   "clave": 4,
+   "especialidad": "Obstetricia",
+   "tema": "Diabetes gestacional",
+   "diagnostico": "Primera línea de tratamiento no farmacológico",
+   "tipo": "tratamiento",
+   "dificultad": "media",
+   "razonamiento": "Paso 1: dos valores de la curva están alterados, de modo que el diagnóstico está hecho. Paso 2: la primera línea de tratamiento es la dieta, con 30 kilocalorías por kilo si el índice de masa corporal es normal, junto con ejercicio. Paso 3: la insulina queda como segunda línea si fracasa esa medida.",
+   "por_que_no": [
+    "La insulina es la segunda línea y se reserva al fracaso del manejo no farmacológico.",
+    "La metformina no figura como tratamiento indicado de esta alteración en la gestante.",
+    "El ejercicio forma parte de la primera línea junto con la dieta y no debe omitirse.",
+    "",
+    "La observación sin cambios deja sin tratar una alteración ya diagnosticada."
+   ],
+   "trampa": [
+    "otro-escalon",
+    "otro-farmaco",
+    "incompleto",
+    "",
+    "otro-extremo"
+   ],
+   "perla": "Primero dieta y ejercicio; la insulina viene después.",
+   "fuente": {
+    "carpeta": "2. OBSTETRICIA",
+    "archivo": "8. DM GESTACIONAL.pdf",
+    "seccion": "p. 1, Tamizaje y complicaciones"
+   },
+   "gemela_de": null
+  },
+  {
+   "id": "2026-10-22-banco-dbg-vih-025",
+   "enunciado": "Gestante de 34 años, de 37 semanas, con alteración glucémica del embarazo mal controlada por abandono de la dieta. La ecografía informa peso fetal estimado de 4 250 g, circunferencia abdominal en el percentil 95 e índice de líquido amniótico de 24 cm. ¿A partir de qué peso se define la condición fetal que presenta este caso?",
+   "opciones": [
+    "Tres mil quinientos gramos o más",
+    "Cinco mil gramos o más",
+    "Cuatro mil quinientos gramos o más",
+    "Tres mil ochocientos gramos o más",
+    "Cuatro mil gramos o más"
+   ],
+   "clave": 5,
+   "especialidad": "Obstetricia",
+   "tema": "Diabetes gestacional",
+   "diagnostico": "Definición de macrosomía fetal",
+   "tipo": "criterio",
+   "dificultad": "media",
+   "razonamiento": "Paso 1: el feto tiene peso estimado de 4 250 gramos con circunferencia abdominal elevada. Paso 2: la macrosomía fetal se define a partir de los 4 000 gramos. Paso 3: en este contexto se explica por el paso de glucosa materna al feto, con hipertrofia de las células beta fetales.",
+   "por_que_no": [
+    "Ese peso está dentro del rango normal de un recién nacido a término y no define la condición.",
+    "Ese peso corresponde a casos extremos y no al punto de corte de la definición.",
+    "Ese punto de corte es más alto que el señalado en la fuente para definirla.",
+    "Ese peso aún se considera dentro del rango alto de la normalidad.",
+    ""
+   ],
+   "trampa": [
+    "dato-normal",
+    "otro-punto-de-corte",
+    "otro-punto-de-corte",
+    "dato-normal",
+    ""
+   ],
+   "perla": "Macrosomía: 4 000 gramos o más.",
+   "fuente": {
+    "carpeta": "2. OBSTETRICIA",
+    "archivo": "8. DM GESTACIONAL.pdf",
+    "seccion": "p. 1, Tamizaje y complicaciones"
+   },
+   "gemela_de": null
+  },
+  {
+   "id": "2026-10-22-banco-dbg-vih-026",
+   "enunciado": "En una sesión se explica por qué el feto de una madre con hiperglucemia crece de más y nace con glucemia baja. Un estudiante propone que la insulina materna atraviesa la placenta y estimula el crecimiento fetal. El docente corrige la afirmación y precisa qué molécula cruza y qué ocurre en el páncreas del feto. ¿Cuál es la explicación correcta?",
+   "opciones": [
+    "Cruza la glucosa y el páncreas fetal se atrofia por el exceso de aporte",
+    "Cruza la glucosa y el páncreas fetal se hipertrofia produciendo insulina propia",
+    "Cruzan la glucosa y la insulina, sumando ambos efectos sobre el crecimiento",
+    "Ambas quedan retenidas en la placenta y el crecimiento depende de ella",
+    "Cruza la insulina materna y el páncreas fetal reduce su producción propia"
+   ],
+   "clave": 2,
+   "especialidad": "Obstetricia",
+   "tema": "Diabetes gestacional",
+   "diagnostico": "Paso transplacentario de glucosa e insulina",
+   "tipo": "mecanismo",
+   "dificultad": "muy alta",
+   "razonamiento": "Paso 1: la hiperglucemia materna aumenta la glucosa que llega al feto, pues la glucosa cruza la placenta y la insulina no. Paso 2: el páncreas fetal responde con hipertrofia de sus células y libera insulina y factor de crecimiento insulínico. Paso 3: de allí la macrosomía y la hipoglucemia al nacer.",
+   "por_que_no": [
+    "El páncreas fetal se hipertrofia por el estímulo mantenido y no se atrofia.",
+    "",
+    "La insulina no cruza la barrera placentaria, por lo que no suma su efecto directo.",
+    "La glucosa sí cruza libremente la placenta y es el estímulo del páncreas fetal.",
+    "La insulina materna no atraviesa la placenta, de modo que no actúa sobre el feto."
+   ],
+   "trampa": [
+    "invertido",
+    "",
+    "mezcla",
+    "dato-falso",
+    "dato-falso"
+   ],
+   "perla": "Pasa la glucosa, no la insulina: el páncreas fetal hace el resto.",
+   "fuente": {
+    "carpeta": "2. OBSTETRICIA",
+    "archivo": "8. DM GESTACIONAL.pdf",
+    "seccion": "p. 1, Tamizaje y complicaciones"
+   },
+   "gemela_de": null
+  },
+  {
+   "id": "2026-10-22-banco-dbg-vih-027",
+   "enunciado": "Gestante de 25 años, primigesta, sin antecedentes familiares ni personales de enfermedad metabólica, IMC pregestacional 23 kg/m2. En su primer control, a las 9 semanas, la glucosa en ayunas fue de 84 mg/dL. Acude hoy a las 20 semanas y pregunta qué examen le corresponde más adelante. ¿Qué prueba y en qué momento corresponde indicarle?",
+   "opciones": [
+    "Glucosa en ayunas aislada entre las veinticuatro y veintiocho semanas",
+    "Hemoglobina glicosilada entre las veinticuatro y veintiocho semanas",
+    "Curva con setenta y cinco gramos entre las veinticuatro y veintiocho semanas",
+    "Curva con setenta y cinco gramos entre las treinta y treinta y cuatro semanas",
+    "Curva con cien gramos entre las veinticuatro y veintiocho semanas"
+   ],
+   "clave": 3,
+   "especialidad": "Obstetricia",
+   "tema": "Diabetes gestacional",
+   "diagnostico": "Tamizaje universal del segundo trimestre",
+   "tipo": "examen",
+   "dificultad": "media",
+   "razonamiento": "Paso 1: la gestante no tiene factores de riesgo y su glucosa inicial fue menor de 92. Paso 2: el tamizaje universal es la prueba de tolerancia con 75 gramos entre las 24 y 28 semanas. Paso 3: con factores de riesgo podría adelantarse a las 20 semanas, lo que no aplica a esta paciente.",
+   "por_que_no": [
+    "La glucosa en ayunas aislada no reemplaza a la curva en el tamizaje universal.",
+    "La glicosilada se emplea en la primera consulta y no como tamizaje universal.",
+    "",
+    "Ese momento es demasiado tardío y retrasa el tratamiento de la alteración.",
+    "La carga de cien gramos corresponde al segundo paso del esquema de dos pasos."
+   ],
+   "trampa": [
+    "otro-examen",
+    "otro-momento",
+    "",
+    "otro-momento",
+    "otro-examen"
+   ],
+   "perla": "Tamizaje universal: curva de 75 gramos entre 24 y 28 semanas.",
+   "fuente": {
+    "carpeta": "2. OBSTETRICIA",
+    "archivo": "8. DM GESTACIONAL.pdf",
+    "seccion": "p. 1, Tamizaje y complicaciones"
+   },
+   "gemela_de": null
+  },
+  {
+   "id": "2026-10-22-banco-dbg-vih-028",
+   "enunciado": "Gestante de 38 años, de 8 semanas, con IMC de 32 kg/m2, madre con hiperglucemia crónica y antecedente de un recién nacido de 4 100 g. Está asintomática y la presión es normal. La obstetra debe iniciar el tamizaje metabólico en esta primera atención por sus factores de riesgo. ¿Qué pruebas puede emplear en este momento?",
+   "opciones": [
+    "Glucosa en ayunas, hemoglobina glicosilada o glucemia al azar",
+    "Glucosa en ayunas y péptido C en la misma muestra",
+    "Curva con cien gramos de carga oral de inmediato",
+    "Curva con setenta y cinco gramos de carga oral de inmediato",
+    "Hemoglobina glicosilada y fructosamina en la misma muestra"
+   ],
+   "clave": 1,
+   "especialidad": "Obstetricia",
+   "tema": "Diabetes gestacional",
+   "diagnostico": "Exámenes del primer control en gestante con factores de riesgo",
+   "tipo": "examen",
+   "dificultad": "alta",
+   "razonamiento": "Paso 1: la gestante tiene edad mayor de 35 años, obesidad, antecedente familiar y macrosomía previa. Paso 2: en el primer control, con o sin factores de riesgo, el tamizaje se hace con glucosa en ayunas, hemoglobina glicosilada o glucemia al azar. Paso 3: la curva viene después, y con factores de riesgo puede adelantarse a las 20 semanas.",
+   "por_que_no": [
+    "",
+    "El péptido C no forma parte del tamizaje metabólico de la gestante.",
+    "La carga de cien gramos es el segundo paso y no la prueba inicial del primer control.",
+    "La curva se reserva para el tamizaje del segundo trimestre o desde las veinte semanas.",
+    "La fructosamina no figura entre las pruebas del tamizaje de la gestante."
+   ],
+   "trampa": [
+    "",
+    "otro-examen",
+    "otro-examen",
+    "otro-momento",
+    "otro-examen"
+   ],
+   "perla": "Primer control: ayunas, glicosilada o al azar. La curva es después.",
+   "fuente": {
+    "carpeta": "2. OBSTETRICIA",
+    "archivo": "8. DM GESTACIONAL.pdf",
+    "seccion": "p. 1, Tamizaje y complicaciones"
+   },
+   "gemela_de": null
+  },
+  {
+   "id": "2026-10-22-banco-dbg-vih-029",
+   "enunciado": "Gestante de 32 años, G3P2, acude a las 9 semanas. En su segundo embarazo tuvo una alteración glucémica tratada con dieta que se resolvió tras el parto, y no se realizó la prueba de reclasificación posparto. Hoy su glucosa en ayunas es 90 mg/dL y la hemoglobina glicosilada 5,6 %. ¿En qué momento corresponde realizarle la curva de tolerancia?",
+   "opciones": [
+    "Desde las veinte semanas, por su antecedente",
+    "En esta misma consulta, antes de las doce semanas",
+    "No corresponde, pues el tamizaje inicial salió normal",
+    "Entre las veinticuatro y veintiocho semanas, como tamizaje universal",
+    "Entre las treinta y dos y treinta y seis semanas, por ser multípara"
+   ],
+   "clave": 1,
+   "especialidad": "Obstetricia",
+   "tema": "Diabetes gestacional",
+   "diagnostico": "Antecedente de alteración glucémica en gestación previa",
+   "tipo": "examen",
+   "dificultad": "alta",
+   "razonamiento": "Paso 1: el tamizaje del primer trimestre resultó normal, de modo que no hay diagnóstico ahora. Paso 2: el antecedente de alteración glucémica en una gestación previa figura entre los factores que permiten adelantar la curva. Paso 3: corresponde realizarla desde las 20 semanas.",
+   "por_que_no": [
+    "",
+    "Antes de las doce semanas la curva pierde rendimiento y no está indicada.",
+    "El tamizaje inicial normal no exime de la curva, menos aún con ese antecedente.",
+    "Ese es el momento universal, pero su antecedente permite adelantar la prueba.",
+    "Ese momento es tardío y no corresponde a ningún criterio de la norma."
+   ],
+   "trampa": [
+    "",
+    "otro-momento",
+    "dato-falso",
+    "otra-poblacion",
+    "inventado"
+   ],
+   "perla": "Antecedente en un embarazo previo: curva desde las 20 semanas.",
+   "fuente": {
+    "carpeta": "2. OBSTETRICIA",
+    "archivo": "8. DM GESTACIONAL.pdf",
+    "seccion": "p. 1, Tamizaje y complicaciones"
+   },
+   "gemela_de": null
+  },
+  {
+   "id": "2026-10-22-banco-dbg-vih-030",
+   "enunciado": "Gestante de 29 años, G4P1, con dos abortos del primer trimestre y un óbito a las 34 semanas, todos sin causa determinada. IMC 25 kg/m2, sin antecedentes familiares de enfermedad metabólica, glucosa en ayunas de 87 mg/dL a las 10 semanas. Pregunta si su historia obstétrica se relaciona con alguna alteración del embarazo actual. ¿Cuál es la respuesta correcta?",
+   "opciones": [
+    "Sí, pero el riesgo se limita al primer trimestre de este embarazo",
+    "No, solo cuenta el antecedente de recién nacido macrosómico",
+    "No, los abortos del primer trimestre no tienen relación metabólica",
+    "Sí, pero únicamente si suma un índice de masa corporal mayor de treinta",
+    "Sí, los abortos y óbitos previos figuran entre los factores de riesgo"
+   ],
+   "clave": 5,
+   "especialidad": "Obstetricia",
+   "tema": "Diabetes gestacional",
+   "diagnostico": "Abortos y óbitos previos como factor de riesgo",
+   "tipo": "norma",
+   "dificultad": "alta",
+   "razonamiento": "Paso 1: la paciente tiene dos abortos y un óbito sin causa determinada. Paso 2: los abortos, los óbitos, la macrosomía previa y la mortalidad perinatal inexplicada figuran entre los factores de riesgo. Paso 3: corresponde tamizarla y considerar adelantar la curva a las 20 semanas.",
+   "por_que_no": [
+    "El riesgo se expresa en la segunda mitad, cuando se instala la resistencia a la insulina.",
+    "La macrosomía previa cuenta, pero no es el único antecedente obstétrico de riesgo.",
+    "Los abortos figuran expresamente entre los factores de riesgo de la lista.",
+    "El antecedente cuenta por sí solo, sin necesidad de sumar obesidad.",
+    ""
+   ],
+   "trampa": [
+    "otro-momento",
+    "incompleto",
+    "dato-falso",
+    "otro-criterio",
+    ""
+   ],
+   "perla": "Abortos, óbitos y macrosomía previa: todos son factores de riesgo.",
+   "fuente": {
+    "carpeta": "2. OBSTETRICIA",
+    "archivo": "8. DM GESTACIONAL.pdf",
+    "seccion": "p. 1, Tamizaje y complicaciones"
+   },
+   "gemela_de": null
+  },
+  {
+   "id": "2026-10-22-banco-dbg-vih-031",
+   "enunciado": "Durante la revisión del metabolismo de la gestación se analizan las hormonas que, además del lactógeno placentario, contribuyen al ascenso de la glucosa materna en la segunda mitad del embarazo. Se pide identificar el par que cumple ese efecto hiperglucemiante. ¿Cuál es el par que corresponde?",
+   "opciones": [
+    "La progesterona y los estrógenos",
+    "La relaxina y la gonadotropina coriónica",
+    "La prolactina y la oxitocina",
+    "La calcitonina y la hormona paratiroidea",
+    "La hormona antidiurética y el cortisol fetal"
+   ],
+   "clave": 1,
+   "especialidad": "Obstetricia",
+   "tema": "Diabetes gestacional",
+   "diagnostico": "Hormonas que elevan la glucemia materna",
+   "tipo": "mecanismo",
+   "dificultad": "alta",
+   "razonamiento": "Paso 1: la hormona principal de la resistencia a la insulina es el lactógeno placentario. Paso 2: la progesterona y los estrógenos acompañan ese efecto elevando la glucosa en sangre. Paso 3: ese conjunto explica el ascenso de la glucemia en la segunda mitad del embarazo.",
+   "por_que_no": [
+    "",
+    "La relaxina actúa sobre el tejido conectivo y la coriónica sostiene el cuerpo lúteo.",
+    "La prolactina y la oxitocina participan de la lactancia y del parto, no de este efecto.",
+    "Esas dos hormonas regulan el metabolismo del calcio y no el de la glucosa.",
+    "El cortisol fetal madura el pulmón y la antidiurética regula el agua corporal."
+   ],
+   "trampa": [
+    "",
+    "otra-hormona",
+    "otra-hormona",
+    "otra-hormona",
+    "otra-hormona"
+   ],
+   "perla": "Lactógeno, progesterona y estrógenos: todos suben la glucosa.",
+   "fuente": {
+    "carpeta": "2. OBSTETRICIA",
+    "archivo": "8. DM GESTACIONAL.pdf",
+    "seccion": "p. 1, Tamizaje y complicaciones"
+   },
+   "gemela_de": null
+  },
+  {
+   "id": "2026-10-22-banco-dbg-vih-032",
+   "enunciado": "En una sesión de neonatología se comparan tres embarazos de 34 semanas: uno con alteración glucémica materna, otro con incompatibilidad sanguínea materno fetal con anticuerpos positivos y otro con presión elevada y proteinuria. Se discute en qué casos el pulmón fetal madura antes de lo esperado para la edad gestacional. ¿Qué situaciones aceleran esa maduración?",
+   "opciones": [
+    "Las tres situaciones retardan por igual la maduración",
+    "La incompatibilidad sanguínea y el trastorno hipertensivo",
+    "Solo la alteración glucémica materna del embarazo",
+    "La alteración glucémica y el trastorno hipertensivo",
+    "La alteración glucémica y la incompatibilidad sanguínea"
+   ],
+   "clave": 2,
+   "especialidad": "Obstetricia",
+   "tema": "Diabetes gestacional",
+   "diagnostico": "Patologías que aceleran la maduración pulmonar fetal",
+   "tipo": "complicacion",
+   "dificultad": "muy alta",
+   "razonamiento": "Paso 1: la pregunta separa las patologías que aceleran de las que retardan la maduración. Paso 2: la isoinmunización por factor Rh y el trastorno hipertensivo del embarazo aceleran la maduración pulmonar. Paso 3: la alteración glucémica materna, en cambio, la retarda.",
+   "por_que_no": [
+    "Solo una de las tres retarda la maduración: las otras dos la aceleran.",
+    "",
+    "Esa situación es justamente la que retarda la maduración pulmonar fetal.",
+    "La alteración glucémica retarda la maduración en lugar de acelerarla.",
+    "La alteración glucémica no acelera la maduración, sino que la retrasa."
+   ],
+   "trampa": [
+    "dato-falso",
+    "",
+    "invertido",
+    "mezcla",
+    "mezcla"
+   ],
+   "perla": "Aceleran: incompatibilidad y trastorno hipertensivo. Retarda: la hiperglucemia.",
+   "fuente": {
+    "carpeta": "2. OBSTETRICIA",
+    "archivo": "8. DM GESTACIONAL.pdf",
+    "seccion": "p. 1, Tamizaje y complicaciones"
+   },
+   "gemela_de": null
+  },
+  {
+   "id": "2026-10-22-banco-dbg-vih-033",
+   "enunciado": "Mujer de 31 años, con alteración glucémica en su embarazo anterior que requirió insulina, acude a los cuatro meses del parto con prueba de tolerancia posparto normal. Pregunta si con ese resultado normal puede considerarse definitivamente libre del problema y suspender todo control. ¿Cuál es la conducta que corresponde indicarle?",
+   "opciones": [
+    "Controlar solo el peso, sin pruebas de laboratorio",
+    "Repetir la prueba solo si vuelve a embarazarse",
+    "Suspender todo control, pues la prueba posparto fue normal",
+    "Repetir la prueba una única vez a los cinco años",
+    "Continuar el tamizaje metabólico de por vida"
+   ],
+   "clave": 5,
+   "especialidad": "Obstetricia",
+   "tema": "Diabetes gestacional",
+   "diagnostico": "Seguimiento metabólico de por vida tras el embarazo",
+   "tipo": "norma",
+   "dificultad": "alta",
+   "razonamiento": "Paso 1: la prueba de tolerancia posparto, realizada entre las 6 y 12 semanas, resultó normal. Paso 2: alrededor de la mitad de estas mujeres desarrolla una alteración glucémica en los años siguientes. Paso 3: por eso el tamizaje debe continuar después del embarazo, de por vida.",
+   "por_que_no": [
+    "El control del peso es útil, pero no reemplaza el tamizaje con pruebas de laboratorio.",
+    "El control no se limita a un nuevo embarazo: el riesgo es permanente.",
+    "Una prueba posparto normal no cancela el riesgo posterior, que persiste en el tiempo.",
+    "Un control único a los cinco años deja descubiertos los años intermedios.",
+    ""
+   ],
+   "trampa": [
+    "incompleto",
+    "otro-contexto",
+    "otro-extremo",
+    "otro-plazo",
+    ""
+   ],
+   "perla": "Curva posparto normal no cierra el caso: tamizaje de por vida.",
+   "fuente": {
+    "carpeta": "2. OBSTETRICIA",
+    "archivo": "8. DM GESTACIONAL.pdf",
+    "seccion": "p. 1, Tamizaje y complicaciones"
+   },
+   "gemela_de": null
+  },
+  {
+   "id": "2026-10-22-banco-dbg-vih-034",
+   "enunciado": "En un comité de mortalidad materna se analiza el peso de la alteración glucémica del embarazo sobre los desenlaces maternos, más allá de las complicaciones del parto. Se revisan los indicadores del establecimiento en gestantes con esta condición frente a las que no la tienen. ¿Qué efecto tiene esta alteración sobre el riesgo de muerte materna?",
+   "opciones": [
+    "Lo disminuye por el mayor número de controles que recibe",
+    "Lo aumenta solo si el recién nacido resulta macrosómico",
+    "Lo aumenta solo si la gestante requiere insulina",
+    "Lo mantiene igual que en la gestante sin esta alteración",
+    "Lo aumenta respecto de la gestante sin esta alteración"
+   ],
+   "clave": 5,
+   "especialidad": "Obstetricia",
+   "tema": "Diabetes gestacional",
+   "diagnostico": "Mortalidad materna aumentada",
+   "tipo": "complicacion",
+   "dificultad": "alta",
+   "razonamiento": "Paso 1: la alteración glucémica del embarazo se asocia a trastorno hipertensivo, cesárea y parto distócico. Paso 2: la suma de esas complicaciones explica que aumente el riesgo de mortalidad materna. Paso 3: ese aumento es independiente del tratamiento recibido o del peso del neonato.",
+   "por_que_no": [
+    "El mayor número de controles no convierte la condición en protectora.",
+    "El aumento del riesgo no depende del peso final del recién nacido.",
+    "El aumento del riesgo no se condiciona al uso de insulina.",
+    "La fuente señala un aumento del riesgo y no una equivalencia con la gestante sana.",
+    ""
+   ],
+   "trampa": [
+    "invertido",
+    "otro-criterio",
+    "otro-criterio",
+    "dato-falso",
+    ""
+   ],
+   "perla": "Esta alteración también aumenta la mortalidad materna.",
+   "fuente": {
+    "carpeta": "2. OBSTETRICIA",
+    "archivo": "8. DM GESTACIONAL.pdf",
+    "seccion": "p. 1, Tamizaje y complicaciones"
+   },
+   "gemela_de": null
+  },
+  {
+   "id": "2026-10-22-banco-dbg-vih-035",
+   "enunciado": "Gestante de 33 años, de 33 semanas, con alteración glucémica del embarazo e índice de líquido amniótico de 26 cm, acude por contracciones uterinas dolorosas cada ocho minutos con cuello de 2 cm de dilatación y 50 % de borramiento, sin pérdida de líquido ni sangrado. ¿Cuál es la complicación obstétrica que explica esta presentación?",
+   "opciones": [
+    "La insuficiencia cervical de aparición tardía",
+    "La rotura prematura de las membranas ovulares",
+    "El desprendimiento prematuro de la placenta",
+    "El parto pretérmino favorecido por el exceso de líquido",
+    "La corioamnionitis con compromiso del cuello"
+   ],
+   "clave": 4,
+   "especialidad": "Obstetricia",
+   "tema": "Diabetes gestacional",
+   "diagnostico": "Parto pretérmino como complicación",
+   "tipo": "complicacion",
+   "dificultad": "alta",
+   "razonamiento": "Paso 1: hay contracciones regulares con modificación cervical antes de las 37 semanas. Paso 2: la alteración glucémica del embarazo produce exceso de líquido amniótico, que distiende el útero y favorece el parto pretérmino. Paso 3: no hay datos de rotura de membranas, desprendimiento ni infección.",
+   "por_que_no": [
+    "La insuficiencia cervical se manifiesta con dilatación sin contracciones dolorosas.",
+    "No hay pérdida de líquido, de modo que las membranas están íntegras.",
+    "El desprendimiento cursa con sangrado y dolor uterino continuo, ausentes aquí.",
+    "",
+    "La corioamnionitis exige fiebre y otros signos infecciosos que no se describen."
+   ],
+   "trampa": [
+    "otra-complicacion",
+    "otra-complicacion",
+    "otra-complicacion",
+    "",
+    "otra-complicacion"
+   ],
+   "perla": "Exceso de líquido por hiperglucemia: útero distendido y parto antes de tiempo.",
+   "fuente": {
+    "carpeta": "2. OBSTETRICIA",
+    "archivo": "8. DM GESTACIONAL.pdf",
+    "seccion": "p. 1, Tamizaje y complicaciones"
+   },
+   "gemela_de": null
+  },
+  {
+   "id": "2026-10-22-banco-dbg-vih-036",
+   "enunciado": "Gestante de 36 años, de 10 semanas, con IMC de 31 kg/m2 y padre con hiperglucemia crónica. En su primer control la glucosa en ayunas es de 88 mg/dL y la hemoglobina glicosilada de 5,5 %. Está asintomática y la presión es normal. ¿Cuál es la conducta que corresponde con su tamizaje metabólico?",
+   "opciones": [
+    "Iniciar dieta e insulina de manera preventiva",
+    "Solicitar hemoglobina glicosilada mensual hasta el término",
+    "Descartar el problema y no repetir ninguna prueba",
+    "Programar la curva de tolerancia más adelante en el embarazo",
+    "Repetir la glucosa en ayunas cada cuatro semanas"
+   ],
+   "clave": 4,
+   "especialidad": "Obstetricia",
+   "tema": "Diabetes gestacional",
+   "diagnostico": "Conducta ante glucosa en ayunas menor de 92 en el primer trimestre",
+   "tipo": "conducta",
+   "dificultad": "alta",
+   "razonamiento": "Paso 1: con ayunas menor de 92 y glicosilada normal no hay diagnóstico en el primer trimestre. Paso 2: corresponde programar la curva de tolerancia con 75 gramos. Paso 3: por sus factores de riesgo puede adelantarse desde las 20 semanas en lugar de esperar las 24 a 28.",
+   "por_que_no": [
+    "No corresponde tratar sin diagnóstico, y menos iniciar insulina de forma preventiva.",
+    "La glicosilada mensual no es la prueba del tamizaje del segundo trimestre.",
+    "Un valor inicial menor de noventa y dos no descarta la alteración que aparece después.",
+    "",
+    "La glucosa en ayunas repetida no reemplaza a la curva de tolerancia."
+   ],
+   "trampa": [
+    "otro-extremo",
+    "otro-examen",
+    "dato-falso",
+    "",
+    "otro-examen"
+   ],
+   "perla": "Ayunas menor de 92 al inicio: falta la curva, no se descarta nada.",
+   "fuente": {
+    "carpeta": "2. OBSTETRICIA",
+    "archivo": "8. DM GESTACIONAL.pdf",
+    "seccion": "p. 1, Tamizaje y complicaciones"
+   },
+   "gemela_de": null
+  },
+  {
+   "id": "2026-10-22-banco-dbg-vih-037",
+   "enunciado": "En una revisión de los criterios históricos del esquema de dos pasos se comparan tres juegos de puntos de corte para la carga de cien gramos. El residente debe identificar el juego más permisivo, el del grupo nacional de datos, cuyos valores son los más altos de los tres. ¿Cuáles son esos cuatro valores en miligramos por decilitro?",
+   "opciones": [
+    "Ciento cinco, ciento noventa, ciento sesenta y cinco y ciento cuarenta y cinco",
+    "Noventa y dos, ciento ochenta, ciento cincuenta y tres y ciento cuarenta",
+    "Noventa y cinco, ciento ochenta, ciento cincuenta y cinco y ciento cuarenta",
+    "Noventa, ciento sesenta y cinco, ciento cuarenta y cinco y ciento veinticinco",
+    "Cien, ciento ochenta y cinco, ciento sesenta y ciento cuarenta"
+   ],
+   "clave": 1,
+   "especialidad": "Obstetricia",
+   "tema": "Diabetes gestacional",
+   "diagnostico": "Criterios del grupo nacional de datos con carga de cien gramos",
+   "tipo": "criterio",
+   "dificultad": "muy alta",
+   "razonamiento": "Paso 1: el esquema de dos pasos confirma con carga de 100 gramos y cuatro tomas. Paso 2: los tres juegos de valores son O'Sullivan con 90, 165, 145 y 125; Carpenter con 95, 180, 155 y 140; y el grupo nacional de datos con 105, 190, 165 y 145. Paso 3: el más permisivo es el último.",
+   "por_que_no": [
+    "",
+    "Los primeros valores pertenecen a la carga de setenta y cinco gramos, de un solo paso.",
+    "Esos valores corresponden al criterio de Carpenter y Coustan, intermedio entre los tres.",
+    "Esos valores corresponden al criterio original de O'Sullivan, el más estricto de los tres.",
+    "Ese juego de valores no corresponde a ninguno de los tres criterios comparados."
+   ],
+   "trampa": [
+    "",
+    "otro-criterio",
+    "otro-criterio",
+    "otro-criterio",
+    "inventado"
+   ],
+   "perla": "Cien gramos: O'Sullivan el más estricto, el grupo nacional el más permisivo.",
+   "fuente": {
+    "carpeta": "2. OBSTETRICIA",
+    "archivo": "8. DM GESTACIONAL.pdf",
+    "seccion": "p. 1, Tamizaje y complicaciones"
+   },
+   "gemela_de": null
+  },
+  {
+   "id": "2026-10-22-banco-dbg-vih-038",
+   "enunciado": "Gestante de 27 años, de 25 semanas, acude a un establecimiento donde se emplea el esquema de dos pasos. La obstetra le explica que primero se le dará a beber una carga de glucosa sin necesidad de ayuno y que, si el resultado sale alterado, se la citará para una segunda prueba más larga. ¿Con cuántos gramos de glucosa se realiza esa primera prueba?",
+   "opciones": [
+    "Cincuenta gramos de glucosa",
+    "Cien gramos de glucosa",
+    "Veinticinco gramos de glucosa",
+    "Setenta y cinco gramos de glucosa",
+    "Ciento cincuenta gramos de glucosa"
+   ],
+   "clave": 1,
+   "especialidad": "Obstetricia",
+   "tema": "Diabetes gestacional",
+   "diagnostico": "Carga de glucosa del cribado de dos pasos",
+   "tipo": "examen",
+   "dificultad": "media",
+   "razonamiento": "Paso 1: el esquema de dos pasos inicia con la prueba de O'Sullivan, que no requiere ayuno. Paso 2: esa prueba emplea una carga de 50 gramos de glucosa. Paso 3: si resulta alterada, se confirma con la prueba de 100 gramos y cuatro tomas.",
+   "por_que_no": [
+    "",
+    "Esa carga corresponde a la segunda prueba, la confirmatoria del esquema de dos pasos.",
+    "Esa carga no corresponde a ninguna de las pruebas de tamizaje de la gestante.",
+    "Esa carga corresponde a la prueba de un solo paso del tamizaje universal.",
+    "Esa carga no figura en ninguno de los esquemas de tamizaje establecidos."
+   ],
+   "trampa": [
+    "",
+    "otro-paso",
+    "inventado",
+    "otro-examen",
+    "inventado"
+   ],
+   "perla": "Dos pasos: primero 50 gramos, luego 100.",
+   "fuente": {
+    "carpeta": "2. OBSTETRICIA",
+    "archivo": "8. DM GESTACIONAL.pdf",
+    "seccion": "p. 1, Tamizaje y complicaciones"
+   },
+   "gemela_de": null
+  },
+  {
+   "id": "2026-10-22-banco-dbg-vih-039",
+   "enunciado": "Gestante de 30 años, de 31 semanas, con alteración glucémica en tratamiento con dieta, acude a control ecográfico. El informe describe un índice de líquido amniótico de 16 cm, pozo mayor de 6 cm, peso fetal en el percentil 60 y Doppler umbilical normal. Pregunta si la cantidad de líquido está bien. ¿Cuál es el rango normal de ese índice?",
+   "opciones": [
+    "Entre dos y ocho centímetros",
+    "Entre cinco y veinticinco centímetros",
+    "Entre ocho y veinte centímetros",
+    "Entre quince y treinta y cinco centímetros",
+    "Entre diez y treinta centímetros"
+   ],
+   "clave": 2,
+   "especialidad": "Obstetricia",
+   "tema": "Diabetes gestacional",
+   "diagnostico": "Rango normal del índice de líquido amniótico",
+   "tipo": "criterio",
+   "dificultad": "alta",
+   "razonamiento": "Paso 1: el índice informado es de 16 centímetros con pozo mayor de 6. Paso 2: el índice normal va de 5 a 25 centímetros, de modo que por encima de 25 hay exceso y por debajo de 5 hay defecto. Paso 3: los valores de esta paciente están dentro del rango normal.",
+   "por_que_no": [
+    "Ese rango corresponde a los valores del pozo mayor y no del índice completo.",
+    "",
+    "Ese rango estrecha los límites normales y clasificaría como anormal un volumen adecuado.",
+    "Ese rango desplaza los límites hacia arriba y no corresponde a lo establecido.",
+    "El límite inferior de ese rango dejaría fuera volúmenes normales de líquido."
+   ],
+   "trampa": [
+    "otro-parametro",
+    "",
+    "otro-punto-de-corte",
+    "inventado",
+    "otro-punto-de-corte"
+   ],
+   "perla": "Índice de líquido normal: 5 a 25 centímetros.",
+   "fuente": {
+    "carpeta": "2. OBSTETRICIA",
+    "archivo": "8. DM GESTACIONAL.pdf",
+    "seccion": "p. 1, Tamizaje y complicaciones"
+   },
+   "gemela_de": null
+  },
+  {
+   "id": "2026-10-22-banco-dbg-vih-040",
+   "enunciado": "Recién nacido de 39 semanas, 4 400 g, hijo de madre con hiperglucemia del embarazo sin control adecuado, presenta a las dos horas de vida temblores y succión débil. La glucemia capilar es de 28 mg/dL y responde al aporte de glucosa. ¿Qué cambio del páncreas fetal explica tanto el peso elevado como esta glucemia baja?",
+   "opciones": [
+    "La hipertrofia de las células productoras de glucagón",
+    "La atrofia de las células productoras de insulina",
+    "La ausencia congénita de los islotes pancreáticos",
+    "La hipertrofia de las células acinares del páncreas",
+    "La hipertrofia de las células productoras de insulina"
+   ],
+   "clave": 5,
+   "especialidad": "Obstetricia",
+   "tema": "Diabetes gestacional",
+   "diagnostico": "Hipertrofia de las células beta fetales",
+   "tipo": "mecanismo",
+   "dificultad": "alta",
+   "razonamiento": "Paso 1: la glucosa materna cruza la placenta y estimula de forma sostenida al páncreas fetal. Paso 2: sus células productoras de insulina se hipertrofian y liberan insulina con factor de crecimiento insulínico, lo que explica la macrosomía. Paso 3: al cortarse el aporte materno al nacer, ese exceso de insulina produce hipoglucemia.",
+   "por_que_no": [
+    "El exceso de glucagón elevaría la glucemia y no explicaría el descenso descrito.",
+    "La atrofia produciría el efecto contrario, con hiperglucemia en lugar de hipoglucemia.",
+    "La ausencia de islotes no es compatible con la macrosomía que presenta el neonato.",
+    "Las células acinares producen enzimas digestivas y no participan de este mecanismo.",
+    ""
+   ],
+   "trampa": [
+    "otra-celula",
+    "invertido",
+    "dato-falso",
+    "otra-celula",
+    ""
+   ],
+   "perla": "Páncreas fetal hipertrofiado: crece de más y nace hipoglucémico.",
+   "fuente": {
+    "carpeta": "2. OBSTETRICIA",
+    "archivo": "8. DM GESTACIONAL.pdf",
+    "seccion": "p. 1, Tamizaje y complicaciones"
+   },
+   "gemela_de": null
+  },
+  {
+   "id": "2026-10-22-banco-dbg-vih-041",
+   "enunciado": "Gestante de 32 años, de 16 semanas, refiere que hace diez años le informaron que tenía la infección por el virus de la inmunodeficiencia humana, pero nunca acudió a los controles ni recibió antirretrovirales. Hoy está asintomática, con recuento de linfocitos T CD4 de 420 células por microlitro y carga viral de 48 000 copias. ¿En qué escenario corresponde clasificarla?",
+   "opciones": [
+    "Escenario dos, por tener diagnóstico anterior al embarazo",
+    "Escenario tres, por el tiempo transcurrido sin controles",
+    "Escenario tres, por la carga viral elevada que presenta",
+    "Escenario dos, por el recuento de linfocitos conservado",
+    "Escenario uno, por no haber recibido tratamiento"
+   ],
+   "clave": 5,
+   "especialidad": "Obstetricia",
+   "tema": "VIH en la gestante",
+   "diagnostico": "Escenario I: diagnóstico antiguo sin tratamiento previo",
+   "tipo": "criterio",
+   "dificultad": "muy alta",
+   "razonamiento": "Paso 1: el diagnóstico es antiguo, pero la paciente nunca recibió antirretrovirales. Paso 2: el escenario dos exige diagnóstico pregestacional con tratamiento previo, condición que no cumple. Paso 3: por eso se clasifica como escenario uno, igual que la gestante diagnosticada en el control prenatal.",
+   "por_que_no": [
+    "El escenario dos exige diagnóstico previo pero con tratamiento antirretroviral recibido.",
+    "El tiempo sin controles no cambia el escenario: lo define la ausencia de tratamiento.",
+    "El escenario tres corresponde al diagnóstico hecho durante el trabajo de parto.",
+    "El recuento de linfocitos no define el escenario, que depende del momento y del tratamiento.",
+    ""
+   ],
+   "trampa": [
+    "otro-escenario",
+    "otro-criterio",
+    "otro-escenario",
+    "otro-criterio",
+    ""
+   ],
+   "perla": "Diagnóstico viejo sin tratamiento: escenario uno, no dos.",
+   "fuente": {
+    "carpeta": "2. OBSTETRICIA",
+    "archivo": "16. VIH EN GESTANTE.pdf",
+    "seccion": "p. 1, Escenarios y manejo"
+   },
+   "gemela_de": null
+  },
+  {
+   "id": "2026-10-22-banco-dbg-vih-042",
+   "enunciado": "Gestante de 29 años, de 14 semanas, con infección por el virus de la inmunodeficiencia humana diagnosticada hace cuatro años, en tratamiento antirretroviral continuo desde entonces, con buena adherencia referida. Carga viral de 85 copias y linfocitos T CD4 de 610 células por microlitro. ¿En qué escenario corresponde clasificarla?",
+   "opciones": [
+    "Escenario dos, por el tratamiento previo al embarazo",
+    "Escenario tres, por estar en el segundo trimestre",
+    "Escenario uno, por el diagnóstico anterior a la gestación",
+    "Escenario uno, por la carga viral aún detectable",
+    "Escenario tres, por tener linfocitos conservados"
+   ],
+   "clave": 1,
+   "especialidad": "Obstetricia",
+   "tema": "VIH en la gestante",
+   "diagnostico": "Escenario II: diagnóstico pregestacional con tratamiento previo",
+   "tipo": "criterio",
+   "dificultad": "alta",
+   "razonamiento": "Paso 1: el diagnóstico es anterior al embarazo y la paciente venía recibiendo tratamiento. Paso 2: esa combinación define el escenario dos. Paso 3: el escenario uno corresponde al diagnóstico en el control prenatal o sin tratamiento previo, y el tres al diagnóstico en el parto.",
+   "por_que_no": [
+    "",
+    "El escenario tres corresponde al diagnóstico realizado durante el trabajo de parto.",
+    "El escenario uno corresponde al diagnóstico en el control o al caso sin tratamiento previo.",
+    "Una carga viral baja detectable no cambia el escenario, definido por el tratamiento previo.",
+    "El recuento de linfocitos no interviene en la definición de los escenarios."
+   ],
+   "trampa": [
+    "",
+    "otro-escenario",
+    "otro-escenario",
+    "otro-criterio",
+    "otro-criterio"
+   ],
+   "perla": "Escenario dos: diagnóstico previo y además con tratamiento.",
+   "fuente": {
+    "carpeta": "2. OBSTETRICIA",
+    "archivo": "16. VIH EN GESTANTE.pdf",
+    "seccion": "p. 1, Escenarios y manejo"
+   },
+   "gemela_de": null
+  },
+  {
+   "id": "2026-10-22-banco-dbg-vih-043",
+   "enunciado": "Mujer de 24 años, sin controles prenatales, ingresa en trabajo de parto con 6 cm de dilatación y membranas íntegras. Se le realiza la prueba rápida de tamizaje, que resulta reactiva, y una segunda prueba rápida de otro fabricante también reactiva. No se dispone de carga viral ni de recuento de linfocitos. ¿En qué escenario corresponde clasificarla?",
+   "opciones": [
+    "Escenario tres, por el diagnóstico en el parto",
+    "Escenario dos, por tener dos pruebas rápidas reactivas",
+    "Escenario uno, por no haber recibido tratamiento antirretroviral",
+    "Escenario uno, por la falta de controles prenatales",
+    "Escenario dos, por desconocerse su carga viral"
+   ],
+   "clave": 1,
+   "especialidad": "Obstetricia",
+   "tema": "VIH en la gestante",
+   "diagnostico": "Escenario III: diagnóstico durante el trabajo de parto",
+   "tipo": "criterio",
+   "dificultad": "alta",
+   "razonamiento": "Paso 1: el diagnóstico se realiza con la paciente ya en trabajo de parto. Paso 2: ese momento define el escenario tres, el de mayor riesgo de transmisión. Paso 3: de ese escenario se desprende el esquema reforzado para el recién nacido, independientemente de la carga viral.",
+   "por_que_no": [
+    "",
+    "El número de pruebas reactivas define el caso, no el escenario de la gestante.",
+    "El escenario uno corresponde al diagnóstico hecho durante el control prenatal.",
+    "La falta de controles acompaña al caso, pero el escenario lo fija el momento del diagnóstico.",
+    "El escenario dos exige diagnóstico previo con tratamiento antirretroviral recibido."
+   ],
+   "trampa": [
+    "",
+    "otro-criterio",
+    "otro-escenario",
+    "otro-criterio",
+    "otro-escenario"
+   ],
+   "perla": "Diagnóstico en el parto: escenario tres y profilaxis reforzada al neonato.",
+   "fuente": {
+    "carpeta": "2. OBSTETRICIA",
+    "archivo": "16. VIH EN GESTANTE.pdf",
+    "seccion": "p. 1, Escenarios y manejo"
+   },
+   "gemela_de": null
+  },
+  {
+   "id": "2026-10-22-banco-dbg-vih-044",
+   "enunciado": "Gestante de 27 años, de 9 semanas, con diagnóstico de infección por el virus de la inmunodeficiencia humana confirmado en esta gestación, sin tratamiento previo. Asintomática, linfocitos T CD4 de 480 células por microlitro, carga viral de 32 000 copias, radiografía de tórax y baciloscopías sin hallazgos. ¿A partir de qué edad gestacional corresponde iniciar el tratamiento según la norma vigente?",
+   "opciones": [
+    "A partir de las veintiocho semanas",
+    "A partir de las doce semanas",
+    "En el momento del diagnóstico, sin esperar semanas",
+    "A partir de las catorce semanas",
+    "A partir de las veinte semanas"
+   ],
+   "clave": 2,
+   "especialidad": "Obstetricia",
+   "tema": "VIH en la gestante",
+   "diagnostico": "Semana de inicio del tratamiento antirretroviral en la gestante",
+   "tipo": "tratamiento",
+   "dificultad": "alta",
+   "razonamiento": "Paso 1: la gestante está en el primer trimestre con diagnóstico nuevo y sin tratamiento. Paso 2: la norma vigente indica iniciar el tratamiento antirretroviral a partir de las 12 semanas de gestación. Paso 3: la norma anterior lo fijaba a partir de las 14 semanas, dato que suele usarse como distractor.",
+   "por_que_no": [
+    "Las veintiocho semanas dejan la primera mitad del embarazo sin tratamiento.",
+    "",
+    "La norma de la gestante fija un umbral de semanas y no el inicio inmediato.",
+    "Ese era el límite de la norma anterior, reemplazado por el de las doce semanas.",
+    "Las veinte semanas retrasan el inicio y aumentan el riesgo de transmisión al feto."
+   ],
+   "trampa": [
+    "otro-momento",
+    "",
+    "otro-criterio",
+    "otra-norma",
+    "otro-momento"
+   ],
+   "perla": "Gestante: antirretrovirales desde las 12 semanas.",
+   "fuente": {
+    "carpeta": "2. OBSTETRICIA",
+    "archivo": "16. VIH EN GESTANTE.pdf",
+    "seccion": "p. 1, Escenarios y manejo"
+   },
+   "gemela_de": null
+  },
+  {
+   "id": "2026-10-22-banco-dbg-vih-045",
+   "enunciado": "Gestante de 31 años, de 13 semanas, con diagnóstico confirmado en este embarazo y sin tratamiento previo. Exámenes basales sin contraindicaciones, creatinina 0,6 mg/dL, transaminasas normales, baciloscopías negativas. Se decide iniciar el esquema antirretroviral que corresponde a la gestante según la norma vigente. ¿Cuál es ese esquema?",
+   "opciones": [
+    "Tenofovir con emtricitabina y raltegravir",
+    "Tenofovir con lamivudina y dolutegravir",
+    "Abacavir con lamivudina y lopinavir",
+    "Zidovudina con lamivudina y nevirapina",
+    "Tenofovir con lamivudina y efavirenz"
+   ],
+   "clave": 1,
+   "especialidad": "Obstetricia",
+   "tema": "VIH en la gestante",
+   "diagnostico": "Esquema antirretroviral de la gestante según norma vigente",
+   "tipo": "tratamiento",
+   "dificultad": "muy alta",
+   "razonamiento": "Paso 1: la gestante requiere iniciar tratamiento desde las 12 semanas. Paso 2: el esquema que la norma vigente indica para ella combina tenofovir, emtricitabina y raltegravir. Paso 3: el esquema de la norma previa era tenofovir, lamivudina y efavirenz desde las 14 semanas.",
+   "por_que_no": [
+    "",
+    "Ese es el esquema de primera línea de la población general y no el de la gestante.",
+    "Ese esquema se emplea en el lactante con infección confirmada y no en la gestante.",
+    "Ese esquema corresponde a la profilaxis del recién nacido de alto riesgo, no a la madre.",
+    "Ese esquema corresponde a la norma anterior y contiene el fármaco que se evita en la gestante."
+   ],
+   "trampa": [
+    "",
+    "otra-poblacion",
+    "otra-poblacion",
+    "otra-poblacion",
+    "otra-norma"
+   ],
+   "perla": "Gestante: tenofovir, emtricitabina y raltegravir.",
+   "fuente": {
+    "carpeta": "2. OBSTETRICIA",
+    "archivo": "16. VIH EN GESTANTE.pdf",
+    "seccion": "p. 1, Escenarios y manejo"
+   },
+   "gemela_de": null
+  },
+  {
+   "id": "2026-10-22-banco-dbg-vih-046",
+   "enunciado": "Gestante de 26 años, de 15 semanas, llega transferida de otro establecimiento con una receta que indica tenofovir, lamivudina y un tercer fármaco del grupo de los inhibidores no nucleósidos de la transcriptasa reversa, que la fuente del curso señala como el que debe evitarse en la gestación. ¿Cuál es ese fármaco que corresponde cambiar?",
+   "opciones": [
+    "Raltegravir",
+    "Lamivudina",
+    "Tenofovir",
+    "Efavirenz",
+    "Emtricitabina"
+   ],
+   "clave": 4,
+   "especialidad": "Obstetricia",
+   "tema": "VIH en la gestante",
+   "diagnostico": "Antirretroviral que se evita en la gestante",
+   "tipo": "tratamiento",
+   "dificultad": "alta",
+   "razonamiento": "Paso 1: el esquema indicado para la gestante es tenofovir con emtricitabina y raltegravir. Paso 2: la fuente señala el efavirenz como el antirretroviral contraindicado en la gestante. Paso 3: corresponde reemplazar ese tercer fármaco por raltegravir.",
+   "por_que_no": [
+    "El raltegravir es justamente el tercer fármaco del esquema indicado para la gestante.",
+    "La lamivudina es un análogo nucleósido que se emplea con seguridad en la gestación.",
+    "El tenofovir forma parte del esquema recomendado y no debe retirarse.",
+    "",
+    "La emtricitabina integra el esquema recomendado para la gestante en la norma vigente."
+   ],
+   "trampa": [
+    "otro-farmaco",
+    "otro-farmaco",
+    "otro-farmaco",
+    "",
+    "otro-farmaco"
+   ],
+   "perla": "En la gestante, el que se evita es el efavirenz.",
+   "fuente": {
+    "carpeta": "2. OBSTETRICIA",
+    "archivo": "16. VIH EN GESTANTE.pdf",
+    "seccion": "p. 1, Escenarios y manejo"
+   },
+   "gemela_de": null
+  },
+  {
+   "id": "2026-10-22-banco-dbg-vih-047",
+   "enunciado": "Gestante de 30 años, de 38 semanas, en tratamiento antirretroviral irregular desde las 24 semanas. La carga viral tomada a las 36 semanas informa 4 300 copias. Acude sin contracciones, con membranas íntegras y cuello cerrado, feto único en presentación cefálica con peso estimado de 3 200 g. ¿Cuál es la vía del parto que corresponde?",
+   "opciones": [
+    "Cesárea solo si fracasa la inducción",
+    "Parto vaginal con maduración cervical previa",
+    "Parto vaginal espontáneo con monitoreo continuo",
+    "Parto vaginal con inducción con oxitocina",
+    "Cesárea electiva sin esperar el trabajo de parto"
+   ],
+   "clave": 5,
+   "especialidad": "Obstetricia",
+   "tema": "VIH en la gestante",
+   "diagnostico": "Vía del parto con carga viral elevada",
+   "tipo": "conducta",
+   "dificultad": "alta",
+   "razonamiento": "Paso 1: la carga viral de las 36 semanas es de 4 300 copias, por encima de mil. Paso 2: con carga viral de mil copias o más, o desconocida, la vía indicada es la cesárea. Paso 3: el parto vaginal se reserva a las gestantes con carga menor de mil copias que cumplan las condiciones obstétricas.",
+   "por_que_no": [
+    "Intentar primero la inducción desconoce que la carga viral ya define la vía.",
+    "La maduración cervical prepara un parto vaginal que en este caso está contraindicado.",
+    "Esperar el parto espontáneo mantiene el riesgo de transmisión durante el período expulsivo.",
+    "La inducción expone al feto a un trabajo de parto con carga viral por encima de mil copias.",
+    ""
+   ],
+   "trampa": [
+    "otro-escalon",
+    "otra-via",
+    "otra-via",
+    "otra-via",
+    ""
+   ],
+   "perla": "Mil copias o más, o carga desconocida: cesárea.",
+   "fuente": {
+    "carpeta": "2. OBSTETRICIA",
+    "archivo": "16. VIH EN GESTANTE.pdf",
+    "seccion": "p. 1, Escenarios y manejo"
+   },
+   "gemela_de": null
+  },
+  {
+   "id": "2026-10-22-banco-dbg-vih-048",
+   "enunciado": "Gestante de 28 años, de 39 semanas, en tratamiento antirretroviral desde las 12 semanas, con carga viral de 120 copias a las 36 semanas. Ingresa con 5 cm de dilatación, contracciones regulares y rotura de membranas desde hace cinco horas. El feto está en presentación cefálica con trazado tranquilizador. ¿Qué criterios permiten continuar con el parto vaginal?",
+   "opciones": [
+    "Carga menor de mil copias, cualquier dilatación y rotura de menos de una hora",
+    "Carga menor de mil copias, fase latente de menos de cuatro centímetros y membranas íntegras",
+    "Carga menor de cinco mil copias, fase activa de más de cuatro centímetros y membranas íntegras",
+    "Carga indetectable, dilatación completa y rotura de menos de dos horas",
+    "Carga menor de mil copias, fase activa de más de cuatro centímetros y rotura de más de cuatro horas"
+   ],
+   "clave": 5,
+   "especialidad": "Obstetricia",
+   "tema": "VIH en la gestante",
+   "diagnostico": "Criterios para permitir el parto vaginal",
+   "tipo": "criterio",
+   "dificultad": "muy alta",
+   "razonamiento": "Paso 1: la carga viral es de 120 copias, por debajo del umbral de mil. Paso 2: los criterios para continuar por vía vaginal son carga menor de mil copias, fase activa con más de cuatro centímetros y rotura de membranas de más de cuatro horas. Paso 3: la paciente cumple los tres.",
+   "por_que_no": [
+    "La dilatación importa: el criterio exige fase activa de más de cuatro centímetros.",
+    "La fase latente con membranas íntegras es justamente el escenario en que conviene la cesárea.",
+    "El umbral de carga viral es mil copias y no cinco mil, de modo que el criterio es incorrecto.",
+    "Exigir dilatación completa y rotura reciente deja fuera a la mayoría de las candidatas.",
+    ""
+   ],
+   "trampa": [
+    "incompleto",
+    "invertido",
+    "otro-punto-de-corte",
+    "otro-criterio",
+    ""
+   ],
+   "perla": "Vaginal si: menos de mil copias, más de 4 cm y rotura de más de 4 horas.",
+   "fuente": {
+    "carpeta": "2. OBSTETRICIA",
+    "archivo": "16. VIH EN GESTANTE.pdf",
+    "seccion": "p. 1, Escenarios y manejo"
+   },
+   "gemela_de": null
+  },
+  {
+   "id": "2026-10-22-banco-dbg-vih-049",
+   "enunciado": "Puérpera de 25 años con infección por el virus de la inmunodeficiencia humana, en tratamiento antirretroviral con carga viral indetectable, pregunta en el alojamiento conjunto si puede amamantar a su hija, pues en su comunidad se valora mucho la lactancia y ella se siente bien. ¿Cuál es la indicación que corresponde darle?",
+   "opciones": [
+    "Puede amamantar si extrae y pasteuriza su propia leche",
+    "Puede amamantar si la niña recibe profilaxis antirretroviral",
+    "No debe amamantar: la lactancia está contraindicada de forma absoluta",
+    "Puede amamantar los primeros seis meses y luego suspender",
+    "Puede amamantar porque su carga viral es indetectable"
+   ],
+   "clave": 3,
+   "especialidad": "Obstetricia",
+   "tema": "VIH en la gestante",
+   "diagnostico": "Contraindicación absoluta de la lactancia materna",
+   "tipo": "conducta",
+   "dificultad": "media",
+   "razonamiento": "Paso 1: la lactancia directa y la cruzada están contraindicadas de forma absoluta en esta infección. Paso 2: esa contraindicación no depende de la carga viral ni del tratamiento materno. Paso 3: corresponde indicar sucedáneo de la leche materna e inhibir la producción láctea.",
+   "por_que_no": [
+    "La pasteurización de la propia leche no está admitida como alternativa en esta infección.",
+    "La profilaxis del recién nacido no autoriza la lactancia directa ni la cruzada.",
+    "",
+    "No existe un período inicial permitido: la contraindicación abarca toda la lactancia.",
+    "La carga indetectable no levanta la contraindicación de la lactancia en esta infección."
+   ],
+   "trampa": [
+    "inventado",
+    "mezcla",
+    "",
+    "otro-momento",
+    "dato-falso"
+   ],
+   "perla": "En esta infección no hay lactancia, aunque la carga sea indetectable.",
+   "fuente": {
+    "carpeta": "2. OBSTETRICIA",
+    "archivo": "16. VIH EN GESTANTE.pdf",
+    "seccion": "p. 1, Escenarios y manejo"
+   },
+   "gemela_de": null
+  },
+  {
+   "id": "2026-10-22-banco-dbg-vih-050",
+   "enunciado": "Puérpera de 27 años con infección por el virus de la inmunodeficiencia humana, a las cuatro horas de una cesárea, refiere tensión mamaria incipiente. Se le ha indicado sucedáneo de leche para la recién nacida y se requiere frenar la producción láctea antes de que se instale. ¿Qué fármaco y qué dosis corresponde indicar?",
+   "opciones": [
+    "Cabergolina cero coma veinticinco miligramos cada doce horas por dos días",
+    "Vendaje compresivo mamario sin ningún fármaco asociado",
+    "Cabergolina un miligramo en dosis única",
+    "Bromocriptina dos coma cinco miligramos cada ocho horas por siete días",
+    "Estrógenos conjugados por vía oral durante cinco días"
+   ],
+   "clave": 3,
+   "especialidad": "Obstetricia",
+   "tema": "VIH en la gestante",
+   "diagnostico": "Inhibición farmacológica de la lactancia",
+   "tipo": "dosis",
+   "dificultad": "alta",
+   "razonamiento": "Paso 1: la lactancia está contraindicada y hay que inhibir la producción láctea antes de que se establezca. Paso 2: el fármaco indicado es la cabergolina, un agonista dopaminérgico que frena la liberación de prolactina. Paso 3: la dosis es de un miligramo en dosis única.",
+   "por_que_no": [
+    "Ese esquema fraccionado corresponde a otras indicaciones y no al frenado puerperal inmediato.",
+    "El vendaje alivia la tensión, pero no inhibe la producción de prolactina.",
+    "",
+    "La bromocriptina ha sido desplazada por el agonista de dosis única en esta indicación.",
+    "Los estrógenos no figuran como el tratamiento indicado para inhibir la lactancia."
+   ],
+   "trampa": [
+    "otro-esquema",
+    "incompleto",
+    "",
+    "otro-farmaco",
+    "otro-farmaco"
+   ],
+   "perla": "Cabergolina 1 mg en dosis única corta la leche.",
+   "fuente": {
+    "carpeta": "2. OBSTETRICIA",
+    "archivo": "16. VIH EN GESTANTE.pdf",
+    "seccion": "p. 1, Escenarios y manejo"
+   },
+   "gemela_de": null
+  },
+  {
+   "id": "2026-10-22-banco-dbg-vih-051",
+   "enunciado": "En un consultorio de atención prenatal se registra el caso de una gestante de 23 años cuya prueba de tamizaje para el virus de la inmunodeficiencia humana es no reactiva, mientras su esposo tiene diagnóstico confirmado de esa infección y recibe tratamiento antirretroviral. ¿Cómo se denomina esta situación de la pareja y qué define el término?",
+   "opciones": [
+    "Pareja en período de ventana: ambos pueden estar infectados",
+    "Pareja de alto riesgo: ambos pertenecen a población clave",
+    "Pareja seroconcordante: ambos tienen resultados coincidentes",
+    "Pareja serodiscordante: uno tiene la infección y el otro no",
+    "Pareja en exposición ocupacional: uno se expone por su trabajo"
+   ],
+   "clave": 4,
+   "especialidad": "Obstetricia",
+   "tema": "VIH en la gestante",
+   "diagnostico": "Definición de pareja serodiscordante",
+   "tipo": "criterio",
+   "dificultad": "media",
+   "razonamiento": "Paso 1: la gestante tiene tamizaje no reactivo y su pareja tiene la infección confirmada. Paso 2: la pareja serodiscordante es aquella en la que uno de los miembros tiene la infección y el otro no. Paso 3: esa condición activa el tamizaje trimestral y la profilaxis preexposición en la gestante.",
+   "por_que_no": [
+    "El período de ventana alude al tiempo entre la infección y la positividad de la prueba.",
+    "La población clave agrupa a otros grupos y no define la relación entre los miembros.",
+    "La concordancia implicaría el mismo estado serológico en los dos miembros de la pareja.",
+    "",
+    "La exposición ocupacional se refiere al personal de salud durante su jornada laboral."
+   ],
+   "trampa": [
+    "otro-concepto",
+    "otro-concepto",
+    "otro-concepto",
+    "",
+    "otro-concepto"
+   ],
+   "perla": "Serodiscordante: uno sí y el otro no.",
+   "fuente": {
+    "carpeta": "28. NT",
+    "archivo": "9. NT VIH.pdf",
+    "seccion": "p. 1, Norma técnica 2020"
+   },
+   "gemela_de": null
+  },
+  {
+   "id": "2026-10-22-banco-dbg-vih-052",
+   "enunciado": "Gestante de 24 años, de 13 semanas, con tamizaje no reactivo confirmado, cuya pareja tiene la infección por el virus de la inmunodeficiencia humana con carga viral detectable y adherencia irregular. Creatinina de 0,6 mg/dL y tamizaje de hepatitis B negativo. Se decide ofrecerle protección farmacológica. ¿Qué esquema corresponde indicarle?",
+   "opciones": [
+    "Tenofovir con emtricitabina, una tableta cada veinticuatro horas",
+    "Tenofovir con lamivudina y dolutegravir, una tableta cada veinticuatro horas",
+    "Tenofovir con emtricitabina y raltegravir, una tableta cada veinticuatro horas",
+    "Tenofovir solo, una tableta cada veinticuatro horas",
+    "Zidovudina con lamivudina, una tableta cada doce horas"
+   ],
+   "clave": 1,
+   "especialidad": "Obstetricia",
+   "tema": "VIH en la gestante",
+   "diagnostico": "Profilaxis preexposición en la gestante serodiscordante",
+   "tipo": "tratamiento",
+   "dificultad": "muy alta",
+   "razonamiento": "Paso 1: la gestante no tiene la infección y su pareja sí, con carga detectable, de modo que hay riesgo actual. Paso 2: una vez descartada la infección corresponde la profilaxis previa a la exposición. Paso 3: el esquema es tenofovir 300 miligramos con emtricitabina 200 miligramos, una tableta diaria desde las 12 semanas.",
+   "por_que_no": [
+    "",
+    "Ese esquema de tres fármacos corresponde a la profilaxis posterior a una exposición.",
+    "Ese esquema de tres fármacos es el tratamiento de la gestante que ya tiene la infección.",
+    "La profilaxis previa a la exposición combina dos fármacos y no tenofovir solo.",
+    "Ese par no corresponde al esquema de la profilaxis previa a la exposición."
+   ],
+   "trampa": [
+    "",
+    "otro-contexto",
+    "otra-poblacion",
+    "incompleto",
+    "otro-esquema"
+   ],
+   "perla": "Serodiscordante: tenofovir con emtricitabina, una al día.",
+   "fuente": {
+    "carpeta": "2. OBSTETRICIA",
+    "archivo": "16. VIH EN GESTANTE.pdf",
+    "seccion": "p. 1, Escenarios y manejo"
+   },
+   "gemela_de": null
+  },
+  {
+   "id": "2026-10-22-banco-dbg-vih-053",
+   "enunciado": "Gestante de 26 años, de 20 semanas, inició profilaxis previa a la exposición a las 12 semanas por tener pareja con la infección. Tolera bien el fármaco, su creatinina se mantiene normal y planea dar lactancia materna a su hijo. Pregunta hasta cuándo debe continuar tomando la tableta diaria. ¿Cuál es la duración que corresponde indicarle?",
+   "opciones": [
+    "Durante la gestación, el parto y los seis primeros meses de lactancia",
+    "Durante la gestación y hasta el momento del parto",
+    "Durante la gestación y los dos primeros años de lactancia",
+    "Durante los tres primeros meses de la gestación solamente",
+    "Durante la gestación y las primeras seis semanas del puerperio"
+   ],
+   "clave": 1,
+   "especialidad": "Obstetricia",
+   "tema": "VIH en la gestante",
+   "diagnostico": "Duración de la profilaxis preexposición en la gestante",
+   "tipo": "norma",
+   "dificultad": "muy alta",
+   "razonamiento": "Paso 1: la gestante recibe profilaxis previa a la exposición por pareja serodiscordante. Paso 2: la norma indica mantenerla durante la gestación, el parto y los seis primeros meses de la lactancia materna. Paso 3: además corresponde tamizaje trimestral y control de creatinina por el tenofovir.",
+   "por_que_no": [
+    "",
+    "Suspender en el parto deja descubierto el período de lactancia, en el que persiste el riesgo.",
+    "Dos años excede el plazo señalado por la norma para esta profilaxis.",
+    "Limitarla al primer trimestre dejaría la mayor parte del embarazo sin protección.",
+    "Las seis semanas del puerperio no cubren los seis meses que la norma establece."
+   ],
+   "trampa": [
+    "",
+    "otro-plazo",
+    "otro-plazo",
+    "otro-plazo",
+    "otro-plazo"
+   ],
+   "perla": "Profilaxis previa: embarazo, parto y 6 meses de lactancia.",
+   "fuente": {
+    "carpeta": "2. OBSTETRICIA",
+    "archivo": "16. VIH EN GESTANTE.pdf",
+    "seccion": "p. 1, Escenarios y manejo"
+   },
+   "gemela_de": null
+  },
+  {
+   "id": "2026-10-22-banco-dbg-vih-054",
+   "enunciado": "Gestante de 22 años, de 14 semanas, con pareja que tiene la infección por el virus de la inmunodeficiencia humana. Su prueba de tamizaje inicial fue no reactiva y ya inició la profilaxis farmacológica. Pregunta cada cuánto tiempo deberá repetirse la prueba mientras persista el riesgo de exposición. ¿Cuál es la periodicidad que corresponde?",
+   "opciones": [
+    "Solo si aparecen síntomas de infección aguda",
+    "Una sola vez más, en el tercer trimestre",
+    "Cada seis meses mientras persista el riesgo",
+    "Cada tres meses mientras persista el riesgo",
+    "Cada mes hasta el término de la gestación"
+   ],
+   "clave": 4,
+   "especialidad": "Obstetricia",
+   "tema": "VIH en la gestante",
+   "diagnostico": "Periodicidad del tamizaje en la gestante serodiscordante",
+   "tipo": "examen",
+   "dificultad": "alta",
+   "razonamiento": "Paso 1: la gestante está en riesgo actual por su pareja serodiscordante. Paso 2: el tamizaje para esta infección y para sífilis se repite cada tres meses mientras persista el riesgo. Paso 3: la hepatitis B se tamiza cada seis meses y la hepatitis C una vez al año.",
+   "por_que_no": [
+    "Esperar los síntomas retrasaría el diagnóstico de una infección que suele ser asintomática.",
+    "Una única repetición deja períodos largos sin vigilancia serológica.",
+    "El intervalo semestral corresponde al tamizaje de hepatitis B en poblaciones de riesgo.",
+    "",
+    "El control mensual no corresponde al esquema establecido para este tamizaje."
+   ],
+   "trampa": [
+    "otro-criterio",
+    "otro-plazo",
+    "otro-examen",
+    "",
+    "inventado"
+   ],
+   "perla": "Riesgo persistente: prueba cada 3 meses; hepatitis B cada 6.",
+   "fuente": {
+    "carpeta": "28. NT",
+    "archivo": "9. NT VIH.pdf",
+    "seccion": "p. 1, Norma técnica 2020"
+   },
+   "gemela_de": null
+  },
+  {
+   "id": "2026-10-22-banco-dbg-vih-055",
+   "enunciado": "Gestante de 30 años, de 22 semanas, acude a un establecimiento sin laboratorio de referencia. Se le realiza una prueba rápida de tercera generación que resulta reactiva y, de inmediato, otra prueba rápida de un fabricante distinto, también reactiva. La paciente está asintomática. ¿Qué corresponde concluir con esos dos resultados?",
+   "opciones": [
+    "No se considera caso hasta obtener una prueba molecular confirmatoria",
+    "Se considera caso solo si se añade una prueba de cuarta generación",
+    "Se considera caso, pues dos pruebas rápidas de distintos fabricantes reactivas lo definen",
+    "No se considera caso, pues ambas pruebas son del mismo tipo",
+    "Se considera sospechoso y debe repetirse el tamizaje en tres meses"
+   ],
+   "clave": 3,
+   "especialidad": "Obstetricia",
+   "tema": "VIH en la gestante",
+   "diagnostico": "Criterios diagnósticos de caso con pruebas rápidas",
+   "tipo": "criterio",
+   "dificultad": "alta",
+   "razonamiento": "Paso 1: se dispone de dos pruebas rápidas reactivas de fabricantes distintos. Paso 2: la norma define caso con dos pruebas rápidas de diferentes fabricantes reactivas, o con una rápida más una de cuarta generación, o rápida más prueba de laboratorio, o rápida más confirmatoria positiva. Paso 3: el criterio ya se cumple.",
+   "por_que_no": [
+    "La norma admite varias combinaciones y no exige siempre la prueba molecular.",
+    "La prueba de cuarta generación es una de las combinaciones posibles, pero no es obligatoria.",
+    "",
+    "Que sean del mismo tipo no invalida el criterio: lo que importa es que sean de distinto fabricante.",
+    "Repetir en tres meses retrasaría el inicio del tratamiento en una gestante ya diagnosticable."
+   ],
+   "trampa": [
+    "otro-criterio",
+    "incompleto",
+    "",
+    "dato-falso",
+    "otro-momento"
+   ],
+   "perla": "Dos pruebas rápidas de distinto fabricante reactivas: ya es caso.",
+   "fuente": {
+    "carpeta": "28. NT",
+    "archivo": "9. NT VIH.pdf",
+    "seccion": "p. 1, Norma técnica 2020"
+   },
+   "gemela_de": null
+  },
+  {
+   "id": "2026-10-22-banco-dbg-vih-056",
+   "enunciado": "Gestante de 28 años, de 18 semanas, con una prueba rápida reactiva en un puesto de salud, es referida al establecimiento que brinda tratamiento antirretroviral para completar el estudio. El médico debe solicitar la prueba que confirme el diagnóstico antes o junto con el inicio del tratamiento. ¿Qué pruebas tienen carácter confirmatorio?",
+   "opciones": [
+    "Prueba rápida de cuarta generación o quimioluminiscencia",
+    "Antígeno p24 aislado con hemograma completo",
+    "Prueba rápida de tercera generación repetida a los tres meses",
+    "Inmunoblot, inmunofluorescencia indirecta o carga viral",
+    "Recuento de linfocitos T CD4 con carga viral basal"
+   ],
+   "clave": 4,
+   "especialidad": "Obstetricia",
+   "tema": "VIH en la gestante",
+   "diagnostico": "Pruebas confirmatorias disponibles",
+   "tipo": "examen",
+   "dificultad": "alta",
+   "razonamiento": "Paso 1: la prueba rápida reactiva es un tamizaje y requiere confirmación. Paso 2: las pruebas confirmatorias son el inmunoblot, la inmunofluorescencia indirecta y las pruebas moleculares de carga viral. Paso 3: el tratamiento no debe retrasarse por esperar la confirmación si la sospecha es alta.",
+   "por_que_no": [
+    "Esas pruebas son de tamizaje y detectan anticuerpos o antígeno, pero no confirman.",
+    "El antígeno aislado y el hemograma no tienen carácter confirmatorio.",
+    "Repetir una prueba de tamizaje no equivale a una prueba confirmatoria.",
+    "",
+    "El recuento de linfocitos mide el estado inmune y no confirma el diagnóstico."
+   ],
+   "trampa": [
+    "otro-nivel",
+    "otro-examen",
+    "otro-nivel",
+    "",
+    "otro-examen"
+   ],
+   "perla": "Confirman: inmunoblot, inmunofluorescencia o carga viral.",
+   "fuente": {
+    "carpeta": "28. NT",
+    "archivo": "9. NT VIH.pdf",
+    "seccion": "p. 1, Norma técnica 2020"
+   },
+   "gemela_de": null
+  },
+  {
+   "id": "2026-10-22-banco-dbg-vih-057",
+   "enunciado": "Gestante de 33 años, de 16 semanas, con diagnóstico confirmado de la infección por el virus de la inmunodeficiencia humana. Está asintomática y el recuento de linfocitos T CD4 informa 720 células por microlitro, con carga viral de 12 000 copias. El médico de guardia propone esperar a que el recuento descienda antes de iniciar el tratamiento. ¿Qué corresponde responder?",
+   "opciones": [
+    "El tratamiento se inicia sin importar el recuento de linfocitos",
+    "El tratamiento se inicia cuando el recuento baje de doscientas células",
+    "El tratamiento se inicia cuando el recuento baje de quinientas células",
+    "El tratamiento se inicia solo si la carga viral supera cien mil copias",
+    "El tratamiento se inicia solo cuando aparezcan infecciones oportunistas"
+   ],
+   "clave": 1,
+   "especialidad": "Obstetricia",
+   "tema": "VIH en la gestante",
+   "diagnostico": "Independencia del inicio del tratamiento respecto del recuento de linfocitos",
+   "tipo": "tratamiento",
+   "dificultad": "alta",
+   "razonamiento": "Paso 1: la paciente tiene diagnóstico confirmado y buen estado inmune. Paso 2: la norma establece que el tratamiento se inicia lo antes posible tras el diagnóstico e independientemente del recuento de linfocitos. Paso 3: en la gestante además corresponde iniciarlo desde las 12 semanas.",
+   "por_que_no": [
+    "",
+    "Ese umbral define la inmunosupresión severa y la profilaxis con cotrimoxazol, no el inicio.",
+    "La norma no condiciona el inicio al descenso del recuento por debajo de ese umbral.",
+    "El valor de la carga viral no condiciona la decisión de iniciar el tratamiento.",
+    "Esperar una infección oportunista expone a la paciente y al feto de manera innecesaria."
+   ],
+   "trampa": [
+    "",
+    "otro-contexto",
+    "dato-falso",
+    "dato-falso",
+    "otro-extremo"
+   ],
+   "perla": "El tratamiento no espera el recuento de linfocitos.",
+   "fuente": {
+    "carpeta": "28. NT",
+    "archivo": "9. NT VIH.pdf",
+    "seccion": "p. 1, Norma técnica 2020"
+   },
+   "gemela_de": null
+  },
+  {
+   "id": "2026-10-22-banco-dbg-vih-058",
+   "enunciado": "Gestante de 29 años, de 14 semanas, con diagnóstico confirmado de la infección, va a iniciar tratamiento antirretroviral. Está asintomática, sin tos ni pérdida de peso. El médico solicita los exámenes basales que la norma exige antes de iniciar el esquema, con especial atención a la coinfección más frecuente. ¿Qué conjunto de exámenes corresponde?",
+   "opciones": [
+    "Dos baciloscopías, linfocitos y carga viral, sin estudio de imagen del tórax",
+    "Radiografía de tórax, cultivo de esputo, perfil hepático y electrocardiograma basal",
+    "Radiografía de tórax, dos baciloscopías, tamizaje de otras infecciones, linfocitos y carga viral",
+    "Tomografía de tórax, dos baciloscopías, linfocitos y carga viral basal",
+    "Radiografía de tórax, linfocitos y carga viral, sin estudio de tuberculosis"
+   ],
+   "clave": 3,
+   "especialidad": "Obstetricia",
+   "tema": "VIH en la gestante",
+   "diagnostico": "Exámenes basales antes de iniciar el tratamiento",
+   "tipo": "examen",
+   "dificultad": "muy alta",
+   "razonamiento": "Paso 1: antes de iniciar el tratamiento deben descartarse coinfecciones, sobre todo la tuberculosis. Paso 2: la norma exige radiografía de tórax, dos baciloscopías, detección de otras infecciones de transmisión sexual, recuento basal de linfocitos T CD4 y carga viral. Paso 3: ese es el conjunto completo.",
+   "por_que_no": [
+    "El estudio de imagen del tórax sí forma parte del conjunto basal de exámenes.",
+    "El cultivo de esputo y el electrocardiograma no integran el conjunto basal exigido.",
+    "",
+    "El estudio de imagen basal exigido es la radiografía y no la tomografía de tórax.",
+    "Las baciloscopías son indispensables por la frecuencia de la coinfección con tuberculosis."
+   ],
+   "trampa": [
+    "incompleto",
+    "mezcla",
+    "",
+    "otro-examen",
+    "incompleto"
+   ],
+   "perla": "Antes del tratamiento: radiografía, dos baciloscopías, infecciones, linfocitos y carga.",
+   "fuente": {
+    "carpeta": "28. NT",
+    "archivo": "9. NT VIH.pdf",
+    "seccion": "p. 1, Norma técnica 2020"
+   },
+   "gemela_de": null
+  },
+  {
+   "id": "2026-10-22-banco-dbg-vih-059",
+   "enunciado": "Varón de 34 años, pareja de una gestante en control, con diagnóstico reciente de la infección por el virus de la inmunodeficiencia humana, sin tuberculosis ni otras comorbilidades, con creatinina normal. Se le indicará el esquema de primera línea de la norma nacional en dosis fija combinada. ¿Cuál es ese esquema?",
+   "opciones": [
+    "Abacavir con lamivudina y lopinavir potenciado",
+    "Zidovudina con lamivudina y nevirapina",
+    "Tenofovir con lamivudina y dolutegravir",
+    "Tenofovir con emtricitabina y raltegravir",
+    "Tenofovir con emtricitabina sin tercer fármaco"
+   ],
+   "clave": 3,
+   "especialidad": "Obstetricia",
+   "tema": "VIH en la gestante",
+   "diagnostico": "Esquema de primera línea de la población general",
+   "tipo": "tratamiento",
+   "dificultad": "alta",
+   "razonamiento": "Paso 1: se trata de un paciente sin gestación ni comorbilidades que inicia tratamiento. Paso 2: el esquema de primera línea de la norma nacional es tenofovir 300 miligramos, lamivudina 300 miligramos y dolutegravir 50 miligramos en dosis fija combinada cada 24 horas. Paso 3: los esquemas alternativos incluyen efavirenz.",
+   "por_que_no": [
+    "Ese esquema se emplea en el lactante con infección confirmada.",
+    "Ese esquema corresponde a la profilaxis del recién nacido de alto riesgo.",
+    "",
+    "Ese esquema corresponde al indicado para la gestante según la norma vigente.",
+    "Ese par de fármacos corresponde a la profilaxis previa a la exposición."
+   ],
+   "trampa": [
+    "otra-poblacion",
+    "otra-poblacion",
+    "",
+    "otra-poblacion",
+    "otro-contexto"
+   ],
+   "perla": "Primera línea general: tenofovir, lamivudina y dolutegravir.",
+   "fuente": {
+    "carpeta": "28. NT",
+    "archivo": "9. NT VIH.pdf",
+    "seccion": "p. 1, Norma técnica 2020"
+   },
+   "gemela_de": null
+  },
+  {
+   "id": "2026-10-22-banco-dbg-vih-060",
+   "enunciado": "En una campaña de tamizaje en una comunidad, el personal propone tomar la prueba rápida a todas las gestantes que acudan, registrando los resultados en una lista visible para agilizar la entrega. La coordinadora detiene el procedimiento porque falta cumplir un requisito y se vulnera otro principio. ¿Cuáles son esos dos elementos?",
+   "opciones": [
+    "El recuento de linfocitos basal y la evaluación de adherencia",
+    "El consentimiento informado y la confidencialidad del resultado",
+    "La consejería de soporte y el registro en el sistema de información",
+    "La prueba confirmatoria previa y la referencia al establecimiento",
+    "La vinculación inmediata y la entrega de preservativos"
+   ],
+   "clave": 2,
+   "especialidad": "Obstetricia",
+   "tema": "VIH en la gestante",
+   "diagnostico": "Requisito obligatorio previo al tamizaje",
+   "tipo": "norma",
+   "dificultad": "media",
+   "razonamiento": "Paso 1: el tamizaje requiere consejería previa con consentimiento informado, que puede ser verbal. Paso 2: la norma exige además garantizar la confidencialidad del resultado. Paso 3: una lista visible con resultados vulnera esa confidencialidad, de modo que el procedimiento debe corregirse.",
+   "por_que_no": [
+    "El recuento basal se solicita cuando ya hay diagnóstico, no antes del tamizaje.",
+    "",
+    "La consejería de soporte acompaña todo el proceso, pero el requisito previo es otro.",
+    "La prueba confirmatoria se realiza después del tamizaje reactivo y no antes.",
+    "La vinculación y los preservativos son medidas posteriores al resultado."
+   ],
+   "trampa": [
+    "otro-momento",
+    "",
+    "otro-momento",
+    "otro-momento",
+    "otro-momento"
+   ],
+   "perla": "Antes de la prueba: consentimiento informado y confidencialidad.",
+   "fuente": {
+    "carpeta": "28. NT",
+    "archivo": "9. NT VIH.pdf",
+    "seccion": "p. 1, Norma técnica 2020"
+   },
+   "gemela_de": null
+  },
+  {
+   "id": "2026-10-22-banco-dbg-vih-061",
+   "enunciado": "En una capacitación sobre transmisión vertical se analizan los tres momentos en que el hijo de una madre con esta infección puede adquirirla: durante la gestación, durante el nacimiento y durante la lactancia. Se pide identificar el momento en que ocurre la mayor proporción de contagios. ¿Cuál es ese momento?",
+   "opciones": [
+    "Durante el primer trimestre de la gestación",
+    "Durante el segundo trimestre de la gestación",
+    "Durante el último mes antes del parto",
+    "Durante el nacimiento",
+    "Durante los primeros días de la lactancia"
+   ],
+   "clave": 4,
+   "especialidad": "Obstetricia",
+   "tema": "VIH en la gestante",
+   "diagnostico": "Momento de mayor riesgo de transmisión al hijo",
+   "tipo": "mecanismo",
+   "dificultad": "alta",
+   "razonamiento": "Paso 1: la transmisión vertical puede ocurrir durante el embarazo, en el parto o por la lactancia. Paso 2: el mayor contagio ocurre en el período intraparto. Paso 3: de allí la importancia de la vía del parto según la carga viral y de la profilaxis precoz del recién nacido.",
+   "por_que_no": [
+    "La transmisión en el primer trimestre es poco frecuente comparada con el momento del parto.",
+    "El segundo trimestre tampoco concentra la mayoría de los contagios verticales.",
+    "El último mes aporta riesgo, aunque el pico ocurre en el momento del nacimiento.",
+    "",
+    "La lactancia es una vía real de transmisión, y por eso se contraindica, pero no la principal."
+   ],
+   "trampa": [
+    "otro-momento",
+    "otro-momento",
+    "otro-momento",
+    "",
+    "otro-momento"
+   ],
+   "perla": "El mayor contagio al hijo es intraparto.",
+   "fuente": {
+    "carpeta": "28. NT",
+    "archivo": "9. NT VIH.pdf",
+    "seccion": "p. 1, Norma técnica 2020"
+   },
+   "gemela_de": null
+  },
+  {
+   "id": "2026-10-22-banco-dbg-vih-062",
+   "enunciado": "Recién nacido a término de 3 200 g, hijo de madre con diagnóstico anterior al embarazo que recibió tratamiento antirretroviral desde antes de concebir, con carga viral de 90 copias a las 36 semanas. Nació por parto vaginal, está vigoroso y recibió baño en la primera hora. ¿Cuál es el esquema de profilaxis que corresponde indicarle?",
+   "opciones": [
+    "Zidovudina cuatro miligramos por kilo cada doce horas por seis semanas",
+    "Zidovudina dos miligramos por kilo cada seis horas por dos semanas",
+    "Zidovudina con lamivudina por seis semanas más tres dosis de nevirapina",
+    "Zidovudina cuatro miligramos por kilo cada doce horas por cuatro semanas",
+    "Zidovudina con lamivudina y lopinavir potenciado por cuatro semanas"
+   ],
+   "clave": 4,
+   "especialidad": "Obstetricia",
+   "tema": "VIH en la gestante",
+   "diagnostico": "Profilaxis del recién nacido de bajo riesgo",
+   "tipo": "dosis",
+   "dificultad": "alta",
+   "razonamiento": "Paso 1: la madre tenía diagnóstico previo con tratamiento y carga viral menor de mil copias, es decir escenario dos de bajo riesgo. Paso 2: en esa situación la profilaxis del recién nacido es zidovudina 4 miligramos por kilo cada 12 horas. Paso 3: la duración es de cuatro semanas.",
+   "por_que_no": [
+    "Las seis semanas corresponden al esquema del recién nacido de alto riesgo.",
+    "Esa dosis y ese intervalo no corresponden al esquema normado de profilaxis.",
+    "Ese esquema triple corresponde al neonato de alto riesgo o al escenario tres.",
+    "",
+    "Ese esquema con inhibidor de proteasa es el tratamiento del lactante infectado."
+   ],
+   "trampa": [
+    "otro-plazo",
+    "otra-dosis",
+    "otra-poblacion",
+    "",
+    "otra-poblacion"
+   ],
+   "perla": "Bajo riesgo: zidovudina sola por 4 semanas.",
+   "fuente": {
+    "carpeta": "2. OBSTETRICIA",
+    "archivo": "16. VIH EN GESTANTE.pdf",
+    "seccion": "p. 1, Manejo del recién nacido"
+   },
+   "gemela_de": null
+  },
+  {
+   "id": "2026-10-22-banco-dbg-vih-063",
+   "enunciado": "Recién nacido de 38 semanas, 3 050 g, cuya madre llegó sin controles prenatales y fue diagnosticada con prueba rápida reactiva durante el trabajo de parto, con nacimiento por cesárea de urgencia. No se dispone de carga viral materna. El neonato está vigoroso y asintomático. ¿Cuál es el esquema de profilaxis que corresponde indicarle?",
+   "opciones": [
+    "Zidovudina con lamivudina y dolutegravir por seis semanas",
+    "Zidovudina con lamivudina por cuatro semanas más nevirapina en tres dosis",
+    "Zidovudina sola por seis semanas, sin otros fármacos",
+    "Zidovudina sola por cuatro semanas, sin otros fármacos",
+    "Zidovudina con lamivudina por seis semanas más nevirapina en tres dosis"
+   ],
+   "clave": 5,
+   "especialidad": "Obstetricia",
+   "tema": "VIH en la gestante",
+   "diagnostico": "Profilaxis del recién nacido de alto riesgo",
+   "tipo": "tratamiento",
+   "dificultad": "muy alta",
+   "razonamiento": "Paso 1: el diagnóstico materno se hizo en el trabajo de parto, lo que configura el escenario tres y riesgo alto. Paso 2: en esa situación la profilaxis es zidovudina con lamivudina durante seis semanas. Paso 3: se añade nevirapina en tres dosis: al nacer, al tercer día y al séptimo día.",
+   "por_que_no": [
+    "El dolutegravir no forma parte del esquema de profilaxis del recién nacido.",
+    "La duración del esquema de alto riesgo es de seis semanas y no de cuatro.",
+    "Prolongar la zidovudina sola no equivale al esquema triple que exige el alto riesgo.",
+    "La zidovudina sola por cuatro semanas corresponde al recién nacido de bajo riesgo.",
+    ""
+   ],
+   "trampa": [
+    "otro-farmaco",
+    "otro-plazo",
+    "incompleto",
+    "otra-poblacion",
+    ""
+   ],
+   "perla": "Alto riesgo: zidovudina y lamivudina 6 semanas más nevirapina 0-3-7.",
+   "fuente": {
+    "carpeta": "2. OBSTETRICIA",
+    "archivo": "16. VIH EN GESTANTE.pdf",
+    "seccion": "p. 1, Manejo del recién nacido"
+   },
+   "gemela_de": null
+  },
+  {
+   "id": "2026-10-22-banco-dbg-vih-064",
+   "enunciado": "Recién nacido de 39 semanas, hijo de madre con la infección en tratamiento irregular, nace por cesárea a las 02:00 horas. El neonatólogo de turno indica el baño inicial y prepara la profilaxis. La enfermera pregunta en qué plazo debe administrarse la primera dosis para que la medida sea eficaz. ¿Cuál es el plazo que corresponde?",
+   "opciones": [
+    "Dentro de las primeras setenta y dos horas de vida",
+    "Después del resultado de la primera prueba molecular",
+    "Al cumplir la primera semana de vida",
+    "Dentro de las primeras veinticuatro a cuarenta y ocho horas",
+    "Dentro de las primeras seis a doce horas de vida"
+   ],
+   "clave": 5,
+   "especialidad": "Obstetricia",
+   "tema": "VIH en la gestante",
+   "diagnostico": "Momento de inicio de la profilaxis del recién nacido",
+   "tipo": "conducta",
+   "dificultad": "alta",
+   "razonamiento": "Paso 1: el mayor riesgo de transmisión ocurre en el período intraparto. Paso 2: por eso la profilaxis del recién nacido expuesto debe iniciarse entre las 6 y 12 horas de vida. Paso 3: no se espera ningún resultado de laboratorio para comenzarla.",
+   "por_que_no": [
+    "Las setenta y dos horas corresponden al plazo máximo de otras profilaxis posexposición.",
+    "Esperar el resultado molecular retrasa días una medida que debe iniciarse en horas.",
+    "A la semana de vida la ventana de mayor utilidad de la profilaxis ya pasó.",
+    "Ese plazo es más tardío que el establecido y reduce la eficacia de la medida.",
+    ""
+   ],
+   "trampa": [
+    "otro-contexto",
+    "otro-momento",
+    "otro-plazo",
+    "otro-plazo",
+    ""
+   ],
+   "perla": "Profilaxis del expuesto: en las primeras 6 a 12 horas.",
+   "fuente": {
+    "carpeta": "8.NEONATOLOGIA",
+    "archivo": "29. HIJO DE MADRE CON VIH.pdf",
+    "seccion": "p. 1, Profilaxis y diagnóstico"
+   },
+   "gemela_de": null
+  },
+  {
+   "id": "2026-10-22-banco-dbg-vih-065",
+   "enunciado": "Recién nacido de dos semanas, hijo de madre con la infección, recibe zidovudina desde las ocho horas de vida. La prueba molecular del nacimiento, indicada por alto riesgo, resulta positiva. La madre pregunta si deben prolongar el jarabe que recibe su hijo hasta tener más resultados. ¿Cuál es la conducta que corresponde con el esquema iniciado?",
+   "opciones": [
+    "Se mantiene de forma indefinida como tratamiento del lactante",
+    "Se suspende de inmediato porque el resultado es positivo",
+    "Se prolonga hasta obtener dos pruebas moleculares negativas",
+    "Se prolonga hasta los tres meses de vida del lactante",
+    "No se prolonga por ese resultado: se completa el plazo previsto"
+   ],
+   "clave": 5,
+   "especialidad": "Obstetricia",
+   "tema": "VIH en la gestante",
+   "diagnostico": "Carácter profiláctico y no terapéutico del esquema neonatal",
+   "tipo": "conducta",
+   "dificultad": "muy alta",
+   "razonamiento": "Paso 1: lo que recibe el recién nacido es profilaxis y no tratamiento. Paso 2: su duración es de cuatro semanas en bajo riesgo y de seis en alto riesgo, y no se prolonga porque la prueba molecular resulte positiva. Paso 3: si la infección se confirma, se inicia un esquema de tratamiento distinto.",
+   "por_que_no": [
+    "El esquema profiláctico no se convierte en tratamiento de mantenimiento indefinido.",
+    "Suspenderla dejaría al neonato sin la medida en pleno período de riesgo.",
+    "Las pruebas moleculares negativas no condicionan la duración de la profilaxis.",
+    "La duración del esquema no se extiende por un resultado molecular positivo.",
+    ""
+   ],
+   "trampa": [
+    "otro-contexto",
+    "invertido",
+    "otro-criterio",
+    "otro-plazo",
+    ""
+   ],
+   "perla": "Lo del recién nacido es profilaxis: no se alarga por una prueba positiva.",
+   "fuente": {
+    "carpeta": "8.NEONATOLOGIA",
+    "archivo": "29. HIJO DE MADRE CON VIH.pdf",
+    "seccion": "p. 1, Profilaxis y diagnóstico"
+   },
+   "gemela_de": null
+  },
+  {
+   "id": "2026-10-22-banco-dbg-vih-066",
+   "enunciado": "Recién nacido de 37 semanas, hijo de madre con carga viral de 15 000 copias en el parto, inicia a las ocho horas de vida zidovudina con lamivudina. Corresponde añadir el tercer fármaco del esquema de alto riesgo y la enfermera necesita las fechas exactas de administración. ¿En qué días corresponde administrar ese tercer fármaco?",
+   "opciones": [
+    "Al nacer y una segunda dosis al décimo día",
+    "Todos los días durante las seis semanas",
+    "Al nacer, al séptimo día y al decimocuarto día",
+    "Al nacer, al tercer día y al séptimo día",
+    "Al nacer, al segundo día y al cuarto día"
+   ],
+   "clave": 4,
+   "especialidad": "Obstetricia",
+   "tema": "VIH en la gestante",
+   "diagnostico": "Días de administración de la nevirapina en el neonato",
+   "tipo": "dosis",
+   "dificultad": "muy alta",
+   "razonamiento": "Paso 1: la carga viral materna supera mil copias, de modo que el recién nacido es de alto riesgo. Paso 2: recibe zidovudina con lamivudina por seis semanas más nevirapina. Paso 3: la nevirapina se administra en tres dosis: al nacer, al tercer día y al séptimo día de vida.",
+   "por_que_no": [
+    "El esquema contempla tres dosis y no dos, con un intervalo distinto al descrito.",
+    "Ese fármaco se administra en tres dosis puntuales y no de forma diaria.",
+    "Esa secuencia desplaza las dos últimas dosis más allá del esquema establecido.",
+    "",
+    "Esos días no corresponden a las tres dosis normadas del tercer fármaco."
+   ],
+   "trampa": [
+    "incompleto",
+    "otro-esquema",
+    "otro-esquema",
+    "",
+    "otro-esquema"
+   ],
+   "perla": "Nevirapina del neonato: nacer, día 3 y día 7.",
+   "fuente": {
+    "carpeta": "2. OBSTETRICIA",
+    "archivo": "16. VIH EN GESTANTE.pdf",
+    "seccion": "p. 1, Manejo del recién nacido"
+   },
+   "gemela_de": null
+  },
+  {
+   "id": "2026-10-22-banco-dbg-vih-067",
+   "enunciado": "Recién nacido de 38 semanas, hijo de madre con la infección, nace por cesárea electiva. La técnica de enfermería pregunta si debe postergar el baño hasta las veinticuatro horas, como se hace de rutina en los demás recién nacidos del servicio, o si en este caso corresponde otra conducta. ¿Cuál es la indicación que corresponde?",
+   "opciones": [
+    "Bañarlo dentro de las primeras veinticuatro horas de vida",
+    "Evitar el baño hasta completar la profilaxis antirretroviral",
+    "Postergar el baño hasta cumplir las cuarenta y ocho horas",
+    "Postergar el baño hasta tener la prueba molecular inicial",
+    "Bañarlo solo con solución antiséptica a la semana de vida"
+   ],
+   "clave": 1,
+   "especialidad": "Obstetricia",
+   "tema": "VIH en la gestante",
+   "diagnostico": "Baño del recién nacido expuesto",
+   "tipo": "conducta",
+   "dificultad": "alta",
+   "razonamiento": "Paso 1: el recién nacido expuesto llega con secreciones maternas en la piel. Paso 2: entre las medidas del hijo de madre con esta infección figura el baño dentro de las primeras 24 horas de vida. Paso 3: esa medida acompaña a la ausencia de lactancia y a la profilaxis precoz.",
+   "por_que_no": [
+    "",
+    "Esperar seis semanas de profilaxis para bañarlo no tiene fundamento alguno.",
+    "Postergar el baño mantiene en la piel secreciones maternas potencialmente infectantes.",
+    "La prueba molecular demora días y no condiciona una medida de higiene inmediata.",
+    "No se indica antisepsia especial ni un baño diferido a la semana de vida."
+   ],
+   "trampa": [
+    "",
+    "otro-extremo",
+    "otro-plazo",
+    "otro-momento",
+    "inventado"
+   ],
+   "perla": "Expuesto: baño en las primeras 24 horas.",
+   "fuente": {
+    "carpeta": "8.NEONATOLOGIA",
+    "archivo": "29. HIJO DE MADRE CON VIH.pdf",
+    "seccion": "p. 1, Profilaxis y diagnóstico"
+   },
+   "gemela_de": null
+  },
+  {
+   "id": "2026-10-22-banco-dbg-vih-068",
+   "enunciado": "Lactante de 2 meses, hijo de madre con la infección, completó cuatro semanas de profilaxis y nunca recibió leche materna. La madre trae un resultado de prueba de anticuerpos solicitada en una farmacia, que informa reactivo, y acude muy angustiada pensando que su hijo está infectado. ¿Qué prueba corresponde emplear para el diagnóstico en este lactante?",
+   "opciones": [
+    "Inmunoblot para anticuerpos específicos",
+    "Prueba de anticuerpos de cuarta generación",
+    "Recuento de linfocitos T CD4 seriado",
+    "Pruebas moleculares de carga viral",
+    "Prueba rápida de anticuerpos repetida"
+   ],
+   "clave": 4,
+   "especialidad": "Obstetricia",
+   "tema": "VIH en la gestante",
+   "diagnostico": "Prueba diagnóstica del lactante expuesto",
+   "tipo": "examen",
+   "dificultad": "alta",
+   "razonamiento": "Paso 1: los anticuerpos maternos atraviesan la placenta y persisten en el lactante hasta los 18 meses. Paso 2: por eso nunca se usan pruebas de anticuerpos antes de esa edad. Paso 3: el diagnóstico se hace con pruebas virológicas moleculares de carga viral.",
+   "por_que_no": [
+    "El inmunoblot también detecta anticuerpos y no distingue los de origen materno.",
+    "Las pruebas de anticuerpos no sirven antes de los dieciocho meses por los anticuerpos maternos.",
+    "El recuento de linfocitos mide el estado inmune y no establece el diagnóstico.",
+    "",
+    "Repetir una prueba de anticuerpos reproduce el mismo problema de interpretación."
+   ],
+   "trampa": [
+    "otro-examen",
+    "otro-examen",
+    "otro-examen",
+    "",
+    "otro-examen"
+   ],
+   "perla": "Antes de los 18 meses: pruebas moleculares, nunca anticuerpos.",
+   "fuente": {
+    "carpeta": "8.NEONATOLOGIA",
+    "archivo": "29. HIJO DE MADRE CON VIH.pdf",
+    "seccion": "p. 1, Profilaxis y diagnóstico"
+   },
+   "gemela_de": null
+  },
+  {
+   "id": "2026-10-22-banco-dbg-vih-069",
+   "enunciado": "Dos recién nacidos expuestos ingresan al alojamiento conjunto: el primero es hijo de madre en tratamiento desde antes del embarazo con carga viral indetectable, y el segundo de una madre diagnosticada en el trabajo de parto sin controles previos. El neonatólogo debe decidir a quién solicitar la prueba molecular del nacimiento. ¿Qué corresponde indicar?",
+   "opciones": [
+    "A los dos, pues todo expuesto requiere la prueba del nacimiento",
+    "Solo al segundo, y además no reemplaza la prueba del mes",
+    "Solo al segundo, y con ella se puede omitir la prueba del mes",
+    "A ninguno, pues la primera prueba se toma siempre al mes",
+    "Solo al primero, por tener la madre carga viral conocida"
+   ],
+   "clave": 2,
+   "especialidad": "Obstetricia",
+   "tema": "VIH en la gestante",
+   "diagnostico": "Indicación de la prueba molecular al nacimiento",
+   "tipo": "examen",
+   "dificultad": "muy alta",
+   "razonamiento": "Paso 1: el segundo neonato es de alto riesgo por diagnóstico materno intraparto. Paso 2: la prueba molecular del nacimiento solo se indica en el alto riesgo. Paso 3: ese resultado no reemplaza la prueba del primer mes, que se realiza en todos los expuestos.",
+   "por_que_no": [
+    "La prueba del nacimiento se reserva a los recién nacidos de alto riesgo y no a todos.",
+    "",
+    "La prueba del nacimiento nunca reemplaza a la del primer mes, que siempre se realiza.",
+    "En el alto riesgo sí corresponde una prueba al nacimiento, además de la del mes.",
+    "El de bajo riesgo no requiere prueba al nacimiento: la primera se toma al mes."
+   ],
+   "trampa": [
+    "otra-poblacion",
+    "",
+    "dato-falso",
+    "incompleto",
+    "invertido"
+   ],
+   "perla": "Prueba al nacer solo en alto riesgo, y la del mes va igual.",
+   "fuente": {
+    "carpeta": "8.NEONATOLOGIA",
+    "archivo": "29. HIJO DE MADRE CON VIH.pdf",
+    "seccion": "p. 1, Profilaxis y diagnóstico"
+   },
+   "gemela_de": null
+  },
+  {
+   "id": "2026-10-22-banco-dbg-vih-070",
+   "enunciado": "Lactante de 5 semanas, hijo de madre con la infección, con prueba molecular del primer mes positiva. Está asintomático, con buen incremento ponderal, y se ha programado la prueba confirmatoria de los tres meses. La madre pregunta si deben esperar ese segundo resultado antes de darle medicamentos. ¿Cuál es la conducta que corresponde?",
+   "opciones": [
+    "Repetir la prueba molecular en dos semanas y luego decidir",
+    "Iniciar tratamiento solo si aparecen síntomas o baja de peso",
+    "Esperar la prueba de los tres meses antes de iniciar fármacos",
+    "Iniciar el tratamiento completo sin esperar la confirmación",
+    "Prolongar la profilaxis hasta la prueba de los tres meses"
+   ],
+   "clave": 4,
+   "especialidad": "Obstetricia",
+   "tema": "VIH en la gestante",
+   "diagnostico": "Conducta ante prueba molecular positiva al primer mes",
+   "tipo": "conducta",
+   "dificultad": "muy alta",
+   "razonamiento": "Paso 1: una prueba molecular positiva al primer mes indica probable infección. Paso 2: en el lactante corresponde iniciar el tratamiento antirretroviral completo sin esperar la confirmación, porque el retraso aumenta la mortalidad. Paso 3: si luego se descarta la infección, el tratamiento se suspende.",
+   "por_que_no": [
+    "Repetir la prueba demora semanas un tratamiento que debe iniciarse ahora.",
+    "Esperar los síntomas en el lactante infectado empeora el pronóstico.",
+    "Retrasar el inicio aumenta la mortalidad del lactante infectado.",
+    "",
+    "La profilaxis no se prolonga: el escenario cambió y corresponde tratamiento completo."
+   ],
+   "trampa": [
+    "otro-momento",
+    "otro-extremo",
+    "otro-momento",
+    "",
+    "otro-contexto"
+   ],
+   "perla": "Molecular positiva al mes: trata ya y confirma después.",
+   "fuente": {
+    "carpeta": "8.NEONATOLOGIA",
+    "archivo": "29. HIJO DE MADRE CON VIH.pdf",
+    "seccion": "p. 1, Profilaxis y diagnóstico"
+   },
+   "gemela_de": null
+  },
+  {
+   "id": "2026-10-22-banco-dbg-vih-071",
+   "enunciado": "Lactante de 4 meses, hijo de madre con la infección, nunca amamantado, con prueba molecular del primer mes negativa y prueba molecular de los tres meses también negativa. Está asintomático, con desarrollo y peso adecuados. La madre pregunta si ya puede considerarse libre de la infección. ¿Qué corresponde concluir?",
+   "opciones": [
+    "Debe repetir una tercera prueba molecular a los cuatro meses",
+    "Se considera no infectado, pues tiene dos pruebas moleculares negativas",
+    "Queda como caso indeterminado hasta el año de vida",
+    "Debe esperar una prueba de anticuerpos a los dieciocho meses",
+    "Debe mantener la profilaxis hasta tener tres pruebas negativas"
+   ],
+   "clave": 2,
+   "especialidad": "Obstetricia",
+   "tema": "VIH en la gestante",
+   "diagnostico": "Criterios de confirmación y descarte en el lactante",
+   "tipo": "criterio",
+   "dificultad": "muy alta",
+   "razonamiento": "Paso 1: el lactante tiene pruebas moleculares negativas al primer mes y a los tres meses. Paso 2: dos pruebas moleculares negativas definen al lactante como no infectado, igual que dos positivas definen la infección. Paso 3: los resultados discordantes obligan a una prueba adicional a los cuatro meses.",
+   "por_que_no": [
+    "La tercera prueba se indica cuando los resultados son discordantes, no concordantes.",
+    "",
+    "Dos resultados negativos concordantes no dejan el caso como indeterminado.",
+    "Con dos pruebas moleculares negativas el descarte ya está hecho y no se requiere esperar.",
+    "La profilaxis terminó en su plazo y no se prolonga hasta acumular pruebas."
+   ],
+   "trampa": [
+    "otro-escenario",
+    "",
+    "dato-falso",
+    "otro-momento",
+    "otro-contexto"
+   ],
+   "perla": "Dos moleculares negativas descartan; dos positivas confirman.",
+   "fuente": {
+    "carpeta": "8.NEONATOLOGIA",
+    "archivo": "29. HIJO DE MADRE CON VIH.pdf",
+    "seccion": "p. 1, Profilaxis y diagnóstico"
+   },
+   "gemela_de": null
+  },
+  {
+   "id": "2026-10-22-banco-dbg-vih-072",
+   "enunciado": "Lactante de 3 meses, hijo de madre con la infección, con dos pruebas moleculares negativas. En la consulta la abuela refiere que, durante una semana del segundo mes, una vecina amamantó al niño mientras la madre estaba hospitalizada. El lactante está asintomático y con buen peso. ¿Cuál es la conducta que corresponde?",
+   "opciones": [
+    "Reiniciar la profilaxis antirretroviral por seis semanas más",
+    "Repetir la prueba solo si aparecen síntomas en el seguimiento",
+    "Solicitar una prueba de anticuerpos para evaluar la exposición",
+    "Solicitar una nueva prueba molecular por la exposición a leche materna",
+    "Mantener el descarte, pues ya tiene dos pruebas negativas"
+   ],
+   "clave": 4,
+   "especialidad": "Obstetricia",
+   "tema": "VIH en la gestante",
+   "diagnostico": "Conducta si el lactante recibió leche materna",
+   "tipo": "conducta",
+   "dificultad": "muy alta",
+   "razonamiento": "Paso 1: la lactancia materna, directa o cruzada, es una vía de transmisión y está contraindicada. Paso 2: si el lactante recibió leche materna, las pruebas anteriores dejan de ser concluyentes. Paso 3: corresponde solicitar una nueva prueba molecular tras esa exposición.",
+   "por_que_no": [
+    "La conducta es diagnóstica y no reiniciar un esquema profiláctico ya completado.",
+    "Esperar los síntomas retrasaría el diagnóstico de una infección adquirida por esa vía.",
+    "La prueba de anticuerpos no es útil antes de los dieciocho meses de edad.",
+    "",
+    "Las pruebas previas no cubren una exposición ocurrida después de su toma."
+   ],
+   "trampa": [
+    "otro-contexto",
+    "otro-extremo",
+    "otro-examen",
+    "",
+    "otro-momento"
+   ],
+   "perla": "Si tomó leche materna, la prueba se repite.",
+   "fuente": {
+    "carpeta": "8.NEONATOLOGIA",
+    "archivo": "29. HIJO DE MADRE CON VIH.pdf",
+    "seccion": "p. 1, Profilaxis y diagnóstico"
+   },
+   "gemela_de": null
+  },
+  {
+   "id": "2026-10-22-banco-dbg-vih-073",
+   "enunciado": "Lactante de 6 semanas, hijo de madre con la infección, con dos pruebas moleculares positivas y confirmación del diagnóstico. Pesa 4 100 g, está asintomático y tolera la vía oral. Se indicará el esquema de tratamiento que corresponde a esta edad, distinto del que recibió como profilaxis. ¿Cuál es ese esquema?",
+   "opciones": [
+    "Tenofovir con lamivudina y dolutegravir",
+    "Zidovudina o abacavir con lamivudina y lopinavir potenciado",
+    "Zidovudina con lamivudina y tres dosis de nevirapina",
+    "Tenofovir con emtricitabina y raltegravir",
+    "Zidovudina sola en jarabe durante seis semanas"
+   ],
+   "clave": 2,
+   "especialidad": "Obstetricia",
+   "tema": "VIH en la gestante",
+   "diagnostico": "Esquema de tratamiento del lactante infectado",
+   "tipo": "tratamiento",
+   "dificultad": "muy alta",
+   "razonamiento": "Paso 1: el diagnóstico está confirmado con dos pruebas moleculares positivas. Paso 2: el esquema del lactante combina zidovudina o abacavir con lamivudina y un inhibidor de proteasa potenciado, el lopinavir con ritonavir, o bien dolutegravir según la edad. Paso 3: ese esquema reemplaza a la profilaxis.",
+   "por_que_no": [
+    "Ese esquema es el de primera línea de la población general adulta.",
+    "",
+    "Ese es el esquema de profilaxis del recién nacido de alto riesgo y no un tratamiento.",
+    "Ese esquema corresponde a la gestante según la norma vigente.",
+    "La zidovudina sola es profilaxis de bajo riesgo y no trata la infección confirmada."
+   ],
+   "trampa": [
+    "otra-poblacion",
+    "",
+    "otro-contexto",
+    "otra-poblacion",
+    "otro-contexto"
+   ],
+   "perla": "Lactante infectado: dos análogos más lopinavir potenciado.",
+   "fuente": {
+    "carpeta": "8.NEONATOLOGIA",
+    "archivo": "29. HIJO DE MADRE CON VIH.pdf",
+    "seccion": "p. 1, Profilaxis y diagnóstico"
+   },
+   "gemela_de": null
+  },
+  {
+   "id": "2026-10-22-banco-dbg-vih-074",
+   "enunciado": "Mujer de 31 años, en el puerperio, con la infección por el virus de la inmunodeficiencia humana diagnosticada en este embarazo, presenta recuento de linfocitos T CD4 de 140 células por microlitro, sin síntomas respiratorios ni fiebre. Se revisa su esquema de profilaxis de infecciones oportunistas. ¿Qué fármaco corresponde indicar y contra qué agentes protege?",
+   "opciones": [
+    "Fluconazol, contra Pneumocystis y Criptococo",
+    "Isoniacida, contra Pneumocystis y Toxoplasma",
+    "Cotrimoxazol, contra Pneumocystis y Toxoplasma",
+    "Cotrimoxazol, contra Mycobacterium y Candida",
+    "Azitromicina, contra Toxoplasma y Criptococo"
+   ],
+   "clave": 3,
+   "especialidad": "Obstetricia",
+   "tema": "VIH en la gestante",
+   "diagnostico": "Profilaxis con cotrimoxazol en la persona con la infección",
+   "tipo": "tratamiento",
+   "dificultad": "alta",
+   "razonamiento": "Paso 1: el recuento de linfocitos T CD4 está por debajo de 200 células por microlitro. Paso 2: ese umbral, o la presencia de signos de inmunosupresión, indica profilaxis con cotrimoxazol. Paso 3: esa profilaxis previene la infección por Pneumocystis jirovecii y por Toxoplasma gondii.",
+   "por_que_no": [
+    "El fluconazol actúa sobre hongos y no previene el microorganismo descrito.",
+    "La isoniacida se emplea en la profilaxis de la tuberculosis y no de esos agentes.",
+    "",
+    "La protección de ese fármaco no cubre la micobacteria ni las levaduras mencionadas.",
+    "La azitromicina no es el fármaco indicado para esta profilaxis en la norma."
+   ],
+   "trampa": [
+    "otro-farmaco",
+    "otro-farmaco",
+    "",
+    "otro-agente",
+    "otro-farmaco"
+   ],
+   "perla": "Linfocitos bajo 200: cotrimoxazol por Pneumocystis y Toxoplasma.",
+   "fuente": {
+    "carpeta": "28. NT",
+    "archivo": "9. NT VIH.pdf",
+    "seccion": "p. 1, Norma técnica 2020"
+   },
+   "gemela_de": null
+  },
+  {
+   "id": "2026-10-22-banco-dbg-vih-075",
+   "enunciado": "Puérpera de 28 años con la infección, inició tratamiento antirretroviral a las 12 semanas de gestación y hoy cumple tres meses de tratamiento con buena adherencia referida. Está asintomática y pregunta con qué frecuencia le medirán el virus en sangre de ahora en adelante. ¿Cuál es el esquema de control de la carga viral que corresponde?",
+   "opciones": [
+    "A los seis meses de iniciar y después cada año de forma indefinida",
+    "Cada tres meses durante los primeros dos años y después cada dos años",
+    "A los tres meses de iniciar, luego cada seis meses el primer año y después anual si es indetectable",
+    "Cada mes los primeros tres meses y después cada tres meses de forma permanente",
+    "Solo al inicio del tratamiento y luego únicamente si aparecen síntomas"
+   ],
+   "clave": 3,
+   "especialidad": "Obstetricia",
+   "tema": "VIH en la gestante",
+   "diagnostico": "Monitoreo de la carga viral tras iniciar el tratamiento",
+   "tipo": "examen",
+   "dificultad": "muy alta",
+   "razonamiento": "Paso 1: la paciente cumple tres meses de tratamiento, el momento del primer control de carga viral. Paso 2: luego se controla cada seis meses hasta cumplir el primer año. Paso 3: después pasa a control anual si la carga se mantiene indetectable, mientras el monitoreo clínico es mensual los primeros tres meses.",
+   "por_que_no": [
+    "El primer control de carga viral se realiza a los tres meses y no a los seis.",
+    "Ese esquema no corresponde a los intervalos establecidos por la norma.",
+    "",
+    "Ese esquema mensual y trimestral corresponde al monitoreo clínico del tratamiento.",
+    "El control de la carga viral es periódico y no depende de la aparición de síntomas."
+   ],
+   "trampa": [
+    "otro-plazo",
+    "inventado",
+    "",
+    "otro-parametro",
+    "otro-criterio"
+   ],
+   "perla": "Carga viral: a los 3 meses, cada 6 el primer año, luego anual.",
+   "fuente": {
+    "carpeta": "28. NT",
+    "archivo": "9. NT VIH.pdf",
+    "seccion": "p. 1, Norma técnica 2020"
+   },
+   "gemela_de": null
+  },
+  {
+   "id": "2026-10-22-banco-dbg-vih-076",
+   "enunciado": "Interna de medicina de 24 años se pincha con aguja hueca con sangre visible mientras atendía el parto de una paciente con la infección por el virus de la inmunodeficiencia humana y carga viral detectable. La herida es profunda en el dedo índice. Ha transcurrido una hora del accidente. ¿Qué esquema y durante cuánto tiempo corresponde indicarle?",
+   "opciones": [
+    "Tenofovir con emtricitabina por cuatro semanas",
+    "Tenofovir con emtricitabina y raltegravir por seis semanas",
+    "Zidovudina con lamivudina por seis semanas",
+    "Tenofovir con lamivudina y dolutegravir por cuatro semanas",
+    "Tenofovir con lamivudina y dolutegravir por una semana"
+   ],
+   "clave": 4,
+   "especialidad": "Obstetricia",
+   "tema": "VIH en la gestante",
+   "diagnostico": "Profilaxis posterior a la exposición ocupacional",
+   "tipo": "tratamiento",
+   "dificultad": "alta",
+   "razonamiento": "Paso 1: se trata de una exposición ocupacional de alto riesgo por aguja hueca, herida profunda y sangre visible. Paso 2: el esquema de profilaxis posterior a la exposición es tenofovir, lamivudina y dolutegravir, una tableta diaria por cuatro semanas. Paso 3: debe iniciarse idealmente antes de las dos horas y como máximo a las 72 horas.",
+   "por_que_no": [
+    "Ese par de fármacos corresponde a la profilaxis previa a la exposición y no a la posterior.",
+    "Ese esquema corresponde al tratamiento de la gestante y no a esta profilaxis.",
+    "Ese esquema y esa duración corresponden a la profilaxis del recién nacido expuesto.",
+    "",
+    "Una semana es insuficiente: el esquema posterior a la exposición dura cuatro semanas."
+   ],
+   "trampa": [
+    "otro-contexto",
+    "otra-poblacion",
+    "otra-poblacion",
+    "",
+    "otro-plazo"
+   ],
+   "perla": "Posexposición: tenofovir, lamivudina y dolutegravir por 4 semanas.",
+   "fuente": {
+    "carpeta": "28. NT",
+    "archivo": "9. NT VIH.pdf",
+    "seccion": "p. 1, Norma técnica 2020"
+   },
+   "gemela_de": null
+  },
+  {
+   "id": "2026-10-22-banco-dbg-vih-077",
+   "enunciado": "Mujer de 22 años acude al servicio de emergencia refiriendo una agresión sexual ocurrida hace cuarenta horas, sin uso de preservativo y con agresor desconocido. Está estable, con examen ginecológico sin lesiones que requieran reparación. Se evalúa la indicación de profilaxis farmacológica contra esta infección. ¿Cuál es el plazo máximo para iniciarla?",
+   "opciones": [
+    "Hasta veinticuatro horas después de la exposición",
+    "Hasta setenta y dos horas después de la exposición",
+    "Hasta cuarenta y ocho horas después de la exposición",
+    "Hasta siete días después de la exposición",
+    "Hasta dos horas después de la exposición"
+   ],
+   "clave": 2,
+   "especialidad": "Obstetricia",
+   "tema": "VIH en la gestante",
+   "diagnostico": "Plazo máximo para iniciar la profilaxis posexposición",
+   "tipo": "norma",
+   "dificultad": "alta",
+   "razonamiento": "Paso 1: la exposición no ocupacional por violencia sexual siempre se considera de alto riesgo. Paso 2: la profilaxis debe iniciarse idealmente antes de las dos horas y el plazo máximo es de 72 horas. Paso 3: a las 40 horas la paciente todavía está dentro del plazo y corresponde indicarla.",
+   "por_que_no": [
+    "Ese plazo es más corto que el establecido y dejaría sin profilaxis a esta paciente.",
+    "",
+    "Ese plazo también es menor que el máximo normado para iniciar la profilaxis.",
+    "Siete días excede el plazo en que la profilaxis conserva utilidad demostrada.",
+    "Las dos horas son el plazo ideal de inicio, no el plazo máximo admitido."
+   ],
+   "trampa": [
+    "otro-plazo",
+    "",
+    "otro-plazo",
+    "otro-plazo",
+    "otro-objetivo"
+   ],
+   "perla": "Posexposición: ideal antes de 2 horas, máximo 72.",
+   "fuente": {
+    "carpeta": "28. NT",
+    "archivo": "9. NT VIH.pdf",
+    "seccion": "p. 1, Norma técnica 2020"
+   },
+   "gemela_de": null
+  },
+  {
+   "id": "2026-10-22-banco-dbg-vih-078",
+   "enunciado": "Adolescente de 17 años acude seis horas después de una agresión sexual. Está estable y se inicia la profilaxis antirretroviral correspondiente. El médico debe añadir el tratamiento profiláctico contra las otras infecciones de transmisión sexual que la norma indica en estos casos. ¿Qué esquema corresponde añadir?",
+   "opciones": [
+    "Ceftriaxona intramuscular y metronidazol oral por siete días",
+    "Ciprofloxacino oral y azitromicina oral en dosis única",
+    "Ceftriaxona intramuscular, azitromicina oral y penicilina benzatínica",
+    "Azitromicina oral y doxiciclina oral por catorce días",
+    "Penicilina benzatínica y aciclovir oral por diez días"
+   ],
+   "clave": 3,
+   "especialidad": "Obstetricia",
+   "tema": "VIH en la gestante",
+   "diagnostico": "Profilaxis de infecciones de transmisión sexual en violencia sexual",
+   "tipo": "tratamiento",
+   "dificultad": "muy alta",
+   "razonamiento": "Paso 1: la víctima de violencia sexual recibe profilaxis antirretroviral y también contra otras infecciones. Paso 2: el esquema normado combina ceftriaxona 250 miligramos intramuscular, azitromicina 1 gramo oral y penicilina benzatínica 2,4 millones de unidades intramuscular en dosis única. Paso 3: cubre gonorrea, clamidia y sífilis.",
+   "por_que_no": [
+    "Ese esquema deja sin cobertura la sífilis, que la norma incluye en la profilaxis.",
+    "Las quinolonas no forman parte del esquema profiláctico establecido.",
+    "",
+    "La doxiciclina no figura en el esquema profiláctico indicado para estos casos.",
+    "El aciclovir no integra la profilaxis normada para esta situación."
+   ],
+   "trampa": [
+    "incompleto",
+    "otro-farmaco",
+    "",
+    "otro-farmaco",
+    "otro-farmaco"
+   ],
+   "perla": "Violencia sexual: ceftriaxona, azitromicina y penicilina benzatínica.",
+   "fuente": {
+    "carpeta": "28. NT",
+    "archivo": "9. NT VIH.pdf",
+    "seccion": "p. 1, Norma técnica 2020"
+   },
+   "gemela_de": null
+  },
+  {
+   "id": "2026-10-22-banco-dbg-vih-079",
+   "enunciado": "Niño de 11 meses con la infección por el virus de la inmunodeficiencia humana confirmada, en tratamiento irregular, con recuento de linfocitos T CD4 de 160 células por microlitro y peso por debajo del percentil 3. Acude para completar su esquema de vacunación, que incluye varias vacunas pendientes. ¿Qué grupo de vacunas está contraindicado en este caso?",
+   "opciones": [
+    "Todas las vacunas de agentes vivos atenuados",
+    "Solo las vacunas inactivadas de aplicación parenteral",
+    "Solo la vacuna oral contra la poliomielitis",
+    "Solo la vacuna contra el neumococo conjugada",
+    "Ninguna, pues el esquema se aplica completo"
+   ],
+   "clave": 1,
+   "especialidad": "Obstetricia",
+   "tema": "VIH en la gestante",
+   "diagnostico": "Vacunas contraindicadas en el niño con inmunosupresión avanzada",
+   "tipo": "conducta",
+   "dificultad": "muy alta",
+   "razonamiento": "Paso 1: el niño tiene infección confirmada con recuento por debajo de 200 células y desnutrición, es decir inmunosupresión avanzada. Paso 2: en esa situación están contraindicadas todas las vacunas de agentes vivos atenuados. Paso 3: en el niño con la infección pero sin inmunosupresión la restricción se limita a la vacuna oral contra la poliomielitis.",
+   "por_que_no": [
+    "",
+    "Las vacunas inactivadas son precisamente las que sí pueden y deben aplicarse.",
+    "Esa restricción aislada corresponde al niño con la infección pero sin inmunosupresión avanzada.",
+    "La vacuna contra el neumococo es inactivada y está recomendada en estos pacientes.",
+    "Con inmunosupresión avanzada sí existen vacunas contraindicadas en el esquema."
+   ],
+   "trampa": [
+    "",
+    "invertido",
+    "otra-poblacion",
+    "otra-vacuna",
+    "dato-falso"
+   ],
+   "perla": "Inmunosupresión avanzada: ninguna vacuna viva.",
+   "fuente": {
+    "carpeta": "2. OBSTETRICIA",
+    "archivo": "16. VIH EN GESTANTE.pdf",
+    "seccion": "p. 1, Manejo del recién nacido"
+   },
+   "gemela_de": null
+  },
+  {
+   "id": "2026-10-22-banco-dbg-vih-080",
+   "enunciado": "En una sesión de lactancia se revisan cuatro situaciones maternas: infección por el virus linfotrópico humano, tuberculosis activa sin tratamiento, galactosemia del recién nacido y lesiones herpéticas activas en la mama. Se pide separar las que impiden la lactancia de manera absoluta de las que la impiden de manera relativa. ¿Qué clasificación corresponde?",
+   "opciones": [
+    "Absolutas la galactosemia y la tuberculosis; relativas el virus linfotrópico y el herpes",
+    "Absolutas las cuatro situaciones descritas en la sesión",
+    "Relativas las cuatro situaciones descritas en la sesión",
+    "Absolutas la tuberculosis y el herpes; relativas el virus linfotrópico y la galactosemia",
+    "Absolutas el virus linfotrópico y la galactosemia; relativas la tuberculosis y el herpes"
+   ],
+   "clave": 5,
+   "especialidad": "Obstetricia",
+   "tema": "VIH en la gestante",
+   "diagnostico": "Contraindicaciones absolutas y relativas de la lactancia",
+   "tipo": "criterio",
+   "dificultad": "muy alta",
+   "razonamiento": "Paso 1: las contraindicaciones absolutas de la lactancia son la galactosemia, la infección por el virus linfotrópico humano, la infección por el virus de la inmunodeficiencia humana y el consumo de drogas como la cocaína. Paso 2: las relativas incluyen quimioterapia, alcoholismo, lesiones herpéticas activas, tuberculosis activa sin tratamiento, fenilcetonuria y amiodarona. Paso 3: esa es la clasificación.",
+   "por_que_no": [
+    "La tuberculosis activa sin tratamiento figura entre las contraindicaciones relativas.",
+    "No todas son absolutas: la tuberculosis y el herpes se clasifican como relativas.",
+    "El virus linfotrópico y la galactosemia son contraindicaciones absolutas, no relativas.",
+    "Esa clasificación invierte los dos grupos y dejaría amamantar en situaciones absolutas.",
+    ""
+   ],
+   "trampa": [
+    "mezcla",
+    "otro-extremo",
+    "otro-extremo",
+    "invertido",
+    ""
+   ],
+   "perla": "Absolutas: galactosemia, linfotrópico, inmunodeficiencia y cocaína.",
+   "fuente": {
+    "carpeta": "2. OBSTETRICIA",
+    "archivo": "16. VIH EN GESTANTE.pdf",
+    "seccion": "p. 1, Manejo del recién nacido"
+   },
+   "gemela_de": null
+  }
+ ]
+}

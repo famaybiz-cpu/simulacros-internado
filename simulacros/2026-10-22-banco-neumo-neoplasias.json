@@ -1,0 +1,1190 @@
+{
+ "id": "2026-10-22-banco-neumo-neoplasias",
+ "fecha": "2026-10-22",
+ "turno": "noche",
+ "titulo": "Banco · Neoplasias pulmonares",
+ "segundos_por_pregunta": 60,
+ "temas_noche": [
+  "Neoplasias pulmonares"
+ ],
+ "feedback_noche": "Aprueba quien lee el caso por datos: localización (central o periférica), relación con el tabaco, sodio y osmolaridades, calcio con PTH, ACTH, y el estadio por ganglios y lesiones a distancia. Los errores típicos: operar al microcítico, dar quimiorradioterapia a un estadio I, olvidar que el nódulo menor de 6 mm de bajo riesgo no se sigue y confundir la calcificación benigna con la excéntrica.",
+ "perlas_noche": [
+  "Central = epidermoide y microcítico; periférico = adenocarcinoma y células grandes.",
+  "Microcítico: ADH y ACTH ectópicas, debilidad que mejora con el esfuerzo y obstrucción de la cava; no se opera.",
+  "Calcio alto con PTH baja y fósforo bajo en fumador con masa central = PTHrP del epidermoide.",
+  "Nódulo > 8 mm: riesgo bajo TEM a 3-12-24 meses, intermedio PET-TC, alto biopsia.",
+  "Estadio I solo cirugía; II cirugía + QT adyuvante; III-IV QT + RT."
+ ],
+ "preguntas": [
+  {
+   "id": "2026-10-22-banco-neumo-neoplasias-001",
+   "enunciado": "Mujer de 63 años, ama de casa, que nunca fumó. Recibió tratamiento antituberculoso completo hace 22 años y quedó con una cicatriz fibrosa apical derecha. Consulta por 3 meses de tos seca, disnea progresiva y baja de 6 kg. PA 118/72 mmHg, FC 96 X', FR 22 X', T° 36,8 °C, SatO2 93 % con FiO2 0,21. Matidez y murmullo vesicular abolido en la base derecha. TEM de tórax: nódulo periférico de 2,7 cm, de bordes espiculados, adyacente a la cicatriz apical antigua, y derrame pleural derecho moderado. Baciloscopías seriadas negativas. ¿Cuál es el tipo histológico más probable de esta lesión?",
+   "opciones": [
+    "Adenocarcinoma",
+    "Carcinoma de células grandes",
+    "Tumor carcinoide",
+    "Carcinoma epidermoide",
+    "Carcinoma microcítico"
+   ],
+   "clave": 1,
+   "especialidad": "Neumología",
+   "tema": "Tipos histológicos · periférico en no fumadora",
+   "diagnostico": "Adenocarcinoma sobre cicatriz de TBC previa",
+   "tipo": "diagnostico",
+   "dificultad": "alta",
+   "razonamiento": "Paso 1: mujer nunca fumadora, nódulo periférico espiculado y derrame pleural. Paso 2: la lesión crece junto a una cicatriz de tuberculosis antigua con baciloscopías negativas, lo que orienta a proceso maligno cicatricial. Paso 3: el tipo histológico periférico, más frecuente en no fumadores y mujeres, asociado a cicatriz pulmonar y con derrame pleural frecuente es el adenocarcinoma.",
+   "por_que_no": [
+    "",
+    "También es periférico, pero es menos frecuente y no se asocia a cicatriz; el más frecuente en no fumadora es otro.",
+    "Afecta a jóvenes no fumadores con lesión central endobronquial; no a una mujer mayor con nódulo periférico y derrame.",
+    "Es central, muy ligado al tabaco y rara vez da derrame; sería la respuesta en un fumador con masa cavitada hiliar.",
+    "Es central y casi exclusivo de fumadores intensos; sería correcto con masa hiliar, ADH o ACTH ectópicas."
+   ],
+   "trampa": [
+    "",
+    "mismo-grupo",
+    "otra-poblacion",
+    "diferencial",
+    "diferencial"
+   ],
+   "perla": "Mujer no fumadora + nódulo periférico + cicatriz de TBC + derrame = adenocarcinoma.",
+   "fuente": {
+    "carpeta": "6.NEUMOLOGIA",
+    "archivo": "Neumología -  Fundamentos teóricos_ENAM 2024.pdf",
+    "seccion": "p. 145 · Adenocarcinoma"
+   },
+   "gemela_de": null
+  },
+  {
+   "id": "2026-10-22-banco-neumo-neoplasias-002",
+   "enunciado": "Varón de 69 años, fumador de 45 paquetes-año, con 2 meses de tos, expectoración escasa con hilos de sangre y pérdida de 8 kg. Niega fiebre y escalofríos. PA 132/80 mmHg, FC 88 X', FR 20 X', T° 36,6 °C, SatO2 94 % con FiO2 0,21. Leucocitos 8 400/mm3, PCR 0,9 mg/dl. TEM: masa de 5 cm en contacto con el bronquio principal derecho, con cavidad central de pared gruesa e irregular (12 mm), sin nivel hidroaéreo. Recibió 3 semanas de amoxicilina con ácido clavulánico sin cambio alguno en la imagen. ¿Qué tipo histológico explica mejor este cuadro?",
+   "opciones": [
+    "Carcinoma microcítico",
+    "Carcinoma de células grandes",
+    "Tumor carcinoide",
+    "Carcinoma epidermoide",
+    "Adenocarcinoma"
+   ],
+   "clave": 4,
+   "especialidad": "Neumología",
+   "tema": "Tipos histológicos · lesión cavitada",
+   "diagnostico": "Carcinoma epidermoide cavitado (simula absceso)",
+   "tipo": "diagnostico",
+   "dificultad": "alta",
+   "razonamiento": "Paso 1: fumador intenso, afebril, sin leucocitosis, con masa central de 5 cm y cavidad de pared gruesa e irregular que no cambió con antibiótico. Paso 2: no es un absceso infeccioso sino una masa maligna central que se necrosa. Paso 3: el tipo histológico central, ligado al tabaco y que más se cavita simulando absceso es el epidermoide.",
+   "por_que_no": [
+    "También es central y del fumador, pero no es el que se cavita; pensarlo ante hiponatremia o ACTH ectópica.",
+    "Es periférico y no destaca por cavitarse; correcto solo si la masa periférica no encaja con otro tipo.",
+    "Afecta a jóvenes no fumadores con lesión endobronquial pequeña; no a un fumador mayor con masa cavitada.",
+    "",
+    "Suele ser periférico y poco cavitado; sería la respuesta en no fumadora con nódulo periférico y derrame."
+   ],
+   "trampa": [
+    "mismo-grupo",
+    "diferencial",
+    "otra-poblacion",
+    "",
+    "diferencial"
+   ],
+   "perla": "Masa central cavitada de pared gruesa en fumador afebril = epidermoide (el que más se cavita).",
+   "fuente": {
+    "carpeta": "6.NEUMOLOGIA",
+    "archivo": "Neumología -  Fundamentos teóricos_ENAM 2024.pdf",
+    "seccion": "p. 136 · Carcinoma de células escamosas: lesión cavitada"
+   },
+   "gemela_de": null
+  },
+  {
+   "id": "2026-10-22-banco-neumo-neoplasias-003",
+   "enunciado": "Mujer de 26 años, estudiante, nunca fumó y sin exposición laboral. En el último año tuvo 3 episodios de fiebre, tos productiva y opacidad en el mismo segmento del lóbulo medio, que mejoraron con antibióticos; hoy consulta por hemoptisis de 30 ml. PA 112/70 mmHg, FC 84 X', FR 18 X', T° 36,9 °C, SatO2 97 % con FiO2 0,21. Na 139 mEq/l, calcio 9,2 mg/dl. TEM: lesión redondeada de 1,8 cm, de bordes lisos, dentro de la luz del bronquio lobar medio, sin calcificaciones, con atelectasia distal. Fibrobroncoscopía: masa endobronquial lisa, rojiza y muy vascularizada. ¿Cuál es el tipo histológico más probable?",
+   "opciones": [
+    "Tumor carcinoide",
+    "Hamartoma pulmonar",
+    "Adenocarcinoma",
+    "Carcinoma microcítico",
+    "Carcinoma epidermoide"
+   ],
+   "clave": 1,
+   "especialidad": "Neumología",
+   "tema": "Tumores neuroendocrinos · joven no fumadora",
+   "diagnostico": "Tumor carcinoide bronquial",
+   "tipo": "diagnostico",
+   "dificultad": "muy alta",
+   "razonamiento": "Paso 1: joven no fumadora con neumonías recurrentes en el mismo segmento y atelectasia distal, que indican obstrucción bronquial fija. Paso 2: la broncoscopía muestra masa endobronquial lisa y muy vascular (explica la hemoptisis), de crecimiento central. Paso 3: la lesión neuroendocrina de jóvenes, no relacionada con tabaco y de crecimiento central-endobronquial es el carcinoide.",
+   "por_que_no": [
+    "",
+    "Es el benigno más frecuente, pero suele ser periférico con calcificación en palomitas de maíz, no endobronquial vascular.",
+    "Es el más frecuente en no fumadoras, pero en adultos mayores y como nódulo periférico, no endobronquial en una joven.",
+    "También es neuroendocrino y central, pero agresivo y propio de fumadores mayores con diseminación temprana.",
+    "Es central y obstructivo, pero de fumadores intensos y mayores; aquí no hay tabaco y la paciente es joven."
+   ],
+   "trampa": [
+    "",
+    "diferencial",
+    "otra-poblacion",
+    "mismo-grupo",
+    "diferencial"
+   ],
+   "perla": "Joven no fumador + neumonía recurrente en el mismo lóbulo + masa endobronquial vascular = carcinoide.",
+   "fuente": {
+    "carpeta": "6.NEUMOLOGIA",
+    "archivo": "Neumología -  Fundamentos teóricos_ENAM 2024.pdf",
+    "seccion": "p. 149 · Tumor carcinoide"
+   },
+   "gemela_de": null
+  },
+  {
+   "id": "2026-10-22-banco-neumo-neoplasias-004",
+   "enunciado": "Mujer de 58 años, fumadora de 35 paquetes-año, traída por una convulsión tónico-clónica. Desde hace 6 semanas presenta tos, cefalea y náuseas. PA 126/78 mmHg, FC 82 X', FR 18 X', T° 36,7 °C, SatO2 95 % con FiO2 0,21. Mucosas húmedas, sin edemas ni ingurgitación yugular. Na 116 mEq/l, K 4,0 mEq/l, glucosa 96 mg/dl, osmolaridad plasmática 242 mOsm/kg, osmolaridad urinaria 520 mOsm/kg, Na urinario 58 mEq/l; TSH y cortisol matinal normales; no usa diuréticos. Radiografía: ensanchamiento hiliar izquierdo con masa central de 4 cm. ¿Qué mecanismo explica el trastorno electrolítico?",
+   "opciones": [
+    "Pérdida renal de sal por uso de diuréticos",
+    "Secreción ectópica de hormona adrenocorticotropa",
+    "Secreción ectópica de hormona antidiurética",
+    "Insuficiencia suprarrenal por infiltración",
+    "Producción de péptido relacionado con la PTH"
+   ],
+   "clave": 3,
+   "especialidad": "Neumología",
+   "tema": "Síndromes asociados · hiponatremia",
+   "diagnostico": "SIADH por carcinoma microcítico",
+   "tipo": "mecanismo",
+   "dificultad": "alta",
+   "razonamiento": "Paso 1: Na 116 con osmolaridad plasmática baja, orina inapropiadamente concentrada (520) y Na urinario alto en paciente euvolémica, con tiroides y cortisol normales. Paso 2: es hiponatremia por exceso de hormona antidiurética. Paso 3: en fumadora con masa central, la causa es su secreción ectópica por la estirpe microcítica, la más asociada a este síndrome.",
+   "por_que_no": [
+    "Cursa con hipovolemia y antecedente de diurético; sería correcta en un hipertenso con tiazida y mucosas secas.",
+    "La misma estirpe puede producirla, pero daría hipopotasemia, alcalosis e hiperglucemia, no hiponatremia euvolémica aislada.",
+    "",
+    "Da hiponatremia con potasio alto e hipotensión; aquí el cortisol es normal, el potasio normal y la PA conservada.",
+    "Explica hipercalcemia con fósforo bajo en masas escamosas; aquí el calcio no es el problema sino el sodio."
+   ],
+   "trampa": [
+    "otro-contexto",
+    "mismo-grupo",
+    "",
+    "diferencial",
+    "diferencial"
+   ],
+   "perla": "Hiponatremia euvolémica + orina concentrada + masa central en fumador = ADH ectópica (microcítico).",
+   "fuente": {
+    "carpeta": "6.NEUMOLOGIA",
+    "archivo": "15. NEOPLASIAS PULMONARES.pdf",
+    "seccion": "p. 1 · Pepas: células pequeñas · síndromes endocrinos"
+   },
+   "gemela_de": null
+  },
+  {
+   "id": "2026-10-22-banco-neumo-neoplasias-005",
+   "enunciado": "Varón de 61 años, fumador de 50 paquetes-año, con 5 semanas de debilidad en muslos, edema de piernas y baja de 5 kg. PA 172/100 mmHg, FC 90 X', FR 18 X', T° 36,5 °C, SatO2 95 % con FiO2 0,21. Sin estrías ni obesidad central. Glucosa 262 mg/dl, K 2,4 mEq/l, Na 146 mEq/l, pH 7,51, HCO3 36 mEq/l. Cortisol matinal 58 µg/dl y ACTH plasmática 240 pg/ml (VN < 46). RM de silla turca sin lesiones. TEM de tórax: masa hiliar derecha de 4,5 cm con adenopatías mediastinales. ¿Cuál es el mecanismo que explica el cuadro metabólico?",
+   "opciones": [
+    "Secreción ectópica de hormona antidiurética",
+    "Adenoma suprarrenal productor de cortisol",
+    "Aldosteronismo primario por adenoma suprarrenal",
+    "Producción ectópica de ACTH por la masa torácica",
+    "Adenoma hipofisario productor de ACTH"
+   ],
+   "clave": 4,
+   "especialidad": "Neumología",
+   "tema": "Síndromes asociados · hipercortisolismo",
+   "diagnostico": "Cushing ectópico por carcinoma microcítico",
+   "tipo": "mecanismo",
+   "dificultad": "muy alta",
+   "razonamiento": "Paso 1: hipopotasemia severa, alcalosis metabólica, hiperglucemia e hipertensión de instalación rápida, con cortisol y ACTH muy elevados. Paso 2: hipercortisolismo dependiente de ACTH con hipófisis normal y sin fenotipo cushingoide (evolución corta) apunta a fuente ectópica. Paso 3: la masa hiliar en fumador intenso corresponde a la estirpe microcítica, que secreta ACTH ectópica.",
+   "por_que_no": [
+    "La misma estirpe la produce, pero causaría hiponatremia; aquí el sodio está alto y el potasio muy bajo.",
+    "Eleva el cortisol con ACTH suprimida; aquí la ACTH está muy alta, lo que descarta el origen suprarrenal.",
+    "Explica hipertensión e hipopotasemia, pero con cortisol y ACTH normales; aquí ambos están muy elevados.",
+    "",
+    "Da ACTH alta pero con evolución lenta, fenotipo cushingoide y lesión en silla turca; aquí la RM es normal."
+   ],
+   "trampa": [
+    "mismo-grupo",
+    "diferencial",
+    "diferencial",
+    "",
+    "diferencial"
+   ],
+   "perla": "Hipopotasemia + alcalosis + ACTH muy alta + hipófisis normal + masa central = ACTH ectópica (microcítico).",
+   "fuente": {
+    "carpeta": "6.NEUMOLOGIA",
+    "archivo": "Neumología -  Fundamentos teóricos_ENAM 2024.pdf",
+    "seccion": "p. 141 · Carcinoma microcítico: síndromes paraneoplásicos"
+   },
+   "gemela_de": null
+  },
+  {
+   "id": "2026-10-22-banco-neumo-neoplasias-006",
+   "enunciado": "Varón de 72 años, exminero, fumador de 40 paquetes-año, traído por somnolencia, poliuria y estreñimiento de 10 días. PA 104/62 mmHg, FC 104 X', FR 18 X', T° 36,6 °C, SatO2 94 % con FiO2 0,21. Mucosas secas, sin dolor óseo a la palpación. Calcio 14,2 mg/dl, fósforo 2,0 mg/dl, PTH intacta 7 pg/ml (VN 15-65), creatinina 1,6 mg/dl, albúmina 3,8 g/dl. Gammagrafía ósea sin captaciones anormales. Radiografía: masa de 6 cm en el hilio derecho con colapso del lóbulo superior. ¿Qué mecanismo explica la alteración del calcio?",
+   "opciones": [
+    "Péptido relacionado con la PTH liberado por la masa",
+    "Exceso de calcitriol por granulomas pulmonares",
+    "Secreción ectópica de hormona adrenocorticotropa",
+    "Osteólisis por implantes secundarios en el hueso",
+    "Hiperparatiroidismo primario por adenoma paratiroideo"
+   ],
+   "clave": 1,
+   "especialidad": "Neumología",
+   "tema": "Síndromes asociados · hipercalcemia",
+   "diagnostico": "Hipercalcemia humoral por PTHrP en carcinoma epidermoide",
+   "tipo": "mecanismo",
+   "dificultad": "alta",
+   "razonamiento": "Paso 1: calcio 14,2 con fósforo bajo y PTH suprimida, sin lesiones óseas. Paso 2: hipercalcemia no paratiroidea ni osteolítica, sino humoral por una sustancia que imita a la PTH (por eso baja el fósforo). Paso 3: en fumador con masa central que colapsa un lóbulo, la estirpe escamosa (epidermoide) produce péptido relacionado con la PTH.",
+   "por_que_no": [
+    "",
+    "Ocurre en enfermedades granulomatosas con fósforo normal o alto; no en masa hiliar central de fumador.",
+    "Es otro síndrome hormonal pulmonar, pero da hipopotasemia y alcalosis, no hipercalcemia con fósforo bajo.",
+    "Daría dolor óseo y captaciones en la gammagrafía con fósforo normal o alto; aquí la gammagrafía es normal.",
+    "Cursa con calcio alto y PTH elevada o inapropiadamente normal; aquí la PTH está suprimida en 7 pg/ml."
+   ],
+   "trampa": [
+    "",
+    "otro-contexto",
+    "mismo-grupo",
+    "diferencial",
+    "diferencial"
+   ],
+   "perla": "Calcio alto + fósforo bajo + PTH suprimida + masa central = PTHrP (epidermoide).",
+   "fuente": {
+    "carpeta": "6.NEUMOLOGIA",
+    "archivo": "Neumología -  Fundamentos teóricos_ENAM 2024.pdf",
+    "seccion": "p. 135 · Carcinoma de células escamosas: hipercalcemia (PTHrP)"
+   },
+   "gemela_de": null
+  },
+  {
+   "id": "2026-10-22-banco-neumo-neoplasias-007",
+   "enunciado": "Varón de 57 años, albañil, fumador de 30 paquetes-año, con 4 meses de dolor intenso en el hombro derecho que se irradia por el borde cubital del antebrazo hasta el cuarto y quinto dedos, sin alivio con antiinflamatorios ni fisioterapia. PA 128/76 mmHg, FC 80 X', FR 16 X', T° 36,5 °C, SatO2 96 % con FiO2 0,21. Atrofia de eminencia hipotenar e interóseos derechos, párpado superior derecho caído, pupila derecha de 2 mm (izquierda 4 mm) con fotomotor conservado y hemicara derecha sin sudor. Radiografía: opacidad apical derecha con erosión de la segunda costilla. ¿Qué estructura explica las alteraciones oculares y faciales?",
+   "opciones": [
+    "Nervio motor ocular común ipsilateral",
+    "Nervio laríngeo recurrente derecho",
+    "Raíces superiores del plexo braquial C5-C6",
+    "Cadena simpática cervical y ganglio estrellado",
+    "Nervio frénico del lado de la lesión"
+   ],
+   "clave": 4,
+   "especialidad": "Neumología",
+   "tema": "Masa del vértice · compromiso simpático",
+   "diagnostico": "Síndrome de Pancoast con Horner",
+   "tipo": "mecanismo",
+   "dificultad": "alta",
+   "razonamiento": "Paso 1: dolor de hombro con irradiación cubital y atrofia de la mano indican compromiso C8-T1 por una masa del vértice que erosiona costillas. Paso 2: ptosis, miosis con fotomotor conservado y anhidrosis hemifacial completan la tétrada simpática. Paso 3: la masa apical invade la cadena simpática cervical y el ganglio estrellado.",
+   "por_que_no": [
+    "Su lesión causa ptosis pero con pupila dilatada y ojo desviado; aquí la pupila es pequeña y no hay diplopía.",
+    "También se comprime por masas torácicas, pero produce ronquera, no ptosis, miosis ni falta de sudoración.",
+    "Darían debilidad del hombro y bíceps, no ptosis ni miosis; la masa apical compromete raíces bajas C8-T1.",
+    "",
+    "Su compresión eleva el hemidiafragma y da disnea; sería correcto si la radiografía mostrara parálisis diafragmática."
+   ],
+   "trampa": [
+    "diferencial",
+    "mismo-grupo",
+    "otro-contexto",
+    "",
+    "mismo-grupo"
+   ],
+   "perla": "Masa apical: dolor de hombro + atrofia de mano (C8-T1) + ptosis-miosis-anhidrosis (ganglio estrellado).",
+   "fuente": {
+    "carpeta": "6.NEUMOLOGIA",
+    "archivo": "15. NEOPLASIAS PULMONARES.pdf",
+    "seccion": "p. 1 · Pepas generales: síndrome del vértice"
+   },
+   "gemela_de": null
+  },
+  {
+   "id": "2026-10-22-banco-neumo-neoplasias-008",
+   "enunciado": "Varón de 64 años, fumador de 55 paquetes-año, con 3 meses de dificultad para subir escaleras y levantarse de la silla, boca seca, estreñimiento y mareo al ponerse de pie; niega visión doble vespertina. PA 118/72 mmHg sentado y 94/60 mmHg de pie, FC 86 X', FR 18 X', T° 36,6 °C, SatO2 95 % con FiO2 0,21. Fuerza proximal 3/5 en miembros inferiores que mejora a 4/5 tras contracciones repetidas durante 15 segundos; reflejos rotulianos y aquíleos ausentes, que reaparecen tras el esfuerzo. CK normal. TEM: masa hiliar izquierda de 3,5 cm con adenopatías mediastinales. ¿Qué complicación explica el cuadro neuromuscular?",
+   "opciones": [
+    "Mielopatía compresiva por lesión vertebral",
+    "Degeneración cerebelosa paraneoplásica",
+    "Síndrome miasténico de Lambert-Eaton",
+    "Miastenia gravis generalizada",
+    "Polimiositis paraneoplásica"
+   ],
+   "clave": 3,
+   "especialidad": "Neumología",
+   "tema": "Síndromes asociados · neuromuscular",
+   "diagnostico": "Síndrome de Lambert-Eaton por carcinoma microcítico",
+   "tipo": "complicacion",
+   "dificultad": "muy alta",
+   "razonamiento": "Paso 1: debilidad proximal, disautonomía (boca seca, estreñimiento, hipotensión ortostática) y arreflexia: la tríada. Paso 2: la fuerza y los reflejos mejoran con la contracción repetida, al revés que en la miastenia, y la CK es normal. Paso 3: en fumador con masa hiliar es el síndrome de Lambert-Eaton, asociado a la estirpe microcítica.",
+   "por_que_no": [
+    "Daría nivel sensitivo, hiperreflexia y Babinski; sería correcta con dolor dorsal y lesión vertebral en imagen.",
+    "Se asocia a la misma estirpe, pero produce ataxia y dismetría, no debilidad proximal con arreflexia.",
+    "",
+    "La debilidad empeora con el esfuerzo, afecta músculos oculares y conserva reflejos; aquí mejora con el ejercicio.",
+    "Da debilidad proximal con CK elevada y sin disautonomía; aquí la CK es normal y hay arreflexia."
+   ],
+   "trampa": [
+    "diferencial",
+    "mismo-grupo",
+    "",
+    "diferencial",
+    "mismo-grupo"
+   ],
+   "perla": "Debilidad proximal + disautonomía + arreflexia que MEJORA con el ejercicio = Lambert-Eaton (microcítico).",
+   "fuente": {
+    "carpeta": "6.NEUMOLOGIA",
+    "archivo": "Neumología -  Fundamentos teóricos_ENAM 2024.pdf",
+    "seccion": "p. 142 · Síndrome de Lambert-Eaton"
+   },
+   "gemela_de": null
+  },
+  {
+   "id": "2026-10-22-banco-neumo-neoplasias-009",
+   "enunciado": "Mujer de 60 años, fumadora de 30 paquetes-año, con masa hiliar derecha en estudio y biopsia pendiente. En 2 semanas presenta cefalea matutina progresiva, vómitos en proyectil y debilidad del brazo y la pierna izquierdos. PA 150/88 mmHg, FC 62 X', FR 16 X', T° 36,7 °C, SatO2 95 % con FiO2 0,21. Hemiparesia izquierda 3/5 con Babinski izquierdo, edema de papila bilateral, marcha sin ataxia y sin dismetría. Na 138 mEq/l, calcio 9,3 mg/dl, glucosa 104 mg/dl. ¿Cuál es la complicación más probable que explica el cuadro neurológico?",
+   "opciones": [
+    "Degeneración cerebelosa paraneoplásica",
+    "Encefalopatía por hiponatremia de origen ectópico",
+    "Metástasis cerebral con efecto de masa",
+    "Encefalomielitis paraneoplásica difusa",
+    "Encefalopatía por hipercalcemia humoral"
+   ],
+   "clave": 3,
+   "especialidad": "Neumología",
+   "tema": "Diseminación · encéfalo",
+   "diagnostico": "Metástasis cerebral de neoplasia pulmonar",
+   "tipo": "complicacion",
+   "dificultad": "alta",
+   "razonamiento": "Paso 1: cefalea matutina, vómitos en proyectil, edema de papila y bradicardia relativa con PA alta indican hipertensión endocraneal. Paso 2: la hemiparesia con Babinski es focal y el sodio y el calcio son normales, lo que descarta causas metabólicas. Paso 3: en masa pulmonar, el encéfalo es uno de los sitios más frecuentes de siembra a distancia, que actúa como lesión ocupante.",
+   "por_que_no": [
+    "Produce ataxia y dismetría sin focalidad motora ni edema de papila; aquí la marcha y la coordinación son normales.",
+    "Requiere sodio bajo y da confusión o convulsiones sin hemiparesia; aquí el sodio es 138 mEq/l.",
+    "",
+    "Es inmunológica y multifocal sin hipertensión endocraneal; sería correcta con signos difusos y RM sin masas.",
+    "Da somnolencia, poliuria y estreñimiento con calcio alto; aquí el calcio es normal y hay focalidad."
+   ],
+   "trampa": [
+    "mismo-grupo",
+    "diferencial",
+    "",
+    "otro",
+    "diferencial"
+   ],
+   "perla": "Sitios más frecuentes de diseminación pulmonar: cerebro, hígado y hueso; el pulmón es el primario cerebral más común.",
+   "fuente": {
+    "carpeta": "6.NEUMOLOGIA",
+    "archivo": "15. NEOPLASIAS PULMONARES.pdf",
+    "seccion": "p. 1 · Diagnóstico: metástasis"
+   },
+   "gemela_de": null
+  },
+  {
+   "id": "2026-10-22-banco-neumo-neoplasias-010",
+   "enunciado": "Varón de 66 años, fumador activo de 20 cigarrillos al día, con 6 semanas de tos persistente y esputo hemoptoico. PA 136/84 mmHg, FC 84 X', FR 18 X', T° 36,8 °C, SatO2 95 % con FiO2 0,21. Disminución del murmullo vesicular en la región paraesternal derecha baja. Radiografía posteroanterior: opacidad homogénea de 5 cm adyacente al corazón que borra el contorno del borde cardíaco derecho, con hemidiafragma derecho nítido; en la proyección lateral se ubica por delante, superpuesta a la silueta cardíaca. ¿En qué localización anatómica se encuentra la lesión?",
+   "opciones": [
+    "Lóbulo medio derecho",
+    "Lóbulo superior derecho",
+    "Mediastino posterior derecho",
+    "Lóbulo inferior derecho",
+    "Língula del lóbulo superior izquierdo"
+   ],
+   "clave": 1,
+   "especialidad": "Neumología",
+   "tema": "Imagen · localización por signo de la silueta",
+   "diagnostico": "Masa en lóbulo medio derecho (signo de la silueta)",
+   "tipo": "mecanismo",
+   "dificultad": "media",
+   "razonamiento": "Paso 1: la opacidad borra el contorno cardíaco derecho y respeta el hemidiafragma. Paso 2: el signo de la silueta indica que la lesión está en contacto anatómico con la aurícula derecha, y la lateral la ubica anterior. Paso 3: la estructura pulmonar anterior en contacto con el borde cardíaco derecho es el lóbulo medio derecho.",
+   "por_que_no": [
+    "",
+    "Es superior y no contacta el borde cardíaco; sería correcto con opacidad apical o sobre la cisura menor.",
+    "Las masas posteriores no borran el borde cardíaco porque no lo contactan; sería correcto con silueta conservada.",
+    "Es posterior y borra el hemidiafragma, no el borde cardíaco; aquí el diafragma es nítido y la lesión anterior.",
+    "También borra la silueta cardíaca, pero el borde izquierdo; sería la respuesta si se borrara ese contorno."
+   ],
+   "trampa": [
+    "",
+    "diferencial",
+    "otro",
+    "diferencial",
+    "otro-contexto"
+   ],
+   "perla": "Masa que borra la silueta cardíaca: borde derecho = lóbulo medio; borde izquierdo = língula.",
+   "fuente": {
+    "carpeta": "_SISTEMA_BANCOS/fichas",
+    "archivo": "Neumologia/Neoplasias_pulmonares.md",
+    "seccion": "Perlas y trampas de examen"
+   },
+   "gemela_de": null
+  },
+  {
+   "id": "2026-10-22-banco-neumo-neoplasias-011",
+   "enunciado": "Varón de 62 años, fumador de 40 paquetes-año, con 3 semanas de hinchazón de cara, cuello y ambos brazos, cefalea que empeora al agacharse y disnea al acostarse. PA 138/86 mmHg, FC 98 X', FR 22 X', T° 36,7 °C, SatO2 93 % con FiO2 0,21. Cara pletórica y cianótica, edema en cuello y hombros, venas yugulares distendidas sin pulsación ni variación respiratoria y red venosa colateral en la pared anterior del tórax. Ruidos cardíacos normales, sin estridor ni edema de piernas. No tiene catéteres venosos. Radiografía: ensanchamiento del mediastino superior derecho. ¿Qué examen se solicita primero para confirmar la obstrucción y su causa?",
+   "opciones": [
+    "Ecografía Doppler venosa de cuello y brazos",
+    "TEM de tórax con contraste endovenoso",
+    "Ecocardiograma transtorácico",
+    "Fibrobroncoscopía con biopsia bronquial",
+    "PET-TC de cuerpo entero"
+   ],
+   "clave": 2,
+   "especialidad": "Neumología",
+   "tema": "Compresión venosa mediastinal · estudio",
+   "diagnostico": "Síndrome de vena cava superior por masa mediastinal",
+   "tipo": "prueba",
+   "dificultad": "alta",
+   "razonamiento": "Paso 1: edema de cara, cuello y brazos, yugulares distendidas no pulsátiles, circulación colateral y mediastino ensanchado en fumador. Paso 2: obstrucción del retorno venoso superior por una masa mediastinal, no falla cardíaca ni trombosis por catéter. Paso 3: el examen inicial que confirma la obstrucción y muestra su causa es la TEM de tórax con contraste.",
+   "por_que_no": [
+    "Se indica si se sospecha trombosis por catéter central; este paciente no tiene catéteres y sí masa mediastinal.",
+    "",
+    "Evalúa taponamiento o falla cardíaca; aquí no hay edema de piernas ni pulsación yugular y el mediastino está ancho.",
+    "Sirve para la histología de una masa central, pero después de que la TEM define la obstrucción y su origen.",
+    "Es para estadificar una vez confirmado el proceso maligno; no es el estudio inicial de la obstrucción venosa."
+   ],
+   "trampa": [
+    "otro-contexto",
+    "",
+    "diferencial",
+    "otro-momento",
+    "otro-momento"
+   ],
+   "perla": "Edema en esclavina + yugulares sin pulso + colaterales: TEM con contraste primero; Doppler si hay catéter.",
+   "fuente": {
+    "carpeta": "26. CX CARDIOVASCULAR",
+    "archivo": "16. SD DE VENA CAVA SUPERIOR.pdf",
+    "seccion": "p. 1 · Diagnóstico y tratamiento"
+   },
+   "gemela_de": null
+  },
+  {
+   "id": "2026-10-22-banco-neumo-neoplasias-012",
+   "enunciado": "Mujer de 67 años, fumadora, hospitalizada por edema facial y de miembros superiores, ingurgitación yugular y circulación colateral torácica; la TEM con contraste mostró una masa mediastinal derecha de 7 cm que ocluye casi por completo la vena cava superior. La biopsia aún no tiene resultado. Pese a 48 horas de dexametasona, furosemida y cabecera elevada, presenta estridor inspiratorio, voz apagada y somnolencia. PA 146/90 mmHg, FC 118 X', FR 30 X', T° 36,8 °C, SatO2 88 % con FiO2 0,35. Laringoscopía: edema laríngeo marcado. ¿Cuál es la conducta más adecuada en este momento?",
+   "opciones": [
+    "Anticoagulación plena con heparina no fraccionada",
+    "Resección quirúrgica urgente de la masa mediastinal",
+    "Quimioterapia y radioterapia tras confirmar histología",
+    "Mantener corticoides y diuréticos hasta la biopsia",
+    "Colocación de stent endovascular en la vena cava"
+   ],
+   "clave": 5,
+   "especialidad": "Neumología",
+   "tema": "Compresión venosa mediastinal · caso grave",
+   "diagnostico": "Síndrome de vena cava superior grave refractario",
+   "tipo": "conducta",
+   "dificultad": "muy alta",
+   "razonamiento": "Paso 1: obstrucción casi completa de la cava superior con estridor, edema laríngeo, somnolencia y desaturación. Paso 2: es un caso grave y refractario a 48 horas de corticoides, diuréticos y cabecera elevada, y la histología aún no está disponible. Paso 3: en casos graves o refractarios se coloca un stent endovascular para restablecer el retorno venoso de inmediato.",
+   "por_que_no": [
+    "Correspondería a una obstrucción por trombosis asociada a catéter; aquí la causa es compresión por una masa.",
+    "No es el manejo de la obstrucción venosa aguda; la causa se trata con terapia sistémica o local tras la histología.",
+    "Es el tratamiento de la causa, pero requiere biopsia y su efecto tarda; no resuelve ya el compromiso de vía aérea.",
+    "Son la medida inicial del caso sintomático, pero ya fracasaron y ahora hay edema laríngeo y somnolencia.",
+    ""
+   ],
+   "trampa": [
+    "diferencial",
+    "otro",
+    "otro-momento",
+    "otro-momento",
+    ""
+   ],
+   "perla": "Obstrucción de la cava superior: tratar la causa; corticoides y diuréticos si hay síntomas; stent si es grave o refractaria.",
+   "fuente": {
+    "carpeta": "26. CX CARDIOVASCULAR",
+    "archivo": "16. SD DE VENA CAVA SUPERIOR.pdf",
+    "seccion": "p. 1 · Diagnóstico y tratamiento"
+   },
+   "gemela_de": null
+  },
+  {
+   "id": "2026-10-22-banco-neumo-neoplasias-013",
+   "enunciado": "Varón de 70 años, fumador de 60 paquetes-año, con 7 semanas de tos, baja de 7 kg y debilidad. PA 124/74 mmHg, FC 88 X', FR 20 X', T° 36,6 °C, SatO2 93 % con FiO2 0,21. Na 127 mEq/l con orina inapropiadamente concentrada. TEM: masa central de 3 cm en el bronquio lobar inferior izquierdo con adenopatías mediastinales ipsilaterales; sin lesiones en hígado, suprarrenales, hueso ni encéfalo. Biopsia por fibrobroncoscopía: células redondas de escaso citoplasma, núcleos hipercromáticos con moldeamiento y marcadores neuroendocrinos positivos. El cirujano de tórax evalúa operarlo. ¿Cuál es el tratamiento indicado?",
+   "opciones": [
+    "Quimioterapia combinada con radioterapia torácica",
+    "Lobectomía con disección ganglionar mediastinal",
+    "Radioterapia torácica exclusiva",
+    "Lobectomía sola sin tratamiento complementario",
+    "Neumonectomía seguida de quimioterapia adyuvante"
+   ],
+   "clave": 1,
+   "especialidad": "Neumología",
+   "tema": "Tratamiento · estirpe microcítica",
+   "diagnostico": "Carcinoma microcítico con adenopatías mediastinales",
+   "tipo": "tratamiento",
+   "dificultad": "alta",
+   "razonamiento": "Paso 1: fumador intenso con masa central, hiponatremia con orina concentrada y biopsia de células redondas con moldeamiento y marcadores neuroendocrinos. Paso 2: corresponde a la estirpe microcítica, la más agresiva y de diseminación temprana. Paso 3: esta estirpe se considera inoperable y se trata con quimioterapia más radioterapia, aunque el cirujano proponga resecar.",
+   "por_que_no": [
+    "",
+    "Es útil en estirpes no microcíticas localizadas; esta estirpe se disemina temprano y no se trata con cirugía.",
+    "La radioterapia sola no controla una estirpe con diseminación temprana; sería paliativa solo si no tolera quimioterapia.",
+    "Corresponde al estadio I no microcítico; aquí hay adenopatías mediastinales y estirpe microcítica.",
+    "Es el esquema del estadio II no microcítico; aquí la histología neuroendocrina agresiva contraindica operar."
+   ],
+   "trampa": [
+    "",
+    "otro-contexto",
+    "mismo-grupo",
+    "otro-estadio",
+    "otro-estadio"
+   ],
+   "perla": "Microcítico = no se opera: quimioterapia + radioterapia.",
+   "fuente": {
+    "carpeta": "6.NEUMOLOGIA",
+    "archivo": "15. NEOPLASIAS PULMONARES.pdf",
+    "seccion": "p. 1 · Tratamiento: tumor microcítico inoperable"
+   },
+   "gemela_de": null
+  },
+  {
+   "id": "2026-10-22-banco-neumo-neoplasias-014",
+   "enunciado": "Mujer de 59 años, profesora, nunca fumó. Una TEM de control halló un nódulo periférico de 2,3 cm en el lóbulo superior izquierdo, de bordes espiculados. PA 122/76 mmHg, FC 74 X', FR 16 X', T° 36,5 °C, SatO2 98 % con FiO2 0,21. Espirometría con VEF1 del 92 % del predicho. Biopsia guiada por imagen: proliferación maligna de patrón glandular. PET-TC: captación solo en el nódulo, sin ganglios hiliares ni mediastinales y sin lesiones a distancia; RM cerebral normal. ¿Cuál es el tratamiento de elección para esta paciente?",
+   "opciones": [
+    "Control con TEM a los 3, 12 y 24 meses",
+    "Resección quirúrgica sin terapia adicional",
+    "Radioterapia exclusiva sobre el nódulo",
+    "Resección quirúrgica más quimioterapia adyuvante",
+    "Quimioterapia y radioterapia sin cirugía"
+   ],
+   "clave": 2,
+   "especialidad": "Neumología",
+   "tema": "Tratamiento · estirpe no microcítica localizada",
+   "diagnostico": "Adenocarcinoma estadio I",
+   "tipo": "tratamiento",
+   "dificultad": "media",
+   "razonamiento": "Paso 1: nódulo periférico de 2,3 cm con biopsia maligna de patrón glandular. Paso 2: el PET-TC y la RM no muestran ganglios ni lesiones a distancia y el VEF1 es adecuado: estadio I resecable. Paso 3: en el estadio I de estirpe no microcítica el tratamiento es solo quirúrgico.",
+   "por_que_no": [
+    "Es el seguimiento de un nódulo de bajo riesgo sin histología; aquí ya hay biopsia maligna.",
+    "",
+    "Se reserva para quien no puede operarse; esta paciente tiene buena función pulmonar y lesión resecable.",
+    "Corresponde al estadio II con ganglio hiliar comprometido; aquí no hay ganglios captantes.",
+    "Es el manejo de estadios III-IV o de la estirpe microcítica; aquí la lesión está localizada y es resecable."
+   ],
+   "trampa": [
+    "otro-momento",
+    "",
+    "otro",
+    "otro-estadio",
+    "otro-estadio"
+   ],
+   "perla": "No microcítico: estadio I = solo cirugía; II = cirugía + QT adyuvante; III-IV = QT + RT.",
+   "fuente": {
+    "carpeta": "6.NEUMOLOGIA",
+    "archivo": "15. NEOPLASIAS PULMONARES.pdf",
+    "seccion": "p. 1 · Tratamiento por estadio"
+   },
+   "gemela_de": null
+  },
+  {
+   "id": "2026-10-22-banco-neumo-neoplasias-015",
+   "enunciado": "Varón de 55 años, exfumador de 25 paquetes-año que dejó hace 3 años, con tos y esputo hemoptoico de 1 mes. PA 130/82 mmHg, FC 78 X', FR 16 X', T° 36,6 °C, SatO2 96 % con FiO2 0,21. VEF1 del 85 % del predicho y sin comorbilidades. TEM y PET-TC: masa de 3,5 cm en el lóbulo inferior derecho y un ganglio hiliar derecho captante; mediastino, suprarrenales, hígado, hueso y encéfalo sin lesiones. Biopsia del ganglio hiliar por broncoscopía: células epiteliales malignas con queratinización y puentes intercelulares. ¿Cuál es el plan terapéutico indicado?",
+   "opciones": [
+    "Quimioterapia exclusiva con intención paliativa",
+    "Quimioterapia y radioterapia sin cirugía",
+    "Resección quirúrgica sin terapia adicional",
+    "Resección quirúrgica más quimioterapia adyuvante",
+    "Radioterapia torácica con intención curativa"
+   ],
+   "clave": 4,
+   "especialidad": "Neumología",
+   "tema": "Tratamiento · ganglio hiliar comprometido",
+   "diagnostico": "Carcinoma epidermoide estadio II (N1)",
+   "tipo": "tratamiento",
+   "dificultad": "muy alta",
+   "razonamiento": "Paso 1: biopsia con queratinización y puentes intercelulares: estirpe escamosa, no microcítica. Paso 2: masa de 3,5 cm con ganglio hiliar ipsilateral positivo, mediastino y órganos a distancia libres: estadio II. Paso 3: en el estadio II se reseca y se añade quimioterapia adyuvante.",
+   "por_que_no": [
+    "Es el enfoque del estadio IV con lesiones a distancia; aquí la enfermedad está limitada al pulmón e hilio.",
+    "Es para estadios III-IV o estirpe microcítica; aquí el mediastino está libre y la masa es resecable.",
+    "Basta en el estadio I sin ganglios; aquí el ganglio hiliar ipsilateral positivo sube el estadio.",
+    "",
+    "Se reserva para pacientes no operables; este tiene buena función pulmonar y ninguna comorbilidad."
+   ],
+   "trampa": [
+    "otro-estadio",
+    "otro-estadio",
+    "otro-estadio",
+    "",
+    "otro"
+   ],
+   "perla": "Ganglio hiliar ipsilateral sin mediastino = estadio II: cirugía + quimioterapia adyuvante.",
+   "fuente": {
+    "carpeta": "6.NEUMOLOGIA",
+    "archivo": "Neumología -  Fundamentos teóricos_ENAM 2024.pdf",
+    "seccion": "p. 150 · Tratamiento por estadio"
+   },
+   "gemela_de": null
+  },
+  {
+   "id": "2026-10-22-banco-neumo-neoplasias-016",
+   "enunciado": "Mujer de 52 años, no fumadora, con 2 meses de disnea, dolor lumbar y baja de 6 kg. PA 116/70 mmHg, FC 104 X', FR 24 X', T° 36,9 °C, SatO2 91 % con FiO2 0,21. Matidez en hemitórax izquierdo hasta el ángulo de la escápula. TEM: nódulo periférico de 3 cm en el lóbulo inferior izquierdo, derrame pleural izquierdo y lesiones líticas en L2 y L4. Toracocentesis: líquido hemorrágico cuya citología muestra células malignas de patrón glandular; tras el drenaje la disnea mejoró. ¿Cuál es el tratamiento indicado?",
+   "opciones": [
+    "Lobectomía inferior con quimioterapia adyuvante",
+    "Toracocentesis repetidas como única medida",
+    "Quimioterapia sistémica con radioterapia paliativa",
+    "Neumonectomía con radioterapia complementaria",
+    "Lobectomía inferior sin terapia complementaria"
+   ],
+   "clave": 3,
+   "especialidad": "Neumología",
+   "tema": "Tratamiento · enfermedad diseminada",
+   "diagnostico": "Adenocarcinoma estadio IV (derrame maligno y lesiones óseas)",
+   "tipo": "tratamiento",
+   "dificultad": "alta",
+   "razonamiento": "Paso 1: nódulo periférico con derrame cuya citología es maligna glandular y lesiones líticas vertebrales. Paso 2: hay diseminación pleural y ósea: estadio IV de estirpe no microcítica. Paso 3: en el estadio IV no se opera y se indica quimioterapia con radioterapia paliativa (por ejemplo, sobre las lesiones óseas dolorosas).",
+   "por_que_no": [
+    "Es el esquema del estadio II resecable; aquí hay derrame maligno y lesiones óseas, sin indicación de cirugía.",
+    "Alivian la disnea, pero no tratan la enfermedad; serían solo paliativas si no pudiera recibir terapia sistémica.",
+    "",
+    "La cirugía solo es opcional en algunos estadios III; en el estadio IV no se opera.",
+    "Corresponde al estadio I localizado; esta paciente tiene enfermedad diseminada a pleura y columna."
+   ],
+   "trampa": [
+    "otro-estadio",
+    "otro-momento",
+    "",
+    "otro-estadio",
+    "otro-estadio"
+   ],
+   "perla": "Derrame con citología maligna o lesiones a distancia = estadio IV: sin cirugía, QT + RT paliativa.",
+   "fuente": {
+    "carpeta": "6.NEUMOLOGIA",
+    "archivo": "Neumología -  Fundamentos teóricos_ENAM 2024.pdf",
+    "seccion": "p. 150 · Tratamiento por estadio"
+   },
+   "gemela_de": null
+  },
+  {
+   "id": "2026-10-22-banco-neumo-neoplasias-017",
+   "enunciado": "Varón de 64 años, exfumador, con nódulo de 2,9 cm en el lóbulo superior derecho cuya biopsia guiada por imagen mostró células malignas de patrón glandular. PA 128/80 mmHg, FC 80 X', FR 16 X', T° 36,6 °C, SatO2 96 % con FiO2 0,21; VEF1 del 78 % del predicho. Antes de programar la resección se completan estudios de extensión. TEM y PET-TC: nódulo de bordes espiculados, un ganglio hiliar derecho captante y dos lesiones hipodensas captantes en el hígado; RM cerebral normal. ¿Qué hallazgo contraindica la cirugía de resección?",
+   "opciones": [
+    "Edad de 64 años con VEF1 del 78 %",
+    "Ganglio hiliar ipsilateral captante en el PET-TC",
+    "Bordes espiculados del nódulo pulmonar",
+    "Nódulo de 2,9 cm en el lóbulo superior derecho",
+    "Dos lesiones hepáticas captantes en el PET-TC"
+   ],
+   "clave": 5,
+   "especialidad": "Neumología",
+   "tema": "Estadificación · resecabilidad",
+   "diagnostico": "Adenocarcinoma con metástasis hepáticas (estadio IV)",
+   "tipo": "contraindicacion",
+   "dificultad": "muy alta",
+   "razonamiento": "Paso 1: biopsia maligna de patrón glandular, estirpe no microcítica, en paciente con función pulmonar adecuada. Paso 2: las lesiones hepáticas captantes indican diseminación a distancia (el hígado es uno de los sitios más frecuentes): estadio IV. Paso 3: en el estadio IV la cirugía no está indicada; el ganglio hiliar aislado solo sube a estadio II, todavía operable.",
+   "por_que_no": [
+    "La edad y una función pulmonar conservada permiten la cirugía; contraindicaría un VEF1 muy bajo.",
+    "Sube a estadio II, que sigue siendo quirúrgico con quimioterapia adyuvante; por sí solo no contraindica operar.",
+    "Los bordes espiculados indican alto riesgo de malignidad, no extensión; orientan a biopsiar, no a no operar.",
+    "El tamaño menor de 3 cm encaja en estadios tempranos y operables; sería relevante si invadiera estructuras vecinas.",
+    ""
+   ],
+   "trampa": [
+    "otra-poblacion",
+    "otro-estadio",
+    "diferencial",
+    "otro",
+    ""
+   ],
+   "perla": "Lo que contraindica operar es la diseminación a distancia (estadio IV), no el tamaño ni el ganglio hiliar.",
+   "fuente": {
+    "carpeta": "6.NEUMOLOGIA",
+    "archivo": "Neumología -  Fundamentos teóricos_ENAM 2024.pdf",
+    "seccion": "p. 150 · Tratamiento por estadio"
+   },
+   "gemela_de": null
+  },
+  {
+   "id": "2026-10-22-banco-neumo-neoplasias-018",
+   "enunciado": "Varón de 68 años, fumador de 50 paquetes-año, que en 3 meses tuvo 2 episodios de fiebre y tos productiva con opacidad en el lóbulo superior izquierdo que nunca se resolvió del todo; ahora refiere hemoptisis leve y baja de 5 kg. PA 134/82 mmHg, FC 92 X', FR 20 X', T° 37,4 °C, SatO2 93 % con FiO2 0,21. TEM con contraste: masa de 4 cm que estrecha y ocluye el bronquio lobar superior izquierdo, con pérdida de volumen del lóbulo y desplazamiento de la cisura, y adenopatías hiliares. Baciloscopías negativas. ¿Qué examen permite confirmar la naturaleza de la lesión?",
+   "opciones": [
+    "Punción transtorácica guiada por TEM",
+    "Repetir TEM tras otro ciclo antibiótico",
+    "Fibrobroncoscopía con biopsia de la lesión",
+    "PET-TC de cuerpo entero",
+    "Citología de esputo en tres muestras"
+   ],
+   "clave": 3,
+   "especialidad": "Neumología",
+   "tema": "Estudio · masa central obstructiva",
+   "diagnostico": "Neoplasia central con atelectasia obstructiva",
+   "tipo": "prueba",
+   "dificultad": "alta",
+   "razonamiento": "Paso 1: fumador con opacidad recurrente que no resuelve, hemoptisis y baja de peso. Paso 2: la TEM muestra masa que ocluye el bronquio lobar con atelectasia: lesión central obstructiva sospechosa de malignidad. Paso 3: el estándar para confirmar una lesión de predominio central es la fibrobroncoscopía con biopsia.",
+   "por_que_no": [
+    "Se prefiere en nódulos periféricos lejos de la vía aérea; esta masa es central y accesible al broncoscopio.",
+    "Retrasa el estudio de una obstrucción fija; solo sería razonable en neumonía sin masa ni pérdida de volumen.",
+    "",
+    "Sirve para estadificar, pero no da histología; se pide después de confirmar el tipo de lesión.",
+    "Su rendimiento es bajo y un resultado negativo no descarta; no reemplaza la biopsia de una masa central."
+   ],
+   "trampa": [
+    "otro-contexto",
+    "otro-momento",
+    "",
+    "no-confirmatorio",
+    "no-confirmatorio"
+   ],
+   "perla": "Neumonía que no resuelve en fumador = buscar obstrucción; masa central se confirma por fibrobroncoscopía con biopsia.",
+   "fuente": {
+    "carpeta": "6.NEUMOLOGIA",
+    "archivo": "15. NEOPLASIAS PULMONARES.pdf",
+    "seccion": "p. 1 · Diagnóstico: gold estándar en lesión central"
+   },
+   "gemela_de": null
+  },
+  {
+   "id": "2026-10-22-banco-neumo-neoplasias-019",
+   "enunciado": "Mujer de 71 años que cocinó con leña durante 40 años y nunca fumó. Consulta en un centro de salud por 2 meses de tos seca, dolor torácico derecho y baja de 4 kg. PA 128/78 mmHg, FC 86 X', FR 18 X', T° 36,7 °C, SatO2 95 % con FiO2 0,21. Creatinina 0,8 mg/dl y sin alergias conocidas. Radiografía de tórax: imagen redondeada de 3,5 cm en el campo medio derecho, periférica, sin calcificaciones; no tiene radiografías previas. Baciloscopías negativas. ¿Qué examen corresponde solicitar a continuación?",
+   "opciones": [
+    "Citología de esputo seriada",
+    "PET-TC de cuerpo entero",
+    "Fibrobroncoscopía con biopsia bronquial",
+    "Radiografía de control en 3 meses",
+    "Tomografía de tórax con contraste"
+   ],
+   "clave": 5,
+   "especialidad": "Neumología",
+   "tema": "Estudio · examen inicial de la masa",
+   "diagnostico": "Masa pulmonar periférica en no fumadora expuesta a humo de leña",
+   "tipo": "prueba",
+   "dificultad": "media",
+   "razonamiento": "Paso 1: mujer mayor con exposición prolongada a humo de leña, tos, dolor y baja de peso. Paso 2: la radiografía muestra una masa periférica de 3,5 cm sin calcificaciones, sospechosa de malignidad. Paso 3: el examen inicial es la TEM de tórax con contraste (función renal normal y sin alergia), que caracteriza la lesión y guía la biopsia.",
+   "por_que_no": [
+    "Tiene bajo rendimiento, sobre todo en lesiones periféricas, y un negativo no descarta malignidad.",
+    "Se usa para estadificar o en nódulos de riesgo intermedio; no es el primer estudio tras la radiografía.",
+    "Confirma lesiones centrales, pero después de la tomografía; esta lesión es periférica y aún no está caracterizada.",
+    "Observar una masa de 3,5 cm con síntomas y factor de riesgo retrasa el estudio; no aplica a esta lesión.",
+    ""
+   ],
+   "trampa": [
+    "no-confirmatorio",
+    "otro-momento",
+    "otro-momento",
+    "otro",
+    ""
+   ],
+   "perla": "Humo de leña también es factor de riesgo; la TEM con contraste es el examen inicial ante masa pulmonar.",
+   "fuente": {
+    "carpeta": "6.NEUMOLOGIA",
+    "archivo": "15. NEOPLASIAS PULMONARES.pdf",
+    "seccion": "p. 1 · Diagnóstico: examen inicial"
+   },
+   "gemela_de": null
+  },
+  {
+   "id": "2026-10-22-banco-neumo-neoplasias-020",
+   "enunciado": "Varón de 60 años, exfumador de 30 paquetes-año, contador. Tiene un nódulo de 2,6 cm en el lóbulo superior derecho; la biopsia guiada por imagen mostró células malignas con patrón glandular. PA 126/78 mmHg, FC 76 X', FR 16 X', T° 36,5 °C, SatO2 97 % con FiO2 0,21; VEF1 del 88 % del predicho. La TEM con contraste no muestra adenopatías evidentes ni derrame. Antes de decidir la cirugía, el equipo necesita conocer con precisión el compromiso ganglionar y la extensión a distancia. ¿Qué examen se solicita para estadificar?",
+   "opciones": [
+    "PET-TC con fluorodesoxiglucosa",
+    "Repetir la TEM de tórax en 3 meses",
+    "Fibrobroncoscopía con lavado bronquial",
+    "Gammagrafía ósea con tecnecio",
+    "Ecografía abdominal completa"
+   ],
+   "clave": 1,
+   "especialidad": "Neumología",
+   "tema": "Estadificación · extensión ganglionar y a distancia",
+   "diagnostico": "Adenocarcinoma periférico en estadificación",
+   "tipo": "prueba",
+   "dificultad": "alta",
+   "razonamiento": "Paso 1: nódulo con biopsia maligna glandular, estirpe no microcítica, con buena función pulmonar. Paso 2: antes de operar se debe definir el estadio, porque el compromiso ganglionar o a distancia cambia la conducta. Paso 3: el examen que estadifica ganglios y enfermedad a distancia en un solo estudio es el PET-TC.",
+   "por_que_no": [
+    "",
+    "Es el seguimiento de un nódulo de bajo riesgo sin histología; aquí ya hay biopsia maligna.",
+    "Sirve para obtener muestras de lesiones centrales; no estadifica ganglios ni enfermedad a distancia.",
+    "Solo busca lesiones óseas y no evalúa ganglios; sería útil ante dolor óseo sin acceso a otro estudio.",
+    "Explora hígado y suprarrenales con baja sensibilidad y no evalúa mediastino; no estadifica el tórax."
+   ],
+   "trampa": [
+    "",
+    "otro-momento",
+    "otro-contexto",
+    "mismo-grupo",
+    "no-confirmatorio"
+   ],
+   "perla": "TEM con contraste = examen inicial; fibrobroncoscopía = confirma la lesión central; PET-TC = estadifica.",
+   "fuente": {
+    "carpeta": "_SISTEMA_BANCOS/fichas",
+    "archivo": "Neumología.md",
+    "seccion": "§X Neoplasia pulmonar · Diagnóstico (PET-SCAN)"
+   },
+   "gemela_de": null
+  },
+  {
+   "id": "2026-10-22-banco-neumo-neoplasias-021",
+   "enunciado": "Mujer de 29 años, nunca fumó, sin exposición laboral ni antecedentes familiares relevantes. Acude a control tras una TEM de tórax solicitada en emergencia por un traumatismo costal leve, que mostró como hallazgo incidental un nódulo sólido de 4 mm en el lóbulo inferior izquierdo, de bordes lisos. Está asintomática. PA 110/70 mmHg, FC 72 X', FR 14 X', T° 36,5 °C, SatO2 99 % con FiO2 0,21. Examen físico normal. ¿Cuál es la conducta adecuada frente a este hallazgo?",
+   "opciones": [
+    "TEM al año y luego a los 2 años",
+    "Biopsia del nódulo para histología",
+    "PET-TC para caracterizar el nódulo",
+    "No requiere seguimiento con imágenes",
+    "TEM de control a los 3, 12 y 24 meses"
+   ],
+   "clave": 4,
+   "especialidad": "Neumología",
+   "tema": "Nódulo pulmonar · menor de 6 mm",
+   "diagnostico": "Nódulo pulmonar incidental < 6 mm de bajo riesgo",
+   "tipo": "conducta",
+   "dificultad": "media",
+   "razonamiento": "Paso 1: nódulo sólido de 4 mm, liso, en mujer de 29 años nunca fumadora. Paso 2: tamaño menor de 6 mm y riesgo clínico bajo (menor de 35 años, no fumadora, bordes lisos). Paso 3: según el modelo de seguimiento por tamaño y riesgo, el nódulo menor de 6 mm de bajo riesgo no requiere seguimiento.",
+   "por_que_no": [
+    "Es la conducta para nódulos menores de 6 mm con riesgo intermedio o alto, o de 6-8 mm; ella es de bajo riesgo.",
+    "Se reserva para nódulos mayores de 8 mm de alto riesgo; aquí sería un procedimiento innecesario.",
+    "Se indica en nódulos mayores de 8 mm de riesgo intermedio; no en uno de 4 mm de bajo riesgo.",
+    "",
+    "Corresponde a nódulos mayores de 8 mm de bajo riesgo; este mide 4 mm."
+   ],
+   "trampa": [
+    "otra-poblacion",
+    "umbral",
+    "umbral",
+    "",
+    "umbral"
+   ],
+   "perla": "Nódulo < 6 mm + bajo riesgo = sin seguimiento.",
+   "fuente": {
+    "carpeta": "6.NEUMOLOGIA",
+    "archivo": "E25 - Villateca I - Neumología.pdf",
+    "seccion": "p. 35 · Seguimiento: modelo de Mayo Clinic"
+   },
+   "gemela_de": null
+  },
+  {
+   "id": "2026-10-22-banco-neumo-neoplasias-022",
+   "enunciado": "Varón de 66 años, chofer, fumador activo de 25 cigarrillos al día desde los 20 años y con fibrosis pulmonar leve en control. Una TEM de tórax por tos crónica muestra un nódulo sólido de 5 mm en el lóbulo superior derecho, sin calcificaciones. PA 134/84 mmHg, FC 80 X', FR 18 X', T° 36,6 °C, SatO2 94 % con FiO2 0,21. Crepitantes finos bibasales; sin hipocratismo digital. ¿Cuál es la conducta recomendada frente al nódulo?",
+   "opciones": [
+    "Biopsia del nódulo para histología",
+    "TEM al año y luego a los 2 años",
+    "TEM de control a los 3, 12 y 24 meses",
+    "No requiere seguimiento con imágenes",
+    "PET-TC para caracterizar el nódulo"
+   ],
+   "clave": 2,
+   "especialidad": "Neumología",
+   "tema": "Nódulo pulmonar · menor de 6 mm en alto riesgo",
+   "diagnostico": "Nódulo < 6 mm en fumador con fibrosis pulmonar",
+   "tipo": "conducta",
+   "dificultad": "alta",
+   "razonamiento": "Paso 1: nódulo sólido de 5 mm, menor de 6 mm. Paso 2: el riesgo clínico es alto: fumador activo de más de 10 cigarrillos al día, mayor de 60 años y con fibrosis pulmonar, factores de riesgo de malignidad del nódulo. Paso 3: nódulo menor de 6 mm con riesgo intermedio-alto se controla con TEM al año y luego a los 2 años.",
+   "por_que_no": [
+    "Corresponde a nódulos mayores de 8 mm de alto riesgo; un nódulo de 5 mm no se biopsia de entrada.",
+    "",
+    "Es para nódulos mayores de 8 mm de bajo riesgo; este mide 5 mm.",
+    "Solo vale para nódulos menores de 6 mm con riesgo bajo; este paciente tiene tabaco, edad y fibrosis.",
+    "Se usa en nódulos mayores de 8 mm de riesgo intermedio; a 5 mm no aporta y no está indicado."
+   ],
+   "trampa": [
+    "umbral",
+    "",
+    "umbral",
+    "otra-poblacion",
+    "umbral"
+   ],
+   "perla": "Nódulo < 6 mm: bajo riesgo sin control; riesgo intermedio-alto TEM al año y a los 2 años.",
+   "fuente": {
+    "carpeta": "6.NEUMOLOGIA",
+    "archivo": "15. NEOPLASIAS PULMONARES.pdf",
+    "seccion": "p. 1 · Seguimiento y manejo de nódulo pulmonar"
+   },
+   "gemela_de": null
+  },
+  {
+   "id": "2026-10-22-banco-neumo-neoplasias-023",
+   "enunciado": "Varón de 31 años, deportista, nunca fumó. En una TEM solicitada por dolor torácico tras una caída en bicicleta se describe un nódulo sólido de 1,1 cm en el lóbulo inferior derecho, de bordes lisos y regulares, sin calcificación; no hay estudios previos para comparar. PA 118/72 mmHg, FC 64 X', FR 14 X', T° 36,4 °C, SatO2 98 % con FiO2 0,21. Examen físico normal salvo dolor a la palpación de la séptima costilla. ¿Cuál es la conducta más adecuada frente al nódulo?",
+   "opciones": [
+    "No requiere seguimiento con imágenes",
+    "TEM de control a los 3, 12 y 24 meses",
+    "PET-TC para caracterizar el nódulo",
+    "Biopsia del nódulo para histología",
+    "TEM al año y luego a los 2 años"
+   ],
+   "clave": 2,
+   "especialidad": "Neumología",
+   "tema": "Nódulo pulmonar · mayor de 8 mm de bajo riesgo",
+   "diagnostico": "Nódulo > 8 mm de bajo riesgo",
+   "tipo": "conducta",
+   "dificultad": "alta",
+   "razonamiento": "Paso 1: nódulo sólido de 1,1 cm (mayor de 8 mm, menor de 1,5 cm). Paso 2: riesgo bajo: menor de 35 años, nunca fumador, bordes lisos y tamaño menor de 1,5 cm. Paso 3: el nódulo mayor de 8 mm de bajo riesgo se controla con TEM a los 3, 12 y 24 meses.",
+   "por_que_no": [
+    "Aplica a nódulos menores de 6 mm de bajo riesgo; este mide 11 mm y debe vigilarse.",
+    "",
+    "Es para nódulos mayores de 8 mm de riesgo intermedio; este joven no fumador con bordes lisos es de bajo riesgo.",
+    "Se reserva para nódulos mayores de 8 mm de alto riesgo, como un fumador mayor con bordes espiculados.",
+    "Corresponde a nódulos de 6-8 mm o menores de 6 mm de riesgo intermedio-alto; este supera los 8 mm."
+   ],
+   "trampa": [
+    "umbral",
+    "",
+    "otra-poblacion",
+    "otra-poblacion",
+    "umbral"
+   ],
+   "perla": "Nódulo > 8 mm de bajo riesgo = TEM a 3, 12 y 24 meses.",
+   "fuente": {
+    "carpeta": "6.NEUMOLOGIA",
+    "archivo": "E25 - Villateca I - Neumología.pdf",
+    "seccion": "p. 35 · Seguimiento: modelo de Mayo Clinic"
+   },
+   "gemela_de": null
+  },
+  {
+   "id": "2026-10-22-banco-neumo-neoplasias-024",
+   "enunciado": "Mujer de 46 años, vendedora, fumadora activa de 8 cigarrillos al día. Consulta por un nódulo hallado en una TEM pedida por tos de 3 semanas que ya resolvió: nódulo sólido de 1,9 cm en el lóbulo superior derecho, de bordes lobulados, sin calcificación; no hay imágenes previas. PA 120/76 mmHg, FC 76 X', FR 16 X', T° 36,6 °C, SatO2 97 % con FiO2 0,21. Hemograma y función renal normales. ¿Cuál es el siguiente paso en el estudio del nódulo?",
+   "opciones": [
+    "TEM de control a los 3, 12 y 24 meses",
+    "Biopsia del nódulo para histología",
+    "TEM al año y luego a los 2 años",
+    "Fibrobroncoscopía con lavado bronquial",
+    "PET-TC para caracterizar el nódulo"
+   ],
+   "clave": 5,
+   "especialidad": "Neumología",
+   "tema": "Nódulo pulmonar · riesgo intermedio",
+   "diagnostico": "Nódulo > 8 mm de riesgo intermedio",
+   "tipo": "prueba",
+   "dificultad": "muy alta",
+   "razonamiento": "Paso 1: nódulo sólido de 1,9 cm, mayor de 8 mm. Paso 2: tamaño 1,5-2,2 cm, edad 35-50 años, fumadora de 10 o menos cigarrillos al día y bordes lobulados: cumple los criterios de riesgo intermedio. Paso 3: el nódulo mayor de 8 mm de riesgo intermedio se estudia con PET-TC.",
+   "por_que_no": [
+    "Corresponde al nódulo mayor de 8 mm de bajo riesgo; esta paciente no cumple criterios de bajo riesgo.",
+    "Es para el nódulo mayor de 8 mm de alto riesgo (mayor de 2,3 cm, espiculado, edad y tabaco altos).",
+    "Es para nódulos de 6-8 mm; este mide 19 mm y requiere estudio más activo.",
+    "Es útil en lesiones centrales; en un nódulo periférico de riesgo intermedio no es el siguiente paso.",
+    ""
+   ],
+   "trampa": [
+    "otro-estadio",
+    "otro-estadio",
+    "umbral",
+    "otro-contexto",
+    ""
+   ],
+   "perla": "Riesgo intermedio: 1,5-2,2 cm, 35-50 años, fumador ≤ 10 cig/día, bordes lobulados → PET-TC.",
+   "fuente": {
+    "carpeta": "6.NEUMOLOGIA",
+    "archivo": "E25 - Villateca I - Neumología.pdf",
+    "seccion": "p. 35 · Evaluación de riesgo de malignidad y seguimiento"
+   },
+   "gemela_de": null
+  },
+  {
+   "id": "2026-10-22-banco-neumo-neoplasias-025",
+   "enunciado": "Varón de 68 años, agricultor, fumador activo de 30 cigarrillos al día desde hace 45 años. Una radiografía por dolor dorsal mostró una imagen nodular; la TEM confirma un nódulo sólido de 2,6 cm en el lóbulo superior derecho, de bordes espiculados con aspecto de corona radiada y sin calcificación. Una TEM de hace 7 meses lo mostraba de 1,8 cm. PA 138/86 mmHg, FC 82 X', FR 18 X', T° 36,6 °C, SatO2 95 % con FiO2 0,21. ¿Cuál es la conducta a seguir con este nódulo?",
+   "opciones": [
+    "PET-TC para caracterizar el nódulo",
+    "Biopsia del nódulo para histología",
+    "TEM al año y luego a los 2 años",
+    "TEM de control a los 3, 12 y 24 meses",
+    "No requiere seguimiento con imágenes"
+   ],
+   "clave": 2,
+   "especialidad": "Neumología",
+   "tema": "Nódulo pulmonar · alto riesgo",
+   "diagnostico": "Nódulo > 8 mm de alto riesgo",
+   "tipo": "conducta",
+   "dificultad": "alta",
+   "razonamiento": "Paso 1: nódulo de 2,6 cm, espiculado, sin calcificación y en crecimiento. Paso 2: tamaño de 2,3 cm o más, edad mayor de 50 años, fumador de más de 10 cigarrillos al día y bordes espiculados: cumple criterios de alto riesgo. Paso 3: el nódulo mayor de 8 mm de alto riesgo requiere biopsia.",
+   "por_que_no": [
+    "Es el paso en riesgo intermedio; aquí todos los criterios son de alto riesgo y se requiere histología.",
+    "",
+    "Corresponde a nódulos de 6-8 mm; este mide 2,6 cm y ha crecido.",
+    "Es para nódulos mayores de 8 mm de bajo riesgo; vigilar aquí retrasaría el tratamiento.",
+    "Solo aplica a nódulos menores de 6 mm de bajo riesgo; es lo opuesto a este caso."
+   ],
+   "trampa": [
+    "otro-estadio",
+    "",
+    "umbral",
+    "otro-estadio",
+    "umbral"
+   ],
+   "perla": "Nódulo > 8 mm de alto riesgo (≥ 2,3 cm, espiculado, > 50 años, fumador) = biopsia.",
+   "fuente": {
+    "carpeta": "6.NEUMOLOGIA",
+    "archivo": "15. NEOPLASIAS PULMONARES.pdf",
+    "seccion": "p. 1 · Seguimiento y manejo de nódulo pulmonar"
+   },
+   "gemela_de": null
+  },
+  {
+   "id": "2026-10-22-banco-neumo-neoplasias-026",
+   "enunciado": "Mujer de 44 años, contadora, nunca fumó y sin exposición laboral. Una TEM de tórax solicitada por dolor costal mecánico muestra un nódulo de 1,7 cm en el lóbulo inferior izquierdo, de bordes lisos y bien definidos. El radiólogo está revisando las ventanas de alta densidad para describir mejor la lesión antes de decidir el seguimiento. PA 116/74 mmHg, FC 70 X', FR 14 X', T° 36,5 °C, SatO2 98 % con FiO2 0,21. Asintomática respiratoria. ¿Qué hallazgo adicional en la TEM apoya más la naturaleza benigna del nódulo?",
+   "opciones": [
+    "Ausencia completa de calcificación",
+    "Calcificación excéntrica en un borde",
+    "Bordes lobulados con muescas",
+    "Calcificación gruesa en palomitas de maíz",
+    "Duplicación de tamaño en seis meses"
+   ],
+   "clave": 4,
+   "especialidad": "Neumología",
+   "tema": "Nódulo pulmonar · patrón de calcificación",
+   "diagnostico": "Hamartoma (calcificación en palomitas de maíz)",
+   "tipo": "severidad",
+   "dificultad": "media",
+   "razonamiento": "Paso 1: nódulo de 1,7 cm con bordes lisos en no fumadora: hay que buscar rasgos que inclinen el riesgo. Paso 2: los patrones de calcificación central, completa o en palomitas de maíz indican benignidad, mientras la excéntrica o ausente sugieren malignidad. Paso 3: la calcificación en palomitas de maíz es típica de la lesión benigna más frecuente del pulmón.",
+   "por_que_no": [
+    "La calcificación ausente es un rasgo de alto riesgo; sería lo esperable en un nódulo maligno.",
+    "Es un patrón de calcificación que se asocia a malignidad; solo el central, completo o en palomitas es benigno.",
+    "Los bordes lobulados son criterio de riesgo intermedio; los lisos son los de bajo riesgo.",
+    "",
+    "Ese tiempo de duplicación cae en el rango sospechoso; la estabilidad mayor de 2 años sugiere benignidad."
+   ],
+   "trampa": [
+    "diferencial",
+    "mismo-grupo",
+    "umbral",
+    "",
+    "umbral"
+   ],
+   "perla": "Calcificación benigna: central, completa o en palomitas de maíz (hamartoma); excéntrica o ausente = sospecha.",
+   "fuente": {
+    "carpeta": "6.NEUMOLOGIA",
+    "archivo": "Neumología -  Fundamentos teóricos_ENAM 2024.pdf",
+    "seccion": "p. 152 · Nódulo pulmonar solitario: calcificaciones"
+   },
+   "gemela_de": null
+  },
+  {
+   "id": "2026-10-22-banco-neumo-neoplasias-027",
+   "enunciado": "Varón de 57 años, exfumador de 20 paquetes-año que dejó hace 4 años, con tos ocasional. Hace 5 meses una TEM mostró un nódulo sólido de 1,2 cm en el lóbulo superior izquierdo; la TEM actual muestra el mismo nódulo con el doble de volumen, bordes ahora ligeramente lobulados, sin calcificación y sin infiltrados alrededor. No ha tenido fiebre ni síntomas infecciosos. PA 128/80 mmHg, FC 78 X', FR 16 X', T° 36,6 °C, SatO2 96 % con FiO2 0,21. Leucocitos 7 200/mm3. ¿Cómo se interpreta la velocidad de crecimiento observada?",
+   "opciones": [
+    "Crecimiento lento compatible con lesión benigna",
+    "Crecimiento no valorable por su tamaño pequeño",
+    "Duplicación rápida propia de un proceso inflamatorio",
+    "Estabilidad que permite suspender el seguimiento",
+    "Duplicación en rango sospechoso de malignidad"
+   ],
+   "clave": 5,
+   "especialidad": "Neumología",
+   "tema": "Nódulo pulmonar · velocidad de crecimiento",
+   "diagnostico": "Nódulo con tiempo de duplicación sospechoso",
+   "tipo": "severidad",
+   "dificultad": "muy alta",
+   "razonamiento": "Paso 1: el nódulo duplicó su volumen en unos 150 días, sin fiebre ni leucocitosis. Paso 2: la duplicación muy rápida (menos de 20-30 días) sugiere infección y la mayor de 2 años sugiere benignidad. Paso 3: un tiempo de duplicación de meses cae en el rango sospechoso de malignidad, que junto a los bordes lobulados obliga a estudio activo.",
+   "por_que_no": [
+    "Se considera lento y benigno cuando la duplicación supera los 2 años; aquí fueron 5 meses.",
+    "Un nódulo de más de 8 mm sí se evalúa por su crecimiento; la velocidad es un criterio de riesgo clave.",
+    "Las lesiones infecciosas duplican en menos de 20-30 días; aquí tardó unos 5 meses y no hay fiebre.",
+    "Sería correcta con tamaño estable por más de 2 años; aquí el nódulo duplicó su volumen.",
+    ""
+   ],
+   "trampa": [
+    "umbral",
+    "otro",
+    "umbral",
+    "otro-momento",
+    ""
+   ],
+   "perla": "Duplicación en semanas = inflamatorio; > 2 años = benigno; en meses (20-400 días) = sospechoso.",
+   "fuente": {
+    "carpeta": "6.NEUMOLOGIA",
+    "archivo": "E25 - Villateca I - Neumología.pdf",
+    "seccion": "p. 35 · Evaluación de riesgo: velocidad de crecimiento"
+   },
+   "gemela_de": null
+  },
+  {
+   "id": "2026-10-22-banco-neumo-neoplasias-028",
+   "enunciado": "Varón de 63 años, fumador de 45 paquetes-año, con 6 semanas de voz ronca y bitonal, tos ineficaz y episodios de atoro con líquidos. PA 130/80 mmHg, FC 84 X', FR 18 X', T° 36,6 °C, SatO2 95 % con FiO2 0,21. Sin ptosis ni anisocoria, sin edema facial y con hemidiafragmas en posición normal. Laringoscopía: cuerda vocal izquierda inmóvil en posición paramediana. TEM: masa hiliar izquierda de 5 cm que se extiende a la ventana aortopulmonar. ¿Qué complicación local explica la alteración de la voz?",
+   "opciones": [
+    "Infiltración de la cadena simpática cervical",
+    "Lesión del nervio laríngeo recurrente",
+    "Obstrucción de la vena cava superior",
+    "Compresión del nervio frénico izquierdo",
+    "Compresión extrínseca del esófago"
+   ],
+   "clave": 2,
+   "especialidad": "Neumología",
+   "tema": "Complicaciones locales · compresión mediastinal",
+   "diagnostico": "Parálisis del nervio laríngeo recurrente izquierdo",
+   "tipo": "complicacion",
+   "dificultad": "alta",
+   "razonamiento": "Paso 1: disfonía bitonal con cuerda vocal izquierda inmóvil en posición paramediana y atoro con líquidos. Paso 2: la masa hiliar izquierda llega a la ventana aortopulmonar, por donde pasa el nervio laríngeo recurrente izquierdo. Paso 3: la complicación es su compresión o invasión; las otras estructuras comprimibles darían ptosis, diafragma elevado, edema facial o disfagia.",
+   "por_que_no": [
+    "Produce ptosis, miosis y anhidrosis, no disfonía; aquí no hay ptosis ni anisocoria.",
+    "",
+    "Produce edema en esclavina e ingurgitación yugular; aquí no hay edema facial.",
+    "Da parálisis y elevación del hemidiafragma; aquí los hemidiafragmas están en posición normal.",
+    "Causa disfagia progresiva a sólidos; el atoro con líquidos aquí se explica por la cuerda vocal inmóvil."
+   ],
+   "trampa": [
+    "mismo-grupo",
+    "",
+    "diferencial",
+    "mismo-grupo",
+    "diferencial"
+   ],
+   "perla": "Masa torácica: ronquera = laríngeo recurrente; ptosis-miosis = simpático; diafragma alto = frénico.",
+   "fuente": {
+    "carpeta": "TARJETAS",
+    "archivo": "TUMOR_MEDIASTINAL_Tarjetas_ENAM_EsSalud.pdf",
+    "seccion": "p. 1 · Clínica por compresión"
+   },
+   "gemela_de": null
+  },
+  {
+   "id": "2026-10-22-banco-neumo-neoplasias-029",
+   "enunciado": "Mujer de 53 años, enfermera, que fumó 5 cigarrillos al día durante 10 años y dejó hace 15 años. En una TEM de abdomen superior por cólico biliar se observa en la base pulmonar derecha un nódulo sólido de 7 mm, de bordes regulares y sin calcificación; no existen imágenes previas. PA 124/80 mmHg, FC 76 X', FR 16 X', T° 36,7 °C, SatO2 98 % con FiO2 0,21. Murphy positivo, examen pulmonar normal. ¿Cuál es la conducta frente a este hallazgo pulmonar?",
+   "opciones": [
+    "Biopsia del nódulo para histología",
+    "PET-TC para caracterizar el nódulo",
+    "TEM al año y luego a los 2 años",
+    "TEM de control a los 3, 12 y 24 meses",
+    "No requiere seguimiento con imágenes"
+   ],
+   "clave": 3,
+   "especialidad": "Neumología",
+   "tema": "Nódulo pulmonar · de 6 a 8 mm",
+   "diagnostico": "Nódulo de 6-8 mm",
+   "tipo": "conducta",
+   "dificultad": "media",
+   "razonamiento": "Paso 1: hallazgo incidental de un nódulo sólido de 7 mm, regular y sin calcificación. Paso 2: está en el rango de 6 a 8 mm, en el que la conducta no depende de la categoría de riesgo. Paso 3: el nódulo de 6-8 mm se controla con TEM al año y luego a los 2 años.",
+   "por_que_no": [
+    "Se reserva para nódulos mayores de 8 mm de alto riesgo; aquí sería invasivo e innecesario.",
+    "Se usa en nódulos mayores de 8 mm de riesgo intermedio; a 7 mm su rendimiento es bajo.",
+    "",
+    "Es para nódulos mayores de 8 mm de bajo riesgo; este no supera los 8 mm.",
+    "Solo aplica a nódulos menores de 6 mm de bajo riesgo; este mide 7 mm."
+   ],
+   "trampa": [
+    "otro",
+    "umbral",
+    "",
+    "umbral",
+    "umbral"
+   ],
+   "perla": "Nódulo de 6-8 mm = TEM al año y a los 2 años, sea cual sea el riesgo.",
+   "fuente": {
+    "carpeta": "6.NEUMOLOGIA",
+    "archivo": "E25 - Villateca I - Neumología.pdf",
+    "seccion": "p. 35 · Seguimiento: modelo de Mayo Clinic"
+   },
+   "gemela_de": null
+  },
+  {
+   "id": "2026-10-22-banco-neumo-neoplasias-030",
+   "enunciado": "Mujer de 62 años, fumadora de 40 paquetes-año, con 6 semanas de inestabilidad para caminar, habla escandida y visión borrosa por movimientos oculares. PA 124/76 mmHg, FC 86 X', FR 18 X', T° 36,6 °C, SatO2 94 % con FiO2 0,21. Marcha atáxica de base amplia, dismetría bilateral y nistagmo; fuerza y reflejos normales. RM cerebral sin lesiones focales. Na 137 mEq/l, calcio 9,4 mg/dl. TEM: masa central perihiliar derecha de 4 cm con adenopatías mediastinales voluminosas y dos lesiones hepáticas. Biopsia: células redondas de escaso citoplasma con moldeamiento nuclear. ¿De qué tipo celular se origina esta lesión?",
+   "opciones": [
+    "Células indiferenciadas de gran tamaño",
+    "Células escamosas del epitelio bronquial",
+    "Células glandulares del epitelio periférico",
+    "Células mesenquimales de cartílago y grasa",
+    "Células neuroendocrinas de Kulchitsky"
+   ],
+   "clave": 5,
+   "especialidad": "Neumología",
+   "tema": "Histogénesis · estirpe neuroendocrina agresiva",
+   "diagnostico": "Carcinoma microcítico con degeneración cerebelosa",
+   "tipo": "mecanismo",
+   "dificultad": "muy alta",
+   "razonamiento": "Paso 1: síndrome cerebeloso subagudo con RM sin lesiones, sodio y calcio normales, en fumadora con masa central y diseminación hepática temprana. Paso 2: la biopsia de células redondas con moldeamiento y la asociación con degeneración cerebelosa apuntan a la estirpe microcítica. Paso 3: esta estirpe deriva de las células neuroendocrinas de Kulchitsky.",
+   "por_que_no": [
+    "Corresponden a la estirpe periférica anaplásica de células grandes; aquí las células son redondas y de escaso citoplasma.",
+    "Originan la estirpe central que se cavita y produce PTHrP; no se asocia a ataxia ni a células con moldeamiento.",
+    "Originan la estirpe periférica de no fumadores con derrame; aquí la masa es central y la biopsia no es glandular.",
+    "Forman la lesión benigna más frecuente, periférica y con calcificación en palomitas, sin síndromes neurológicos.",
+    ""
+   ],
+   "trampa": [
+    "mismo-grupo",
+    "diferencial",
+    "diferencial",
+    "otro-contexto",
+    ""
+   ],
+   "perla": "Microcítico: deriva de células de Kulchitsky (neuroendocrinas); da ataxia cerebelosa, ADH, ACTH y Lambert-Eaton.",
+   "fuente": {
+    "carpeta": "6.NEUMOLOGIA",
+    "archivo": "Neumología -  Fundamentos teóricos_ENAM 2024.pdf",
+    "seccion": "p. 140 · Carcinoma microcítico"
+   },
+   "gemela_de": null
+  }
+ ]
+}

@@ -1,0 +1,1190 @@
+{
+ "id": "2026-10-22-banco-neumo-pleura",
+ "fecha": "2026-10-22",
+ "turno": "noche",
+ "titulo": "Banco · Patología pleural: derrame, empiema y neumotórax",
+ "segundos_por_pregunta": 60,
+ "temas_noche": [
+  "Patología pleural: derrame, empiema y neumotórax"
+ ],
+ "feedback_noche": "Aprueba quien calcula las tres relaciones de Light con los números del caso y recuerda las trampas: diurético con un solo criterio en el límite (gradiente de albúmina), LDH >1000 aislada no define empiema, y pH <7,2 o glucosa <40 obligan a tubo. Se falla al confundir estadios (tubo, fibrinolítico, decorticación), al esperar la radiografía en un cuadro a tensión y al tratar con tubo un primario pequeño o con observación un secundario.",
+ "perlas_noche": [
+  "Light: proteína P/S >0,5, LDH P/S >0,6 o LDH >2/3 del límite superior sérico; basta 1. Con diurético: gradiente de albúmina >1,2 = trasudado.",
+  "Empiema: pH <7,2, glucosa <40, pus o Gram + → tubo + antibiótico; tabicado → fibrinolítico o VATS; fibrotórax → decorticación.",
+  "TB pleural: exudado linfocitario con ADA >40-45; la BK no rinde; confirma la biopsia pleural (granulomas).",
+  "Tensión: hipotensión + tráquea desviada + yugulares ingurgitadas → aguja en 2.° EIC LMC sin esperar Rx, luego tubo.",
+  "Primario <2 cm estable: observación + O2; grande o con disnea: tubo; secundario (EPOC): tubo casi siempre; buzo o 2.° episodio: cirugía."
+ ],
+ "preguntas": [
+  {
+   "id": "2026-10-22-banco-neumo-pleura-001",
+   "enunciado": "Varón de 74 años con fracción de eyección de 30 % que recibe furosemida 80 mg/día desde hace 10 días por ortopnea y edemas. Persiste con disnea de esfuerzo. PA 118/70 mmHg, FC 88 X', FR 22 X', T° 36,8 °C, SatO2 93 % con FiO2 0,21. Matidez y murmullo abolido en ambas bases, mayor a derecha. Toracocentesis derecha: líquido amarillo pálido; proteínas 3,3 g/dl (séricas 6,2 g/dl); LDH 150 U/l (sérica 310 U/l; límite superior normal 250 U/l); Gram negativo. ¿Qué determinación adicional define mejor la naturaleza real de este líquido?",
+   "opciones": [
+    "Adenosín desaminasa (ADA) en el líquido pleural",
+    "pH y glucosa del líquido pleural en jeringa",
+    "Biopsia pleural cerrada con aguja de Abrams",
+    "Gradiente de albúmina entre suero y líquido pleural",
+    "Citología oncológica seriada en dos muestras del líquido"
+   ],
+   "clave": 4,
+   "especialidad": "Neumología",
+   "tema": "Derrame · criterios de Light con diurético",
+   "diagnostico": "Trasudado cardíaco con falso exudado por diurético",
+   "tipo": "prueba",
+   "dificultad": "muy alta",
+   "razonamiento": "Paso 1: proteína P/S 3,3/6,2 = 0,53 (>0,5); LDH P/S 150/310 = 0,48; LDH 150 < 167 (2/3 de 250): un solo criterio y en el límite. Paso 2: el diurético concentra las proteínas del líquido y puede volver «exudado» un líquido congestivo. Paso 3: un gradiente de albúmina suero-pleura >1,2 g/dl confirma que es un trasudado real y evita estudios invasivos.",
+   "por_que_no": [
+    "Orienta a TB pleural en exudado linfocitario de joven con fiebre; aquí el contexto es congestivo y bilateral.",
+    "Definen si un líquido asociado a neumonía requiere tubo; no aclaran el efecto del diurético sobre las proteínas.",
+    "Se reserva para exudado sin diagnóstico con sospecha de TB o neoplasia; aquí sería invasivo e innecesario.",
+    "",
+    "Sirve ante sospecha de malignidad (hemático, masivo, pérdida de peso); aquí no hay datos de neoplasia."
+   ],
+   "trampa": [
+    "diferencial",
+    "otro-contexto",
+    "otro-momento",
+    "",
+    "diferencial"
+   ],
+   "perla": "Con diurético y un solo criterio de Light en el límite: gradiente de albúmina >1,2 g/dl = trasudado real.",
+   "fuente": {
+    "carpeta": "6.NEUMOLOGIA",
+    "archivo": "9. PATOLOGIA DE LA PLEURA.pdf",
+    "seccion": "Criterios de Light · uso de diuréticos, p. 1"
+   },
+   "gemela_de": null
+  },
+  {
+   "id": "2026-10-22-banco-neumo-pleura-002",
+   "enunciado": "Varón de 20 años, estudiante, de 1,88 m y 62 kg, fumador de 10 cigarrillos al día, presenta dolor torácico derecho súbito en reposo hace 6 horas y disnea leve. Sin antecedentes respiratorios. PA 118/72 mmHg, FC 86 X', FR 18 X', T° 36,6 °C, SatO2 97 % con FiO2 0,21. Leve hipersonoridad y murmullo disminuido en el ápice derecho; tráquea central. Radiografía: línea pleural visceral apical derecha sin trama vascular por fuera de ella; distancia del borde pulmonar a la pared torácica a nivel del hilio de 1,3 cm. ¿Cuál es la conducta según el tamaño y la clínica?",
+   "opciones": [
+    "Tubo de tórax en el triángulo de seguridad",
+    "Observación con oxígeno y radiografía de control",
+    "Aspiración con aguja y alta si se reexpande",
+    "Descompresión con aguja en segundo espacio intercostal",
+    "Videotoracoscopia con resección de bullas"
+   ],
+   "clave": 2,
+   "especialidad": "Neumología",
+   "tema": "Neumotórax espontáneo primario · tamaño",
+   "diagnostico": "Neumotórax espontáneo primario pequeño",
+   "tipo": "severidad",
+   "dificultad": "media",
+   "razonamiento": "Paso 1: varón joven, alto, delgado y fumador, sin neumopatía, con dolor súbito, hipersonoridad apical y línea pleural visceral sin trama. Paso 2: es un neumotórax espontáneo primario pequeño (<2 cm a nivel del hilio), estable y poco sintomático. Paso 3: corresponde observación con O2 suplementario, que acelera la reabsorción del aire, y control radiológico.",
+   "por_que_no": [
+    "Se indica en el primario grande con disnea o en el secundario; este es pequeño en pulmón sano.",
+    "",
+    "Es opción para el primario grande o sintomático; aquí mide <2 cm al hilio y está estable.",
+    "Es la maniobra del cuadro a tensión con hipotensión y tráquea desviada; aquí la hemodinamia es normal.",
+    "Previene recurrencias (2.° episodio, bilateral, profesión de riesgo); no es el manejo de un primer episodio pequeño."
+   ],
+   "trampa": [
+    "otro-estadio",
+    "",
+    "otro-estadio",
+    "otro-contexto",
+    "otro-momento"
+   ],
+   "perla": "Primario pequeño (<2 cm al hilio) y estable: observación + O2 (acelera la reabsorción).",
+   "fuente": {
+    "carpeta": "TARJETAS",
+    "archivo": "NEUMOTORAX_Tarjetas_ENAM_EsSalud.pdf",
+    "seccion": "Parte 2 · ④ Tamaño y ⑤ Manejo por tipo"
+   },
+   "gemela_de": null
+  },
+  {
+   "id": "2026-10-22-banco-neumo-pleura-003",
+   "enunciado": "Mujer de 47 años con consumo crónico de alcohol, hospitalizada hace 4 días por fiebre y tos con expectoración fétida; al ingreso se colocó tubo de tórax derecho por salida de líquido purulento y recibe ceftriaxona con metronidazol. El tubo es permeable y oscila, pero solo ha drenado 90 ml en total. Persiste con T° 38,8 °C, PA 110/70 mmHg, FC 108 X', FR 24 X', SatO2 92 % con FiO2 0,21. Ecografía: colección derecha con múltiples tabiques y loculaciones, sin engrosamiento pleural rígido. ¿Cuál es la medida más adecuada a continuación?",
+   "opciones": [
+    "Retirar el tubo y completar antibiótico por vía oral",
+    "Toracotomía con decorticación del pulmón atrapado",
+    "Pleurodesis con talco instilado por el mismo tubo",
+    "Ampliar a meropenem sin otra intervención pleural",
+    "Fibrinolítico intrapleural administrado por el tubo"
+   ],
+   "clave": 5,
+   "especialidad": "Neumología",
+   "tema": "Empiema · loculado",
+   "diagnostico": "Empiema fibrinopurulento tabicado",
+   "tipo": "conducta",
+   "dificultad": "muy alta",
+   "razonamiento": "Paso 1: líquido purulento con tubo permeable pero de escaso débito, fiebre persistente y ecografía con tabiques y loculaciones. Paso 2: el proceso está en fase fibrinopurulenta tabicada, todavía sin cáscara fibrosa organizada. Paso 3: en el empiema loculado se indica fibrinólisis intrapleural (o VATS); la decorticación se reserva para el pulmón atrapado.",
+   "por_que_no": [
+    "El tubo se retira cuando el líquido se evacuó y la fiebre cede; aquí persiste colección tabicada y fiebre.",
+    "Corresponde a la fase organizada con cáscara fibrosa (fibrotórax); aquí aún no hay engrosamiento rígido.",
+    "Se usa en el líquido maligno recurrente con pulmón reexpandible; en una infección activa no corresponde.",
+    "Cambiar antibiótico no evacúa las loculaciones; solo serviría si la colección drenara bien y fallara la cobertura.",
+    ""
+   ],
+   "trampa": [
+    "otro-momento",
+    "otro-estadio",
+    "otro-contexto",
+    "otro",
+    ""
+   ],
+   "perla": "Empiema tabicado en ecografía: fibrinolítico intrapleural o VATS; pulmón atrapado: decorticación.",
+   "fuente": {
+    "carpeta": "6.NEUMOLOGIA",
+    "archivo": "9. PATOLOGIA DE LA PLEURA.pdf",
+    "seccion": "Empiema loculado: ecografía y fibrinólisis, p. 3"
+   },
+   "gemela_de": null
+  },
+  {
+   "id": "2026-10-22-banco-neumo-pleura-004",
+   "enunciado": "Mujer de 56 años, posmenopáusica, con 2 meses de distensión abdominal y disnea progresiva. PA 124/78 mmHg, FC 96 X', FR 24 X', T° 36,6 °C, SatO2 92 % con FiO2 0,21. Abdomen con matidez desplazable y masa pélvica móvil. Ecografía: tumoración sólida ovárica derecha de 9 cm y ascitis moderada. Radiografía: opacidad homogénea en base derecha con borramiento del ángulo costofrénico. Toracocentesis: líquido amarillo pálido, proteína pleural/sérica 0,38, LDH pleural/sérica 0,42, citología negativa. ¿Cuál es el mecanismo principal que explica el líquido en el tórax?",
+   "opciones": [
+    "Obstrucción del drenaje linfático por rotura del conducto torácico",
+    "Aumento de la permeabilidad capilar por implantes pleurales del tumor",
+    "Aumento de la presión hidrostática capilar sistémica por falla del ventrículo izquierdo",
+    "Paso del líquido ascítico al tórax por defectos diafragmáticos y linfáticos",
+    "Aumento de la presión intrapleural que desplaza líquido desde el pulmón"
+   ],
+   "clave": 4,
+   "especialidad": "Neumología",
+   "tema": "Derrame · síndrome de Meigs",
+   "diagnostico": "Síndrome de Meigs (fibroma ovárico, ascitis, líquido pleural)",
+   "tipo": "mecanismo",
+   "dificultad": "muy alta",
+   "razonamiento": "Paso 1: masa ovárica sólida, ascitis y líquido derecho con relaciones de proteínas 0,38 y LDH 0,42 (sin criterios de exudado), citología negativa. Paso 2: es la tríada de tumor ovárico benigno (fibroma), ascitis y líquido pleural: síndrome de Meigs. Paso 3: el mecanismo es mecánico, no inflamatorio: la ascitis pasa al espacio pleural por defectos diafragmáticos y vía linfática.",
+   "por_que_no": [
+    "Produce líquido lechoso con triglicéridos >110 mg/dl tras trauma o linfoma; aquí es amarillo pálido.",
+    "Sería el mecanismo del líquido maligno, con criterios de exudado y citología positiva; aquí ambos faltan.",
+    "Explica el líquido de la insuficiencia cardíaca, bilateral y con congestión; aquí hay ascitis por masa ovárica.",
+    "",
+    "Es un distractor clásico: ningún trasudado se produce por subir la presión intrapleural, sino por fuerzas capilares."
+   ],
+   "trampa": [
+    "diferencial",
+    "diferencial",
+    "otro-contexto",
+    "",
+    "otro"
+   ],
+   "perla": "Meigs = fibroma ovárico + ascitis + líquido pleural; mecanismo mecánico (paso de ascitis); 20-30 % se comporta como exudado.",
+   "fuente": {
+    "carpeta": "6.NEUMOLOGIA",
+    "archivo": "9. PATOLOGIA DE LA PLEURA.pdf",
+    "seccion": "Síndrome de Meigs, p. 1"
+   },
+   "gemela_de": null
+  },
+  {
+   "id": "2026-10-22-banco-neumo-pleura-005",
+   "enunciado": "Varón de 26 años, natural de Huancayo, con 5 semanas de fiebre vespertina, sudoración nocturna, baja de 4 kg y dolor costal derecho. VIH negativo. PA 110/70 mmHg, FC 98 X', FR 22 X', T° 38,1 °C, SatO2 89 % con FiO2 0,21 (basal en altura 88-92 %). Matidez y vibraciones vocales abolidas en base derecha. Radiografía: opacidad homogénea basal derecha con menisco, sin cavidades. Líquido: amarillo citrino; proteína pleural/sérica 0,72; LDH pleural/sérica 0,9; 3200 células con 88 % linfocitos; glucosa 58 mg/dl; ADA 78 U/l; Gram y baciloscopia negativos. ¿Qué estudio tiene el mayor rendimiento para confirmar la etiología?",
+   "opciones": [
+    "Citología oncológica seriada del líquido pleural",
+    "Cultivo del líquido pleural para micobacterias",
+    "Prueba molecular rápida en el líquido pleural",
+    "Repetir la baciloscopia directa del líquido",
+    "Biopsia pleural con histología y cultivo del tejido"
+   ],
+   "clave": 5,
+   "especialidad": "Neumología",
+   "tema": "Derrame · tuberculosis pleural",
+   "diagnostico": "Tuberculosis pleural",
+   "tipo": "prueba",
+   "dificultad": "alta",
+   "razonamiento": "Paso 1: exudado (0,72 y 0,9) linfocitario (88 %), glucosa baja y ADA 78 U/l (>40-45) en joven de zona endémica con síntomas >3 semanas; la SatO2 de 89 % es basal para la altura. Paso 2: el perfil es de TB pleural. Paso 3: la BK del líquido no rinde y su cultivo llega a 20-30 %; la biopsia pleural (granulomas 50-97 %, cultivo >90 %) confirma.",
+   "por_que_no": [
+    "Se pide ante sospecha de malignidad (hemático, adulto mayor fumador); aquí el perfil es linfocitario con ADA alto.",
+    "Es útil pero solo es positivo en 20-30 %; la biopsia con cultivo del tejido supera el 90 %.",
+    "Es muy específica pero su sensibilidad en líquido pleural ronda el 46 %; un negativo no descarta.",
+    "La baciloscopia del líquido casi no rinde por la escasa carga bacilar; sí sirve en esputo de formas cavitadas.",
+    ""
+   ],
+   "trampa": [
+    "diferencial",
+    "no-confirmatorio",
+    "no-confirmatorio",
+    "no-confirmatorio",
+    ""
+   ],
+   "perla": "TB pleural: exudado linfocitario + ADA >40-45; BK no rinde; confirma la biopsia pleural (granulomas).",
+   "fuente": {
+    "carpeta": "6.NEUMOLOGIA",
+    "archivo": "Neumología -  Fundamentos teóricos_ENAM 2024.pdf",
+    "seccion": "Tuberculosis pleural, p. 184"
+   },
+   "gemela_de": null
+  },
+  {
+   "id": "2026-10-22-banco-neumo-pleura-006",
+   "enunciado": "Varón de 35 años, motociclista, traído 20 minutos después de un choque con impacto en el hemitórax izquierdo. Está agitado y confuso. PA 70/40 mmHg, FC 136 X', FR 34 X', SatO2 80 % con mascarilla de reservorio. Yugulares ingurgitadas, tráquea desviada a la derecha, hemitórax izquierdo hipersonoro, inmóvil y con murmullo abolido; ruidos cardíacos audibles. Aún no se ha tomado ninguna imagen. ¿Cuál es la conducta inmediata más adecuada?",
+   "opciones": [
+    "Descompresión con aguja antes de cualquier imagen",
+    "Tubo de tórax directo sin descompresión previa",
+    "Radiografía portátil de tórax antes de cualquier punción",
+    "Tomografía de tórax para precisar la lesión",
+    "Toracotomía de emergencia en sala de trauma"
+   ],
+   "clave": 1,
+   "especialidad": "Neumología",
+   "tema": "Neumotórax a tensión · conducta inmediata",
+   "diagnostico": "Neumotórax a tensión traumático",
+   "tipo": "conducta",
+   "dificultad": "alta",
+   "razonamiento": "Paso 1: trauma torácico con hipotensión, confusión, yugulares ingurgitadas, tráquea desviada al lado contrario e hipersonoridad con murmullo abolido. Paso 2: es un neumotórax a tensión con shock obstructivo: el aire comprime la cava y cae el retorno venoso. Paso 3: el diagnóstico es clínico; se descomprime de inmediato con aguja (2.° EIC, línea medioclavicular) y luego se coloca tubo de tórax.",
+   "por_que_no": [
+    "",
+    "El tubo es el tratamiento definitivo, pero se coloca tras descomprimir; demorarlo en shock es letal.",
+    "El diagnóstico es clínico y el paciente está en shock; la Rx se toma después, en el paciente estable.",
+    "Es útil para lesiones pequeñas o bullas en el paciente estable; trasladar a un paciente en shock es un error.",
+    "Se indica en sangrado masivo (>1500 ml inicial o >200 ml/h por 3 h); aquí hay hipersonoridad, no matidez."
+   ],
+   "trampa": [
+    "",
+    "otro-momento",
+    "otro-momento",
+    "no-confirmatorio",
+    "otro-contexto"
+   ],
+   "perla": "Tensión = hipotensión + tráquea desviada + yugulares ingurgitadas: aguja YA, sin Rx; luego tubo.",
+   "fuente": {
+    "carpeta": "TARJETAS",
+    "archivo": "NEUMOTORAX_Tarjetas_ENAM_EsSalud.pdf",
+    "seccion": "Parte 1 · ③ y Parte 2 · ⑤ Manejo de emergencia"
+   },
+   "gemela_de": null
+  },
+  {
+   "id": "2026-10-22-banco-neumo-pleura-007",
+   "enunciado": "Mujer de 34 años con 3 semanas de edema palpebral y de miembros inferiores, orina espumosa y disnea leve al subir escaleras. PA 132/84 mmHg, FC 82 X', FR 20 X', T° 36,7 °C, SatO2 96 % con FiO2 0,21. Edema con fóvea, matidez y disminución del murmullo en ambas bases, sin roce. Proteinuria 6,8 g/24 h, albúmina sérica 1,9 g/dl, colesterol 380 mg/dl. Radiografía: borramiento simétrico de ambos ángulos costofrénicos con menisco bilateral pequeño, sin infiltrados. ¿Cuál es la conducta más adecuada respecto al líquido torácico?",
+   "opciones": [
+    "Toracocentesis diagnóstica bilateral con citoquímico y ADA",
+    "Toracocentesis evacuatoria de 1500 ml del lado más afectado",
+    "Tratar la causa de base y vigilar sin puncionar el tórax",
+    "Tubo de tórax bilateral con sello de agua por 48 horas",
+    "Biopsia pleural cerrada con aguja de Abrams bilateral"
+   ],
+   "clave": 3,
+   "especialidad": "Neumología",
+   "tema": "Derrame · trasudado sin toracocentesis",
+   "diagnostico": "Trasudado bilateral por síndrome nefrótico",
+   "tipo": "conducta",
+   "dificultad": "media",
+   "razonamiento": "Paso 1: proteinuria >3,5 g/24 h, albúmina 1,9 g/dl, edema e hipercolesterolemia definen un síndrome nefrótico. Paso 2: el líquido es bilateral, simétrico, pequeño y afebril: trasudado por baja presión oncótica. Paso 3: los trasudados típicos no requieren toracocentesis de rutina; se trata la causa y se punciona solo si aparece fiebre, asimetría o disnea desproporcionada.",
+   "por_que_no": [
+    "Se indica en líquido unilateral nuevo, febril o atípico; aquí es bilateral, simétrico y afebril.",
+    "Solo alivia un líquido masivo con disnea importante; aquí el volumen es pequeño y la SatO2 normal.",
+    "",
+    "El tubo se usa en pus, sangre o aire en la pleura; un líquido por baja presión oncótica no se drena.",
+    "Se reserva para exudado sin diagnóstico con sospecha de TB o neoplasia; aquí no hay exudado ni sospecha."
+   ],
+   "trampa": [
+    "otro-contexto",
+    "otro-estadio",
+    "",
+    "otro-contexto",
+    "otro-momento"
+   ],
+   "perla": "Bilateral + simétrico + afebril + causa sistémica (ICC, cirrosis, nefrótico) = trasudado: tratar la causa, no puncionar.",
+   "fuente": {
+    "carpeta": "6.NEUMOLOGIA",
+    "archivo": "9. PATOLOGIA DE LA PLEURA.pdf",
+    "seccion": "Trasudado: ICC, cirrosis y síndrome nefrótico, p. 1"
+   },
+   "gemela_de": null
+  },
+  {
+   "id": "2026-10-22-banco-neumo-pleura-008",
+   "enunciado": "Varón de 61 años con diabetes mal controlada, tratado desde hace 7 días con ceftriaxona y azitromicina por una consolidación basal izquierda. Persiste con fiebre de 39 °C, escalofríos y dolor pleurítico. PA 106/64 mmHg, FC 112 X', FR 26 X', SatO2 91 % con FiO2 0,21. Leucocitos 21 000/mm³. Radiografía: aumento de la opacidad basal izquierda con menisco. Toracocentesis: líquido turbio y espeso, pH 7,05, glucosa 28 mg/dl, LDH 1650 U/l, proteínas 4,4 g/dl, 31 000 leucocitos/mm³, Gram con cocos grampositivos. ¿Cuál es la conducta más adecuada?",
+   "opciones": [
+    "Toracotomía con decorticación pleural de entrada",
+    "Toracocentesis evacuatoria y repetirla en 48 horas",
+    "Escalar a meropenem sin intervenir el espacio pleural",
+    "Tubo de tórax y antibiótico con cobertura anaerobia",
+    "Mantener el esquema actual y control en 72 horas"
+   ],
+   "clave": 4,
+   "especialidad": "Neumología",
+   "tema": "Empiema · paraneumónico complicado",
+   "diagnostico": "Paraneumónico complicado / empiema en diabético",
+   "tipo": "conducta",
+   "dificultad": "alta",
+   "razonamiento": "Paso 1: fiebre tras una semana de antibiótico, líquido turbio con pH 7,05, glucosa 28, LDH 1650, 31 000 leucocitos y Gram positivo. Paso 2: cumple criterios de estadio 2 (complicado/empiema) en un diabético, población de riesgo. Paso 3: el antibiótico solo no basta: drenaje con tubo de tórax y rotar a esquema con anaerobios (ceftriaxona + metronidazol ± vancomicina).",
+   "por_que_no": [
+    "Corresponde al estadio organizado con pulmón atrapado; aquí el líquido aún drena y no hay cáscara.",
+    "Las punciones repetidas no garantizan la evacuación del pus; el drenaje indicado es con tubo.",
+    "Es el error clásico: con pH <7,2 o pus el antibiótico solo no basta; serviría en el estadio simple.",
+    "",
+    "Sería correcto en el estadio 1 con pH y glucosa normales; aquí ambos están francamente bajos."
+   ],
+   "trampa": [
+    "otro-estadio",
+    "mismo-grupo",
+    "otro",
+    "",
+    "otro-estadio"
+   ],
+   "perla": "pH <7,2, glucosa <40 o pus = tubo de tórax; el antibiótico solo no basta.",
+   "fuente": {
+    "carpeta": "6.NEUMOLOGIA",
+    "archivo": "9. PATOLOGIA DE LA PLEURA.pdf",
+    "seccion": "Empiema · criterios y tubo de drenaje, p. 2"
+   },
+   "gemela_de": null
+  },
+  {
+   "id": "2026-10-22-banco-neumo-pleura-009",
+   "enunciado": "Mujer de 29 años, profesora, con rinorrea y odinofagia hace 8 días. Desde hace 2 días presenta dolor punzante bien localizado en la parrilla costal derecha que aumenta al inspirar profundo y al toser, y que alivia al recostarse sobre el lado derecho. Sin disnea. PA 112/70 mmHg, FC 84 X', FR 18 X', T° 37,4 °C, SatO2 98 % con FiO2 0,21. Roce áspero audible en la zona dolorosa, sin matidez. Hemograma normal. Radiografía de tórax normal, sin consolidación ni borramiento de ángulos. ¿Cuál es el tratamiento de elección?",
+   "opciones": [
+    "Amoxicilina con ácido clavulánico por vía oral",
+    "Azitromicina por vía oral durante cinco días",
+    "Enoxaparina subcutánea a dosis anticoagulante",
+    "AINE como ibuprofeno oral, con reposo relativo",
+    "Prednisona por vía oral a dosis media"
+   ],
+   "clave": 4,
+   "especialidad": "Neumología",
+   "tema": "Pleuritis aguda · tratamiento",
+   "diagnostico": "Pleuritis aguda seca de origen viral",
+   "tipo": "tratamiento",
+   "dificultad": "media",
+   "razonamiento": "Paso 1: dolor punzante que aumenta al inspirar y toser, alivia al apoyarse sobre el lado afectado, con roce y radiografía normal tras infección respiratoria alta. Paso 2: es una pleuritis seca de probable origen viral, sin datos de alarma (sin disnea, SatO2 98 %, hemograma normal). Paso 3: el tratamiento de elección son los AINE (ibuprofeno o naproxeno) y reposo relativo; sin antibióticos ni corticoides.",
+   "por_que_no": [
+    "Sin consolidación ni fiebre persistente no hay infección bacteriana; los antibióticos no se usan de rutina.",
+    "Cubre atípicos en neumonía ambulatoria; aquí la radiografía es normal y el origen es viral.",
+    "Sería útil si hubiera datos de TEP (disnea, hipoxemia, factores de riesgo); aquí la SatO2 es 98 %.",
+    "",
+    "Los corticoides se reservan para causas autoinmunes o casos refractarios a AINE, no para el cuadro viral."
+   ],
+   "trampa": [
+    "otro-contexto",
+    "otro-contexto",
+    "diferencial",
+    "",
+    "otro-contexto"
+   ],
+   "perla": "Dolor pleurítico + roce + Rx normal + cuadro viral previo = AINE; sin antibiótico ni corticoide.",
+   "fuente": {
+    "carpeta": "6.NEUMOLOGIA",
+    "archivo": "22. PLEURITIS AGUDA.pdf",
+    "seccion": "Tratamiento de elección, p. 1"
+   },
+   "gemela_de": null
+  },
+  {
+   "id": "2026-10-22-banco-neumo-pleura-010",
+   "enunciado": "Mujer de 69 años con insuficiencia cardíaca conocida (FEVI 35 %) y buena adherencia a furosemida, acude por 5 días de fiebre de 38,6 °C y dolor punzante en hemitórax izquierdo que aumenta al inspirar. PA 112/68 mmHg, FC 104 X', FR 24 X', SatO2 92 % con FiO2 0,21. Sin edemas ni ingurgitación yugular. Matidez, vibraciones vocales abolidas y murmullo disminuido en la mitad inferior izquierda; lado derecho normal. Leucocitos 15 800/mm³. Radiografía: opacidad homogénea unilateral izquierda hasta el 6.° arco costal, con menisco. ¿Cuál es el estudio que corresponde a continuación?",
+   "opciones": [
+    "Radiografía en decúbito lateral del lado afectado",
+    "Péptido natriurético y ecocardiograma antes de puncionar",
+    "Toracocentesis diagnóstica con citoquímico, Gram y cultivo",
+    "Gradiente de albúmina suero-pleura sin otros estudios",
+    "Biopsia pleural cerrada con aguja de Abrams de entrada"
+   ],
+   "clave": 3,
+   "especialidad": "Neumología",
+   "tema": "Derrame · indicación de toracocentesis",
+   "diagnostico": "Líquido unilateral febril en paciente con insuficiencia cardíaca",
+   "tipo": "prueba",
+   "dificultad": "alta",
+   "razonamiento": "Paso 1: paciente con insuficiencia cardíaca pero líquido unilateral, con fiebre, dolor pleurítico y leucocitosis, sin signos de congestión. Paso 2: el líquido cardíaco típico es bilateral y afebril; estos síntomas atípicos sugieren infección u otra causa. Paso 3: líquido unilateral nuevo o IC con síntomas atípicos es indicación de toracocentesis diagnóstica con citoquímico, Gram y cultivo.",
+   "por_que_no": [
+    "Detecta líquidos pequeños (~50 ml); aquí el volumen ya es evidente y el problema es su causa.",
+    "Bastaría en un líquido bilateral, afebril y congestivo; aquí es unilateral, con fiebre y sin congestión.",
+    "",
+    "Solo aclara un falso exudado por diurético tras aplicar Light; no estudia infección ni otras causas.",
+    "Se hace tras una toracocentesis no diagnóstica con sospecha de TB o neoplasia, no como primer estudio."
+   ],
+   "trampa": [
+    "umbral",
+    "otro-contexto",
+    "",
+    "mismo-grupo",
+    "otro-momento"
+   ],
+   "perla": "En IC se punciona si el líquido es unilateral, febril, doloroso o no responde a diuréticos.",
+   "fuente": {
+    "carpeta": "6.NEUMOLOGIA",
+    "archivo": "E25 - Villateca I - Neumología.pdf",
+    "seccion": "Algoritmo de manejo: indicaciones de toracocentesis, p. 23"
+   },
+   "gemela_de": null
+  },
+  {
+   "id": "2026-10-22-banco-neumo-pleura-011",
+   "enunciado": "Mujer de 68 años en ventilación mecánica desde hace 3 días por neumonía grave, con PEEP 12 cmH2O. Bruscamente se elevan las presiones de la vía aérea y suenan las alarmas. PA 72/40 mmHg, FC 140 X', SatO2 78 % con FiO2 1,0. Hemitórax derecho sin expansión, hipersonoro y con murmullo abolido; tráquea desviada a la izquierda e ingurgitación yugular. El equipo prepara un catéter sobre aguja para actuar sin esperar la radiografía. ¿En qué sitio debe realizarse la punción inmediata?",
+   "opciones": [
+    "2.° espacio intercostal izquierdo, línea medioclavicular, sobre la 3.ª costilla",
+    "2.° espacio intercostal derecho, línea medioclavicular, sobre la 3.ª costilla",
+    "10.° espacio intercostal derecho, línea axilar posterior, bajo la escápula",
+    "2.° espacio intercostal derecho, línea medioclavicular, bajo la 2.ª costilla",
+    "2.° espacio intercostal derecho, línea axilar posterior, sobre la 3.ª costilla"
+   ],
+   "clave": 2,
+   "especialidad": "Neumología",
+   "tema": "Neumotórax a tensión · sitio de punción",
+   "diagnostico": "Neumotórax a tensión por barotrauma",
+   "tipo": "conducta",
+   "dificultad": "alta",
+   "razonamiento": "Paso 1: en ventilación con presión positiva, caída brusca de PA y SatO2, hemitórax derecho hipersonoro sin murmullo, tráquea a la izquierda e ingurgitación yugular. Paso 2: barotrauma con neumotórax a tensión derecho y shock obstructivo. Paso 3: se descomprime el lado afectado en el 2.° EIC, línea medioclavicular, por el borde superior de la 3.ª costilla; luego tubo de tórax.",
+   "por_que_no": [
+    "La tráquea se desvía al lado sano; se punciona el lado hipersonoro, que aquí es el derecho.",
+    "",
+    "Es el sitio de la toracocentesis para líquido; el aire se acumula arriba y adelante.",
+    "El paquete neurovascular corre bajo el borde inferior de cada costilla; se entra por el borde superior de la inferior.",
+    "La línea axilar posterior se usa para puncionar líquido con el paciente sentado; en decúbito es inaccesible."
+   ],
+   "trampa": [
+    "otro-contexto",
+    "",
+    "otro-contexto",
+    "otro",
+    "otro-contexto"
+   ],
+   "perla": "Aguja en tensión: 2.° EIC, LMC, borde superior de la 3.ª costilla, del lado hipersonoro.",
+   "fuente": {
+    "carpeta": "TARJETAS",
+    "archivo": "NEUMOTORAX_Tarjetas_ENAM_EsSalud.pdf",
+    "seccion": "Parte 2 · ⑤ Sitio de punción con aguja"
+   },
+   "gemela_de": null
+  },
+  {
+   "id": "2026-10-22-banco-neumo-pleura-012",
+   "enunciado": "Varón de 67 años, exfumador de 45 paquetes-año, con 3 meses de disnea progresiva y baja de 9 kg. PA 128/80 mmHg, FC 102 X', FR 26 X', T° 36,9 °C, SatO2 90 % con FiO2 0,21. Hemitórax izquierdo mate con murmullo abolido; tráquea desviada a la derecha. Radiografía: opacidad homogénea de casi todo el hemitórax izquierdo con desplazamiento del mediastino a la derecha. Dos toracocentesis en 3 semanas: líquido hemático que se reacumula en días; proteína pleural/sérica 0,68; LDH pleural/sérica 0,85; glucosa 52 mg/dl; ADA 21 U/l; citología negativa en ambas. ¿Qué procedimiento ofrece mayor rendimiento y permite además tratar en el mismo acto?",
+   "opciones": [
+    "Toracoscopia con biopsia pleural dirigida",
+    "Biopsia pleural cerrada con aguja de Abrams",
+    "Cultivo para micobacterias y ADA de control",
+    "Tomografía de tórax sin contraste de control",
+    "Tercera citología del líquido pleural centrifugado"
+   ],
+   "clave": 1,
+   "especialidad": "Neumología",
+   "tema": "Derrame maligno · citología negativa",
+   "diagnostico": "Derrame pleural maligno con citología negativa",
+   "tipo": "prueba",
+   "dificultad": "muy alta",
+   "razonamiento": "Paso 1: exudado hemático, masivo, de llenado rápido y con desviación contralateral del mediastino en exfumador con pérdida de peso. Paso 2: sugiere compromiso pleural maligno (ADA bajo aleja TB); la citología confirma ~60 % y aquí fue negativa dos veces. Paso 3: la toracoscopia supera a la biopsia con aguja y permite biopsia dirigida y pleurodesis en el mismo acto.",
+   "por_que_no": [
+    "",
+    "Es una alternativa válida, pero de menor rendimiento y sin opción de pleurodesis en el mismo acto.",
+    "Orientaría a TB en exudado linfocitario con ADA >40; aquí el ADA es 21 y el líquido es hemático.",
+    "Ayuda a localizar lesiones, pero no da diagnóstico histológico ni permite tratar.",
+    "La citología confirma solo ~60 %; tras dos negativas con sospecha alta se pasa a ver la pleura."
+   ],
+   "trampa": [
+    "",
+    "mismo-grupo",
+    "diferencial",
+    "no-confirmatorio",
+    "no-confirmatorio"
+   ],
+   "perla": "Citología negativa con sospecha alta de malignidad: toracoscopia (biopsia dirigida + pleurodesis en un acto).",
+   "fuente": {
+    "carpeta": "TARJETAS",
+    "archivo": "PLEURAL_Tarjetas_ENAM_EsSalud.pdf",
+    "seccion": "Parte 1 · ② Etiología: cuándo biopsiar la pleura"
+   },
+   "gemela_de": null
+  },
+  {
+   "id": "2026-10-22-banco-neumo-pleura-013",
+   "enunciado": "Varón de 22 años con herida por arma blanca de 3 cm en el 4.° espacio intercostal derecho, línea axilar media, hace 30 minutos. Por la herida entra y sale aire con burbujeo en cada respiración. PA 112/70 mmHg, FC 110 X', FR 30 X', T° 36,5 °C, SatO2 88 % con FiO2 0,21. Hipersonoridad y murmullo disminuido en hemitórax derecho; tráquea central, sin ingurgitación yugular. Mientras se prepara el material, un interno propone cubrir la herida. ¿Qué medida está contraindicada en este momento?",
+   "opciones": [
+    "Oxígeno suplementario a alto flujo por mascarilla",
+    "Apósito fijado por tres lados a modo de válvula",
+    "Sellar la herida con apósito oclusivo por sus cuatro lados",
+    "Tubo de tórax en el triángulo de seguridad tras cubrir la herida",
+    "Descompresión con aguja si aparece hipotensión"
+   ],
+   "clave": 3,
+   "especialidad": "Neumología",
+   "tema": "Neumotórax abierto · manejo inicial",
+   "diagnostico": "Neumotórax abierto por herida penetrante",
+   "tipo": "contraindicacion",
+   "dificultad": "alta",
+   "razonamiento": "Paso 1: herida torácica con paso de aire y burbujeo, hipersonoridad y SatO2 88 %, sin hipotensión ni desviación traqueal. Paso 2: es un neumotórax abierto traumático, aún no a tensión. Paso 3: se cubre con apósito de tres puntas (válvula) y se coloca tubo de tórax; sellar los cuatro lados sin tubo lo convierte en un cuadro a tensión iatrogénico.",
+   "por_que_no": [
+    "Está indicado por la SatO2 de 88 % y además acelera la reabsorción del aire pleural.",
+    "Es la medida correcta: deja salir el aire en la espiración e impide que entre en la inspiración.",
+    "",
+    "Es el tratamiento definitivo que acompaña al apósito de tres puntas; no está contraindicado.",
+    "Es correcta si el cuadro evoluciona a tensión; hoy no hay hipotensión ni desviación traqueal."
+   ],
+   "trampa": [
+    "mismo-grupo",
+    "mismo-grupo",
+    "",
+    "otro-momento",
+    "otro-contexto"
+   ],
+   "perla": "Herida soplante: apósito de 3 puntas + tubo; sellar los 4 lados sin tubo = tensión iatrogénica.",
+   "fuente": {
+    "carpeta": "TARJETAS",
+    "archivo": "NEUMOTORAX_Tarjetas_ENAM_EsSalud.pdf",
+    "seccion": "Parte 2 · ⑤ Traumático abierto y ⑥ Error común"
+   },
+   "gemela_de": null
+  },
+  {
+   "id": "2026-10-22-banco-neumo-pleura-014",
+   "enunciado": "Varón de 50 años, sin comorbilidades, hospitalizado hace 48 horas por fiebre, tos con esputo herrumbroso y dolor basal derecho; recibe ceftriaxona. PA 122/76 mmHg, FC 98 X', FR 22 X', T° 38,2 °C, SatO2 94 % con FiO2 0,21. Radiografía: consolidación del lóbulo inferior derecho con borramiento del ángulo costofrénico; ecografía: colección libre de 2,5 cm sin tabiques. Se realiza toracocentesis diagnóstica y el equipo discute qué resultado cambiaría el manejo. ¿Cuál de los siguientes resultados del líquido indicaría colocar un tubo de tórax?",
+   "opciones": [
+    "Triglicéridos de 150 mg/dl y aspecto lechoso",
+    "pH 7,10 con glucosa de 34 mg/dl",
+    "LDH de 1100 U/l con pH de 7,36 y Gram negativo",
+    "Linfocitos 85 % con ADA de 70 U/l",
+    "Proteínas de 4,2 g/dl con glucosa de 78 mg/dl"
+   ],
+   "clave": 2,
+   "especialidad": "Neumología",
+   "tema": "Empiema · criterios bioquímicos",
+   "diagnostico": "Paraneumónico: criterios de complicación",
+   "tipo": "severidad",
+   "dificultad": "muy alta",
+   "razonamiento": "Paso 1: neumonía con colección libre; el resultado del líquido define el estadio. Paso 2: pH <7,2 y glucosa <40 mg/dl indican paraneumónico complicado (estadio 2) aunque no haya pus; la LDH >1000 sola no basta y las proteínas altas solo indican exudado. Paso 3: el estadio complicado requiere tubo además del antibiótico; linfocitos con ADA alto o triglicéridos altos orientan a otras causas.",
+   "por_que_no": [
+    "Define quilotórax por lesión del conducto torácico, con manejo nutricional, no infeccioso.",
+    "",
+    "La LDH >1000 aislada no basta para definir empiema; con pH normal y Gram negativo sigue el antibiótico.",
+    "Ese perfil orienta a TB pleural y lleva a biopsia, no a tubo de tórax.",
+    "Solo confirma un exudado; con glucosa normal corresponde al estadio simple que se trata con antibiótico."
+   ],
+   "trampa": [
+    "diferencial",
+    "",
+    "umbral",
+    "diferencial",
+    "otro-estadio"
+   ],
+   "perla": "Empiema: basta 1 criterio que no sea solo la LDH (pH <7,2, glucosa <40, pus, Gram o cultivo +).",
+   "fuente": {
+    "carpeta": "6.NEUMOLOGIA",
+    "archivo": "9. PATOLOGIA DE LA PLEURA.pdf",
+    "seccion": "Empiema · criterios y tubo de drenaje, p. 2"
+   },
+   "gemela_de": null
+  },
+  {
+   "id": "2026-10-22-banco-neumo-pleura-015",
+   "enunciado": "Mujer de 61 años con linfoma no Hodgkin en quimioterapia acude por disnea de reposo de 4 días. PA 116/72 mmHg, FC 118 X', FR 32 X', T° 36,8 °C, SatO2 86 % con FiO2 0,21. Hemitórax derecho mate con murmullo abolido; tráquea desviada a la izquierda. Radiografía: opacidad homogénea que ocupa casi todo el hemitórax derecho con desplazamiento mediastínico contralateral. Se decide toracocentesis evacuatoria guiada por ecografía para aliviar la disnea, con la paciente sentada y monitorizada. ¿Qué volumen máximo es recomendable extraer en esta sesión?",
+   "opciones": [
+    "Entre 1000 y 1500 ml, según la tolerancia",
+    "Entre 2000 y 2500 ml si mejora la saturación",
+    "Todo el líquido hasta que deje de fluir",
+    "No más de 500 ml, y repetir al día siguiente",
+    "Solo 50 a 100 ml para estudio del líquido"
+   ],
+   "clave": 1,
+   "especialidad": "Neumología",
+   "tema": "Toracocentesis evacuatoria · volumen",
+   "diagnostico": "Derrame masivo por linfoma con compromiso ventilatorio",
+   "tipo": "dosis",
+   "dificultad": "muy alta",
+   "razonamiento": "Paso 1: opacidad masiva con desviación contralateral y SatO2 86 %: compromiso ventilatorio que justifica una punción evacuatoria. Paso 2: el riesgo de extraer mucho volumen de forma rápida es el edema pulmonar por reexpansión. Paso 3: se extrae con control de síntomas un máximo de ~1-1,5 l por sesión (mínimo útil ~500 ml); si reacumula se repite o se planifica tratamiento definitivo.",
+   "por_que_no": [
+    "",
+    "Superar 1-1,5 l por sesión expone a edema por reexpansión aunque la saturación mejore al inicio.",
+    "Vaciar por completo un líquido masivo es la causa típica de edema pulmonar por reexpansión.",
+    "500 ml es el mínimo útil de una evacuación; quedarse ahí no alivia un líquido masivo con SatO2 86 %.",
+    "Es el volumen de una punción diagnóstica; aquí el objetivo es aliviar el compromiso ventilatorio."
+   ],
+   "trampa": [
+    "",
+    "umbral",
+    "otro",
+    "umbral",
+    "otro-contexto"
+   ],
+   "perla": "Toracocentesis evacuatoria: máximo 1-1,5 l por sesión; más volumen o más rápido = edema por reexpansión.",
+   "fuente": {
+    "carpeta": "TARJETAS",
+    "archivo": "PLEURAL_Tarjetas_ENAM_EsSalud.pdf",
+    "seccion": "Parte 2 · ④ Complicaciones de la toracocentesis"
+   },
+   "gemela_de": null
+  },
+  {
+   "id": "2026-10-22-banco-neumo-pleura-016",
+   "enunciado": "Exminero de 74 años con EPOC (VEF1 38 % del predicho) y grandes bullas en una tomografía previa. Llega por falta de aire de inicio brusco mientras tosía, con punzada en el costado izquierdo; sus descompensaciones previas siempre fueron graduales, con más esputo. PA 132/80 mmHg, FC 112 X', FR 30 X', T° 36,7 °C, SatO2 85 % con FiO2 0,21. Usa músculos accesorios; percusión timpánica y ruidos respiratorios casi ausentes en el vértice izquierdo. Placa simple: borde del pulmón izquierdo separado 1,6 cm de la parrilla costal a la altura del hilio, sin vasos por fuera. ¿Qué manejo corresponde en este momento?",
+   "opciones": [
+    "Nebulización con broncodilatador y corticoide sistémico",
+    "Tubo de tórax, oxígeno y hospitalización",
+    "Videotoracoscopia con pleurodesis de entrada",
+    "Descompresión con aguja en 2.° espacio intercostal",
+    "Observación con oxígeno y radiografía en 6 horas"
+   ],
+   "clave": 2,
+   "especialidad": "Neumología",
+   "tema": "Neumotórax espontáneo secundario",
+   "diagnostico": "Neumotórax espontáneo secundario a EPOC",
+   "tipo": "conducta",
+   "dificultad": "muy alta",
+   "razonamiento": "Paso 1: EPOC grave con bullas, deterioro súbito y desproporcionado, timpanismo apical y borde pulmonar separado sin trama, hemodinamia estable. Paso 2: es un neumotórax espontáneo secundario; aunque mide <2 cm, la reserva pulmonar es mínima (SatO2 85 %). Paso 3: el secundario casi siempre requiere tubo de tórax y hospitalización; la observación aplica al primario pequeño en pulmón sano.",
+   "por_que_no": [
+    "Trata la exacerbación, que es gradual; aquí el deterioro es súbito con hipersonoridad y línea pleural.",
+    "",
+    "Previene recurrencias una vez resuelto el episodio; no es la evacuación inicial del aire.",
+    "Se reserva para el cuadro a tensión con hipotensión y tráquea desviada; aquí la PA es normal.",
+    "Es el manejo del primario pequeño en pulmón sano; con EPOC la reserva es mínima y no se tolera el colapso."
+   ],
+   "trampa": [
+    "diferencial",
+    "",
+    "otro-momento",
+    "otro-contexto",
+    "otra-poblacion"
+   ],
+   "perla": "Secundario (EPOC): tolera mal el colapso; tubo de tórax casi siempre, aunque sea pequeño.",
+   "fuente": {
+    "carpeta": "TARJETAS",
+    "archivo": "NEUMOTORAX_Tarjetas_ENAM_EsSalud.pdf",
+    "seccion": "Parte 1 · ② Clasificación y Parte 2 · ⑤ Secundario"
+   },
+   "gemela_de": null
+  },
+  {
+   "id": "2026-10-22-banco-neumo-pleura-017",
+   "enunciado": "Mujer de 64 años con antecedente de tuberculosis pleural izquierda tratada hace 9 años, sin seguimiento. Consulta por disnea de esfuerzo lentamente progresiva, sin fiebre ni baja de peso. PA 130/80 mmHg, FC 84 X', FR 20 X', T° 36,6 °C, SatO2 94 % con FiO2 0,21. Matidez en base izquierda. Tomografía: colección izquierda de aspecto antiguo con pleura engrosada y calcificada. Toracocentesis: líquido blanco lechoso; colesterol 280 mg/dl, triglicéridos 38 mg/dl; Gram, BK y cultivo negativos. ¿Cuál es la causa más probable del aspecto del líquido?",
+   "opciones": [
+    "Infiltración pleural por linfoma del mediastino",
+    "Empiema crónico por bacterias anaerobias",
+    "Pseudoquilotórax por proceso pleural crónico",
+    "Quilotórax por lesión del conducto torácico",
+    "Reactivación tuberculosa con líquido linfocitario"
+   ],
+   "clave": 3,
+   "especialidad": "Neumología",
+   "tema": "Derrame lechoso · perfil lipídico",
+   "diagnostico": "Pseudoquilotórax post-TB",
+   "tipo": "diagnostico",
+   "dificultad": "alta",
+   "razonamiento": "Paso 1: líquido lechoso con colesterol 280 mg/dl (>200) y triglicéridos 38 mg/dl (<50). Paso 2: ese perfil, en un líquido de larga evolución con pleura engrosada tras TB, es de pseudoquilotórax; el quilotórax tiene triglicéridos >110 y colesterol <200. Paso 3: el manejo es etiológico y evaluar decorticación, no el de una lesión del conducto torácico.",
+   "por_que_no": [
+    "El linfoma causa quilotórax verdadero con triglicéridos altos; aquí son 38 mg/dl.",
+    "Daría pus, olor pútrido, fiebre y Gram o cultivo positivos; aquí es afebril y estéril.",
+    "",
+    "Exige triglicéridos >110 mg/dl con colesterol <200; aquí el perfil es el inverso.",
+    "Daría fiebre y exudado citrino con ADA alto; un líquido lechoso con colesterol alto es otro proceso."
+   ],
+   "trampa": [
+    "diferencial",
+    "diferencial",
+    "",
+    "diferencial",
+    "diferencial"
+   ],
+   "perla": "Lechoso: TG >110 = quilotórax (conducto torácico); colesterol >200 con TG <50 = pseudoquilotórax (TB, AR).",
+   "fuente": {
+    "carpeta": "6.NEUMOLOGIA",
+    "archivo": "9. PATOLOGIA DE LA PLEURA.pdf",
+    "seccion": "Quilotórax y pseudoquilotórax, p. 2"
+   },
+   "gemela_de": null
+  },
+  {
+   "id": "2026-10-22-banco-neumo-pleura-018",
+   "enunciado": "Varón de 55 años con 3 semanas de tos seca y disnea leve. PA 126/78 mmHg, FC 90 X', FR 20 X', T° 37,2 °C, SatO2 95 % con FiO2 0,21. Matidez y vibraciones vocales disminuidas desde el 7.° espacio intercostal derecho hacia abajo, con egofonía en el borde superior de la matidez. Radiografía: opacidad homogénea basal derecha con menisco; ecografía: colección anecoica libre de 4 cm, sin tabiques. Se decide una punción diagnóstica. ¿Cuál es la técnica correcta de punción para evitar lesiones?",
+   "opciones": [
+    "Decúbito lateral, quinto espacio en línea axilar anterior del triángulo",
+    "Sentado, línea axilar posterior, borde inferior de la costilla superior",
+    "Sentado, línea axilar posterior, dos espacios por encima del borde de la matidez",
+    "Decúbito supino, segundo espacio intercostal en línea medioclavicular",
+    "Sentado, línea axilar posterior, borde superior de la costilla inferior"
+   ],
+   "clave": 5,
+   "especialidad": "Neumología",
+   "tema": "Toracocentesis · técnica",
+   "diagnostico": "Líquido pleural libre de causa no aclarada",
+   "tipo": "conducta",
+   "dificultad": "media",
+   "razonamiento": "Paso 1: matidez, vibraciones disminuidas y egofonía en el borde superior, con menisco y colección libre en ecografía: líquido libre de causa no aclarada. Paso 2: la punción se hace con el paciente sentado e inclinado, en línea axilar posterior, 1-2 espacios por debajo del nivel. Paso 3: se entra por el borde superior de la costilla inferior porque el paquete neurovascular corre bajo el borde inferior de cada costilla.",
+   "por_que_no": [
+    "Es el sitio del tubo de tórax en el triángulo de seguridad, no el de una punción diagnóstica.",
+    "Bajo el borde inferior de cada costilla corre el paquete neurovascular; puncionar ahí causa sangrado.",
+    "Por encima del nivel no hay líquido; se punciona 1-2 espacios por debajo del borde superior de la matidez.",
+    "Es el sitio de descompresión del aire a tensión; el líquido se acumula en la base.",
+    ""
+   ],
+   "trampa": [
+    "otro-contexto",
+    "otro",
+    "umbral",
+    "otro-contexto",
+    ""
+   ],
+   "perla": "Toracocentesis: sentado, LAP, 1-2 espacios bajo el nivel, por el borde SUPERIOR de la costilla inferior.",
+   "fuente": {
+    "carpeta": "TARJETAS",
+    "archivo": "PLEURAL_Tarjetas_ENAM_EsSalud.pdf",
+    "seccion": "Parte 2 · ④ Técnica de punción"
+   },
+   "gemela_de": null
+  },
+  {
+   "id": "2026-10-22-banco-neumo-pleura-019",
+   "enunciado": "Adolescente varón de 16 años, previamente sano, con 4 días de fiebre, tos productiva y dolor en base izquierda; recibe amoxicilina a dosis altas desde hace 48 horas con mejoría parcial. PA 112/68 mmHg, FC 100 X', FR 22 X', T° 37,9 °C, SatO2 95 % con FiO2 0,21. Crepitantes y soplo tubárico en base izquierda. Radiografía: consolidación del lóbulo inferior izquierdo con borramiento del ángulo costofrénico; ecografía: colección libre pequeña sin tabiques. Toracocentesis: líquido levemente turbio, pH 7,38, glucosa 82 mg/dl, LDH 380 U/l, 4500 leucocitos con predominio neutrófilo, Gram negativo. ¿Cuál es el manejo más adecuado?",
+   "opciones": [
+    "Toracocentesis evacuatoria diaria hasta secar",
+    "Continuar el antibiótico de la neumonía sin drenaje",
+    "Instilar fibrinolítico intrapleural por catéter",
+    "Colocar tubo de tórax en quinto espacio y mantener el antibiótico",
+    "Videotoracoscopia con desbridamiento pleural"
+   ],
+   "clave": 2,
+   "especialidad": "Neumología",
+   "tema": "Derrame paraneumónico · no complicado",
+   "diagnostico": "Paraneumónico simple en adolescente",
+   "tipo": "tratamiento",
+   "dificultad": "media",
+   "razonamiento": "Paso 1: líquido asociado a consolidación con pH 7,38, glucosa 82 mg/dl, LDH 380 U/l (<1000), Gram negativo, libre y sin tabiques. Paso 2: es el estadio 1 (paraneumónico simple), aséptico, que revierte con el tratamiento de la neumonía. Paso 3: el manejo es solo el antibiótico; el drenaje se reserva para pH <7,2, glucosa <40, pus o loculación.",
+   "por_que_no": [
+    "El líquido simple es aséptico y revierte con el tratamiento de la neumonía; no requiere vaciarse.",
+    "",
+    "Se usa en el empiema tabicado; aquí la ecografía muestra colección libre sin tabiques.",
+    "El tubo se indica con pH <7,2, glucosa <40, pus o Gram positivo; aquí el líquido es simple.",
+    "Corresponde a colecciones loculadas u organizadas que no drenan; no a un líquido simple."
+   ],
+   "trampa": [
+    "otro-contexto",
+    "",
+    "otro-estadio",
+    "otro-estadio",
+    "otro-estadio"
+   ],
+   "perla": "Paraneumónico con pH y glucosa normales, LDH <1000 y Gram negativo: solo antibiótico.",
+   "fuente": {
+    "carpeta": "6.NEUMOLOGIA",
+    "archivo": "Neumología -  Fundamentos teóricos_ENAM 2024.pdf",
+    "seccion": "Derrame paraneumónico y empiema · estadios, p. 71"
+   },
+   "gemela_de": null
+  },
+  {
+   "id": "2026-10-22-banco-neumo-pleura-020",
+   "enunciado": "Mujer de 24 años, delgada, sin enfermedades previas, presenta dolor torácico izquierdo súbito al levantar peso hace 3 horas, con disnea progresiva. PA 116/74 mmHg, FC 112 X', FR 28 X', T° 36,8 °C, SatO2 90 % con FiO2 0,21. Hipersonoridad, vibraciones vocales y murmullo abolidos en hemitórax izquierdo; tráquea central y yugulares normales. Radiografía: hiperlucidez del hemitórax izquierdo con línea pleural visceral a 3,8 cm de la pared a nivel del hilio, sin desviación del mediastino. ¿Cuál es la conducta más adecuada?",
+   "opciones": [
+    "Tubo de tórax en el triángulo de seguridad",
+    "Oxígeno suplementario como única medida",
+    "Observación ambulatoria y control en 2 semanas",
+    "Videotoracoscopia con pleurodesis de entrada",
+    "Descompresión con aguja en el 2.° espacio intercostal"
+   ],
+   "clave": 1,
+   "especialidad": "Neumología",
+   "tema": "Neumotórax espontáneo primario · grande",
+   "diagnostico": "Neumotórax espontáneo primario grande sintomático",
+   "tipo": "conducta",
+   "dificultad": "alta",
+   "razonamiento": "Paso 1: mujer joven sin neumopatía con dolor súbito, hipersonoridad y línea pleural a 3,8 cm del hilio, con FR 28 y SatO2 90 %, sin hipotensión ni desviación traqueal. Paso 2: es un neumotórax espontáneo primario grande y sintomático, no a tensión. Paso 3: requiere evacuar el aire con tubo de tórax (o aspiración) en el triángulo de seguridad; la observación es para pequeños estables.",
+   "por_que_no": [
+    "",
+    "El O2 acelera la reabsorción en colapsos pequeños; no basta para uno grande con hipoxemia.",
+    "Aplica al primario pequeño o al grande sin disnea significativa; aquí hay FR 28 y SatO2 90 %.",
+    "Se indica para prevenir recurrencias (2.° episodio, bilateral, profesión de riesgo), no en el primer episodio.",
+    "Es la maniobra del cuadro a tensión; aquí no hay hipotensión, ingurgitación ni desviación traqueal."
+   ],
+   "trampa": [
+    "",
+    "otro-estadio",
+    "otro-estadio",
+    "otro-momento",
+    "otro-contexto"
+   ],
+   "perla": "Primario grande o con disnea: tubo de tórax (o aspiración); aguja en 2.° EIC solo si hay tensión.",
+   "fuente": {
+    "carpeta": "6.NEUMOLOGIA",
+    "archivo": "9. PATOLOGIA DE LA PLEURA.pdf",
+    "seccion": "Neumotórax espontáneo · manejo según tamaño, p. 4"
+   },
+   "gemela_de": null
+  },
+  {
+   "id": "2026-10-22-banco-neumo-pleura-021",
+   "enunciado": "Varón de 63 años con poliartritis simétrica de manos y carpos de 8 años, nódulos subcutáneos en codos y factor reumatoide positivo, en tratamiento irregular con metotrexato. Refiere 3 semanas de disnea leve y dolor costal derecho, sin fiebre. PA 128/82 mmHg, FC 86 X', FR 20 X', T° 36,8 °C, SatO2 95 % con FiO2 0,21. Radiografía: opacidad basal derecha con menisco; lado izquierdo libre. Líquido: amarillo verdoso turbio; pH 7,12; glucosa 18 mg/dl; LDH 900 U/l; proteína pleural/sérica 0,7; Gram y cultivo negativos; ADA 28 U/l. ¿Cuál es la causa más probable del líquido pleural?",
+   "opciones": [
+    "Compromiso pleural de la artritis reumatoide",
+    "Paraneumónico complicado por anaerobios",
+    "Compromiso pleural del lupus eritematoso",
+    "Tuberculosis pleural linfocitaria",
+    "Infiltración pleural por adenocarcinoma"
+   ],
+   "clave": 1,
+   "especialidad": "Neumología",
+   "tema": "Derrame · perfil autoinmune",
+   "diagnostico": "Pleuresía reumatoide",
+   "tipo": "diagnostico",
+   "dificultad": "muy alta",
+   "razonamiento": "Paso 1: líquido unilateral derecho, amarillo verdoso, con pH 7,12 y glucosa muy baja (18 mg/dl), afebril, Gram/cultivo negativos y ADA bajo. Paso 2: en un varón con poliartritis seropositiva y nódulos, glucosa <30 con pH <7,2 sin infección es típico de pleuresía reumatoide. Paso 3: el lupus daría líquido bilateral con pH y glucosa normales; el empiema tendría fiebre y gérmenes.",
+   "por_que_no": [
+    "",
+    "Comparte pH y glucosa bajos, pero cursaría con fiebre, pus y Gram o cultivo positivos.",
+    "El lupus da líquido bilateral con pH y glucosa normales, ANA alto y complemento bajo.",
+    "Daría fiebre, sudoración y ADA >40-45; aquí el ADA es 28 y no hay síntomas consuntivos.",
+    "Suele ser hemático, masivo y de reacumulación rápida; no explica glucosa de 18 mg/dl con color verdoso."
+   ],
+   "trampa": [
+    "",
+    "diferencial",
+    "diferencial",
+    "diferencial",
+    "diferencial"
+   ],
+   "perla": "Glucosa pleural <30 + pH <7,2 sin infección + líquido amarillo verdoso = artritis reumatoide.",
+   "fuente": {
+    "carpeta": "6.NEUMOLOGIA",
+    "archivo": "9. PATOLOGIA DE LA PLEURA.pdf",
+    "seccion": "Perfiles AR y LES en líquido pleural, p. 4"
+   },
+   "gemela_de": null
+  },
+  {
+   "id": "2026-10-22-banco-neumo-pleura-022",
+   "enunciado": "Varón de 31 años que ingresa tras un choque vehicular con impacto en el hemitórax derecho. Al llegar: PA 96/60 mmHg, FC 118 X', FR 28 X', SatO2 91 % con FiO2 0,40; matidez y murmullo abolido en base derecha. Se coloca tubo de tórax en el 5.° espacio intercostal: salen de inmediato 1100 ml de sangre y luego 230 ml/h durante las 3 horas siguientes, pese a 2 l de cristaloides y 2 unidades de glóbulos rojos. Hematocrito del líquido 38 % (sérico 34 %). PA actual 88/54 mmHg. ¿Qué criterio, presente en este paciente, indica toracotomía de emergencia?",
+   "opciones": [
+    "Volumen inicial mayor de 350 ml al colocar el tubo de tórax",
+    "Débito mayor de 200 ml/h sostenido durante 3 horas",
+    "Hematocrito del líquido/sérico mayor de 50 %",
+    "Débito mayor de 100 ml/h durante la primera hora",
+    "Drenaje inicial mayor de 1000 ml por el tubo"
+   ],
+   "clave": 2,
+   "especialidad": "Neumología",
+   "tema": "Hemotórax · criterios de toracotomía",
+   "diagnostico": "Hemotórax traumático con sangrado persistente",
+   "tipo": "severidad",
+   "dificultad": "muy alta",
+   "razonamiento": "Paso 1: trauma torácico con sangre por el tubo y hematocrito del líquido/sérico >50 %: hemotórax. Paso 2: drenó 1100 ml iniciales (no supera 1500 ml), pero mantiene 230 ml/h por 3 horas con hipotensión pese a reanimación. Paso 3: >1500 ml iniciales o >200 ml/h por 3 horas son criterios de toracotomía de emergencia; aquí se cumple el de débito sostenido.",
+   "por_que_no": [
+    "Menos de 350 ml define el cuadro leve que puede observarse; no es criterio de toracotomía.",
+    "",
+    "Ese dato define que el líquido es sangre (hemotórax), no la necesidad de cirugía.",
+    "Ese débito no alcanza el umbral; la toracotomía exige >200 ml/h sostenido por 3 horas.",
+    "El corte del drenaje inicial es >1500 ml; con 1100 ml ese criterio no se cumple."
+   ],
+   "trampa": [
+    "umbral",
+    "",
+    "otro-contexto",
+    "umbral",
+    "umbral"
+   ],
+   "perla": "Hemotórax: Hto pleural/sérico >50 %; toracotomía si >1500 ml inicial o >200 ml/h × 3 h.",
+   "fuente": {
+    "carpeta": "6.NEUMOLOGIA",
+    "archivo": "9. PATOLOGIA DE LA PLEURA.pdf",
+    "seccion": "Hemotórax: criterios de toracotomía, p. 3"
+   },
+   "gemela_de": null
+  },
+  {
+   "id": "2026-10-22-banco-neumo-pleura-023",
+   "enunciado": "Mujer de 52 años con carcinoma de mama tratado hace 3 años presenta disnea recurrente. En 5 semanas se le realizaron dos toracocentesis evacuatorias derechas de 1200 ml cada una, con alivio de la disnea y reacumulación a los 10 días. Citología del líquido: células de adenocarcinoma. Radiografía tras la última evacuación: pulmón derecho completamente reexpandido. Hoy: PA 120/76 mmHg, FC 98 X', FR 26 X', T° 36,5 °C, SatO2 91 % con FiO2 0,21; matidez hasta el tercio medio derecho. ¿Cuál es el tratamiento más adecuado para controlar la reacumulación?",
+   "opciones": [
+    "Tubo de tórax con fibrinolítico intrapleural",
+    "Decorticación pleural por toracotomía",
+    "Pleurodesis con talco tras evacuar el líquido",
+    "Toracocentesis evacuatoria cada vez que reacumule",
+    "Furosemida oral y restricción de sodio"
+   ],
+   "clave": 3,
+   "especialidad": "Neumología",
+   "tema": "Derrame maligno recurrente",
+   "diagnostico": "Derrame pleural maligno recurrente por cáncer de mama",
+   "tipo": "tratamiento",
+   "dificultad": "alta",
+   "razonamiento": "Paso 1: líquido que reacumula en días tras dos evacuaciones, con citología de adenocarcinoma en mujer con cáncer de mama previo. Paso 2: es compromiso pleural maligno recurrente con pulmón que se reexpande, por lo que las pleuras pueden adherirse. Paso 3: el tratamiento es la pleurodesis con talco (o un catéter pleural permanente); repetir punciones solo alivia de forma transitoria.",
+   "por_que_no": [
+    "El fibrinolítico se usa en el empiema tabicado; aquí el líquido es maligno y libre.",
+    "Se reserva para el pulmón atrapado por cáscara fibrosa; aquí el pulmón se reexpande por completo.",
+    "",
+    "Es el alivio inicial; con reacumulación en días solo da beneficio transitorio y repite riesgos.",
+    "Trata el líquido congestivo de la insuficiencia cardíaca; no frena un líquido maligno."
+   ],
+   "trampa": [
+    "otro-contexto",
+    "otro-contexto",
+    "",
+    "otro-momento",
+    "diferencial"
+   ],
+   "perla": "Líquido maligno recurrente con pulmón reexpandible: pleurodesis con talco o catéter pleural permanente.",
+   "fuente": {
+    "carpeta": "TARJETAS",
+    "archivo": "PLEURAL_Tarjetas_ENAM_EsSalud.pdf",
+    "seccion": "Parte 2 · ⑤ Tratamiento por escenario"
+   },
+   "gemela_de": null
+  },
+  {
+   "id": "2026-10-22-banco-neumo-pleura-024",
+   "enunciado": "Varón de 28 años, buzo profesional en una marisquería familiar, acude a control 3 semanas después de un primer episodio de dolor torácico súbito izquierdo con línea pleural visceral apical en la radiografía, tratado con tubo de tórax y buena reexpansión. Asintomático. PA 114/70 mmHg, FC 72 X', FR 14 X', T° 36,5 °C, SatO2 98 % con FiO2 0,21; examen respiratorio normal. Tomografía: dos bullas subpleurales apicales izquierdas de 1 cm. Desea volver a bucear el próximo mes. ¿Cuál es la conducta más adecuada para prevenir la recurrencia?",
+   "opciones": [
+    "Control radiológico y cirugía solo si recurre",
+    "Tomografía anual de control y cirugía solo si las bullas crecen",
+    "Oxígeno suplementario durante cada inmersión",
+    "Videotoracoscopia con resección de bullas y pleurodesis",
+    "Cirugía solo si el siguiente episodio es contralateral"
+   ],
+   "clave": 4,
+   "especialidad": "Neumología",
+   "tema": "Neumotórax · prevención de recurrencia",
+   "diagnostico": "Primer neumotórax espontáneo en buzo profesional",
+   "tipo": "conducta",
+   "dificultad": "alta",
+   "razonamiento": "Paso 1: primer episodio de aire pleural espontáneo en joven con bullas subpleurales, ya resuelto. Paso 2: es buzo, profesión de riesgo por cambios de presión; la recurrencia sin pleurodesis llega al 30-50 %. Paso 3: el primer episodio en profesión de riesgo (buzos, pilotos) es indicación quirúrgica: VATS con resección de bullas y pleurodesis.",
+   "por_que_no": [
+    "Es la conducta tras un primer episodio en quien no tiene profesión de riesgo; un buzo sí la tiene.",
+    "El tamaño de las bullas no define la indicación; la recurrencia sin pleurodesis llega al 30-50 %.",
+    "El O2 acelera la reabsorción durante un episodio pequeño; no previene una nueva ruptura de bullas.",
+    "",
+    "El 2.° episodio contralateral es indicación, pero aquí ya basta el primer episodio en profesión de riesgo."
+   ],
+   "trampa": [
+    "otro-contexto",
+    "otro",
+    "otro-contexto",
+    "",
+    "umbral"
+   ],
+   "perla": "Cirugía tras neumotórax: bilateral, 2.° episodio (ipsi o contralateral) o 1.er episodio en buzo o piloto.",
+   "fuente": {
+    "carpeta": "6.NEUMOLOGIA",
+    "archivo": "E25 - Villateca I - Neumología.pdf",
+    "seccion": "Neumotórax · indicaciones de cirugía, p. 25"
+   },
+   "gemela_de": null
+  },
+  {
+   "id": "2026-10-22-banco-neumo-pleura-025",
+   "enunciado": "Varón de 49 años con líquido pleural izquierdo masivo en estudio. En otro servicio se le realizó una toracocentesis evacuatoria y se extrajeron 2300 ml en 20 minutos. Una hora después presenta tos persistente con expectoración espumosa y disnea progresiva. PA 108/66 mmHg, FC 116 X', FR 30 X', T° 36,9 °C, SatO2 84 % con FiO2 0,21 (94 % antes del procedimiento). Crepitantes solo en el hemitórax izquierdo; percusión sin timpanismo. Radiografía: opacidades alveolares en el pulmón izquierdo, ya reexpandido, sin línea pleural visible; pulmón derecho normal. ¿Cuál es la complicación que presenta?",
+   "opciones": [
+    "Reacumulación rápida del líquido pleural",
+    "Edema pulmonar cardiogénico bilateral agudo",
+    "Neumotórax iatrogénico por la punción",
+    "Hemotórax por lesión de arteria intercostal",
+    "Edema pulmonar unilateral por reexpansión"
+   ],
+   "clave": 5,
+   "especialidad": "Neumología",
+   "tema": "Toracocentesis · complicaciones",
+   "diagnostico": "Edema pulmonar por reexpansión",
+   "tipo": "complicacion",
+   "dificultad": "alta",
+   "razonamiento": "Paso 1: se extrajeron 2300 ml en 20 minutos, por encima del máximo de 1-1,5 l por sesión. Paso 2: aparecen tos espumosa, hipoxemia y crepitantes limitados al pulmón reexpandido, sin timpanismo ni línea pleural, con el otro pulmón normal. Paso 3: es edema pulmonar por reexpansión, complicación evitable limitando volumen y velocidad de extracción.",
+   "por_que_no": [
+    "Ocurre en días en el líquido maligno y da matidez con menisco, no crepitantes y tos espumosa.",
+    "Afectaría ambos pulmones con congestión sistémica; aquí el pulmón derecho está normal.",
+    "Es la complicación más frecuente, pero daría timpanismo y línea pleural visible, ausentes aquí.",
+    "Daría matidez creciente e hipotensión; aquí el pulmón está reexpandido con opacidad alveolar.",
+    ""
+   ],
+   "trampa": [
+    "otro-momento",
+    "diferencial",
+    "diferencial",
+    "diferencial",
+    ""
+   ],
+   "perla": "Tos espumosa + crepitantes solo del lado drenado tras >1,5 l = edema por reexpansión.",
+   "fuente": {
+    "carpeta": "6.NEUMOLOGIA",
+    "archivo": "9. PATOLOGIA DE LA PLEURA.pdf",
+    "seccion": "Toracocentesis: volumen máximo y EAP por reexpansión, p. 4"
+   },
+   "gemela_de": null
+  },
+  {
+   "id": "2026-10-22-banco-neumo-pleura-026",
+   "enunciado": "Varón de 58 años en el día 5 tras una esofagectomía por estenosis cáustica. Al iniciar la nutrición enteral, el drenaje torácico derecho cambia de seroso a blanco lechoso, con 900 ml/día. Afebril. PA 124/78 mmHg, FC 94 X', FR 20 X', T° 36,9 °C, SatO2 95 % con FiO2 0,21. Líquido: triglicéridos 420 mg/dl, colesterol 85 mg/dl, Gram negativo, 2400 células con 80 % linfocitos. Albúmina sérica 2,9 g/dl. ¿Cuál es el manejo inicial más adecuado?",
+   "opciones": [
+    "Decorticación pleural por videotoracoscopia",
+    "Ligadura inmediata del conducto torácico",
+    "Antibiótico con cobertura anaerobia y lavado pleural por el tubo",
+    "Pleurodesis con talco instilado por el tubo",
+    "Mantener el tubo, dieta con TCM o NPT y octreotide"
+   ],
+   "clave": 5,
+   "especialidad": "Neumología",
+   "tema": "Quilotórax · manejo inicial",
+   "diagnostico": "Quilotórax posquirúrgico",
+   "tipo": "tratamiento",
+   "dificultad": "alta",
+   "razonamiento": "Paso 1: líquido lechoso con triglicéridos 420 mg/dl (>110) y colesterol 85 mg/dl (<200) tras cirugía torácica, al reiniciar la alimentación. Paso 2: es un quilotórax traumático por lesión quirúrgica del conducto torácico. Paso 3: el manejo inicial es conservador: mantener el drenaje, dieta con triglicéridos de cadena media o NPT y octreotide; la ligadura queda si no mejora.",
+   "por_que_no": [
+    "Se evalúa en el pseudoquilotórax crónico con pleura engrosada, no en una fuga aguda de quilo.",
+    "La ligadura quirúrgica se reserva para cuando el manejo conservador no reduce el débito.",
+    "Sería el manejo de una infección pleural; aquí el paciente está afebril y el Gram es negativo.",
+    "Es el tratamiento del líquido maligno recurrente; no corrige la fuga del conducto torácico.",
+    ""
+   ],
+   "trampa": [
+    "diferencial",
+    "otro-momento",
+    "diferencial",
+    "otro-contexto",
+    ""
+   ],
+   "perla": "Quilotórax: lechoso, TG >110 mg/dl; tubo + TCM o NPT + octreotide; ligadura si falla.",
+   "fuente": {
+    "carpeta": "6.NEUMOLOGIA",
+    "archivo": "E25 - Villateca I - Neumología.pdf",
+    "seccion": "Quilotórax: tratamiento, p. 23"
+   },
+   "gemela_de": null
+  },
+  {
+   "id": "2026-10-22-banco-neumo-pleura-027",
+   "enunciado": "Mujer de 26 años con 2 meses de artralgias de manos, úlceras orales y eritema en alas nasales que respeta los surcos nasogenianos. Desde hace 3 semanas presenta dolor torácico punzante bilateral que aumenta al respirar, sin mejoría con naproxeno 500 mg cada 12 horas. PA 118/76 mmHg, FC 92 X', FR 20 X', T° 37,6 °C, SatO2 97 % con FiO2 0,21. Roce pleural bilateral. ANA 1/640, anti-DNA positivo, C3 bajo; leucocitos 3800/mm³. Radiografía: sin consolidación, mínimo borramiento simétrico de ambos ángulos costofrénicos. ¿Cuál es el tratamiento más adecuado del dolor torácico?",
+   "opciones": [
+    "Cambiar a ibuprofeno a la dosis máxima diaria",
+    "Ceftriaxona endovenosa con azitromicina oral",
+    "Amoxicilina con ácido clavulánico por vía oral",
+    "Corticoide sistémico como prednisona oral",
+    "Enoxaparina subcutánea a dosis anticoagulante"
+   ],
+   "clave": 4,
+   "especialidad": "Neumología",
+   "tema": "Pleuritis · causa autoinmune",
+   "diagnostico": "Pleuritis lúpica refractaria a AINE",
+   "tipo": "tratamiento",
+   "dificultad": "alta",
+   "razonamiento": "Paso 1: mujer joven con artralgias, úlceras orales, eritema malar, leucopenia, ANA 1/640, anti-DNA positivo y C3 bajo, con dolor pleurítico bilateral y roce. Paso 2: es compromiso pleural de origen autoinmune (lupus) que no respondió a 3 semanas de AINE. Paso 3: los corticoides no se usan de rutina, pero están indicados en causas autoinmunes o refractarias a AINE; sin infección no van antibióticos.",
+   "por_que_no": [
+    "El AINE es primera línea en el cuadro viral; aquí ya fracasó y la causa es autoinmune.",
+    "Es el esquema de neumonía hospitalizada; la radiografía no muestra consolidación.",
+    "No hay consolidación ni datos de infección bacteriana; el antibiótico no está indicado.",
+    "",
+    "Sería útil si se demostrara TEP; aquí la SatO2 es normal y el dolor se explica por serositis."
+   ],
+   "trampa": [
+    "mismo-grupo",
+    "otro-contexto",
+    "otro-contexto",
+    "",
+    "diferencial"
+   ],
+   "perla": "Pleuritis: AINE de primera línea; corticoide solo si es autoinmune o refractaria a AINE.",
+   "fuente": {
+    "carpeta": "6.NEUMOLOGIA",
+    "archivo": "22. PLEURITIS AGUDA.pdf",
+    "seccion": "Rol de los corticoides, p. 1"
+   },
+   "gemela_de": null
+  },
+  {
+   "id": "2026-10-22-banco-neumo-pleura-028",
+   "enunciado": "Mujer de 66 años con líquido pleural derecho moderado en estudio; se le realiza una punción diagnóstica a ciegas, sin guía ecográfica, con dos intentos y salida de burbujas de aire en la jeringa. Treinta minutos después presenta disnea súbita y dolor punzante en el hombro derecho. PA 128/78 mmHg, FC 104 X', FR 26 X', T° 36,7 °C, SatO2 90 % con FiO2 0,21. Hipersonoridad en el ápice derecho con matidez basal. Radiografía: línea pleural visceral en el ápice derecho sin trama por fuera y nivel hidroaéreo basal. ¿Cuál es la complicación más probable?",
+   "opciones": [
+    "Reacumulación rápida del líquido pleural",
+    "Punción hepática con sangrado subdiafragmático",
+    "Neumotórax iatrogénico por la punción",
+    "Edema pulmonar por reexpansión",
+    "Hemotórax por lesión de vaso intercostal"
+   ],
+   "clave": 3,
+   "especialidad": "Neumología",
+   "tema": "Neumotórax iatrogénico",
+   "diagnostico": "Neumotórax iatrogénico post-toracocentesis",
+   "tipo": "complicacion",
+   "dificultad": "media",
+   "razonamiento": "Paso 1: punción a ciegas con aspiración de aire, seguida de disnea súbita, hipersonoridad apical y línea pleural visceral sin trama con nivel hidroaéreo. Paso 2: el aire entró al espacio pleural durante el procedimiento. Paso 3: es la complicación más frecuente de la toracocentesis; la guía ecográfica reduce su riesgo.",
+   "por_que_no": [
+    "Ocurre en días y da matidez progresiva; no explica aire en el ápice a los 30 minutos.",
+    "Es una complicación de punciones bajas que daría dolor abdominal e hipotensión, no aire apical.",
+    "",
+    "Ocurre tras extraer mucho líquido rápido y da crepitantes y tos espumosa, no hipersonoridad apical.",
+    "Daría matidez creciente e hipotensión; aquí hay hipersonoridad y línea pleural sin trama."
+   ],
+   "trampa": [
+    "otro-momento",
+    "otro",
+    "",
+    "diferencial",
+    "diferencial"
+   ],
+   "perla": "Complicación más frecuente de la toracocentesis: neumotórax; la ecografía reduce el riesgo.",
+   "fuente": {
+    "carpeta": "TARJETAS",
+    "archivo": "PLEURAL_Tarjetas_ENAM_EsSalud.pdf",
+    "seccion": "Parte 2 · ④ Complicaciones de la toracocentesis"
+   },
+   "gemela_de": null
+  },
+  {
+   "id": "2026-10-22-banco-neumo-pleura-029",
+   "enunciado": "Varón de 39 años que hace 7 semanas tuvo salida de líquido purulento del hemitórax izquierdo; abandonó el antibiótico y se retiró el tubo a los 5 días. Ahora refiere disnea de esfuerzo progresiva, sin fiebre. PA 118/74 mmHg, FC 92 X', FR 22 X', T° 36,7 °C, SatO2 93 % con FiO2 0,21. Hemitórax izquierdo retraído, con menor expansión y murmullo disminuido. Tomografía: engrosamiento pleural izquierdo de 12 mm que envuelve el pulmón, sin colección líquida significativa. Espirometría: CVF 56 % con VEF1/CVF 0,84. ¿Cuál es el tratamiento indicado?",
+   "opciones": [
+    "Nuevo tubo de tórax con aspiración continua",
+    "Fibrinolítico intrapleural por catéter fino",
+    "Pleurodesis química con talco por toracoscopia",
+    "Antibiótico endovenoso prolongado por 6 semanas",
+    "Decorticación pleural quirúrgica"
+   ],
+   "clave": 5,
+   "especialidad": "Neumología",
+   "tema": "Empiema · fase organizada",
+   "diagnostico": "Fibrotórax (pulmón atrapado) tras empiema mal tratado",
+   "tipo": "tratamiento",
+   "dificultad": "alta",
+   "razonamiento": "Paso 1: líquido purulento mal tratado hace >2 semanas, ahora afebril, con hemitórax retraído y engrosamiento pleural que envuelve el pulmón sin colección. Paso 2: es el estadio 3 organizado (fibrotórax, pulmón atrapado), que explica el patrón restrictivo (CVF 56 % con relación conservada). Paso 3: la cáscara fibrosa no se resuelve con drenaje ni fibrinólisis: corresponde decorticación quirúrgica.",
+   "por_que_no": [
+    "El tubo drena líquido o pus libre; aquí no hay colección y el problema es la cáscara fibrosa.",
+    "Sirve en la fase fibrinopurulenta tabicada; no disuelve un engrosamiento fibroso organizado.",
+    "Busca adherir las pleuras en el líquido maligno recurrente; aquí el pulmón ya no puede expandirse.",
+    "Sin fiebre ni colección no hay infección activa; el antibiótico no libera el pulmón atrapado.",
+    ""
+   ],
+   "trampa": [
+    "otro-estadio",
+    "otro-estadio",
+    "otro-contexto",
+    "otro-momento",
+    ""
+   ],
+   "perla": "Empiema mal tratado >2 semanas con cáscara fibrosa = fibrotórax: toracotomía + decorticación.",
+   "fuente": {
+    "carpeta": "6.NEUMOLOGIA",
+    "archivo": "9. PATOLOGIA DE LA PLEURA.pdf",
+    "seccion": "Fibrotórax: toracotomía + decorticación, p. 4"
+   },
+   "gemela_de": null
+  },
+  {
+   "id": "2026-10-22-banco-neumo-pleura-030",
+   "enunciado": "Mujer de 73 años en el día 12 de hospitalización tras una colectomía por obstrucción intestinal. Desde hace 3 días presenta fiebre, tos y disnea. PA 104/62 mmHg, FC 114 X', FR 28 X', T° 38,9 °C, SatO2 90 % con FiO2 0,28. Creatinina 1,0 mg/dl. Radiografía: consolidación basal derecha con opacidad que asciende por la pared lateral. Toracocentesis: pus franco; se coloca tubo de tórax. Gram del líquido: cocos grampositivos en racimos y bacilos gramnegativos. ¿Qué esquema antibiótico empírico corresponde?",
+   "opciones": [
+    "Vancomicina más cefepime más metronidazol",
+    "Ceftriaxona más metronidazol endovenosos",
+    "Cefepime más vancomicina sin anaerobicida",
+    "Ceftriaxona más azitromicina endovenosas",
+    "Metronidazol endovenoso en monoterapia"
+   ],
+   "clave": 1,
+   "especialidad": "Neumología",
+   "tema": "Empiema · antibiótico empírico",
+   "diagnostico": "Empiema de origen intrahospitalario",
+   "tipo": "tratamiento",
+   "dificultad": "alta",
+   "razonamiento": "Paso 1: fiebre, consolidación y pus franco en el espacio pleural en una paciente con 12 días de hospitalización posquirúrgica. Paso 2: es un empiema intrahospitalario; el germen más frecuente es S. aureus y la flora suele ser mixta con anaerobios. Paso 3: además del tubo, el esquema hospitalario cubre S. aureus, gramnegativos y anaerobios: vancomicina + cefepime + metronidazol.",
+   "por_que_no": [
+    "",
+    "Es el esquema del empiema adquirido en la comunidad; no cubre S. aureus resistente ni gramnegativos hospitalarios.",
+    "Cubre gérmenes hospitalarios, pero la infección pleural suele ser mixta con anaerobios y requiere metronidazol.",
+    "Corresponde a la neumonía comunitaria hospitalizada; no cubre anaerobios ni gérmenes intrahospitalarios.",
+    "Solo cubre anaerobios; deja sin cobertura a los cocos grampositivos en racimos y a los gramnegativos."
+   ],
+   "trampa": [
+    "",
+    "otro-contexto",
+    "mismo-grupo",
+    "otro-contexto",
+    "mismo-grupo"
+   ],
+   "perla": "Empiema comunitario: ceftriaxona + metronidazol; hospitalario: vancomicina + cefepime + metronidazol.",
+   "fuente": {
+    "carpeta": "6.NEUMOLOGIA",
+    "archivo": "Neumología -  Fundamentos teóricos_ENAM 2024.pdf",
+    "seccion": "Derrame paraneumónico y empiema · tratamiento, p. 72"
+   },
+   "gemela_de": null
+  }
+ ]
+}

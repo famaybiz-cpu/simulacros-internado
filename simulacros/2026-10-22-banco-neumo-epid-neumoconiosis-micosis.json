@@ -1,0 +1,1190 @@
+{
+ "id": "2026-10-22-banco-neumo-epid-neumoconiosis-micosis",
+ "fecha": "2026-10-22",
+ "turno": "noche",
+ "titulo": "Banco · Intersticiales, neumoconiosis y micosis pulmonares",
+ "segundos_por_pregunta": 60,
+ "temas_noche": [
+  "Intersticiales, neumoconiosis y micosis pulmonares"
+ ],
+ "feedback_noche": "Aprueba quien deduce la entidad por la exposición y la imagen descrita: sílice en vértices con calcificación en cáscara de huevo (vigilar TB), asbesto en bases con pleura (mesotelioma), carbón con artritis (Caplan). En lo fibrosante, DLCO baja precoz y panal bibasal subpleural = antifibrótico, no corticoide. En hongos, la forma clínica manda: cavidad previa = cirugía; neutropénico con halo = voriconazol; VIH diseminado = anfotericina. El error típico es tratar todo como TB o dar corticoide a todo.",
+ "perlas_noche": [
+  "Panal de abeja bibasal subpleural sin causa conocida: pirfenidona o nintedanib; los corticoides no sirven.",
+  "DLCO es lo primero que cae en el compromiso del parénquima; <40 % = deterioro severo.",
+  "Sílice: vértices, cáscara de huevo y riesgo de TB 30 veces mayor; asbesto: bases, pleura, cuerpos ferruginosos y mesotelioma.",
+  "Bola móvil con menisco en cavidad post-TB que sangra: cirugía; si no es operable, embolización bronquial.",
+  "Histoplasma: aguda no se trata, crónica itraconazol, diseminada en VIH anfotericina B; criptococo: anfotericina + flucitosina."
+ ],
+ "preguntas": [
+  {
+   "id": "2026-10-22-banco-neumo-epid-neumoconiosis-micosis-001",
+   "enunciado": "Varón de 68 años, exfumador de 30 paquetes-año, jubilado de oficina, con tos seca y disnea de esfuerzo progresiva de 2 años. Niega exposición a polvos, aves o fármacos de riesgo. PA 130/80 mmHg, FC 86 X', FR 20 X', T° 36,7 °C, SatO2 93 % (FiO2 0,21). Acropaquias y crépitos finos bibasales tipo velcro. Anticuerpos antinucleares y factor reumatoide negativos. Espirometría: CVF 64 %, VEF1/CVF 0,86; DLCO 52 %. Tomografía de alta resolución: reticulación y quistes en panal de abeja bibasales y subpleurales con bronquiectasias por tracción. ¿Cuál es la conducta terapéutica de fondo más adecuada?",
+   "opciones": [
+    "Prednisona 1 mg/kg/día por tres meses y luego reevaluar",
+    "Antifibrótico oral (pirfenidona) y rehabilitación pulmonar",
+    "Prednisona más azatioprina como inmunosupresión sostenida",
+    "Oxígeno domiciliario continuo sin otro tratamiento",
+    "Derivación inmediata a trasplante como única medida"
+   ],
+   "clave": 2,
+   "especialidad": "Neumología",
+   "tema": "Fibrosis pulmonar idiopática · tratamiento",
+   "diagnostico": "Fibrosis pulmonar idiopática (patrón NIU) en fase no avanzada",
+   "tipo": "conducta",
+   "dificultad": "alta",
+   "razonamiento": "Paso 1: crépitos en velcro, acropaquias, CVF baja con Tiffeneau alto y DLCO baja indican restricción del parénquima. Paso 2: panal bibasal subpleural sin exposición, fármacos ni autoinmunidad corresponde a la forma idiopática en varón mayor exfumador. Paso 3: solo pirfenidona o nintedanib retrasan la progresión; los corticoides no son útiles y el trasplante es para fase avanzada.",
+   "por_que_no": [
+    "La respuesta a corticoides es pobre con panal de abeja; sí sirven en neumonía organizada o inespecífica.",
+    "",
+    "Los inmunosupresores no frenan este proceso idiopático; se plantean en cuadros inflamatorios con buena respuesta esteroidea.",
+    "Sin hipoxemia significativa en reposo no es la medida central; se agrega cuando la saturación cae.",
+    "El trasplante se reserva para enfermedad avanzada; con DLCO 52 % y SatO2 93 % primero va el antifibrótico."
+   ],
+   "trampa": [
+    "diferencial",
+    "",
+    "mismo-grupo",
+    "otro-momento",
+    "otro-estadio"
+   ],
+   "perla": "Panal bibasal subpleural sin causa conocida: antifibrótico (pirfenidona o nintedanib), no corticoides.",
+   "fuente": {
+    "carpeta": "6.NEUMOLOGIA",
+    "archivo": "11. EPID.pdf",
+    "seccion": "p. 1"
+   },
+   "gemela_de": null
+  },
+  {
+   "id": "2026-10-22-banco-neumo-epid-neumoconiosis-micosis-002",
+   "enunciado": "Mujer de 61 años, ama de casa, no fumadora, con tos seca persistente y disnea al subir escaleras desde hace 10 meses. PA 120/70 mmHg, FC 88 X', FR 22 X', T° 36,5 °C, SatO2 94 % (FiO2 0,21). Crépitos secos teleinspiratorios en ambas bases, sin edemas ni ingurgitación yugular. Radiografía de tórax: leve aumento de la trama reticular basal bilateral, sin cardiomegalia ni derrame. Espirometría: CVF 72 %, VEF1/CVF 0,84. Dímero D normal. ¿Qué estudio de imagen corresponde para caracterizar el compromiso del parénquima?",
+   "opciones": [
+    "Biopsia pulmonar quirúrgica como primer estudio",
+    "Radiografía de tórax en proyección lateral izquierda",
+    "Tomografía de alta resolución con cortes de 1 a 2 mm",
+    "Angiotomografía de tórax con contraste endovenoso",
+    "Gammagrafía pulmonar de ventilación y perfusión"
+   ],
+   "clave": 3,
+   "especialidad": "Neumología",
+   "tema": "EPID · imagen de elección",
+   "diagnostico": "Enfermedad pulmonar intersticial difusa en estudio",
+   "tipo": "prueba",
+   "dificultad": "media",
+   "razonamiento": "Paso 1: tos seca, disnea progresiva y crépitos teleinspiratorios bibasales con CVF baja y Tiffeneau normal sugieren restricción del parénquima. Paso 2: la radiografía solo muestra trama reticular tenue y el dímero D normal aleja la embolia. Paso 3: la tomografía de alta resolución con cortes finos es el estudio de imagen de elección; la biopsia queda para cuando no se identifica la causa.",
+   "por_que_no": [
+    "La biopsia define el caso cuando no hay causa clara tras la tomografía, no como primer paso.",
+    "La radiografía es poco sensible para el patrón fino del parénquima; solo orienta en casos avanzados.",
+    "",
+    "Busca trombos en arterias pulmonares; con dímero D normal y crépitos en velcro no es la sospecha.",
+    "Sirve para sospecha de embolia cuando no se puede usar contraste; no caracteriza el parénquima."
+   ],
+   "trampa": [
+    "otro-momento",
+    "no-confirmatorio",
+    "",
+    "diferencial",
+    "diferencial"
+   ],
+   "perla": "Imagen de elección del compromiso difuso del parénquima: TACAR con cortes de 1-2 mm.",
+   "fuente": {
+    "carpeta": "6.NEUMOLOGIA",
+    "archivo": "11. EPID.pdf",
+    "seccion": "p. 1"
+   },
+   "gemela_de": null
+  },
+  {
+   "id": "2026-10-22-banco-neumo-epid-neumoconiosis-micosis-003",
+   "enunciado": "Mujer de 46 años con fenómeno de Raynaud de 6 años, esclerodactilia, telangiectasias faciales y anticuerpos anti-Scl-70 positivos. Desde hace 1 año presenta disnea de esfuerzo y tos seca. PA 110/70 mmHg, FC 96 X', FR 24 X', T° 36,8 °C, SatO2 91 % (FiO2 0,21). Crépitos finos en ambas bases. Espirometría: VEF1 1,6 l, CVF 1,8 l, VEF1/CVF 0,89. Capacidad de difusión de monóxido de carbono 37 % del predicho; hemoglobina 13,2 g/dl. ¿Cómo se clasifica el trastorno de la difusión en esta paciente?",
+   "opciones": [
+    "Anormalmente alta (mayor de 140 %)",
+    "Deterioro severo (menor de 40 %)",
+    "Deterioro leve (61 a 75 %)",
+    "Rango normal (76 a 140 %)",
+    "Deterioro moderado (41 a 60 %)"
+   ],
+   "clave": 2,
+   "especialidad": "Neumología",
+   "tema": "EPID por colagenopatía · DLCO",
+   "diagnostico": "EPID asociada a esclerosis sistémica con deterioro severo de la difusión",
+   "tipo": "severidad",
+   "dificultad": "alta",
+   "razonamiento": "Paso 1: Raynaud, esclerodactilia y anti-Scl-70 indican una colagenopatía, causa conocida de compromiso del parénquima. Paso 2: crépitos basales, CVF baja con Tiffeneau 0,89 = restricción; con hemoglobina normal la DLCO baja no se explica por anemia. Paso 3: 37 % está por debajo de 40 %, lo que corresponde a deterioro severo de la difusión.",
+   "por_que_no": [
+    "La DLCO alta aparece en asma, hemorragia alveolar o policitemia, no en engrosamiento de la membrana.",
+    "",
+    "Correspondería a una DLCO entre 61 y 75 %, propia de compromiso inicial.",
+    "Sería normal entre 76 y 140 %; no explica la hipoxemia ni la restricción de esta paciente.",
+    "El rango moderado empieza en 41 %; con 37 % ya se cruzó el umbral de severidad."
+   ],
+   "trampa": [
+    "diferencial",
+    "",
+    "umbral",
+    "umbral",
+    "umbral"
+   ],
+   "perla": "DLCO: >140 % alta; 76-140 normal; 61-75 leve; 41-60 moderada; <40 % severa.",
+   "fuente": {
+    "carpeta": "6.NEUMOLOGIA",
+    "archivo": "Neumología -  Fundamentos teóricos_ENAM 2024.pdf",
+    "seccion": "EPID · DLCO, pp. 104-105"
+   },
+   "gemela_de": null
+  },
+  {
+   "id": "2026-10-22-banco-neumo-epid-neumoconiosis-micosis-004",
+   "enunciado": "Mujer de 52 años con debilidad proximal de cintura escapular y pelviana de 8 meses, mialgias y CPK 3200 U/l, en estudio por reumatología. Hace 3 meses refiere tos seca y disnea leve al caminar rápido. PA 125/75 mmHg, FC 84 X', FR 18 X', T° 36,6 °C, SatO2 96 % (FiO2 0,21). Crépitos finos escasos en ambas bases. Radiografía de tórax sin alteraciones evidentes. Espirometría: CVF 86 %, VEF1 88 %, VEF1/CVF 0,82, sin cambio con broncodilatador. ¿Qué prueba funcional se altera más precozmente y conviene solicitar ahora?",
+   "opciones": [
+    "Gasometría arterial basal con aire ambiente",
+    "Espirometría repetida con prueba broncodilatadora",
+    "Flujometría de pico espiratorio seriada",
+    "Capacidad de difusión de monóxido de carbono",
+    "Pletismografía para medir el volumen residual"
+   ],
+   "clave": 4,
+   "especialidad": "Neumología",
+   "tema": "EPID inicial · prueba más precoz",
+   "diagnostico": "EPID incipiente asociada a polimiositis con espirometría normal",
+   "tipo": "prueba",
+   "dificultad": "alta",
+   "razonamiento": "Paso 1: debilidad proximal con CPK elevada orienta a miopatía inflamatoria, colagenopatía que se asocia a compromiso del parénquima. Paso 2: tos seca y crépitos basales con espirometría normal sugieren fase inicial. Paso 3: la DLCO es el marcador más sensible y se altera antes que los volúmenes, por eso se solicita.",
+   "por_que_no": [
+    "La hipoxemia en reposo es tardía; con SatO2 96 % aportará poco en esta fase.",
+    "Sirve para obstrucción reversible; ya fue normal y sin respuesta, y el compromiso inicial del parénquima no la altera.",
+    "Detecta variabilidad del flujo en obstrucción ocupacional; no mide la membrana alveolocapilar.",
+    "",
+    "Los volúmenes estáticos caen cuando la enfermedad avanza; en fase inicial pueden ser normales."
+   ],
+   "trampa": [
+    "otro-estadio",
+    "diferencial",
+    "otro-contexto",
+    "",
+    "otro-estadio"
+   ],
+   "perla": "Puede haber compromiso difuso del parénquima con espirometría normal: la DLCO cae primero.",
+   "fuente": {
+    "carpeta": "6.NEUMOLOGIA",
+    "archivo": "Neumología -  Fundamentos teóricos_ENAM 2024.pdf",
+    "seccion": "EPID, pp. 102-109"
+   },
+   "gemela_de": null
+  },
+  {
+   "id": "2026-10-22-banco-neumo-epid-neumoconiosis-micosis-005",
+   "enunciado": "Mujer de 57 años con artritis reumatoide de 9 años, en tratamiento con metotrexato 15 mg semanales desde hace 2 años, hidroxicloroquina, ácido fólico y prednisona 5 mg/día. Consulta por tos seca y disnea progresiva de 6 semanas. PA 118/72 mmHg, FC 102 X', FR 26 X', T° 37,4 °C, SatO2 89 % (FiO2 0,21). Crépitos bilaterales. TEM: opacidades en vidrio esmerilado bilaterales sin consolidación lobar. Procalcitonina normal; baciloscopía en esputo negativa. ¿Qué medida es prioritaria respecto a su tratamiento crónico?",
+   "opciones": [
+    "Suspender la hidroxicloroquina y mantener el resto",
+    "Suspender el metotrexato y no reintroducirlo",
+    "Suspender el ácido fólico y mantener el metotrexato",
+    "Aumentar el metotrexato a 20 mg semanales",
+    "Suspender la prednisona por riesgo de infección"
+   ],
+   "clave": 2,
+   "especialidad": "Neumología",
+   "tema": "EPID por fármacos · metotrexato",
+   "diagnostico": "Toxicidad pulmonar por metotrexato en artritis reumatoide",
+   "tipo": "conducta",
+   "dificultad": "alta",
+   "razonamiento": "Paso 1: tos seca, disnea, desaturación y vidrio esmerilado bilateral sin consolidación, con procalcitonina normal, orientan a daño difuso no infeccioso. Paso 2: el metotrexato es un fármaco clásico causante de fibrosis pulmonar. Paso 3: lo prioritario es retirar el agente causal; los demás fármacos de su esquema no producen este daño.",
+   "por_que_no": [
+    "La hidroxicloroquina no figura entre los fármacos que dañan el parénquima; el metotrexato sí.",
+    "",
+    "El ácido fólico protege de la toxicidad del antifolato; no es el agente que lesiona el pulmón.",
+    "Supone atribuir el cuadro a la actividad de la artritis; ante toxicidad pulmonar subir la dosis agrava el daño.",
+    "Con procalcitonina normal y BK negativo no hay infección que justifique retirar el corticoide."
+   ],
+   "trampa": [
+    "mismo-grupo",
+    "",
+    "mismo-grupo",
+    "diferencial",
+    "otro-contexto"
+   ],
+   "perla": "Fármacos que fibrosan el pulmón: amiodarona, metotrexato, bleomicina, nitrofurantoína (y ciclofosfamida).",
+   "fuente": {
+    "carpeta": "6.NEUMOLOGIA",
+    "archivo": "11. EPID.pdf",
+    "seccion": "p. 1 · fármacos que ocasionan fibrosis pulmonar"
+   },
+   "gemela_de": null
+  },
+  {
+   "id": "2026-10-22-banco-neumo-epid-neumoconiosis-micosis-006",
+   "enunciado": "Varón de 73 años con enfermedad pulmonar crónica conocida: tomografía con panal de abeja bibasal subpleural, DLCO 45 % y oxígeno domiciliario. Acude por palpitaciones de 2 días. PA 112/70 mmHg, FC 138 X' irregular, FR 24 X', T° 36,6 °C, SatO2 90 % (FiO2 0,28). EKG: ritmo irregularmente irregular sin ondas P, QRS estrecho. Ecocardiograma: FEVI 55 %, sin valvulopatía. Función renal y tiroidea normales. Se decide control de la frecuencia a largo plazo. ¿Qué fármaco debe evitarse en este paciente?",
+   "opciones": [
+    "Bisoprolol por vía oral de mantenimiento",
+    "Diltiazem por vía oral de mantenimiento",
+    "Metoprolol por vía oral de mantenimiento",
+    "Digoxina por vía oral de mantenimiento",
+    "Amiodarona por vía oral de mantenimiento"
+   ],
+   "clave": 5,
+   "especialidad": "Neumología",
+   "tema": "EPID por fármacos · amiodarona",
+   "diagnostico": "Fibrilación auricular en paciente con fibrosis pulmonar: evitar amiodarona",
+   "tipo": "contraindicacion",
+   "dificultad": "alta",
+   "razonamiento": "Paso 1: panal bibasal subpleural con DLCO 45 % y oxígeno domiciliario indica enfermedad fibrosante establecida. Paso 2: el EKG irregular sin ondas P con QRS estrecho corresponde a fibrilación auricular con FEVI conservada. Paso 3: la amiodarona es un fármaco que ocasiona fibrosis pulmonar, por lo que debe evitarse; betabloqueadores, calcioantagonistas o digoxina no tienen ese efecto.",
+   "por_que_no": [
+    "Controla la frecuencia sin toxicidad sobre el parénquima; se evitaría en broncoespasmo grave, no aquí.",
+    "Con FEVI conservada es una opción segura para el pulmón; se evita en FEVI reducida.",
+    "Betabloqueador útil para la frecuencia, sin efecto fibrosante; es alternativa válida en este caso.",
+    "No daña el parénquima; se prefiere en FEVI reducida o pacientes sedentarios.",
+    ""
+   ],
+   "trampa": [
+    "mismo-grupo",
+    "mismo-grupo",
+    "mismo-grupo",
+    "otra-poblacion",
+    ""
+   ],
+   "perla": "Amiodarona: antiarrítmico con toxicidad fibrosante; evitarla si ya hay daño del parénquima.",
+   "fuente": {
+    "carpeta": "6.NEUMOLOGIA",
+    "archivo": "11. EPID.pdf",
+    "seccion": "p. 1 · fármacos que ocasionan fibrosis pulmonar"
+   },
+   "gemela_de": null
+  },
+  {
+   "id": "2026-10-22-banco-neumo-epid-neumoconiosis-micosis-007",
+   "enunciado": "Mujer de 76 años con infecciones urinarias recurrentes en profilaxis nocturna con nitrofurantoína desde hace 14 meses; además es hipertensa con enalapril, diabética con metformina y recibe atorvastatina y ácido acetilsalicílico. Consulta por tos seca y disnea progresiva de 4 meses. PA 128/76 mmHg, FC 92 X', FR 22 X', T° 36,9 °C, SatO2 92 % (FiO2 0,21). Crépitos finos bibasales. Espirometría: CVF 68 %, VEF1/CVF 0,83; DLCO 49 %. TEM: reticulación bilateral de predominio basal sin panal. ¿Qué fármaco es el responsable más probable del cuadro?",
+   "opciones": [
+    "Nitrofurantoína en profilaxis nocturna",
+    "Atorvastatina como hipolipemiante",
+    "Metformina como hipoglucemiante oral",
+    "Ácido acetilsalicílico como antiagregante",
+    "Enalapril como antihipertensivo"
+   ],
+   "clave": 1,
+   "especialidad": "Neumología",
+   "tema": "EPID por fármacos · nitrofurantoína",
+   "diagnostico": "Fibrosis pulmonar por nitrofurantoína en profilaxis prolongada",
+   "tipo": "complicacion",
+   "dificultad": "muy alta",
+   "razonamiento": "Paso 1: CVF baja con Tiffeneau 0,83 y DLCO 49 % indican restricción por daño del parénquima, confirmado por reticulación basal. Paso 2: entre sus fármacos, la nitrofurantoína en uso prolongado es causa clásica de fibrosis pulmonar. Paso 3: el enalapril explica tos seca aislada, pero no crépitos ni caída de la difusión.",
+   "por_que_no": [
+    "",
+    "Su toxicidad típica es muscular o hepática; no figura como causa de fibrosis.",
+    "Su efecto adverso grave es la acidosis láctica, no el daño del parénquima.",
+    "Puede desencadenar obstrucción bronquial en sensibles, con Tiffeneau bajo; aquí el patrón es restrictivo.",
+    "El IECA da tos seca, pero sin crépitos, restricción ni caída de la DLCO."
+   ],
+   "trampa": [
+    "",
+    "otro-contexto",
+    "otro-contexto",
+    "diferencial",
+    "diferencial"
+   ],
+   "perla": "Tos seca + restricción + DLCO baja en profilaxis urinaria prolongada: pensar en nitrofurantoína.",
+   "fuente": {
+    "carpeta": "6.NEUMOLOGIA",
+    "archivo": "11. EPID.pdf",
+    "seccion": "p. 1 · fármacos que ocasionan fibrosis pulmonar"
+   },
+   "gemela_de": null
+  },
+  {
+   "id": "2026-10-22-banco-neumo-epid-neumoconiosis-micosis-008",
+   "enunciado": "Varón de 64 años, exfumador, con disnea de esfuerzo y tos seca de 18 meses. PA 135/85 mmHg, FC 90 X', FR 22 X', T° 36,8 °C, SatO2 92 % (FiO2 0,21). Acropaquias y crépitos tipo velcro en bases. Espirometría: CVF 66 %, VEF1/CVF 0,85; DLCO 48 %. La tomografía de alta resolución describe vidrio esmerilado tenue, reticulación, bronquiectasias por tracción y espacios quísticos agrupados en varias capas subpleurales basales. Un colega propone iniciar corticoides y pregunta qué dato predice mala respuesta. ¿Cuál de estos hallazgos anticipa una respuesta pobre a los corticoides?",
+   "opciones": [
+    "Restricción con índice de Tiffeneau mayor de 0,80",
+    "Opacidades tenues en vidrio esmerilado sin distorsión",
+    "Espacios quísticos en panal de abeja subpleural basal",
+    "Antecedente de tabaquismo como factor de exposición",
+    "Disminución de la DLCO por debajo del 60 %"
+   ],
+   "clave": 3,
+   "especialidad": "Neumología",
+   "tema": "Neumonías intersticiales idiopáticas · respuesta a corticoides",
+   "diagnostico": "Neumonía intersticial usual (FPI) con pobre respuesta esteroidea",
+   "tipo": "severidad",
+   "dificultad": "muy alta",
+   "razonamiento": "Paso 1: crépitos en velcro, acropaquias, restricción con DLCO baja y panal basal subpleural en exfumador corresponden a la neumonía intersticial usual. Paso 2: en la tabla de formas idiopáticas solo la usual muestra panal y su respuesta a corticoides es pobre. Paso 3: tabaquismo y vidrio esmerilado se ven en formas con buena respuesta, y la DLCO mide gravedad, no tipo.",
+   "por_que_no": [
+    "Es el patrón funcional de cualquier enfermedad difusa del parénquima, no predice respuesta.",
+    "Predominan en formas inespecífica o descamativa, que sí responden bien a corticoides.",
+    "",
+    "Las formas ligadas al tabaco (bronquiolitis respiratoria, descamativa) tienen buena respuesta esteroidea.",
+    "Mide la gravedad funcional, común a todas las formas; no distingue el tipo que responde a esteroides."
+   ],
+   "trampa": [
+    "otro-contexto",
+    "diferencial",
+    "",
+    "diferencial",
+    "umbral"
+   ],
+   "perla": "Panal de abeja = forma usual = pobre respuesta a corticoides; organizada criptogénica = excelente.",
+   "fuente": {
+    "carpeta": "6.NEUMOLOGIA",
+    "archivo": "Neumología -  Fundamentos teóricos_ENAM 2024.pdf",
+    "seccion": "EPID · neumonías intersticiales idiopáticas, p. 109"
+   },
+   "gemela_de": null
+  },
+  {
+   "id": "2026-10-22-banco-neumo-epid-neumoconiosis-micosis-009",
+   "enunciado": "Varón de 71 años con disnea progresiva de 6 años por un proceso con panal de abeja bibasal subpleural, en tratamiento con nintedanib y oxígeno domiciliario. Desde hace 1 mes presenta edemas en miembros inferiores y distensión abdominal. PA 105/70 mmHg, FC 104 X', FR 26 X', T° 36,7 °C, SatO2 86 % (FiO2 0,28). Ingurgitación yugular a 45°, segundo ruido pulmonar intenso, soplo holosistólico tricuspídeo que aumenta con la inspiración y hepatomegalia dolorosa. Ecocardiograma: ventrículo derecho dilatado, FEVI 60 %. Dímero D normal. ¿Qué complicación explica el cuadro actual?",
+   "opciones": [
+    "Tromboembolismo pulmonar agudo con sobrecarga derecha",
+    "Hipertensión pulmonar con insuficiencia cardiaca derecha",
+    "Neumotórax secundario por rotura de espacios quísticos",
+    "Cirrosis hepática con hipertensión portal y ascitis a tensión",
+    "Insuficiencia cardiaca izquierda con fracción reducida"
+   ],
+   "clave": 2,
+   "especialidad": "Neumología",
+   "tema": "Fibrosis pulmonar idiopática · complicaciones",
+   "diagnostico": "Hipertensión pulmonar con cor pulmonale por FPI avanzada",
+   "tipo": "complicacion",
+   "dificultad": "muy alta",
+   "razonamiento": "Paso 1: panal bibasal subpleural con hipoxemia crónica en tratamiento antifibrótico indica enfermedad fibrosante avanzada. Paso 2: ingurgitación yugular, P2 intenso, soplo tricuspídeo, hepatomegalia y VD dilatado con FEVI normal indican falla derecha. Paso 3: la hipertensión pulmonar con cor pulmonale es la complicación descrita; dímero D normal y curso subagudo alejan la embolia.",
+   "por_que_no": [
+    "El curso es de un mes y el dímero D es normal; sería la opción ante disnea súbita con dímero elevado.",
+    "",
+    "Daría dolor súbito y murmullo abolido unilateral, no edemas ni hepatomegalia.",
+    "La ingurgitación yugular y el ventrículo derecho dilatado ubican el origen en el corazón derecho.",
+    "La FEVI es 60 %; la falla izquierda daría congestión pulmonar con fracción baja."
+   ],
+   "trampa": [
+    "diferencial",
+    "",
+    "otro-contexto",
+    "diferencial",
+    "diferencial"
+   ],
+   "perla": "Complicaciones de la fibrosis idiopática: hipertensión pulmonar y cor pulmonale.",
+   "fuente": {
+    "carpeta": "6.NEUMOLOGIA",
+    "archivo": "11. EPID.pdf",
+    "seccion": "p. 1"
+   },
+   "gemela_de": null
+  },
+  {
+   "id": "2026-10-22-banco-neumo-epid-neumoconiosis-micosis-010",
+   "enunciado": "Varón de 58 años, sin otras comorbilidades, recibe pirfenidona desde hace 3 años por un proceso con panal de abeja bibasal subpleural. En el último año su CVF bajó de 62 % a 45 % y la DLCO de 44 % a 31 %; ahora tiene disnea al vestirse. PA 120/75 mmHg, FC 98 X', FR 28 X', T° 36,5 °C, SatO2 84 % (FiO2 0,21) que sube a 92 % con oxígeno a 3 l/min. IMC 24; función renal y hepática normales. No fuma desde hace 10 años. ¿Qué medida definitiva corresponde plantear además del oxígeno?",
+   "opciones": [
+    "Suspender el antifibrótico por falta de respuesta",
+    "Cambiar a corticoide más inmunosupresor combinado",
+    "Referirlo para evaluación de trasplante pulmonar",
+    "Rehabilitación pulmonar como única medida añadida",
+    "Agregar prednisona a dosis altas al antifibrótico"
+   ],
+   "clave": 3,
+   "especialidad": "Neumología",
+   "tema": "Fibrosis pulmonar idiopática · enfermedad avanzada",
+   "diagnostico": "FPI avanzada con progresión pese a antifibrótico",
+   "tipo": "conducta",
+   "dificultad": "alta",
+   "razonamiento": "Paso 1: caída de CVF a 45 % y DLCO a 31 % con hipoxemia de reposo pese a pirfenidona indica progresión avanzada. Paso 2: es joven, sin comorbilidades ni tabaquismo activo, por lo que es candidato. Paso 3: en casos avanzados la medida definitiva es el trasplante pulmonar; corticoides e inmunosupresores no son útiles.",
+   "por_que_no": [
+    "Los antifibróticos solo retrasan la progresión, no la revierten; su uso sigue con medidas de soporte.",
+    "La inmunosupresión no detiene la fibrosis idiopática y aumenta efectos adversos.",
+    "",
+    "La rehabilitación acompaña a todas las fases, pero no es definitiva en enfermedad avanzada.",
+    "Los corticoides no son útiles en esta forma idiopática; sí en formas con buena respuesta esteroidea."
+   ],
+   "trampa": [
+    "otro-momento",
+    "mismo-grupo",
+    "",
+    "otro-estadio",
+    "diferencial"
+   ],
+   "perla": "Fibrosis idiopática que progresa pese al antifibrótico en paciente apto: evaluar trasplante.",
+   "fuente": {
+    "carpeta": "6.NEUMOLOGIA",
+    "archivo": "11. EPID.pdf",
+    "seccion": "p. 1"
+   },
+   "gemela_de": null
+  },
+  {
+   "id": "2026-10-22-banco-neumo-epid-neumoconiosis-micosis-011",
+   "enunciado": "Varón de 39 años, cortador y cargador en un ingenio azucarero de Lambayeque, refiere desde hace 5 meses episodios de fiebre, tos seca, disnea y malestar general que aparecen 4 a 6 horas después de manipular residuos secos de caña almacenados y mejoran los fines de semana. PA 120/78 mmHg, FC 104 X', FR 24 X', T° 38,2 °C, SatO2 91 % (FiO2 0,21). Crépitos finos difusos. Radiografía: infiltrados alveolares difusos bilaterales. Eosinófilos 300/µl; IgE total normal. ¿Qué mecanismo inmunológico explica el cuadro?",
+   "opciones": [
+    "Hipersensibilidad tipo III y IV a antígenos orgánicos",
+    "Hipersensibilidad tipo I mediada por IgE específica",
+    "Daño directo de macrófagos por partículas minerales",
+    "Hipersensibilidad tipo II con anticuerpos citotóxicos",
+    "Respuesta granulomatosa sin necrosis frente a un metal"
+   ],
+   "clave": 1,
+   "especialidad": "Neumología",
+   "tema": "Neumonitis por hipersensibilidad · bagazosis",
+   "diagnostico": "Bagazosis (neumonitis por hipersensibilidad a bagazo de caña)",
+   "tipo": "mecanismo",
+   "dificultad": "muy alta",
+   "razonamiento": "Paso 1: fiebre, tos y disnea horas después de manipular bagazo seco, que mejoran lejos del trabajo, indican relación con polvo orgánico. Paso 2: infiltrados alveolares difusos con IgE normal en trabajador de caña corresponden a la bagazosis, forma de neumonitis por hipersensibilidad. Paso 3: su mecanismo es inmunológico tipo III y IV, no IgE ni tóxico mineral.",
+   "por_que_no": [
+    "",
+    "Es el mecanismo del asma ocupacional, con sibilancias inmediatas; aquí la IgE es normal y el cuadro es tardío.",
+    "Es el mecanismo de la sílice, con nódulos en vértices; aquí el polvo es vegetal.",
+    "Actúa contra antígenos fijos de membrana, no contra polvo orgánico inhalado.",
+    "Corresponde al berilio en industria electrónica o aeroespacial, no al bagazo."
+   ],
+   "trampa": [
+    "",
+    "diferencial",
+    "diferencial",
+    "mismo-grupo",
+    "otro-contexto"
+   ],
+   "perla": "Bagazo de caña: neumonitis por hipersensibilidad tipo III y IV; crónica con fibrosis si no se retira.",
+   "fuente": {
+    "carpeta": "6.NEUMOLOGIA",
+    "archivo": "19. NEUMOCONIOSIS.pdf",
+    "seccion": "p. 1"
+   },
+   "gemela_de": null
+  },
+  {
+   "id": "2026-10-22-banco-neumo-epid-neumoconiosis-micosis-012",
+   "enunciado": "Varón de 50 años, perforista en minería subterránea de roca en Cerro de Pasco durante 22 años, sin uso regular de protección respiratoria. Desde hace 2 meses refiere tos con expectoración, sudoración nocturna, fiebre vespertina y pérdida de 7 kg. PA 110/70 mmHg, FC 102 X', FR 22 X', T° 38,0 °C, SatO2 90 % (FiO2 0,21). Radiografía: múltiples nódulos en ambos lóbulos superiores, adenopatías hiliares con calcificación periférica en anillo y una cavidad nueva de pared gruesa en el vértice derecho. Factor reumatoide negativo. ¿Qué examen corresponde solicitar en primer lugar?",
+   "opciones": [
+    "Baciloscopía y cultivo de esputo para micobacterias",
+    "Antígeno galactomanano en suero",
+    "Biopsia transbronquial de la lesión apical",
+    "Serología para hongo dimórfico por fijación del complemento",
+    "Citología de esputo para células atípicas"
+   ],
+   "clave": 1,
+   "especialidad": "Neumología",
+   "tema": "Silicosis · complicación infecciosa",
+   "diagnostico": "Silicotuberculosis en minero de roca",
+   "tipo": "prueba",
+   "dificultad": "alta",
+   "razonamiento": "Paso 1: minería de roca por 22 años, nódulos en lóbulos superiores y adenopatías con calcificación periférica en anillo (cáscara de huevo) indican exposición a sílice. Paso 2: la sílice aumenta unas 30 veces el riesgo de TB; fiebre, sudoración, baja de peso y cavidad nueva sugieren esa complicación. Paso 3: el primer examen es baciloscopía y cultivo de esputo.",
+   "por_que_no": [
+    "",
+    "Apoya la forma invasiva por hongos filamentosos en neutropénicos o trasplantados, no en este minero.",
+    "Es invasiva y posterior; primero se busca el bacilo en esputo, examen simple y de mayor rendimiento.",
+    "Orienta a la forma cavitaria por hongo dimórfico; la exposición a roca y la calcificación en anillo priorizan micobacterias.",
+    "Se pide ante sospecha de neoplasia; la fiebre vespertina y sudoración orientan a infección."
+   ],
+   "trampa": [
+    "",
+    "otra-poblacion",
+    "otro-momento",
+    "diferencial",
+    "diferencial"
+   ],
+   "perla": "Sílice + cavidad nueva + síntomas constitucionales: buscar TB (riesgo 30 veces mayor).",
+   "fuente": {
+    "carpeta": "6.NEUMOLOGIA",
+    "archivo": "19. NEUMOCONIOSIS.pdf",
+    "seccion": "p. 1"
+   },
+   "gemela_de": null
+  },
+  {
+   "id": "2026-10-22-banco-neumo-epid-neumoconiosis-micosis-013",
+   "enunciado": "Mujer de 44 años, trabajadora de una fábrica de cerámica y porcelana durante 16 años, acude a su evaluación ocupacional anual. Asintomática; no fuma ni tiene comorbilidades. PA 115/70 mmHg, FC 76 X', FR 16 X', T° 36,5 °C, SatO2 96 % (FiO2 0,21). Examen pulmonar normal. Radiografía: pequeños nódulos redondeados en ambos vértices y adenopatías hiliares con calcificación en cáscara de huevo. Baciloscopía de esputo negativa; VIH no reactivo. ¿Cuál es la conducta principal en este momento?",
+   "opciones": [
+    "Mantener el puesto usando mascarilla quirúrgica simple",
+    "Resección quirúrgica de los nódulos de los vértices",
+    "Pirfenidona oral de forma indefinida desde ahora",
+    "Retiro de la exposición a sílice y control periódico",
+    "Prednisona oral por seis meses y nueva radiografía"
+   ],
+   "clave": 4,
+   "especialidad": "Neumología",
+   "tema": "Silicosis · manejo",
+   "diagnostico": "Silicosis simple asintomática",
+   "tipo": "conducta",
+   "dificultad": "media",
+   "razonamiento": "Paso 1: cerámica y porcelana exponen a sílice; nódulos en vértices con adenopatías en cáscara de huevo corresponden a esa exposición. Paso 2: está asintomática, sin infección activa. Paso 3: no existe tratamiento farmacológico específico; la conducta es retirar la exposición y vigilar periódicamente, en especial la aparición de TB.",
+   "por_que_no": [
+    "La protección respiratoria previene antes de enfermar; con lesión ya establecida se debe retirar la exposición.",
+    "Los nódulos son múltiples y difusos; la cirugía se reserva para lesiones únicas como una bola fúngica que sangra.",
+    "El antifibrótico se indica en la forma idiopática con panal basal, no en nódulos apicales por polvo mineral.",
+    "",
+    "Los corticoides se usan en procesos inflamatorios por polvo orgánico; esta lesión mineral no tiene tratamiento específico."
+   ],
+   "trampa": [
+    "otro-momento",
+    "otro-contexto",
+    "otro-contexto",
+    "",
+    "diferencial"
+   ],
+   "perla": "Neumoconiosis: no tienen tratamiento específico; lo central es retirar la exposición.",
+   "fuente": {
+    "carpeta": "6.NEUMOLOGIA",
+    "archivo": "19. NEUMOCONIOSIS.pdf",
+    "seccion": "p. 1"
+   },
+   "gemela_de": null
+  },
+  {
+   "id": "2026-10-22-banco-neumo-epid-neumoconiosis-micosis-014",
+   "enunciado": "Varón de 69 años que trabajó 20 años instalando aislamiento térmico en un astillero del Callao; dejó ese trabajo hace 35 años. Refiere dolor torácico derecho sordo y continuo de 3 meses, disnea progresiva y pérdida de 8 kg. PA 120/80 mmHg, FC 96 X', FR 24 X', T° 36,8 °C, SatO2 92 % (FiO2 0,21). Matidez y abolición del murmullo en la base derecha. TEM: engrosamiento pleural nodular circunferencial derecho con derrame, placas pleurales calcificadas bilaterales y sin masa en el parénquima. Toracocentesis: líquido hemático, ADA 18 U/l, cultivos negativos. ¿Qué complicación de su exposición explica mejor el cuadro?",
+   "opciones": [
+    "Carcinoma epidermoide pulmonar periférico",
+    "Empiema por anaerobios tras aspiración",
+    "Tuberculosis pleural por reactivación",
+    "Derrame reumatoide del síndrome de Caplan",
+    "Mesotelioma pleural maligno"
+   ],
+   "clave": 5,
+   "especialidad": "Neumología",
+   "tema": "Asbestosis · neoplasia asociada",
+   "diagnostico": "Mesotelioma pleural maligno por exposición a asbesto",
+   "tipo": "complicacion",
+   "dificultad": "muy alta",
+   "razonamiento": "Paso 1: aislamiento térmico en astillero expone a asbesto; las placas pleurales calcificadas bilaterales lo confirman. Paso 2: dolor sordo, baja de peso, derrame hemático y engrosamiento pleural nodular circunferencial sin masa pulmonar, décadas después, sugieren neoplasia pleural primaria. Paso 3: la complicación asociada al asbesto con ese patrón es el mesotelioma.",
+   "por_que_no": [
+    "También se asocia al asbesto, pero produciría masa en el parénquima, ausente aquí.",
+    "Daría fiebre, líquido purulento y cultivos positivos, no engrosamiento nodular circunferencial.",
+    "El ADA de 18 U/l y la ausencia de fiebre la alejan; es la complicación típica de la sílice.",
+    "Caplan se da en mineros de carbón con artritis reumatoide y nódulos periféricos.",
+    ""
+   ],
+   "trampa": [
+    "diferencial",
+    "otro-contexto",
+    "diferencial",
+    "otro-contexto",
+    ""
+   ],
+   "perla": "Asbesto: bases, pleura, acropaquias; se asocia a mesotelioma y carcinoma broncogénico.",
+   "fuente": {
+    "carpeta": "6.NEUMOLOGIA",
+    "archivo": "Neumología -  Fundamentos teóricos_ENAM 2024.pdf",
+    "seccion": "Neumoconiosis, pp. 231-233"
+   },
+   "gemela_de": null
+  },
+  {
+   "id": "2026-10-22-banco-neumo-epid-neumoconiosis-micosis-015",
+   "enunciado": "Varón de 62 años, exoperario de una planta de frenos y embragues durante 25 años, con disnea de esfuerzo progresiva de 3 años y tos seca. PA 130/80 mmHg, FC 88 X', FR 22 X', T° 36,6 °C, SatO2 91 % (FiO2 0,21). Acropaquias y crépitos bibasales. Espirometría: CVF 61 %, VEF1/CVF 0,84. TEM: reticulación subpleural en ambas bases y engrosamiento pleural bilateral. Para fines de calificación de enfermedad profesional se obtiene una biopsia pulmonar. ¿Qué hallazgo histológico confirma la causa ocupacional?",
+   "opciones": [
+    "Levaduras intracelulares de 2 a 4 µm con halo claro",
+    "Granulomas caseificantes con bacilos ácido-alcohol resistentes",
+    "Hifas septadas en una cavidad con fibrina y moco",
+    "Granulomas no caseificantes sin necrosis central",
+    "Cuerpos ferruginosos en el tejido pulmonar"
+   ],
+   "clave": 5,
+   "especialidad": "Neumología",
+   "tema": "Asbestosis · confirmación histológica",
+   "diagnostico": "Asbestosis en operario de frenos y embragues",
+   "tipo": "prueba",
+   "dificultad": "alta",
+   "razonamiento": "Paso 1: frenos y embragues exponen a asbesto; reticulación bibasal subpleural, engrosamiento pleural y acropaquias con restricción lo apoyan. Paso 2: la lesión es basal, no apical, lo que aleja la sílice. Paso 3: el hallazgo histológico característico de la exposición a asbesto son los cuerpos ferruginosos.",
+   "por_que_no": [
+    "Corresponden a la forma diseminada por hongo dimórfico en pacientes con VIH.",
+    "Indican TB, complicación típica de la sílice y no del polvo de frenos.",
+    "Describen una bola fúngica en cavidad previa, no una lesión ocupacional difusa.",
+    "Se ven en exposición a berilio o en cuadros de tipo sarcoidosis, con adenopatías hiliares.",
+    ""
+   ],
+   "trampa": [
+    "otra-poblacion",
+    "otro-contexto",
+    "diferencial",
+    "diferencial",
+    ""
+   ],
+   "perla": "Cuerpos ferruginosos en la biopsia = asbesto.",
+   "fuente": {
+    "carpeta": "6.NEUMOLOGIA",
+    "archivo": "19. NEUMOCONIOSIS.pdf",
+    "seccion": "p. 1"
+   },
+   "gemela_de": null
+  },
+  {
+   "id": "2026-10-22-banco-neumo-epid-neumoconiosis-micosis-016",
+   "enunciado": "Varón de 56 años, minero de socavón de carbón durante 25 años en La Libertad, con dolor e hinchazón simétrica de metacarpofalángicas e interfalángicas proximales de 2 años, rigidez matinal de 1 hora y factor reumatoide 180 UI/ml. Tos leve, sin fiebre ni baja de peso. PA 125/80 mmHg, FC 80 X', FR 18 X', T° 36,7 °C, SatO2 95 % (FiO2 0,21). Radiografía: múltiples nódulos redondeados periféricos de 1 a 3 cm en ambos campos, sin cavitación ni adenopatías calcificadas. Baciloscopía de esputo negativa. ¿Cuál es el diagnóstico más probable?",
+   "opciones": [
+    "Metástasis pulmonares múltiples",
+    "Síndrome de Caplan",
+    "Fibrosis masiva progresiva",
+    "Beriliosis granulomatosa crónica",
+    "Silicotuberculosis cavitaria"
+   ],
+   "clave": 2,
+   "especialidad": "Neumología",
+   "tema": "Antracosis · síndrome de Caplan",
+   "diagnostico": "Síndrome de Caplan (neumoconiosis del carbón + artritis reumatoide)",
+   "tipo": "diagnostico",
+   "dificultad": "alta",
+   "razonamiento": "Paso 1: minero de carbón por 25 años indica exposición a polvo de carbón. Paso 2: poliartritis simétrica con rigidez matinal y factor reumatoide alto indican artritis reumatoide. Paso 3: la asociación de neumoconiosis del carbón con artritis reumatoide y nódulos pulmonares periféricos es el síndrome de Caplan.",
+   "por_que_no": [
+    "Darían baja de peso y un primario conocido; el contexto de carbón con artritis explica los nódulos.",
+    "",
+    "Es la forma grave del minero con conglomerados en lóbulos superiores, sin relación con artritis.",
+    "Se da en industria electrónica o aeroespacial, con adenopatías hiliares y cuadro tipo sarcoidosis.",
+    "Requiere exposición a sílice, síntomas constitucionales y cavidad; aquí no hay fiebre y el BK es negativo."
+   ],
+   "trampa": [
+    "diferencial",
+    "",
+    "otro-estadio",
+    "otro-contexto",
+    "diferencial"
+   ],
+   "perla": "Carbón + artritis reumatoide + nódulos periféricos = síndrome de Caplan.",
+   "fuente": {
+    "carpeta": "6.NEUMOLOGIA",
+    "archivo": "19. NEUMOCONIOSIS.pdf",
+    "seccion": "p. 1"
+   },
+   "gemela_de": null
+  },
+  {
+   "id": "2026-10-22-banco-neumo-epid-neumoconiosis-micosis-017",
+   "enunciado": "Mujer de 41 años, pulidora en un taller de marmolería y granito desde hace 14 años, consulta para control de salud ocupacional. Refiere disnea leve al subir pendientes, sin fiebre. No tiene VIH, diabetes ni uso de corticoides. PA 112/72 mmHg, FC 82 X', FR 18 X', T° 36,4 °C, SatO2 95 % (FiO2 0,21). Radiografía: micronódulos en campos superiores y ganglios hiliares con borde calcificado. El médico ocupacional programa búsqueda periódica de sintomáticos respiratorios y baciloscopías. ¿Qué mecanismo explica su mayor susceptibilidad a la infección por micobacterias?",
+   "opciones": [
+    "Granulomatosis sin necrosis inducida por un metal",
+    "Reacción de hipersensibilidad tipo III a polvo orgánico",
+    "Colonización de cavidades previas por hongos filamentosos",
+    "Daño de los macrófagos alveolares por la sílice inhalada",
+    "Depleción de linfocitos CD4 por infección retroviral"
+   ],
+   "clave": 4,
+   "especialidad": "Neumología",
+   "tema": "Silicosis · mecanismo de susceptibilidad a TB",
+   "diagnostico": "Silicosis con riesgo aumentado de tuberculosis",
+   "tipo": "mecanismo",
+   "dificultad": "alta",
+   "razonamiento": "Paso 1: pulido de mármol y granito expone a sílice; micronódulos en campos superiores con ganglios de borde calcificado lo confirman. Paso 2: la sílice es la neumoconiosis que predispone fuertemente a TB, unas 30 veces más. Paso 3: el mecanismo es el daño de los macrófagos alveolares que fagocitan la sílice, lo que reduce la defensa frente al bacilo.",
+   "por_que_no": [
+    "Corresponde al berilio; no se describe como factor de riesgo de TB.",
+    "Es el mecanismo del bagazo o polvo vegetal; no altera la defensa frente al bacilo.",
+    "Es el sustrato de la bola fúngica en cavidades post-TB, no de la susceptibilidad al bacilo.",
+    "",
+    "Explica TB en personas con VIH; esta paciente es no reactiva."
+   ],
+   "trampa": [
+    "diferencial",
+    "diferencial",
+    "otro-contexto",
+    "",
+    "otra-poblacion"
+   ],
+   "perla": "Sílice daña al macrófago alveolar: por eso la silicotuberculosis.",
+   "fuente": {
+    "carpeta": "6.NEUMOLOGIA",
+    "archivo": "19. NEUMOCONIOSIS.pdf",
+    "seccion": "p. 1"
+   },
+   "gemela_de": null
+  },
+  {
+   "id": "2026-10-22-banco-neumo-epid-neumoconiosis-micosis-018",
+   "enunciado": "Varón de 59 años, fumador de 25 paquetes-año, trabajó 18 años en demolición de edificios antiguos y en una fábrica de planchas de fibrocemento. Refiere disnea de esfuerzo de 2 años y tos seca, sin fiebre ni hemoptisis. PA 135/85 mmHg, FC 86 X', FR 20 X', T° 36,6 °C, SatO2 93 % (FiO2 0,21). Acropaquias y crépitos en ambas bases. Espirometría: CVF 67 %, VEF1/CVF 0,82. Se solicita tomografía de tórax para documentar la enfermedad laboral. ¿Qué hallazgo tomográfico es esperable por su antecedente laboral?",
+   "opciones": [
+    "Nódulos con halo de vidrio esmerilado periférico",
+    "Reticulación bibasal subpleural con engrosamiento pleural",
+    "Adenopatías hiliares bilaterales simétricas con infiltrados difusos",
+    "Cavidad apical con masa móvil y menisco aéreo",
+    "Nódulos en vértices con adenopatías en cáscara de huevo"
+   ],
+   "clave": 2,
+   "especialidad": "Neumología",
+   "tema": "Asbestosis · imagen esperada",
+   "diagnostico": "Asbestosis en trabajador de demolición y fibrocemento",
+   "tipo": "prueba",
+   "dificultad": "media",
+   "razonamiento": "Paso 1: demolición de edificios antiguos y fibrocemento exponen a asbesto. Paso 2: acropaquias, crépitos basales y restricción con Tiffeneau normal apoyan la afectación del parénquima por esa fibra. Paso 3: el asbesto afecta las bases, con reticulación subpleural y compromiso pleural; los vértices con cáscara de huevo corresponden a la sílice.",
+   "por_que_no": [
+    "Es el signo de la forma invasiva por hongos en neutropénicos, no de un polvo mineral.",
+    "",
+    "Sugiere berilio o cuadro tipo sarcoidosis, no exposición a fibrocemento.",
+    "Describe una bola fúngica en cavidad previa, típicamente post-TB.",
+    "Es la imagen de la sílice en mineros, canteras o cerámica, de predominio apical."
+   ],
+   "trampa": [
+    "otra-poblacion",
+    "",
+    "diferencial",
+    "otro-contexto",
+    "diferencial"
+   ],
+   "perla": "Sílice = vértices; asbesto = bases + pleura; carbón = ápices.",
+   "fuente": {
+    "carpeta": "6.NEUMOLOGIA",
+    "archivo": "19. NEUMOCONIOSIS.pdf",
+    "seccion": "p. 1"
+   },
+   "gemela_de": null
+  },
+  {
+   "id": "2026-10-22-banco-neumo-epid-neumoconiosis-micosis-019",
+   "enunciado": "Mujer de 38 años, operaria de una hilandería de algodón en Ica desde hace 8 años, refiere opresión torácica, tos y disnea que aparecen el primer día laboral de la semana tras el descanso dominical y disminuyen hacia el jueves. No fuma. PA 118/74 mmHg, FC 88 X', FR 20 X', T° 36,6 °C, SatO2 95 % (FiO2 0,21). Sibilantes espiratorios escasos el lunes por la tarde. Radiografía: infiltrados tenues mal definidos. Flujo espiratorio pico: 420 l/min el viernes y 310 l/min el lunes. ¿Qué evolución crónica se espera si continúa expuesta?",
+   "opciones": [
+    "Granulomatosis crónica tipo sarcoidosis",
+    "Silicotuberculosis cavitaria",
+    "Asma ocupacional crónica",
+    "Fibrosis masiva progresiva apical",
+    "Mesotelioma pleural difuso"
+   ],
+   "clave": 3,
+   "especialidad": "Neumología",
+   "tema": "Bisinosis · evolución",
+   "diagnostico": "Bisinosis (polvo de algodón)",
+   "tipo": "complicacion",
+   "dificultad": "media",
+   "razonamiento": "Paso 1: síntomas el primer día laboral tras el descanso, que ceden durante la semana, en hilandería de algodón, describen el síndrome del lunes. Paso 2: la caída del flujo pico el lunes confirma obstrucción variable ligada al trabajo, propia de la bisinosis. Paso 3: si la exposición continúa, evoluciona a asma ocupacional crónica.",
+   "por_que_no": [
+    "Es la evolución del berilio en industria electrónica o aeroespacial.",
+    "Es propia de la exposición a sílice en minería o canteras, no al algodón.",
+    "",
+    "Es la forma grave del minero de carbón, con conglomerados en lóbulos superiores.",
+    "Se asocia al asbesto en frenos, construcción o aislamiento, no a textiles de algodón."
+   ],
+   "trampa": [
+    "diferencial",
+    "otro-contexto",
+    "",
+    "otro-contexto",
+    "otro-contexto"
+   ],
+   "perla": "Algodón + síntomas del lunes = bisinosis, que evoluciona a asma ocupacional crónica.",
+   "fuente": {
+    "carpeta": "6.NEUMOLOGIA",
+    "archivo": "19. NEUMOCONIOSIS.pdf",
+    "seccion": "p. 1"
+   },
+   "gemela_de": null
+  },
+  {
+   "id": "2026-10-22-banco-neumo-epid-neumoconiosis-micosis-020",
+   "enunciado": "Varón de 43 años, técnico de una planta de componentes electrónicos y aeroespaciales donde mecaniza aleaciones metálicas ligeras desde hace 12 años. Presenta tos seca, disnea, fatiga y pérdida de 4 kg de 8 meses. PA 120/76 mmHg, FC 92 X', FR 22 X', T° 37,3 °C, SatO2 92 % (FiO2 0,21). Crépitos bibasales. TEM: infiltrados difusos bibasales y adenopatías hiliares bilaterales. Biopsia transbronquial: granulomas sin necrosis caseosa; baciloscopía y cultivo para hongos negativos. ¿Cuál es el diagnóstico más probable?",
+   "opciones": [
+    "Silicosis simple",
+    "Tuberculosis ganglionar",
+    "Beriliosis crónica",
+    "Histoplasmosis crónica cavitaria",
+    "Sarcoidosis pulmonar"
+   ],
+   "clave": 3,
+   "especialidad": "Neumología",
+   "tema": "Beriliosis · diferencial con sarcoidosis",
+   "diagnostico": "Beriliosis crónica",
+   "tipo": "diagnostico",
+   "dificultad": "muy alta",
+   "razonamiento": "Paso 1: mecanizado de aleaciones ligeras en industria electrónica y aeroespacial indica exposición a berilio. Paso 2: infiltrados bibasales, adenopatías hiliares bilaterales y granulomas sin necrosis reproducen un cuadro tipo sarcoidosis. Paso 3: con esa exposición laboral, el diagnóstico es beriliosis crónica.",
+   "por_que_no": [
+    "Daría nódulos en vértices y calcificación en cáscara de huevo, en mineros o canteras.",
+    "Mostraría granulomas con necrosis caseosa; aquí no hay necrosis y la baciloscopía es negativa.",
+    "",
+    "Tendría cavitaciones y granulomas con levaduras; el cultivo para hongos fue negativo.",
+    "Tiene igual histología y adenopatías hiliares, pero se plantea sin exposición laboral a berilio."
+   ],
+   "trampa": [
+    "diferencial",
+    "diferencial",
+    "",
+    "otro-contexto",
+    "diferencial"
+   ],
+   "perla": "Granulomas sin necrosis + adenopatías hiliares + industria aeroespacial = berilio, no sarcoidosis.",
+   "fuente": {
+    "carpeta": "6.NEUMOLOGIA",
+    "archivo": "19. NEUMOCONIOSIS.pdf",
+    "seccion": "p. 1"
+   },
+   "gemela_de": null
+  },
+  {
+   "id": "2026-10-22-banco-neumo-epid-neumoconiosis-micosis-021",
+   "enunciado": "Varón de 45 años de Huancayo, tratado y curado de tuberculosis pulmonar hace 9 años, consulta por tres episodios de hemoptisis de 50 a 80 ml en el último mes. PA 125/80 mmHg, FC 90 X', FR 18 X', T° 36,8 °C, SatO2 95 % (FiO2 0,21). Hemoglobina 12,8 g/dl; plaquetas y coagulación normales. TEM: cavidad de pared fina en el lóbulo superior derecho con una masa redondeada en su interior y un menisco de aire que se desplaza al cambiar de decúbito. Baciloscopía seriada y Xpert MTB/RIF negativos. VEF1 2,9 l (82 %). ¿Cuál es el tratamiento definitivo?",
+   "opciones": [
+    "Prednisona con itraconazol durante dos semanas",
+    "Embolización de arterias bronquiales como medida única",
+    "Voriconazol endovenoso por al menos seis semanas",
+    "Resección quirúrgica de la cavidad con la lesión",
+    "Reiniciar esquema antituberculoso de primera línea"
+   ],
+   "clave": 4,
+   "especialidad": "Neumología",
+   "tema": "Aspergiloma · tratamiento definitivo",
+   "diagnostico": "Aspergiloma en cavidad residual post-TB con hemoptisis recurrente",
+   "tipo": "tratamiento",
+   "dificultad": "media",
+   "razonamiento": "Paso 1: cavidad residual post-TB con masa móvil y menisco aéreo describe una bola de hifas en cavidad preexistente. Paso 2: baciloscopía y Xpert negativos descartan recaída; la hemoptisis recurrente es su complicación. Paso 3: con buena función pulmonar, el tratamiento definitivo es la cirugía; la embolización es puente.",
+   "por_que_no": [
+    "Se indica en la forma alérgica broncopulmonar de pacientes asmáticos.",
+    "Es puente en sangrado agudo o en pacientes no operables; aquí la función permite cirugía.",
+    "Es el tratamiento de la forma invasiva en neutropénicos o trasplantados, no de la bola en cavidad.",
+    "",
+    "Con baciloscopía y Xpert negativos no es recaída; es el error clásico ante cavidad post-TB que sangra."
+   ],
+   "trampa": [
+    "otro-contexto",
+    "otro-momento",
+    "otra-poblacion",
+    "",
+    "diferencial"
+   ],
+   "perla": "Bola móvil con menisco en cavidad post-TB que sangra: cirugía; no reiniciar antituberculosos.",
+   "fuente": {
+    "carpeta": "6.NEUMOLOGIA",
+    "archivo": "17. MICOSIS PULMONAR.pdf",
+    "seccion": "p. 1"
+   },
+   "gemela_de": null
+  },
+  {
+   "id": "2026-10-22-banco-neumo-epid-neumoconiosis-micosis-022",
+   "enunciado": "Mujer de 67 años con secuela fibrocavitaria de un tratamiento antituberculoso completado hace 25 años, usuaria de oxígeno domiciliario, con VEF1 0,7 l (30 %). Ingresa por hemoptisis de 300 ml en 24 horas. PA 100/60 mmHg, FC 112 X', FR 26 X', T° 36,9 °C, SatO2 88 % (FiO2 0,35). Hemoglobina 9,4 g/dl. TEM: masa esférica dentro de una cavidad apical izquierda rodeada por una semiluna de aire. El servicio de cirugía de tórax la considera no apta para resección por su reserva funcional. ¿Qué conducta corresponde para controlar el sangrado?",
+   "opciones": [
+    "Embolización de las arterias bronquiales",
+    "Lobectomía superior izquierda de urgencia",
+    "Anfotericina B liposomal endovenosa",
+    "Reinicio del esquema antituberculoso",
+    "Voriconazol endovenoso con dosis de carga"
+   ],
+   "clave": 1,
+   "especialidad": "Neumología",
+   "tema": "Aspergiloma · hemoptisis en paciente no operable",
+   "diagnostico": "Aspergiloma con hemoptisis importante en paciente no quirúrgico",
+   "tipo": "conducta",
+   "dificultad": "muy alta",
+   "razonamiento": "Paso 1: masa esférica en cavidad apical post-TB con semiluna de aire describe una bola de hifas en cavidad preexistente. Paso 2: la hemoptisis de 300 ml con reserva funcional muy baja impide la cirugía. Paso 3: la embolización de arterias bronquiales es la medida para pacientes no quirúrgicos o como puente.",
+   "por_que_no": [
+    "",
+    "Es el tratamiento definitivo en pacientes aptos; con VEF1 de 30 % no tolera la resección.",
+    "Antifúngico de formas graves o diseminadas; no detiene el sangrado de la cavidad.",
+    "Sin evidencia de reactivación, la imagen describe colonización fúngica, no recaída.",
+    "Trata la forma invasiva en inmunosuprimidos; no controla una hemoptisis por bola fúngica."
+   ],
+   "trampa": [
+    "",
+    "otra-poblacion",
+    "mismo-grupo",
+    "diferencial",
+    "otro-contexto"
+   ],
+   "perla": "Bola fúngica que sangra y paciente no operable: embolización de arterias bronquiales.",
+   "fuente": {
+    "carpeta": "6.NEUMOLOGIA",
+    "archivo": "Neumología -  Fundamentos teóricos_ENAM 2024.pdf",
+    "seccion": "Micosis pulmonares, pp. 202-220"
+   },
+   "gemela_de": null
+  },
+  {
+   "id": "2026-10-22-banco-neumo-epid-neumoconiosis-micosis-023",
+   "enunciado": "Varón de 34 años con leucemia mieloide aguda en quimioterapia de inducción, con neutrófilos de 80/µl desde hace 12 días. Persiste febril tras 5 días de cefepima y vancomicina. PA 105/65 mmHg, FC 118 X', FR 26 X', T° 38,9 °C, SatO2 91 % (FiO2 0,21). Tos seca y dolor pleurítico izquierdo. TEM: dos nódulos de 2 cm rodeados por un halo en vidrio esmerilado. Hemocultivos negativos; procalcitonina previa normal. ¿Qué examen sérico apoya la etiología más probable?",
+   "opciones": [
+    "Antígeno capsular por aglutinación en látex",
+    "IgE total y eosinófilos en sangre",
+    "Antígeno de hongo dimórfico en orina",
+    "Antígeno galactomanano en suero",
+    "Procalcitonina sérica cuantitativa"
+   ],
+   "clave": 4,
+   "especialidad": "Neumología",
+   "tema": "Aspergilosis invasiva · diagnóstico",
+   "diagnostico": "Aspergilosis pulmonar invasiva en neutropenia febril",
+   "tipo": "prueba",
+   "dificultad": "alta",
+   "razonamiento": "Paso 1: neutropenia prolongada con fiebre persistente pese a antibióticos de amplio espectro sugiere infección fúngica. Paso 2: nódulos con halo en vidrio esmerilado (hemorragia por angioinvasión) indican la forma invasiva por hongo filamentoso. Paso 3: el biomarcador sérico que la apoya es el antígeno galactomanano.",
+   "por_que_no": [
+    "Busca la levadura encapsulada en VIH con CD4 bajos, con meningitis subaguda.",
+    "Se piden en la forma alérgica broncopulmonar del asmático, no en el neutropénico.",
+    "Apoya la forma diseminada por hongo de cuevas en VIH, con hepatoesplenomegalia.",
+    "",
+    "Orienta a infección bacteriana; ya fue normal y la fiebre persiste pese a antibióticos amplios."
+   ],
+   "trampa": [
+    "otra-poblacion",
+    "otro-contexto",
+    "diferencial",
+    "",
+    "diferencial"
+   ],
+   "perla": "Neutropénico febril con nódulo y signo del halo: galactomanano sérico.",
+   "fuente": {
+    "carpeta": "6.NEUMOLOGIA",
+    "archivo": "17. MICOSIS PULMONAR.pdf",
+    "seccion": "p. 1"
+   },
+   "gemela_de": null
+  },
+  {
+   "id": "2026-10-22-banco-neumo-epid-neumoconiosis-micosis-024",
+   "enunciado": "Mujer de 52 años, receptora de trasplante renal hace 8 meses, en tratamiento con tacrolimus, micofenolato y prednisona, presenta fiebre de 6 días, tos y hemoptisis leve. Peso 60 kg. PA 110/70 mmHg, FC 110 X', FR 24 X', T° 38,6 °C, SatO2 92 % (FiO2 0,21). TEM: nódulos múltiples con halo de vidrio esmerilado. Antígeno galactomanano sérico positivo. Creatinina 1,1 mg/dl estable. ¿Qué esquema antifúngico de elección corresponde iniciar?",
+   "opciones": [
+    "Voriconazol EV 6 mg/kg c/12 h por 2 dosis, luego 4 mg/kg c/12 h",
+    "Anfotericina B desoxicolato con flucitosina oral diaria",
+    "Itraconazol VO 200 mg c/8 h por 3 días, luego 200 mg c/12 h",
+    "Anfotericina B liposomal 3-5 mg/kg/día por 1 a 2 semanas",
+    "Fluconazol EV 800 mg el primer día, luego 400 mg al día"
+   ],
+   "clave": 1,
+   "especialidad": "Neumología",
+   "tema": "Aspergilosis invasiva · tratamiento y dosis",
+   "diagnostico": "Aspergilosis pulmonar invasiva en trasplantada renal",
+   "tipo": "dosis",
+   "dificultad": "muy alta",
+   "razonamiento": "Paso 1: trasplantada con inmunosupresión triple, nódulos con halo y galactomanano positivo indican forma invasiva por hongo filamentoso. Paso 2: el fármaco de elección es el voriconazol. Paso 3: se inicia con carga de 6 mg/kg c/12 h por 2 dosis y luego 4 mg/kg c/12 h; equinocandinas, posaconazol o isavuconazol son alternativas.",
+   "por_que_no": [
+    "",
+    "Es la inducción de la meningitis por levadura encapsulada en VIH.",
+    "Es el esquema de la forma leve a moderada por hongo dimórfico de cuevas.",
+    "Es la inducción de la forma grave por hongo dimórfico; aquí la primera elección es otro azol.",
+    "Es azol para levaduras, sin cobertura útil frente a hongos filamentosos."
+   ],
+   "trampa": [
+    "",
+    "otra-poblacion",
+    "otro-contexto",
+    "otro-contexto",
+    "mismo-grupo"
+   ],
+   "perla": "Voriconazol: carga 6 mg/kg c/12 h × 2 dosis, luego 4 mg/kg c/12 h.",
+   "fuente": {
+    "carpeta": "6.NEUMOLOGIA",
+    "archivo": "Neumología -  Fundamentos teóricos_ENAM 2024.pdf",
+    "seccion": "Micosis pulmonares, pp. 202-220"
+   },
+   "gemela_de": null
+  },
+  {
+   "id": "2026-10-22-banco-neumo-epid-neumoconiosis-micosis-025",
+   "enunciado": "Mujer de 29 años con asma desde la infancia, mal controlada pese a budesonida/formoterol a dosis altas, refiere 4 exacerbaciones en el último año, expectoración de tapones marrones y sibilancias. PA 118/76 mmHg, FC 96 X', FR 22 X', T° 37,2 °C, SatO2 94 % (FiO2 0,21). Eosinófilos 1100/µl, IgE total 2600 UI/ml y prueba cutánea positiva frente a un moho ambiental. TEM: bronquiectasias centrales y opacidades migratorias en lóbulos superiores. ¿Cuál es el tratamiento indicado?",
+   "opciones": [
+    "Solo aumentar el corticoide inhalado y reevaluar en un mes",
+    "Voriconazol endovenoso como monoterapia de inicio",
+    "Prednisona 0,5 mg/kg/día por 14 días más antifúngico oral",
+    "Anfotericina B liposomal por dos semanas",
+    "Resección quirúrgica de los segmentos afectados"
+   ],
+   "clave": 3,
+   "especialidad": "Neumología",
+   "tema": "ABPA · tratamiento",
+   "diagnostico": "Aspergilosis broncopulmonar alérgica en asmática",
+   "tipo": "tratamiento",
+   "dificultad": "alta",
+   "razonamiento": "Paso 1: paciente asmática mal controlada con IgE total >1000, prueba cutánea positiva y eosinofilia >500 cumple los criterios obligatorios. Paso 2: bronquiectasias centrales y opacidades migratorias completan la forma alérgica broncopulmonar. Paso 3: se trata con prednisona 0,5 mg/kg por 14 días más antifúngico.",
+   "por_que_no": [
+    "Ajustar el inhalador corresponde al control de la enfermedad de base, insuficiente con IgE de 2600.",
+    "Es el tratamiento de la forma invasiva en neutropénicos; aquí el mecanismo es inmunoalérgico.",
+    "",
+    "Se usa en formas graves o diseminadas; no controla la respuesta inmune de la forma alérgica.",
+    "La cirugía se reserva para la bola fúngica en cavidad que sangra."
+   ],
+   "trampa": [
+    "otro-momento",
+    "otra-poblacion",
+    "",
+    "mismo-grupo",
+    "otro-contexto"
+   ],
+   "perla": "Asmático + IgE >1000 + eosinofilia + bronquiectasias centrales: prednisona + antifúngico.",
+   "fuente": {
+    "carpeta": "6.NEUMOLOGIA",
+    "archivo": "Neumología -  Fundamentos teóricos_ENAM 2024.pdf",
+    "seccion": "Micosis pulmonares, pp. 202-220"
+   },
+   "gemela_de": null
+  },
+  {
+   "id": "2026-10-22-banco-neumo-epid-neumoconiosis-micosis-026",
+   "enunciado": "Varón de 52 años, agricultor de Tingo María que limpia periódicamente una cueva habitada por murciélagos para extraer guano, presenta tos seca, hemoptisis leve, sudoración nocturna y pérdida de 9 kg de 5 meses. VIH no reactivo. PA 115/75 mmHg, FC 94 X', FR 20 X', T° 37,8 °C, SatO2 93 % (FiO2 0,21). Radiografía: cavitaciones apicales con tractos fibrosos. Tres baciloscopías y Xpert MTB/RIF negativos; biopsia por broncoscopía: granulomas con pequeñas levaduras. Estado hemodinámico estable. ¿Qué tratamiento corresponde indicar en este paciente?",
+   "opciones": [
+    "Anfotericina B liposomal seguida de itraconazol",
+    "Esquema antituberculoso 2HRZE/4HR diario por seis meses",
+    "Voriconazol EV 6 mg/kg c/12 h por dos dosis",
+    "Fluconazol oral de mantenimiento indefinido",
+    "Itraconazol oral 200 mg c/12 h por 6 a 12 semanas"
+   ],
+   "clave": 5,
+   "especialidad": "Neumología",
+   "tema": "Histoplasmosis crónica · tratamiento",
+   "diagnostico": "Histoplasmosis pulmonar crónica cavitaria (TBC serrana)",
+   "tipo": "tratamiento",
+   "dificultad": "media",
+   "razonamiento": "Paso 1: exposición a guano de murciélago en Huánuco con cuadro similar a TB y baciloscopías negativas sugiere hongo dimórfico. Paso 2: adulto inmunocompetente con cavitaciones y fibrosis apical corresponde a la forma crónica cavitaria (TBC serrana). Paso 3: la forma leve a moderada se trata con itraconazol.",
+   "por_que_no": [
+    "Se reserva para enfermedad grave o diseminada, típica del paciente con VIH.",
+    "Es el cuadro que imita; con baciloscopías y Xpert negativos y levaduras en biopsia no corresponde.",
+    "Es la elección para la forma invasiva por hongo filamentoso en neutropénicos.",
+    "Se usa en la consolidación de la meningitis por levadura encapsulada.",
+    ""
+   ],
+   "trampa": [
+    "otro-estadio",
+    "diferencial",
+    "otro-contexto",
+    "mismo-grupo",
+    ""
+   ],
+   "perla": "TBC serrana (Huánuco, Cajamarca, Chachapoyas, Tacna): forma crónica cavitaria → itraconazol.",
+   "fuente": {
+    "carpeta": "6.NEUMOLOGIA",
+    "archivo": "17. MICOSIS PULMONAR.pdf",
+    "seccion": "p. 1"
+   },
+   "gemela_de": null
+  },
+  {
+   "id": "2026-10-22-banco-neumo-epid-neumoconiosis-micosis-027",
+   "enunciado": "Varón de 31 años con infección por VIH sin tratamiento, CD4 35 cél/µl, procedente de Chachapoyas, presenta fiebre de 4 semanas, baja de peso, úlceras en paladar y pápulas umbilicadas en tronco. PA 85/50 mmHg, FC 124 X', FR 28 X', T° 39,2 °C, SatO2 89 % (FiO2 0,21). Hepatoesplenomegalia y adenopatías cervicales e inguinales. Plaquetas 62 000/µl, TGO 410 U/l, bilirrubina total 3,8 mg/dl. Biopsia de piel: levaduras de 2 a 4 µm con halo claro dentro de macrófagos. ¿Cuál es el tratamiento antifúngico inicial?",
+   "opciones": [
+    "Voriconazol oral con dosis de carga",
+    "Fluconazol oral 400 mg al día",
+    "Cotrimoxazol endovenoso con corticoide",
+    "Anfotericina B liposomal endovenosa",
+    "Itraconazol oral 200 mg cada 8 horas"
+   ],
+   "clave": 4,
+   "especialidad": "Neumología",
+   "tema": "Histoplasmosis diseminada · VIH",
+   "diagnostico": "Histoplasmosis diseminada en VIH avanzado",
+   "tipo": "tratamiento",
+   "dificultad": "muy alta",
+   "razonamiento": "Paso 1: VIH con CD4 35, fiebre, hepatoesplenomegalia y adenopatías forman la tríada de la forma diseminada; las levaduras de 2-4 µm con halo dentro de macrófagos confirman el hongo dimórfico. Paso 2: hipotensión, plaquetopenia y falla hepática indican gravedad. Paso 3: la forma diseminada grave se trata con anfotericina B (caspofungina como alternativa).",
+   "por_que_no": [
+    "Es la elección para hongos filamentosos invasivos con signo del halo.",
+    "Azol de levaduras encapsuladas en fase de consolidación; no es inducción para esta forma grave.",
+    "Trata la neumonía por Pneumocystis en VIH, con DHL alta y sin levaduras en macrófagos.",
+    "",
+    "Es para formas leves o crónicas; con hipotensión y falla hepática se requiere inducción endovenosa."
+   ],
+   "trampa": [
+    "otro-contexto",
+    "mismo-grupo",
+    "diferencial",
+    "",
+    "otro-estadio"
+   ],
+   "perla": "Fiebre + hepatoesplenomegalia + adenopatías en VIH con levaduras en macrófagos: anfotericina B.",
+   "fuente": {
+    "carpeta": "6.NEUMOLOGIA",
+    "archivo": "17. MICOSIS PULMONAR.pdf",
+    "seccion": "p. 1"
+   },
+   "gemela_de": null
+  },
+  {
+   "id": "2026-10-22-banco-neumo-epid-neumoconiosis-micosis-028",
+   "enunciado": "Niño de 10 años, natural de Lima, visitó hace 3 semanas con su colegio una cueva de la selva central donde habitan murciélagos. Desde hace 10 días presenta fiebre baja, tos seca y malestar; tres compañeros del viaje tienen síntomas similares. Inmunocompetente y eutrófico. PA 100/65 mmHg, FC 96 X', FR 22 X', T° 37,8 °C, SatO2 97 % (FiO2 0,21). Examen pulmonar sin alteraciones. Radiografía: adenopatía hiliar derecha y pequeños infiltrados difusos. Hemograma y transaminasas normales. ¿Cuál es la conducta más adecuada?",
+   "opciones": [
+    "Observación y control clínico sin antifúngico",
+    "Prednisona oral por dos semanas",
+    "Anfotericina B liposomal endovenosa",
+    "Esquema antituberculoso pediátrico de seis meses",
+    "Itraconazol oral durante 6 a 12 semanas"
+   ],
+   "clave": 1,
+   "especialidad": "Neumología",
+   "tema": "Histoplasmosis aguda · niño",
+   "diagnostico": "Histoplasmosis pulmonar aguda (primoinfección) en niño",
+   "tipo": "conducta",
+   "dificultad": "alta",
+   "razonamiento": "Paso 1: brote febril con tos en varios niños tras visitar una cueva con murciélagos indica inhalación de microconidias del hongo dimórfico. Paso 2: niño inmunocompetente, estable, con adenopatía hiliar e infiltrados leves corresponde a la primoinfección aguda. Paso 3: esta forma es autolimitada y no se trata; solo se controla.",
+   "por_que_no": [
+    "",
+    "Se usa en la forma alérgica broncopulmonar del asmático, no en primoinfección.",
+    "Es para la forma diseminada o grave, típica del paciente con VIH.",
+    "La adenopatía hiliar puede confundir, pero el brote tras visitar una cueva orienta al hongo.",
+    "Se indica en la forma crónica cavitaria del adulto o en cuadros moderados persistentes."
+   ],
+   "trampa": [
+    "",
+    "otro-contexto",
+    "otro-estadio",
+    "diferencial",
+    "otro-estadio"
+   ],
+   "perla": "Forma aguda en niños tras cuevas: autolimitada, no se trata.",
+   "fuente": {
+    "carpeta": "6.NEUMOLOGIA",
+    "archivo": "17. MICOSIS PULMONAR.pdf",
+    "seccion": "p. 1"
+   },
+   "gemela_de": null
+  },
+  {
+   "id": "2026-10-22-banco-neumo-epid-neumoconiosis-micosis-029",
+   "enunciado": "Varón de 50 años, agricultor de café en Satipo, fumador, presenta 7 meses de tos, disnea leve, baja de 6 kg y úlceras de fondo granular con puntillado hemorrágico en encías y paladar, con pérdida de dos piezas dentales. PA 120/75 mmHg, FC 90 X', FR 22 X', T° 37,4 °C, SatO2 93 % (FiO2 0,21). Adenopatías cervicales bilaterales. Radiografía: infiltrados bilaterales crónicos. KOH de raspado oral: levaduras con gemación múltiple en forma de timón de barco. Buen estado general, albúmina 3,6 g/dl, VIH no reactivo. ¿Qué tratamiento antifúngico corresponde en este caso?",
+   "opciones": [
+    "Fluconazol oral a dosis de mantenimiento",
+    "Anfotericina B endovenosa de inducción",
+    "Esquema antituberculoso de primera línea",
+    "Voriconazol endovenoso con carga",
+    "Itraconazol oral de forma prolongada"
+   ],
+   "clave": 5,
+   "especialidad": "Neumología",
+   "tema": "Paracoccidioidomicosis · tratamiento",
+   "diagnostico": "Paracoccidioidomicosis crónica del adulto, forma leve-moderada",
+   "tipo": "tratamiento",
+   "dificultad": "alta",
+   "razonamiento": "Paso 1: agricultor de selva con úlceras orales, pérdida de dientes, adenopatías cervicales e infiltrados pulmonares crónicos es el cuadro clásico de hongo dimórfico selvático. Paso 2: levaduras con gemación múltiple en timón de barco lo confirman. Paso 3: con buen estado general es forma leve a moderada: itraconazol; la anfotericina B queda para casos graves.",
+   "por_que_no": [
+    "Es el azol de consolidación de la levadura encapsulada en VIH.",
+    "Se reserva para casos graves o con compromiso del estado general.",
+    "La tos crónica y la baja de peso imitan TB, pero las levaduras en timón de barco cambian el diagnóstico.",
+    "Es la elección para hongos filamentosos invasivos en neutropénicos.",
+    ""
+   ],
+   "trampa": [
+    "mismo-grupo",
+    "otro-estadio",
+    "diferencial",
+    "otro-contexto",
+    ""
+   ],
+   "perla": "Selva + úlceras orales + timón de barco: leve itraconazol; grave anfotericina B.",
+   "fuente": {
+    "carpeta": "12. INFECTOLOGIA",
+    "archivo": "29. INFECCIONES POR HONGO .pdf",
+    "seccion": "p. 1"
+   },
+   "gemela_de": null
+  },
+  {
+   "id": "2026-10-22-banco-neumo-epid-neumoconiosis-micosis-030",
+   "enunciado": "Varón de 36 años con VIH sin tratamiento, CD4 48 cél/µl, que cría palomas en la azotea de su casa en Lima, presenta cefalea progresiva de 3 semanas, fiebre, vómitos y tos seca. PA 130/85 mmHg, FC 98 X', FR 20 X', T° 38,3 °C, SatO2 95 % (FiO2 0,21). Glasgow 14 y rigidez de nuca leve. Radiografía: pequeños nódulos pulmonares. LCR: presión de apertura 32 cm H2O, 20 células/mm3 a predominio linfocitario, glucosa 30 mg/dl; tinción con tinta china: levaduras encapsuladas. ¿Qué esquema de tratamiento inicial corresponde?",
+   "opciones": [
+    "Anfotericina B sola, luego itraconazol",
+    "Itraconazol oral por 6 a 12 semanas",
+    "Voriconazol EV con dosis de carga",
+    "Fluconazol oral como monoterapia desde el inicio",
+    "Anfotericina B con flucitosina, luego fluconazol"
+   ],
+   "clave": 5,
+   "especialidad": "Neumología",
+   "tema": "Criptococosis · tratamiento de inducción",
+   "diagnostico": "Meningitis criptocócica con compromiso pulmonar en VIH avanzado",
+   "tipo": "tratamiento",
+   "dificultad": "muy alta",
+   "razonamiento": "Paso 1: VIH con CD4 <100, contacto con palomas, cefalea subaguda y LCR con hipoglucorraquia y levaduras encapsuladas en tinta china indican meningitis por levadura encapsulada. Paso 2: los nódulos pulmonares reflejan la puerta de entrada inhalatoria. Paso 3: la inducción es anfotericina B más flucitosina (esteriliza el LCR) y luego fluconazol.",
+   "por_que_no": [
+    "Es la secuencia de la forma diseminada grave por hongo dimórfico; aquí falta la flucitosina que esteriliza el LCR.",
+    "Trata la forma crónica por hongo dimórfico de cuevas, no esta meningitis.",
+    "Es la elección para la forma invasiva por hongo filamentoso con signo del halo.",
+    "El fluconazol es la fase de consolidación tras la inducción, no el inicio.",
+    ""
+   ],
+   "trampa": [
+    "mismo-grupo",
+    "otro-contexto",
+    "otro-contexto",
+    "otro-momento",
+    ""
+   ],
+   "perla": "Palomas + VIH + tinta china: anfotericina B + flucitosina, luego fluconazol.",
+   "fuente": {
+    "carpeta": "12. INFECTOLOGIA",
+    "archivo": "29. INFECCIONES POR HONGO .pdf",
+    "seccion": "p. 1"
+   },
+   "gemela_de": null
+  }
+ ]
+}

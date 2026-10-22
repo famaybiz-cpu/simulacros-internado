@@ -1,0 +1,1190 @@
+{
+ "id": "2026-10-22-banco-neumo-insuf-resp-sdra",
+ "fecha": "2026-10-22",
+ "turno": "noche",
+ "titulo": "Banco · Insuficiencia respiratoria, gases arteriales y SDRA",
+ "segundos_por_pregunta": 60,
+ "temas_noche": [
+  "Insuficiencia respiratoria, gases arteriales y SDRA"
+ ],
+ "feedback_noche": "Aprueba quien lee el AGA en orden: PaCO2 (tipo I o II), HCO3 (agudo o crónico) y gradiente A-a (pulmón sano o enfermo), y recién después elige el soporte: meta 88–92% en el retenedor, BiPAP con CO2 alto y paciente despierto, CPAP en edema cardiogénico, intubación ante coma o fatiga. Se falla al calcular el P/F sin PEEP, al usar el peso real para el volumen corriente y al olvidar descartar el origen cardiogénico antes de etiquetar daño alveolar.",
+ "perlas_noche": [
+  "Gradiente A-a = (150 − PaCO2) − PaO2; normal ≤ edad/4 + 4. Normal = hipoventilación o FiO2 baja.",
+  "Si la PaO2 no sube con O2 al 100%, la sangre pasa por alvéolos no ventilados (V/Q = 0).",
+  "Retenedor de CO2: Venturi 24–28% y meta 88–92%; posparo 94–98%; infarto o ACV: O2 solo si SatO2 <90%.",
+  "BiPAP ventila (CO2 alto, paciente despierto); CPAP solo recluta (edema cardiogénico, falla oxigenatoria).",
+  "Daño alveolar agudo: P/F con PEEP ≥5; 6 ml/kg de peso predicho, meseta ≤30 y prono si P/F <150."
+ ],
+ "preguntas": [
+  {
+   "id": "2026-10-22-banco-neumo-insuf-resp-sdra-001",
+   "enunciado": "Varón de 71 años, exfumador de 50 paquetes-año, con disnea de esfuerzo desde hace 8 años y oxígeno domiciliario nocturno. Acude a un hospital de Chimbote (nivel del mar) por 3 días de más tos, esputo verdoso y somnolencia diurna. PA 138/84 mmHg, FC 104 X', FR 28 X', T° 37,4 °C, SatO2 84% con aire ambiente. Tórax en tonel, espiración prolongada con sibilantes difusos y asterixis leve. AGA con aire ambiente: pH 7,29; PaCO2 72 mmHg; PaO2 48 mmHg; HCO3 34 mEq/l. ¿Cómo se interpreta este trastorno gasométrico?",
+   "opciones": [
+    "Falla ventilatoria crónica reagudizada con compensación renal",
+    "Falla oxigenatoria pura con hiperventilación compensatoria",
+    "Trastorno metabólico primario con retención compensadora",
+    "Falla ventilatoria aguda pura, sin compensación renal todavía",
+    "Retención crónica de CO2 bien compensada, sin descompensar"
+   ],
+   "clave": 1,
+   "especialidad": "Neumología",
+   "tema": "Gases arteriales · agudo vs crónico",
+   "diagnostico": "Falla tipo II crónica reagudizada (EPOC exacerbado)",
+   "tipo": "diagnostico",
+   "dificultad": "alta",
+   "razonamiento": "Paso 1: pH 7,29 con PaCO2 72 indica fallo ventilatorio con acidemia, acompañado de PaO2 48. Paso 2: el HCO3 de 34 revela compensación renal de días, propia de retención crónica de CO2 en un enfermo pulmonar crónico. Paso 3: como el pH sigue ácido, hay una descompensación aguda sobre la base crónica: falla crónica reagudizada.",
+   "por_que_no": [
+    "",
+    "Exige PaCO2 normal o baja; aplica en neumonía o TEP con PaO2 <60 y PaCO2 ≤45.",
+    "Si el HCO3 alto fuera primario el pH estaría alcalino; el pH ácido señala que el CO2 es el trastorno primario.",
+    "El HCO3 de 34 indica compensación renal de días; con HCO3 normal y PaCO2 alta sí sería un evento agudo puro.",
+    "Con pH 7,29 la compensación es insuficiente; sería correcta con la misma PaCO2 y pH entre 7,35 y 7,45."
+   ],
+   "trampa": [
+    "",
+    "diferencial",
+    "diferencial",
+    "otro-momento",
+    "otro-estadio"
+   ],
+   "perla": "PaCO2 alta + HCO3 alto + pH ácido = crónica reagudizada; HCO3 normal = aguda; pH normal = crónica compensada.",
+   "fuente": {
+    "carpeta": "TARJETAS",
+    "archivo": "INSUF_RESPIRATORIA_SDRA_Tarjetas_ENAM_EsSalud.pdf",
+    "seccion": "② Lectura rápida de la gasometría · agudo vs crónico"
+   },
+   "gemela_de": null
+  },
+  {
+   "id": "2026-10-22-banco-neumo-insuf-resp-sdra-002",
+   "enunciado": "Mujer de 68 años operada hace 2 días de fractura de cadera en un hospital de Piura (nivel del mar). Por dolor recibe morfina en bomba y anoche se le dio diazepam 10 mg para dormir. Hoy la encuentran somnolienta, Glasgow 11, con pupilas puntiformes y ruidos hidroaéreos disminuidos. PA 102/64 mmHg, FC 62 X', FR 7 X', T° 36,6 °C, SatO2 88% con aire ambiente. Murmullo vesicular conservado, sin ruidos agregados; radiografía de tórax sin opacidades. AGA con aire ambiente: pH 7,26; PaCO2 64 mmHg; PaO2 68 mmHg; HCO3 27 mEq/l. ¿Qué mecanismo explica principalmente la caída de la PaO2?",
+   "opciones": [
+    "Engrosamiento difuso de la membrana alvéolo-capilar",
+    "Desproporción regional entre ventilación y perfusión",
+    "Menor presión inspirada de oxígeno en el ambiente",
+    "Paso de sangre por alvéolos sin ninguna ventilación",
+    "Ventilación alveolar insuficiente con pulmón sano"
+   ],
+   "clave": 5,
+   "especialidad": "Neumología",
+   "tema": "Mecanismos · gradiente A-a normal",
+   "diagnostico": "Hipoventilación por opioide y benzodiacepina",
+   "tipo": "mecanismo",
+   "dificultad": "muy alta",
+   "razonamiento": "Paso 1: gradiente A-a = (150 − 64) − 68 = 18, menor que el esperado para su edad (68/4 + 4 = 21): es normal. Paso 2: PaCO2 alta con gradiente normal y radiografía limpia indica que el pulmón intercambia bien. Paso 3: la miosis, la bradipnea y los depresores del SNC explican una ventilación alveolar insuficiente, que baja la PaO2 al subir la PaCO2 alveolar.",
+   "por_que_no": [
+    "Daría gradiente alto que empeora con el ejercicio; aplica en fibrosis pulmonar o EPID.",
+    "Daría gradiente alto (mayor al esperado por edad); aplica en EPOC, asma o neumonía inicial.",
+    "También da gradiente normal, pero con PaCO2 baja por hiperventilación; aplica en gran altura.",
+    "Daría gradiente alto y respuesta pobre al O2; sería el caso de neumonía lobar, atelectasia o daño alveolar.",
+    ""
+   ],
+   "trampa": [
+    "mismo-grupo",
+    "diferencial",
+    "otro-contexto",
+    "diferencial",
+    ""
+   ],
+   "perla": "PaCO2 alta + gradiente normal = el pulmón está sano; el problema es que el paciente no ventila.",
+   "fuente": {
+    "carpeta": "6.NEUMOLOGIA",
+    "archivo": "6. MECANISMO DE HIPOXEMIA.pdf",
+    "seccion": "p. 1 · 5. Hipoventilación alveolar; gradiente A-a normal"
+   },
+   "gemela_de": null
+  },
+  {
+   "id": "2026-10-22-banco-neumo-insuf-resp-sdra-003",
+   "enunciado": "Varón de 45 años con lumbalgia crónica en tratamiento con oxicodona; su esposa lo trae a la emergencia de un hospital del Callao 2 horas después de que tomó varias tabletas extra. Glasgow 9, pupilas mióticas, respiración superficial pero espontánea. PA 108/70 mmHg, FC 58 X', FR 6 X', T° 36,4 °C, SatO2 85% con aire ambiente; glucosa capilar 104 mg/dl. Pulmones sin ruidos agregados y ruidos hidroaéreos disminuidos. La capnografía muestra CO2 espirado de 62 mmHg. ¿Cuál es la conducta farmacológica y de soporte inmediata?",
+   "opciones": [
+    "Intubación orotraqueal sin administrar antagonista",
+    "Naloxona IV 0,2 a 1 mg con bolsa-válvula-mascarilla",
+    "BiPAP con mascarilla facial como primera medida",
+    "Naloxona IV 0,05 mg titulada más O2 de alto flujo",
+    "Cánula binasal 2 L/min y observación de la FR"
+   ],
+   "clave": 4,
+   "especialidad": "Neumología",
+   "tema": "Falla tipo II · depresión por opioides",
+   "diagnostico": "Intoxicación por opioides con respiración espontánea",
+   "tipo": "dosis",
+   "dificultad": "alta",
+   "razonamiento": "Paso 1: miosis, sopor y FR 6 con CO2 espirado alto indican depresión ventilatoria por opioide. Paso 2: respira espontáneamente y su SatO2 es <90%, por lo que necesita O2 de alto flujo y antídoto. Paso 3: la naloxona IV se inicia en 0,05 mg y se titula hasta lograr ventilación adecuada; si no responde, se evalúa ventilación mecánica.",
+   "por_que_no": [
+    "La ventilación mecánica se evalúa si no responde a la naloxona; no reemplaza al antídoto como primer paso.",
+    "Es el esquema del paciente apneico; aquí respira espontáneamente con FR 6 y se titula desde dosis bajas.",
+    "Glasgow 9 sin protección de vía aérea contraindica la VNI; sería útil en un retenedor despierto con pH bajo.",
+    "",
+    "Con SatO2 <90% y respiración espontánea corresponde alto flujo; el bajo flujo es para SatO2 90–94%."
+   ],
+   "trampa": [
+    "otro-momento",
+    "otro-estadio",
+    "otro-contexto",
+    "",
+    "umbral"
+   ],
+   "perla": "Opioide con respiración espontánea: naloxona 0,05 mg IV titulada; apneico: bolsa-válvula + naloxona 0,2–1 mg.",
+   "fuente": {
+    "carpeta": "6.NEUMOLOGIA",
+    "archivo": "Neumología -  Fundamentos teóricos_ENAM 2024.pdf",
+    "seccion": "p. 15 · Intoxicación con opioides"
+   },
+   "gemela_de": null
+  },
+  {
+   "id": "2026-10-22-banco-neumo-insuf-resp-sdra-004",
+   "enunciado": "Varón de 56 años, diabético, con 4 días de fiebre, tos con esputo herrumbroso y dolor pleurítico derecho. En un hospital de Trujillo (nivel del mar): PA 112/70 mmHg, FC 116 X', FR 32 X', T° 39,1 °C, SatO2 83% con aire ambiente. Matidez, soplo tubárico y crepitantes en todo el hemitórax derecho; la radiografía muestra consolidación homogénea de los lóbulos medio e inferior derechos con broncograma aéreo. AGA con aire ambiente: PaO2 50 mmHg, PaCO2 31 mmHg. Tras 30 minutos con mascarilla de reservorio a 15 L/min, la PaO2 sube solo a 57 mmHg. ¿Qué mecanismo explica la escasa respuesta al oxígeno?",
+   "opciones": [
+    "Desproporción regional entre ventilación y perfusión",
+    "Sangre que perfunde alvéolos ocupados que no ventilan",
+    "Menor presión inspirada de oxígeno en el ambiente",
+    "Engrosamiento difuso de la membrana alvéolo-capilar",
+    "Ventilación alveolar global insuficiente por fatiga"
+   ],
+   "clave": 2,
+   "especialidad": "Neumología",
+   "tema": "Mecanismos · respuesta al oxígeno",
+   "diagnostico": "Shunt intrapulmonar por consolidación lobar",
+   "tipo": "mecanismo",
+   "dificultad": "alta",
+   "razonamiento": "Paso 1: gradiente A-a = (150 − 31) − 50 = 69, muy elevado: falla del intercambio pulmonar. Paso 2: la PaO2 casi no sube con FiO2 alta, dato que separa este mecanismo de la alteración V/Q, que sí corrige. Paso 3: alvéolos llenos de exudado reciben perfusión sin ventilación (V/Q = 0) y la sangre llega desoxigenada a la circulación arterial.",
+   "por_que_no": [
+    "También eleva el gradiente, pero corrige bien al subir la FiO2; es lo típico de EPOC, asma o neumonía inicial.",
+    "",
+    "Corrige rápido con O2 y da gradiente normal; aplica en gran altura o cabinas despresurizadas.",
+    "La difusión responde al O2 y empeora con el ejercicio; aplica en fibrosis o EPID, no en consolidación lobar.",
+    "Daría PaCO2 alta y gradiente normal; aquí la PaCO2 es 31 por hiperventilación compensatoria."
+   ],
+   "trampa": [
+    "diferencial",
+    "",
+    "otro-contexto",
+    "mismo-grupo",
+    "otro-estadio"
+   ],
+   "perla": "PaO2 que no corrige con O2 al 100% = V/Q = 0: neumonía lobar, atelectasia, daño alveolar difuso.",
+   "fuente": {
+    "carpeta": "6.NEUMOLOGIA",
+    "archivo": "6. MECANISMO DE HIPOXEMIA.pdf",
+    "seccion": "p. 1 · 3. Shunt derecha-izquierda"
+   },
+   "gemela_de": null
+  },
+  {
+   "id": "2026-10-22-banco-neumo-insuf-resp-sdra-005",
+   "enunciado": "Mujer de 63 años, nunca fumadora, con 2 años de disnea progresiva y tos seca, evaluada en consultorio de un hospital de Lima. PA 124/78 mmHg, FC 92 X', FR 22 X', T° 36,8 °C, SatO2 93% con aire ambiente en reposo, que cae a 84% al tercer minuto de la prueba de caminata. Acropaquias y crepitantes finos tipo «velcro» en ambas bases. Tomografía: patrón reticular subpleural basal con imágenes en panal. Espirometría: CVF 64%, VEF1/CVF 0,88. ¿Qué mecanismo explica que la saturación caiga con el esfuerzo?",
+   "opciones": [
+    "Menor tiempo de contacto ante membrana engrosada",
+    "Paso de sangre por alvéolos colapsados sin ventilación",
+    "Desproporción ventilación/perfusión por atrapamiento",
+    "Ventilación alveolar global insuficiente al esfuerzo",
+    "Menor presión inspirada de oxígeno en el ambiente"
+   ],
+   "clave": 1,
+   "especialidad": "Neumología",
+   "tema": "Mecanismos · desaturación al esfuerzo",
+   "diagnostico": "Defecto de difusión en EPID fibrosante",
+   "tipo": "mecanismo",
+   "dificultad": "media",
+   "razonamiento": "Paso 1: crepitantes tipo velcro, acropaquias, panal subpleural y patrón restrictivo (CVF baja con VEF1/CVF normal) indican enfermedad intersticial fibrosante. Paso 2: la membrana alvéolo-capilar engrosada dificulta el paso de O2. Paso 3: con el ejercicio aumenta el gasto cardiaco y se acorta el tiempo de contacto alvéolo-capilar, por eso desatura al esfuerzo.",
+   "por_que_no": [
+    "",
+    "Ese mecanismo no corrige con O2 ni depende del esfuerzo; aplica en atelectasia, neumonía lobar o daño alveolar.",
+    "Predomina en EPOC y asma con patrón obstructivo; aquí la relación VEF1/CVF es normal y el patrón es restrictivo.",
+    "Daría PaCO2 alta con gradiente normal; aplica en depresión del SNC o enfermedad neuromuscular.",
+    "Da gradiente normal y afecta igual en reposo; aplica en gran altura o cabinas despresurizadas."
+   ],
+   "trampa": [
+    "",
+    "diferencial",
+    "mismo-grupo",
+    "diferencial",
+    "otro-contexto"
+   ],
+   "perla": "Defecto de difusión: gradiente alto, responde al O2 y empeora con el ejercicio (menor tiempo de contacto).",
+   "fuente": {
+    "carpeta": "6.NEUMOLOGIA",
+    "archivo": "6. MECANISMO DE HIPOXEMIA.pdf",
+    "seccion": "p. 1 · 2. Deterioro de la difusión"
+   },
+   "gemela_de": null
+  },
+  {
+   "id": "2026-10-22-banco-neumo-insuf-resp-sdra-006",
+   "enunciado": "Mujer de 74 años, viuda, encontrada en su domicilio de Chiclayo (nivel del mar) junto a un blíster vacío de clonazepam; los vecinos no la veían desde hacía 36 horas. Glasgow 12, pupilas normales. PA 128/76 mmHg, FC 106 X', FR 10 X', T° 38,2 °C, SatO2 82% con aire ambiente. Restos de vómito en la ropa; crepitantes y matidez en la base pulmonar derecha. AGA con aire ambiente: pH 7,31; PaCO2 58 mmHg; PaO2 46 mmHg; HCO3 28 mEq/l. ¿Qué examen se justifica de inmediato para explicar el gradiente alvéolo-arterial obtenido?",
+   "opciones": [
+    "Radiografía de tórax para buscar lesión parenquimal",
+    "Tomografía cerebral para descartar evento vascular",
+    "Presión inspiratoria máxima para descartar debilidad",
+    "Espirometría con prueba broncodilatadora",
+    "Dosaje urinario de benzodiacepinas como prioridad"
+   ],
+   "clave": 1,
+   "especialidad": "Neumología",
+   "tema": "Gradiente A-a · falla mixta",
+   "diagnostico": "Hipoventilación por benzodiacepinas + neumonía aspirativa",
+   "tipo": "prueba",
+   "dificultad": "muy alta",
+   "razonamiento": "Paso 1: PaCO2 58 con FR 10 indica hipoventilación por benzodiacepina. Paso 2: gradiente = (150 − 58) − 46 = 46, muy superior al esperado por edad (74/4 + 4 ≈ 22): no se explica solo por hipoventilación. Paso 3: vómito, fiebre y crepitantes basales derechos sugieren aspiración; la radiografía de tórax busca la lesión parenquimal sobreañadida.",
+   "por_que_no": [
+    "",
+    "Sería prioridad con focalización neurológica; el sopor ya se explica por el fármaco y no aclara el gradiente.",
+    "La PIM separa causa central de neuromuscular cuando el gradiente es normal; aquí el gradiente alto apunta al pulmón.",
+    "Se usa en el paciente estable para enfermedad obstructiva crónica; no tiene lugar en la evaluación aguda.",
+    "Confirma la exposición pero no explica la falla de intercambio; el gradiente alto exige buscar lesión pulmonar."
+   ],
+   "trampa": [
+    "",
+    "diferencial",
+    "diferencial",
+    "otro-momento",
+    "no-confirmatorio"
+   ],
+   "perla": "Gradiente alto en un paciente que hipoventila = hay además enfermedad pulmonar: búscala.",
+   "fuente": {
+    "carpeta": "6.NEUMOLOGIA",
+    "archivo": "5. INSUFICIENCIA RESPIRATORIA .pdf",
+    "seccion": "p. 1 · Gradiente alveolo arterial: GA-a normal vs alto"
+   },
+   "gemela_de": null
+  },
+  {
+   "id": "2026-10-22-banco-neumo-insuf-resp-sdra-007",
+   "enunciado": "Varón de 38 años, bebedor, hospitalizado en UCI por dolor epigástrico intenso con lipasa 12 veces el valor normal. Al tercer día presenta disnea progresiva y requiere intubación. PA 106/68 mmHg con noradrenalina a dosis baja, FC 118 X', T° 38,3 °C. Ventilado con volumen corriente de 6 ml/kg de peso predicho, PEEP 10 cmH2O y FiO2 0,6: PaO2 84 mmHg. Radiografía: opacidades alveolares bilaterales difusas con silueta cardiaca normal. Ecocardiograma con FEVI 62% y péptido natriurético normal. ¿Cómo se clasifica la severidad del compromiso pulmonar?",
+   "opciones": [
+    "No clasificable: la causa es extrapulmonar",
+    "Grave, por relación PaO2/FiO2 igual o menor de 100",
+    "Moderada, por relación PaO2/FiO2 entre 101 y 200",
+    "No clasificable: exige PEEP mínima de 15 cmH2O",
+    "Leve, por relación PaO2/FiO2 entre 201 y 300"
+   ],
+   "clave": 3,
+   "especialidad": "Neumología",
+   "tema": "SDRA · severidad por PaO2/FiO2",
+   "diagnostico": "SDRA moderado por pancreatitis aguda",
+   "tipo": "severidad",
+   "dificultad": "alta",
+   "razonamiento": "Paso 1: PaO2/FiO2 = 84/0,6 = 140, medida con PEEP 10 (≥5). Paso 2: inicio en menos de 7 días tras un insulto inflamatorio, opacidades bilaterales y ecocardiograma normal que descarta origen cardiogénico. Paso 3: con relación entre 101 y 200 la severidad es moderada.",
+   "por_que_no": [
+    "Las causas indirectas como la pancreatitis sí cuentan; solo se excluye el edema explicado por falla cardiaca.",
+    "Requeriría PaO2 ≤60 con FiO2 0,6; sería el escenario de prono precoz.",
+    "",
+    "La definición solo exige PEEP ≥5 cmH2O; 15 es un valor de tratamiento, no un requisito diagnóstico.",
+    "Correspondería a una PaO2 mayor de 120 con la misma FiO2 0,6; aquí 84/0,6 = 140."
+   ],
+   "trampa": [
+    "diferencial",
+    "umbral",
+    "",
+    "umbral",
+    "umbral"
+   ],
+   "perla": "P/F con PEEP ≥5: 201–300 leve, 101–200 moderada, ≤100 grave.",
+   "fuente": {
+    "carpeta": "6.NEUMOLOGIA",
+    "archivo": "10. SDRA.pdf",
+    "seccion": "p. 1 · Criterios de Berlín y clasificación"
+   },
+   "gemela_de": null
+  },
+  {
+   "id": "2026-10-22-banco-neumo-insuf-resp-sdra-008",
+   "enunciado": "Mujer de 27 años rescatada de una piscina tras 4 minutos sumergida; recibió RCP básica con retorno de pulso en el lugar. A las 5 horas, en la emergencia de un hospital de Ica: PA 116/72 mmHg, FC 120 X', FR 34 X', T° 36,9 °C, SatO2 86% con mascarilla de reservorio (FiO2 estimada 0,8). Crepitantes bilaterales difusos. Radiografía: opacidades alveolares bilaterales con silueta cardiaca normal; ecocardiograma a la cabecera con buena función ventricular. AGA con la mascarilla: PaO2 64 mmHg, PaCO2 33 mmHg. ¿Qué se necesita para clasificar correctamente la severidad del cuadro pulmonar?",
+   "opciones": [
+    "Tomografía de tórax que confirme la bilateralidad",
+    "Esperar 7 días para confirmar la persistencia",
+    "Péptido natriurético antes de cualquier clasificación",
+    "Repetir la AGA tras 20 minutos con FiO2 de 1,0",
+    "Repetir la AGA con PEEP de al menos 5 cmH2O aplicada"
+   ],
+   "clave": 5,
+   "especialidad": "Neumología",
+   "tema": "SDRA · requisito de PEEP",
+   "diagnostico": "Lesión alveolar aguda por ahogamiento (P/F sin PEEP)",
+   "tipo": "prueba",
+   "dificultad": "muy alta",
+   "razonamiento": "Paso 1: ahogamiento (causa directa) seguido en horas de opacidades bilaterales con corazón normal. Paso 2: la relación PaO2/FiO2 = 64/0,8 = 80 parece grave, pero se midió sin presión positiva. Paso 3: la clasificación solo es válida con PEEP ≥5 cmH2O (VNI, CPAP o ventilador), por lo que hay que repetir la AGA en esas condiciones.",
+   "por_que_no": [
+    "La radiografía o la ecografía pulmonar bastan para el criterio de imagen; la TEM no es requisito.",
+    "Los 7 días son el plazo máximo de instalación desde el insulto, no un tiempo de espera para clasificar.",
+    "El origen cardiogénico ya se descartó con el ecocardiograma; sería útil si la eco fuera dudosa.",
+    "Subir la FiO2 no cumple el requisito; la relación solo es válida medida con PEEP ≥5 cmH2O.",
+    ""
+   ],
+   "trampa": [
+    "no-confirmatorio",
+    "umbral",
+    "otro-momento",
+    "otro",
+    ""
+   ],
+   "perla": "Un P/F medido sin PEEP no clasifica: repítelo con PEEP ≥5 cmH2O.",
+   "fuente": {
+    "carpeta": "TARJETAS",
+    "archivo": "INSUF_RESPIRATORIA_SDRA_Tarjetas_ENAM_EsSalud.pdf",
+    "seccion": "④ Criterios de Berlín · TRAMPA del P/F sin PEEP"
+   },
+   "gemela_de": null
+  },
+  {
+   "id": "2026-10-22-banco-neumo-insuf-resp-sdra-009",
+   "enunciado": "Mujer de 52 años, obesa, ingresa a UCI por sepsis de origen biliar; a las 30 horas presenta taquipnea y desaturación progresiva y se decide intubarla. Talla 1,60 m, peso real 92 kg y peso predicho por talla y sexo de 52 kg. PA 98/60 mmHg con vasopresor, FC 122 X', T° 38,8 °C. Radiografía: opacidades alveolares bilaterales en parches con silueta cardiaca normal; ecocardiograma con FEVI 58%. Con PEEP 10 cmH2O y FiO2 0,7 la PaO2 es 91 mmHg. ¿Qué volumen corriente inicial corresponde programar?",
+   "opciones": [
+    "312 ml",
+    "552 ml",
+    "736 ml",
+    "520 ml",
+    "460 ml"
+   ],
+   "clave": 1,
+   "especialidad": "Neumología",
+   "tema": "Ventilación protectora · volumen corriente",
+   "diagnostico": "SDRA moderado por sepsis biliar en obesa",
+   "tipo": "dosis",
+   "dificultad": "alta",
+   "razonamiento": "Paso 1: sepsis, opacidades bilaterales en menos de 7 días, ecocardiograma normal y P/F 91/0,7 = 130 con PEEP 10: daño alveolar moderado. Paso 2: requiere ventilación protectora con 6 ml/kg calculados con el peso PREDICHO. Paso 3: 6 × 52 = 312 ml; usar el peso real (92 kg) sobredistiende los alvéolos.",
+   "por_que_no": [
+    "",
+    "Es 6 ml/kg del peso real; en la obesa el peso real sobredistiende. Solo sería igual si peso real y predicho coincidieran.",
+    "Es 8 ml/kg del peso real: suma el error del peso real y un volumen alto, causa de volutrauma.",
+    "Corresponde a 10 ml/kg de peso predicho, por encima del rango protector de 4–8 ml/kg.",
+    "Parece bajo porque es 5 ml/kg del peso real, pero equivale a casi 9 ml/kg del peso predicho."
+   ],
+   "trampa": [
+    "",
+    "otra-poblacion",
+    "otro",
+    "umbral",
+    "mismo-grupo"
+   ],
+   "perla": "Volumen protector = 6 ml/kg de peso PREDICHO (talla y sexo), nunca del peso real.",
+   "fuente": {
+    "carpeta": "TARJETAS",
+    "archivo": "INSUF_RESPIRATORIA_SDRA_Tarjetas_ENAM_EsSalud.pdf",
+    "seccion": "⑥ Ventilación protectora · TRAMPA CRÍTICA peso predicho"
+   },
+   "gemela_de": null
+  },
+  {
+   "id": "2026-10-22-banco-neumo-insuf-resp-sdra-010",
+   "enunciado": "Varón de 44 años, sin comorbilidades, con 5 días de fiebre, mialgias y tos durante un brote de influenza en su centro laboral; hoy está intubado en la UCI de un hospital de Lima. Peso predicho 70 kg; ventilado con volumen corriente de 420 ml, PEEP 12 cmH2O y FiO2 0,6. PA 118/72 mmHg, FC 104 X', T° 38,0 °C. Presión meseta medida: 34 cmH2O. AGA: pH 7,34; PaCO2 47 mmHg; PaO2 96 mmHg. Radiografía con opacidades alveolares bilaterales; ecocardiograma normal. ¿Qué ajuste ventilatorio corresponde realizar ahora?",
+   "opciones": [
+    "Subir el volumen a 8 ml/kg para bajar la PaCO2",
+    "Iniciar óxido nítrico inhalado de forma continua",
+    "Bajar el volumen corriente hasta meseta ≤30 cmH2O",
+    "Subir la PEEP a 18 cmH2O para reclutar más alvéolos",
+    "Iniciar bloqueo neuromuscular continuo de rutina"
+   ],
+   "clave": 3,
+   "especialidad": "Neumología",
+   "tema": "Ventilación protectora · presión meseta",
+   "diagnostico": "SDRA moderado por influenza con meseta alta",
+   "tipo": "tratamiento",
+   "dificultad": "muy alta",
+   "razonamiento": "Paso 1: influenza (causa directa), opacidades bilaterales, ecocardiograma normal y P/F 96/0,6 = 160 con PEEP 12. Paso 2: aunque el volumen ya es 6 ml/kg de peso predicho, la meseta de 34 supera el límite protector de 30 cmH2O. Paso 3: se reduce el volumen corriente (hacia 4–5 ml/kg) hasta llevar la meseta a ≤30 y evitar el barotrauma.",
+   "por_que_no": [
+    "Aumentaría la meseta y el volutrauma; 8 ml/kg es el límite alto del rango y no aplica con meseta ya >30.",
+    "Mejora la oxigenación de forma transitoria sin reducir mortalidad; es rescate, no solución a la meseta alta.",
+    "",
+    "Más PEEP elevaría aún más la meseta; la PEEP se ajusta por tabla PEEP/FiO2 una vez controlada la meseta.",
+    "La fuente indica evitar el bloqueo neuromuscular de rutina; además no corrige la sobredistensión."
+   ],
+   "trampa": [
+    "umbral",
+    "otro-contexto",
+    "",
+    "otro-momento",
+    "mismo-grupo"
+   ],
+   "perla": "Ventilación protectora: 6 ml/kg de peso predicho y meseta ≤30; si la meseta sube, baja el volumen.",
+   "fuente": {
+    "carpeta": "TARJETAS",
+    "archivo": "INSUF_RESPIRATORIA_SDRA_Tarjetas_ENAM_EsSalud.pdf",
+    "seccion": "⑥ Ventilación protectora · presión plateau ≤30"
+   },
+   "gemela_de": null
+  },
+  {
+   "id": "2026-10-22-banco-neumo-insuf-resp-sdra-011",
+   "enunciado": "Mujer de 33 años con 3 días de fiebre, disuria y dolor lumbar derecho, hospitalizada por shock que respondió a fluidos y antibiótico. Al segundo día de UCI se intuba por disnea progresiva. Hoy, con volumen corriente de 6 ml/kg de peso predicho, PEEP 14 cmH2O y FiO2 0,8, la PaO2 es 88 mmHg y la presión meseta 27 cmH2O. PA 112/70 mmHg sin vasopresor, FC 98 X', T° 37,6 °C. Radiografía: opacidades bilaterales difusas; ecocardiograma con FEVI 60%. ¿Cuál es la siguiente medida con beneficio demostrado en mortalidad?",
+   "opciones": [
+    "Metilprednisolona en bolos durante tres días",
+    "ECMO venovenosa como siguiente paso inmediato",
+    "Decúbito prono más de 12 a 16 horas al día",
+    "Surfactante exógeno por vía endotraqueal",
+    "Óxido nítrico inhalado en forma continua"
+   ],
+   "clave": 3,
+   "especialidad": "Neumología",
+   "tema": "SDRA · pronación",
+   "diagnostico": "SDRA moderado-grave por sepsis urinaria",
+   "tipo": "tratamiento",
+   "dificultad": "alta",
+   "razonamiento": "Paso 1: sepsis urinaria (causa indirecta), opacidades bilaterales, FEVI normal y P/F 88/0,8 = 110 con PEEP 14. Paso 2: ya recibe volumen protector con meseta ≤30, pero el P/F sigue por debajo de 150. Paso 3: el decúbito prono por más de 12–16 h al día mejora la oxigenación y reduce la mortalidad en este escenario.",
+   "por_que_no": [
+    "Los corticoides son controvertidos; la fuente los considera útiles en causa quirúrgica e indiferentes en la bacteriana.",
+    "Se reserva para casos refractarios tras optimizar la ventilación y el prono, que aún no se ha intentado.",
+    "",
+    "No reduce mortalidad en el adulto ni es estándar de manejo, aunque mejore la oxigenación brevemente.",
+    "Mejora la oxigenación de forma transitoria sin reducir mortalidad; sería solo rescate en refractarios."
+   ],
+   "trampa": [
+    "otro-contexto",
+    "otro-momento",
+    "",
+    "mismo-grupo",
+    "mismo-grupo"
+   ],
+   "perla": "P/F <150 pese a ventilación protectora → prono >12–16 h/día; ECMO solo si es refractario.",
+   "fuente": {
+    "carpeta": "TARJETAS",
+    "archivo": "INSUF_RESPIRATORIA_SDRA_Tarjetas_ENAM_EsSalud.pdf",
+    "seccion": "⑥ Ventilación protectora · posición prono"
+   },
+   "gemela_de": null
+  },
+  {
+   "id": "2026-10-22-banco-neumo-insuf-resp-sdra-012",
+   "enunciado": "Varón de 29 años, motociclista, con fractura de fémur y de pelvis, que recibió 6 litros de cristaloides en las primeras 24 horas. Al tercer día, intubado en la UCI de un hospital de Huacho: PA 126/78 mmHg sin vasopresores, FC 92 X', T° 37,4 °C, lactato 1,4 mmol/l, diuresis 1 ml/kg/h y balance hídrico acumulado de +7,2 L. Con PEEP 10 cmH2O y FiO2 0,5 la PaO2 es 92 mmHg. Radiografía: opacidades alveolares bilaterales con silueta cardiaca normal; ecocardiograma con FEVI 64%. ¿Qué estrategia de fluidos corresponde?",
+   "opciones": [
+    "Albúmina con cristaloides para subir la presión oncótica",
+    "Mantener aporte liberal para proteger la función renal",
+    "Estrategia conservadora con balance hídrico negativo",
+    "Bolos de cristaloide guiados por la diuresis horaria",
+    "Transfundir para mantener hemoglobina mayor de 10 g/dl"
+   ],
+   "clave": 3,
+   "especialidad": "Neumología",
+   "tema": "SDRA · manejo de fluidos",
+   "diagnostico": "SDRA moderado por trauma mayor con balance positivo",
+   "tipo": "tratamiento",
+   "dificultad": "alta",
+   "razonamiento": "Paso 1: trauma mayor (causa indirecta), opacidades bilaterales en menos de 7 días, ecocardiograma normal y P/F 92/0,5 = 184 con PEEP 10: compromiso moderado. Paso 2: está hemodinámicamente estable (PA, lactato y diuresis normales) con balance de +7,2 L. Paso 3: el manejo conservador de fluidos, buscando balance negativo, reduce el edema por permeabilidad y mejora el desenlace.",
+   "por_que_no": [
+    "No es la estrategia de la fuente; sumar volumen a un balance positivo agrava el edema por permeabilidad.",
+    "El aporte liberal empeora el edema alveolar; la fase de reanimación ya terminó.",
+    "",
+    "Sería correcto en shock con hipoperfusión; aquí la PA, el lactato y la diuresis son normales.",
+    "La politransfusión es en sí misma causa indirecta de lesión pulmonar y no mejora la oxigenación aquí."
+   ],
+   "trampa": [
+    "mismo-grupo",
+    "otro-momento",
+    "",
+    "otro-contexto",
+    "otro"
+   ],
+   "perla": "Daño alveolar con hemodinamia estable: fluidos conservadores y balance negativo.",
+   "fuente": {
+    "carpeta": "6.NEUMOLOGIA",
+    "archivo": "10. SDRA.pdf",
+    "seccion": "p. 1 · Tratamiento de SDRA: fluidoterapia"
+   },
+   "gemela_de": null
+  },
+  {
+   "id": "2026-10-22-banco-neumo-insuf-resp-sdra-013",
+   "enunciado": "Varón de 69 años, hipertenso y diabético, hospitalizado hace 4 días por colangitis; hoy presenta disnea progresiva. PA 132/80 mmHg, FC 112 X', FR 32 X', T° 38,4 °C, SatO2 87% con mascarilla de reservorio. Ingurgitación yugular difícil de valorar por obesidad, crepitantes bilaterales y edema maleolar leve. Balance hídrico acumulado de +3 L. Radiografía portátil: opacidades alveolares bilaterales con silueta cardiaca difícil de evaluar. ¿Qué evaluación permite establecer el origen del edema antes de definir el manejo?",
+   "opciones": [
+    "Tomografía de tórax de alta resolución",
+    "Ecocardiograma y péptido natriurético",
+    "Hemocultivos seriados y procalcitonina",
+    "Angiotomografía pulmonar con contraste",
+    "Broncoscopía con lavado broncoalveolar"
+   ],
+   "clave": 2,
+   "especialidad": "Neumología",
+   "tema": "SDRA · exclusión del origen cardiogénico",
+   "diagnostico": "Sospecha de SDRA por colangitis vs edema cardiogénico",
+   "tipo": "prueba",
+   "dificultad": "media",
+   "razonamiento": "Paso 1: sepsis biliar con opacidades bilaterales de inicio agudo sugiere edema por permeabilidad. Paso 2: pero es hipertenso, con balance positivo y examen dudoso, de modo que un origen cardiogénico o por sobrecarga debe excluirse (criterio obligatorio). Paso 3: el ecocardiograma (función ventricular) y el péptido natriurético son las herramientas para descartarlo.",
+   "por_que_no": [
+    "Precisa la distribución de las opacidades, pero no distingue el origen cardiogénico del de permeabilidad.",
+    "",
+    "Orientan la sepsis de fondo, pero no aclaran si el edema es hidrostático o por permeabilidad.",
+    "Se pide ante sospecha de TEP; no evalúa la función ventricular ni la presión de llenado.",
+    "Útil para buscar infección o hemorragia alveolar; no excluye la falla cardiaca."
+   ],
+   "trampa": [
+    "no-confirmatorio",
+    "",
+    "otro",
+    "diferencial",
+    "otro-contexto"
+   ],
+   "perla": "Antes de etiquetar edema por permeabilidad, descarta lo cardiogénico con ecocardiograma y BNP.",
+   "fuente": {
+    "carpeta": "6.NEUMOLOGIA",
+    "archivo": "Neumología -  Fundamentos teóricos_ENAM 2024.pdf",
+    "seccion": "p. 80 · ¿Cómo excluimos la causa cardiogénica?"
+   },
+   "gemela_de": null
+  },
+  {
+   "id": "2026-10-22-banco-neumo-insuf-resp-sdra-014",
+   "enunciado": "Mujer de 78 años, hipertensa mal controlada, que despierta a las 3 a. m. con disnea intensa y tos con esputo rosado espumoso. En la emergencia de un hospital de Lima: PA 186/104 mmHg, FC 118 X', FR 32 X', T° 36,7 °C, SatO2 84% con aire ambiente; consciente y colaboradora. Crepitantes hasta campos medios, tercer ruido y edema maleolar. Radiografía: cardiomegalia con opacidades perihiliares en «alas de mariposa». AGA: pH 7,36; PaCO2 38 mmHg; PaO2 52 mmHg; HCO3 21 mEq/l. Ya recibió furosemida y nitroglicerina. ¿Qué soporte respiratorio se indica?",
+   "opciones": [
+    "Intubación y ventilación con 6 ml/kg predicho",
+    "Ventilación en decúbito prono por 16 horas",
+    "CPAP con mascarilla facial bien ajustada",
+    "Cánula binasal a 3 L/min con meta 92–96%",
+    "Mascarilla Venturi al 28% con meta 88–92%"
+   ],
+   "clave": 3,
+   "especialidad": "Neumología",
+   "tema": "VNI · CPAP",
+   "diagnostico": "Edema agudo de pulmón cardiogénico hipertensivo",
+   "tipo": "tratamiento",
+   "dificultad": "media",
+   "razonamiento": "Paso 1: HTA, disnea súbita nocturna, esputo espumoso, S3, cardiomegalia y alas de mariposa indican edema pulmonar cardiogénico. Paso 2: PaO2 52 con PaCO2 normal: falla oxigenatoria sin retención de CO2. Paso 3: la CPAP recluta alvéolos y disminuye precarga y poscarga; es la VNI de elección en este cuadro, con paciente consciente y colaboradora.",
+   "por_que_no": [
+    "No tiene criterios de intubación: está consciente, colabora y su PaCO2 es normal; sería si fracasa la VNI.",
+    "El prono es para daño alveolar no cardiogénico con P/F <150 en ventilación invasiva, no para este edema.",
+    "",
+    "El bajo flujo es para desaturación leve sin dificultad; con SatO2 84% y FR 32 no basta.",
+    "Es el esquema del retenedor de CO2 con PaCO2 >45; aquí la PaCO2 es normal."
+   ],
+   "trampa": [
+    "otro-momento",
+    "diferencial",
+    "",
+    "umbral",
+    "otra-poblacion"
+   ],
+   "perla": "Edema agudo cardiogénico = CPAP (recluta y baja pre y poscarga); BiPAP si el CO2 está alto.",
+   "fuente": {
+    "carpeta": "6.NEUMOLOGIA",
+    "archivo": "5. INSUFICIENCIA RESPIRATORIA .pdf",
+    "seccion": "p. 1 · Ventilación no invasiva: CPAP"
+   },
+   "gemela_de": null
+  },
+  {
+   "id": "2026-10-22-banco-neumo-insuf-resp-sdra-015",
+   "enunciado": "Mujer de 58 años con cifoescoliosis severa desde la infancia, que acude a un hospital de Ilo (nivel del mar) por 4 días de cefalea matutina, somnolencia diurna leve y disnea creciente tras un resfrío. Está despierta, orientada y colabora; Glasgow 14. PA 136/84 mmHg, FC 104 X', FR 28 X' superficial, T° 37,2 °C, SatO2 87% con cánula binasal a 2 L/min. Deformidad torácica marcada y murmullo vesicular disminuido en forma global, sin crepitantes; radiografía sin consolidaciones. AGA con la cánula: pH 7,31; PaCO2 66 mmHg; PaO2 58 mmHg; HCO3 32 mEq/l. ¿Cuál es el soporte ventilatorio indicado?",
+   "opciones": [
+    "Subir la binasal a 6 L/min para SatO2 mayor de 96%",
+    "Cánula nasal de alto flujo a 50 L/min",
+    "Intubación orotraqueal y ventilación invasiva",
+    "CPAP de 10 cmH2O con mascarilla facial ajustada",
+    "BiPAP con mascarilla oronasal y monitorización"
+   ],
+   "clave": 5,
+   "especialidad": "Neumología",
+   "tema": "VNI · BiPAP",
+   "diagnostico": "Falla tipo II crónica reagudizada por cifoescoliosis",
+   "tipo": "conducta",
+   "dificultad": "alta",
+   "razonamiento": "Paso 1: pH 7,31, PaCO2 66 y HCO3 32: retención crónica de CO2 con descompensación ácida actual. Paso 2: la cifoescoliosis severa limita la pared torácica (falla de la bomba, no del parénquima) y el resfrío la descompensó. Paso 3: está despierta y colabora, por lo que corresponde BiPAP, que ventila y elimina CO2; la intubación queda para el fracaso de la VNI o el deterioro de conciencia.",
+   "por_que_no": [
+    "Con PaCO2 alta la meta es 88–92%; más O2 no ventila y empeora la retención de CO2.",
+    "Es ideal en la falla oxigenatoria pura; no sirve en la retención significativa de CO2.",
+    "Se reserva para fracaso de la VNI, Glasgow bajo o inestabilidad; esta paciente está despierta y colabora.",
+    "La CPAP recluta pero no ventila ni elimina CO2; es de elección en el edema cardiogénico.",
+    ""
+   ],
+   "trampa": [
+    "otra-poblacion",
+    "diferencial",
+    "otro-estadio",
+    "mismo-grupo",
+    ""
+   ],
+   "perla": "CO2 alto con pH ácido en paciente despierto (EPOC, pared torácica, neuromuscular sin compromiso bulbar) = BiPAP.",
+   "fuente": {
+    "carpeta": "6.NEUMOLOGIA",
+    "archivo": "5. INSUFICIENCIA RESPIRATORIA .pdf",
+    "seccion": "p. 1 · BiPAP; causas de IRA tipo II: pared torácica"
+   },
+   "gemela_de": null
+  },
+  {
+   "id": "2026-10-22-banco-neumo-insuf-resp-sdra-016",
+   "enunciado": "Mujer de 72 años con oxígeno domiciliario por enfermedad pulmonar crónica, traída de un asilo de Lima por 3 días de tos productiva y somnolencia creciente. Glasgow 8, no obedece órdenes, acumula secreciones en la orofaringe y su tos es débil. PA 104/62 mmHg, FC 116 X', FR 12 X' superficial, T° 37,8 °C, SatO2 78% con Venturi al 28%. AGA: pH 7,19; PaCO2 92 mmHg; PaO2 44 mmHg; HCO3 34 mEq/l. ¿Cuál es la conducta ventilatoria correcta?",
+   "opciones": [
+    "Cánula nasal de alto flujo a 50 L/min con FiO2 0,4",
+    "BiPAP con mascarilla oronasal y control de AGA en 1 hora",
+    "CPAP de 8 cmH2O con mascarilla facial bien ajustada",
+    "Venturi al 35% y nueva gasometría en una hora",
+    "Intubación orotraqueal y ventilación mecánica invasiva"
+   ],
+   "clave": 5,
+   "especialidad": "Neumología",
+   "tema": "VNI · contraindicaciones",
+   "diagnostico": "Falla tipo II crónica reagudizada con coma hipercápnico",
+   "tipo": "contraindicacion",
+   "dificultad": "alta",
+   "razonamiento": "Paso 1: pH 7,19, PaCO2 92 y HCO3 34: retención crónica de CO2 con descompensación grave. Paso 2: Glasgow 8, secreciones que no maneja y FR que cae indican que no puede proteger la vía aérea. Paso 3: estas condiciones contraindican la VNI y cumplen criterios de ventilación invasiva (Glasgow ≤8, PaCO2 >60, pH ≤7,25).",
+   "por_que_no": [
+    "No corrige la retención significativa de CO2 ni protege la vía aérea; es para falla oxigenatoria pura.",
+    "Glasgow <10 y secreciones que no maneja contraindican la VNI; sería correcta si estuviera despierta y colaboradora.",
+    "No ventila ni elimina CO2 y también exige paciente consciente; se usa en el edema cardiogénico.",
+    "Subir la FiO2 no corrige PaCO2 92 con pH 7,19 y empeora la retención; es insuficiente ante el coma.",
+    ""
+   ],
+   "trampa": [
+    "diferencial",
+    "otro-estadio",
+    "mismo-grupo",
+    "otro-momento",
+    ""
+   ],
+   "perla": "La VNI exige conciencia y reflejos protectores; Glasgow ≤8 o secreciones no manejables = intubar.",
+   "fuente": {
+    "carpeta": "6.NEUMOLOGIA",
+    "archivo": "Neumología -  Fundamentos teóricos_ENAM 2024.pdf",
+    "seccion": "p. 12 · Contraindicaciones de VNI"
+   },
+   "gemela_de": null
+  },
+  {
+   "id": "2026-10-22-banco-neumo-insuf-resp-sdra-017",
+   "enunciado": "Varón de 36 años con 7 días de debilidad ascendente que comenzó en los pies, tras un cuadro diarreico hace 3 semanas. Hoy refiere que se atora con los líquidos y tiene voz nasal; su tos es débil y no logra expulsar las secreciones. PA 128/80 mmHg, FC 112 X', FR 30 X' superficial, T° 36,8 °C, SatO2 93% con aire ambiente. Arreflexia generalizada, fuerza 2/5 en miembros inferiores y movimiento abdominal paradójico. Capacidad vital 9 ml/kg; fuerza inspiratoria negativa −18 cmH2O. AGA: pH 7,35; PaCO2 46 mmHg; PaO2 72 mmHg; HCO3 25 mEq/l. ¿Cuál es la conducta respiratoria inmediata?",
+   "opciones": [
+    "Oxígeno por cánula binasal a 2 L/min y vigilancia",
+    "BiPAP nocturna y control seriado de capacidad vital",
+    "CPAP de 10 cmH2O con mascarilla facial ajustada",
+    "Intubación electiva y ventilación mecánica en UCI",
+    "Esperar a que la PaCO2 supere 60 para intubar"
+   ],
+   "clave": 4,
+   "especialidad": "Neumología",
+   "tema": "Ventilación mecánica · pérdida de reserva",
+   "diagnostico": "Guillain-Barré con compromiso respiratorio y bulbar",
+   "tipo": "conducta",
+   "dificultad": "muy alta",
+   "razonamiento": "Paso 1: debilidad ascendente posdiarrea con arreflexia indica polineuropatía aguda con compromiso de músculos respiratorios. Paso 2: capacidad vital 9 ml/kg (<10) y fuerza inspiratoria −18 (más débil que −25) muestran pérdida de reserva ventilatoria, aunque los gases aún parezcan aceptables. Paso 3: la disfagia y la tos ineficaz contraindican la VNI: corresponde intubación electiva.",
+   "por_que_no": [
+    "La SatO2 aceptable no refleja la reserva ventilatoria; corrige la oxigenación sin tratar la falla de bomba.",
+    "La VNI sirve en deterioro neuromuscular progresivo sin compromiso bulbar; aquí no maneja secreciones.",
+    "La CPAP no ventila y exige proteger la vía aérea; se usa en edema cardiogénico o apnea del sueño.",
+    "",
+    "En la debilidad neuromuscular el CO2 sube tarde; la capacidad vital y la fuerza inspiratoria ya indican intubar."
+   ],
+   "trampa": [
+    "umbral",
+    "otra-poblacion",
+    "mismo-grupo",
+    "",
+    "otro-momento"
+   ],
+   "perla": "Debilidad neuromuscular: intuba por capacidad vital <10 ml/kg o fuerza inspiratoria más débil que −25; no esperes al CO2.",
+   "fuente": {
+    "carpeta": "6.NEUMOLOGIA",
+    "archivo": "Neumología -  Fundamentos teóricos_ENAM 2024.pdf",
+    "seccion": "p. 13 · Indicaciones de ventilación mecánica: pérdida de reserva ventilatoria"
+   },
+   "gemela_de": null
+  },
+  {
+   "id": "2026-10-22-banco-neumo-insuf-resp-sdra-018",
+   "enunciado": "Varón de 62 años traído a un hospital de Lima (nivel del mar) por somnolencia progresiva de 2 semanas y cefalea matutina. Según su familia no consume sedantes ni opioides; sufrió una caída hace 1 mes. PA 136/82 mmHg, FC 88 X', FR 10 X', T° 36,6 °C, SatO2 94% con aire ambiente. Radiografía de tórax normal. AGA con aire ambiente: pH 7,33; PaCO2 56 mmHg; PaO2 76 mmHg; HCO3 29 mEq/l. Examen neurológico con debilidad proximal leve, difícil de valorar por la somnolencia. ¿Qué medición orienta si el origen es central o neuromuscular?",
+   "opciones": [
+    "Capacidad de difusión de monóxido de carbono",
+    "Gradiente alvéolo-arterial con FiO2 de 1,0",
+    "Espirometría con prueba broncodilatadora",
+    "Presión inspiratoria máxima en boca",
+    "Relación PaO2/FiO2 con PEEP de 5 cmH2O"
+   ],
+   "clave": 4,
+   "especialidad": "Neumología",
+   "tema": "Falla tipo II · nivel de la lesión",
+   "diagnostico": "Hipoventilación de origen central (hematoma subdural)",
+   "tipo": "prueba",
+   "dificultad": "alta",
+   "razonamiento": "Paso 1: PaCO2 56 con pH 7,33 y HCO3 29 indica retención de CO2 de días. Paso 2: gradiente = (150 − 56) − 76 = 18, normal para 62 años (≈19), con radiografía normal: pulmón sano y falla de la bomba. Paso 3: la PIM separa los niveles: disminuida orienta a causa neuromuscular y normal a depresión del SNC (aquí la caída previa obliga a buscar lesión central).",
+   "por_que_no": [
+    "La DLCO evalúa la membrana alvéolo-capilar (EPID, enfisema); el gradiente normal ya la descarta como causa.",
+    "El gradiente ya es normal y solo confirma que el pulmón está sano; no separa causa central de neuromuscular.",
+    "Busca obstrucción reversible o fija; no define si la bomba falla por el SNC o por los músculos.",
+    "",
+    "Sirve para clasificar el daño alveolar agudo; no evalúa la fuerza de los músculos respiratorios."
+   ],
+   "trampa": [
+    "diferencial",
+    "no-confirmatorio",
+    "diferencial",
+    "",
+    "otro-contexto"
+   ],
+   "perla": "Gradiente normal + PaCO2 alta: PIM baja = neuromuscular; PIM normal = depresión del SNC.",
+   "fuente": {
+    "carpeta": "6.NEUMOLOGIA",
+    "archivo": "5. INSUFICIENCIA RESPIRATORIA .pdf",
+    "seccion": "p. 1 · Hipoventilación alveolar: presión inspiratoria máxima"
+   },
+   "gemela_de": null
+  },
+  {
+   "id": "2026-10-22-banco-neumo-insuf-resp-sdra-019",
+   "enunciado": "Mujer de 76 años, con oxígeno domiciliario por enfermedad pulmonar crónica de larga data y bicarbonato habitualmente alto, acude a un hospital de Paita por 3 días de fiebre y tos purulenta. Lúcida, Glasgow 15, sin uso marcado de músculos accesorios. PA 128/74 mmHg, FC 102 X', FR 24 X', T° 38,2 °C, SatO2 84% con aire ambiente. Crepitantes en la base izquierda. AGA con aire ambiente: pH 7,38; PaCO2 54 mmHg; PaO2 49 mmHg; HCO3 31 mEq/l. ¿Qué esquema de oxigenoterapia corresponde?",
+   "opciones": [
+    "Binasal a 4 L/min con meta de SatO2 92–96%",
+    "Reservorio a 15 L/min con meta de SatO2 94–98%",
+    "Alto flujo nasal con meta de SatO2 mayor de 96%",
+    "Venturi al 24–28% con meta de SatO2 88–92%",
+    "BiPAP inmediata con meta de SatO2 94–98%"
+   ],
+   "clave": 4,
+   "especialidad": "Neumología",
+   "tema": "Oxigenoterapia · retenedor de CO2",
+   "diagnostico": "Neumonía en EPOC con hipercapnia crónica compensada",
+   "tipo": "tratamiento",
+   "dificultad": "media",
+   "razonamiento": "Paso 1: pH 7,38 con PaCO2 54 y HCO3 31: retención crónica de CO2 compensada. Paso 2: PaO2 49 obliga a dar O2, pero en el retenedor el exceso de O2 suprime el estímulo hipóxico y eleva la PaCO2. Paso 3: la Venturi entrega una FiO2 exacta y baja (24–28%) con meta de 88–92%.",
+   "por_que_no": [
+    "Es la meta del bajo flujo en desaturación leve sin retención; con PaCO2 54 la meta es 88–92%.",
+    "Es la meta del paciente sin retención de CO2 con desaturación severa; aquí suprimiría el estímulo ventilatorio.",
+    "Una meta >96% aumenta la retención de CO2; el alto flujo nasal se reserva para la falla oxigenatoria pura.",
+    "",
+    "Su pH es 7,38 y está lúcida; la BiPAP se indica cuando el pH cae por debajo de 7,35 con PaCO2 >45."
+   ],
+   "trampa": [
+    "otra-poblacion",
+    "otra-poblacion",
+    "umbral",
+    "",
+    "otro-estadio"
+   ],
+   "perla": "Retenedor de CO2: Venturi 24–28% y meta 88–92%.",
+   "fuente": {
+    "carpeta": "6.NEUMOLOGIA",
+    "archivo": "Neumología -  Fundamentos teóricos_ENAM 2024.pdf",
+    "seccion": "p. 10 · Manejo de IRA I y II: Venturi 24–28%"
+   },
+   "gemela_de": null
+  },
+  {
+   "id": "2026-10-22-banco-neumo-insuf-resp-sdra-020",
+   "enunciado": "Varón de 59 años, fumador, con 40 minutos de dolor opresivo retroesternal irradiado al brazo izquierdo, atendido en la emergencia de un hospital de Lima. PA 146/90 mmHg, FC 96 X', FR 18 X', T° 36,5 °C, SatO2 93% con aire ambiente; sin disnea, crepitantes ni ingurgitación yugular. EKG: supradesnivel del ST de 3 mm de V1 a V4. Troponina en curso; se prepara la reperfusión. ¿Qué indicación de oxígeno corresponde en este momento?",
+   "opciones": [
+    "No dar O2 y vigilar la SatO2 de forma continua",
+    "Reservorio a 15 L/min hasta lograr SatO2 de 100%",
+    "Alto flujo nasal con meta de SatO2 94–98%",
+    "Venturi al 28% con meta de SatO2 88–92%",
+    "Binasal a 2–4 L/min con meta de SatO2 92–96%"
+   ],
+   "clave": 1,
+   "especialidad": "Neumología",
+   "tema": "Oxigenoterapia · cuándo no indicar",
+   "diagnostico": "Infarto con elevación del ST sin desaturación",
+   "tipo": "conducta",
+   "dificultad": "alta",
+   "razonamiento": "Paso 1: dolor típico con supradesnivel del ST de V1 a V4 indica infarto agudo anterior. Paso 2: su SatO2 es 93% sin signos de congestión ni dificultad respiratoria. Paso 3: en infarto o ACV no se administra O2 si la SatO2 es ≥90%; solo se inicia si desatura por debajo de ese umbral.",
+   "por_que_no": [
+    "",
+    "Se usa en desaturación severa con dificultad respiratoria; la hiperoxia no beneficia en el infarto.",
+    "Es la meta del alto flujo en desaturación moderada a severa; aquí la saturación es 93% sin dificultad.",
+    "Es la meta del retenedor de CO2; este paciente no tiene retención conocida.",
+    "En infarto o ACV no se da O2 si la SatO2 es ≥90%; sería correcto si bajara de 90%."
+   ],
+   "trampa": [
+    "",
+    "otro-estadio",
+    "umbral",
+    "otra-poblacion",
+    "umbral"
+   ],
+   "perla": "Infarto o ACV: O2 solo si la SatO2 cae por debajo de 90%.",
+   "fuente": {
+    "carpeta": "6.NEUMOLOGIA",
+    "archivo": "Neumología -  Fundamentos teóricos_ENAM 2024.pdf",
+    "seccion": "p. 10 · No requieren oxígeno"
+   },
+   "gemela_de": null
+  },
+  {
+   "id": "2026-10-22-banco-neumo-insuf-resp-sdra-021",
+   "enunciado": "Mujer de 54 años que presentó paro por fibrilación ventricular en la sala de espera de un hospital de Lima; tras 2 descargas y 8 minutos de RCP recupera la circulación espontánea. Está intubada y ventilada con FiO2 1,0. PA 104/66 mmHg con noradrenalina, FC 102 X', T° 36,2 °C, SatO2 100%. AGA: pH 7,32; PaCO2 40 mmHg; PaO2 348 mmHg; HCO3 20 mEq/l; lactato 4,1 mmol/l. EKG posreanimación sin supradesnivel del ST. ¿Qué meta de oxigenación corresponde fijar en las siguientes horas?",
+   "opciones": [
+    "Bajar la FiO2 hasta una SatO2 de 90% o más",
+    "Bajar la FiO2 hasta una SatO2 de 92–96%",
+    "Bajar la FiO2 hasta una SatO2 de 88–92%",
+    "Bajar la FiO2 hasta una SatO2 de 94–98%",
+    "Mantener FiO2 1,0 para una SatO2 de 100%"
+   ],
+   "clave": 4,
+   "especialidad": "Neumología",
+   "tema": "Oxigenoterapia · meta posparo",
+   "diagnostico": "Cuidado posreanimación con hiperoxia",
+   "tipo": "conducta",
+   "dificultad": "alta",
+   "razonamiento": "Paso 1: paciente recuperada de un paro, ventilada con FiO2 1,0 y PaO2 348: hiperoxia. Paso 2: no tiene retención crónica de CO2 (PaCO2 40) y su escenario es el cuidado posparo. Paso 3: la fuente fija para el posparo una meta de SatO2 de 94–98%, por lo que se reduce la FiO2 hasta alcanzarla.",
+   "por_que_no": [
+    "Es el umbral para iniciar O2 en infarto o ACV, no la meta del cuidado posparo.",
+    "Es la meta de la oxigenoterapia de bajo flujo en desaturación leve, no la del posparo.",
+    "Es la meta del retenedor de CO2; esta paciente no tiene retención crónica (PaCO2 40).",
+    "",
+    "La FiO2 máxima es para la RCP; tras recuperar la circulación la hiperoxia es dañina."
+   ],
+   "trampa": [
+    "otro-contexto",
+    "otro-contexto",
+    "otra-poblacion",
+    "",
+    "otro-momento"
+   ],
+   "perla": "Posparo: SatO2 94–98%; retenedor: 88–92%; bajo flujo: 92–96%.",
+   "fuente": {
+    "carpeta": "6.NEUMOLOGIA",
+    "archivo": "Neumología -  Fundamentos teóricos_ENAM 2024.pdf",
+    "seccion": "p. 10 · Indicaciones agudas: post PCR"
+   },
+   "gemela_de": null
+  },
+  {
+   "id": "2026-10-22-banco-neumo-insuf-resp-sdra-022",
+   "enunciado": "Mujer de 46 años, vendedora de mercado, con 5 días de fiebre, escalofríos y tos con esputo purulento; acude a la emergencia de un hospital de Lima. PA 118/72 mmHg, FC 122 X', FR 35 X', T° 39,0 °C, SatO2 82% con aire ambiente. Disnea al hablar, tiraje intercostal y uso de músculos accesorios, aunque está consciente y orientada. Crepitantes y soplo tubárico en la base izquierda. AGA con aire ambiente: pH 7,47; PaCO2 31 mmHg; PaO2 47 mmHg; HCO3 22 mEq/l. ¿Cuál es el dispositivo de oxigenoterapia inicial indicado?",
+   "opciones": [
+    "Mascarilla Venturi al 28%, meta 88–92%",
+    "Mascarilla con reservorio a 10–15 L/min",
+    "Intubación orotraqueal inmediata",
+    "Cánula binasal a 4 L/min, meta 92–96%",
+    "BiPAP con mascarilla oronasal"
+   ],
+   "clave": 2,
+   "especialidad": "Neumología",
+   "tema": "Oxigenoterapia · elección del dispositivo",
+   "diagnostico": "Neumonía con falla tipo I moderada-severa",
+   "tipo": "tratamiento",
+   "dificultad": "media",
+   "razonamiento": "Paso 1: PaO2 47 con PaCO2 31 indica falla oxigenatoria (tipo I) con hiperventilación compensatoria. Paso 2: SatO2 82%, FR 35 y uso de músculos accesorios la hacen moderada a severa. Paso 3: corresponde O2 de alto flujo (>4 L/min): mascarilla con reservorio a 10–15 L/min o alto flujo nasal, con meta de 94–98%.",
+   "por_que_no": [
+    "Es el esquema del retenedor de CO2; aquí la PaCO2 es 31.",
+    "",
+    "Aún no cumple criterios (consciente, sin fatiga ni falta de respuesta al O2); se intuba si no corrige con alto flujo.",
+    "El bajo flujo es para SatO2 de 90–94% sin dificultad severa; con 82% y tiraje no basta.",
+    "La BiPAP se indica con PaCO2 alta y pH ácido; esta paciente tiene PaCO2 baja."
+   ],
+   "trampa": [
+    "otra-poblacion",
+    "",
+    "otro-momento",
+    "umbral",
+    "diferencial"
+   ],
+   "perla": "SatO2 <90% con dificultad: reservorio a 10–15 L/min o alto flujo nasal; meta 94–98%.",
+   "fuente": {
+    "carpeta": "6.NEUMOLOGIA",
+    "archivo": "5. INSUFICIENCIA RESPIRATORIA .pdf",
+    "seccion": "p. 1 · O2 de alto flujo: indicaciones y ejemplo"
+   },
+   "gemela_de": null
+  },
+  {
+   "id": "2026-10-22-banco-neumo-insuf-resp-sdra-023",
+   "enunciado": "Mujer de 31 años con crisis de sibilancias desde hace 12 horas pese a su inhalador de rescate; en la emergencia de un hospital de Lima recibe broncodilatadores y corticoide. PA 132/80 mmHg, FC 124 X', FR 28 X', T° 36,9 °C, SatO2 87% con cánula binasal, que sube a 93% con mascarilla de reservorio. Glasgow 13, habla con frases cortas. AGA: pH 7,27; PaCO2 49 mmHg; PaO2 64 mmHg; HCO3 22 mEq/l. Función renal y hepática normales. ¿Qué nivel de atención le corresponde según la severidad del cuadro?",
+   "opciones": [
+    "Sala general con O2 de bajo flujo y control de gases",
+    "Cuidados intermedios con O2 de alto flujo",
+    "UCI por compromiso asociado de otros órganos",
+    "Sala general: la FR de 28 se considera leve",
+    "UCI con intubación orotraqueal inmediata"
+   ],
+   "clave": 2,
+   "especialidad": "Neumología",
+   "tema": "Severidad de la falla · nivel de atención",
+   "diagnostico": "Falla respiratoria moderada en crisis obstructiva",
+   "tipo": "severidad",
+   "dificultad": "alta",
+   "razonamiento": "Paso 1: pH 7,27 (rango 7,3–7,2) y Glasgow 13 (10–14) son de severidad moderada. Paso 2: en un trastorno obstructivo, FR 28 cae en el rango moderado (25–35), y la oxigenación corrige con alto flujo pero no con bajo flujo. Paso 3: sin falla de otros órganos, el nivel moderado se maneja en cuidados intermedios con O2 de alto flujo.",
+   "por_que_no": [
+    "Correspondería a pH 7,35–7,30, Glasgow 15 y corrección con bajo flujo; aquí no corrige con binasal.",
+    "",
+    "No hay falla renal ni hepática; la falla de otros órganos define el nivel severo.",
+    "FR <30 es leve solo en el trastorno restrictivo; en el obstructivo el límite leve es <25.",
+    "Es el nivel severo: pH <7,2, FR >35, Glasgow <10 o sin corrección con alto flujo."
+   ],
+   "trampa": [
+    "umbral",
+    "",
+    "diferencial",
+    "otra-poblacion",
+    "otro-estadio"
+   ],
+   "perla": "Leve = sala con bajo flujo; moderada = intermedios con alto flujo; severa = UCI (no corrige con alto flujo).",
+   "fuente": {
+    "carpeta": "6.NEUMOLOGIA",
+    "archivo": "Neumología -  Fundamentos teóricos_ENAM 2024.pdf",
+    "seccion": "p. 9 · Severidad: sala general, UCI intermedios, UCI"
+   },
+   "gemela_de": null
+  },
+  {
+   "id": "2026-10-22-banco-neumo-insuf-resp-sdra-024",
+   "enunciado": "Varón de 58 años, obeso y diabético, en su décimo día de enfermedad por SARS-CoV-2, hospitalizado con cánula nasal de alto flujo a 60 L/min y FiO2 1,0 desde hace 18 horas. Está agitado, sudoroso, habla con monosílabos y el abdomen se hunde en cada inspiración. PA 138/86 mmHg, FC 128 X', FR 38 X', T° 37,9 °C, SatO2 85%. AGA con ese soporte: pH 7,36; PaCO2 37 mmHg; PaO2 54 mmHg. Radiografía: opacidades bilaterales periféricas extensas. ¿Cuál es la conducta inmediata?",
+   "opciones": [
+    "Mantener el alto flujo y repetir la AGA en 6 horas",
+    "Cambiar a CPAP con mascarilla facial ajustada",
+    "BiPAP con IPAP alta para descargar los músculos",
+    "Añadir mascarilla de reservorio sobre la cánula",
+    "Intubación orotraqueal y ventilación protectora"
+   ],
+   "clave": 5,
+   "especialidad": "Neumología",
+   "tema": "Criterios de intubación · oxigenación refractaria",
+   "diagnostico": "Neumonía COVID-19 grave con fracaso de CNAF",
+   "tipo": "conducta",
+   "dificultad": "alta",
+   "razonamiento": "Paso 1: con FiO2 1,0, PaO2 54 (≤55) y P/F 54: oxigenación refractaria. Paso 2: respiración paradójica, FR 38 y agitación son signos de fatiga inminente que anuncian paro respiratorio. Paso 3: cumple criterios de ventilación invasiva; se intuba y se ventila con estrategia protectora, sin seguir escalando O2 ni ensayar VNI.",
+   "por_que_no": [
+    "Hay respiración paradójica y PaO2 ≤55 con FiO2 1,0: los signos de fatiga exigen intubar ya.",
+    "La VNI es poco útil y riesgosa en el daño alveolar grave: retrasa una intubación ya indicada.",
+    "La BiPAP se indica en retención de CO2 con paciente colaborador; aquí la PaCO2 es normal y hay fatiga.",
+    "La FiO2 ya es 1,0: más O2 no corrige una PaO2 refractaria y retrasa la intubación necesaria.",
+    ""
+   ],
+   "trampa": [
+    "otro-momento",
+    "otro-momento",
+    "diferencial",
+    "otro",
+    ""
+   ],
+   "perla": "PaO2 ≤55 con FiO2 1,0, P/F ≤150 o respiración paradójica = intubación, no más observación.",
+   "fuente": {
+    "carpeta": "6.NEUMOLOGIA",
+    "archivo": "Neumología -  Fundamentos teóricos_ENAM 2024.pdf",
+    "seccion": "p. 13 · Indicaciones de ventilación mecánica: hipoxemia refractaria"
+   },
+   "gemela_de": null
+  },
+  {
+   "id": "2026-10-22-banco-neumo-insuf-resp-sdra-025",
+   "enunciado": "Mujer de 47 años en su sexto día de ventilación mecánica por aspiración de contenido gástrico durante una convulsión, con opacidades bilaterales y PEEP de 16 cmH2O. Bruscamente la SatO2 cae de 92% a 74%, la PA a 78/40 mmHg y la FC sube a 138 X'. La alarma del ventilador marca presión pico de 48 cmH2O (antes 30). Murmullo vesicular abolido e hiperresonancia en el hemitórax izquierdo, tráquea desviada a la derecha y enfisema subcutáneo cervical. ¿Qué complicación explica el deterioro?",
+   "opciones": [
+    "Atelectasia izquierda por tapón de moco obstructivo",
+    "Barotrauma con aire a tensión en la pleura izquierda",
+    "Neumonía asociada al ventilador del lóbulo izquierdo",
+    "Intubación selectiva del bronquio fuente derecho",
+    "Progresión a la fase fibrótica del daño alveolar"
+   ],
+   "clave": 2,
+   "especialidad": "Neumología",
+   "tema": "SDRA · complicaciones agudas",
+   "diagnostico": "Neumotórax a tensión por barotrauma en SDRA ventilado",
+   "tipo": "complicacion",
+   "dificultad": "alta",
+   "razonamiento": "Paso 1: en un paciente ventilado con PEEP alta hay desaturación brusca, hipotensión y subida de la presión pico. Paso 2: murmullo abolido con hiperresonancia, tráquea desviada al lado contrario y enfisema subcutáneo indican aire a tensión en la pleura. Paso 3: es barotrauma, complicación clásica del daño alveolar ventilado con presiones altas.",
+   "por_que_no": [
+    "Atrae la tráquea hacia el lado afectado y da matidez; aquí hay hiperresonancia y desviación contralateral.",
+    "",
+    "Se instala en días con fiebre y secreciones purulentas, no con colapso hemodinámico súbito.",
+    "Daría hipoventilación izquierda sin hiperresonancia, enfisema subcutáneo ni caída brusca de la PA.",
+    "Ocurre después de la tercera semana y es gradual; no explica un deterioro brusco con hiperresonancia."
+   ],
+   "trampa": [
+    "diferencial",
+    "",
+    "otro-momento",
+    "diferencial",
+    "otro-estadio"
+   ],
+   "perla": "Ventilado que desatura, se hipotensa y sube la presión pico con hiperresonancia = barotrauma.",
+   "fuente": {
+    "carpeta": "6.NEUMOLOGIA",
+    "archivo": "10. SDRA.pdf",
+    "seccion": "p. 1 · Complicaciones de SDRA: barotrauma"
+   },
+   "gemela_de": null
+  },
+  {
+   "id": "2026-10-22-banco-neumo-insuf-resp-sdra-026",
+   "enunciado": "Mujer de 41 años que hace 6 meses estuvo 3 semanas intubada por una neumonía grave con opacidades bilaterales y relación PaO2/FiO2 de 90 con PEEP de 14 cmH2O; requirió prono. Hoy consulta en Lima por disnea al subir un piso, sin tos ni fiebre. PA 118/74 mmHg, FC 88 X', FR 20 X', T° 36,6 °C, SatO2 95% en reposo y 89% al caminar. Crepitantes finos bibasales, sin acropaquias. Espirometría: CVF 61%, VEF1/CVF 0,87; DLCO 52%. Tomografía: reticulación y bandas en zonas anteriores. ¿Qué explica mejor su cuadro actual?",
+   "opciones": [
+    "Tromboembolismo crónico tras la estancia en UCI",
+    "Fase exudativa persistente con membranas hialinas",
+    "Estenosis traqueal posterior a la intubación prolongada",
+    "Secuela fibrótica del daño alveolar difuso previo",
+    "Debilidad neuromuscular adquirida en la UCI"
+   ],
+   "clave": 4,
+   "especialidad": "Neumología",
+   "tema": "SDRA · pronóstico y secuelas",
+   "diagnostico": "Fibrosis residual tras SDRA grave",
+   "tipo": "complicacion",
+   "dificultad": "muy alta",
+   "razonamiento": "Paso 1: antecedente de daño alveolar grave (P/F 90 con PEEP 14) que requirió prono. Paso 2: hoy CVF baja con VEF1/CVF normal (restricción), DLCO de 52% y reticulación en la tomografía: compromiso del parénquima. Paso 3: los sobrevivientes pueden quedar con fibrosis residual (fase fibrótica), con restricción y DLCO disminuida durante meses.",
+   "por_que_no": [
+    "Daría DLCO baja con espirometría normal y tomografía sin reticulación; no explica la restricción.",
+    "Es la fase de la primera semana; a los 6 meses quedan cambios fibróticos.",
+    "Da obstrucción de vía aérea central con DLCO normal; aquí el patrón es restrictivo con DLCO baja.",
+    "",
+    "Explicaría restricción por bomba débil, pero con DLCO y parénquima normales."
+   ],
+   "trampa": [
+    "otro",
+    "otro-estadio",
+    "diferencial",
+    "",
+    "diferencial"
+   ],
+   "perla": "Secuela del daño alveolar difuso: restricción + DLCO baja + debilidad del paciente crítico.",
+   "fuente": {
+    "carpeta": "TARJETAS",
+    "archivo": "INSUF_RESPIRATORIA_SDRA_Tarjetas_ENAM_EsSalud.pdf",
+    "seccion": "⑤ Pronóstico y secuelas; fases patológicas"
+   },
+   "gemela_de": null
+  },
+  {
+   "id": "2026-10-22-banco-neumo-insuf-resp-sdra-027",
+   "enunciado": "Puérpera de 31 años, con parto vaginal hace 5 horas bajo analgesia epidural, complicado con hemorragia por atonía uterina; recibió 5 unidades de paquete globular y 4 de plasma en 2 horas. A las 3 horas de la última unidad presenta disnea súbita. PA 102/64 mmHg, FC 118 X', FR 34 X', T° 38,1 °C, SatO2 84% con reservorio. Crepitantes bilaterales, sin ingurgitación yugular ni edemas. Radiografía: opacidades alveolares bilaterales con silueta cardiaca normal. Ecocardiograma con FEVI 64% y vena cava colapsable; péptido natriurético normal. Con CPAP de 8 cmH2O y FiO2 0,6, la PaO2 es 92 mmHg. ¿Cuál es la causa más probable del cuadro pulmonar?",
+   "opciones": [
+    "Miocardiopatía del periparto con falla ventricular",
+    "Aspiración de contenido gástrico en la anestesia",
+    "Neumonía nosocomial de inicio precoz bilateral",
+    "Edema hidrostático por sobrecarga de volumen",
+    "Lesión pulmonar aguda asociada a la transfusión"
+   ],
+   "clave": 5,
+   "especialidad": "Neumología",
+   "tema": "SDRA · causas indirectas",
+   "diagnostico": "SDRA por politransfusión (TRALI) en puérpera",
+   "tipo": "diagnostico",
+   "dificultad": "muy alta",
+   "razonamiento": "Paso 1: opacidades bilaterales de inicio agudo con P/F 92/0,6 ≈ 153 bajo PEEP 8: daño alveolar moderado. Paso 2: FEVI normal, cava colapsable y péptido natriurético normal descartan origen cardiogénico o sobrecarga. Paso 3: la aparición horas después de una politransfusión señala la causa indirecta: lesión pulmonar aguda asociada a transfusión (TRALI).",
+   "por_que_no": [
+    "Requiere FEVI disminuida y daría péptido alto; aquí la FEVI es 64%.",
+    "La analgesia epidural conserva la vía aérea; la aspiración es causa directa tras anestesia general o sopor.",
+    "Necesita días de hospitalización y un foco infeccioso; aquí el cuadro aparece horas después de transfundir.",
+    "Con vena cava colapsable y BNP normal no hay sobrecarga; esta daría cava distendida y péptido elevado.",
+    ""
+   ],
+   "trampa": [
+    "diferencial",
+    "diferencial",
+    "otro-momento",
+    "diferencial",
+    ""
+   ],
+   "perla": "Politransfusión = causa indirecta de daño alveolar (TRALI): opacidades bilaterales en horas con corazón normal.",
+   "fuente": {
+    "carpeta": "TARJETAS",
+    "archivo": "INSUF_RESPIRATORIA_SDRA_Tarjetas_ENAM_EsSalud.pdf",
+    "seccion": "⑤ Etiología: indirectas (politransfusión, TRALI)"
+   },
+   "gemela_de": null
+  },
+  {
+   "id": "2026-10-22-banco-neumo-insuf-resp-sdra-028",
+   "enunciado": "Varón de 66 años con infarto antiguo, hospitalizado por fiebre, disuria y escalofríos; al segundo día presenta disnea progresiva y se le inicia ventilación no invasiva. PA 108/70 mmHg, FC 112 X', FR 30 X', T° 38,6 °C. Crepitantes bilaterales hasta campos medios, ingurgitación yugular a 45° y tercer ruido. Radiografía: opacidades bilaterales con cardiomegalia y líneas B de Kerley. Ecocardiograma: FEVI 25% con aurícula izquierda dilatada; péptido natriurético 4 800 pg/ml. Con PEEP 8 cmH2O y FiO2 0,5 la PaO2 es 82 mmHg. ¿Cómo se interpreta el compromiso pulmonar?",
+   "opciones": [
+    "Lesión alveolar aguda por sepsis, grado leve",
+    "Edema por falla del ventrículo izquierdo",
+    "Lesión alveolar aguda por sepsis, grado moderado",
+    "Lesión pulmonar por politransfusión reciente",
+    "Neumonía bilateral con derrame paraneumónico"
+   ],
+   "clave": 2,
+   "especialidad": "Neumología",
+   "tema": "SDRA vs edema cardiogénico",
+   "diagnostico": "Edema pulmonar cardiogénico en paciente séptico (no SDRA)",
+   "tipo": "diagnostico",
+   "dificultad": "muy alta",
+   "razonamiento": "Paso 1: sepsis urinaria con opacidades bilaterales agudas y P/F 82/0,5 = 164 con PEEP 8. Paso 2: pero hay S3, ingurgitación, cardiomegalia, líneas de Kerley, FEVI 25% y BNP muy alto. Paso 3: el criterio de origen exige que el edema no se explique por falla cardiaca; aquí sí se explica, así que es edema hidrostático cardiogénico.",
+   "por_que_no": [
+    "Además del error de origen, 82/0,5 = 164 cae en rango moderado, no leve.",
+    "",
+    "Aunque el P/F de 164 y la sepsis encajan, el edema se explica por falla cardiaca (FEVI 25%, BNP alto) y eso la excluye.",
+    "Requiere transfusión en las horas previas y corazón normal; aquí no hubo transfusión.",
+    "No explica la cardiomegalia, el tercer ruido ni el BNP muy alto; el foco infeccioso es urinario."
+   ],
+   "trampa": [
+    "umbral",
+    "",
+    "diferencial",
+    "otro-contexto",
+    "diferencial"
+   ],
+   "perla": "Si la falla cardiaca explica el edema, no es daño alveolar por permeabilidad, aunque el P/F sea bajo.",
+   "fuente": {
+    "carpeta": "TARJETAS",
+    "archivo": "INSUF_RESPIRATORIA_SDRA_Tarjetas_ENAM_EsSalud.pdf",
+    "seccion": "⑥ Diferencial: SDRA vs edema cardiogénico"
+   },
+   "gemela_de": null
+  },
+  {
+   "id": "2026-10-22-banco-neumo-insuf-resp-sdra-029",
+   "enunciado": "Varón de 50 años en su noveno día de ventilación mecánica por daño alveolar difuso secundario a contusión pulmonar bilateral tras un choque vehicular; venía mejorando con FiO2 0,4. Desde ayer presenta fiebre de 38,9 °C, secreciones traqueales purulentas abundantes y caída de la PaO2 de 92 a 64 mmHg con la misma FiO2. PA 116/70 mmHg, FC 112 X'. Leucocitos 18 400/mm3. Radiografía: nueva consolidación con broncograma aéreo en el lóbulo inferior derecho. ¿Qué complicación explica el deterioro?",
+   "opciones": [
+    "Infección nosocomial asociada a la ventilación",
+    "Atelectasia por tapón mucoso sin infección",
+    "Falla orgánica múltiple por la contusión inicial",
+    "Barotrauma con aire libre en la cavidad pleural",
+    "Progresión a la fase fibrótica del daño alveolar"
+   ],
+   "clave": 1,
+   "especialidad": "Neumología",
+   "tema": "SDRA · complicaciones tardías",
+   "diagnostico": "Neumonía asociada al ventilador en SDRA por contusión",
+   "tipo": "complicacion",
+   "dificultad": "alta",
+   "razonamiento": "Paso 1: contusión pulmonar (causa directa) ventilada 9 días que venía mejorando. Paso 2: fiebre, secreción purulenta, leucocitosis, consolidación nueva y caída de la PaO2 con la misma FiO2. Paso 3: corresponde a infección nosocomial asociada al ventilador, una de las complicaciones descritas junto a barotrauma, atelectasias y falla multiorgánica.",
+   "por_que_no": [
+    "",
+    "Daría opacidad con pérdida de volumen, sin fiebre alta ni leucocitosis, y mejora con aspiración.",
+    "Se manifiesta con disfunción de varios órganos; aquí el cambio es una infección pulmonar focal nueva.",
+    "Daría deterioro súbito con hiperresonancia y presión pico alta, sin fiebre ni secreción purulenta.",
+    "Es gradual, posterior a la tercera semana y sin fiebre ni consolidación focal nueva."
+   ],
+   "trampa": [
+    "",
+    "diferencial",
+    "otro-momento",
+    "diferencial",
+    "otro-estadio"
+   ],
+   "perla": "Complicaciones: atelectasias, barotrauma, infección nosocomial, falla orgánica múltiple y delirio.",
+   "fuente": {
+    "carpeta": "6.NEUMOLOGIA",
+    "archivo": "10. SDRA.pdf",
+    "seccion": "p. 1 · Complicaciones de SDRA: infección nosocomial"
+   },
+   "gemela_de": null
+  },
+  {
+   "id": "2026-10-22-banco-neumo-insuf-resp-sdra-030",
+   "enunciado": "Varón de 19 años con crisis de sibilancias de 2 días, tratado en la emergencia de un hospital de Lima con salbutamol, ipratropio y corticoide durante 2 horas. Al inicio estaba agitado con FR 36 X'; ahora está somnoliento y responde con monosílabos. FR 12 X', FC 132 X', PA 104/66 mmHg, SatO2 86% con reservorio. A la auscultación casi no se escuchan sibilantes ni murmullo vesicular. AGA: pH 7,22; PaCO2 58 mmHg; PaO2 56 mmHg; HCO3 23 mEq/l. ¿Cuál es la conducta inmediata?",
+   "opciones": [
+    "BiPAP con mascarilla oronasal en la emergencia",
+    "Cánula nasal de alto flujo a 60 L/min",
+    "Intubación orotraqueal con ventilación invasiva",
+    "Venturi al 28% para evitar retener más CO2",
+    "Nebulizar salbutamol en forma continua y reevaluar"
+   ],
+   "clave": 3,
+   "especialidad": "Neumología",
+   "tema": "Criterios de intubación · fatiga inminente",
+   "diagnostico": "Crisis asmática con fatiga y acidosis respiratoria aguda",
+   "tipo": "conducta",
+   "dificultad": "muy alta",
+   "razonamiento": "Paso 1: PaCO2 58 con HCO3 23 y pH 7,22: retención aguda de CO2 en un joven en crisis. Paso 2: el paso de taquipnea a bradipnea, el silencio auscultatorio y la somnolencia son signos de fatiga inminente que anuncian paro respiratorio. Paso 3: con alteración de la conciencia la VNI no es opción; corresponde intubación inmediata.",
+   "por_que_no": [
+    "En la crisis con fatiga solo sirve si el paciente está consciente y colabora; aquí hay somnolencia.",
+    "Sirve en la falla oxigenatoria pura; no corrige la retención aguda de CO2 por agotamiento muscular.",
+    "",
+    "La FiO2 controlada es para el retenedor crónico; aquí el CO2 alto es agudo por fatiga (HCO3 normal).",
+    "La mejoría auscultatoria es falsa: el silencio y la bradipnea indican fatiga; seguir nebulizando retrasa la intubación."
+   ],
+   "trampa": [
+    "otro-estadio",
+    "diferencial",
+    "",
+    "otra-poblacion",
+    "otro-momento"
+   ],
+   "perla": "Crisis con tórax silente, bradipnea y somnolencia = fatiga inminente: intubar, no esperar.",
+   "fuente": {
+    "carpeta": "TARJETAS",
+    "archivo": "INSUF_RESPIRATORIA_SDRA_Tarjetas_ENAM_EsSalud.pdf",
+    "seccion": "① Clínica: signos de fatiga inminente; VMNI en crisis"
+   },
+   "gemela_de": null
+  }
+ ]
+}

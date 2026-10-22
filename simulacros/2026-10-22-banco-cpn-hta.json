@@ -1,0 +1,3141 @@
+{
+ "id": "2026-10-22-banco-cpn-hta",
+ "fecha": "2026-10-22",
+ "turno": "noche",
+ "titulo": "Banco · control prenatal e hipertensión del embarazo",
+ "segundos_por_pregunta": 60,
+ "temas_noche": [
+  "Atención prenatal",
+  "Trastornos hipertensivos del embarazo"
+ ],
+ "feedback_noche": "Banco de 80 de los dos temas, en modo retroalimentación. En atención prenatal fallan las cifras: número de controles, intervalos, ganancia de peso por índice de masa corporal y semanas de cada vacuna. En el trastorno hipertensivo, separa diagnóstico (140/90) de severidad (160/110) y memoriza los dos esquemas: nifedipino 10-20-20 y magnesio 4 g + 1 g/h.",
+ "perlas_noche": [
+  "Precoz antes de 12 semanas; mensual hasta 32, quincenal 32-36, semanal 37 al parto.",
+  "Mínimo nacional 6 controles; 8 en la menor de 15 años y en la recomendación internacional.",
+  "Ganancia: delgadez 12,5-18; normal 11,5-16; sobrepeso 7-11,5; obesidad 5-9 kg.",
+  "Severidad: plaquetas <100 000, transaminasa >70, creatinina >1,1, 160/110 o síntomas; la proteinuria no cuenta.",
+  "Magnesio hasta 24 h del parto; reflejos abolidos u oliguria: suspender; si deprime: gluconato de calcio."
+ ],
+ "preguntas": [
+  {
+   "id": "2026-10-22-banco-cpn-hta-001",
+   "enunciado": "Mujer de 23 años, G2P1, acude por primera vez a un puesto de salud refiriendo amenorrea desde hace cinco meses. No se realizó ningún control previo porque trabajaba fuera de la ciudad. PA 108/70 mmHg, FC 82X', altura uterina 20 cm, latidos fetales presentes. La obstetra registra que, de las cuatro características que debe cumplir la vigilancia de la gestación, una ya no puede recuperarse en este embarazo. ¿Cuál es esa característica?",
+   "opciones": [
+    "Periódico, porque las atenciones deben seguir intervalos definidos",
+    "Integral, porque debe evaluar lo físico, lo psicológico y lo social",
+    "Reenfocado, porque debe incluir el tamizaje de violencia familiar",
+    "Precoz, porque la primera atención debió darse antes de las 12 semanas",
+    "De amplia cobertura, porque debe alcanzar a toda la población gestante"
+   ],
+   "clave": 4,
+   "especialidad": "Obstetricia",
+   "tema": "Atención prenatal",
+   "diagnostico": "Control prenatal tardío: pérdida de la precocidad",
+   "tipo": "norma",
+   "dificultad": "media",
+   "razonamiento": "Paso 1: amenorrea de cinco meses con altura uterina de 20 cm sitúa la gestación cerca de las 20 semanas. Paso 2: la precocidad exige que la primera atención ocurra antes de las 12 semanas, idealmente en la segunda o tercera semana de amenorrea. Paso 3: ese plazo ya pasó y no se recupera.",
+   "por_que_no": [
+    "La periodicidad todavía puede cumplirse desde esta atención hasta el parto con los intervalos normados.",
+    "La integralidad puede cumplirse hoy mismo evaluando las tres esferas en esta primera atención.",
+    "El enfoque reenfocado puede aplicarse en esta consulta incluyendo el tamizaje de violencia.",
+    "",
+    "La amplia cobertura es una meta poblacional del servicio y no una condición perdida en esta gestante."
+   ],
+   "trampa": [
+    "otro-componente",
+    "otro-componente",
+    "otro-componente",
+    "",
+    "otro-nivel"
+   ],
+   "perla": "Precoz = primer control antes de las 12 semanas; es lo único que no se recupera.",
+   "fuente": {
+    "carpeta": "2. OBSTETRICIA",
+    "archivo": "7. ATENCION PRENATAL.pdf",
+    "seccion": "p. 1, Atención prenatal"
+   },
+   "gemela_de": null
+  },
+  {
+   "id": "2026-10-22-banco-cpn-hta-002",
+   "enunciado": "Gestante de 28 años, G3P2, con 34 semanas por ecografía del primer trimestre, acude a su sexta atención. Curso normal, PA 110/68 mmHg, altura uterina 33 cm, latidos fetales 142X', movimientos fetales presentes, sin contracciones ni pérdidas. Pregunta en cuánto tiempo debe volver, pues vive a dos horas del establecimiento y quiere organizar el viaje. ¿Cuál es el intervalo que corresponde indicar?",
+   "opciones": [
+    "Cada tres semanas hasta el término",
+    "Cada cuatro semanas hasta las 36 semanas",
+    "Cada seis semanas hasta el parto",
+    "Cada semana desde esta atención",
+    "Cada dos semanas hasta las 36 semanas"
+   ],
+   "clave": 5,
+   "especialidad": "Obstetricia",
+   "tema": "Atención prenatal",
+   "diagnostico": "Periodicidad del control prenatal entre las 32 y 36 semanas",
+   "tipo": "norma",
+   "dificultad": "media",
+   "razonamiento": "Paso 1: la gestante está en 34 semanas, dentro del tramo de 32 a 36. Paso 2: el esquema es mensual hasta las 32 semanas, quincenal entre 32 y 36, y semanal desde las 37 hasta el parto. Paso 3: corresponde citarla en dos semanas.",
+   "por_que_no": [
+    "El intervalo de tres semanas no figura en el esquema normado de la atención prenatal.",
+    "El intervalo mensual corresponde al período que va hasta las 32 semanas de gestación.",
+    "Un intervalo de seis semanas dejaría sin vigilancia el tercer trimestre tardío.",
+    "El intervalo semanal recién corresponde desde las 37 semanas hasta el parto.",
+    ""
+   ],
+   "trampa": [
+    "inventado",
+    "otro-periodo",
+    "otro-periodo",
+    "otro-periodo",
+    ""
+   ],
+   "perla": "Mensual hasta 32, quincenal 32-36, semanal 37 al parto.",
+   "fuente": {
+    "carpeta": "2. OBSTETRICIA",
+    "archivo": "7. ATENCION PRENATAL.pdf",
+    "seccion": "p. 1, Atención prenatal"
+   },
+   "gemela_de": null
+  },
+  {
+   "id": "2026-10-22-banco-cpn-hta-003",
+   "enunciado": "Gestante de 31 años, G2P1, llega a las 38 semanas para su atención. Al revisar su carné se cuentan cuatro atenciones: a las 11, 22, 30 y 38 semanas. Embarazo sin complicaciones, PA 112/72 mmHg, altura uterina 36 cm, latidos fetales 138X'. La obstetra debe consignar en el carné si la gestante alcanzó el número mínimo de atenciones exigido por la norma nacional. ¿Cuál es ese número mínimo?",
+   "opciones": [
+    "Cuatro atenciones durante la gestación",
+    "Tres atenciones durante la gestación",
+    "Diez atenciones durante la gestación",
+    "Ocho atenciones durante la gestación",
+    "Seis atenciones durante la gestación"
+   ],
+   "clave": 5,
+   "especialidad": "Obstetricia",
+   "tema": "Atención prenatal",
+   "diagnostico": "Número mínimo de atenciones prenatales según la norma nacional",
+   "tipo": "norma",
+   "dificultad": "media",
+   "razonamiento": "Paso 1: la gestante registra cuatro atenciones en todo el embarazo. Paso 2: la norma nacional exige como mínimo seis, mientras la recomendación internacional es de ocho. Paso 3: con cuatro atenciones queda por debajo del mínimo y debe consignarse como control inadecuado.",
+   "por_que_no": [
+    "Cuatro es el número que esta gestante alcanzó, no el mínimo que la norma exige.",
+    "Tres fue el mínimo admitido de manera excepcional durante la pandemia por coronavirus.",
+    "Diez atenciones no corresponde a ninguna recomendación vigente para la gestante de bajo riesgo.",
+    "Ocho es la recomendación de la Organización Mundial de la Salud y el mínimo en menores de quince años.",
+    ""
+   ],
+   "trampa": [
+    "dato-del-caso",
+    "otro-contexto",
+    "inventado",
+    "otra-norma",
+    ""
+   ],
+   "perla": "Mínimo nacional 6; OMS 8; pandemia 3; menor de 15 años 8.",
+   "fuente": {
+    "carpeta": "2. OBSTETRICIA",
+    "archivo": "7. ATENCION PRENATAL.pdf",
+    "seccion": "p. 1, Atención prenatal"
+   },
+   "gemela_de": null
+  },
+  {
+   "id": "2026-10-22-banco-cpn-hta-004",
+   "enunciado": "Adolescente de 14 años, primigesta, acude acompañada de su madre a su primera atención a las 10 semanas. PA 100/62 mmHg, FC 88X', IMC pregestacional 19 kg/m2, examen sin alteraciones. Se activan las acciones de protección por su edad y se programa el seguimiento. La obstetra debe definir cuántas atenciones como mínimo deben programarse en este caso particular. ¿Cuál es el número que corresponde?",
+   "opciones": [
+    "Tres atenciones, por el riesgo de abandono del seguimiento",
+    "Ocho atenciones por tratarse de una gestante menor de quince años",
+    "Seis atenciones, igual que en cualquier gestante de bajo riesgo",
+    "Cuatro atenciones concentradas en el tercer trimestre",
+    "Doce atenciones, una por cada mes y medio de gestación"
+   ],
+   "clave": 2,
+   "especialidad": "Obstetricia",
+   "tema": "Atención prenatal",
+   "diagnostico": "Atenciones prenatales mínimas en gestante adolescente menor de 15 años",
+   "tipo": "norma",
+   "dificultad": "alta",
+   "razonamiento": "Paso 1: gestante de 14 años, es decir menor de quince. Paso 2: el mínimo general es de seis atenciones, pero en la menor de quince años se exigen ocho, igual que la recomendación internacional. Paso 3: se programan ocho atenciones con acciones de protección adicionales.",
+   "por_que_no": [
+    "Tres atenciones fue el mínimo excepcional de la pandemia y no aplica por la edad.",
+    "",
+    "Seis es el mínimo general, pero la condición de menor de quince años eleva la exigencia.",
+    "Cuatro atenciones y en el tercer trimestre dejaría sin vigilancia la mitad del embarazo.",
+    "Doce atenciones no corresponde a ninguna recomendación normada para este grupo."
+   ],
+   "trampa": [
+    "otro-contexto",
+    "",
+    "otra-poblacion",
+    "inventado",
+    "inventado"
+   ],
+   "perla": "Menor de 15 años: 8 atenciones, no 6.",
+   "fuente": {
+    "carpeta": "2. OBSTETRICIA",
+    "archivo": "7. ATENCION PRENATAL.pdf",
+    "seccion": "p. 1, Atención prenatal"
+   },
+   "gemela_de": null
+  },
+  {
+   "id": "2026-10-22-banco-cpn-hta-005",
+   "enunciado": "Gestante de 20 años, primigesta, acude a su segunda atención a las 14 semanas. Refiere que antes del embarazo pesaba 44 kg y mide 1,58 m; hoy pesa 45,5 kg. PA 102/64 mmHg, examen físico sin alteraciones, ecografía con feto único acorde. Pregunta cuántos kilos debería ganar en total hasta el parto para que su hijo crezca bien. ¿Cuál es el rango que corresponde indicarle?",
+   "opciones": [
+    "Entre dos y seis kilos en total",
+    "Entre siete y once coma cinco kilos en total",
+    "Entre once coma cinco y dieciséis kilos en total",
+    "Entre cinco y nueve kilos en total",
+    "Entre doce coma cinco y dieciocho kilos en total"
+   ],
+   "clave": 5,
+   "especialidad": "Obstetricia",
+   "tema": "Atención prenatal",
+   "diagnostico": "Ganancia ponderal recomendada con índice de masa corporal pregestacional bajo",
+   "tipo": "norma",
+   "dificultad": "alta",
+   "razonamiento": "Paso 1: el índice de masa corporal pregestacional es 44 entre 1,58 al cuadrado, es decir 17,6. Paso 2: por debajo de 18,5 corresponde la categoría de delgadez. Paso 3: en esa categoría la ganancia total recomendada para embarazo único va de 12,5 a 18 kilos.",
+   "por_que_no": [
+    "Un rango tan bajo no se recomienda en ninguna categoría nutricional del embarazo único.",
+    "Ese rango corresponde a la gestante que inicia el embarazo con sobrepeso.",
+    "Ese rango corresponde a la gestante con índice de masa corporal pregestacional normal.",
+    "Ese rango corresponde a la gestante que inicia el embarazo con obesidad.",
+    ""
+   ],
+   "trampa": [
+    "inventado",
+    "otra-categoria",
+    "otra-categoria",
+    "otra-categoria",
+    ""
+   ],
+   "perla": "Delgadez 12,5-18; normal 11,5-16; sobrepeso 7-11,5; obesidad 5-9 kg.",
+   "fuente": {
+    "carpeta": "2. OBSTETRICIA",
+    "archivo": "7. ATENCION PRENATAL.pdf",
+    "seccion": "p. 1, Atención prenatal"
+   },
+   "gemela_de": null
+  },
+  {
+   "id": "2026-10-22-banco-cpn-hta-006",
+   "enunciado": "Gestante de 33 años, G2P1, acude a su primera atención a las 12 semanas. Peso previo al embarazo 70 kg, talla 1,62 m, peso actual 71 kg. PA 116/74 mmHg, FC 80X', glucosa en ayunas 88 mg/dL, orina sin alteraciones. Solicita que le indiquen cuánto puede aumentar de peso en todo el embarazo sin poner en riesgo la gestación. ¿Cuál es el rango que corresponde indicarle?",
+   "opciones": [
+    "Entre siete y once coma cinco kilos en total",
+    "Entre cinco y nueve kilos en total",
+    "Entre doce coma cinco y dieciocho kilos en total",
+    "Entre once coma cinco y dieciséis kilos en total",
+    "Entre quince y veinte kilos en total"
+   ],
+   "clave": 1,
+   "especialidad": "Obstetricia",
+   "tema": "Atención prenatal",
+   "diagnostico": "Ganancia ponderal recomendada con sobrepeso pregestacional",
+   "tipo": "norma",
+   "dificultad": "media",
+   "razonamiento": "Paso 1: el índice de masa corporal pregestacional es 70 entre 1,62 al cuadrado, es decir 26,7. Paso 2: entre 25 y 29,9 la categoría es sobrepeso. Paso 3: en sobrepeso la ganancia total recomendada para embarazo único va de 7 a 11,5 kilos.",
+   "por_que_no": [
+    "",
+    "Ese rango corresponde a la gestante que inicia el embarazo con obesidad.",
+    "Ese rango corresponde a la gestante que inicia el embarazo con delgadez.",
+    "Ese rango corresponde a la gestante que inicia el embarazo con peso normal.",
+    "Esa ganancia excede lo recomendado incluso para la gestante con delgadez pregestacional."
+   ],
+   "trampa": [
+    "",
+    "otra-categoria",
+    "otra-categoria",
+    "otra-categoria",
+    "inventado"
+   ],
+   "perla": "Sobrepeso 25-29,9: ganar solo 7 a 11,5 kg.",
+   "fuente": {
+    "carpeta": "2. OBSTETRICIA",
+    "archivo": "7. ATENCION PRENATAL.pdf",
+    "seccion": "p. 1, Atención prenatal"
+   },
+   "gemela_de": null
+  },
+  {
+   "id": "2026-10-22-banco-cpn-hta-007",
+   "enunciado": "Gestante de 26 años, primigesta de 36 semanas, con ganancia acumulada de 13 kg desde el inicio del embarazo. PA 110/70 mmHg, altura uterina 34 cm, latidos fetales 140X', ecografía con ponderado fetal de 2 900 g, líquido amniótico normal. La gestante pregunta a qué se debe la mayor parte de los kilos que ha ganado si ella come igual que antes. ¿Cuál es el componente que más aporta a ese incremento?",
+   "opciones": [
+    "El volumen sanguíneo, seguido por el crecimiento uterino",
+    "El crecimiento uterino, seguido por el tejido mamario",
+    "El feto, seguido por el aumento del volumen sanguíneo",
+    "El líquido amniótico, seguido por el crecimiento del útero",
+    "El tejido adiposo materno, seguido por el líquido amniótico"
+   ],
+   "clave": 3,
+   "especialidad": "Obstetricia",
+   "tema": "Atención prenatal",
+   "diagnostico": "Componente principal del incremento ponderal de la gestación",
+   "tipo": "mecanismo",
+   "dificultad": "alta",
+   "razonamiento": "Paso 1: la ganancia de 13 kg está dentro de lo esperado y obliga a explicar su composición. Paso 2: el orden de los componentes relacionados con la gestación es feto, volumen sanguíneo, útero y líquido amniótico. Paso 3: el feto es el que más aporta.",
+   "por_que_no": [
+    "El volumen sanguíneo es el segundo aportante y no el primero del incremento ponderal.",
+    "El crecimiento uterino es el tercer aportante y se ubica después del volumen sanguíneo.",
+    "",
+    "El líquido amniótico ocupa el cuarto lugar en el orden de los componentes gestacionales.",
+    "El depósito de grasa materna existe, pero no encabeza el orden de los componentes descritos."
+   ],
+   "trampa": [
+    "otro-orden",
+    "otro-orden",
+    "",
+    "otro-orden",
+    "otro-componente"
+   ],
+   "perla": "Orden del peso ganado: feto > volumen sanguíneo > útero > líquido amniótico.",
+   "fuente": {
+    "carpeta": "2. OBSTETRICIA",
+    "archivo": "7. ATENCION PRENATAL.pdf",
+    "seccion": "p. 1, Atención prenatal"
+   },
+   "gemela_de": null
+  },
+  {
+   "id": "2026-10-22-banco-cpn-hta-008",
+   "enunciado": "Gestante de 25 años, primigesta de 9 semanas, acude a su primera atención. Se le solicitaron hemoglobina, grupo y factor, glucosa en ayunas, examen de orina, prueba rápida para el virus de la inmunodeficiencia humana, prueba para sífilis, antígeno de superficie del virus de la hepatitis B y hormona estimulante de tiroides. Está asintomática, PA 104/66 mmHg. Al revisar la solicitud, el médico advierte que falta un examen del paquete inicial. ¿Cuál es el examen que falta?",
+   "opciones": [
+    "Proteinuria de veinticuatro horas",
+    "Urocultivo de la primera atención",
+    "Frotis y cultivo de flujo vaginal",
+    "Prueba de tolerancia a la glucosa",
+    "Perfil de coagulación completo"
+   ],
+   "clave": 2,
+   "especialidad": "Obstetricia",
+   "tema": "Atención prenatal",
+   "diagnostico": "Exámenes auxiliares obligatorios de la primera atención prenatal",
+   "tipo": "examen",
+   "dificultad": "alta",
+   "razonamiento": "Paso 1: la lista incluye casi todo el paquete inicial. Paso 2: ese paquete comprende hemoglobina, grupo y factor, glucosa en ayunas, examen de orina y urocultivo, presión arterial, pruebas para el virus de la inmunodeficiencia humana, sífilis y hepatitis B, hormona tiroidea y ecografía. Paso 3: el urocultivo es el que no fue pedido.",
+   "por_que_no": [
+    "La proteinuria de veinticuatro horas se solicita ante sospecha de daño renal, no de rutina.",
+    "",
+    "El frotis de flujo vaginal se solicita solo si hay síntomas o factores de riesgo.",
+    "La prueba de tolerancia a la glucosa se realiza entre las veinticuatro y veintiocho semanas.",
+    "El perfil de coagulación no forma parte del paquete inicial de la gestante sana."
+   ],
+   "trampa": [
+    "otro-contexto",
+    "",
+    "otro-contexto",
+    "otro-momento",
+    "otro-contexto"
+   ],
+   "perla": "El examen de orina no reemplaza al urocultivo: ambos van en la primera atención.",
+   "fuente": {
+    "carpeta": "2. OBSTETRICIA",
+    "archivo": "7. ATENCION PRENATAL.pdf",
+    "seccion": "p. 1, Atención prenatal"
+   },
+   "gemela_de": null
+  },
+  {
+   "id": "2026-10-22-banco-cpn-hta-009",
+   "enunciado": "Gestante de 29 años, G2P1, con amenorrea de 7 semanas y fecha de última regla imprecisa porque amamantaba. Prueba de embarazo positiva, PA 108/68 mmHg, examen pélvico con útero aumentado de tamaño. La obstetra desea programar la ecografía que permitirá fijar con la mayor exactitud la edad gestacional y la fecha probable de parto. ¿En qué momento corresponde programar ese estudio?",
+   "opciones": [
+    "Entre las treinta y las treinta y cuatro semanas",
+    "En la misma consulta, antes de las ocho semanas",
+    "Entre las dieciocho y las veintidós semanas",
+    "Entre las diez y las catorce semanas",
+    "Entre las veinte y las veinticuatro semanas"
+   ],
+   "clave": 4,
+   "especialidad": "Obstetricia",
+   "tema": "Atención prenatal",
+   "diagnostico": "Ecografía del primer trimestre: momento de realización",
+   "tipo": "examen",
+   "dificultad": "media",
+   "razonamiento": "Paso 1: la fecha de última regla no es confiable, de modo que la datación debe hacerse por ecografía. Paso 2: la ecografía del primer trimestre se realiza entre las diez y las catorce semanas y es la que mejor estima la edad gestacional. Paso 3: se programa en ese rango.",
+   "por_que_no": [
+    "Ese rango corresponde a la evaluación del crecimiento y del bienestar fetal del tercer trimestre.",
+    "Antes de las ocho semanas puede no verse embrión y obliga a repetir el estudio.",
+    "Ese rango corresponde a la ecografía morfológica del segundo trimestre, no a la datación inicial.",
+    "",
+    "Ese rango se emplea para evaluar el notch protodiastólico en el estudio Doppler uterino."
+   ],
+   "trampa": [
+    "otro-momento",
+    "otro-momento",
+    "otro-estudio",
+    "",
+    "otro-estudio"
+   ],
+   "perla": "Ecografía del primer trimestre: 10-14 semanas, la mejor para datar.",
+   "fuente": {
+    "carpeta": "2. OBSTETRICIA",
+    "archivo": "7. ATENCION PRENATAL.pdf",
+    "seccion": "p. 1, Atención prenatal"
+   },
+   "gemela_de": null
+  },
+  {
+   "id": "2026-10-22-banco-cpn-hta-010",
+   "enunciado": "Mujer de 27 años, nuligesta, sin enfermedades conocidas ni uso de medicamentos, acude porque planea embarazarse en los próximos meses. No tiene antecedentes familiares de malformaciones, IMC 23 kg/m2, PA 106/66 mmHg, hemoglobina 13,2 g/dL. Solicita indicaciones para prepararse. ¿Qué dosis de suplemento corresponde indicar y desde cuándo?",
+   "opciones": [
+    "Cuatrocientos microgramos al día desde tres meses antes de concebir",
+    "Cuatro miligramos al día desde tres meses antes de concebir",
+    "Cuatrocientos microgramos al día desde el segundo trimestre",
+    "Cuatrocientos microgramos al día solo durante el tercer trimestre",
+    "Cuatro miligramos al día durante todo el embarazo y la lactancia"
+   ],
+   "clave": 1,
+   "especialidad": "Obstetricia",
+   "tema": "Atención prenatal",
+   "diagnostico": "Suplementación con ácido fólico en gestante sin factores de riesgo",
+   "tipo": "tratamiento",
+   "dificultad": "media",
+   "razonamiento": "Paso 1: no hay hijo previo con defecto del tubo neural, antecedente familiar, diabetes previa, obesidad mórbida, anticonvulsivantes ni déficit documentado. Paso 2: sin factores de riesgo la dosis es 0,4 mg, es decir 400 microgramos. Paso 3: se inicia tres meses antes de concebir y se mantiene hasta las 12 a 13 semanas.",
+   "por_que_no": [
+    "",
+    "Los cuatro miligramos se reservan para quien tiene factores de riesgo de defecto del tubo neural.",
+    "Iniciar en el segundo trimestre pierde el período de cierre del tubo neural.",
+    "El tercer trimestre es muy tardío: el tubo neural ya se cerró en el primer trimestre.",
+    "La dosis alta sostenida todo el embarazo no corresponde a una mujer sin factores de riesgo."
+   ],
+   "trampa": [
+    "",
+    "otra-poblacion",
+    "otro-momento",
+    "otro-momento",
+    "otra-poblacion"
+   ],
+   "perla": "Sin riesgo 400 µg; con riesgo 4 mg; siempre desde 3 meses antes.",
+   "fuente": {
+    "carpeta": "2. OBSTETRICIA",
+    "archivo": "7. ATENCION PRENATAL.pdf",
+    "seccion": "p. 1, Atención prenatal"
+   },
+   "gemela_de": null
+  },
+  {
+   "id": "2026-10-22-banco-cpn-hta-011",
+   "enunciado": "Mujer de 34 años con hiperglucemia diagnosticada hace ocho años en tratamiento con metformina, IMC 41 kg/m2, acude porque desea embarazarse este año. Hemoglobina glicosilada 7,4 %, PA 124/78 mmHg, sin otros antecedentes ni hijos con malformaciones. Se le indicarán medidas previas a la concepción. ¿Qué dosis de suplemento corresponde indicar en este caso?",
+   "opciones": [
+    "Un miligramo al día desde el primer control prenatal",
+    "Cuatro miligramos al día desde tres meses antes de concebir",
+    "Cuatrocientos microgramos al día desde tres meses antes de concebir",
+    "Cuatrocientos microgramos al día durante todo el tercer trimestre",
+    "Cuatro miligramos al día recién desde la confirmación del embarazo"
+   ],
+   "clave": 2,
+   "especialidad": "Obstetricia",
+   "tema": "Atención prenatal",
+   "diagnostico": "Suplementación con ácido fólico en gestación con diabetes pregestacional y obesidad mórbida",
+   "tipo": "tratamiento",
+   "dificultad": "alta",
+   "razonamiento": "Paso 1: la paciente tiene hiperglucemia previa al embarazo y obesidad mórbida, dos factores de riesgo de defecto del tubo neural. Paso 2: con un factor de riesgo la dosis sube a 4 mg diarios. Paso 3: debe iniciarse tres meses antes de la concepción, no al confirmar el embarazo.",
+   "por_que_no": [
+    "Un miligramo no es la dosis normada y además iniciar en el control ya es tardío.",
+    "",
+    "Esa dosis corresponde a la mujer sin factores de riesgo de defecto del tubo neural.",
+    "El tercer trimestre no protege el cierre del tubo neural, que ocurre muy al inicio.",
+    "Esperar la confirmación del embarazo pierde las semanas del cierre del tubo neural."
+   ],
+   "trampa": [
+    "inventado",
+    "",
+    "otra-poblacion",
+    "otro-momento",
+    "otro-momento"
+   ],
+   "perla": "Diabetes previa, obesidad mórbida, valproato o hijo con defecto: 4 mg.",
+   "fuente": {
+    "carpeta": "2. OBSTETRICIA",
+    "archivo": "7. ATENCION PRENATAL.pdf",
+    "seccion": "p. 1, Atención prenatal"
+   },
+   "gemela_de": null
+  },
+  {
+   "id": "2026-10-22-banco-cpn-hta-012",
+   "enunciado": "Gestante de 22 años, G2P1, de 16 semanas, acude sola a su atención con equimosis en el brazo izquierdo que atribuye a un golpe doméstico. Está retraída, responde con monosílabos y refiere que su pareja controla sus salidas y revisa su teléfono. PA 110/70 mmHg, altura uterina acorde, latidos fetales presentes. ¿Qué acción corresponde a la esfera que esta atención debe cubrir además de la física?",
+   "opciones": [
+    "Solicitar radiografía del brazo y analgesia por el traumatismo referido",
+    "Indicar reposo relativo y control del peso en dos semanas",
+    "Derivar únicamente a psicología al final del tercer trimestre",
+    "Repetir la evaluación en la siguiente atención si persisten las lesiones",
+    "Aplicar el tamizaje de violencia familiar y activar la ruta de atención"
+   ],
+   "clave": 5,
+   "especialidad": "Obstetricia",
+   "tema": "Atención prenatal",
+   "diagnostico": "Componente social de la atención prenatal reenfocada",
+   "tipo": "conducta",
+   "dificultad": "media",
+   "razonamiento": "Paso 1: equimosis, retraimiento y conducta controladora de la pareja configuran sospecha de violencia. Paso 2: la atención prenatal reenfocada evalúa lo físico, lo psicológico y lo social, e identifica expresamente la violencia familiar. Paso 3: corresponde tamizar y activar la ruta.",
+   "por_que_no": [
+    "El estudio del brazo atiende la esfera física y deja intacto el riesgo que motiva la consulta.",
+    "El reposo y el control de peso no abordan la situación de violencia que se sospecha.",
+    "Diferir la derivación al tercer trimestre retrasa la protección que se requiere ahora.",
+    "Postergar la evaluación mantiene a la gestante expuesta al mismo riesgo durante semanas.",
+    ""
+   ],
+   "trampa": [
+    "otra-esfera",
+    "otra-esfera",
+    "otro-momento",
+    "otro-momento",
+    ""
+   ],
+   "perla": "Reenfocada = física + psicológica + social, con tamizaje de violencia.",
+   "fuente": {
+    "carpeta": "2. OBSTETRICIA",
+    "archivo": "7. ATENCION PRENATAL.pdf",
+    "seccion": "p. 1, Atención prenatal"
+   },
+   "gemela_de": null
+  },
+  {
+   "id": "2026-10-22-banco-cpn-hta-013",
+   "enunciado": "Gestante de 24 años, de 18 semanas, acude por disuria y polaquiuria desde hace tres días, sin fiebre ni dolor lumbar. PA 108/66 mmHg, T 36,8 °C, puño percusión lumbar negativa. Examen de orina con diez leucocitos por campo y nitritos positivos; urocultivo pendiente. En el establecimiento hay cefalexina, ciprofloxacino, doxiciclina, cotrimoxazol y gentamicina. ¿Cuál corresponde indicar?",
+   "opciones": [
+    "Gentamicina",
+    "Cotrimoxazol",
+    "Doxiciclina",
+    "Cefalexina",
+    "Ciprofloxacino"
+   ],
+   "clave": 4,
+   "especialidad": "Obstetricia",
+   "tema": "Atención prenatal",
+   "diagnostico": "Infección urinaria en gestación: antibiótico permitido",
+   "tipo": "tratamiento",
+   "dificultad": "alta",
+   "razonamiento": "Paso 1: disuria con nitritos positivos y sin fiebre ni puño percusión indica infección urinaria baja. Paso 2: entre los fármacos disponibles, los betalactámicos y los macrólidos son los permitidos en el embarazo. Paso 3: la cefalexina es el único betalactámico de la lista.",
+   "por_que_no": [
+    "Los aminoglucósidos se reservan a casos graves por su ototoxicidad y nefrotoxicidad fetal.",
+    "Su uso se evita en el embarazo por el riesgo hematológico y del cierre del tubo neural.",
+    "Las tetraciclinas están contraindicadas por tinción dental y alteración del crecimiento óseo.",
+    "",
+    "Las quinolonas están contraindicadas en el embarazo por su efecto sobre el cartílago fetal."
+   ],
+   "trampa": [
+    "otro-contexto",
+    "contraindicado",
+    "contraindicado",
+    "",
+    "contraindicado"
+   ],
+   "perla": "En gestante: betalactámicos y macrólidos sí; quinolonas y tetraciclinas no.",
+   "fuente": {
+    "carpeta": "2. OBSTETRICIA",
+    "archivo": "7. ATENCION PRENATAL.pdf",
+    "seccion": "p. 1, Atención prenatal"
+   },
+   "gemela_de": null
+  },
+  {
+   "id": "2026-10-22-banco-cpn-hta-014",
+   "enunciado": "Mujer de 21 años, de 11 semanas de gestación, consulta por lesiones papulopustulosas en la cara que empeoraron en las últimas semanas. Antes del embarazo tomaba un antibiótico oral indicado por un dermatólogo y desea reiniciarlo. PA 104/64 mmHg, examen general normal. Trae en la mano doxiciclina de 100 mg. ¿Cuál es el riesgo fetal que obliga a suspender ese fármaco?",
+   "opciones": [
+    "Tinción dental permanente con alteración del crecimiento óseo",
+    "Focomelia con ausencia de los segmentos de los miembros",
+    "Hipoplasia del tabique nasal con malformación esquelética",
+    "Falla renal fetal con secuencia de oligoamnios y anuria",
+    "Cierre precoz del conducto arterioso con oligoamnios"
+   ],
+   "clave": 1,
+   "especialidad": "Obstetricia",
+   "tema": "Atención prenatal",
+   "diagnostico": "Fármaco contraindicado en el embarazo: tetraciclinas",
+   "tipo": "tratamiento",
+   "dificultad": "media",
+   "razonamiento": "Paso 1: la paciente pretende reiniciar una tetraciclina durante el primer trimestre. Paso 2: las tetraciclinas están contraindicadas en el embarazo porque se depositan en el tejido en formación. Paso 3: producen tinción dental permanente y alteración del crecimiento óseo del feto.",
+   "por_que_no": [
+    "",
+    "Esa malformación de los miembros es el efecto clásico de la talidomida.",
+    "Ese cuadro corresponde a la exposición a warfarina durante la gestación.",
+    "Esa secuencia se describe con los inhibidores de la enzima convertidora y los antagonistas del receptor.",
+    "Ese efecto corresponde a los antiinflamatorios no esteroideos después de las treinta y dos semanas."
+   ],
+   "trampa": [
+    "",
+    "otro-farmaco",
+    "otro-farmaco",
+    "otro-farmaco",
+    "otro-farmaco"
+   ],
+   "perla": "Tetraciclina en gestante: diente manchado y hueso frenado.",
+   "fuente": {
+    "carpeta": "2. OBSTETRICIA",
+    "archivo": "7. ATENCION PRENATAL.pdf",
+    "seccion": "p. 1, Atención prenatal"
+   },
+   "gemela_de": null
+  },
+  {
+   "id": "2026-10-22-banco-cpn-hta-015",
+   "enunciado": "Gestante de 26 años, de 9 semanas, acude por flujo vaginal grisáceo de olor desagradable, sin prurito ni dispareunia. T 36,6 °C, PA 110/70 mmHg, especuloscopía con secreción homogénea adherida a las paredes, pH vaginal elevado y prueba de aminas positiva. El médico de guardia quiere iniciar metronidazol oral de inmediato. ¿Cuál es la conducta que corresponde en este momento del embarazo?",
+   "opciones": [
+    "Reemplazarlo por una quinolona oral durante siete días",
+    "Postergar ese fármaco por estar contraindicado en el primer trimestre",
+    "Indicarlo en dosis única por tratarse de una infección vaginal",
+    "Indicarlo por siete días con control a las cuarenta y ocho horas",
+    "Reemplazarlo por doxiciclina oral durante catorce días"
+   ],
+   "clave": 2,
+   "especialidad": "Obstetricia",
+   "tema": "Atención prenatal",
+   "diagnostico": "Metronidazol contraindicado en el primer trimestre",
+   "tipo": "tratamiento",
+   "dificultad": "alta",
+   "razonamiento": "Paso 1: flujo grisáceo homogéneo con olor y prueba de aminas positiva en una gestante de nueve semanas. Paso 2: el metronidazol figura entre los fármacos contraindicados durante el primer trimestre. Paso 3: corresponde postergar su uso y no sustituirlo por quinolonas ni tetraciclinas, también prohibidas.",
+   "por_que_no": [
+    "Las quinolonas están contraindicadas en el embarazo por su efecto sobre el cartílago.",
+    "",
+    "La dosis única no evita la exposición en el período de mayor riesgo de malformación.",
+    "El esquema de siete días mantiene la exposición al fármaco en pleno primer trimestre.",
+    "Las tetraciclinas están contraindicadas por tinción dental y alteración ósea del feto."
+   ],
+   "trampa": [
+    "contraindicado",
+    "",
+    "otro-esquema",
+    "otro-esquema",
+    "contraindicado"
+   ],
+   "perla": "Metronidazol: prohibido en el primer trimestre.",
+   "fuente": {
+    "carpeta": "2. OBSTETRICIA",
+    "archivo": "7. ATENCION PRENATAL.pdf",
+    "seccion": "p. 1, Atención prenatal"
+   },
+   "gemela_de": null
+  },
+  {
+   "id": "2026-10-22-banco-cpn-hta-016",
+   "enunciado": "Mujer de 36 años con presión elevada diagnosticada hace cuatro años, en tratamiento con enalapril 10 mg al día, acude por amenorrea de 7 semanas y prueba de embarazo positiva. PA 128/82 mmHg, FC 76X', creatinina 0,7 mg/dL, examen de orina sin proteínas. Está asintomática y desea continuar el embarazo. ¿Cuál es la conducta farmacológica que corresponde?",
+   "opciones": [
+    "Suspender el enalapril y cambiar a nitroprusiato de sodio",
+    "Mantener el enalapril en la misma dosis con control mensual",
+    "Suspender el enalapril y cambiar a metildopa",
+    "Reducir el enalapril a la mitad y añadir un diurético tiazídico",
+    "Suspender el enalapril y quedar sin tratamiento hasta el parto"
+   ],
+   "clave": 3,
+   "especialidad": "Obstetricia",
+   "tema": "Atención prenatal",
+   "diagnostico": "Hipertensión previa al embarazo con inhibidor de la enzima convertidora",
+   "tipo": "tratamiento",
+   "dificultad": "alta",
+   "razonamiento": "Paso 1: presión elevada diagnosticada antes del embarazo, hoy con siete semanas y sin proteinuria. Paso 2: los inhibidores de la enzima convertidora y los antagonistas del receptor están contraindicados en toda la gestación. Paso 3: el reemplazo de elección para el control crónico es la metildopa.",
+   "por_que_no": [
+    "El nitroprusiato está contraindicado en el embarazo por toxicidad por cianuro fetal.",
+    "Ese grupo es fetotóxico y produce falla renal fetal con oligoamnios y muerte perinatal.",
+    "",
+    "Reducir la dosis mantiene la exposición al fármaco y añade otro de utilidad discutible.",
+    "Dejarla sin tratamiento expone a daño de órgano materno por presión no controlada."
+   ],
+   "trampa": [
+    "contraindicado",
+    "contraindicado",
+    "",
+    "otro-esquema",
+    "otro-extremo"
+   ],
+   "perla": "Embarazo: fuera inhibidores y antagonistas del receptor; entra metildopa.",
+   "fuente": {
+    "carpeta": "2. OBSTETRICIA",
+    "archivo": "7. ATENCION PRENATAL.pdf",
+    "seccion": "p. 1, Atención prenatal"
+   },
+   "gemela_de": null
+  },
+  {
+   "id": "2026-10-22-banco-cpn-hta-017",
+   "enunciado": "Mujer de 31 años con trombosis venosa profunda hace ocho meses, en tratamiento con warfarina y razón normalizada internacional de 2,4, acude por amenorrea de 6 semanas y prueba de embarazo positiva. PA 112/70 mmHg, FC 80X', sin edema ni dolor en miembros inferiores, hemoglobina 12,8 g/dL. ¿Cuál es la conducta que corresponde con su anticoagulación?",
+   "opciones": [
+    "Cambiar a un anticoagulante oral directo por vía oral",
+    "Continuar la warfarina con control estricto de la razón internacional",
+    "Continuar la warfarina solo durante el segundo trimestre",
+    "Suspender la anticoagulación hasta después del parto",
+    "Cambiar a heparina de bajo peso molecular"
+   ],
+   "clave": 5,
+   "especialidad": "Obstetricia",
+   "tema": "Atención prenatal",
+   "diagnostico": "Anticoagulación en la gestación: cambio de warfarina a heparina",
+   "tipo": "tratamiento",
+   "dificultad": "alta",
+   "razonamiento": "Paso 1: gestante de seis semanas anticoagulada con warfarina por trombosis reciente. Paso 2: la warfarina está contraindicada en el embarazo y la heparina de bajo peso molecular es el anticoagulante indicado porque no atraviesa la placenta. Paso 3: se hace el cambio y se mantiene la anticoagulación.",
+   "por_que_no": [
+    "Los anticoagulantes orales directos no están validados en el embarazo y se evitan.",
+    "La warfarina atraviesa la placenta y es teratogénica, por lo que el control no la vuelve segura.",
+    "Limitarla a un trimestre sigue exponiendo al feto a un fármaco contraindicado.",
+    "Suspender la anticoagulación expone a recurrencia trombótica en un estado protrombótico.",
+    ""
+   ],
+   "trampa": [
+    "otro-farmaco",
+    "contraindicado",
+    "otro-momento",
+    "otro-extremo",
+    ""
+   ],
+   "perla": "Gestante que requiere anticoagulación: heparina de bajo peso molecular.",
+   "fuente": {
+    "carpeta": "2. OBSTETRICIA",
+    "archivo": "7. ATENCION PRENATAL.pdf",
+    "seccion": "p. 1, Atención prenatal"
+   },
+   "gemela_de": null
+  },
+  {
+   "id": "2026-10-22-banco-cpn-hta-018",
+   "enunciado": "Gestante de 28 años, de 8 semanas, consulta por palpitaciones, temblor fino, intolerancia al calor y pérdida de 3 kg. FC 112X', PA 122/64 mmHg, bocio difuso con soplo y leve retracción palpebral. Hormona estimulante de tiroides suprimida y tiroxina libre elevada, con anticuerpos antirreceptor positivos. ¿Cuál es el fármaco que corresponde indicar en este momento de la gestación?",
+   "opciones": [
+    "Levotiroxina",
+    "Metimazol",
+    "Propiltiouracilo",
+    "Amiodarona",
+    "Yodo radiactivo"
+   ],
+   "clave": 3,
+   "especialidad": "Obstetricia",
+   "tema": "Atención prenatal",
+   "diagnostico": "Hipertiroidismo en el primer trimestre: antitiroideo de elección",
+   "tipo": "tratamiento",
+   "dificultad": "muy alta",
+   "razonamiento": "Paso 1: palpitaciones, temblor, bocio con soplo, hormona tiroidea suprimida y anticuerpos positivos indican exceso hormonal autoinmune. Paso 2: durante el embarazo se usan propiltiouracilo y metimazol. Paso 3: en el primer trimestre se prefiere el propiltiouracilo y se reserva el metimazol para después.",
+   "por_que_no": [
+    "La levotiroxina trata el déficit hormonal y agravaría el exceso que presenta la paciente.",
+    "Se prefiere después del primer trimestre por el riesgo de malformaciones en esas semanas.",
+    "",
+    "La amiodarona aporta yodo y produce disfunción tiroidea fetal, por lo que se evita.",
+    "El yodo radiactivo está absolutamente contraindicado por ablación de la tiroides fetal."
+   ],
+   "trampa": [
+    "efecto-opuesto",
+    "otro-momento",
+    "",
+    "contraindicado",
+    "contraindicado"
+   ],
+   "perla": "Primer trimestre: propiltiouracilo; luego, metimazol.",
+   "fuente": {
+    "carpeta": "2. OBSTETRICIA",
+    "archivo": "7. ATENCION PRENATAL.pdf",
+    "seccion": "p. 1, Atención prenatal"
+   },
+   "gemela_de": null
+  },
+  {
+   "id": "2026-10-22-banco-cpn-hta-019",
+   "enunciado": "Gestante de 23 años, primigesta de 9 semanas, consulta por náuseas y tres a cuatro vómitos diarios desde hace dos semanas, que ceden parcialmente con fraccionamiento de la dieta. Peso estable, PA 106/64 mmHg, FC 88X', mucosas húmedas, cetonuria negativa y electrolitos normales. ¿Cuál es el esquema farmacológico que corresponde iniciar en este caso?",
+   "opciones": [
+    "Dimenhidrinato asociado a escopolamina",
+    "Ondansetrón por vía oral cada ocho horas",
+    "Piridoxina asociada a metoclopramida",
+    "Domperidona asociada a omeprazol",
+    "Dexametasona por vía oral en pulso corto"
+   ],
+   "clave": 3,
+   "especialidad": "Obstetricia",
+   "tema": "Atención prenatal",
+   "diagnostico": "Náuseas y vómitos del embarazo: tratamiento farmacológico inicial",
+   "tipo": "tratamiento",
+   "dificultad": "media",
+   "razonamiento": "Paso 1: náuseas y vómitos sin deshidratación, cetonuria ni alteración electrolítica, es decir cuadro leve a moderado. Paso 2: entre los fármacos permitidos en el embarazo figuran la piridoxina y la metoclopramida. Paso 3: esa combinación es el escalón inicial y no requiere corticoides.",
+   "por_que_no": [
+    "Esa combinación anticolinérgica no es el esquema normado para los vómitos del embarazo.",
+    "Ese fármaco figura entre los que se evitan en la gestación según la fuente del curso.",
+    "",
+    "Esa combinación apunta al reflujo y no al control de las náuseas gravídicas.",
+    "Los corticoides se reservan a los cuadros refractarios con compromiso del estado general."
+   ],
+   "trampa": [
+    "inventado",
+    "contraindicado",
+    "",
+    "otro-contexto",
+    "otro-escalon"
+   ],
+   "perla": "Vómitos del embarazo: piridoxina + metoclopramida primero.",
+   "fuente": {
+    "carpeta": "2. OBSTETRICIA",
+    "archivo": "7. ATENCION PRENATAL.pdf",
+    "seccion": "p. 1, Atención prenatal"
+   },
+   "gemela_de": null
+  },
+  {
+   "id": "2026-10-22-banco-cpn-hta-020",
+   "enunciado": "Gestante de 30 años, de 29 semanas, presenta contracciones uterinas dolorosas cada diez minutos con cuello de 1 cm de dilatación y longitud cervical de 22 mm por ecografía transvaginal. PA 112/70 mmHg, T 36,7 °C, latidos fetales 148X', sin pérdida de líquido ni sangrado. Se decide frenar la actividad uterina con un antiinflamatorio no esteroideo. ¿Hasta qué edad gestacional puede usarse ese fármaco?",
+   "opciones": [
+    "Hasta las treinta y seis semanas de gestación",
+    "Hasta las veinticuatro semanas de gestación",
+    "Solo durante el primer trimestre",
+    "Hasta el término, sin restricción de semanas",
+    "Hasta las treinta y dos semanas de gestación"
+   ],
+   "clave": 5,
+   "especialidad": "Obstetricia",
+   "tema": "Atención prenatal",
+   "diagnostico": "Antiinflamatorio no esteroideo y límite de la edad gestacional",
+   "tipo": "tratamiento",
+   "dificultad": "muy alta",
+   "razonamiento": "Paso 1: contracciones con cuello corto a las 29 semanas plantean tocólisis. Paso 2: la indometacina figura entre los fármacos permitidos, pero con el límite de las 32 semanas. Paso 3: por encima de ese límite el riesgo de cierre del conducto arterioso contraindica su uso.",
+   "por_que_no": [
+    "Pasadas las treinta y dos semanas aumenta el riesgo de cierre del conducto arterioso fetal.",
+    "Ese límite es más estricto que el descrito y privaría de un tocolítico útil entre las 24 y 32 semanas.",
+    "Restringirlo al primer trimestre desconoce su indicación como tocolítico en el segundo.",
+    "Usarlo hasta el término expone al cierre ductal y al oligoamnios por efecto renal fetal.",
+    ""
+   ],
+   "trampa": [
+    "otro-limite",
+    "otro-limite",
+    "otro-momento",
+    "sin-limite",
+    ""
+   ],
+   "perla": "Indometacina como tocolítico: solo antes de las 32 semanas.",
+   "fuente": {
+    "carpeta": "2. OBSTETRICIA",
+    "archivo": "7. ATENCION PRENATAL.pdf",
+    "seccion": "p. 1, Atención prenatal"
+   },
+   "gemela_de": null
+  },
+  {
+   "id": "2026-10-22-banco-cpn-hta-021",
+   "enunciado": "Gestante de 27 años, G2P1, de 22 semanas, acude a control. Embarazo sin complicaciones, PA 108/66 mmHg, altura uterina acorde. Revisando su carné figura una dosis de la vacuna triple bacteriana acelular aplicada en su embarazo anterior, hace tres años. Pregunta cuándo le corresponde la aplicación en esta gestación para proteger al recién nacido de la tos ferina. ¿En qué momento corresponde aplicarla?",
+   "opciones": [
+    "Solo si no la recibió en el embarazo previo",
+    "En el puerperio inmediato, antes del alta",
+    "En cualquier semana del embarazo, una sola vez",
+    "Durante el primer trimestre, antes de las doce semanas",
+    "Entre las veintisiete y las treinta y seis semanas"
+   ],
+   "clave": 5,
+   "especialidad": "Obstetricia",
+   "tema": "Atención prenatal",
+   "diagnostico": "Momento de aplicación de la vacuna contra difteria, tétanos y tos ferina acelular",
+   "tipo": "norma",
+   "dificultad": "alta",
+   "razonamiento": "Paso 1: la gestante tiene 22 semanas y antecedente de una dosis en el embarazo previo. Paso 2: la vacuna acelular contra difteria, tétanos y tos ferina se aplica entre las 27 y 36 semanas para que los anticuerpos pasen al feto. Paso 3: debe repetirse en cada embarazo.",
+   "por_que_no": [
+    "Debe repetirse en cada embarazo, incluso si fue aplicada en una gestación anterior.",
+    "Aplicarla en el puerperio no alcanza a proteger al recién nacido en sus primeras semanas.",
+    "La aplicación en cualquier semana corresponde a la vacuna contra la influenza inactivada.",
+    "En el primer trimestre la transferencia de anticuerpos al feto es insuficiente para protegerlo.",
+    ""
+   ],
+   "trampa": [
+    "otra-indicacion",
+    "otro-momento",
+    "otra-vacuna",
+    "otro-momento",
+    ""
+   ],
+   "perla": "Triple bacteriana acelular: 27-36 semanas y una dosis en cada embarazo.",
+   "fuente": {
+    "carpeta": "2. OBSTETRICIA",
+    "archivo": "40. VACUNAS EN LA GESTACION.pdf",
+    "seccion": "p. 1, Esquema de vacunación"
+   },
+   "gemela_de": null
+  },
+  {
+   "id": "2026-10-22-banco-cpn-hta-022",
+   "enunciado": "Gestante de 30 años, de 10 semanas, acude en abril a su primera atención, al inicio de la temporada de mayor circulación de virus respiratorios. PA 110/70 mmHg, FC 78X', sin comorbilidades ni alergias conocidas. No ha recibido ninguna vacuna este año y pregunta si debe esperar a estar más avanzada en el embarazo. ¿Qué corresponde indicarle respecto de la vacuna inactivada contra la influenza?",
+   "opciones": [
+    "Esperar hasta el tramo de veintisiete a treinta y seis semanas",
+    "Aplicarla ahora, pues corresponde en cualquier trimestre",
+    "Diferirla al puerperio porque es una vacuna de virus vivo",
+    "Esperar hasta después de las veinte semanas de gestación",
+    "Aplicarla solo si presenta una enfermedad respiratoria crónica"
+   ],
+   "clave": 2,
+   "especialidad": "Obstetricia",
+   "tema": "Atención prenatal",
+   "diagnostico": "Vacuna contra la influenza en la gestación",
+   "tipo": "norma",
+   "dificultad": "media",
+   "razonamiento": "Paso 1: gestante de 10 semanas al inicio de la temporada gripal, sin vacuna de este año. Paso 2: la vacuna contra la influenza es inactivada y se aplica en cualquier trimestre, con una dosis anual. Paso 3: se aplica en esta misma consulta, idealmente antes de la temporada.",
+   "por_que_no": [
+    "Ese tramo corresponde a la vacuna acelular contra difteria, tétanos y tos ferina.",
+    "",
+    "La vacuna contra la influenza es inactivada, de modo que no está contraindicada.",
+    "El límite de las veinte semanas corresponde a otras vacunas del esquema de la gestante.",
+    "La indicación no se limita a quienes tienen enfermedad respiratoria crónica previa."
+   ],
+   "trampa": [
+    "otra-vacuna",
+    "",
+    "dato-falso",
+    "otra-vacuna",
+    "otra-indicacion"
+   ],
+   "perla": "Influenza inactivada: cualquier trimestre, una dosis al año.",
+   "fuente": {
+    "carpeta": "2. OBSTETRICIA",
+    "archivo": "40. VACUNAS EN LA GESTACION.pdf",
+    "seccion": "p. 1, Esquema de vacunación"
+   },
+   "gemela_de": null
+  },
+  {
+   "id": "2026-10-22-banco-cpn-hta-023",
+   "enunciado": "Gestante de 24 años, de 14 semanas, acude con un resultado de serología solicitado antes del embarazo que informa ausencia de anticuerpos protectores frente al virus de la rubéola. Está asintomática, PA 104/64 mmHg, sin contacto conocido con personas con exantema. Pregunta si puede vacunarse ahora para proteger al bebé. ¿Cuál es la conducta que corresponde?",
+   "opciones": [
+    "Aplicarla junto con la vacuna contra la influenza en esta consulta",
+    "Diferir esa vacuna al puerperio porque contiene virus vivo",
+    "Aplicarla de inmediato por el riesgo de contagio en el embarazo",
+    "Reemplazarla por inmunoglobulina específica en el tercer trimestre",
+    "Aplicarla después de las veinte semanas, cuando ya hay organogénesis completa"
+   ],
+   "clave": 2,
+   "especialidad": "Obstetricia",
+   "tema": "Atención prenatal",
+   "diagnostico": "Vacuna de virus vivo contraindicada durante la gestación",
+   "tipo": "conducta",
+   "dificultad": "alta",
+   "razonamiento": "Paso 1: la gestante no tiene anticuerpos frente a la rubéola y pide vacunarse. Paso 2: la vacuna contra sarampión, rubéola y parotiditis es de virus vivo y está contraindicada en el embarazo, igual que la de varicela y la del papiloma humano. Paso 3: se diferirá al puerperio.",
+   "por_que_no": [
+    "La vacuna contra la influenza sí puede aplicarse, pero la de virus vivo no la acompaña.",
+    "",
+    "Las vacunas de virus vivo están contraindicadas durante toda la gestación por riesgo teórico fetal.",
+    "No existe esa indicación de inmunoglobulina como reemplazo de la vacunación en gestantes.",
+    "La contraindicación no depende del trimestre: se mantiene durante todo el embarazo."
+   ],
+   "trampa": [
+    "mezcla",
+    "",
+    "contraindicado",
+    "inventado",
+    "otro-momento"
+   ],
+   "perla": "Virus vivo en gestante: no. Se vacuna en el puerperio.",
+   "fuente": {
+    "carpeta": "2. OBSTETRICIA",
+    "archivo": "40. VACUNAS EN LA GESTACION.pdf",
+    "seccion": "p. 1, Esquema de vacunación"
+   },
+   "gemela_de": null
+  },
+  {
+   "id": "2026-10-22-banco-cpn-hta-024",
+   "enunciado": "Mujer de 19 años acude a su primera atención con amenorrea de 8 semanas y prueba de embarazo positiva. En el carné figura que recibió la primera dosis de la vacuna contra el papiloma humano hace dos meses y le corresponde la segunda dosis esta semana. PA 102/62 mmHg, examen sin alteraciones. ¿Cuál es la conducta que corresponde con esa segunda dosis?",
+   "opciones": [
+    "Reiniciar el esquema completo inmediatamente después del parto",
+    "Aplicarla en el tramo de veintisiete a treinta y seis semanas",
+    "Aplicarla hoy para no perder el esquema iniciado",
+    "Aplicarla a partir de las veinte semanas de gestación",
+    "Postergarla hasta después del término del embarazo"
+   ],
+   "clave": 5,
+   "especialidad": "Obstetricia",
+   "tema": "Atención prenatal",
+   "diagnostico": "Vacuna contra el papiloma humano en la gestación",
+   "tipo": "conducta",
+   "dificultad": "media",
+   "razonamiento": "Paso 1: gestante de ocho semanas con esquema iniciado contra el papiloma humano. Paso 2: esa vacuna figura entre las contraindicadas durante la gestación, junto con sarampión, rubéola, parotiditis y varicela. Paso 3: se posterga la dosis y se completa el esquema después del parto.",
+   "por_que_no": [
+    "No se reinicia el esquema: se continúa con las dosis pendientes luego del embarazo.",
+    "Ese tramo corresponde a la vacuna acelular contra difteria, tétanos y tos ferina.",
+    "Esa vacuna está contraindicada en la gestación, por lo que no debe aplicarse hoy.",
+    "La contraindicación no se levanta a las veinte semanas; abarca todo el embarazo.",
+    ""
+   ],
+   "trampa": [
+    "otro-esquema",
+    "otra-vacuna",
+    "contraindicado",
+    "otro-momento",
+    ""
+   ],
+   "perla": "Papiloma humano: fuera del embarazo; se completa después.",
+   "fuente": {
+    "carpeta": "2. OBSTETRICIA",
+    "archivo": "40. VACUNAS EN LA GESTACION.pdf",
+    "seccion": "p. 1, Esquema de vacunación"
+   },
+   "gemela_de": null
+  },
+  {
+   "id": "2026-10-22-banco-cpn-hta-025",
+   "enunciado": "Gestante de 26 años, de 16 semanas, acude a control con antígeno de superficie del virus de la hepatitis B negativo y sin antecedente de vacunación contra esa infección. Su pareja es portador crónico conocido. PA 106/68 mmHg, transaminasas normales, sin ictericia ni hepatomegalia. ¿Cuál es el esquema de vacunación que corresponde indicar?",
+   "opciones": [
+    "Dos dosis separadas por dos meses entre la primera y la segunda",
+    "Tres dosis: primer contacto, al mes y a los dos meses",
+    "Cuatro dosis mensuales a partir de las veinte semanas de gestación",
+    "Dos dosis separadas por tres semanas entre la primera y la segunda",
+    "Una dosis única en el tramo de veintisiete a treinta y seis semanas"
+   ],
+   "clave": 2,
+   "especialidad": "Obstetricia",
+   "tema": "Atención prenatal",
+   "diagnostico": "Esquema de vacunación contra hepatitis B en la gestante",
+   "tipo": "norma",
+   "dificultad": "alta",
+   "razonamiento": "Paso 1: gestante susceptible con pareja portadora, por lo que tiene indicación de vacunarse. Paso 2: el esquema contra hepatitis B en la gestante se inicia en el primer contacto y continúa al mes y a los dos meses de la primera dosis. Paso 3: se completan las tres dosis.",
+   "por_que_no": [
+    "Ese esquema de dos dosis separadas por dos meses corresponde a la vacuna contra difteria y tétanos.",
+    "",
+    "No existe un esquema de cuatro dosis mensuales para esta vacuna en la gestante.",
+    "Ese intervalo de tres semanas corresponde al esquema de la vacuna contra el coronavirus.",
+    "La dosis única en ese tramo corresponde a la vacuna acelular contra la tos ferina."
+   ],
+   "trampa": [
+    "otra-vacuna",
+    "",
+    "inventado",
+    "otra-vacuna",
+    "otra-vacuna"
+   ],
+   "perla": "Hepatitis B en gestante: 3 dosis, desde el primer contacto.",
+   "fuente": {
+    "carpeta": "2. OBSTETRICIA",
+    "archivo": "40. VACUNAS EN LA GESTACION.pdf",
+    "seccion": "p. 1, Esquema de vacunación"
+   },
+   "gemela_de": null
+  },
+  {
+   "id": "2026-10-22-banco-cpn-hta-026",
+   "enunciado": "Gestante de 21 años, primigesta de 21 semanas, procedente de zona rural, sin carné de vacunación y sin recordar dosis previas contra el tétanos. PA 100/60 mmHg, FC 84X', altura uterina acorde, sin heridas ni lesiones cutáneas. Se decide iniciar el esquema contra difteria y tétanos en esta atención. ¿Cuál es el esquema que corresponde indicar?",
+   "opciones": [
+    "Una dosis única, sin necesidad de refuerzo posterior",
+    "Dos dosis, la segunda seis meses después de la primera",
+    "Tres dosis, al primer contacto, al mes y a los dos meses",
+    "Dos dosis, la segunda dos meses después de la primera",
+    "Dos dosis, la segunda tres semanas después de la primera"
+   ],
+   "clave": 4,
+   "especialidad": "Obstetricia",
+   "tema": "Atención prenatal",
+   "diagnostico": "Esquema de la vacuna contra difteria y tétanos en la gestante",
+   "tipo": "norma",
+   "dificultad": "muy alta",
+   "razonamiento": "Paso 1: gestante de 21 semanas sin antecedente vacunal confiable contra el tétanos. Paso 2: la vacuna contra difteria y tétanos se aplica desde las 20 semanas en dos dosis, con la segunda a los dos meses de la primera. Paso 3: se inicia hoy y se cita en dos meses.",
+   "por_que_no": [
+    "La dosis única corresponde a la vacuna acelular contra la tos ferina o a la influenza.",
+    "El intervalo de seis meses no figura en el esquema de la gestante para esta vacuna.",
+    "El esquema de tres dosis con ese intervalo corresponde a la vacuna contra la hepatitis B.",
+    "",
+    "El intervalo de tres semanas corresponde al esquema de la vacuna contra el coronavirus."
+   ],
+   "trampa": [
+    "otra-vacuna",
+    "inventado",
+    "otra-vacuna",
+    "",
+    "otra-vacuna"
+   ],
+   "perla": "Difteria y tétanos en gestante: 2 dosis con 2 meses de intervalo, desde las 20 semanas.",
+   "fuente": {
+    "carpeta": "2. OBSTETRICIA",
+    "archivo": "40. VACUNAS EN LA GESTACION.pdf",
+    "seccion": "p. 1, Esquema de vacunación"
+   },
+   "gemela_de": null
+  },
+  {
+   "id": "2026-10-22-banco-cpn-hta-027",
+   "enunciado": "Gestante de 29 años, de 10 semanas, acude a su primera atención y solicita la vacuna de ácido ribonucleico mensajero contra el coronavirus porque trabaja atendiendo público. PA 108/70 mmHg, FC 76X', sin comorbilidades. No ha recibido ninguna dosis previa de esa vacuna. ¿A partir de qué edad gestacional y con qué intervalo corresponde aplicar el esquema?",
+   "opciones": [
+    "Desde las doce semanas, con la segunda dosis dos meses después",
+    "Desde las doce semanas, con la segunda dosis tres semanas después",
+    "En cualquier semana del embarazo, en una sola dosis anual",
+    "Desde las veintisiete semanas, en una sola dosis sin refuerzo",
+    "Desde las veinte semanas, con la segunda dosis tres semanas después"
+   ],
+   "clave": 2,
+   "especialidad": "Obstetricia",
+   "tema": "Atención prenatal",
+   "diagnostico": "Vacunación contra el coronavirus en la gestación",
+   "tipo": "norma",
+   "dificultad": "alta",
+   "razonamiento": "Paso 1: gestante de 10 semanas que solicita la vacuna de ácido ribonucleico mensajero. Paso 2: ese esquema se aplica desde las 12 semanas de gestación, por vía intramuscular, en dos dosis separadas por tres semanas. Paso 3: debe esperar dos semanas más y luego recibir la segunda dosis a las tres semanas.",
+   "por_que_no": [
+    "El intervalo de dos meses corresponde al esquema contra difteria y tétanos.",
+    "",
+    "La dosis anual en cualquier semana corresponde a la vacuna contra la influenza.",
+    "Ese tramo y la dosis única corresponden a la vacuna acelular contra la tos ferina.",
+    "El límite de las veinte semanas corresponde a otras vacunas del esquema de la gestante."
+   ],
+   "trampa": [
+    "otra-vacuna",
+    "",
+    "otra-vacuna",
+    "otra-vacuna",
+    "otra-vacuna"
+   ],
+   "perla": "Coronavirus en gestante: desde las 12 semanas, 2 dosis con 3 semanas de intervalo.",
+   "fuente": {
+    "carpeta": "2. OBSTETRICIA",
+    "archivo": "40. VACUNAS EN LA GESTACION.pdf",
+    "seccion": "p. 1, Esquema de vacunación"
+   },
+   "gemela_de": null
+  },
+  {
+   "id": "2026-10-22-banco-cpn-hta-028",
+   "enunciado": "Gestante de 23 años, primigesta de 13 semanas, procedente de una comunidad donde el consumo de lácteos es muy escaso; refiere no tomar leche ni derivados. IMC 22 kg/m2, PA 104/64 mmHg, hemoglobina 12,4 g/dL, calcio sérico 8,9 mg/dL. Ya recibe su suplemento de ácido fólico. ¿Qué suplemento adicional corresponde indicar y en qué dosis diaria?",
+   "opciones": [
+    "Vitamina D en dosis única mensual durante el embarazo",
+    "Carbonato de calcio, cuatro gramos al día hasta el término",
+    "Sulfato ferroso en dosis doble desde el primer trimestre",
+    "Carbonato de calcio, entre cien y doscientos miligramos al día",
+    "Carbonato de calcio, entre uno coma cinco y dos gramos al día"
+   ],
+   "clave": 5,
+   "especialidad": "Obstetricia",
+   "tema": "Atención prenatal",
+   "diagnostico": "Suplementación con calcio en gestante con baja ingesta",
+   "tipo": "tratamiento",
+   "dificultad": "alta",
+   "razonamiento": "Paso 1: gestante de 13 semanas con ingesta de calcio muy baja por su dieta. Paso 2: en poblaciones con baja ingesta se recomienda carbonato de calcio desde las 13 semanas. Paso 3: la dosis indicada es de 1,5 a 2 gramos diarios, sumada al ácido fólico que ya recibe.",
+   "por_que_no": [
+    "La vitamina D en dosis mensual no reemplaza el aporte de calcio que requiere la gestante.",
+    "Cuatro gramos excede la dosis recomendada y no figura en la indicación normada.",
+    "El hierro corrige o previene la anemia, pero no cubre el déficit de aporte de calcio.",
+    "Esa dosis es muy baja y no alcanza el aporte recomendado en poblaciones con baja ingesta.",
+    ""
+   ],
+   "trampa": [
+    "otro-nutriente",
+    "otra-dosis",
+    "otro-nutriente",
+    "otra-dosis",
+    ""
+   ],
+   "perla": "Baja ingesta de calcio: 1,5-2 g al día desde las 13 semanas.",
+   "fuente": {
+    "carpeta": "2. OBSTETRICIA",
+    "archivo": "35. TRASTORNO HIPERTENSIV.pdf",
+    "seccion": "p. 1, Prevención"
+   },
+   "gemela_de": null
+  },
+  {
+   "id": "2026-10-22-banco-cpn-hta-029",
+   "enunciado": "Gestante de 25 años, de 19 semanas, procedente de zona endémica amazónica, acude por fiebre de 39 °C con escalofríos y sudoración cada 48 horas desde hace una semana, con cefalea y mialgias. PA 100/60 mmHg, FC 104X', bazo palpable a 2 cm, hemoglobina 9,8 g/dL. La gota gruesa confirma parasitemia. ¿Cuál es el fármaco que corresponde indicar?",
+   "opciones": [
+    "Metotrexato",
+    "Primaquina",
+    "Cloroquina",
+    "Fluconazol",
+    "Doxiciclina"
+   ],
+   "clave": 3,
+   "especialidad": "Obstetricia",
+   "tema": "Atención prenatal",
+   "diagnostico": "Tratamiento antimalárico permitido en la gestación",
+   "tipo": "tratamiento",
+   "dificultad": "muy alta",
+   "razonamiento": "Paso 1: fiebre periódica cada 48 horas con esplenomegalia y anemia en zona endémica, con parasitemia confirmada. Paso 2: entre los antimaláricos, la cloroquina y la hidroxicloroquina están permitidas en el embarazo. Paso 3: la primaquina queda contraindicada y se posterga al puerperio.",
+   "por_que_no": [
+    "El metotrexato es un antifolato teratogénico que se emplea en otras indicaciones.",
+    "La primaquina está contraindicada en el embarazo por riesgo de hemólisis fetal.",
+    "",
+    "El fluconazol está contraindicado en la gestación y además no tiene acción antimalárica.",
+    "Las tetraciclinas están contraindicadas por tinción dental y alteración ósea fetal."
+   ],
+   "trampa": [
+    "contraindicado",
+    "contraindicado",
+    "",
+    "otro-contexto",
+    "contraindicado"
+   ],
+   "perla": "Gestante con malaria: cloroquina sí, primaquina no.",
+   "fuente": {
+    "carpeta": "2. OBSTETRICIA",
+    "archivo": "7. ATENCION PRENATAL.pdf",
+    "seccion": "p. 1, Atención prenatal"
+   },
+   "gemela_de": null
+  },
+  {
+   "id": "2026-10-22-banco-cpn-hta-030",
+   "enunciado": "Mujer de 32 años con poliartritis simétrica de pequeñas articulaciones de cinco años de evolución, en tratamiento con metotrexato semanal e hidroxicloroquina, acude por amenorrea de 6 semanas y prueba de embarazo positiva. PA 110/68 mmHg, articulaciones sin sinovitis activa, hemoglobina 12,6 g/dL. ¿Cuál es la conducta farmacológica que corresponde?",
+   "opciones": [
+    "Reemplazar el metotrexato por leflunomida durante el embarazo",
+    "Suspender la hidroxicloroquina y mantener el metotrexato semanal",
+    "Continuar ambos fármacos en la misma dosis con control mensual",
+    "Suspender el metotrexato y continuar la hidroxicloroquina",
+    "Suspender ambos fármacos hasta después del parto"
+   ],
+   "clave": 4,
+   "especialidad": "Obstetricia",
+   "tema": "Atención prenatal",
+   "diagnostico": "Fármaco antirreumático contraindicado en la gestación",
+   "tipo": "tratamiento",
+   "dificultad": "alta",
+   "razonamiento": "Paso 1: gestante de seis semanas con enfermedad articular autoinmune en tratamiento combinado. Paso 2: el metotrexato está contraindicado por su efecto antifolato y teratogénico, mientras la hidroxicloroquina figura entre los fármacos permitidos. Paso 3: se suspende el primero y se mantiene el segundo.",
+   "por_que_no": [
+    "La leflunomida también es teratogénica y se evita por completo en la gestación.",
+    "Esa conducta invierte los fármacos: deja el teratogénico y retira el que sí es permitido.",
+    "El metotrexato es teratogénico y debe suspenderse, de modo que no puede continuarse.",
+    "",
+    "Suspender todo expone a reactivación de la enfermedad, y la hidroxicloroquina sí es segura."
+   ],
+   "trampa": [
+    "contraindicado",
+    "invertido",
+    "contraindicado",
+    "",
+    "otro-extremo"
+   ],
+   "perla": "Gestante con enfermedad reumática: fuera metotrexato, sigue hidroxicloroquina.",
+   "fuente": {
+    "carpeta": "2. OBSTETRICIA",
+    "archivo": "7. ATENCION PRENATAL.pdf",
+    "seccion": "p. 1, Atención prenatal"
+   },
+   "gemela_de": null
+  },
+  {
+   "id": "2026-10-22-banco-cpn-hta-031",
+   "enunciado": "Mujer de 28 años con crisis convulsivas desde la adolescencia, sin crisis en los últimos dos años con ácido valproico, acude por amenorrea de 5 semanas y prueba de embarazo positiva. PA 108/66 mmHg, examen neurológico normal, tomaba además ácido fólico 0,4 mg por indicación previa. ¿Cuál es la conducta que corresponde con su tratamiento anticonvulsivante?",
+   "opciones": [
+    "Mantener el valproato y subir el ácido fólico a cuatro miligramos",
+    "Cambiar el valproato por fenitoína y mantener el ácido fólico en la dosis actual",
+    "Suspender todo anticonvulsivante por el riesgo teratogénico del grupo",
+    "Cambiar el valproato por carbamazepina y subir el ácido fólico a cuatro miligramos",
+    "Mantener el valproato solo durante el primer trimestre y luego cambiarlo"
+   ],
+   "clave": 4,
+   "especialidad": "Obstetricia",
+   "tema": "Atención prenatal",
+   "diagnostico": "Anticonvulsivante contraindicado en la gestación",
+   "tipo": "tratamiento",
+   "dificultad": "alta",
+   "razonamiento": "Paso 1: gestante de cinco semanas en tratamiento con valproato, fármaco contraindicado en el embarazo. Paso 2: la carbamazepina figura entre los permitidos según la fuente del curso. Paso 3: el uso de anticonvulsivantes es factor de riesgo de defecto del tubo neural, por lo que el ácido fólico sube a 4 mg.",
+   "por_que_no": [
+    "El valproato es el anticonvulsivante con mayor riesgo de defecto del tubo neural y debe retirarse.",
+    "El ácido fólico debe subir a cuatro miligramos por el antecedente de anticonvulsivantes.",
+    "Dejarla sin tratamiento expone a crisis convulsivas con riesgo materno y fetal.",
+    "",
+    "El primer trimestre es justamente el período de mayor riesgo de malformación."
+   ],
+   "trampa": [
+    "contraindicado",
+    "dosis-insuficiente",
+    "otro-extremo",
+    "",
+    "otro-momento"
+   ],
+   "perla": "Valproato fuera; con anticonvulsivantes, folato a 4 mg.",
+   "fuente": {
+    "carpeta": "2. OBSTETRICIA",
+    "archivo": "7. ATENCION PRENATAL.pdf",
+    "seccion": "p. 1, Atención prenatal"
+   },
+   "gemela_de": null
+  },
+  {
+   "id": "2026-10-22-banco-cpn-hta-032",
+   "enunciado": "Gestante de 31 años, de 24 semanas, con infección por el virus de la inmunodeficiencia humana y recuento de linfocitos T CD4 de 90 células por microlitro, ingresa por cefalea de dos semanas, fiebre y rigidez de nuca. El estudio del líquido cefalorraquídeo muestra una levadura capsulada en la tinción con tinta china. ¿Cuál es el antimicótico que corresponde indicar en esta gestante?",
+   "opciones": [
+    "Fluconazol",
+    "Itraconazol",
+    "Voriconazol",
+    "Anfotericina B",
+    "Griseofulvina"
+   ],
+   "clave": 4,
+   "especialidad": "Obstetricia",
+   "tema": "Atención prenatal",
+   "diagnostico": "Antimicótico permitido en la gestación",
+   "tipo": "tratamiento",
+   "dificultad": "muy alta",
+   "razonamiento": "Paso 1: inmunosupresión avanzada con cefalea, fiebre y levadura capsulada en el líquido cefalorraquídeo indica micosis del sistema nervioso central. Paso 2: requiere antimicótico sistémico. Paso 3: entre ellos la anfotericina B es la permitida en el embarazo, mientras el fluconazol está contraindicado.",
+   "por_que_no": [
+    "Los azoles sistémicos, en especial este, están contraindicados en la gestación.",
+    "También es un azol sistémico y comparte la contraindicación durante el embarazo.",
+    "Es un azol sistémico con riesgo teratogénico descrito y se evita en la gestante.",
+    "",
+    "Se emplea en micosis superficiales y además es teratogénica en el embarazo."
+   ],
+   "trampa": [
+    "contraindicado",
+    "contraindicado",
+    "contraindicado",
+    "",
+    "otro-contexto"
+   ],
+   "perla": "Micosis sistémica en gestante: anfotericina B, no azoles.",
+   "fuente": {
+    "carpeta": "2. OBSTETRICIA",
+    "archivo": "7. ATENCION PRENATAL.pdf",
+    "seccion": "p. 1, Atención prenatal"
+   },
+   "gemela_de": null
+  },
+  {
+   "id": "2026-10-22-banco-cpn-hta-033",
+   "enunciado": "En un distrito con 400 gestantes estimadas para el año, el establecimiento registra solo 160 gestantes captadas, la mayoría después de las 20 semanas. Las atenciones brindadas cumplen con los intervalos normados y evalúan las esferas física, psicológica y social de cada gestante atendida. ¿Cuál es la característica de la atención prenatal que este indicador poblacional refleja como deficiente?",
+   "opciones": [
+    "La integralidad de la evaluación de cada gestante atendida",
+    "La precocidad de la captación de la gestante en el distrito",
+    "La periodicidad de las atenciones de cada gestante captada",
+    "La amplia cobertura de la población gestante del distrito",
+    "La capacidad resolutiva del establecimiento del distrito"
+   ],
+   "clave": 4,
+   "especialidad": "Obstetricia",
+   "tema": "Atención prenatal",
+   "diagnostico": "Característica de amplia cobertura de la atención prenatal",
+   "tipo": "norma",
+   "dificultad": "media",
+   "razonamiento": "Paso 1: el indicador compara 160 gestantes captadas sobre 400 estimadas, es decir el 40 por ciento de la población. Paso 2: ese cociente mide cobertura y no la calidad de cada atención. Paso 3: la característica deficiente es la amplia cobertura, pues periodicidad e integralidad sí se cumplen.",
+   "por_que_no": [
+    "La evaluación abarca las tres esferas, por lo que la integralidad está cumplida.",
+    "La captación tardía es un problema real, pero el dato de 160 sobre 400 mide cobertura.",
+    "Las atenciones sí cumplen los intervalos normados, de modo que la periodicidad no falla.",
+    "",
+    "La capacidad resolutiva es un atributo de la categoría del establecimiento, no del control."
+   ],
+   "trampa": [
+    "dato-del-caso",
+    "otro-componente",
+    "dato-del-caso",
+    "",
+    "otro-concepto"
+   ],
+   "perla": "Captadas sobre estimadas = cobertura; intervalos = periodicidad.",
+   "fuente": {
+    "carpeta": "2. OBSTETRICIA",
+    "archivo": "7. ATENCION PRENATAL.pdf",
+    "seccion": "p. 1, Atención prenatal"
+   },
+   "gemela_de": null
+  },
+  {
+   "id": "2026-10-22-banco-cpn-hta-034",
+   "enunciado": "Durante un período de restricción sanitaria por circulación intensa de un virus respiratorio, un establecimiento reorganiza la atención de gestantes de bajo riesgo y debe definir cuántas atenciones presenciales como mínimo mantener, complementando el resto con seguimiento remoto. Las gestantes son mayores de edad y sin comorbilidades. ¿Cuál fue el número mínimo de atenciones admitido en ese contexto excepcional?",
+   "opciones": [
+    "Ocho atenciones presenciales como mínimo",
+    "Una atención presencial como mínimo",
+    "Cuatro atenciones presenciales como mínimo",
+    "Tres atenciones presenciales como mínimo",
+    "Seis atenciones presenciales como mínimo"
+   ],
+   "clave": 4,
+   "especialidad": "Obstetricia",
+   "tema": "Atención prenatal",
+   "diagnostico": "Número mínimo de atenciones admitido durante la pandemia por coronavirus",
+   "tipo": "norma",
+   "dificultad": "alta",
+   "razonamiento": "Paso 1: el escenario es el de restricción sanitaria por un virus respiratorio en gestantes de bajo riesgo. Paso 2: en ese contexto excepcional el mínimo admitido fue de tres atenciones, frente a las seis del esquema nacional habitual. Paso 3: el resto se complementa con seguimiento remoto.",
+   "por_que_no": [
+    "Ocho es la recomendación internacional y el mínimo en la menor de quince años.",
+    "Una sola atención presencial no permite cubrir el tamizaje ni la vigilancia básica.",
+    "Cuatro no figura como mínimo en ninguno de los escenarios normados descritos.",
+    "",
+    "Seis es el mínimo nacional en condiciones habituales, no el admitido en la pandemia."
+   ],
+   "trampa": [
+    "otra-norma",
+    "inventado",
+    "inventado",
+    "",
+    "otra-norma"
+   ],
+   "perla": "Pandemia: mínimo 3 atenciones; lo habitual son 6.",
+   "fuente": {
+    "carpeta": "2. OBSTETRICIA",
+    "archivo": "7. ATENCION PRENATAL.pdf",
+    "seccion": "p. 1, Atención prenatal"
+   },
+   "gemela_de": null
+  },
+  {
+   "id": "2026-10-22-banco-cpn-hta-035",
+   "enunciado": "En una reunión técnica se compara el esquema nacional de atenciones prenatales con la recomendación del organismo internacional de salud, con el fin de proponer una meta de mejora para el establecimiento. Las gestantes del distrito son en su mayoría adultas de bajo riesgo con buena accesibilidad geográfica. ¿Cuál es el número de atenciones que recomienda ese organismo internacional?",
+   "opciones": [
+    "Cinco atenciones durante la gestación",
+    "Seis atenciones durante la gestación",
+    "Ocho atenciones durante la gestación",
+    "Doce atenciones durante la gestación",
+    "Diez atenciones durante la gestación"
+   ],
+   "clave": 3,
+   "especialidad": "Obstetricia",
+   "tema": "Atención prenatal",
+   "diagnostico": "Recomendación internacional del número de atenciones prenatales",
+   "tipo": "norma",
+   "dificultad": "media",
+   "razonamiento": "Paso 1: se contrasta el mínimo nacional con la recomendación internacional. Paso 2: la norma nacional exige al menos seis atenciones, mientras el organismo internacional recomienda ocho. Paso 3: la meta de mejora se fija en ocho atenciones por gestante.",
+   "por_que_no": [
+    "Cinco atenciones no corresponde a ninguna de las dos recomendaciones comparadas.",
+    "Seis es el mínimo del esquema nacional y es justamente el punto de comparación.",
+    "",
+    "Doce atenciones no corresponde a ninguna recomendación para gestante de bajo riesgo.",
+    "Diez atenciones excede ambas recomendaciones y no figura en la norma vigente."
+   ],
+   "trampa": [
+    "inventado",
+    "otra-norma",
+    "",
+    "inventado",
+    "inventado"
+   ],
+   "perla": "Nacional 6, internacional 8.",
+   "fuente": {
+    "carpeta": "2. OBSTETRICIA",
+    "archivo": "7. ATENCION PRENATAL.pdf",
+    "seccion": "p. 1, Atención prenatal"
+   },
+   "gemela_de": null
+  },
+  {
+   "id": "2026-10-22-banco-cpn-hta-036",
+   "enunciado": "Gestante de 30 años, de 9 semanas, acude a su primera atención. Refiere cansancio y estreñimiento que atribuye al embarazo, sin bocio palpable ni bradicardia. PA 106/68 mmHg, FC 72X', IMC 26 kg/m2. La obstetra revisa el paquete de exámenes iniciales e incluye el estudio que permite detectar disfunción tiroidea materna. ¿Cuál es ese examen del paquete inicial?",
+   "opciones": [
+    "Captación tiroidea con yodo radiactivo",
+    "Hormona estimulante de tiroides",
+    "Tiroglobulina sérica cuantitativa",
+    "Ecografía tiroidea con Doppler",
+    "Anticuerpos antiperoxidasa tiroidea"
+   ],
+   "clave": 2,
+   "especialidad": "Obstetricia",
+   "tema": "Atención prenatal",
+   "diagnostico": "Tamizaje tiroideo en la primera atención prenatal",
+   "tipo": "examen",
+   "dificultad": "alta",
+   "razonamiento": "Paso 1: síntomas inespecíficos frecuentes en el embarazo, sin signos claros de disfunción. Paso 2: el paquete inicial de la atención prenatal incluye la hormona estimulante de tiroides como tamizaje. Paso 3: los anticuerpos y la ecografía son estudios de segundo paso ante un resultado alterado.",
+   "por_que_no": [
+    "La captación con yodo radiactivo está contraindicada en el embarazo por daño tiroideo fetal.",
+    "",
+    "La tiroglobulina se emplea en el seguimiento del cáncer tiroideo, no en el tamizaje.",
+    "La ecografía evalúa la morfología y no la función tiroidea que se busca tamizar.",
+    "Los anticuerpos se solicitan como estudio complementario cuando la hormona sale alterada."
+   ],
+   "trampa": [
+    "contraindicado",
+    "",
+    "otro-contexto",
+    "otro-escalon",
+    "otro-escalon"
+   ],
+   "perla": "La hormona estimulante de tiroides va en el paquete del primer control.",
+   "fuente": {
+    "carpeta": "2. OBSTETRICIA",
+    "archivo": "7. ATENCION PRENATAL.pdf",
+    "seccion": "p. 1, Atención prenatal"
+   },
+   "gemela_de": null
+  },
+  {
+   "id": "2026-10-22-banco-cpn-hta-037",
+   "enunciado": "Gestante de 24 años, G2P1, de 10 semanas, acude a su primera atención. En su embarazo previo tuvo un parto vaginal sin complicaciones y no recuerda haber recibido ninguna inyección después del parto. PA 104/66 mmHg, hemoglobina 12,1 g/dL, examen de orina sin alteraciones. ¿Qué examen del paquete inicial permite identificar el riesgo de sensibilización materna contra el feto?",
+   "opciones": [
+    "Glucosa en ayunas en la primera atención",
+    "Prueba rápida para sífilis materna",
+    "Hemoglobina y hematocrito maternos",
+    "Antígeno de superficie de hepatitis B",
+    "Grupo sanguíneo y factor Rh materno"
+   ],
+   "clave": 5,
+   "especialidad": "Obstetricia",
+   "tema": "Atención prenatal",
+   "diagnostico": "Grupo sanguíneo y factor Rh en la primera atención",
+   "tipo": "examen",
+   "dificultad": "media",
+   "razonamiento": "Paso 1: multípara que no recibió profilaxis tras su parto previo, lo que plantea riesgo de sensibilización. Paso 2: ese riesgo se identifica con el grupo sanguíneo y el factor Rh maternos, que forman parte del paquete inicial. Paso 3: si resulta Rh negativo se continúa el estudio correspondiente.",
+   "por_que_no": [
+    "La glucosa en ayunas tamiza alteración del metabolismo de los hidratos de carbono.",
+    "La prueba de sífilis tamiza una infección transmisible y no la incompatibilidad sanguínea.",
+    "La hemoglobina detecta anemia materna, pero no el riesgo de sensibilización contra el feto.",
+    "Ese antígeno tamiza infección por el virus de la hepatitis B, no incompatibilidad.",
+    ""
+   ],
+   "trampa": [
+    "otro-examen",
+    "otro-examen",
+    "otro-examen",
+    "otro-examen",
+    ""
+   ],
+   "perla": "Grupo y factor en la primera atención: detecta el riesgo Rh.",
+   "fuente": {
+    "carpeta": "2. OBSTETRICIA",
+    "archivo": "7. ATENCION PRENATAL.pdf",
+    "seccion": "p. 1, Atención prenatal"
+   },
+   "gemela_de": null
+  },
+  {
+   "id": "2026-10-22-banco-cpn-hta-038",
+   "enunciado": "Gestante de 20 años, primigesta de 11 semanas, acude a su primera atención sin síntomas. Refiere dos parejas sexuales en el último año y uso irregular de preservativo. PA 102/60 mmHg, examen genital sin lesiones ni secreción patológica. La obstetra debe solicitar el tamizaje de las infecciones transmisibles que exige el paquete inicial. ¿Qué pruebas corresponden solicitar?",
+   "opciones": [
+    "Sífilis, toxoplasmosis y virus del papiloma humano",
+    "Virus de la inmunodeficiencia humana, sífilis y citomegalovirus",
+    "Virus de la inmunodeficiencia humana, sífilis y hepatitis B",
+    "Sífilis, hepatitis B y hepatitis C en la primera atención",
+    "Virus de la inmunodeficiencia humana, toxoplasmosis y rubéola"
+   ],
+   "clave": 3,
+   "especialidad": "Obstetricia",
+   "tema": "Atención prenatal",
+   "diagnostico": "Tamizaje de infecciones transmisibles en la primera atención",
+   "tipo": "examen",
+   "dificultad": "media",
+   "razonamiento": "Paso 1: gestante en su primera atención, asintomática y con conducta de riesgo. Paso 2: el paquete inicial incluye el tamizaje para el virus de la inmunodeficiencia humana, para sífilis y el antígeno de superficie del virus de la hepatitis B. Paso 3: esas tres son las que corresponden solicitar.",
+   "por_que_no": [
+    "El papiloma humano se aborda con citología según la norma, no en este tamizaje.",
+    "El citomegalovirus no forma parte del tamizaje universal del paquete inicial de la gestante.",
+    "",
+    "La hepatitis C no figura en el paquete inicial normado para toda gestante.",
+    "La toxoplasmosis y la rubéola no integran el tamizaje universal de la primera atención."
+   ],
+   "trampa": [
+    "otro-examen",
+    "otro-examen",
+    "",
+    "otro-examen",
+    "otro-examen"
+   ],
+   "perla": "Primera atención: tamizaje de inmunodeficiencia, sífilis y hepatitis B.",
+   "fuente": {
+    "carpeta": "2. OBSTETRICIA",
+    "archivo": "7. ATENCION PRENATAL.pdf",
+    "seccion": "p. 1, Atención prenatal"
+   },
+   "gemela_de": null
+  },
+  {
+   "id": "2026-10-22-banco-cpn-hta-039",
+   "enunciado": "Gestante de 26 años, G2P1, de 24 semanas, acude a su cuarta atención. Embarazo sin complicaciones, PA 106/68 mmHg, altura uterina 23 cm, latidos fetales 144X', movimientos presentes, glucosa y orina normales. Pregunta cada cuánto debe volver en esta etapa del embarazo, pues desea coordinar permisos en su trabajo. ¿Cuál es el intervalo que corresponde indicar?",
+   "opciones": [
+    "Cada cuatro semanas hasta las treinta y dos semanas",
+    "Cada ocho semanas hasta el término",
+    "Cada dos semanas hasta las treinta y dos semanas",
+    "Cada seis semanas hasta las treinta y seis semanas",
+    "Cada semana hasta las treinta y dos semanas"
+   ],
+   "clave": 1,
+   "especialidad": "Obstetricia",
+   "tema": "Atención prenatal",
+   "diagnostico": "Periodicidad del control prenatal antes de las 32 semanas",
+   "tipo": "norma",
+   "dificultad": "media",
+   "razonamiento": "Paso 1: la gestante tiene 24 semanas, es decir está antes del tramo de 32 semanas. Paso 2: el esquema normado indica atenciones mensuales hasta las 32 semanas. Paso 3: corresponde citarla en cuatro semanas y recién después acortar el intervalo.",
+   "por_que_no": [
+    "",
+    "Un intervalo de ocho semanas dejaría prácticamente sin vigilancia el tercer trimestre.",
+    "El intervalo quincenal corresponde al tramo que va de las 32 a las 36 semanas.",
+    "Un intervalo de seis semanas no figura en el esquema normado de la atención prenatal.",
+    "El intervalo semanal corresponde al tramo que va de las 37 semanas al parto."
+   ],
+   "trampa": [
+    "",
+    "inventado",
+    "otro-periodo",
+    "inventado",
+    "otro-periodo"
+   ],
+   "perla": "Hasta las 32 semanas, control mensual.",
+   "fuente": {
+    "carpeta": "2. OBSTETRICIA",
+    "archivo": "7. ATENCION PRENATAL.pdf",
+    "seccion": "p. 1, Atención prenatal"
+   },
+   "gemela_de": null
+  },
+  {
+   "id": "2026-10-22-banco-cpn-hta-040",
+   "enunciado": "Gestante de 32 años, G3P2, de 37 semanas, acude a su octava atención. PA 110/70 mmHg, altura uterina 36 cm, latidos fetales 140X', feto en presentación cefálica, sin contracciones ni pérdidas. Refiere buenos movimientos fetales. Pregunta cada cuánto debe acudir desde ahora hasta que se inicie el trabajo de parto. ¿Cuál es el intervalo que corresponde indicar?",
+   "opciones": [
+    "Cada cuatro semanas hasta el momento del parto",
+    "Cada dos semanas hasta el momento del parto",
+    "Cada semana hasta el momento del parto",
+    "Cada tres días hasta el momento del parto",
+    "Solo si aparecen contracciones o pérdidas"
+   ],
+   "clave": 3,
+   "especialidad": "Obstetricia",
+   "tema": "Atención prenatal",
+   "diagnostico": "Periodicidad del control prenatal desde las 37 semanas",
+   "tipo": "norma",
+   "dificultad": "media",
+   "razonamiento": "Paso 1: la gestante alcanzó las 37 semanas, es decir el tramo final del embarazo. Paso 2: el esquema normado indica control semanal desde las 37 semanas hasta el parto. Paso 3: se la cita en una semana y se refuerzan los signos de alarma.",
+   "por_que_no": [
+    "El intervalo mensual corresponde al período que llega hasta las 32 semanas.",
+    "El intervalo quincenal corresponde al tramo que va de las 32 a las 36 semanas.",
+    "",
+    "Un control cada tres días no figura en el esquema de la gestante de bajo riesgo.",
+    "Esperar los síntomas elimina la vigilancia semanal normada del embarazo a término."
+   ],
+   "trampa": [
+    "otro-periodo",
+    "otro-periodo",
+    "",
+    "inventado",
+    "otro-extremo"
+   ],
+   "perla": "Desde las 37 semanas, control semanal.",
+   "fuente": {
+    "carpeta": "2. OBSTETRICIA",
+    "archivo": "7. ATENCION PRENATAL.pdf",
+    "seccion": "p. 1, Atención prenatal"
+   },
+   "gemela_de": null
+  },
+  {
+   "id": "2026-10-22-banco-cpn-hta-041",
+   "enunciado": "Gestante de 33 años, G2P1, acude a su primera atención a las 18 semanas por ecografía confiable. PA 146/82 mmHg en dos tomas separadas por cuatro horas, FC 78X'. Asintomática, sin cefalea ni escotomas. Tira reactiva de orina sin proteínas, plaquetas 248 000/mm3, creatinina 0,6 mg/dL, transaminasa 22 U/L. No se controlaba la presión antes del embarazo. ¿Cuál es el diagnóstico más probable?",
+   "opciones": [
+    "Hipertensión crónica no diagnosticada antes",
+    "Preeclampsia sin criterios de severidad",
+    "Preeclampsia con criterios de severidad",
+    "Hipertensión gestacional del segundo trimestre",
+    "Hipertensión crónica con preeclampsia añadida"
+   ],
+   "clave": 1,
+   "especialidad": "Obstetricia",
+   "tema": "Trastornos hipertensivos del embarazo",
+   "diagnostico": "Hipertensión crónica detectada antes de las 20 semanas",
+   "tipo": "diagnostico",
+   "dificultad": "alta",
+   "razonamiento": "Paso 1: la presión es 146/82, es decir sistólica mayor o igual a 140. Paso 2: se detecta a las 18 semanas, antes del límite de las 20 semanas. Paso 3: la hipertensión que aparece antes de las 20 semanas se clasifica como crónica, aunque recién se descubra en el embarazo.",
+   "por_que_no": [
+    "",
+    "Requiere presión elevada después de las veinte semanas junto con proteinuria o daño de órgano.",
+    "No hay proteinuria, daño de órgano ni cifras por encima de ciento sesenta sobre ciento diez.",
+    "Esa entidad exige que la presión elevada aparezca después de las veinte semanas de gestación.",
+    "Exige proteinuria o daño de órgano añadidos a la hipertensión previa, ausentes aquí."
+   ],
+   "trampa": [
+    "",
+    "otro-criterio",
+    "otro-estadio",
+    "otro-momento",
+    "otro-criterio"
+   ],
+   "perla": "Presión alta antes de las 20 semanas: crónica, no del embarazo.",
+   "fuente": {
+    "carpeta": "2. OBSTETRICIA",
+    "archivo": "35. TRASTORNO HIPERTENSIV.pdf",
+    "seccion": "p. 1-2, Definiciones y criterios"
+   },
+   "gemela_de": null
+  },
+  {
+   "id": "2026-10-22-banco-cpn-hta-042",
+   "enunciado": "Gestante de 24 años, de 38 semanas, acude a emergencia por contracciones uterinas irregulares. Examen obstétrico normal, feto cefálico, latidos 142X'. PA 145/90 mmHg confirmada a las cuatro horas. Tira reactiva de orina sin proteínas, deshidrogenasa láctica 376 U/L, transaminasa 23 U/L, plaquetas 176 000/mm3, creatinina 0,7 mg/dL. Sin cefalea, escotomas ni epigastralgia. ¿Cuál es el diagnóstico más probable?",
+   "opciones": [
+    "Hipertensión gestacional",
+    "Preeclampsia sin criterios de severidad",
+    "Hipertensión crónica de diagnóstico reciente",
+    "Preeclampsia con criterios de severidad",
+    "Hipertensión crónica con preeclampsia sobreagregada"
+   ],
+   "clave": 1,
+   "especialidad": "Obstetricia",
+   "tema": "Trastornos hipertensivos del embarazo",
+   "diagnostico": "Hipertensión gestacional sin proteinuria ni daño de órgano",
+   "tipo": "diagnostico",
+   "dificultad": "alta",
+   "razonamiento": "Paso 1: presión de 145/90 confirmada a las cuatro horas, después de las 20 semanas. Paso 2: no hay proteinuria ni daño de órgano, pues plaquetas, creatinina y transaminasa son normales. Paso 3: hipertensión después de las 20 semanas sin proteinuria ni daño es hipertensión gestacional.",
+   "por_que_no": [
+    "",
+    "Exige proteinuria o daño de órgano añadidos a la hipertensión, y aquí ambos están ausentes.",
+    "La hipertensión crónica requiere cifras elevadas antes de las veinte semanas de gestación.",
+    "No hay plaquetopenia, elevación enzimática, creatinina alta ni cifras de ciento sesenta sobre ciento diez.",
+    "Esa entidad parte de una hipertensión previa a las veinte semanas, que no está documentada."
+   ],
+   "trampa": [
+    "",
+    "otro-criterio",
+    "otro-momento",
+    "otro-estadio",
+    "otro-momento"
+   ],
+   "perla": "Después de 20 semanas, sin proteinuria ni daño: gestacional.",
+   "fuente": {
+    "carpeta": "2. OBSTETRICIA",
+    "archivo": "35. TRASTORNO HIPERTENSIV.pdf",
+    "seccion": "p. 1-2, Definiciones y criterios"
+   },
+   "gemela_de": null
+  },
+  {
+   "id": "2026-10-22-banco-cpn-hta-043",
+   "enunciado": "Gestante de 29 años, primigesta de 33 semanas, acude a control sin molestias. PA 148/94 mmHg y, a las cuatro horas, 146/92 mmHg. Tira reactiva de orina con dos cruces de proteínas. Plaquetas 215 000/mm3, creatinina 0,7 mg/dL, transaminasa 28 U/L, deshidrogenasa láctica 310 U/L. Sin cefalea, escotomas, tinnitus ni dolor epigástrico. ¿Cuál es el diagnóstico más probable?",
+   "opciones": [
+    "Preeclampsia sin criterios de severidad",
+    "Hipertensión gestacional del tercer trimestre",
+    "Preeclampsia con criterios de severidad",
+    "Síndrome de hemólisis con enzimas y plaquetas alteradas",
+    "Hipertensión crónica de diagnóstico reciente"
+   ],
+   "clave": 1,
+   "especialidad": "Obstetricia",
+   "tema": "Trastornos hipertensivos del embarazo",
+   "diagnostico": "Preeclampsia sin criterios de severidad con proteinuria en tira reactiva",
+   "tipo": "diagnostico",
+   "dificultad": "alta",
+   "razonamiento": "Paso 1: presión mayor o igual a 140/90 en dos tomas separadas cuatro horas, después de las 20 semanas. Paso 2: la tira reactiva con dos cruces cumple el criterio de proteinuria. Paso 3: no hay ningún criterio de severidad, de modo que corresponde la forma sin severidad.",
+   "por_que_no": [
+    "",
+    "Esa entidad exige ausencia de proteinuria, y aquí la tira reactiva muestra dos cruces.",
+    "No hay plaquetopenia, daño renal ni hepático, síntomas ni cifras de ciento sesenta sobre ciento diez.",
+    "Ese síndrome exige hemólisis, enzimas elevadas y plaquetas bajas, ausentes en este caso.",
+    "La hipertensión crónica requiere cifras elevadas antes de las veinte semanas de gestación."
+   ],
+   "trampa": [
+    "",
+    "otro-criterio",
+    "otro-estadio",
+    "otro-diagnostico",
+    "otro-momento"
+   ],
+   "perla": "Tira con una cruz o más ya cuenta como proteinuria.",
+   "fuente": {
+    "carpeta": "2. OBSTETRICIA",
+    "archivo": "35. TRASTORNO HIPERTENSIV.pdf",
+    "seccion": "p. 1-2, Definiciones y criterios"
+   },
+   "gemela_de": null
+  },
+  {
+   "id": "2026-10-22-banco-cpn-hta-044",
+   "enunciado": "Gestante de 36 años, de 31 semanas, acude por edema de manos. PA 150/96 mmHg en dos tomas separadas cuatro horas. Tira reactiva de orina sin proteínas y relación proteína/creatinina de 0,12. Plaquetas 78 000/mm3, transaminasa 30 U/L, creatinina 0,7 mg/dL, deshidrogenasa láctica 280 U/L, bilirrubina total 0,8 mg/dL, frotis sin esquistocitos. ¿Cuál es el diagnóstico más probable?",
+   "opciones": [
+    "Preeclampsia sin criterios de severidad",
+    "Síndrome de hemólisis con enzimas y plaquetas alteradas",
+    "Hipertensión gestacional con trombocitopenia incidental",
+    "Hipertensión crónica con preeclampsia sobreagregada",
+    "Preeclampsia con criterios de severidad"
+   ],
+   "clave": 5,
+   "especialidad": "Obstetricia",
+   "tema": "Trastornos hipertensivos del embarazo",
+   "diagnostico": "Preeclampsia en ausencia de proteinuria por plaquetopenia",
+   "tipo": "diagnostico",
+   "dificultad": "muy alta",
+   "razonamiento": "Paso 1: presión mayor o igual a 140/90 después de las 20 semanas sin proteinuria. Paso 2: el diagnóstico se sostiene por daño de órgano, y las plaquetas de 78 000 están por debajo de cien mil. Paso 3: ese criterio define la forma con severidad aun sin proteinuria.",
+   "por_que_no": [
+    "Las plaquetas por debajo de cien mil constituyen por sí mismas un criterio de severidad.",
+    "Falta la hemólisis con esquistocitos y bilirrubina alta y la elevación de las enzimas hepáticas.",
+    "La plaquetopenia es justamente un criterio que convierte el cuadro en el trastorno con daño de órgano.",
+    "No hay hipertensión documentada antes de las veinte semanas que sustente la forma sobreagregada.",
+    ""
+   ],
+   "trampa": [
+    "otro-estadio",
+    "otro-diagnostico",
+    "otro-criterio",
+    "otro-momento",
+    ""
+   ],
+   "perla": "Sin proteinuria pero con plaquetas bajo 100 000: ya es severa.",
+   "fuente": {
+    "carpeta": "2. OBSTETRICIA",
+    "archivo": "35. TRASTORNO HIPERTENSIV.pdf",
+    "seccion": "p. 1-2, Definiciones y criterios"
+   },
+   "gemela_de": null
+  },
+  {
+   "id": "2026-10-22-banco-cpn-hta-045",
+   "enunciado": "Gestante de 38 años con presión elevada conocida desde hace cinco años, en metildopa, con PA de 132/84 mmHg en los controles de las 12 y 18 semanas y proteinuria negativa en ambos. Acude a las 30 semanas con PA 158/104 mmHg, relación proteína/creatinina de 0,6, plaquetas 190 000/mm3, creatinina 0,8 mg/dL, transaminasa 32 U/L. ¿Cuál es el diagnóstico más probable?",
+   "opciones": [
+    "Hipertensión crónica con preeclampsia sobreagregada",
+    "Hipertensión gestacional del tercer trimestre",
+    "Preeclampsia con criterios de severidad de novo",
+    "Hipertensión crónica con mal control farmacológico",
+    "Preeclampsia sin criterios de severidad de novo"
+   ],
+   "clave": 1,
+   "especialidad": "Obstetricia",
+   "tema": "Trastornos hipertensivos del embarazo",
+   "diagnostico": "Hipertensión crónica con preeclampsia sobreagregada",
+   "tipo": "diagnostico",
+   "dificultad": "muy alta",
+   "razonamiento": "Paso 1: hipertensión documentada antes de las 20 semanas con proteinuria negativa. Paso 2: a las 30 semanas aparece proteinuria con relación proteína/creatinina de 0,6 y ascenso de la presión. Paso 3: hipertensión previa más proteinuria después de las 20 semanas define la forma sobreagregada.",
+   "por_que_no": [
+    "",
+    "Esa entidad exige ausencia de proteinuria y de hipertensión previa a las veinte semanas.",
+    "El cuadro se asienta sobre una hipertensión previa, y además no hay criterio de severidad.",
+    "El mal control no explica la aparición de proteinuria significativa, que marca el cambio del cuadro.",
+    "La paciente ya tenía hipertensión antes de las veinte semanas, por lo que no es un cuadro de novo."
+   ],
+   "trampa": [
+    "",
+    "otro-criterio",
+    "otro-momento",
+    "otro-criterio",
+    "otro-momento"
+   ],
+   "perla": "Crónica que suma proteinuria después de 20 semanas: sobreagregada.",
+   "fuente": {
+    "carpeta": "2. OBSTETRICIA",
+    "archivo": "35. TRASTORNO HIPERTENSIV.pdf",
+    "seccion": "p. 1-2, Definiciones y criterios"
+   },
+   "gemela_de": null
+  },
+  {
+   "id": "2026-10-22-banco-cpn-hta-046",
+   "enunciado": "Gestante de 27 años, de 32 semanas, con PA 144/92 mmHg confirmada a las cuatro horas, sin síntomas. El establecimiento no cuenta con recolección de orina de veinticuatro horas y el médico quiere confirmar el compromiso renal con una muestra aislada de orina. ¿Qué resultado en esa muestra aislada confirma el criterio renal que busca documentar?",
+   "opciones": [
+    "Relación proteína/creatinina mayor o igual a cero coma tres",
+    "Relación albúmina/creatinina mayor o igual a tres miligramos",
+    "Relación proteína/creatinina mayor o igual a cero coma cero tres",
+    "Densidad urinaria mayor o igual a mil treinta en la muestra",
+    "Proteínas mayores o iguales a tres gramos en la muestra aislada"
+   ],
+   "clave": 1,
+   "especialidad": "Obstetricia",
+   "tema": "Trastornos hipertensivos del embarazo",
+   "diagnostico": "Criterios de proteinuria significativa",
+   "tipo": "criterio",
+   "dificultad": "alta",
+   "razonamiento": "Paso 1: hay hipertensión después de las 20 semanas y falta documentar proteinuria. Paso 2: los criterios aceptados son 300 mg o más en orina de 24 horas, relación proteína/creatinina de 0,3 o más, o tira reactiva con una cruz. Paso 3: en muestra aislada corresponde la relación de 0,3.",
+   "por_que_no": [
+    "",
+    "La relación albúmina/creatinina se emplea en el seguimiento de la nefropatía, no en este criterio.",
+    "Ese valor es diez veces menor que el punto de corte establecido para el criterio renal.",
+    "La densidad urinaria mide concentración de la orina y no la pérdida de proteínas.",
+    "Tres gramos corresponde al orden de la proteinuria de veinticuatro horas, no de una muestra aislada."
+   ],
+   "trampa": [
+    "",
+    "otro-examen",
+    "otro-punto-de-corte",
+    "otro-examen",
+    "otra-unidad"
+   ],
+   "perla": "Proteinuria: 300 mg/24 h, índice 0,3 o tira con una cruz.",
+   "fuente": {
+    "carpeta": "2. OBSTETRICIA",
+    "archivo": "35. TRASTORNO HIPERTENSIV.pdf",
+    "seccion": "p. 1-2, Definiciones y criterios"
+   },
+   "gemela_de": null
+  },
+  {
+   "id": "2026-10-22-banco-cpn-hta-047",
+   "enunciado": "Gestante de 31 años, de 34 semanas, con PA 152/98 mmHg y proteinuria de dos cruces, refiere dolor en epigastrio que no cede con antiácidos. Plaquetas 142 000/mm3, creatinina 0,8 mg/dL, transaminasa glutámico oxalacética 96 U/L, deshidrogenasa láctica 640 U/L, bilirrubina total 0,9 mg/dL. ¿Cuál es el hallazgo que establece el criterio de severidad en esta paciente?",
+   "opciones": [
+    "La creatinina por encima de cero coma siete",
+    "La transaminasa por encima de setenta unidades",
+    "La bilirrubina por debajo de un miligramo",
+    "La proteinuria de dos cruces en la tira reactiva",
+    "Las plaquetas por debajo de ciento cincuenta mil"
+   ],
+   "clave": 2,
+   "especialidad": "Obstetricia",
+   "tema": "Trastornos hipertensivos del embarazo",
+   "diagnostico": "Criterio de severidad hepático",
+   "tipo": "criterio",
+   "dificultad": "alta",
+   "razonamiento": "Paso 1: hay hipertensión con proteinuria después de las 20 semanas. Paso 2: entre los criterios de severidad figura la elevación de transaminasas por encima de 70 unidades o al doble del valor normal, junto con el dolor epigástrico persistente. Paso 3: la transaminasa de 96 cumple ese criterio.",
+   "por_que_no": [
+    "El punto de corte renal es mayor de uno coma uno, muy por encima del valor que presenta.",
+    "",
+    "Una bilirrubina normal no constituye criterio de severidad en ningún esquema.",
+    "La magnitud de la proteinuria dejó de considerarse determinante de la gravedad del cuadro.",
+    "El punto de corte de severidad es de cien mil y las plaquetas de esta paciente lo superan."
+   ],
+   "trampa": [
+    "otro-punto-de-corte",
+    "",
+    "dato-normal",
+    "criterio-descartado",
+    "otro-punto-de-corte"
+   ],
+   "perla": "Transaminasa mayor de 70 con epigastralgia: criterio de severidad.",
+   "fuente": {
+    "carpeta": "2. OBSTETRICIA",
+    "archivo": "35. TRASTORNO HIPERTENSIV.pdf",
+    "seccion": "p. 1-2, Definiciones y criterios"
+   },
+   "gemela_de": null
+  },
+  {
+   "id": "2026-10-22-banco-cpn-hta-048",
+   "enunciado": "Gestante de 35 años, de 30 semanas, con PA 150/95 mmHg en dos tomas y proteinuria de una cruz. Refiere disminución del volumen urinario. Plaquetas 188 000/mm3, transaminasa 34 U/L, deshidrogenasa láctica 290 U/L, creatinina de 1,4 mg/dL frente a 0,6 mg/dL registrada a las 12 semanas. ¿Cuál es el hallazgo que establece el criterio de severidad en esta paciente?",
+   "opciones": [
+    "La transaminasa por encima de treinta unidades",
+    "Las plaquetas por debajo de doscientos mil",
+    "La deshidrogenasa láctica por encima de doscientos cincuenta",
+    "La proteinuria de una cruz en la tira reactiva",
+    "La creatinina por encima de uno coma uno o duplicada"
+   ],
+   "clave": 5,
+   "especialidad": "Obstetricia",
+   "tema": "Trastornos hipertensivos del embarazo",
+   "diagnostico": "Criterio de severidad renal",
+   "tipo": "criterio",
+   "dificultad": "alta",
+   "razonamiento": "Paso 1: hipertensión con proteinuria después de las 20 semanas y oliguria referida. Paso 2: el criterio renal de severidad es creatinina mayor de 1,1 mg/dL o su duplicación respecto del valor basal. Paso 3: pasó de 0,6 a 1,4, de modo que cumple ambas condiciones del criterio.",
+   "por_que_no": [
+    "El punto de corte hepático es de setenta unidades, que esta paciente no alcanza.",
+    "El punto de corte de severidad es de cien mil, muy por debajo del valor que presenta.",
+    "El punto de corte de esa enzima es de seiscientas unidades, muy por encima del valor hallado.",
+    "La magnitud de la proteinuria dejó de considerarse determinante de la gravedad del cuadro.",
+    ""
+   ],
+   "trampa": [
+    "otro-punto-de-corte",
+    "otro-punto-de-corte",
+    "otro-punto-de-corte",
+    "criterio-descartado",
+    ""
+   ],
+   "perla": "Creatinina mayor de 1,1 o el doble del basal: severidad.",
+   "fuente": {
+    "carpeta": "2. OBSTETRICIA",
+    "archivo": "35. TRASTORNO HIPERTENSIV.pdf",
+    "seccion": "p. 1-2, Definiciones y criterios"
+   },
+   "gemela_de": null
+  },
+  {
+   "id": "2026-10-22-banco-cpn-hta-049",
+   "enunciado": "Gestante de 30 años, de 33 semanas, con PA 148/92 mmHg en dos tomas, asintomática. Proteinuria de veinticuatro horas de 4,2 gramos. Plaquetas 196 000/mm3, creatinina 0,7 mg/dL, transaminasa 29 U/L, deshidrogenasa láctica 300 U/L, sin edema pulmonar ni síntomas cerebrales. El interno sostiene que la magnitud de la proteinuria obliga a manejarla como forma grave. ¿Qué corresponde responder según los criterios vigentes?",
+   "opciones": [
+    "La magnitud de la proteinuria ya no determina la gravedad del cuadro",
+    "La proteinuria en rango alto reemplaza a los síntomas premonitorios",
+    "La proteinuria mayor de cinco gramos equivale a una plaquetopenia severa",
+    "La proteinuria mayor de dos gramos obliga a terminar el embarazo de inmediato",
+    "La proteinuria mayor de tres gramos es por sí sola criterio de gravedad"
+   ],
+   "clave": 1,
+   "especialidad": "Obstetricia",
+   "tema": "Trastornos hipertensivos del embarazo",
+   "diagnostico": "Proteinuria masiva que dejó de ser criterio de gravedad",
+   "tipo": "criterio",
+   "dificultad": "muy alta",
+   "razonamiento": "Paso 1: hay hipertensión con proteinuria abundante pero sin ningún otro hallazgo. Paso 2: los criterios de severidad son los síntomas premonitorios, las plaquetas bajo cien mil, la transaminasa sobre setenta, la creatinina sobre uno coma uno, el edema pulmonar y la presión de 160/110. Paso 3: la cuantía de proteinuria no figura entre ellos.",
+   "por_que_no": [
+    "",
+    "Los síntomas premonitorios son criterio propio y no pueden ser reemplazados por la proteinuria.",
+    "La proteinuria no equivale ni sustituye al recuento plaquetario como criterio de severidad.",
+    "La decisión de terminar la gestación se apoya en criterios de severidad y en la edad gestacional.",
+    "La cuantía de la proteinuria dejó de figurar entre los criterios que definen la gravedad."
+   ],
+   "trampa": [
+    "",
+    "equivalencia-falsa",
+    "equivalencia-falsa",
+    "otra-conducta",
+    "criterio-descartado"
+   ],
+   "perla": "Proteinuria abundante no es criterio de gravedad; sí lo es el daño de órgano.",
+   "fuente": {
+    "carpeta": "2. OBSTETRICIA",
+    "archivo": "35. TRASTORNO HIPERTENSIV.pdf",
+    "seccion": "p. 1-2, Definiciones y criterios"
+   },
+   "gemela_de": null
+  },
+  {
+   "id": "2026-10-22-banco-cpn-hta-050",
+   "enunciado": "Gestante de 34 años, de 32 semanas, acude por cefalea leve. PA 170/114 mmHg, confirmada a los quince minutos en 168/112 mmHg. Tira reactiva de orina sin proteínas, relación proteína/creatinina 0,1. Plaquetas 205 000/mm3, creatinina 0,7 mg/dL, transaminasa 31 U/L, deshidrogenasa láctica 290 U/L. ¿Cuál es la conducta que corresponde frente a este cuadro?",
+   "opciones": [
+    "Manejarla como forma con criterios de severidad aunque no haya proteinuria",
+    "Indicar solo reposo y dieta hiposódica con control semanal",
+    "Esperar la proteinuria de veinticuatro horas antes de decidir el manejo",
+    "Repetir la presión en cuatro horas antes de iniciar cualquier tratamiento",
+    "Manejarla de forma ambulatoria con control de presión en cuarenta y ocho horas"
+   ],
+   "clave": 1,
+   "especialidad": "Obstetricia",
+   "tema": "Trastornos hipertensivos del embarazo",
+   "diagnostico": "Hipertensión severa del embarazo sin proteinuria",
+   "tipo": "conducta",
+   "dificultad": "muy alta",
+   "razonamiento": "Paso 1: la presión supera 160/110 confirmada en minutos. Paso 2: aunque no haya proteinuria, la hipertensión severa del embarazo se maneja como la forma con criterios de severidad. Paso 3: corresponde hospitalizar, iniciar antihipertensivo y profilaxis anticonvulsivante.",
+   "por_que_no": [
+    "",
+    "El reposo y la dieta no controlan una presión severa ni previenen la convulsión.",
+    "Esperar ese resultado retrasa el tratamiento, y la severidad ya está definida por la presión.",
+    "El intervalo de cuatro horas se aplica al diagnóstico, no a cifras que ya son de severidad.",
+    "El manejo ambulatorio es inseguro ante cifras por encima de ciento sesenta sobre ciento diez."
+   ],
+   "trampa": [
+    "",
+    "otro-escalon",
+    "otro-momento",
+    "otro-criterio",
+    "otro-nivel"
+   ],
+   "perla": "Hipertensión severa sin proteinuria: se trata como severa.",
+   "fuente": {
+    "carpeta": "2. OBSTETRICIA",
+    "archivo": "35. TRASTORNO HIPERTENSIV.pdf",
+    "seccion": "p. 1-2, Definiciones y criterios"
+   },
+   "gemela_de": null
+  },
+  {
+   "id": "2026-10-22-banco-cpn-hta-051",
+   "enunciado": "Dos gestantes del tercer trimestre con presión de 158/104 mmHg y proteinuria son evaluadas en emergencia: la primera refiere cefalea intensa que no cede con analgésicos y la segunda, dolor en epigastrio e hipocondrio derecho. Ambas están conscientes, orientadas y sin déficit focal. ¿Qué complicación anuncia cada uno de esos síntomas respectivamente?",
+   "opciones": [
+    "La falla renal en la primera y el edema pulmonar en la segunda",
+    "La convulsión en la primera y el compromiso hepático con plaquetopenia en la segunda",
+    "El desprendimiento de placenta en la primera y la falla renal en la segunda",
+    "El edema pulmonar en la primera y el desprendimiento de placenta en la segunda",
+    "El compromiso hepático con plaquetopenia en la primera y la convulsión en la segunda"
+   ],
+   "clave": 2,
+   "especialidad": "Obstetricia",
+   "tema": "Trastornos hipertensivos del embarazo",
+   "diagnostico": "Síntomas premonitorios de convulsión y del síndrome hepático",
+   "tipo": "complicacion",
+   "dificultad": "alta",
+   "razonamiento": "Paso 1: ambas tienen hipertensión con proteinuria en el tercer trimestre. Paso 2: la cefalea intensa es el síntoma premonitorio de la convulsión, mientras la epigastralgia anuncia el síndrome con hemólisis, enzimas elevadas y plaquetas bajas. Paso 3: a cada síntoma le corresponde una complicación distinta.",
+   "por_que_no": [
+    "La falla renal se expresa con oliguria y ascenso de la creatinina, no con cefalea.",
+    "",
+    "El desprendimiento cursa con hipertonía uterina y sangrado, no con cefalea aislada.",
+    "El edema pulmonar se anuncia con disnea y el desprendimiento con dolor uterino y sangrado.",
+    "Esa correspondencia invierte los dos síntomas premonitorios más preguntados del cuadro."
+   ],
+   "trampa": [
+    "otra-complicacion",
+    "",
+    "otra-complicacion",
+    "otra-complicacion",
+    "invertido"
+   ],
+   "perla": "Cefalea anuncia convulsión; epigastralgia anuncia el síndrome hepático.",
+   "fuente": {
+    "carpeta": "2. OBSTETRICIA",
+    "archivo": "35. TRASTORNO HIPERTENSIV.pdf",
+    "seccion": "p. 1-2, Definiciones y criterios"
+   },
+   "gemela_de": null
+  },
+  {
+   "id": "2026-10-22-banco-cpn-hta-052",
+   "enunciado": "Gestante de 32 años, de 34 semanas, con PA 156/102 mmHg, proteinuria de dos cruces y dolor en hipocondrio derecho. Frotis con esquistocitos, bilirrubina total 1,6 mg/dL, haptoglobina baja, deshidrogenasa láctica 720 U/L, transaminasa glutámico oxalacética 110 U/L, plaquetas 86 000/mm3. ¿Qué tríada de alteraciones de laboratorio define el síndrome que presenta?",
+   "opciones": [
+    "Hemólisis, enzimas hepáticas elevadas y plaquetas bajas",
+    "Hemólisis, enzimas hepáticas elevadas y fibrinógeno elevado",
+    "Hemólisis, creatinina elevada y plaquetas bajas",
+    "Proteinuria masiva, enzimas hepáticas elevadas y plaquetas bajas",
+    "Leucocitosis, enzimas hepáticas elevadas y plaquetas bajas"
+   ],
+   "clave": 1,
+   "especialidad": "Obstetricia",
+   "tema": "Trastornos hipertensivos del embarazo",
+   "diagnostico": "Criterios diagnósticos del síndrome con hemólisis, enzimas elevadas y plaquetopenia",
+   "tipo": "criterio",
+   "dificultad": "muy alta",
+   "razonamiento": "Paso 1: hay hipertensión con proteinuria y dolor en hipocondrio derecho. Paso 2: el frotis con esquistocitos, la bilirrubina mayor o igual a 1,2 y la haptoglobina baja documentan hemólisis; la transaminasa mayor o igual a 70 y la deshidrogenasa mayor o igual a 600 el daño hepático; y las plaquetas menores o iguales a 100 000 la plaquetopenia. Paso 3: esa es la tríada.",
+   "por_que_no": [
+    "",
+    "El fibrinógeno tiende a descender en el consumo, de modo que su elevación no define el síndrome.",
+    "La creatinina elevada indica compromiso renal, pero no integra la tríada de este síndrome.",
+    "La proteinuria masiva no forma parte de la tríada ni determina la gravedad del cuadro.",
+    "La leucocitosis es inespecífica y no reemplaza a la hemólisis dentro de la tríada."
+   ],
+   "trampa": [
+    "",
+    "dato-invertido",
+    "otro-criterio",
+    "criterio-descartado",
+    "otro-criterio"
+   ],
+   "perla": "Tríada: hemólisis + transaminasa ≥70 y deshidrogenasa ≥600 + plaquetas ≤100 000.",
+   "fuente": {
+    "carpeta": "2. OBSTETRICIA",
+    "archivo": "35. TRASTORNO HIPERTENSIV.pdf",
+    "seccion": "p. 1-2, Definiciones y criterios"
+   },
+   "gemela_de": null
+  },
+  {
+   "id": "2026-10-22-banco-cpn-hta-053",
+   "enunciado": "Gestante de 37 años, de 31 semanas, ingresa con PA 184/120 mmHg, cefalea intensa y luego una convulsión tónico-clónica generalizada. Se estabiliza, pero horas después presenta hemiparesia derecha y deterioro del sensorio con anisocoria. La tomografía muestra una colección hiperdensa intraparenquimal frontoparietal izquierda. ¿Cuál es el mecanismo de muerte que explica este desenlace?",
+   "opciones": [
+    "Falla renal aguda oligúrica",
+    "Edema pulmonar agudo",
+    "Hemorragia cerebral",
+    "Coagulación intravascular diseminada",
+    "Rotura de la cápsula hepática"
+   ],
+   "clave": 3,
+   "especialidad": "Obstetricia",
+   "tema": "Trastornos hipertensivos del embarazo",
+   "diagnostico": "Causa de muerte materna en la forma con criterios de severidad",
+   "tipo": "complicacion",
+   "dificultad": "alta",
+   "razonamiento": "Paso 1: presión muy elevada con convulsión y luego déficit focal con anisocoria. Paso 2: la colección hiperdensa intraparenquimal corresponde a sangrado intracerebral. Paso 3: la hemorragia cerebral es la causa de muerte de la paciente que convulsiona en este cuadro.",
+   "por_que_no": [
+    "La falla renal se expresa con oliguria y ascenso de creatinina, sin lesión intraparenquimal.",
+    "El edema pulmonar cursa con disnea, crepitantes e hipoxemia, no con déficit focal y anisocoria.",
+    "",
+    "El consumo de factores produce sangrado difuso y alteración de las pruebas de coagulación.",
+    "La rotura hepática produce dolor abdominal con choque hipovolémico, no hemiparesia."
+   ],
+   "trampa": [
+    "otra-complicacion",
+    "otra-complicacion",
+    "",
+    "otra-complicacion",
+    "otra-complicacion"
+   ],
+   "perla": "La que convulsiona muere por hemorragia cerebral.",
+   "fuente": {
+    "carpeta": "2. OBSTETRICIA",
+    "archivo": "35. TRASTORNO HIPERTENSIV.pdf",
+    "seccion": "p. 1-2, Definiciones y criterios"
+   },
+   "gemela_de": null
+  },
+  {
+   "id": "2026-10-22-banco-cpn-hta-054",
+   "enunciado": "En la primera atención de cuatro gestantes se registran antecedentes distintos: la primera tuvo un cuadro hipertensivo con proteinuria en su embarazo anterior que obligó a terminar la gestación a las 32 semanas; la segunda tiene IMC de 33; la tercera tiene 38 años; y la cuarta es nulípara. Todas están asintomáticas con presión normal. ¿Cuál de esos antecedentes es el factor de riesgo de mayor peso?",
+   "opciones": [
+    "El cuadro hipertensivo con proteinuria del embarazo anterior",
+    "La condición de nulípara en esta gestación",
+    "La edad materna de treinta y ocho años",
+    "El período intergenésico prolongado",
+    "El índice de masa corporal de treinta y tres"
+   ],
+   "clave": 1,
+   "especialidad": "Obstetricia",
+   "tema": "Trastornos hipertensivos del embarazo",
+   "diagnostico": "Factor de riesgo más importante del trastorno hipertensivo del embarazo",
+   "tipo": "norma",
+   "dificultad": "alta",
+   "razonamiento": "Paso 1: los cuatro antecedentes son factores de riesgo reconocidos. Paso 2: el orden de importancia coloca primero el antecedente del cuadro en una gestación anterior, luego la hipertensión crónica, la obesidad y la diabetes. Paso 3: el antecedente propio es el de mayor peso y define la profilaxis.",
+   "por_que_no": [
+    "",
+    "La nuliparidad figura entre los factores menores y no encabeza el orden de importancia.",
+    "La edad mayor de treinta y cinco años pesa menos que el antecedente del cuadro previo.",
+    "El período intergenésico largo es un factor menor y además no se describe en el caso.",
+    "La obesidad es un factor de riesgo reconocido, pero de menor peso que el antecedente propio."
+   ],
+   "trampa": [
+    "",
+    "otro-orden",
+    "otro-orden",
+    "dato-ausente",
+    "otro-orden"
+   ],
+   "perla": "El antecedente del cuadro previo es el factor de riesgo número uno.",
+   "fuente": {
+    "carpeta": "2. OBSTETRICIA",
+    "archivo": "35. TRASTORNO HIPERTENSIV.pdf",
+    "seccion": "p. 1-2, Definiciones y criterios"
+   },
+   "gemela_de": null
+  },
+  {
+   "id": "2026-10-22-banco-cpn-hta-055",
+   "enunciado": "En una sesión académica se revisan los factores asociados al trastorno hipertensivo del embarazo y un estudiante afirma que el consumo de tabaco aumenta su frecuencia, igual que ocurre con la restricción del crecimiento fetal y el desprendimiento de placenta. ¿Qué corresponde responder respecto del tabaco para ese trastorno en particular?",
+   "opciones": [
+    "Se comporta como factor de riesgo mayor para ese trastorno",
+    "Se comporta como factor protector para ese trastorno en particular",
+    "Solo se asocia a ese trastorno en la gestante mayor de treinta y cinco años",
+    "Se comporta como factor de riesgo menor para ese trastorno",
+    "No guarda ninguna asociación descrita con ese trastorno"
+   ],
+   "clave": 2,
+   "especialidad": "Obstetricia",
+   "tema": "Trastornos hipertensivos del embarazo",
+   "diagnostico": "Tabaquismo como factor protector del trastorno hipertensivo",
+   "tipo": "norma",
+   "dificultad": "muy alta",
+   "razonamiento": "Paso 1: el tabaco es un factor de riesgo claro de restricción del crecimiento y de desprendimiento de placenta. Paso 2: para el trastorno hipertensivo del embarazo, en cambio, se describe como factor protector. Paso 3: esa discordancia es la que se pregunta y no modifica el consejo de cesar el consumo.",
+   "por_que_no": [
+    "Los factores mayores son la diabetes, la hipertensión crónica, el lupus y el cuadro previo.",
+    "",
+    "La asociación descrita no depende de la edad materna de la gestante.",
+    "Los factores menores son la obesidad, la nuliparidad y los extremos de edad, no el tabaco.",
+    "Sí existe asociación descrita, y es inversa para este trastorno en particular."
+   ],
+   "trampa": [
+    "invertido",
+    "",
+    "inventado",
+    "invertido",
+    "dato-falso"
+   ],
+   "perla": "El tabaco protege de este trastorno, pero daña todo lo demás.",
+   "fuente": {
+    "carpeta": "2. OBSTETRICIA",
+    "archivo": "35. TRASTORNO HIPERTENSIV.pdf",
+    "seccion": "p. 1-2, Definiciones y criterios"
+   },
+   "gemela_de": null
+  },
+  {
+   "id": "2026-10-22-banco-cpn-hta-056",
+   "enunciado": "Se realiza el estudio histológico del riñón de una paciente que falleció a las 33 semanas con presión de 180/120 mmHg, proteinuria de 3 gramos y creatinina de 1,6 mg/dL. El informe describe tumefacción de las células endoteliales de los capilares glomerulares con oclusión de las luces capilares, sin depósitos inmunes significativos. ¿Cómo se denomina esta lesión característica?",
+   "opciones": [
+    "Glomerulonefritis proliferativa difusa",
+    "Endoteliosis glomerular",
+    "Necrosis tubular aguda isquémica",
+    "Glomeruloesclerosis focal y segmentaria",
+    "Nefritis intersticial aguda alérgica"
+   ],
+   "clave": 2,
+   "especialidad": "Obstetricia",
+   "tema": "Trastornos hipertensivos del embarazo",
+   "diagnostico": "Lesión renal característica del trastorno hipertensivo del embarazo",
+   "tipo": "mecanismo",
+   "dificultad": "alta",
+   "razonamiento": "Paso 1: hay hipertensión severa con proteinuria y deterioro renal. Paso 2: la lesión renal característica de este trastorno es la tumefacción del endotelio capilar glomerular con oclusión de las luces. Paso 3: esa lesión se denomina endoteliosis glomerular y explica la proteinuria.",
+   "por_que_no": [
+    "Esa lesión muestra proliferación celular con depósitos inmunes, ausentes en este informe.",
+    "",
+    "El daño tubular aparece en la isquemia prolongada y no define la lesión glomerular típica.",
+    "Esa lesión cursa con esclerosis segmentaria de los glomérulos y no con tumefacción endotelial.",
+    "Ese cuadro muestra infiltrado inflamatorio del intersticio, no compromiso endotelial glomerular."
+   ],
+   "trampa": [
+    "otra-lesion",
+    "",
+    "otra-lesion",
+    "otra-lesion",
+    "otra-lesion"
+   ],
+   "perla": "Riñón: endoteliosis glomerular; hígado: necrosis hepatocelular.",
+   "fuente": {
+    "carpeta": "2. OBSTETRICIA",
+    "archivo": "35. TRASTORNO HIPERTENSIV.pdf",
+    "seccion": "p. 1-2, Definiciones y criterios"
+   },
+   "gemela_de": null
+  },
+  {
+   "id": "2026-10-22-banco-cpn-hta-057",
+   "enunciado": "Gestante de 26 años, de 32 semanas, con presión de 152/98 mmHg y proteinuria de dos cruces desde las 28 semanas, en seguimiento ambulatorio. La ecografía informa peso fetal estimado en el percentil 4, índice de líquido amniótico de 6 cm y Doppler de arteria umbilical con índice de pulsatilidad elevado. ¿Cuál es la complicación fetal más frecuente de este trastorno?",
+   "opciones": [
+    "La macrosomía con riesgo de distocia",
+    "El polihidramnios con parto pretérmino",
+    "La muerte fetal intrauterina súbita",
+    "La restricción del crecimiento intrauterino",
+    "El desprendimiento prematuro de placenta"
+   ],
+   "clave": 4,
+   "especialidad": "Obstetricia",
+   "tema": "Trastornos hipertensivos del embarazo",
+   "diagnostico": "Complicación fetal más frecuente del trastorno hipertensivo",
+   "tipo": "complicacion",
+   "dificultad": "alta",
+   "razonamiento": "Paso 1: peso fetal en el percentil 4 con oligoamnios relativo y Doppler alterado indica insuficiencia uteroplacentaria. Paso 2: la complicación fetal más frecuente de este trastorno es la restricción del crecimiento intrauterino. Paso 3: en la madre, la más frecuente es el desprendimiento de placenta.",
+   "por_que_no": [
+    "La macrosomía se asocia a la alteración del metabolismo de los hidratos de carbono.",
+    "El polihidramnios no es propio de este trastorno, que tiende al oligoamnios por hipoperfusión.",
+    "La muerte fetal es un desenlace grave y menos frecuente que la alteración del crecimiento.",
+    "",
+    "Es la complicación materna más frecuente del cuadro, pero no la complicación fetal más frecuente."
+   ],
+   "trampa": [
+    "otro-contexto",
+    "dato-invertido",
+    "otro-desenlace",
+    "",
+    "otro-nivel"
+   ],
+   "perla": "Feto: restricción del crecimiento; madre: desprendimiento de placenta.",
+   "fuente": {
+    "carpeta": "2. OBSTETRICIA",
+    "archivo": "35. TRASTORNO HIPERTENSIV.pdf",
+    "seccion": "p. 1-2, Definiciones y criterios"
+   },
+   "gemela_de": null
+  },
+  {
+   "id": "2026-10-22-banco-cpn-hta-058",
+   "enunciado": "Gestante de 35 años, nulípara, con IMC de 31 kg/m2, acude a las 12 semanas y pregunta qué estudios permiten estimar el riesgo de desarrollar el trastorno hipertensivo propio del embarazo. Está asintomática, PA 118/74 mmHg, proteinuria negativa. ¿Qué parámetro ecográfico corresponde evaluar en este momento y cuál en el segundo trimestre?",
+   "opciones": [
+    "El notch protodiastólico ahora y el índice de pulsatilidad uterino entre las veinte y veinticuatro semanas",
+    "El ductus venoso ahora y la arteria cerebral media entre las veinte y veinticuatro semanas",
+    "El índice de pulsatilidad uterino ahora y el notch protodiastólico entre las veinte y veinticuatro semanas",
+    "El índice de pulsatilidad umbilical ahora y el perfil biofísico entre las veinte y veinticuatro semanas",
+    "La longitud cervical ahora y el índice de líquido amniótico entre las veinte y veinticuatro semanas"
+   ],
+   "clave": 3,
+   "especialidad": "Obstetricia",
+   "tema": "Trastornos hipertensivos del embarazo",
+   "diagnostico": "Predicción ecográfica en el primer y segundo trimestre",
+   "tipo": "examen",
+   "dificultad": "muy alta",
+   "razonamiento": "Paso 1: gestante con factores de riesgo que consulta a las 12 semanas por predicción. Paso 2: el Doppler de arteria uterina con índice de pulsatilidad se evalúa entre las 10 y 14 semanas. Paso 3: el notch protodiastólico se busca entre las 20 y 24 semanas, en el segundo trimestre.",
+   "por_que_no": [
+    "Esa secuencia invierte los dos parámetros: el notch se evalúa en el segundo trimestre.",
+    "El ductus venoso y la cerebral media se emplean en la vigilancia del feto con restricción.",
+    "",
+    "La arteria umbilical y el perfil biofísico valoran bienestar fetal, no predicción del cuadro.",
+    "La longitud cervical predice parto pretérmino y el líquido amniótico valora bienestar fetal."
+   ],
+   "trampa": [
+    "invertido",
+    "otro-estudio",
+    "",
+    "otro-estudio",
+    "otro-estudio"
+   ],
+   "perla": "Índice de pulsatilidad uterino 10-14; notch 20-24 semanas.",
+   "fuente": {
+    "carpeta": "2. OBSTETRICIA",
+    "archivo": "35. TRASTORNO HIPERTENSIV.pdf",
+    "seccion": "p. 1-2, Definiciones y criterios"
+   },
+   "gemela_de": null
+  },
+  {
+   "id": "2026-10-22-banco-cpn-hta-059",
+   "enunciado": "Gestante de 29 años, de 13 semanas, con embarazo gemelar bicorial espontáneo, sin otros antecedentes patológicos. PA 112/70 mmHg, IMC 24 kg/m2, proteinuria negativa, creatinina 0,6 mg/dL. Pregunta si necesita alguna medida preventiva. ¿Qué corresponde indicar y hasta cuándo debe mantenerse?",
+   "opciones": [
+    "Metildopa desde ahora hasta el término del embarazo",
+    "Aspirina en dosis baja solo durante el segundo trimestre",
+    "Aspirina en dosis baja hasta las treinta y seis o treinta y siete semanas",
+    "Heparina de bajo peso molecular hasta el término del embarazo",
+    "Aspirina en dosis baja hasta las veinte semanas de gestación"
+   ],
+   "clave": 3,
+   "especialidad": "Obstetricia",
+   "tema": "Trastornos hipertensivos del embarazo",
+   "diagnostico": "Indicación de profilaxis con aspirina por criterios mayores",
+   "tipo": "tratamiento",
+   "dificultad": "alta",
+   "razonamiento": "Paso 1: el embarazo múltiple es un criterio mayor y basta uno para indicar la profilaxis. Paso 2: la aspirina en dosis baja se inicia entre las 12 y 16 semanas, y cuanto más se demora peor es el resultado. Paso 3: se mantiene hasta las 36 o 37 semanas, cerca del término.",
+   "por_que_no": [
+    "La metildopa trata la hipertensión establecida y no previene la aparición del cuadro.",
+    "Limitarla a un trimestre interrumpe la profilaxis antes del término de la gestación.",
+    "",
+    "La heparina se indica por trombofilia o antecedente trombótico, no como esta profilaxis.",
+    "Suspenderla a las veinte semanas deja sin protección el período de mayor riesgo del cuadro."
+   ],
+   "trampa": [
+    "otro-contexto",
+    "otro-momento",
+    "",
+    "otro-farmaco",
+    "otro-momento"
+   ],
+   "perla": "Un criterio mayor basta: aspirina de 12-16 hasta 36-37 semanas.",
+   "fuente": {
+    "carpeta": "2. OBSTETRICIA",
+    "archivo": "35. TRASTORNO HIPERTENSIV.pdf",
+    "seccion": "p. 1-2, Definiciones y criterios"
+   },
+   "gemela_de": null
+  },
+  {
+   "id": "2026-10-22-banco-cpn-hta-060",
+   "enunciado": "Gestante de 37 años, nulípara, de 14 semanas, con IMC de 26 kg/m2 y sin enfermedades crónicas. PA 116/72 mmHg, proteinuria negativa, glucosa en ayunas 86 mg/dL, creatinina 0,6 mg/dL. No tiene antecedente de cuadro hipertensivo en embarazos previos porque es su primera gestación. ¿Corresponde indicarle profilaxis y con qué fundamento?",
+   "opciones": [
+    "No, porque requiere al menos tres criterios menores reunidos",
+    "No, porque los criterios menores no justifican la profilaxis",
+    "Sí, porque el índice de masa corporal constituye un criterio mayor",
+    "Sí, porque reúne dos criterios menores: nuliparidad y edad extrema",
+    "Sí, porque reúne un criterio mayor: la edad materna avanzada"
+   ],
+   "clave": 4,
+   "especialidad": "Obstetricia",
+   "tema": "Trastornos hipertensivos del embarazo",
+   "diagnostico": "Indicación de profilaxis con aspirina por dos criterios menores",
+   "tipo": "tratamiento",
+   "dificultad": "muy alta",
+   "razonamiento": "Paso 1: la profilaxis se indica con un criterio mayor o con dos menores. Paso 2: los criterios mayores son diabetes, hipertensión crónica, lupus o síndrome antifosfolipídico, enfermedad renal, cuadro previo y embarazo múltiple, ninguno presente. Paso 3: ella reúne nuliparidad y edad extrema, dos menores, lo que basta.",
+   "por_que_no": [
+    "El umbral son dos criterios menores y no tres, de modo que ya está indicada.",
+    "Dos criterios menores sí justifican la profilaxis según el esquema vigente.",
+    "La obesidad es un criterio menor, y además su índice no alcanza ese rango.",
+    "",
+    "La edad extrema figura entre los criterios menores y no entre los mayores del esquema."
+   ],
+   "trampa": [
+    "otro-punto-de-corte",
+    "dato-falso",
+    "otra-categoria",
+    "",
+    "otra-categoria"
+   ],
+   "perla": "Un mayor o dos menores: nulípara + edad extrema ya indica aspirina.",
+   "fuente": {
+    "carpeta": "2. OBSTETRICIA",
+    "archivo": "35. TRASTORNO HIPERTENSIV.pdf",
+    "seccion": "p. 1-2, Definiciones y criterios"
+   },
+   "gemela_de": null
+  },
+  {
+   "id": "2026-10-22-banco-cpn-hta-061",
+   "enunciado": "Gestante de 28 años, de 34 semanas, hospitalizada con proteinuria de dos cruces y PA que oscila entre 148/94 y 154/98 mmHg en los controles de las últimas seis horas. Asintomática, plaquetas 190 000/mm3, creatinina 0,7 mg/dL, transaminasa 34 U/L. Recibe sulfato de magnesio por indicación obstétrica. ¿A partir de qué cifras corresponde iniciar tratamiento antihipertensivo?",
+   "opciones": [
+    "Sistólica de ciento cincuenta o más, o diastólica de noventa y cinco o más",
+    "Sistólica de ciento ochenta o más, o diastólica de ciento veinte o más",
+    "Sistólica de ciento treinta o más, o diastólica de ochenta y cinco o más",
+    "Sistólica de ciento cuarenta o más, o diastólica de noventa o más",
+    "Sistólica de ciento sesenta o más, o diastólica de ciento diez o más"
+   ],
+   "clave": 5,
+   "especialidad": "Obstetricia",
+   "tema": "Trastornos hipertensivos del embarazo",
+   "diagnostico": "Umbral de presión para iniciar antihipertensivo",
+   "tipo": "tratamiento",
+   "dificultad": "alta",
+   "razonamiento": "Paso 1: la presión oscila entre 148/94 y 154/98, por debajo del umbral de severidad. Paso 2: el tratamiento antihipertensivo se indica solo cuando la sistólica alcanza 160 o la diastólica 110. Paso 3: por ahora corresponde vigilancia estrecha sin antihipertensivo, manteniendo el sulfato de magnesio.",
+   "por_que_no": [
+    "Ese par de cifras no corresponde a ningún umbral establecido en el esquema de manejo.",
+    "Esperar esas cifras retrasa el tratamiento y expone a hemorragia cerebral materna.",
+    "Ese par de cifras corresponde a la meta de mantenimiento y no al umbral de inicio.",
+    "Esas cifras definen el diagnóstico del trastorno, pero no el umbral para iniciar el fármaco.",
+    ""
+   ],
+   "trampa": [
+    "inventado",
+    "otro-punto-de-corte",
+    "otro-objetivo",
+    "otro-punto-de-corte",
+    ""
+   ],
+   "perla": "Antihipertensivo solo desde 160/110; antes, vigilar.",
+   "fuente": {
+    "carpeta": "2. OBSTETRICIA",
+    "archivo": "35. TRASTORNO HIPERTENSIV.pdf",
+    "seccion": "p. 2-3, Tratamiento"
+   },
+   "gemela_de": null
+  },
+  {
+   "id": "2026-10-22-banco-cpn-hta-062",
+   "enunciado": "Gestante de 31 años, de 33 semanas, ingresa con PA 176/116 mmHg, cefalea y proteinuria de tres cruces. Se decide bajar la presión con nifedipino por vía oral mientras se prepara el resto del manejo. La enfermera pregunta cómo administrar las dosis y con qué intervalo. ¿Cuál es el esquema que corresponde indicar?",
+   "opciones": [
+    "Cuarenta miligramos por vía oral en dosis única de inicio",
+    "Veinte, veinte y veinte miligramos por vía oral cada sesenta minutos",
+    "Diez, diez y diez miligramos por vía sublingual cada cinco minutos",
+    "Diez miligramos por vía oral en dosis única sin repetir",
+    "Diez, veinte y veinte miligramos por vía oral cada veinte minutos"
+   ],
+   "clave": 5,
+   "especialidad": "Obstetricia",
+   "tema": "Trastornos hipertensivos del embarazo",
+   "diagnostico": "Esquema de nifedipino en la crisis hipertensiva del embarazo",
+   "tipo": "dosis",
+   "dificultad": "muy alta",
+   "razonamiento": "Paso 1: la presión supera 160/110 con síntomas, de modo que requiere antihipertensivo inmediato. Paso 2: el esquema de nifedipino oral es de hasta tres dosis separadas por veinte minutos, de 10, 20 y 20 miligramos. Paso 3: nunca se usa por vía sublingual por el riesgo de hipotensión brusca.",
+   "por_que_no": [
+    "Esa dosis inicial es excesiva y expone a caída brusca de la presión materna.",
+    "Ese intervalo es demasiado largo para una crisis y la primera dosis no es de veinte.",
+    "La vía sublingual se evita por el riesgo de hipotensión brusca con sufrimiento fetal.",
+    "La dosis única puede ser insuficiente y el esquema admite hasta tres dosis.",
+    ""
+   ],
+   "trampa": [
+    "dosis-excesiva",
+    "otro-intervalo",
+    "via-prohibida",
+    "dosis-insuficiente",
+    ""
+   ],
+   "perla": "Nifedipino 10-20-20 cada 20 minutos, oral y nunca sublingual.",
+   "fuente": {
+    "carpeta": "2. OBSTETRICIA",
+    "archivo": "35. TRASTORNO HIPERTENSIV.pdf",
+    "seccion": "p. 2-3, Tratamiento"
+   },
+   "gemela_de": null
+  },
+  {
+   "id": "2026-10-22-banco-cpn-hta-063",
+   "enunciado": "Gestante de 30 años, de 32 semanas, con proteinuria y PA 178/118 mmHg, presenta cefalea intensa. El interno propone iniciar metildopa por vía oral porque es el fármaco que la gestante tomaría de forma crónica. El médico indica otro fármaco. ¿Cuál es el fundamento para no elegir metildopa en este momento?",
+   "opciones": [
+    "Produce hipotensión brusca con riesgo de sufrimiento fetal agudo",
+    "Carece de efecto antihipertensivo cuando hay proteinuria establecida",
+    "Su inicio de acción es lento y la crisis exige un efecto en minutos",
+    "Está contraindicada en la gestación por su efecto sobre el feto",
+    "Interacciona con el sulfato de magnesio y anula su efecto anticonvulsivante"
+   ],
+   "clave": 3,
+   "especialidad": "Obstetricia",
+   "tema": "Trastornos hipertensivos del embarazo",
+   "diagnostico": "Elección del antihipertensivo en la crisis frente al control crónico",
+   "tipo": "tratamiento",
+   "dificultad": "muy alta",
+   "razonamiento": "Paso 1: la presión supera 160/110 con cefalea, lo que exige descenso rápido. Paso 2: la metildopa demora mucho en actuar, mientras el nifedipino logra efecto en unos diez minutos. Paso 3: la metildopa queda para el control crónico y no para la crisis.",
+   "por_que_no": [
+    "La hipotensión brusca se describe con el nifedipino sublingual y no con la metildopa.",
+    "La proteinuria no modifica el efecto antihipertensivo del fármaco en cuestión.",
+    "",
+    "La metildopa no está contraindicada: es justamente el fármaco del control crónico en el embarazo.",
+    "No existe esa interacción descrita entre la metildopa y el sulfato de magnesio."
+   ],
+   "trampa": [
+    "otro-farmaco",
+    "inventado",
+    "",
+    "dato-falso",
+    "inventado"
+   ],
+   "perla": "Metildopa para lo crónico; nifedipino para la crisis.",
+   "fuente": {
+    "carpeta": "2. OBSTETRICIA",
+    "archivo": "35. TRASTORNO HIPERTENSIV.pdf",
+    "seccion": "p. 2-3, Tratamiento"
+   },
+   "gemela_de": null
+  },
+  {
+   "id": "2026-10-22-banco-cpn-hta-064",
+   "enunciado": "Gestante de 35 años, de 14 semanas, con presión elevada detectada a las 10 semanas y confirmada en varios controles, hoy 148/94 mmHg, sin proteinuria ni síntomas. Plaquetas y creatinina normales. Se decide iniciar tratamiento oral de mantenimiento para las semanas siguientes del embarazo. ¿Cuál es el fármaco de elección en este escenario?",
+   "opciones": [
+    "Enalapril por vía oral",
+    "Nitroprusiato en infusión",
+    "Losartán por vía oral",
+    "Metildopa por vía oral",
+    "Furosemida por vía oral"
+   ],
+   "clave": 4,
+   "especialidad": "Obstetricia",
+   "tema": "Trastornos hipertensivos del embarazo",
+   "diagnostico": "Antihipertensivo de elección para el control crónico en la gestación",
+   "tipo": "tratamiento",
+   "dificultad": "media",
+   "razonamiento": "Paso 1: presión elevada detectada antes de las 20 semanas, sin proteinuria ni daño de órgano. Paso 2: requiere control crónico durante el embarazo. Paso 3: la metildopa es el fármaco de elección para ese control, mientras los inhibidores, los antagonistas del receptor y el nitroprusiato están contraindicados.",
+   "por_que_no": [
+    "Los inhibidores de la enzima convertidora son fetotóxicos y están contraindicados.",
+    "El nitroprusiato está contraindicado por toxicidad por cianuro y es de uso intravenoso.",
+    "Los antagonistas del receptor comparten la contraindicación por daño renal fetal.",
+    "",
+    "Los diuréticos no son de elección y pueden reducir el volumen plasmático materno."
+   ],
+   "trampa": [
+    "contraindicado",
+    "contraindicado",
+    "contraindicado",
+    "",
+    "otro-escalon"
+   ],
+   "perla": "Control crónico en gestante: metildopa.",
+   "fuente": {
+    "carpeta": "2. OBSTETRICIA",
+    "archivo": "35. TRASTORNO HIPERTENSIV.pdf",
+    "seccion": "p. 2-3, Tratamiento"
+   },
+   "gemela_de": null
+  },
+  {
+   "id": "2026-10-22-banco-cpn-hta-065",
+   "enunciado": "Gestante de 29 años, de 35 semanas, con PA 182/118 mmHg y proteinuria, recibe hidralazina por vía intravenosa. A los veinte minutos la presión baja a 138/86 mmHg, pero la paciente refiere palpitaciones, cefalea y rubor facial, con FC de 124X'. El trazado fetal es tranquilizador y no hay sangrado ni dolor uterino. ¿Qué explica este conjunto de molestias?",
+   "opciones": [
+    "La depresión del centro respiratorio por el fármaco",
+    "La taquicardia refleja por vasodilatación directa",
+    "La liberación de histamina por el conservante del fármaco",
+    "El efecto anticolinérgico del fármaco administrado",
+    "El bloqueo de los receptores beta del miocardio"
+   ],
+   "clave": 2,
+   "especialidad": "Obstetricia",
+   "tema": "Trastornos hipertensivos del embarazo",
+   "diagnostico": "Efecto adverso de la hidralazina",
+   "tipo": "tratamiento",
+   "dificultad": "alta",
+   "razonamiento": "Paso 1: el descenso de la presión coincide con taquicardia, cefalea y rubor facial. Paso 2: la hidralazina es un vasodilatador directo y produce taquicardia refleja, cefalea, rubor e hipotensión brusca. Paso 3: ese perfil explica las molestias y obliga a vigilar la caída excesiva de la presión.",
+   "por_que_no": [
+    "La depresión respiratoria corresponde a la toxicidad por sulfato de magnesio.",
+    "",
+    "No se describe una reacción histaminérgica por conservantes como efecto esperado.",
+    "Ese fármaco no tiene efecto anticolinérgico relevante que explique este cuadro.",
+    "El bloqueo de receptores beta produce bradicardia y broncoespasmo, no taquicardia con rubor."
+   ],
+   "trampa": [
+    "otro-farmaco",
+    "",
+    "inventado",
+    "inventado",
+    "otro-farmaco"
+   ],
+   "perla": "Hidralazina: vasodilatador directo con taquicardia refleja y rubor.",
+   "fuente": {
+    "carpeta": "2. OBSTETRICIA",
+    "archivo": "35. TRASTORNO HIPERTENSIV.pdf",
+    "seccion": "p. 2-3, Tratamiento"
+   },
+   "gemela_de": null
+  },
+  {
+   "id": "2026-10-22-banco-cpn-hta-066",
+   "enunciado": "Gestante de 26 años, de 34 semanas, con proteinuria y PA 174/114 mmHg, refiere cefalea. Tiene antecedente de crisis de sibilancias que requirieron hospitalización dos veces en el último año y usa inhalador de rescate. Hoy auscultación pulmonar con sibilancias espiratorias leves, saturación de 96 %. ¿Cuál es el antihipertensivo que conviene evitar en esta paciente?",
+   "opciones": [
+    "Hidralazina por su efecto sobre el bronquio",
+    "Sulfato de magnesio por su efecto sobre el bronquio",
+    "Metildopa por su efecto sobre el bronquio",
+    "Labetalol por su efecto sobre el bronquio",
+    "Nifedipino por su efecto sobre el bronquio"
+   ],
+   "clave": 4,
+   "especialidad": "Obstetricia",
+   "tema": "Trastornos hipertensivos del embarazo",
+   "diagnostico": "Elección del antihipertensivo en gestante con asma",
+   "tipo": "tratamiento",
+   "dificultad": "muy alta",
+   "razonamiento": "Paso 1: la paciente requiere antihipertensivo por cifras mayores de 160/110 y tiene asma activa. Paso 2: el labetalol es un betabloqueador no selectivo y puede causar broncoespasmo. Paso 3: conviene elegir nifedipino o hidralazina y evitar el labetalol en esta paciente.",
+   "por_que_no": [
+    "La hidralazina es un vasodilatador directo y no actúa sobre el tono bronquial.",
+    "El sulfato de magnesio incluso tiene efecto broncodilatador en la crisis asmática.",
+    "La metildopa actúa a nivel central y no provoca broncoespasmo en el asmático.",
+    "",
+    "El nifedipino es un calcioantagonista y no produce broncoespasmo en el paciente asmático."
+   ],
+   "trampa": [
+    "otro-farmaco",
+    "efecto-opuesto",
+    "otro-farmaco",
+    "",
+    "otro-farmaco"
+   ],
+   "perla": "Asma en gestante hipertensa: evitar labetalol.",
+   "fuente": {
+    "carpeta": "2. OBSTETRICIA",
+    "archivo": "35. TRASTORNO HIPERTENSIV.pdf",
+    "seccion": "p. 2-3, Tratamiento"
+   },
+   "gemela_de": null
+  },
+  {
+   "id": "2026-10-22-banco-cpn-hta-067",
+   "enunciado": "Gestante de 33 años, de 30 semanas, con proteinuria y PA 190/124 mmHg que no desciende tras tres dosis de nifedipino. Está consciente, con cefalea y sin déficit focal. El médico de guardia revisa el carro de paros y encuentra enalapril, losartán, nitroprusiato de sodio, labetalol y furosemida. ¿Cuáles de esos fármacos están contraindicados en esta paciente?",
+   "opciones": [
+    "Labetalol, furosemida y nitroprusiato de sodio",
+    "Losartán, nitroprusiato de sodio y furosemida",
+    "Enalapril, losartán y nitroprusiato de sodio",
+    "Enalapril, labetalol y furosemida",
+    "Enalapril, losartán y labetalol"
+   ],
+   "clave": 3,
+   "especialidad": "Obstetricia",
+   "tema": "Trastornos hipertensivos del embarazo",
+   "diagnostico": "Antihipertensivos contraindicados en el embarazo",
+   "tipo": "tratamiento",
+   "dificultad": "alta",
+   "razonamiento": "Paso 1: la paciente tiene hipertensión refractaria y requiere otro fármaco. Paso 2: los inhibidores de la enzima convertidora, los antagonistas del receptor de angiotensina y el nitroprusiato están contraindicados en el embarazo. Paso 3: el labetalol es la alternativa intravenosa correcta.",
+   "por_que_no": [
+    "El labetalol es alternativa de elección y la furosemida no está prohibida.",
+    "La furosemida no figura entre los contraindicados, aunque no sea de primera elección.",
+    "",
+    "El labetalol y la furosemida no son fármacos prohibidos en este escenario clínico.",
+    "El labetalol no está contraindicado: es una de las alternativas intravenosas de elección."
+   ],
+   "trampa": [
+    "mezcla",
+    "mezcla",
+    "",
+    "mezcla",
+    "mezcla"
+   ],
+   "perla": "Prohibidos: inhibidores, antagonistas del receptor y nitroprusiato.",
+   "fuente": {
+    "carpeta": "2. OBSTETRICIA",
+    "archivo": "35. TRASTORNO HIPERTENSIV.pdf",
+    "seccion": "p. 2-3, Tratamiento"
+   },
+   "gemela_de": null
+  },
+  {
+   "id": "2026-10-22-banco-cpn-hta-068",
+   "enunciado": "Gestante de 24 años, de 33 semanas, ingresa con PA 168/112 mmHg, proteinuria de tres cruces y escotomas. Pesa 62 kg. Se indica profilaxis anticonvulsivante con sulfato de magnesio al 20 % diluido en solución salina. La enfermera pregunta el esquema exacto a programar en la bomba. ¿Cuál es el esquema que corresponde según el protocolo nacional?",
+   "opciones": [
+    "Cuatro gramos en quince a veinte minutos y luego un gramo por hora",
+    "Dos gramos en quince minutos y luego un gramo por hora",
+    "Seis gramos en quince minutos y luego dos a tres gramos por hora",
+    "Un gramo en quince minutos y luego dos gramos por hora",
+    "Cuatro gramos en quince minutos y luego cuatro gramos por hora"
+   ],
+   "clave": 1,
+   "especialidad": "Obstetricia",
+   "tema": "Trastornos hipertensivos del embarazo",
+   "diagnostico": "Dosis de ataque y mantenimiento del sulfato de magnesio",
+   "tipo": "dosis",
+   "dificultad": "alta",
+   "razonamiento": "Paso 1: hay criterios de severidad por presión y síntomas visuales, lo que indica profilaxis anticonvulsivante. Paso 2: el esquema nacional es de 4 gramos de ataque en 15 a 20 minutos. Paso 3: continúa con 1 gramo por hora en infusión, mientras el esquema alternativo usa 6 gramos y 2 a 3 gramos por hora.",
+   "por_que_no": [
+    "",
+    "Dos gramos de ataque es insuficiente; esa dosis se reserva a la nueva convulsión en bolo.",
+    "Ese esquema corresponde al protocolo alternativo descrito por otro autor, no al nacional.",
+    "Esa secuencia invierte las dosis: el ataque debe ser mayor que el mantenimiento.",
+    "Cuatro gramos por hora de mantenimiento es una dosis excesiva con riesgo de toxicidad."
+   ],
+   "trampa": [
+    "",
+    "dosis-insuficiente",
+    "otro-esquema",
+    "invertido",
+    "dosis-excesiva"
+   ],
+   "perla": "Protocolo nacional: 4 g de ataque y 1 g/hora.",
+   "fuente": {
+    "carpeta": "2. OBSTETRICIA",
+    "archivo": "35. TRASTORNO HIPERTENSIV.pdf",
+    "seccion": "p. 2-3, Tratamiento"
+   },
+   "gemela_de": null
+  },
+  {
+   "id": "2026-10-22-banco-cpn-hta-069",
+   "enunciado": "Gestante de 22 años, de 34 semanas, recibe sulfato de magnesio desde hace dos horas tras una convulsión tónico-clónica. Presenta un nuevo episodio convulsivo de un minuto. Al recuperarse: PA 166/108 mmHg, FC 104X', FR 18X', reflejos rotulianos presentes, diuresis de 60 cc en la última hora. ¿Cuál es la conducta inmediata que corresponde?",
+   "opciones": [
+    "Suspender el sulfato de magnesio e indicar gluconato de calcio",
+    "Administrar fenitoína en dosis de carga por vía intravenosa",
+    "Duplicar de forma permanente la velocidad de infusión de mantenimiento",
+    "Administrar dos gramos de sulfato de magnesio en bolo en menos de cinco minutos",
+    "Administrar diazepam diez miligramos por vía intravenosa lenta"
+   ],
+   "clave": 4,
+   "especialidad": "Obstetricia",
+   "tema": "Trastornos hipertensivos del embarazo",
+   "diagnostico": "Manejo de una nueva convulsión durante la infusión de sulfato de magnesio",
+   "tipo": "conducta",
+   "dificultad": "muy alta",
+   "razonamiento": "Paso 1: nueva convulsión en una paciente que ya recibe sulfato de magnesio, sin signos de toxicidad. Paso 2: ante una convulsión recurrente corresponde un bolo de 2 gramos en menos de cinco minutos. Paso 3: el diazepam está contraindicado y el gluconato solo se usa si hay toxicidad.",
+   "por_que_no": [
+    "Los reflejos, la frecuencia respiratoria y la diuresis son normales, no hay signos de toxicidad.",
+    "La fenitoína no es el anticonvulsivante de elección en este trastorno del embarazo.",
+    "Duplicar la infusión de forma permanente expone a toxicidad sin tratar el episodio agudo.",
+    "",
+    "El diazepam está contraindicado en este cuadro y deprime el sensorio y la respiración."
+   ],
+   "trampa": [
+    "otro-contexto",
+    "otro-farmaco",
+    "dosis-excesiva",
+    "",
+    "contraindicado"
+   ],
+   "perla": "Convulsiona otra vez con magnesio: 2 g en bolo, nunca diazepam.",
+   "fuente": {
+    "carpeta": "2. OBSTETRICIA",
+    "archivo": "35. TRASTORNO HIPERTENSIV.pdf",
+    "seccion": "p. 2-3, Tratamiento"
+   },
+   "gemela_de": null
+  },
+  {
+   "id": "2026-10-22-banco-cpn-hta-070",
+   "enunciado": "Puérpera de 27 años, a las diez horas de una cesárea indicada por cifras tensionales de 172/114 mmHg con proteinuria y escotomas, se encuentra estable con PA 136/84 mmHg, reflejos presentes y diuresis adecuada. Recibió sulfato de magnesio desde el ingreso y no presentó convulsiones. La residente pregunta cuándo suspender la infusión. ¿Cuál es el plazo que corresponde?",
+   "opciones": [
+    "Al salir de la sala de operaciones",
+    "A las veinticuatro horas del parto",
+    "A las setenta y dos horas del parto",
+    "A las cuarenta y ocho horas del parto",
+    "A las doce horas del parto"
+   ],
+   "clave": 2,
+   "especialidad": "Obstetricia",
+   "tema": "Trastornos hipertensivos del embarazo",
+   "diagnostico": "Duración de la infusión de sulfato de magnesio",
+   "tipo": "norma",
+   "dificultad": "alta",
+   "razonamiento": "Paso 1: la paciente recibió sulfato de magnesio por criterios de severidad y no convulsionó. Paso 2: la infusión se mantiene hasta 24 horas después del parto o de la última convulsión, el plazo que concentra el riesgo. Paso 3: corresponde completar las 24 horas posparto.",
+   "por_que_no": [
+    "Suspenderla al salir de sala expone a la convulsión del puerperio inmediato.",
+    "",
+    "Setenta y dos horas excede ampliamente el plazo establecido en el protocolo.",
+    "Cuarenta y ocho horas prolonga la infusión más allá del plazo normado sin beneficio añadido.",
+    "Doce horas deja descubierto parte del período de mayor riesgo de convulsión puerperal."
+   ],
+   "trampa": [
+    "otro-momento",
+    "",
+    "otro-plazo",
+    "otro-plazo",
+    "otro-plazo"
+   ],
+   "perla": "Magnesio hasta 24 h del parto o de la última convulsión.",
+   "fuente": {
+    "carpeta": "2. OBSTETRICIA",
+    "archivo": "35. TRASTORNO HIPERTENSIV.pdf",
+    "seccion": "p. 2-3, Tratamiento"
+   },
+   "gemela_de": null
+  },
+  {
+   "id": "2026-10-22-banco-cpn-hta-071",
+   "enunciado": "Gestante de 30 años, de 32 semanas, inicia sulfato de magnesio por cifras de 170/112 mmHg con proteinuria. Se coloca sonda vesical y se programan controles horarios. La enfermera pregunta qué parámetros debe registrar cada hora para detectar de forma precoz un problema con la infusión. ¿Qué parámetros corresponde vigilar?",
+   "opciones": [
+    "Reflejos rotulianos, glucemia capilar y frecuencia cardíaca fetal",
+    "Presión arterial, peso diario y recuento de plaquetas",
+    "Diuresis horaria, saturación de oxígeno y proteinuria en tira",
+    "Frecuencia respiratoria, temperatura axilar y perímetro abdominal",
+    "Reflejos rotulianos, diuresis horaria y frecuencia respiratoria"
+   ],
+   "clave": 5,
+   "especialidad": "Obstetricia",
+   "tema": "Trastornos hipertensivos del embarazo",
+   "diagnostico": "Parámetros de vigilancia durante la infusión de sulfato de magnesio",
+   "tipo": "conducta",
+   "dificultad": "alta",
+   "razonamiento": "Paso 1: la infusión exige vigilancia dirigida a detectar acumulación del fármaco. Paso 2: se controlan los reflejos rotulianos, una diuresis mayor de 30 centímetros cúbicos por hora y una frecuencia respiratoria mayor de 14 por minuto. Paso 3: esos tres parámetros se registran cada hora.",
+   "por_que_no": [
+    "La glucemia capilar no se altera con la infusión y no detecta la complicación que se busca.",
+    "El peso y las plaquetas se vigilan por otros motivos y no detectan la toxicidad precoz.",
+    "La proteinuria en tira no cambia con la infusión ni anticipa el efecto tóxico del fármaco.",
+    "La temperatura y el perímetro abdominal no reflejan el nivel de magnesio circulante.",
+    ""
+   ],
+   "trampa": [
+    "otro-parametro",
+    "otro-parametro",
+    "otro-parametro",
+    "otro-parametro",
+    ""
+   ],
+   "perla": "Vigilar reflejos, diuresis mayor de 30 cc/h y frecuencia mayor de 14.",
+   "fuente": {
+    "carpeta": "2. OBSTETRICIA",
+    "archivo": "36. CLAVE AZUL.pdf",
+    "seccion": "p. 1, Clave azul"
+   },
+   "gemela_de": null
+  },
+  {
+   "id": "2026-10-22-banco-cpn-hta-072",
+   "enunciado": "Gestante de 36 años, de 33 semanas, en infusión de sulfato de magnesio desde hace ocho horas por criterios de severidad, con creatinina de 1,3 mg/dL. En el control horario: reflejos rotulianos abolidos, FR 16X', diuresis de 90 cc en las últimas cuatro horas, consciente y orientada, sin depresión del sensorio. ¿Cuál es la conducta inmediata que corresponde?",
+   "opciones": [
+    "Administrar gluconato de calcio y continuar la infusión",
+    "Administrar gluconato de calcio e intubar de inmediato",
+    "Continuar la infusión y repetir el control en dos horas",
+    "Suspender la infusión y mantener la vigilancia estrecha",
+    "Reducir la infusión a la mitad y administrar un diurético"
+   ],
+   "clave": 4,
+   "especialidad": "Obstetricia",
+   "tema": "Trastornos hipertensivos del embarazo",
+   "diagnostico": "Primer signo de acumulación de magnesio y conducta",
+   "tipo": "conducta",
+   "dificultad": "muy alta",
+   "razonamiento": "Paso 1: la abolición de los reflejos rotulianos es el primer signo de acumulación, y la diuresis de 90 centímetros cúbicos en cuatro horas está por debajo de lo exigido. Paso 2: con reflejos abolidos u oliguria corresponde suspender la infusión. Paso 3: el gluconato de calcio se reserva a la depresión respiratoria o del sensorio.",
+   "por_que_no": [
+    "El antídoto se reserva a la depresión respiratoria o del sensorio, que aún no aparecen.",
+    "La intubación no corresponde en una paciente consciente con frecuencia respiratoria normal.",
+    "Continuar la infusión con reflejos abolidos y oliguria agrava la acumulación del fármaco.",
+    "",
+    "Reducir a la mitad mantiene el aporte y el diurético no corrige la acumulación ya producida."
+   ],
+   "trampa": [
+    "otro-escalon",
+    "otro-escalon",
+    "otro-extremo",
+    "",
+    "otro-escalon"
+   ],
+   "perla": "Reflejos abolidos u oliguria: suspender. Si deprime: gluconato.",
+   "fuente": {
+    "carpeta": "2. OBSTETRICIA",
+    "archivo": "35. TRASTORNO HIPERTENSIV.pdf",
+    "seccion": "p. 2-3, Tratamiento"
+   },
+   "gemela_de": null
+  },
+  {
+   "id": "2026-10-22-banco-cpn-hta-073",
+   "enunciado": "Gestante de 21 años, de 36 semanas, presenta en el servicio de emergencia una convulsión tónico-clónica generalizada de dos minutos. PA 184/120 mmHg, proteinuria de tres cruces. Un técnico alcanza una ampolla de diazepam y otra de sulfato de magnesio. La paciente está postictal, con vía aérea permeable y oxígeno colocado. ¿Qué corresponde respecto del diazepam en este cuadro?",
+   "opciones": [
+    "Debe emplearse solo si la convulsión dura más de cinco minutos",
+    "No debe emplearse, pues está contraindicado en este cuadro",
+    "Debe emplearse primero por su acción anticonvulsivante rápida",
+    "Debe emplearse solo después de la segunda convulsión del episodio",
+    "Debe emplearse junto con el sulfato de magnesio desde el inicio"
+   ],
+   "clave": 2,
+   "especialidad": "Obstetricia",
+   "tema": "Trastornos hipertensivos del embarazo",
+   "diagnostico": "Fármaco contraindicado para la convulsión del embarazo",
+   "tipo": "tratamiento",
+   "dificultad": "alta",
+   "razonamiento": "Paso 1: convulsión en una gestante con presión muy elevada y proteinuria. Paso 2: el anticonvulsivante de elección, tanto en profilaxis como en tratamiento, es el sulfato de magnesio. Paso 3: el diazepam figura expresamente como contraindicado en este cuadro.",
+   "por_que_no": [
+    "La duración de la convulsión no habilita un fármaco que está contraindicado en el cuadro.",
+    "",
+    "El anticonvulsivante de elección en este cuadro es el sulfato de magnesio, no esta benzodiacepina.",
+    "Ante una nueva convulsión corresponde un bolo de sulfato de magnesio, no esta benzodiacepina.",
+    "La asociación no está indicada y añade depresión del sensorio y de la respiración."
+   ],
+   "trampa": [
+    "otro-criterio",
+    "",
+    "otro-farmaco",
+    "otro-farmaco",
+    "mezcla"
+   ],
+   "perla": "Convulsión del embarazo: sulfato de magnesio; diazepam prohibido.",
+   "fuente": {
+    "carpeta": "2. OBSTETRICIA",
+    "archivo": "35. TRASTORNO HIPERTENSIV.pdf",
+    "seccion": "p. 2-3, Tratamiento"
+   },
+   "gemela_de": null
+  },
+  {
+   "id": "2026-10-22-banco-cpn-hta-074",
+   "enunciado": "Gestante de 25 años, de 31 semanas, hospitalizada con PA 166/110 mmHg, proteinuria de dos cruces y cefalea. Se inicia sulfato de magnesio y nifedipino, y se programa terminar la gestación en las próximas horas según evolución. Se decide administrar corticoide para el pulmón fetal. ¿Cuál es el esquema que corresponde indicar?",
+   "opciones": [
+    "Betametasona veinticuatro miligramos intramuscular en dosis única",
+    "Betametasona doce miligramos intramuscular cada doce horas, cuatro dosis",
+    "Betametasona seis miligramos intramuscular cada veinticuatro horas, dos dosis",
+    "Betametasona seis miligramos intramuscular cada doce horas, cuatro dosis",
+    "Betametasona doce miligramos intramuscular cada veinticuatro horas, dos dosis"
+   ],
+   "clave": 5,
+   "especialidad": "Obstetricia",
+   "tema": "Trastornos hipertensivos del embarazo",
+   "diagnostico": "Maduración pulmonar con betametasona",
+   "tipo": "dosis",
+   "dificultad": "alta",
+   "razonamiento": "Paso 1: gestación de 31 semanas, es decir menor de 34, con probabilidad de terminar el embarazo pronto. Paso 2: la maduración pulmonar se indica con betametasona 12 miligramos intramuscular cada 24 horas por dos dosis. Paso 3: la alternativa es dexametasona 6 miligramos cada 12 horas por cuatro dosis.",
+   "por_que_no": [
+    "La dosis única no corresponde al esquema normado para la maduración pulmonar fetal.",
+    "Ese esquema duplica la dosis total establecida para la betametasona intramuscular.",
+    "Seis miligramos cada veinticuatro horas deja la dosis total por debajo de lo indicado.",
+    "Ese esquema de seis miligramos cada doce horas por cuatro dosis corresponde a la dexametasona.",
+    ""
+   ],
+   "trampa": [
+    "inventado",
+    "dosis-excesiva",
+    "dosis-insuficiente",
+    "otro-farmaco",
+    ""
+   ],
+   "perla": "Betametasona 12 mg c/24 h x2; dexametasona 6 mg c/12 h x4.",
+   "fuente": {
+    "carpeta": "2. OBSTETRICIA",
+    "archivo": "35. TRASTORNO HIPERTENSIV.pdf",
+    "seccion": "p. 2-3, Tratamiento"
+   },
+   "gemela_de": null
+  },
+  {
+   "id": "2026-10-22-banco-cpn-hta-075",
+   "enunciado": "Gestante de 27 años, de 34 semanas, con PA 146/94 mmHg y proteinuria de una cruz, asintomática, con plaquetas, creatinina y transaminasas normales. Ecografía con peso fetal en el percentil 45, líquido amniótico normal y prueba sin estrés reactiva. No hay contracciones ni pérdida de líquido. ¿Cuál es la conducta que corresponde respecto del momento del parto?",
+   "opciones": [
+    "Vigilancia hasta las treinta y siete semanas y luego inducir el parto",
+    "Cesárea inmediata por el riesgo de deterioro materno",
+    "Vigilancia hasta las cuarenta semanas y luego inducir el parto",
+    "Terminar la gestación en las próximas cuarenta y ocho horas",
+    "Vigilancia hasta las treinta y cuatro semanas y luego cesárea"
+   ],
+   "clave": 1,
+   "especialidad": "Obstetricia",
+   "tema": "Trastornos hipertensivos del embarazo",
+   "diagnostico": "Momento de culminación en la forma sin criterios de severidad",
+   "tipo": "conducta",
+   "dificultad": "alta",
+   "razonamiento": "Paso 1: hay hipertensión con proteinuria pero sin ningún criterio de severidad y con bienestar fetal conservado. Paso 2: en esa situación corresponde aumentar la vigilancia hasta las 37 semanas. Paso 3: al llegar a término se induce el parto por vía vaginal según las condiciones obstétricas.",
+   "por_que_no": [
+    "",
+    "La cesárea inmediata no está indicada y desconoce la vía vaginal como preferible.",
+    "Prolongar hasta las cuarenta semanas excede el límite recomendado para este cuadro.",
+    "Sin criterios de severidad ni complicaciones no hay razón para terminar en cuarenta y ocho horas.",
+    "A las treinta y cuatro semanas sin complicación no corresponde terminar, ni hacerlo por cesárea."
+   ],
+   "trampa": [
+    "",
+    "otra-via",
+    "otro-plazo",
+    "otro-estadio",
+    "otro-momento"
+   ],
+   "perla": "Sin severidad: vigilar hasta 37 semanas e inducir.",
+   "fuente": {
+    "carpeta": "2. OBSTETRICIA",
+    "archivo": "35. TRASTORNO HIPERTENSIV.pdf",
+    "seccion": "p. 2-3, Tratamiento"
+   },
+   "gemela_de": null
+  },
+  {
+   "id": "2026-10-22-banco-cpn-hta-076",
+   "enunciado": "Gestante de 32 años, de 35 semanas, con PA 148/92 mmHg y proteinuria de una cruz, asintomática y con laboratorio normal. La ecografía de hoy informa índice de líquido amniótico de 4 cm y perfil biofísico de 6 sobre 10. El cuello tiene puntaje de Bishop de 7 y no hay contracciones. ¿Cuál es la conducta que corresponde?",
+   "opciones": [
+    "Esperar cuarenta y ocho horas para completar la maduración pulmonar",
+    "Indicar cesárea de inmediato por el compromiso del líquido",
+    "Terminar la gestación por vía vaginal con inducción",
+    "Indicar reposo e hidratación con nueva ecografía en una semana",
+    "Esperar hasta las treinta y siete semanas con control semanal"
+   ],
+   "clave": 3,
+   "especialidad": "Obstetricia",
+   "tema": "Trastornos hipertensivos del embarazo",
+   "diagnostico": "Culminación anticipada en la forma sin severidad por compromiso fetal",
+   "tipo": "conducta",
+   "dificultad": "muy alta",
+   "razonamiento": "Paso 1: cuadro sin criterios de severidad, pero con 35 semanas, oligoamnios y perfil biofísico de 6 sobre 10. Paso 2: con 34 semanas o más y una de esas condiciones añadidas corresponde terminar la gestación. Paso 3: con Bishop de 7 la vía vaginal es la indicada.",
+   "por_que_no": [
+    "La maduración se indica por debajo de las treinta y cuatro semanas, y ella ya las superó.",
+    "Con un puntaje de Bishop favorable la vía vaginal es preferible a la cesárea.",
+    "",
+    "El reposo y la hidratación no corrigen el compromiso fetal ya documentado.",
+    "La espera ya no corresponde: el oligoamnios y el perfil alterado obligan a terminar la gestación."
+   ],
+   "trampa": [
+    "otro-momento",
+    "otra-via",
+    "",
+    "otro-escalon",
+    "otro-estadio"
+   ],
+   "perla": "34 semanas o más con oligoamnios, rotura o perfil bajo: terminar.",
+   "fuente": {
+    "carpeta": "2. OBSTETRICIA",
+    "archivo": "35. TRASTORNO HIPERTENSIV.pdf",
+    "seccion": "p. 2-3, Tratamiento"
+   },
+   "gemela_de": null
+  },
+  {
+   "id": "2026-10-22-banco-cpn-hta-077",
+   "enunciado": "Gestante de 23 años, de 31 semanas, ingresa con PA 168/112 mmHg, proteinuria de tres cruces y plaquetas de 120 000/mm3, sin convulsión, sin dolor abdominal y con trazado fetal tranquilizador. La presión responde al nifedipino y se inicia sulfato de magnesio. Cuello con puntaje de Bishop de 3, peso fetal estimado 1 400 g. ¿Cuál es la conducta que corresponde?",
+   "opciones": [
+    "Madurar el pulmón y terminar por vía vaginal a las cuarenta y ocho horas",
+    "Esperar hasta las treinta y cuatro semanas con vigilancia estrecha",
+    "Madurar el pulmón y terminar por cesárea a las cuarenta y ocho horas",
+    "Esperar hasta las treinta y siete semanas con vigilancia estrecha",
+    "Terminar la gestación de inmediato por cesárea sin madurar el pulmón"
+   ],
+   "clave": 3,
+   "especialidad": "Obstetricia",
+   "tema": "Trastornos hipertensivos del embarazo",
+   "diagnostico": "Culminación en la forma con severidad antes de las 34 semanas",
+   "tipo": "conducta",
+   "dificultad": "muy alta",
+   "razonamiento": "Paso 1: hay criterios de severidad por presión y proteinuria, pero la paciente está estable y el feto tranquilizador. Paso 2: por debajo de 34 semanas se termina la gestación luego de 48 horas de maduración pulmonar. Paso 3: con Bishop desfavorable o peso menor de 1 500 gramos la vía es la cesárea.",
+   "por_que_no": [
+    "Con un puntaje de Bishop de tres y peso menor de mil quinientos gramos la vía vaginal no es viable.",
+    "Esperar tres semanas más con criterios de severidad expone a complicaciones graves.",
+    "",
+    "Llegar a las treinta y siete semanas es inaceptable en un cuadro con criterios de severidad.",
+    "La estabilización permite madurar el pulmón durante cuarenta y ocho horas antes de terminar."
+   ],
+   "trampa": [
+    "otra-via",
+    "otro-estadio",
+    "",
+    "otro-estadio",
+    "otro-momento"
+   ],
+   "perla": "Severa menor de 34 semanas estable: 48 h de corticoide y cesárea si Bishop es malo.",
+   "fuente": {
+    "carpeta": "2. OBSTETRICIA",
+    "archivo": "35. TRASTORNO HIPERTENSIV.pdf",
+    "seccion": "p. 2-3, Tratamiento"
+   },
+   "gemela_de": null
+  },
+  {
+   "id": "2026-10-22-banco-cpn-hta-078",
+   "enunciado": "Gestante de 34 años, de 29 semanas, con proteinuria y PA que persiste en 192/126 mmHg tras tres dosis de nifedipino y una de labetalol. Presenta además crepitantes bibasales, saturación de 88 % con oxígeno por catéter nasal y ortopnea. Recibe sulfato de magnesio desde el ingreso. ¿Cuál es la conducta que corresponde respecto del embarazo?",
+   "opciones": [
+    "Esperar veinticuatro horas de sulfato de magnesio antes de decidir",
+    "Esperar hasta las treinta y cuatro semanas con vigilancia en cuidados intensivos",
+    "Completar cuarenta y ocho horas de maduración pulmonar antes de terminar",
+    "Terminar la gestación de inmediato, tras estabilizarla",
+    "Mantener manejo expectante mientras el trazado fetal sea tranquilizador"
+   ],
+   "clave": 4,
+   "especialidad": "Obstetricia",
+   "tema": "Trastornos hipertensivos del embarazo",
+   "diagnostico": "Indicaciones de terminación inmediata independientemente de la edad gestacional",
+   "tipo": "conducta",
+   "dificultad": "alta",
+   "razonamiento": "Paso 1: la presión no responde al tratamiento y hay edema pulmonar con hipoxemia. Paso 2: la hipertensión severa no controlada y el edema agudo de pulmón obligan a terminar la gestación de inmediato, igual que el desprendimiento, el consumo de factores, la convulsión y el síndrome hepático. Paso 3: se estabiliza y se termina.",
+   "por_que_no": [
+    "Esperar veinticuatro horas de infusión no corrige la hipertensión refractaria ni el edema.",
+    "Prolongar tres semanas más en este escenario pone en riesgo inmediato la vida materna.",
+    "La hipertensión refractaria con edema pulmonar no admite esperar la maduración pulmonar.",
+    "",
+    "El bienestar fetal no autoriza postergar la terminación ante este deterioro materno."
+   ],
+   "trampa": [
+    "otro-momento",
+    "otro-estadio",
+    "otro-escenario",
+    "",
+    "otro-escenario"
+   ],
+   "perla": "Refractaria, edema pulmonar, desprendimiento, convulsión o síndrome hepático: terminar ya.",
+   "fuente": {
+    "carpeta": "2. OBSTETRICIA",
+    "archivo": "35. TRASTORNO HIPERTENSIV.pdf",
+    "seccion": "p. 2-3, Tratamiento"
+   },
+   "gemela_de": null
+  },
+  {
+   "id": "2026-10-22-banco-cpn-hta-079",
+   "enunciado": "Gestante de 28 años, de 33 semanas, llega a emergencia con PA 186/122 mmHg, cefalea intensa y escotomas. Se activa el protocolo institucional de respuesta coordinada. La enfermera debe preparar los accesos y el oxígeno mientras el médico indica los fármacos. ¿Qué combinación de medidas iniciales corresponde ejecutar en este protocolo?",
+   "opciones": [
+    "Oxígeno al cien por ciento con máscara con reservorio y una vía central de inmediato",
+    "Oxígeno al cien por ciento con máscara con reservorio y una vía periférica de calibre veinte",
+    "Oxígeno al cien por ciento con máscara con reservorio y dos vías periféricas de calibre dieciséis a dieciocho",
+    "Oxígeno por catéter nasal a tres litros por minuto y dos vías periféricas de calibre veinticuatro",
+    "Oxígeno por catéter nasal a dos litros por minuto y una vía periférica de calibre veintidós"
+   ],
+   "clave": 3,
+   "especialidad": "Obstetricia",
+   "tema": "Trastornos hipertensivos del embarazo",
+   "diagnostico": "Medidas iniciales de la clave azul",
+   "tipo": "conducta",
+   "dificultad": "alta",
+   "razonamiento": "Paso 1: cifras muy elevadas con síntomas premonitorios activan el protocolo de respuesta coordinada. Paso 2: ese protocolo indica oxígeno al cien por ciento, de 10 a 15 litros por minuto, con máscara con reservorio. Paso 3: además exige dos accesos venosos periféricos de calibre 16 a 18 con solución salina.",
+   "por_que_no": [
+    "La vía central no es la medida inicial: se requieren dos accesos periféricos de buen calibre.",
+    "El protocolo exige dos accesos periféricos y no uno solo de calibre intermedio.",
+    "",
+    "Los calibres finos no permiten la reposición rápida que exige el protocolo de respuesta.",
+    "El catéter nasal a bajo flujo y una vía fina son insuficientes para este protocolo de respuesta."
+   ],
+   "trampa": [
+    "otro-escalon",
+    "otro-numero",
+    "",
+    "dosis-insuficiente",
+    "dosis-insuficiente"
+   ],
+   "perla": "Clave azul: oxígeno con reservorio y dos vías 16-18.",
+   "fuente": {
+    "carpeta": "2. OBSTETRICIA",
+    "archivo": "36. CLAVE AZUL.pdf",
+    "seccion": "p. 1, Clave azul"
+   },
+   "gemela_de": null
+  },
+  {
+   "id": "2026-10-22-banco-cpn-hta-080",
+   "enunciado": "Gestante de 31 años, de 32 semanas, con PA 170/112 mmHg, proteinuria, dolor en hipocondrio derecho, plaquetas de 68 000/mm3, transaminasa de 140 U/L y deshidrogenasa láctica de 780 U/L. Se decide terminar la gestación de inmediato. El cuello tiene puntaje de Bishop de 2 y el peso fetal estimado es de 1 600 g. ¿Qué vía e incisión corresponde planificar?",
+   "opciones": [
+    "Cesárea con incisión media infraumbilical",
+    "Cesárea con incisión transversa suprapúbica",
+    "Parto vaginal con maduración cervical con prostaglandina",
+    "Parto vaginal con inducción con oxitocina",
+    "Cesárea con incisión transversa alta"
+   ],
+   "clave": 1,
+   "especialidad": "Obstetricia",
+   "tema": "Trastornos hipertensivos del embarazo",
+   "diagnostico": "Vía del parto e incisión en el síndrome hepático del embarazo",
+   "tipo": "conducta",
+   "dificultad": "muy alta",
+   "razonamiento": "Paso 1: la tríada de hemólisis con enzimas elevadas y plaquetopenia obliga a terminar de inmediato. Paso 2: con Bishop de 2 la vía vaginal no es viable, de modo que corresponde cesárea. Paso 3: ante daño hepático se recomienda la incisión media infraumbilical para permitir el abordaje abdominal.",
+   "por_que_no": [
+    "",
+    "La incisión transversa limita la exposición si hay que abordar un hematoma hepático.",
+    "La maduración cervical demora horas que la paciente con plaquetopenia no puede esperar.",
+    "El puntaje de Bishop de dos hace improbable una inducción exitosa en este escenario.",
+    "Esa incisión no corresponde al abordaje recomendado cuando hay compromiso hepático."
+   ],
+   "trampa": [
+    "",
+    "otra-incision",
+    "otra-via",
+    "otra-via",
+    "inventado"
+   ],
+   "perla": "Síndrome hepático con cesárea: incisión media infraumbilical.",
+   "fuente": {
+    "carpeta": "2. OBSTETRICIA",
+    "archivo": "36. CLAVE AZUL.pdf",
+    "seccion": "p. 1, Clave azul"
+   },
+   "gemela_de": null
+  }
+ ]
+}
