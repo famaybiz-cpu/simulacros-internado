@@ -161,6 +161,13 @@
    "turno": "manana",
    "titulo": "Simulacro de la mañana",
    "n": 100
+  },
+  {
+   "id": "2026-10-22-noche",
+   "fecha": "2026-10-22",
+   "turno": "noche",
+   "titulo": "Simulacro de la noche",
+   "n": 50
   }
  ]
 }

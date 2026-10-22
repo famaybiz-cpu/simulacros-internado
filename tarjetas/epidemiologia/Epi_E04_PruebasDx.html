@@ -1,0 +1,234 @@
+<!doctype html><html><head><meta charset="utf-8"><link rel="stylesheet" href="epi.css"></head><body>
+
+<div class="card card1">
+  <div class="header">
+    <div class="badge">1</div>
+    <div class="htxt">
+      <h1>PRUEBAS DIAGNÓSTICAS — S, E Y LA 2×2</h1>
+      <div class="lead">S = VP/(VP+FN) en COLUMNA de enfermos &middot; VPP = VP/(VP+FP) en FILA de positivos &middot; Tamizar = alta S</div>
+    </div>
+    <div class="seal">E P I<span class="sm">Tarjeta 1/2 &middot; Epi 5 &middot; 12</span></div>
+  </div>
+
+  <div class="grid">
+    <div class="col c1">
+      <div class="box"><span class="box-title t-a">① &#9999; LA TABLA CONTRA EL GOLD STANDARD</span>
+        <table><tr><th>Prueba</th><th>ENFERMO</th><th>SANO</th></tr>
+        <tr><td><b class="red">POSITIVA</b></td><td><b class="red">VP</b></td><td><b class="red">FP</b></td></tr>
+        <tr><td><b class="red">NEGATIVA</b></td><td><b class="red">FN</b></td><td><b class="red">VN</b></td></tr>
+        </table>
+        <p><b class="red">Columnas = verdad</b> (gold standard) &rarr; dan <b class="red">S y E</b>.</p>
+        <p><b class="red">Filas = resultado</b> de la prueba &rarr; dan <b class="red">VPP y VPN</b>.</p>
+      </div>
+
+      <div class="box"><span class="box-title t-b">② &#9999; SENSIBILIDAD</span>
+        <div class="key">S = VP / (VP + FN)</div>
+        <p>Probabilidad de que un <b class="red">ENFERMO</b> dé <b class="red">POSITIVO</b>.</p>
+        <p>Se lee en la <b class="red">columna de los enfermos</b>; el enemigo de la S es el <b class="red">falso negativo</b>.</p>
+      </div>
+
+      <div class="box"><span class="box-title t-c">③ &#9999; ESPECIFICIDAD</span>
+        <div class="key">E = VN / (VN + FP)</div>
+        <p>Probabilidad de que un <b class="red">SANO</b> dé <b class="red">NEGATIVO</b>.</p>
+        <p>Se lee en la <b class="red">columna de los sanos</b>; el enemigo de la E es el <b class="red">falso positivo</b>.</p>
+      </div>
+
+      <div class="box"><span class="box-title t-d">④ &#9999; QUÉ PRUEBA PIDO</span>
+        <table><tr><th>Objetivo</th><th>Prueba</th></tr>
+        <tr><td><b class="red">TAMIZAR / descartar</b></td><td><b class="red">Alta SENSIBILIDAD</b></td></tr>
+        <tr><td><b class="red">CONFIRMAR</b></td><td><b class="red">Alta ESPECIFICIDAD</b></td></tr>
+        </table>
+      </div>
+
+
+      <div class="box"><span class="box-title t-a">⑤ &#9999; LA IMAGEN QUE LO FIJA</span>
+        <div class="anal"><span class="lbl">&#128161; ANALOGÍA:</span> <span>La prueba <b class="red">sensible</b> es una <b class="red">red de pesca de malla fina</b>: no deja escapar peces (pocos FN) pero arrastra basura. La <b class="red">específica</b> es el <b class="red">control de calidad</b>: lo que acepta, es pescado de verdad.</span></div>
+      </div>
+    </div>
+
+    <div class="col c2">
+      <div class="box"><span class="box-title t-e">⑥ &#9999; VALOR PREDICTIVO POSITIVO</span>
+        <div class="key">VPP = VP / (VP + FP)</div>
+        <p>Si la prueba salió <b class="red">POSITIVA</b>, probabilidad de <b class="red">estar realmente enfermo</b>.</p>
+      </div>
+
+      <div class="box"><span class="box-title t-a">⑦ &#9999; VALOR PREDICTIVO NEGATIVO</span>
+        <div class="key">VPN = VN / (VN + FN)</div>
+        <p>Si la prueba salió <b class="red">NEGATIVA</b>, probabilidad de <b class="red">estar realmente sano</b>.</p>
+      </div>
+
+      <div class="box"><span class="box-title t-b">⑧ &#9999; LA PREVALENCIA MANDA</span>
+        <table><tr><th>En esa población</th><th>VPP</th><th>VPN</th></tr>
+        <tr><td><b class="red">&uarr; Prevalencia</b></td><td><b class="red">&uarr; SUBE</b></td><td><b class="red">&darr; baja</b></td></tr>
+        <tr><td><b class="red">&darr; Prevalencia</b></td><td><b class="red">&darr; baja</b></td><td><b class="red">&uarr; SUBE</b></td></tr>
+        </table>
+        <p>Los <b class="red">valores predictivos dependen de la prevalencia</b>; <b class="red">S y E NO</b>.</p>
+        <p>También: <b class="red">&uarr; especificidad &rarr; &uarr; VPP</b> (menos FP); &darr; especificidad &rarr; &darr; VPP.</p>
+      </div>
+
+
+      <div class="box"><span class="box-title t-d">⑨ &#9999; EL PUNTO DE CORTE: TODO ES CANJE</span>
+        <table><tr><th>Si muevo el umbral...</th><th>Pasa</th></tr>
+        <tr><td><b class="red">Lo bajo</b> (más fácil ser positivo)</td><td><b class="red">&uarr; S</b> y <b class="red">&darr; E</b>; más FP</td></tr>
+        <tr><td><b class="red">Lo subo</b> (más exigente)</td><td><b class="red">&uarr; E</b> y <b class="red">&darr; S</b>; más FN</td></tr>
+        </table>
+        <p>No existe prueba con <b class="red">S y E 100%</b> a la vez: por eso se tamiza y luego se confirma.</p>
+      </div>
+
+      <div class="box"><span class="box-title t-e">⑩ &#9999; TRAMPA DEL CURSO</span>
+        <div class="src"><span class="lbl">&#9881; TRAMPA DE FUENTE:</span> <span>Tu material titula "pruebas que <b class="red">se relacionan con la prevalencia</b>" y mete ahí todo. Precisión: <b class="red">solo VPP y VPN</b> se mueven con la prevalencia; <b class="red">S y E no</b>.</span></div>
+      </div>
+    </div>
+
+    <div class="col c3">
+      <div class="box"><span class="box-title t-d">⑪ &#9999; CÁLCULO ENTRENADO</span>
+        <p>De <b class="red">1 000</b> personas, <b class="red">100 enfermas</b>. La prueba da <b class="red">90 VP</b>, <b class="red">10 FN</b>, <b class="red">180 FP</b> y <b class="red">720 VN</b>.</p>
+        <table><tr><th>Medida</th><th>Cuenta</th><th>Resultado</th></tr>
+        <tr><td>S</td><td>90/(90+10)</td><td><b class="red">90%</b></td></tr>
+        <tr><td>E</td><td>720/(720+180)</td><td><b class="red">80%</b></td></tr>
+        <tr><td>VPP</td><td>90/(90+180)</td><td><b class="red">33%</b></td></tr>
+        <tr><td>VPN</td><td>720/(720+10)</td><td><b class="red">98,6%</b></td></tr>
+        </table>
+      </div>
+
+      <div class="box"><span class="box-title t-e">⑫ &#9999; EL ERROR DE DIRECCIÓN</span>
+        <div class="fail"><span class="lbl">&#9670; EL DATO QUE MÁS SE FALLA:</span> <span>"De los que tienen la enfermedad, cuántos salen positivos" = <b class="red">SENSIBILIDAD</b>. "De los que salieron positivos, cuántos están enfermos" = <b class="red">VPP</b>. Mismo numerador (VP), <b class="red">denominador distinto</b>: lee si el enunciado parte del <b class="red">enfermo</b> o del <b class="red">resultado</b>.</span></div>
+      </div>
+
+      <div class="box"><span class="box-title t-a">⑬ &#9999; CASO ENIM (resuelto)</span>
+        <p>En una campaña en zona de <b class="red">baja prevalencia</b> se aplica una prueba rápida con <b class="red">S 95% y E 90%</b>. Una paciente asintomática sale <b class="red">POSITIVA</b> y pregunta si está enferma.</p>
+        <p>Con prevalencia baja, la mayoría de positivos son <b class="red">falsos positivos</b> &rarr; <b class="red">VPP bajo</b> aunque S y E sean buenas.</p>
+        <p><b>Conducta:</b> <b class="red">confirmar con una prueba de alta especificidad</b>; no iniciar tratamiento con el tamizaje.</p>
+      </div>
+
+      <div class="box"><span class="box-title t-c">⑭ &#9999; MINI-DRILL: NOMBRA LA MEDIDA</span>
+        <table><tr><th>Enunciado del examen</th><th>Medida</th></tr>
+        <tr><td>"De 100 enfermos, la prueba detectó 92"</td><td><b class="red">S = 92%</b></td></tr>
+        <tr><td>"De 100 sanos, 5 salieron positivos"</td><td><b class="red">E = 95%</b></td></tr>
+        <tr><td>"De 50 positivos, 40 tenían la enfermedad"</td><td><b class="red">VPP = 80%</b></td></tr>
+        <tr><td>"De 200 negativos, 198 estaban sanos"</td><td><b class="red">VPN = 99%</b></td></tr>
+        </table>
+      </div>
+    </div>
+  </div>
+
+  <div class="footer-bar"><span class="jury">&#127919; Frase para el jurado:</span><p>"La sensibilidad es la probabilidad de que un enfermo resulte positivo y la especificidad, la de que un sano resulte negativo; ambas son propiedades de la prueba y no cambian con la prevalencia. Los valores predictivos sí dependen de la prevalencia: cuando ésta aumenta, el valor predictivo positivo sube y el negativo baja. Por eso se tamiza con pruebas sensibles y se confirma con pruebas específicas."</p></div>
+</div>
+
+<div class="card card2">
+  <div class="header">
+    <div class="badge">2</div>
+    <div class="htxt">
+      <h1>PRUEBAS DX II — TAMIZAJE Y DECISIÓN</h1>
+      <div class="lead">Sensible Negativa DESCARTA &middot; Específica Positiva CONFIRMA &middot; Mismo test, otra prevalencia = otro VPP</div>
+    </div>
+    <div class="seal">E P I<span class="sm">Tarjeta 2/2 &middot; Epi 5 &middot; 12</span></div>
+  </div>
+
+  <div class="grid">
+    <div class="col c1">
+      <div class="box"><span class="box-title t-a">① &#9999; LAS DOS REGLAS QUE DECIDEN</span>
+        <div class="key amber">&#9834; "SENSIBLE NEGATIVA, DESCARTA"<br>"ESPECÍFICA POSITIVA, CONFIRMA"</div>
+        <table><tr><th>Prueba</th><th>Resultado útil</th></tr>
+        <tr><td><b class="red">Muy SENSIBLE</b></td><td>Si sale <b class="red">NEGATIVA &rarr; descarta</b> (casi no deja FN)</td></tr>
+        <tr><td><b class="red">Muy ESPECÍFICA</b></td><td>Si sale <b class="red">POSITIVA &rarr; confirma</b> (casi no deja FP)</td></tr>
+        </table>
+      </div>
+
+      <div class="box"><span class="box-title t-b">② &#9999; LA SECUENCIA DEL TAMIZAJE</span>
+        <div class="vflow">
+          <div class="flow-step"><b>1.º TAMIZAJE: prueba SENSIBLE</b></div>
+          <div class="varrow">&#9660;</div>
+          <div class="flow-step warn"><b>Positivo = SOSPECHA, no diagnóstico</b></div>
+          <div class="varrow">&#9660;</div>
+          <div class="flow-step"><b>2.º CONFIRMACIÓN: prueba ESPECÍFICA</b></div>
+        </div>
+        <p>Un tamizaje positivo <b class="red">nunca</b> cierra el diagnóstico.</p>
+      </div>
+
+      <div class="box"><span class="box-title t-c">③ &#9999; QUÉ CUESTA CADA ERROR</span>
+        <table><tr><th>Error</th><th>Consecuencia</th></tr>
+        <tr><td><b class="red">Falso NEGATIVO</b></td><td>Enfermo que <b class="red">se va sin tratamiento</b> y sigue contagiando</td></tr>
+        <tr><td><b class="red">Falso POSITIVO</b></td><td><b class="red">Angustia, estudios y tratamientos innecesarios</b></td></tr>
+        </table>
+      </div>
+
+      <div class="box"><span class="box-title t-d">④ &#9999; CÓMO ELEGIR EN LA SALA</span>
+        <table><tr><th>Escenario</th><th>Qué prefiero</th></tr>
+        <tr><td>Enfermedad <b class="red">grave y tratable</b>, no quiero perder casos</td><td><b class="red">Alta S</b> (acepto FP)</td></tr>
+        <tr><td>El tratamiento es <b class="red">tóxico o mutilante</b></td><td><b class="red">Alta E</b> (no puedo tratar sanos)</td></tr>
+        <tr><td>Enfermedad <b class="red">transmisible</b> en campaña</td><td><b class="red">Alta S</b> y confirmar después</td></tr>
+        </table>
+      </div>
+    </div>
+
+    <div class="col c2">
+      <div class="box"><span class="box-title t-e">⑤ &#9999; MISMO TEST, DOS POBLACIONES</span>
+        <p>Prueba con <b class="red">S 90% y E 90%</b> en 1 000 personas:</p>
+        <table><tr><th>Prevalencia</th><th>VP</th><th>FP</th><th>VPP</th></tr>
+        <tr><td><b class="red">50%</b> (clínica de referencia)</td><td>450</td><td>50</td><td><b class="red">90%</b></td></tr>
+        <tr><td><b class="red">1%</b> (población general)</td><td>9</td><td>99</td><td><b class="red">8,3%</b></td></tr>
+        </table>
+        <p>La prueba no cambió: cambió <b class="red">a quién se la aplicas</b>.</p>
+      </div>
+
+      <div class="box"><span class="box-title t-a">⑥ &#9999; QUÉ CAMBIA Y QUÉ NO</span>
+        <table><tr><th>Parámetro</th><th>¿Depende de la prevalencia?</th></tr>
+        <tr><td><b class="red">S y E</b></td><td><b class="red">NO</b> (son de la prueba)</td></tr>
+        <tr><td><b class="red">VPP y VPN</b></td><td><b class="red">SÍ</b></td></tr>
+        </table>
+        <div class="pearl"><span class="lbl">&#128153; PERLA:</span> <span>Si el enunciado <b class="red">cambia de escenario</b> (hospital &rarr; comunidad) y pregunta qué pasa con la prueba, la respuesta casi siempre es <b class="red">"cambia el VPP"</b>.</span></div>
+      </div>
+
+      <div class="box"><span class="box-title t-b">⑦ &#9999; EJEMPLOS QUE CAEN</span>
+        <table><tr><th>Tamizaje (sensible)</th><th>Confirmación (específica)</th></tr>
+        <tr><td><b class="red">ELISA para VIH</b></td><td><b class="red">Prueba confirmatoria / carga viral</b></td></tr>
+        <tr><td><b class="red">PAP</b></td><td><b class="red">Colposcopia + biopsia</b></td></tr>
+        <tr><td>Glucemia en ayunas</td><td><b class="red">PTOG / HbA1c confirmatoria</b></td></tr>
+        </table>
+      </div>
+
+      <div class="box"><span class="box-title t-c">⑧ &#9999; CÁLCULO ENTRENADO (VPN)</span>
+        <p>Prueba aplicada a 500 personas: <b class="red">VP 45, FN 5, FP 50, VN 400</b>.</p>
+        <table><tr><th>Medida</th><th>Cuenta</th><th>Resultado</th></tr>
+        <tr><td>S</td><td>45/50</td><td><b class="red">90%</b></td></tr>
+        <tr><td>VPN</td><td>400/(400+5)</td><td><b class="red">98,8%</b> &rarr; un negativo <b class="red">tranquiliza</b></td></tr>
+        <tr><td>VPP</td><td>45/(45+50)</td><td><b class="red">47,4%</b> &rarr; un positivo <b class="red">obliga a confirmar</b></td></tr>
+        </table>
+      </div>
+    </div>
+
+    <div class="col c3">
+      <div class="box"><span class="box-title t-d">⑨ &#9999; EL GOLD STANDARD</span>
+        <p>Es la prueba de <b class="red">referencia</b> que define quién está realmente enfermo: <b class="red">S y E se calculan SIEMPRE contra ella</b>.</p>
+        <p>Si el gold standard es malo, la S y la E calculadas <b class="red">no valen</b>.</p>
+      </div>
+
+      <div class="box"><span class="box-title t-e">⑩ &#9999; CÓMO ATACAR LA PREGUNTA</span>
+        <ol>
+          <li>Dibuja la <b class="red">2×2</b> con los números del enunciado.</li>
+          <li>Pregúntate: ¿parte del <b class="red">enfermo/sano</b> (columna) o del <b class="red">resultado</b> (fila)?</li>
+          <li>Columna &rarr; <b class="red">S o E</b>. Fila &rarr; <b class="red">VPP o VPN</b>.</li>
+        </ol>
+      </div>
+
+      <div class="box"><span class="box-title t-a">⑪ &#9999; EL DISTRACTOR DE SIEMPRE</span>
+        <div class="fail"><span class="lbl">&#9670; EL DATO QUE MÁS SE FALLA:</span> <span>Cuando el caso dice "prueba <b class="red">muy sensible</b> con resultado <b class="red">negativo</b>", la conducta es <b class="red">descartar y buscar otro diagnóstico</b>, no repetir la misma prueba ni pasar a la confirmatoria.</span></div>
+      </div>
+
+      <div class="box"><span class="box-title t-b">⑫ &#9999; CASO ENIM (resuelto)</span>
+        <p>Gestante en control: la prueba rápida de sífilis sale <b class="red">POSITIVA</b> en una zona de <b class="red">prevalencia muy baja</b>. Está asintomática.</p>
+        <p>Positivo de tamizaje con prevalencia baja &rarr; <b class="red">VPP bajo</b>: lo correcto es <b class="red">confirmar</b>.</p>
+        <p><b>Pero ojo:</b> en gestante el <b class="red">beneficio de tratar supera el daño del FP</b>, así que el tratamiento <b class="red">se inicia igual</b> mientras llega la confirmación.</p>
+      </div>
+
+      <div class="box"><span class="box-title t-c">⑬ &#9999; LA IMAGEN QUE LO FIJA</span>
+        <div class="anal"><span class="lbl">&#128161; ANALOGÍA:</span> <span>Tamizar en población sana es <b class="red">buscar una aguja en un pajar</b>: aunque el detector sea bueno, casi todo lo que suene será <b class="red">paja (FP)</b>. En el hospital, el pajar ya está lleno de agujas &rarr; el mismo detector acierta mucho más.</span></div>
+      </div>
+    </div>
+  </div>
+
+  <div class="footer-bar"><span class="jury">&#127919; Frase para el jurado:</span><p>"El tamizaje exige una prueba sensible, porque un resultado negativo en una prueba muy sensible permite descartar; la confirmación exige una prueba específica, porque un positivo en una prueba muy específica confirma. Un tamizaje positivo nunca es diagnóstico, y en poblaciones de baja prevalencia la mayoría de los positivos serán falsos positivos, de modo que el valor predictivo positivo cae aunque la sensibilidad y la especificidad no cambien."</p></div>
+</div>
+
+</body></html>

@@ -1,0 +1,230 @@
+<!doctype html><html><head><meta charset="utf-8"><link rel="stylesheet" href="sp.css"></head><body>
+
+<div class="card card1">
+  <div class="header">
+    <div class="badge">3</div>
+    <div class="htxt">
+      <h1>RIESGO RELATIVO Y ODDS RATIO</h1>
+      <div class="lead">Cohorte → RR · Casos y controles → OR · &gt;1 riesgo, =1 indiferente, &lt;1 protector</div>
+    </div>
+    <div class="seal">S A L U D<span class="sm">Tarjeta 1/2 · Epi 11 · Estad 1</span></div>
+  </div>
+
+  <div class="grid">
+    <div class="col c1">
+      <div class="box"><span class="box-title t-a">① ✏ QUÉ MIDEN</span>
+        <p>Las medidas de asociación comparan la <b class="red">frecuencia de enfermedad entre expuestos y no expuestos</b>: dicen <b class="red">cuántas VECES más</b> enferma el expuesto.</p>
+        <div class="key">LA PREGUNTA ES "¿CUÁNTAS VECES MÁS?"<br>NO "¿CUÁNTOS CASOS MÁS?"</div>
+      </div>
+
+      <div class="box"><span class="box-title t-b">② ✏ LA TABLA DE 2 × 2</span>
+        <table><tr><th></th><th>Enfermos</th><th>Sanos</th></tr>
+        <tr><td><b class="red">Expuesto (+)</b></td><td><b class="red">a</b></td><td><b class="red">b</b></td></tr>
+        <tr><td><b class="red">No expuesto (−)</b></td><td><b class="red">c</b></td><td><b class="red">d</b></td></tr>
+        </table>
+        <p><b class="red">Expuestos en las filas</b> y <b class="red">enfermos en la primera columna</b>: si se voltea la tabla, el resultado cambia.</p>
+      </div>
+
+      <div class="box"><span class="box-title t-c">③ ✏ RIESGO RELATIVO (RR)</span>
+        <table><tr><th>Dato</th><th>Clave</th></tr>
+        <tr><td><b class="red">Estudio</b></td><td><b class="red">COHORTE</b> y ensayo clínico (longitudinales)</td></tr>
+        <tr><td><b class="red">Mide</b></td><td><b class="red">INCIDENCIA</b>: casos nuevos</td></tr>
+        <tr><td><b class="red">Fórmula</b></td><td><b class="red">Ie / Io</b> = [a/(a+b)] ÷ [c/(c+d)]</td></tr>
+        </table>
+        <p>Solo se calcula cuando <b class="red">se sigue en el tiempo</b> a sanos expuestos y no expuestos.</p>
+      </div>
+
+      <div class="box"><span class="box-title t-d">④ ✏ ODDS RATIO (OR)</span>
+        <table><tr><th>Dato</th><th>Clave</th></tr>
+        <tr><td><b class="red">Estudio</b></td><td><b class="red">CASOS Y CONTROLES</b> y transversales</td></tr>
+        <tr><td><b class="red">Mide</b></td><td>Prevalencia / casos <b class="red">ya ocurridos</b></td></tr>
+        <tr><td><b class="red">Fórmula</b></td><td><b class="red">(a × d) / (b × c)</b>: productos cruzados</td></tr>
+        </table>
+        <div class="pearl"><span class="lbl">💙 PERLA:</span> <span><b class="red">Odds Ratio = "Oh, Retrospectivo"</b>: si el estudio parte del enfermo hacia atrás, es OR.</span></div>
+      </div>
+    </div>
+
+    <div class="col c2">
+      <div class="box"><span class="box-title t-e">⑤ ✏ CÓMO SE INTERPRETA EL NÚMERO</span>
+        <table><tr><th>Valor</th><th>Significado</th></tr>
+        <tr><td><b class="red">&gt; 1</b></td><td><b class="red">FACTOR DE RIESGO</b></td></tr>
+        <tr><td><b class="red">= 1</b></td><td><b class="red">INDIFERENTE</b>: no hay asociación</td></tr>
+        <tr><td><b class="red">&lt; 1</b></td><td><b class="red">FACTOR PROTECTOR</b></td></tr>
+        </table>
+        <p><b class="red">RR = 3</b>: el expuesto tiene <b class="red">3 veces el riesgo</b> del no expuesto, es decir <b class="red">200% más</b>.</p>
+      </div>
+
+      <div class="box"><span class="box-title t-a">⑥ ✏ EL INTERVALO DE CONFIANZA MANDA</span>
+        <div class="key">SI EL IC 95% CONTIENE AL 1,<br>EL RESULTADO NO ES SIGNIFICATIVO</div>
+        <table><tr><th>Resultado</th><th>Lectura</th></tr>
+        <tr><td>RR 2,4 (IC 1,8–3,1)</td><td><b class="red">Riesgo significativo</b></td></tr>
+        <tr><td>RR 2,4 (<b class="red">IC 0,8–4,0</b>)</td><td><b class="red">NO significativo</b>: cruza el 1</td></tr>
+        </table>
+        <div class="fail"><span class="lbl">◆ EL DATO QUE MÁS SE FALLA:</span> <span>Un RR alto <b class="red">con IC que cruza el 1 no vale</b>: la respuesta es "no hay asociación estadísticamente significativa".</span></div>
+      </div>
+
+      <div class="box"><span class="box-title t-b">⑦ ✏ CUÁNDO EL OR IMITA AL RR</span>
+        <p>En enfermedades <b class="red">raras (&lt; 10% de prevalencia)</b> el OR <b class="red">se aproxima al RR</b> y puede leerse igual.</p>
+        <div class="trap"><span class="lbl">⚠️ TRAMPA:</span> <span>En enfermedad <b class="red">frecuente el OR EXAGERA</b> la asociación: no decir "tres veces más riesgo" cuando el estudio es de casos y controles, sino "<b class="red">tres veces más probabilidad de exposición</b>".</span></div>
+      </div>
+
+      <div class="box"><span class="box-title t-c">⑧ ✏ CÓMO ARMAR LA 2 × 2 EN EL EXAMEN</span>
+        <ol>
+          <li>Ver el <b class="red">diseño</b>: ¿partió de sanos o de enfermos?</li>
+          <li><b class="red">Expuestos arriba</b>, <b class="red">enfermos a la izquierda</b>.</li>
+          <li>Cohorte: <b class="red">dividir cada fila</b> entre su total → RR. Casos-controles: <b class="red">multiplicar en cruz</b> → OR.</li>
+        </ol>
+      </div>
+
+    </div>
+
+    <div class="col c3">
+      <div class="box"><span class="box-title t-d">⑨ ✏ EJEMPLO RESUELTO DE OR</span>
+        <p>Casos y controles de cáncer de pulmón: <b class="red">90 casos fumaban</b> y 10 no; <b class="red">30 controles fumaban</b> y 70 no.</p>
+        <table><tr><th></th><th>Casos</th><th>Controles</th></tr>
+        <tr><td>Fuma</td><td><b class="red">a = 90</b></td><td><b class="red">b = 30</b></td></tr>
+        <tr><td>No fuma</td><td><b class="red">c = 10</b></td><td><b class="red">d = 70</b></td></tr>
+        </table>
+        <p><b class="red">OR = (90 × 70) / (30 × 10) = 21</b>. Los casos tienen <b class="red">21 veces más probabilidad de haber fumado</b>.</p>
+      </div>
+
+      <div class="box"><span class="box-title t-c">⑩ ✏ EJEMPLO RESUELTO DE RR</span>
+        <p>Cohorte: de <b class="red">200 expuestos enferman 40</b>; de <b class="red">400 no expuestos enferman 20</b>.</p>
+        <table><tr><th>Grupo</th><th>Incidencia</th></tr>
+        <tr><td>Expuestos</td><td>40/200 = <b class="red">0,20</b></td></tr>
+        <tr><td>No expuestos</td><td>20/400 = <b class="red">0,05</b></td></tr>
+        </table>
+        <p><b class="red">RR = 0,20 / 0,05 = 4</b> → factor de riesgo.</p>
+      </div>
+
+      <div class="box"><span class="box-title t-a">⑪ ✏ QUÉ MEDIDA VA CON QUÉ ESTUDIO</span>
+        <table><tr><th>Diseño</th><th>Medida</th></tr>
+        <tr><td><b class="red">Cohorte / ECA</b></td><td><b class="red">RR</b> (y RAR, NNT)</td></tr>
+        <tr><td><b class="red">Casos y controles</b></td><td><b class="red">OR</b></td></tr>
+        <tr><td><b class="red">Transversal</b></td><td><b class="red">Razón de prevalencias u OR</b></td></tr>
+        <tr><td>Ecológico</td><td><b class="red">Ninguna individual</b>: solo correlación</td></tr>
+        </table>
+      </div>
+
+      <div class="box"><span class="box-title t-e">⑫ ✏ CASO ENIM (resuelto)</span>
+        <p>Estudio que parte de <b class="red">120 pacientes con ACV</b> y 240 sin ACV y pregunta por el <b class="red">antecedente</b> de hipertensión.</p>
+        <p>Parte del <b class="red">efecto hacia la exposición</b> → es de <b class="red">casos y controles</b>.</p>
+        <p><b>Conducta:</b> la medida correcta es el <b class="red">OR</b>; pedir RR aquí es un error porque <b class="red">no se puede calcular incidencia</b>.</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="footer-bar"><span class="jury">🎯 Frase para el jurado:</span><p>"El riesgo relativo es el cociente de incidencias entre expuestos y no expuestos, se calcula en cohortes y ensayos clínicos, y el odds ratio es el cociente de productos cruzados, propio de los estudios de casos y controles, donde no se puede medir incidencia. Por encima de uno hablamos de factor de riesgo, igual a uno de indiferencia y por debajo de uno de factor protector, siempre que el intervalo de confianza del noventa y cinco por ciento no contenga la unidad."</p></div>
+</div>
+
+<div class="card card2">
+  <div class="header">
+    <div class="badge">4</div>
+    <div class="htxt">
+      <h1>MEDIDAS DE IMPACTO: RA, RAP Y NNT</h1>
+      <div class="lead">Riesgo &gt;1 → RA y RAP · Protector &lt;1 → RAR y NNT · El % responde "cuánto se evitaría"</div>
+    </div>
+    <div class="seal">S A L U D<span class="sm">Tarjeta 2/2 · Epi 11 · Estad 1</span></div>
+  </div>
+
+  <div class="grid">
+    <div class="col c1">
+      <div class="box"><span class="box-title t-a">① ✏ LA BIFURCACIÓN QUE ORDENA TODO</span>
+        <table><tr><th>Si el factor...</th><th>Se calcula</th></tr>
+        <tr><td><b class="red">AUMENTA el riesgo (RR &gt; 1)</b></td><td><b class="red">RA · RAP · RA% · RAP%</b></td></tr>
+        <tr><td><b class="red">PROTEGE (RR &lt; 1)</b></td><td><b class="red">RAR y NNT</b></td></tr>
+        </table>
+        <div class="key">ASOCIACIÓN = ¿CUÁNTAS VECES MÁS?<br>IMPACTO = ¿CUÁNTO SE EVITARÍA?</div>
+      </div>
+
+      <div class="box"><span class="box-title t-b">② ✏ RIESGO ATRIBUIBLE (RA)</span>
+        <table><tr><th>Dato</th><th>Clave</th></tr>
+        <tr><td><b class="red">Fórmula</b></td><td><b class="red">Ie − Io</b> (incidencia en expuestos menos en no expuestos)</td></tr>
+        <tr><td><b class="red">Qué es</b></td><td>El <b class="red">riesgo ADICIONAL</b> que da la exposición</td></tr>
+        <tr><td>Unidad</td><td><b class="red">Casos por cada 100 000 hab</b>, no "veces"</td></tr>
+        </table>
+        <p>ACV: fumadores <b class="red">49,6</b> y no fumadores <b class="red">17,7</b> × 100 000 → <b class="red">RA = 31,9</b>.</p>
+      </div>
+
+      <div class="box"><span class="box-title t-c">③ ✏ LA TRAMPA DEL MATERIAL</span>
+        <div class="src"><span class="lbl">⚑ TRAMPA DE FUENTE:</span> <span>La diapositiva lee <b class="red">"RA = 31,9 → 31,9 veces más riesgo"</b>. Es <b class="red">INCORRECTO</b>: "veces" es el RR. El RA se lee <b class="red">"31,9 casos adicionales por 100 000 habitantes atribuibles a fumar"</b>.</span></div>
+      </div>
+
+      <div class="box"><span class="box-title t-d">④ ✏ RIESGO ATRIBUIBLE POBLACIONAL</span>
+        <table><tr><th>Dato</th><th>Clave</th></tr>
+        <tr><td><b class="red">Fórmula</b></td><td><b class="red">Ip − Io</b> (población total menos no expuestos)</td></tr>
+        <tr><td>Qué responde</td><td>Cuántos casos <b class="red">de TODA la población</b> se deben al factor</td></tr>
+        </table>
+        <p>30,2 − 17,7 = <b class="red">RAP 12,5 × 100 000 hab</b>.</p>
+      </div>
+    </div>
+
+    <div class="col c2">
+      <div class="box"><span class="box-title t-e">⑤ ✏ LAS FRACCIONES PORCENTUALES</span>
+        <table><tr><th>Medida</th><th>Fórmula</th><th>Lee</th></tr>
+        <tr><td><b class="red">RA% (FER)</b></td><td><b class="red">RA / Ie</b></td><td>% de casos <b class="red">en los expuestos</b> debidos al factor</td></tr>
+        <tr><td><b class="red">RAP% (FEP)</b></td><td><b class="red">RAP / Ip</b></td><td>% de casos <b class="red">en la población</b> debidos al factor</td></tr>
+        </table>
+        <p>FER = 31,9/49,6 = <b class="red">64,3%</b>: eliminar el tabaco evitaría <b class="red">64,3% de los ACV de los fumadores</b>.</p>
+        <p>FEP = 12,5/30,2 = <b class="red">41,4%</b>: evitaría el <b class="red">41,4% de los ACV poblacionales</b>.</p>
+      </div>
+
+      <div class="box"><span class="box-title t-a">⑥ ✏ CUÁL PIDE LA PREGUNTA</span>
+        <table><tr><th>Si preguntan…</th><th>Responder</th></tr>
+        <tr><td>"¿Cuántas veces más?"</td><td><b class="red">RR u OR</b></td></tr>
+        <tr><td>"¿Cuántos casos de más?"</td><td><b class="red">RA</b></td></tr>
+        <tr><td>"¿Qué % se evitaría en los expuestos?"</td><td><b class="red">RA% (FER)</b></td></tr>
+        <tr><td>"¿Qué % se evitaría en la población?"</td><td><b class="red">RAP% (FEP)</b></td></tr>
+        <tr><td>"¿A cuántos tratar?"</td><td><b class="red">NNT</b></td></tr>
+        </table>
+      </div>
+
+      <div class="box"><span class="box-title t-b">⑦ ✏ LO QUE DECIDE EL RAP</span>
+        <p>El RAP depende de <b class="red">la fuerza del factor Y de cuánta gente está expuesta</b>.</p>
+        <div class="fail"><span class="lbl">◆ EL DATO QUE MÁS SE FALLA:</span> <span>Un factor <b class="red">débil pero muy prevalente</b> (sal, sedentarismo) puede tener <b class="red">MAYOR RAP</b> que uno fortísimo pero raro: por eso la <b class="red">salud pública prioriza por RAP</b>, no por RR.</span></div>
+      </div>
+
+      <div class="box"><span class="box-title t-c">⑧ ✏ TODAS LAS FÓRMULAS EN UN CUADRO</span>
+        <table><tr><th>Medida</th><th>Fórmula</th></tr>
+        <tr><td><b class="red">RR</b></td><td><b class="red">Ie / Io</b></td></tr>
+        <tr><td><b class="red">OR</b></td><td><b class="red">(a×d)/(b×c)</b></td></tr>
+        </table>
+      </div>
+
+    </div>
+
+    <div class="col c3">
+      <div class="box"><span class="box-title t-d">⑨ ✏ CUANDO EL FACTOR PROTEGE</span>
+        <table><tr><th>Medida</th><th>Fórmula</th></tr>
+        <tr><td><b class="red">RAR</b> (reducción absoluta)</td><td><b class="red">Io − Ie</b> = control menos tratados</td></tr>
+        <tr><td><b class="red">RRR</b> (reducción relativa)</td><td><b class="red">RAR / Io</b></td></tr>
+        <tr><td><b class="red">NNT</b></td><td><b class="red">1 / RAR</b></td></tr>
+        </table>
+        <p><b class="red">NNT</b> = a cuántas personas hay que tratar para <b class="red">evitar UN caso</b>.</p>
+      </div>
+
+      <div class="box"><span class="box-title t-c">⑩ ✏ NNT: EJEMPLO RESUELTO</span>
+        <p>Mortalidad: <b class="red">control 10%</b>, <b class="red">tratados 6%</b>.</p>
+        <table><tr><th>Paso</th><th>Resultado</th></tr>
+        <tr><td>RAR</td><td>0,10 − 0,06 = <b class="red">0,04 (4%)</b></td></tr>
+        <tr><td>RRR</td><td>0,04 / 0,10 = <b class="red">40%</b></td></tr>
+        <tr><td><b class="red">NNT</b></td><td>1 / 0,04 = <b class="red">25 pacientes</b></td></tr>
+        </table>
+        <div class="pearl"><span class="lbl">💙 PERLA:</span> <span><b class="red">NNT bajo = tratamiento potente.</b> Su espejo dañino es el <b class="red">NNH</b> (número necesario para dañar), que conviene <b class="red">alto</b>.</span></div>
+      </div>
+
+      <div class="box"><span class="box-title t-a">⑪ ✏ EL TRUCO DEL PORCENTAJE ENGAÑOSO</span>
+        <div class="trap"><span class="lbl">⚠️ TRAMPA:</span> <span>"Reduce el riesgo <b class="red">40%</b>" suena enorme, pero es la <b class="red">reducción RELATIVA</b>; en absoluto solo bajó <b class="red">de 10% a 6%</b>. Siempre <b class="red">exigir la RAR</b>.</span></div>
+      </div>
+
+      <div class="box"><span class="box-title t-e">⑫ ✏ CASO ENIM (resuelto)</span>
+        <p>Cohorte de trabajadores mineros: incidencia de neumoconiosis <b class="red">80 × 1000 en expuestos a polvo</b> y <b class="red">20 × 1000 en no expuestos</b>; en toda la población minera, <b class="red">50 × 1000</b>.</p>
+        <p><b>Conducta:</b> <b class="red">RR = 4</b> (riesgo), <b class="red">RA = 60 × 1000</b> casos atribuibles en los expuestos y <b class="red">RAP = 30 × 1000</b>; el <b class="red">FER = 60/80 = 75%</b> de los casos de los expuestos se evitarían <b class="red">controlando el polvo</b>.</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="footer-bar"><span class="jury">🎯 Frase para el jurado:</span><p>"Las medidas de impacto responden cuánta enfermedad se evitaría. El riesgo atribuible es la incidencia en expuestos menos la incidencia en no expuestos y se expresa en casos por cada cien mil habitantes, nunca en veces. La fracción etiológica en expuestos es el riesgo atribuible entre la incidencia en expuestos, y la poblacional usa la incidencia de toda la población. Cuando el factor protege se usan la reducción absoluta del riesgo y el número necesario a tratar, que es uno sobre esa reducción."</p></div>
+</div>
+
+</body></html>

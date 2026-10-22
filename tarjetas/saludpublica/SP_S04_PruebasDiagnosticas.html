@@ -1,0 +1,237 @@
+<!doctype html><html><head><meta charset="utf-8"><link rel="stylesheet" href="sp.css"></head><body>
+
+<div class="card card1">
+  <div class="header">
+    <div class="badge">7</div>
+    <div class="htxt">
+      <h1>SENSIBILIDAD, ESPECIFICIDAD Y VALORES PREDICTIVOS</h1>
+      <div class="lead">S y E no cambian con la prevalencia · VPP y VPN sí · Tamizar con S, confirmar con E</div>
+    </div>
+    <div class="seal">S A L U D<span class="sm">Tarjeta 1/2 · Epi 5 · 12</span></div>
+  </div>
+
+  <div class="grid">
+    <div class="col c1">
+      <div class="box"><span class="box-title t-a">① ✏ LA TABLA CONTRA EL GOLD ESTÁNDAR</span>
+        <table><tr><th>Prueba</th><th>Enfermo</th><th>Sano</th></tr>
+        <tr><td><b class="red">POSITIVA</b></td><td><b class="red">VP</b></td><td><b class="red">FP</b></td></tr>
+        <tr><td><b class="red">NEGATIVA</b></td><td><b class="red">FN</b></td><td><b class="red">VN</b></td></tr>
+        </table>
+        <p><b class="red">Columnas = verdad</b> (gold estándar); <b class="red">filas = lo que dijo la prueba</b>.</p>
+        <p><b class="red">S y E se leen en COLUMNA; VPP y VPN en FILA.</b></p>
+      </div>
+
+      <div class="box"><span class="box-title t-b">② ✏ SENSIBILIDAD</span>
+        <table><tr><th>Dato</th><th>Clave</th></tr>
+        <tr><td>Definición</td><td>Probabilidad de que un <b class="red">ENFERMO salga POSITIVO</b></td></tr>
+        <tr><td><b class="red">Fórmula</b></td><td><b class="red">VP / (VP + FN)</b></td></tr>
+        <tr><td>Columna</td><td>La de los <b class="red">enfermos</b></td></tr>
+        </table>
+        <p>Una prueba sensible <b class="red">detecta a casi todos los enfermos</b>: deja pocos falsos negativos.</p>
+      </div>
+
+      <div class="box"><span class="box-title t-c">③ ✏ ESPECIFICIDAD</span>
+        <table><tr><th>Dato</th><th>Clave</th></tr>
+        <tr><td>Definición</td><td>Probabilidad de que un <b class="red">SANO salga NEGATIVO</b></td></tr>
+        <tr><td><b class="red">Fórmula</b></td><td><b class="red">VN / (VN + FP)</b></td></tr>
+        <tr><td>Columna</td><td>La de los <b class="red">sanos</b></td></tr>
+        </table>
+        <p>Una prueba específica <b class="red">casi no se equivoca al decir "positivo"</b>: deja pocos falsos positivos.</p>
+      </div>
+
+      <div class="box"><span class="box-title t-d">④ ✏ EL TRUCO DE SIEMPRE</span>
+        <div class="key">SnNOUT: prueba SENSIBLE con<br>resultado NEGATIVO → DESCARTA</div>
+        <div class="key amber">SpPIN: prueba ESPECÍFICA con<br>resultado POSITIVO → CONFIRMA</div>
+      </div>
+    </div>
+
+    <div class="col c2">
+      <div class="box"><span class="box-title t-e">⑤ ✏ VALOR PREDICTIVO POSITIVO</span>
+        <table><tr><th>Dato</th><th>Clave</th></tr>
+        <tr><td>Definición</td><td>Si la prueba salió <b class="red">POSITIVA</b>, probabilidad de <b class="red">estar realmente enfermo</b></td></tr>
+        <tr><td><b class="red">Fórmula</b></td><td><b class="red">VP / (VP + FP)</b></td></tr>
+        <tr><td>Depende de</td><td><b class="red">LA PREVALENCIA</b> y de la especificidad</td></tr>
+        </table>
+      </div>
+
+      <div class="box"><span class="box-title t-a">⑥ ✏ VALOR PREDICTIVO NEGATIVO</span>
+        <table><tr><th>Dato</th><th>Clave</th></tr>
+        <tr><td>Definición</td><td>Si salió <b class="red">NEGATIVA</b>, probabilidad de <b class="red">estar realmente sano</b></td></tr>
+        <tr><td><b class="red">Fórmula</b></td><td><b class="red">VN / (VN + FN)</b></td></tr>
+        <tr><td>Depende de</td><td><b class="red">La prevalencia</b> (en sentido inverso)</td></tr>
+        </table>
+      </div>
+
+      <div class="box"><span class="box-title t-b">⑦ ✏ EL EFECTO DE LA PREVALENCIA</span>
+        <table><tr><th>Si la prevalencia…</th><th>VPP</th><th>VPN</th></tr>
+        <tr><td><b class="red">SUBE</b></td><td><b class="red">SUBE</b></td><td><b class="red">BAJA</b></td></tr>
+        <tr><td><b class="red">BAJA</b></td><td><b class="red">BAJA</b></td><td><b class="red">SUBE</b></td></tr>
+        </table>
+        <div class="fail"><span class="lbl">◆ EL DATO QUE MÁS SE FALLA:</span> <span><b class="red">S y E son propias de la prueba y NO cambian con la prevalencia</b>; los que cambian son <b class="red">VPP y VPN</b>. Es la pregunta clásica.</span></div>
+      </div>
+
+      <div class="box"><span class="box-title t-c">⑧ ✏ LO QUE SUBE EL VPP</span>
+        <ul>
+          <li><b class="red">Mayor prevalencia</b> (aplicar la prueba a población de riesgo).</li>
+          <li><b class="red">Mayor especificidad</b> del test.</li>
+        </ul>
+        <p>Por eso una prueba buena <b class="red">rinde mal en tamizaje poblacional</b>: con prevalencia baja, la mayoría de positivos son <b class="red">falsos positivos</b>.</p>
+      </div>
+    </div>
+
+    <div class="col c3">
+      <div class="box"><span class="box-title t-d">⑨ ✏ EJEMPLO RESUELTO</span>
+        <p>Prueba aplicada a <b class="red">1000 personas</b>; <b class="red">100 enfermos</b> reales.</p>
+        <table><tr><th>Prueba</th><th>Enfermo</th><th>Sano</th></tr>
+        <tr><td>Positiva</td><td><b class="red">VP 90</b></td><td><b class="red">FP 90</b></td></tr>
+        <tr><td>Negativa</td><td><b class="red">FN 10</b></td><td><b class="red">VN 810</b></td></tr>
+        </table>
+        <table><tr><th>Medida</th><th>Cálculo</th></tr>
+        <tr><td><b class="red">S</b></td><td>90/100 = <b class="red">90%</b></td></tr>
+        <tr><td><b class="red">E</b></td><td>810/900 = <b class="red">90%</b></td></tr>
+        <tr><td><b class="red">VPP</b></td><td>90/180 = <b class="red">50%</b></td></tr>
+        </table>
+      </div>
+
+      <div class="box"><span class="box-title t-c">⑩ ✏ TAMIZAR O CONFIRMAR</span>
+        <table><tr><th>Momento</th><th>Prueba</th></tr>
+        <tr><td><b class="red">TAMIZAJE (screening)</b></td><td><b class="red">ALTA SENSIBILIDAD</b></td></tr>
+        <tr><td><b class="red">CONFIRMACIÓN</b></td><td><b class="red">ALTA ESPECIFICIDAD</b></td></tr>
+        </table>
+      </div>
+
+      <div class="box"><span class="box-title t-a">⑪ ✏ EL COSTO DE CADA ERROR</span>
+        <table><tr><th>Error</th><th>Consecuencia</th></tr>
+        <tr><td><b class="red">Falso negativo</b></td><td>Enfermo que <b class="red">se va sin tratamiento</b> y sigue contagiando</td></tr>
+        <tr><td><b class="red">Falso positivo</b></td><td><b class="red">Angustia, estudios y tratamientos innecesarios</b></td></tr>
+        </table>
+        <div class="pearl"><span class="lbl">💙 PERLA:</span> <span>En enfermedad <b class="red">grave y tratable</b> (VIH, TB) se prioriza la <b class="red">sensibilidad</b>: es peor dejarla pasar.</span></div>
+      </div>
+
+      <div class="box"><span class="box-title t-e">⑫ ✏ CASO ENIM (resuelto)</span>
+        <p>Una prueba rápida con <b class="red">S 95% y E 98%</b> se aplica en una zona de <b class="red">prevalencia muy baja</b> y la mayoría de los positivos resultan sanos en la prueba confirmatoria.</p>
+        <p><b>Conducta:</b> la prueba <b class="red">no cambió</b>; lo que bajó es el <b class="red">VPP por la baja prevalencia</b>. Se mantiene la secuencia <b class="red">tamizaje + confirmación</b>, no se descarta la prueba.</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="footer-bar"><span class="jury">🎯 Frase para el jurado:</span><p>"La sensibilidad es la probabilidad de que un enfermo salga positivo y la especificidad la de que un sano salga negativo; ambas son propiedades de la prueba y no cambian con la prevalencia. El valor predictivo positivo es la probabilidad de estar enfermo cuando la prueba es positiva y sí depende de la prevalencia: sube cuando la prevalencia sube y cuando aumenta la especificidad. Por eso el tamizaje exige alta sensibilidad y la confirmación alta especificidad."</p></div>
+</div>
+
+<div class="card card2">
+  <div class="header">
+    <div class="badge">8</div>
+    <div class="htxt">
+      <h1>TAMIZAJE, PUNTO DE CORTE Y RAZONES DE VEROSIMILITUD</h1>
+      <div class="lead">Bajar el corte sube la S · ROC: cuanto más cerca de 1, mejor · LR+ &gt;10 confirma</div>
+    </div>
+    <div class="seal">S A L U D<span class="sm">Tarjeta 2/2 · Epi 5 · 12 · Estad 3</span></div>
+  </div>
+
+  <div class="grid">
+    <div class="col c1">
+      <div class="box"><span class="box-title t-a">① ✏ EL PUNTO DE CORTE MANDA</span>
+        <table><tr><th>Si el corte…</th><th>Pasa esto</th></tr>
+        <tr><td><b class="red">BAJA</b> (más fácil ser positivo)</td><td><b class="red">↑ Sensibilidad</b>, <b class="red">↓ especificidad</b>, más FP</td></tr>
+        <tr><td><b class="red">SUBE</b> (más exigente)</td><td><b class="red">↑ Especificidad</b>, <b class="red">↓ sensibilidad</b>, más FN</td></tr>
+        </table>
+        <div class="key">S Y E SE MUEVEN<br>EN SENTIDO CONTRARIO</div>
+      </div>
+
+      <div class="box"><span class="box-title t-b">② ✏ LA SECUENCIA DEL TAMIZAJE</span>
+        <div class="vflow">
+          <div class="flow-step">1. Prueba SENSIBLE a toda la población</div><span class="varrow">▼</span>
+          <div class="flow-step warn">2. Positivos → prueba ESPECÍFICA</div><span class="varrow">▼</span>
+          <div class="flow-step bad">3. Confirmados → tratamiento y seguimiento</div>
+        </div>
+        <p>El tamizaje <b class="red">no diagnostica</b>: selecciona a quién estudiar.</p>
+      </div>
+
+      <div class="box"><span class="box-title t-c">③ ✏ QUÉ MERECE SER TAMIZADO</span>
+        <ul>
+          <li>Enfermedad <b class="red">frecuente y grave</b>.</li>
+          <li>Con <b class="red">fase presintomática detectable</b>.</li>
+          <li>Con <b class="red">tratamiento eficaz</b> que mejore el pronóstico si se adelanta.</li>
+          <li>Prueba <b class="red">aceptable, barata y segura</b>.</li>
+        </ul>
+      </div>
+
+      <div class="box"><span class="box-title t-d">④ ✏ TAMIZAJES QUE PREGUNTAN</span>
+        <table><tr><th>Problema</th><th>Tamizaje</th></tr>
+        <tr><td><b class="red">Cáncer de cuello uterino</b></td><td><b class="red">PAP</b> (y prueba de VPH)</td></tr>
+        <tr><td><b class="red">Diabetes gestacional</b></td><td><b class="red">PTOG 24-28 ss</b></td></tr>
+        <tr><td><b class="red">TB</b></td><td><b class="red">Sintomático respiratorio</b> + baciloscopia</td></tr>
+        <tr><td>Anemia infantil</td><td><b class="red">Hemoglobina</b> (corregida por altura)</td></tr>
+        </table>
+      </div>
+    </div>
+
+    <div class="col c2">
+      <div class="box"><span class="box-title t-e">⑤ ✏ RAZONES DE VEROSIMILITUD (LR)</span>
+        <table><tr><th>Medida</th><th>Fórmula</th></tr>
+        <tr><td><b class="red">LR+</b></td><td><b class="red">S / (1 − E)</b></td></tr>
+        <tr><td><b class="red">LR−</b></td><td><b class="red">(1 − S) / E</b></td></tr>
+        </table>
+        <table><tr><th>Valor</th><th>Lectura</th></tr>
+        <tr><td><b class="red">LR+ &gt; 10</b></td><td><b class="red">Confirma</b> con fuerza</td></tr>
+        <tr><td><b class="red">LR− &lt; 0,1</b></td><td><b class="red">Descarta</b> con fuerza</td></tr>
+        <tr><td>LR = 1</td><td><b class="red">La prueba no aporta nada</b></td></tr>
+        </table>
+        <p>Combinan S y E en un solo número y <b class="red">no dependen de la prevalencia</b>.</p>
+      </div>
+
+      <div class="box"><span class="box-title t-a">⑥ ✏ CURVA ROC</span>
+        <table><tr><th>Eje</th><th>Qué lleva</th></tr>
+        <tr><td>Vertical</td><td><b class="red">Sensibilidad</b></td></tr>
+        <tr><td>Horizontal</td><td><b class="red">1 − especificidad</b> (falsos positivos)</td></tr>
+        </table>
+        <table><tr><th>Área bajo la curva</th><th>Interpretación</th></tr>
+        <tr><td><b class="red">= 0,5</b></td><td><b class="red">Inútil</b>: como lanzar una moneda</td></tr>
+        <tr><td><b class="red">Cerca de 1</b></td><td><b class="red">Excelente</b> capacidad discriminativa</td></tr>
+        </table>
+        <p>Sirve para <b class="red">elegir el mejor punto de corte</b> y para <b class="red">comparar dos pruebas</b>.</p>
+      </div>
+
+      <div class="box"><span class="box-title t-b">⑦ ✏ EXACTITUD vs. PRECISIÓN</span>
+        <table><tr><th>Concepto</th><th>Significa</th></tr>
+        <tr><td><b class="red">Exactitud (validez)</b></td><td>Se acerca al <b class="red">valor verdadero</b>: VP + VN sobre el total</td></tr>
+        <tr><td><b class="red">Precisión (fiabilidad)</b></td><td><b class="red">Repite el mismo resultado</b> aunque esté equivocado</td></tr>
+        </table>
+        <p>Un error <b class="red">sistemático</b> afecta la exactitud; uno <b class="red">aleatorio</b>, la precisión.</p>
+      </div>
+    </div>
+
+    <div class="col c3">
+      <div class="box"><span class="box-title t-c">⑧ ✏ EJEMPLO RESUELTO DE LR</span>
+        <p>Prueba con <b class="red">S = 90%</b> y <b class="red">E = 95%</b>.</p>
+        <table><tr><th>Cálculo</th><th>Resultado</th></tr>
+        <tr><td><b class="red">LR+</b></td><td>0,90 / 0,05 = <b class="red">18</b> → confirma</td></tr>
+        <tr><td><b class="red">LR−</b></td><td>0,10 / 0,95 = <b class="red">0,105</b> → casi descarta</td></tr>
+        </table>
+        <p>Un <b class="red">LR+ de 18</b> multiplica por 18 las probabilidades de tener la enfermedad.</p>
+      </div>
+
+      <div class="box"><span class="box-title t-d">⑨ ✏ LOS SESGOS DEL TAMIZAJE</span>
+        <table><tr><th>Sesgo</th><th>Qué hace</th></tr>
+        <tr><td><b class="red">Adelanto diagnóstico</b></td><td>Parece que <b class="red">vive más</b> solo porque se le diagnosticó antes</td></tr>
+        <tr><td><b class="red">Duración</b></td><td>El tamizaje capta los casos <b class="red">lentos y de mejor pronóstico</b></td></tr>
+        <tr><td><b class="red">Sobrediagnóstico</b></td><td>Detecta lesiones que <b class="red">nunca habrían dado síntomas</b></td></tr>
+        </table>
+      </div>
+
+      <div class="box"><span class="box-title t-a">⑩ ✏ LOS ERRORES QUE CUESTAN PUNTOS</span>
+        <div class="trap"><span class="lbl">⚠️ TRAMPA:</span> <span>"La prueba más sensible es la mejor" es <b class="red">falso</b>: depende del objetivo. Para <b class="red">confirmar</b>, la mejor es la <b class="red">más específica</b>.</span></div>
+        <div class="fail"><span class="lbl">◆ EL DATO QUE MÁS SE FALLA:</span> <span>Confundir <b class="red">VPP con sensibilidad</b>. Si el enunciado empieza por <b class="red">"de los que salieron positivos…"</b>, están preguntando <b class="red">VPP</b>.</span></div>
+      </div>
+
+      <div class="box"><span class="box-title t-e">⑪ ✏ CASO ENIM (resuelto)</span>
+        <p>Para detectar una enfermedad <b class="red">grave y tratable</b> hay dos pruebas: la <b class="red">A con S 98% y E 70%</b> y la <b class="red">B con S 75% y E 99%</b>.</p>
+        <p><b>Conducta:</b> <b class="red">tamizar con A</b> (no se escapan enfermos) y <b class="red">confirmar los positivos con B</b>. Usar solo B dejaría <b class="red">25% de falsos negativos</b>.</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="footer-bar"><span class="jury">🎯 Frase para el jurado:</span><p>"Al bajar el punto de corte sube la sensibilidad y baja la especificidad, porque ambas se mueven en sentido contrario. Las razones de verosimilitud combinan las dos y no dependen de la prevalencia: una razón positiva mayor de diez confirma y una negativa menor de cero coma uno descarta. El área bajo la curva ROC mide la capacidad discriminativa: cero coma cinco es inútil y cuanto más cerca de uno, mejor. El tamizaje nunca diagnostica: selecciona a quién confirmar."</p></div>
+</div>
+
+</body></html>

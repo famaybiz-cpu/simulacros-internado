@@ -1,0 +1,1971 @@
+{
+ "id": "2026-10-22-noche",
+ "fecha": "2026-10-22",
+ "turno": "noche",
+ "titulo": "Simulacro de la noche",
+ "segundos_por_pregunta": 45,
+ "temas_noche": [
+  "Ginecología · Endometriosis",
+  "Pediatría · Síndrome urémico hemolítico"
+ ],
+ "feedback_noche": "Hoy: dolor pélvico cíclico y microangiopatía posdiarreica.\nDolor cíclico: escala AINE → ACO continuos → progestágeno/GnRH → laparoscopia; el deseo de gestar cambia todo (nada anovulatorio).\nQuiste en vidrio esmerilado: <5 cm médico, ≥5 cm o refractario cirugía; electrofulguración prohibida si es profunda, quistes grandes o adherencias densas.\nMicroangiopatía posdiarreica: soporte; GR si Hb <7, plaquetas solo si sangra o hay procedimiento, diálisis por K, acidosis, volumen o uremia.\nSin diarrea + C3 bajo = eculizumab; adulto con fiebre y confusión = plasmaféresis.",
+ "perlas_noche": [
+  "Dismenorrea secundaria + dispareunia + subfertilidad: AINE → ACO continuos; si desea gestar, laparoscopia conservadora.",
+  "Estándar de oro: laparoscopia con biopsia (quemadura de pólvora); el diagnóstico clínico 2/3 basta para tratar.",
+  "Estadio IV sin deseo de hijos: histerectomía + ooforectomía bilateral; danazol = hirsutismo, acné, hepatotoxicidad.",
+  "Toxina Shiga (O157:H7, S. dysenteriae 1): nada de antibióticos ni loperamida; corticoides y plasmaféresis no sirven.",
+  "Forma atípica: sin diarrea, C3 bajo/C4 normal, recurrente → eculizumab (anti-C5); TP/TTPa normales separan de CID."
+ ],
+ "preguntas": [
+  {
+   "id": "2026-10-22-noche-001",
+   "enunciado": "Mujer de 27 años con dolor pélvico cíclico de 14 meses y 1 año de relaciones sin protección sin lograr embarazo. En la laparoscopia se observan implantes peritoneales superficiales y algunos profundos en el peritoneo vesicouterino, con lesiones negro-azuladas en quemadura de pólvora y adherencias finas localizadas. Ambos ovarios sin quistes, trompas permeables. La biopsia confirma la sospecha clínica. ¿Qué estadio corresponde?",
+   "opciones": [
+    "Estadio I (mínima)",
+    "Estadio II (leve)",
+    "Estadio III (moderada)",
+    "Estadio IV (severa)",
+    "Enfermedad profunda infiltrante"
+   ],
+   "clave": 2,
+   "especialidad": "Ginecología",
+   "tema": "Endometriosis",
+   "diagnostico": "Endometriosis estadio II (leve) por hallazgos laparoscópicos",
+   "tipo": "severidad",
+   "dificultad": "alta",
+   "razonamiento": "Paso 1: implantes superficiales + algunos profundos, adherencias finas localizadas, ovarios sin quistes. Paso 2: tejido endometrial ectópico confirmado por biopsia. Paso 3: ese patrón, con subfertilidad que aparece, corresponde al estadio II.",
+   "por_que_no": [
+    "Solo pocos implantes superficiales con adherencias finas escasas.",
+    "",
+    "Requiere implantes ováricos con quistes y adherencias más densas.",
+    "Múltiples implantes profundos, quistes grandes y adherencias muy marcadas.",
+    "Exige nódulos que infiltran órganos como recto o vejiga."
+   ],
+   "trampa": [
+    "otro-estadio",
+    "",
+    "otro-estadio",
+    "otro-estadio",
+    "otro-estadio"
+   ],
+   "perla": "I superficial · II + profundos · III quistes ováricos · IV adherencias marcadas y quistes >5 cm.",
+   "fuente": {
+    "carpeta": "3.GINECOLOGIA",
+    "archivo": "21. ENDOMETRIOSIS.pdf",
+    "seccion": "Estadios: tabla grado/características"
+   },
+   "gemela_de": null
+  },
+  {
+   "id": "2026-10-22-noche-002",
+   "enunciado": "Niño de 5 años, 18 kg, con 9 días de evolución tras deposiciones sanguinolentas; hace 4 días diuresis de 0,2 mL/kg/h. Hoy vómitos repetidos, somnolencia y aleteo de manos. PA 116/74 mmHg, FC 124X', sin edemas, roce pericárdico. Hb 8,1 g/dL, esquistocitos, plaquetas 45 000/mm3, urea 284 mg/dL, creatinina 5,6 mg/dL, K 5,6 mEq/L, HCO3 17 mEq/L. ¿Cuál es la conducta indicada?",
+   "opciones": [
+    "Bicarbonato de sodio endovenoso",
+    "Iniciar diálisis por uremia sintomática",
+    "Furosemida endovenosa a dosis altas",
+    "Restricción proteica estricta y observación",
+    "Plasmaféresis con plasma fresco"
+   ],
+   "clave": 2,
+   "especialidad": "Pediatría",
+   "tema": "Síndrome urémico hemolítico",
+   "diagnostico": "SUH típico con uremia grave y pericarditis urémica: diálisis",
+   "tipo": "conducta",
+   "dificultad": "media",
+   "razonamiento": "Paso 1: urea 284 + somnolencia, asterixis y roce pericárdico = uremia sintomática grave. Paso 2: IRA oligúrica de la microangiopatía posdiarreica. Paso 3: uremia es indicación de diálisis aun con K y HCO3 tolerables.",
+   "por_que_no": [
+    "HCO3 17 no lo requiere; no trata la uremia.",
+    "",
+    "Puede forzar diuresis, pero no corrige la uremia con encefalopatía y pericarditis.",
+    "En la IRA no se restringen proteínas y la uremia grave exige diálisis.",
+    "No está indicada en la forma posdiarreica."
+   ],
+   "trampa": [
+    "umbral",
+    "",
+    "otro-momento",
+    "otro",
+    "diferencial"
+   ],
+   "perla": "Encefalopatía o pericarditis urémica = diálisis, aunque el K esté aceptable.",
+   "fuente": {
+    "carpeta": "4.PEDIATRIA",
+    "archivo": "27. SUH.pdf",
+    "seccion": "pág. 1, ¿Cuándo hacer diálisis?"
+   },
+   "gemela_de": null
+  },
+  {
+   "id": "2026-10-22-noche-003",
+   "enunciado": "Mujer de 44 años, G3P3, con ligadura tubárica, con 6 años de dolor pélvico cíclico que se volvió continuo, dispareunia y disquesia. Recibió ACO continuos y luego análogo de GnRH por 6 meses sin mejoría. Tacto: útero fijo en retroversión, anexos engrosados y dolorosos. Ecografía: quistes ováricos bilaterales de 6 y 7 cm con ecos finos homogéneos. Laparoscopia previa describió adherencias muy densas. ¿Cuál es el tratamiento definitivo?",
+   "opciones": [
+    "Electrofulguración laparoscópica de los focos",
+    "Histerectomía total conservando ambos ovarios",
+    "Histerectomía total con ooforectomía bilateral",
+    "Quistectomía laparoscópica conservadora bilateral",
+    "Danazol oral por 6 meses"
+   ],
+   "clave": 3,
+   "especialidad": "Ginecología",
+   "tema": "Endometriosis",
+   "diagnostico": "Endometriosis severa sin deseo reproductivo: histerectomía con ooforectomía bilateral",
+   "tipo": "tratamiento",
+   "dificultad": "media",
+   "razonamiento": "Paso 1: quistes ováricos bilaterales >5 cm + adherencias muy densas + refractariedad a ACO y GnRH. Paso 2: enfermedad estadio IV. Paso 3: sin deseo reproductivo, el tratamiento definitivo es HT + ooforectomía bilateral.",
+   "por_que_no": [
+    "Contraindicada con quistes grandes y adherencias densas.",
+    "Los ovarios mantienen el estímulo estrogénico de los focos.",
+    "",
+    "Indicada si desea preservar fertilidad; aquí la paridad está satisfecha.",
+    "Opción médica antigua; no es definitiva en enfermedad severa refractaria."
+   ],
+   "trampa": [
+    "otro-estadio",
+    "otro",
+    "",
+    "otra-poblacion",
+    "otro-momento"
+   ],
+   "perla": "Estadio IV sin deseo de hijos: histerectomía + ooforectomía bilateral.",
+   "fuente": {
+    "carpeta": "3.GINECOLOGIA",
+    "archivo": "21. ENDOMETRIOSIS.pdf",
+    "seccion": "Tratamiento: estadio 4 / severa no desea hijos"
+   },
+   "gemela_de": null
+  },
+  {
+   "id": "2026-10-22-noche-004",
+   "enunciado": "Varón de 24 años con tres episodios desde los 15 años de anemia con esquistocitos, plaquetopenia y falla renal, sin diarrea previa; C3 persistentemente bajo con C4 normal y mutación de un regulador de la vía alterna. Desde hace 8 meses está en hemodiálisis trisemanal, con creatinina interdialítica de 9 mg/dL y riñones de 8 cm. Actualmente Hb 10 g/dL y plaquetas 190 000/mm3. ¿Cuál es el tratamiento definitivo planteado?",
+   "opciones": [
+    "Corticoides e inmunosupresión a dosis altas",
+    "Plasmaféresis de mantenimiento indefinida",
+    "Trasplante renal con bloqueo de C5 asociado",
+    "Eculizumab solo, sin terapia renal sustitutiva",
+    "Hemodiálisis crónica como única terapia"
+   ],
+   "clave": 3,
+   "especialidad": "Pediatría",
+   "tema": "Síndrome urémico hemolítico",
+   "diagnostico": "SUH atípico con enfermedad renal terminal: trasplante renal",
+   "tipo": "tratamiento",
+   "dificultad": "muy alta",
+   "razonamiento": "Paso 1: recurrencias sin diarrea, C3 bajo y mutación de reguladores. Paso 2: forma atípica con daño renal crónico terminal (riñones pequeños, diálisis >3 meses). Paso 3: el atípico se trata con eculizumab + soporte y, en algunos casos, trasplante renal.",
+   "por_que_no": [
+    "Sin beneficio demostrado frente al defecto del complemento.",
+    "Tratamiento de la púrpura por ADAMTS13; no resuelve la falla terminal.",
+    "",
+    "No recupera riñones pequeños con falla terminal.",
+    "Sostiene, pero no es la opción definitiva en este paciente joven."
+   ],
+   "trampa": [
+    "otro",
+    "diferencial",
+    "",
+    "otro-estadio",
+    "otro-momento"
+   ],
+   "perla": "Forma atípica terminal: trasplante renal protegido con eculizumab.",
+   "fuente": {
+    "carpeta": "4.PEDIATRIA",
+    "archivo": "27. SUH.pdf",
+    "seccion": "pág. 1, tabla: tratamiento del atípico"
+   },
+   "gemela_de": null
+  },
+  {
+   "id": "2026-10-22-noche-005",
+   "enunciado": "Mujer de 24 años, G0, con 9 meses de dolor pélvico cíclico que antes no tenía. Se realizó laparoscopia por sospecha de patología anexial: se observan 4 implantes negro-azulados pequeños y superficiales en peritoneo de la fosa ovárica derecha, con escasas adherencias finas. Ovarios y trompas normales, sin quistes, sin nódulos en uterosacros. La biopsia confirma la sospecha clínica. ¿Qué estadio corresponde?",
+   "opciones": [
+    "Estadio IV (severa)",
+    "Enfermedad profunda infiltrante",
+    "Estadio II (leve)",
+    "Estadio III (moderada)",
+    "Estadio I (mínima)"
+   ],
+   "clave": 5,
+   "especialidad": "Ginecología",
+   "tema": "Endometriosis",
+   "diagnostico": "Endometriosis estadio I (mínima) por hallazgos laparoscópicos",
+   "tipo": "severidad",
+   "dificultad": "alta",
+   "razonamiento": "Paso 1: pocos implantes pequeños y superficiales con escasas adherencias finas, ovarios normales. Paso 2: tejido endometrial ectópico confirmado. Paso 3: es la forma mínima (estadio I), que se maneja con AINE si el dolor es leve.",
+   "por_que_no": [
+    "Exige adherencias muy marcadas y quistes grandes.",
+    "Requiere nódulos que infiltran órganos.",
+    "Añade implantes profundos; aquí todos son superficiales.",
+    "Exige implantes ováricos con quistes.",
+    ""
+   ],
+   "trampa": [
+    "otro-estadio",
+    "otro-estadio",
+    "otro-estadio",
+    "otro-estadio",
+    ""
+   ],
+   "perla": "Estadio I: pocos implantes superficiales; dolor cíclico >6 meses.",
+   "fuente": {
+    "carpeta": "3.GINECOLOGIA",
+    "archivo": "21. ENDOMETRIOSIS.pdf",
+    "seccion": "Estadios: tabla grado/características"
+   },
+   "gemela_de": null
+  },
+  {
+   "id": "2026-10-22-noche-006",
+   "enunciado": "Niña de 3 años, 13 kg, con anuria de 18 horas tras deposiciones con sangre hace una semana; Hb 7,5 g/dL, esquistocitos, plaquetas 37 000/mm3. FC 76X', PA 118/72 mmHg. K 7,4 mEq/L, HCO3 16 mEq/L, creatinina 3,8 mg/dL. EKG: ondas T altas y simétricas, P aplanada y QRS de 0,12 s. Se coordina terapia de reemplazo renal. ¿Cuál es la primera medida mientras se prepara?",
+   "opciones": [
+    "Gluconato de calcio endovenoso",
+    "Salbutamol nebulizado",
+    "Resina de intercambio (kayexalate) por enema",
+    "Bicarbonato de sodio endovenoso",
+    "Insulina con dextrosa endovenosa"
+   ],
+   "clave": 1,
+   "especialidad": "Pediatría",
+   "tema": "Síndrome urémico hemolítico",
+   "diagnostico": "SUH típico con hiperkalemia grave y cambios electrocardiográficos",
+   "tipo": "conducta",
+   "dificultad": "alta",
+   "razonamiento": "Paso 1: K 7,4 con T picudas, P aplanada y QRS ancho = hiperkalemia severa con riesgo de arritmia. Paso 2: ocurre en la IRA anúrica de la microangiopatía posdiarreica. Paso 3: primero estabilizar la membrana con calcio; luego ingresar y eliminar K mientras llega la diálisis.",
+   "por_que_no": [
+    "",
+    "Ingresa K a la célula; es segundo paso, no el primero.",
+    "Elimina K de forma lenta; último recurso, no medida inicial.",
+    "Se reserva para HCO3 <15; además no estabiliza la membrana.",
+    "Desplaza K al interior de la célula, pero no protege el miocardio primero."
+   ],
+   "trampa": [
+    "",
+    "otro-momento",
+    "otro-momento",
+    "umbral",
+    "otro-momento"
+   ],
+   "perla": "K alto con cambios en el EKG: primero gluconato de calcio (M de MIELDA).",
+   "fuente": {
+    "carpeta": "14. NEFROLOGIA",
+    "archivo": "10. HIPERKALEMIA.pdf",
+    "seccion": "MIELDA: estabilizar membrana"
+   },
+   "gemela_de": null
+  },
+  {
+   "id": "2026-10-22-noche-007",
+   "enunciado": "Mujer de 42 años, G2P2, a quien hace 18 meses se le realizó histerectomía total por dolor pélvico cíclico severo, dispareunia y adherencias densas, conservando ambos ovarios por su edad. Desde hace 6 meses reaparece dolor pélvico cíclico mensual, dispareunia profunda y disquesia. Tacto: cúpula sin lesiones, nodularidad dolorosa en fondo de saco. FSH 6 mUI/mL, estradiol 140 pg/mL. ¿Qué explica la recurrencia?",
+   "opciones": [
+    "Estímulo estrogénico ovárico persistente sobre focos residuales",
+    "Adherencias posquirúrgicas sin tejido ectópico",
+    "Implantes nuevos por menstruación retrógrada",
+    "Insuficiencia ovárica por la cirugía",
+    "Hiperplasia de la cúpula vaginal por progestágenos"
+   ],
+   "clave": 1,
+   "especialidad": "Ginecología",
+   "tema": "Endometriosis",
+   "diagnostico": "Recurrencia de dolor tras histerectomía con conservación ovárica",
+   "tipo": "mecanismo",
+   "dificultad": "muy alta",
+   "razonamiento": "Paso 1: dolor cíclico, dispareunia y nódulos en Douglas tras HT sin ooforectomía; FSH y estradiol premenopáusicos. Paso 2: focos residuales activos. Paso 3: los ovarios siguen produciendo estrógenos que estimulan los focos; por eso el tratamiento definitivo incluye la ooforectomía bilateral.",
+   "por_que_no": [
+    "",
+    "Darían dolor no cíclico, sin relación con el ciclo ovárico.",
+    "Sin útero no hay menstruación que refluya.",
+    "FSH y estradiol normales indican ovarios funcionantes.",
+    "No hay progestágenos ni lesión en cúpula."
+   ],
+   "trampa": [
+    "",
+    "diferencial",
+    "otro",
+    "otro",
+    "otro"
+   ],
+   "perla": "Estadio IV sin deseo de hijos: histerectomía + ooforectomía bilateral; sin ovarios no hay estímulo.",
+   "fuente": {
+    "carpeta": "3.GINECOLOGIA",
+    "archivo": "21. ENDOMETRIOSIS.pdf",
+    "seccion": "Estadio 4: histerectomía total + ooforectomía bilateral"
+   },
+   "gemela_de": null
+  },
+  {
+   "id": "2026-10-22-noche-008",
+   "enunciado": "Niña de 2 años, 10 kg, con 3 días de deposiciones con moco y sangre, 8 al día, y vómitos. FC 150X', PA 92/58 mmHg, irritable, bebe con avidez, ojos hundidos, pliegue que regresa lento, llenado capilar 2 s. Hb 12,6 g/dL, plaquetas 284 000/mm3, frotis sin esquistocitos, creatinina 0,9 mg/dL, urea/creatinina 48, Na urinario 12 mEq/L, FeNa 0,4 %. ¿Cuál es la conducta inicial?",
+   "opciones": [
+    "Bolo de cloruro de sodio 0,9 % 20 mL/kg en 10 minutos",
+    "Hospitalizar y restringir líquidos por la falla renal",
+    "Furosemida endovenosa para recuperar la diuresis",
+    "Iniciar diálisis peritoneal por la creatinina elevada",
+    "Rehidratación oral con 50-100 mL/kg en 4 horas y reevaluación"
+   ],
+   "clave": 5,
+   "especialidad": "Pediatría",
+   "tema": "Síndrome urémico hemolítico",
+   "diagnostico": "Diarrea disentérica con IRA prerrenal sin microangiopatía",
+   "tipo": "conducta",
+   "dificultad": "muy alta",
+   "razonamiento": "Paso 1: FeNa <1 %, Na urinario <20 y urea/creatinina >40 = falla prerrenal; Hb y plaquetas normales sin esquistocitos descartan microangiopatía. Paso 2: deshidratación moderada por disentería. Paso 3: plan B con SRO y reevaluar.",
+   "por_que_no": [
+    "El bolo es para shock; aquí hay deshidratación moderada sin shock.",
+    "Restringir agrava la hipoperfusión; esta falla es por volumen.",
+    "El diurético empeora la depleción de volumen.",
+    "La falla prerrenal revierte con volumen; no hay indicación dialítica.",
+    ""
+   ],
+   "trampa": [
+    "otro-estadio",
+    "diferencial",
+    "diferencial",
+    "diferencial",
+    ""
+   ],
+   "perla": "Creatinina alta con FeNa <1 % y plaquetas normales: es volumen, no microangiopatía.",
+   "fuente": {
+    "carpeta": "14. NEFROLOGIA",
+    "archivo": "19. INJURIA RENAL AGUDA.pdf",
+    "seccion": "Causas: prerrenal; índices urinarios"
+   },
+   "gemela_de": null
+  },
+  {
+   "id": "2026-10-22-noche-009",
+   "enunciado": "Mujer de 25 años, G0, sin deseo de gestar, con dismenorrea secundaria de 1 año que no cedió con ibuprofeno. Hace 4 meses usa ACO combinado de 21 días con 7 de descanso; el dolor mejoró algo pero persiste intenso los días de sangrado por deprivación (EVA 6/10). PA 108/68 mmHg, IMC 22, no fuma, sin migraña. Tacto doloroso en fondo de saco posterior. Ecografía normal. ¿Cuál es el ajuste más adecuado?",
+   "opciones": [
+    "Pasar el mismo ACO a régimen continuo sin descanso",
+    "Laparoscopia diagnóstica y terapéutica",
+    "Mantener el ACO cíclico y agregar paracetamol",
+    "Suspender el ACO e indicar análogo de GnRH",
+    "Cambiar a danazol oral"
+   ],
+   "clave": 1,
+   "especialidad": "Ginecología",
+   "tema": "Endometriosis",
+   "diagnostico": "Endometriosis con ACO cíclico: cambiar a régimen continuo",
+   "tipo": "tratamiento",
+   "dificultad": "alta",
+   "razonamiento": "Paso 1: dolor persistente en los días de deprivación pese a ACO cíclico. Paso 2: dismenorrea secundaria por implantes sensibles al ciclo. Paso 3: el régimen recomendado es ACO continuo, que suprime la menstruación; recién si falla se escala.",
+   "por_que_no": [
+    "",
+    "Se indica tras fallar ACO continuo y progestágeno.",
+    "Deja el sangrado de deprivación que dispara el dolor.",
+    "Segunda línea tras falla del ACO continuo, que aún no se probó.",
+    "Fármaco previo a los ACO, con efectos androgénicos; no es el ajuste."
+   ],
+   "trampa": [
+    "",
+    "otro-momento",
+    "otro",
+    "otro-momento",
+    "otro"
+   ],
+   "perla": "ACO en dolor cíclico: siempre continuos, no cíclicos.",
+   "fuente": {
+    "carpeta": "3.GINECOLOGIA",
+    "archivo": "21. ENDOMETRIOSIS.pdf",
+    "seccion": "Estadio 2: ACOs continuos"
+   },
+   "gemela_de": null
+  },
+  {
+   "id": "2026-10-22-noche-010",
+   "enunciado": "Niño de 4 años en su cuarto día de hospitalización por palidez, oliguria y deposiciones previas con sangre; Hb 7,2 g/dL, esquistocitos, plaquetas 33 000/mm3, creatinina 2,7 mg/dL. Presenta crisis tónico-clónica generalizada y luego Glasgow 11. PA 104/66 mmHg, T° 36,9 °C. Glucosa 96 mg/dL, Na 137 mEq/L, Ca iónico 1,18 mmol/L, Mg normal. ¿Cuál es la causa más probable de la convulsión?",
+   "opciones": [
+    "Convulsión febril compleja por la infección entérica",
+    "Encefalopatía hipertensiva por sobrecarga de volumen",
+    "Hiponatremia dilucional por oliguria",
+    "Hipocalcemia por hiperfosfatemia de la falla renal",
+    "Microangiopatía trombótica cerebral"
+   ],
+   "clave": 5,
+   "especialidad": "Pediatría",
+   "tema": "Síndrome urémico hemolítico",
+   "diagnostico": "SUH típico con compromiso del sistema nervioso central",
+   "tipo": "complicacion",
+   "dificultad": "alta",
+   "razonamiento": "Paso 1: glucosa, Na, Ca y PA normales descartan causas metabólicas e hipertensivas. Paso 2: microangiopatía posdiarreica activa. Paso 3: el SNC es el sitio extrarrenal más afectado por la misma lesión endotelial.",
+   "por_que_no": [
+    "Está afebril y fuera del pródromo diarreico.",
+    "Con PA normal no hay sustrato hipertensivo.",
+    "El sodio es 137 mEq/L, normal.",
+    "El calcio iónico es normal.",
+    ""
+   ],
+   "trampa": [
+    "otra-poblacion",
+    "diferencial",
+    "diferencial",
+    "diferencial",
+    ""
+   ],
+   "perla": "Convulsión con electrolitos y PA normales en este cuadro: compromiso del SNC.",
+   "fuente": {
+    "carpeta": "4.PEDIATRIA",
+    "archivo": "27. SUH.pdf",
+    "seccion": "pág. 1, daño extrarrenal más frecuente"
+   },
+   "gemela_de": null
+  },
+  {
+   "id": "2026-10-22-noche-011",
+   "enunciado": "Mujer de 37 años, G0, con 4 años de dismenorrea severa, dispareunia profunda y rectorragia que coincide con la menstruación. Tacto rectovaginal: nódulo de 3 cm, duro y doloroso, en el tabique rectovaginal. Resonancia: lesión que infiltra la pared anterior del recto, quiste ovárico izquierdo de 6 cm con contenido hemático y adherencias densas entre útero y recto. Desea preservar fertilidad. ¿Qué procedimiento NO está indicado?",
+   "opciones": [
+    "Progestágeno continuo para control del dolor",
+    "Quistectomía laparoscópica del ovario izquierdo",
+    "Electrofulguración laparoscópica de los focos",
+    "Análogo de GnRH como tratamiento médico",
+    "Cirugía conservadora por equipo especializado"
+   ],
+   "clave": 3,
+   "especialidad": "Ginecología",
+   "tema": "Endometriosis",
+   "diagnostico": "Endometriosis profunda infiltrante: contraindicación de electrofulguración",
+   "tipo": "contraindicacion",
+   "dificultad": "muy alta",
+   "razonamiento": "Paso 1: nódulo rectovaginal + infiltración rectal + quiste de 6 cm + adherencias densas. Paso 2: enfermedad profunda infiltrante severa. Paso 3: estas tres condiciones contraindican la electrofulguración (quemar focos superficiales).",
+   "por_que_no": [
+    "Opción médica aceptable en enfermedad sintomática.",
+    "Indicada por quiste ≥5 cm y deseo de fertilidad.",
+    "",
+    "Es una opción médica válida en enfermedad severa.",
+    "Corresponde cuando hay infiltración de órganos y deseo reproductivo."
+   ],
+   "trampa": [
+    "otro",
+    "otro",
+    "",
+    "otro",
+    "otro"
+   ],
+   "perla": "Electrofulguración contraindicada: profunda infiltrante, quistes >5 cm, adherencias densas.",
+   "fuente": {
+    "carpeta": "3.GINECOLOGIA",
+    "archivo": "21. ENDOMETRIOSIS.pdf",
+    "seccion": "Contraindicaciones de electrofulguración"
+   },
+   "gemela_de": null
+  },
+  {
+   "id": "2026-10-22-noche-012",
+   "enunciado": "Mujer de 29 años, nuligesta, con 2 años de dismenorrea que antes no tenía, dispareunia profunda y 18 meses de búsqueda de embarazo sin éxito. Ciclos cada 20 días. Tacto: útero móvil, leve dolor anexial bilateral. Su ginecóloga planifica una laparoscopia diagnóstica y explica dónde buscará primero las lesiones negro-azuladas en quemadura de pólvora. ¿En qué sitio es más probable encontrarlas?",
+   "opciones": [
+    "Ovarios y trompas",
+    "Ligamentos uterosacros",
+    "Miometrio uterino",
+    "Fondo de saco de Douglas",
+    "Tabique rectovaginal"
+   ],
+   "clave": 1,
+   "especialidad": "Ginecología",
+   "tema": "Endometriosis",
+   "diagnostico": "Endometriosis: localización más frecuente de los implantes",
+   "tipo": "mecanismo",
+   "dificultad": "media",
+   "razonamiento": "Paso 1: dismenorrea secundaria + dispareunia + subfertilidad + polimenorrea. Paso 2: diagnóstico clínico de tejido endometrial ectópico (2 de 3 criterios). Paso 3: la localización más frecuente es ovario/trompas; luego uterosacros y Douglas.",
+   "por_que_no": [
+    "",
+    "Es la segunda localización en frecuencia.",
+    "El tejido en el miometrio corresponde a otra entidad.",
+    "Es la tercera localización en frecuencia.",
+    "Sitio de la forma profunda infiltrante, menos frecuente."
+   ],
+   "trampa": [
+    "",
+    "otro",
+    "diferencial",
+    "otro",
+    "otro"
+   ],
+   "perla": "Sitios: 1.º ovario/trompas, 2.º uterosacros, 3.º Douglas.",
+   "fuente": {
+    "carpeta": "3.GINECOLOGIA",
+    "archivo": "21. ENDOMETRIOSIS.pdf",
+    "seccion": "Lugares de implantación"
+   },
+   "gemela_de": null
+  },
+  {
+   "id": "2026-10-22-noche-013",
+   "enunciado": "Mujer de 35 años, G2P2, con 3 años de dolor pélvico cíclico, dispareunia y disquesia. Recibió AINE, ACO continuos 6 meses y luego dienogest continuo 6 meses, con EVA 8/10 y faltas laborales. Ecografía: quiste ovárico derecho de 3,8 cm en vidrio esmerilado, sin cambios en un año. No desea más hijos, pero rechaza perder el útero. ¿Cuál es la siguiente conducta?",
+   "opciones": [
+    "Volver a AINE a dosis máximas",
+    "Cirugía laparoscópica con quistectomía",
+    "Esperar a que el quiste alcance 5 cm",
+    "Histerectomía total con ooforectomía bilateral",
+    "Mantener el progestágeno y control en 6 meses"
+   ],
+   "clave": 2,
+   "especialidad": "Ginecología",
+   "tema": "Endometriosis",
+   "diagnostico": "Endometrioma <5 cm refractario al tratamiento médico: cirugía",
+   "tipo": "conducta",
+   "dificultad": "muy alta",
+   "razonamiento": "Paso 1: quiste ovárico en vidrio esmerilado de 3,8 cm con dolor severo pese a ACO y progestágeno. Paso 2: quiste achocolatado <5 cm refractario. Paso 3: aunque sea <5 cm, si la clínica no responde, se opera por laparoscopia.",
+   "por_que_no": [
+    "Es el primer escalón y ya fracasó.",
+    "",
+    "El tamaño no es el único criterio: la falta de respuesta clínica también indica cirugía.",
+    "Definitiva en estadio IV; ella rechaza perder el útero.",
+    "Correcto si el quiste <5 cm responde; aquí el dolor persiste."
+   ],
+   "trampa": [
+    "otro-momento",
+    "",
+    "umbral",
+    "otro-estadio",
+    "otro-momento"
+   ],
+   "perla": "Quiste <5 cm que no responde al tratamiento médico: también es quirúrgico.",
+   "fuente": {
+    "carpeta": "3.GINECOLOGIA",
+    "archivo": "21. ENDOMETRIOSIS.pdf",
+    "seccion": "UpToDate: quistes <5 cm + clínica que no responde → Qx"
+   },
+   "gemela_de": null
+  },
+  {
+   "id": "2026-10-22-noche-014",
+   "enunciado": "Niña de 3 años con cólicos y deposiciones con sangre sin fiebre hace 6 días tras consumir leche no pasteurizada; hoy palidez, ictericia leve y orina escasa. PA 114/72 mmHg. Hb 7,7 g/dL, esquistocitos, plaquetas 52 000/mm3, creatinina 2,1 mg/dL, coprocultivo con E. coli O157:H7. Se solicita complemento sérico para el diferencial con otras causas de falla renal aguda en la infancia. ¿Qué resultado se espera?",
+   "opciones": [
+    "C4 bajo aislado con C3 normal",
+    "C3 y C4 bajos con anti-ADN positivo",
+    "C3 bajo con C4 normal y recurrencias",
+    "C3 y C4 dentro de lo normal",
+    "C3 bajo que se normaliza en 6-8 semanas"
+   ],
+   "clave": 4,
+   "especialidad": "Pediatría",
+   "tema": "Síndrome urémico hemolítico",
+   "diagnostico": "SUH típico: complemento sérico normal",
+   "tipo": "prueba",
+   "dificultad": "alta",
+   "razonamiento": "Paso 1: disentería afebril + leche cruda + O157:H7 + hemólisis + plaquetopenia + IRA. Paso 2: forma típica por toxina. Paso 3: el daño es tóxico endotelial, no por consumo de complemento: C3 y C4 normales.",
+   "por_que_no": [
+    "Sugiere activación de la vía clásica, no de este cuadro.",
+    "Patrón de la nefritis lúpica.",
+    "Patrón de la forma atípica por vía alterna del complemento.",
+    "",
+    "Patrón de la glomerulonefritis posestreptocócica."
+   ],
+   "trampa": [
+    "otro",
+    "diferencial",
+    "diferencial",
+    "",
+    "diferencial"
+   ],
+   "perla": "Forma típica: complemento normal; atípica: C3 bajo con C4 normal.",
+   "fuente": {
+    "carpeta": "4.PEDIATRIA",
+    "archivo": "27. SUH.pdf",
+    "seccion": "pág. 1, tabla: complemento sérico"
+   },
+   "gemela_de": null
+  },
+  {
+   "id": "2026-10-22-noche-015",
+   "enunciado": "Niño de 3 años, 12 kg, con deposiciones sanguinolentas hace 8 días y anuria desde hace 30 horas pese a furosemida. PA 128/84 mmHg, FC 132X', edema palpebral y crepitantes bibasales, SatO2 91 %. Hb 7,8 g/dL, plaquetas 24 000/mm3, K 6,6 mEq/L, HCO3 13 mEq/L, urea 196 mg/dL. Se programa colocación de catéter para terapia de reemplazo renal en la próxima hora. ¿Qué indicación corresponde antes del procedimiento?",
+   "opciones": [
+    "Esperar recuento mayor de 50 000 para colocar catéter",
+    "Mantener conducta expectante sin transfundir nada",
+    "Transfundir plaquetas antes de colocar el catéter",
+    "Transfundir paquete globular para Hb mayor de 10",
+    "Administrar plasma fresco para corregir la coagulación"
+   ],
+   "clave": 3,
+   "especialidad": "Pediatría",
+   "tema": "Síndrome urémico hemolítico",
+   "diagnostico": "SUH típico con plaquetopenia previa a colocación de catéter de diálisis",
+   "tipo": "conducta",
+   "dificultad": "muy alta",
+   "razonamiento": "Paso 1: anuria >24 h, edema pulmonar, K 6,6 y HCO3 13 = indicación de diálisis. Paso 2: plaquetopenia de la microangiopatía posdiarreica. Paso 3: la excepción para transfundir plaquetas es el sangrado activo o un procedimiento invasivo, como el catéter.",
+   "por_que_no": [
+    "Retrasar la diálisis con anuria, sobrecarga y K alto empeora el pronóstico.",
+    "Correcto si no hubiera procedimiento invasivo; aquí sí lo hay.",
+    "",
+    "Hb 7,8 sin síntomas no exige transfusión y agrava la sobrecarga de volumen.",
+    "La alteración es plaquetaria; no hay déficit de factores."
+   ],
+   "trampa": [
+    "otro-momento",
+    "otro-contexto",
+    "",
+    "umbral",
+    "otro"
+   ],
+   "perla": "Procedimiento invasivo = única excepción para transfundir plaquetas sin sangrado.",
+   "fuente": {
+    "carpeta": "4.PEDIATRIA",
+    "archivo": "27. SUH.pdf",
+    "seccion": "pág. 1, ¿Se transfunden plaquetas? / ¿Cuándo hacer diálisis?"
+   },
+   "gemela_de": null
+  },
+  {
+   "id": "2026-10-22-noche-016",
+   "enunciado": "Mujer de 32 años, G0, con 3 años de dismenorrea progresiva, dispareunia y ciclos cada 20 días. Tacto: masa anexial izquierda de 5 cm, fija y dolorosa. Ecografía transvaginal: quiste ovárico izquierdo unilocular, de pared gruesa, con contenido de ecos finos, homogéneos y difusos en vidrio esmerilado, sin flujo interno ni componente sólido. Se programa quistectomía laparoscópica. ¿Qué contenido se espera encontrar en el quiste?",
+   "opciones": [
+    "Material purulento con detritos",
+    "Coágulo reciente con patrón en red",
+    "Sangre antigua con fibrina",
+    "Sebo, pelo y material queratinoso",
+    "Líquido seroso claro y anecoico"
+   ],
+   "clave": 3,
+   "especialidad": "Ginecología",
+   "tema": "Endometriosis",
+   "diagnostico": "Endometrioma: contenido del quiste en vidrio esmerilado",
+   "tipo": "prueba",
+   "dificultad": "media",
+   "razonamiento": "Paso 1: imagen en vidrio esmerilado homogénea + dismenorrea + polimenorrea + dispareunia. Paso 2: quiste ovárico por implante endometrial que sangra cada ciclo y se encapsula. Paso 3: contiene sangre antigua coagulada, achocolatada, con mucha fibrina.",
+   "por_que_no": [
+    "Contenido del absceso tuboovárico, con fiebre y leucocitosis.",
+    "Quiste hemorrágico del cuerpo lúteo, que se reabsorbe en semanas.",
+    "",
+    "Contenido del teratoma quístico maduro, con imagen heterogénea.",
+    "Propio del quiste folicular funcional, anecoico en la eco."
+   ],
+   "trampa": [
+    "diferencial",
+    "diferencial",
+    "",
+    "diferencial",
+    "diferencial"
+   ],
+   "perla": "Vidrio esmerilado en eco = quiste de chocolate (sangre antigua + fibrina).",
+   "fuente": {
+    "carpeta": "3.GINECOLOGIA",
+    "archivo": "21. ENDOMETRIOSIS.pdf",
+    "seccion": "Qué es un endometrioma / US"
+   },
+   "gemela_de": null
+  },
+  {
+   "id": "2026-10-22-noche-017",
+   "enunciado": "Mujer de 26 años, usuaria de DIU de cobre, con dismenorrea de 3 años que atribuía a sus reglas. Desde hace 4 días presenta dolor pélvico bilateral continuo, flujo vaginal purulento y fiebre de 38,9 °C. FC 108X', PA 112/70 mmHg. Dolor a la movilización del cérvix y masa anexial izquierda dolorosa. Leucocitos 17 800/mm3, PCR 120 mg/L. Ecografía: masa anexial compleja de 5 cm con tabiques y ecos heterogéneos. ¿Cuál es la conducta inicial?",
+   "opciones": [
+    "Ceftriaxona IM más doxiciclina ambulatoria",
+    "Laparotomía con lavado peritoneal de urgencia",
+    "Iniciar ACO continuos y AINE",
+    "Hospitalizar e iniciar clindamicina con gentamicina",
+    "Quistectomía laparoscópica conservadora programada"
+   ],
+   "clave": 4,
+   "especialidad": "Ginecología",
+   "tema": "Endometriosis",
+   "diagnostico": "Absceso tuboovárico en mujer con dismenorrea crónica (diferencial)",
+   "tipo": "conducta",
+   "dificultad": "alta",
+   "razonamiento": "Paso 1: fiebre + flujo purulento + dolor a la movilización cervical + leucocitosis + masa compleja heterogénea. Paso 2: infección pélvica con absceso (Monif III), no quiste en vidrio esmerilado. Paso 3: hospitalizar con clindamicina + gentamicina; drenar si no responde.",
+   "por_que_no": [
+    "Es para el estadio I sin masa anexial.",
+    "Para la rotura con peritonitis generalizada, ausente aquí.",
+    "Manejo del dolor cíclico, no de una infección con masa.",
+    "",
+    "Corresponde al quiste achocolatado ≥5 cm, sin fiebre ni leucocitosis."
+   ],
+   "trampa": [
+    "otro-estadio",
+    "otro-estadio",
+    "diferencial",
+    "",
+    "diferencial"
+   ],
+   "perla": "Masa anexial con fiebre y leucocitosis: piensa en absceso, no en quiste de chocolate.",
+   "fuente": {
+    "carpeta": "3.GINECOLOGIA",
+    "archivo": "20. EPI.pdf",
+    "seccion": "Tratamiento: estadio III"
+   },
+   "gemela_de": null
+  },
+  {
+   "id": "2026-10-22-noche-018",
+   "enunciado": "Lactante varón de 20 meses que hace 6 días tuvo cólicos y deposiciones con sangre sin fiebre, que cedieron. Hoy está pálido, irritable, con ictericia leve y pañales secos desde hace 14 horas. PA 112/72 mmHg, FC 146X'. Petequias en tórax. Hb 6,9 g/dL, esquistocitos, Coombs negativo, plaquetas 40 000/mm3, TP normal, creatinina 2,8 mg/dL, C3 normal. ¿Cuál es el diagnóstico más probable?",
+   "opciones": [
+    "Microangiopatía por desregulación del complemento",
+    "Microangiopatía posdiarreica por toxina",
+    "Coagulación intravascular diseminada por sepsis",
+    "Púrpura trombótica por déficit de ADAMTS13",
+    "Glomerulonefritis aguda posinfecciosa"
+   ],
+   "clave": 2,
+   "especialidad": "Pediatría",
+   "tema": "Síndrome urémico hemolítico",
+   "diagnostico": "SUH típico en lactante (diagnóstico)",
+   "tipo": "diagnostico",
+   "dificultad": "media",
+   "razonamiento": "Paso 1: disentería afebril previa + Hb baja con esquistocitos y Coombs negativo + plaquetopenia + oligoanuria. Paso 2: tríada con TP normal y C3 normal. Paso 3: corresponde a la forma típica por toxina, primera causa de IRA en menores de 5 años.",
+   "por_que_no": [
+    "Cursa sin diarrea y con C3 bajo.",
+    "",
+    "Daría TP y TTPa prolongados con fibrinógeno bajo.",
+    "Más en adultos, con fiebre y compromiso neurológico.",
+    "Cursa con C3 bajo y sin hemólisis ni plaquetopenia."
+   ],
+   "trampa": [
+    "diferencial",
+    "",
+    "diferencial",
+    "diferencial",
+    "diferencial"
+   ],
+   "perla": "Tríada IRA + anemia microangiopática + plaquetopenia tras disentería = forma típica.",
+   "fuente": {
+    "carpeta": "4.PEDIATRIA",
+    "archivo": "27. SUH.pdf",
+    "seccion": "pág. 1, cuadro clínico: tríada"
+   },
+   "gemela_de": null
+  },
+  {
+   "id": "2026-10-22-noche-019",
+   "enunciado": "Mujer de 29 años, nuligesta, con 2 años de relaciones sin protección sin embarazo y dismenorrea progresiva con dispareunia. Pareja con espermatograma normal. Tacto: masa anexial derecha dolorosa y útero poco móvil. Ecografía: quiste ovárico derecho de 6,5 cm y izquierdo de 5,2 cm, ambos con ecos finos homogéneos en vidrio esmerilado. CA-125 64 U/mL. Desea gestar lo antes posible. ¿Cuál es la conducta de elección?",
+   "opciones": [
+    "Quistectomía laparoscópica conservadora de ambos ovarios",
+    "Análogo de GnRH por 6 meses y luego reevaluar",
+    "Ooforectomía bilateral por laparoscopia",
+    "Anticonceptivo oral continuo por 6 meses",
+    "Histerectomía total con ooforectomía bilateral"
+   ],
+   "clave": 1,
+   "especialidad": "Ginecología",
+   "tema": "Endometriosis",
+   "diagnostico": "Endometriosis severa con deseo reproductivo: cirugía laparoscópica conservadora",
+   "tipo": "tratamiento",
+   "dificultad": "alta",
+   "razonamiento": "Paso 1: quistes ováricos con imagen en vidrio esmerilado de ≥5 cm + dismenorrea + subfertilidad. Paso 2: enfermedad avanzada con quistes de contenido achocolatado. Paso 3: con deseo gestacional y quistes ≥5 cm: cirugía laparoscópica conservadora.",
+   "por_que_no": [
+    "",
+    "Suprime la ovulación y no resuelve quistes de este tamaño.",
+    "Elimina la reserva ovárica de una mujer que desea gestar.",
+    "Útil en quistes <5 cm sin deseo de gestar; impide el embarazo.",
+    "Para enfermedad severa sin deseo de hijos."
+   ],
+   "trampa": [
+    "",
+    "otro-momento",
+    "otro",
+    "otra-poblacion",
+    "otra-poblacion"
+   ],
+   "perla": "Quiste achocolatado ≥5 cm o deseo de gestar: quistectomía laparoscópica conservadora.",
+   "fuente": {
+    "carpeta": "3.GINECOLOGIA",
+    "archivo": "21. ENDOMETRIOSIS.pdf",
+    "seccion": "Tratamiento: desea hijos / endometrioma ≥5 cm"
+   },
+   "gemela_de": null
+  },
+  {
+   "id": "2026-10-22-noche-020",
+   "enunciado": "Niña de 3 años, sin antecedentes familiares de diabetes, en su sexto día de hospitalización por anemia hemolítica con esquistocitos, plaquetas 40 000/mm3 y creatinina 3,0 mg/dL tras diarrea con sangre. No recibe corticoides ni dextrosa concentrada. Presenta dolor epigástrico, vómitos y glucemia de 268 mg/dL; lipasa 1 120 U/L, cetonemia negativa, pH 7,32, HCO3 18 mEq/L. ¿Qué explica mejor estos hallazgos nuevos?",
+   "opciones": [
+    "Hiperglucemia inducida por corticoides",
+    "Microangiopatía con daño pancreático",
+    "Acidosis urémica con íleo funcional",
+    "Debut de diabetes tipo 1 autoinmune",
+    "Hiperglucemia de estrés por hospitalización"
+   ],
+   "clave": 2,
+   "especialidad": "Pediatría",
+   "tema": "Síndrome urémico hemolítico",
+   "diagnostico": "SUH típico con compromiso pancreático",
+   "tipo": "complicacion",
+   "dificultad": "alta",
+   "razonamiento": "Paso 1: lipasa >3 veces lo normal + dolor epigástrico + hiperglucemia sin cetosis. Paso 2: microangiopatía posdiarreica con extensión extrarrenal. Paso 3: el endotelio pancreático se daña igual que el glomerular (páncreas y miocardio son sitios descritos).",
+   "por_que_no": [
+    "No recibe corticoides; además no están indicados en este cuadro.",
+    "",
+    "La acidosis es leve y no explica la lipasa ni la hiperglucemia.",
+    "Sin cetosis y con lipasa muy alta durante la microangiopatía, no es lo primero.",
+    "No explica la lipasa elevada ni el dolor epigástrico."
+   ],
+   "trampa": [
+    "otro-contexto",
+    "",
+    "otro",
+    "diferencial",
+    "otro"
+   ],
+   "perla": "Daño extrarrenal: SNC (el más frecuente), páncreas y miocardio.",
+   "fuente": {
+    "carpeta": "4.PEDIATRIA",
+    "archivo": "27. SUH.pdf",
+    "seccion": "pág. 1, daño extrarrenal: páncreas, miocardio"
+   },
+   "gemela_de": null
+  },
+  {
+   "id": "2026-10-22-noche-021",
+   "enunciado": "Niño de 4 años, 16 kg, en su segundo día de hospitalización tras deposiciones con sangre hace 6 días. Juega en la cama, come bien, sin disnea. FC 102X', PA 102/64 mmHg, sin soplos. Hb 8,3 g/dL (ayer 9,0), esquistocitos, plaquetas 66 000/mm3 sin sangrado, creatinina 1,4 mg/dL, diuresis de 1,2 mL/kg/h. El residente propone transfundir por la caída de hemoglobina. ¿Qué conducta corresponde?",
+   "opciones": [
+    "Vigilar hemoglobina sin transfundir",
+    "Transfundir paquete globular 10 mL/kg",
+    "Iniciar hierro oral y ácido fólico",
+    "Iniciar eritropoyetina subcutánea",
+    "Transfundir plaquetas y paquete globular"
+   ],
+   "clave": 1,
+   "especialidad": "Pediatría",
+   "tema": "Síndrome urémico hemolítico",
+   "diagnostico": "SUH típico con anemia leve asintomática: sin transfusión",
+   "tipo": "conducta",
+   "dificultad": "alta",
+   "razonamiento": "Paso 1: Hb 8,3 asintomático, hemodinámica normal, plaquetas sin sangrado. Paso 2: forma típica en fase hemolítica. Paso 3: la transfusión de GR se reserva para Hb <7 o síntomas; vigilar.",
+   "por_que_no": [
+    "",
+    "Indicado con Hb <7 o anemia sintomática; no es el caso.",
+    "La anemia es hemolítica mecánica, no ferropénica.",
+    "No es parte del manejo agudo descrito.",
+    "Ni la anemia ni la plaquetopenia sin sangrado lo justifican."
+   ],
+   "trampa": [
+    "",
+    "umbral",
+    "diferencial",
+    "otro",
+    "umbral"
+   ],
+   "perla": "Hb >7 asintomático: no transfundir, solo vigilar.",
+   "fuente": {
+    "carpeta": "4.PEDIATRIA",
+    "archivo": "27. SUH.pdf",
+    "seccion": "pág. 1, ¿Cuándo transfundir glóbulos rojos?"
+   },
+   "gemela_de": null
+  },
+  {
+   "id": "2026-10-22-noche-022",
+   "enunciado": "Niña de 9 años con segundo episodio en 14 meses de palidez, orina oscura y edema, sin diarrea previa; refiere solo rinorrea hace una semana. Su tío materno está en hemodiálisis desde los 20 años. PA 132/88 mmHg. Hb 7,9 g/dL, esquistocitos 6 %, plaquetas 61 000/mm3, creatinina 2,9 mg/dL, C3 52 mg/dL (bajo), C4 normal, coprocultivo negativo. ¿Qué evolución es esperable si solo recibe soporte?",
+   "opciones": [
+    "Respuesta completa a corticoides en cuatro semanas",
+    "Curso autolimitado con recuperación renal completa",
+    "Normalización del C3 en 6 a 8 semanas sin recaídas",
+    "Curso recurrente con progresión a daño renal crónico",
+    "Resolución tras plasmaféresis aislada sin recurrencia"
+   ],
+   "clave": 4,
+   "especialidad": "Pediatría",
+   "tema": "Síndrome urémico hemolítico",
+   "diagnostico": "SUH atípico recurrente mediado por complemento: pronóstico",
+   "tipo": "complicacion",
+   "dificultad": "alta",
+   "razonamiento": "Paso 1: sin diarrea, recurrente, familiar con ERC y C3 bajo con C4 normal. Paso 2: microangiopatía por desregulación de la vía alterna del complemento. Paso 3: sin bloqueo del complemento evoluciona con recaídas y mal pronóstico renal.",
+   "por_que_no": [
+    "Corticorrespuesta típica del síndrome nefrótico de cambios mínimos.",
+    "Es la evolución habitual de la forma posdiarreica del niño pequeño.",
+    "Es el patrón de la glomerulonefritis posestreptocócica.",
+    "",
+    "La plasmaféresis es el tratamiento del déficit de ADAMTS13, no corrige esta vía."
+   ],
+   "trampa": [
+    "diferencial",
+    "diferencial",
+    "diferencial",
+    "",
+    "mismo-grupo"
+   ],
+   "perla": "Forma atípica: C3 bajo, recurrente, mal pronóstico sin eculizumab.",
+   "fuente": {
+    "carpeta": "4.PEDIATRIA",
+    "archivo": "27. SUH.pdf",
+    "seccion": "pág. 1, tabla Típico vs Atípico: pronóstico"
+   },
+   "gemela_de": null
+  },
+  {
+   "id": "2026-10-22-noche-023",
+   "enunciado": "Mujer de 33 años, G1P1, sin deseo de más hijos por ahora, con dismenorrea secundaria de 2 años. Hace 6 meses la ecografía mostró un quiste ovárico izquierdo de 3,4 cm con ecos finos homogéneos, sin flujo interno; inició ACO combinado continuo. Hoy EVA 1/10, sin dispareunia. Control ecográfico: quiste de 3,1 cm con las mismas características. PA 114/72 mmHg. ¿Cuál es la conducta?",
+   "opciones": [
+    "Quistectomía laparoscópica programada",
+    "Mantener ACO continuos y vigilar",
+    "Histerectomía con ooforectomía bilateral",
+    "Cambiar a análogo de GnRH por 6 meses",
+    "Punción y aspiración ecoguiada del quiste"
+   ],
+   "clave": 2,
+   "especialidad": "Ginecología",
+   "tema": "Endometriosis",
+   "diagnostico": "Endometrioma <5 cm con buena respuesta a ACO: continuar manejo médico",
+   "tipo": "conducta",
+   "dificultad": "alta",
+   "razonamiento": "Paso 1: quiste ovárico <5 cm en vidrio esmerilado, estable, con dolor controlado. Paso 2: quiste de contenido achocolatado pequeño con buena respuesta médica. Paso 3: <5 cm con respuesta: mantener ACO continuos o progestágenos y vigilar.",
+   "por_que_no": [
+    "Se indica si el quiste es ≥5 cm o no responde al tratamiento médico.",
+    "",
+    "Para estadio IV sin deseo reproductivo; desproporcionado aquí.",
+    "Es para enfermedad refractaria; ella responde al ACO.",
+    "No es una opción contemplada en el manejo descrito."
+   ],
+   "trampa": [
+    "umbral",
+    "",
+    "otro-estadio",
+    "otro-estadio",
+    "otro"
+   ],
+   "perla": "Quiste achocolatado <5 cm que responde: tratamiento médico.",
+   "fuente": {
+    "carpeta": "3.GINECOLOGIA",
+    "archivo": "21. ENDOMETRIOSIS.pdf",
+    "seccion": "Endometrioma ovárico <5 cm"
+   },
+   "gemela_de": null
+  },
+  {
+   "id": "2026-10-22-noche-024",
+   "enunciado": "Mujer de 45 años, G4P4, con ligadura tubárica, con 2 años de menstruaciones abundantes de 9 días con coágulos y dismenorrea intensa. Hb 9,8 g/dL. Tacto: útero globular, uniformemente aumentado (tamaño de 10 semanas), blando y doloroso, sin masas anexiales. Ecografía: miometrio heterogéneo con quistes pequeños intramiometriales, ovarios normales, sin nódulos definidos. Ya recibió ACO y AINE por un año sin respuesta. ¿Cuál es el tratamiento definitivo?",
+   "opciones": [
+    "Histerectomía total abdominal o laparoscópica",
+    "Quistectomía ovárica laparoscópica",
+    "Electrofulguración laparoscópica de focos peritoneales",
+    "ACO continuos por 6 meses adicionales",
+    "Miomectomía por histeroscopia"
+   ],
+   "clave": 1,
+   "especialidad": "Ginecología",
+   "tema": "Endometriosis",
+   "diagnostico": "Adenomiosis en multípara (diferencial de endometriosis): tratamiento definitivo",
+   "tipo": "tratamiento",
+   "dificultad": "alta",
+   "razonamiento": "Paso 1: útero globular blando y doloroso + miometrio heterogéneo + hipermenorrea y dismenorrea en multípara. Paso 2: tejido endometrial dentro del miometrio, diferencial de los implantes extrauterinos. Paso 3: ACO es el médico; el definitivo es la histerectomía.",
+   "por_que_no": [
+    "",
+    "Los ovarios son normales; no hay quiste que resecar.",
+    "Trata implantes peritoneales; aquí el tejido está dentro del miometrio.",
+    "Es el tratamiento médico; ya fracasó en esta paciente.",
+    "Útil en miomas submucosos; aquí no hay nódulo definido."
+   ],
+   "trampa": [
+    "",
+    "diferencial",
+    "diferencial",
+    "otro-momento",
+    "diferencial"
+   ],
+   "perla": "Endometrio en el miometrio: ACO de inicio, histerectomía definitiva.",
+   "fuente": {
+    "carpeta": "3.GINECOLOGIA",
+    "archivo": "5. SUA.pdf",
+    "seccion": "Adenomiosis"
+   },
+   "gemela_de": null
+  },
+  {
+   "id": "2026-10-22-noche-025",
+   "enunciado": "Niña de 6 años de una comunidad rural de Loreto con 4 días de fiebre de 39 °C, pujo y deposiciones con moco y sangre; tuvo una crisis convulsiva breve al inicio. Al octavo día presenta palidez y diuresis de 0,3 mL/kg/h. Hb 7,1 g/dL, esquistocitos, plaquetas 44 000/mm3, creatinina 2,5 mg/dL. El coprocultivo informa bacilo gramnegativo inmóvil, no fermentador de lactosa. ¿Qué agente es el más probable?",
+   "opciones": [
+    "Shigella flexneri",
+    "Campylobacter jejuni",
+    "Salmonella enteritidis",
+    "Shigella sonnei",
+    "S. dysenteriae tipo 1"
+   ],
+   "clave": 5,
+   "especialidad": "Pediatría",
+   "tema": "Síndrome urémico hemolítico",
+   "diagnostico": "SUH por Shigella: serotipo productor de toxina Shiga",
+   "tipo": "mecanismo",
+   "dificultad": "alta",
+   "razonamiento": "Paso 1: disentería febril con convulsión + bacilo gramnegativo inmóvil no fermentador de lactosa = Shigella. Paso 2: luego microangiopatía con IRA. Paso 3: el serotipo productor de toxina Shiga es S. dysenteriae tipo 1.",
+   "por_que_no": [
+    "Es la especie más frecuente de disentería, pero no se asocia a esta complicación.",
+    "Disentería en menores; se complica con Guillain-Barré y artritis reactiva.",
+    "Es móvil y no produce toxina Shiga; no es la causa descrita.",
+    "Disentería leve en países desarrollados, sin toxina Shiga clásica.",
+    ""
+   ],
+   "trampa": [
+    "mismo-grupo",
+    "diferencial",
+    "diferencial",
+    "mismo-grupo",
+    ""
+   ],
+   "perla": "Toxina Shiga: E. coli O157:H7 y Shigella dysenteriae tipo 1.",
+   "fuente": {
+    "carpeta": "4.PEDIATRIA",
+    "archivo": "27. SUH.pdf",
+    "seccion": "pág. 1, serotipo de Shigella dysenteriae"
+   },
+   "gemela_de": null
+  },
+  {
+   "id": "2026-10-22-noche-026",
+   "enunciado": "Niño de 2 años hospitalizado al tercer día por deposiciones con sangre previas, palidez y descenso de diuresis. FC 120X', PA 100/62 mmHg, afebril, hidratado. Sin sangrado de mucosas, petequias aisladas en piernas. Hb 8,4 g/dL, plaquetas 19 000/mm3, LDH 1 650 U/L, haptoglobina indetectable, TP y TTPa normales, creatinina 1,8 mg/dL. La madre pide que se le transfunda algo para las plaquetas. ¿Qué conducta corresponde?",
+   "opciones": [
+    "Transfundir plasma fresco congelado 10 mL/kg",
+    "Administrar inmunoglobulina endovenosa 1 g/kg",
+    "Iniciar prednisona 2 mg/kg/día por 7 días",
+    "No transfundir plaquetas y vigilar",
+    "Transfundir plaquetas por recuento menor de 20 000"
+   ],
+   "clave": 4,
+   "especialidad": "Pediatría",
+   "tema": "Síndrome urémico hemolítico",
+   "diagnostico": "SUH típico con plaquetopenia sin sangrado: no transfundir plaquetas",
+   "tipo": "conducta",
+   "dificultad": "alta",
+   "razonamiento": "Paso 1: LDH alta y haptoglobina indetectable = hemólisis; TP/TTPa normales descartan coagulopatía de consumo. Paso 2: posdiarrea + IRA + plaquetopenia = microangiopatía por toxina. Paso 3: sin sangrado activo ni procedimiento, las plaquetas no se transfunden.",
+   "por_que_no": [
+    "Con TP y TTPa normales no hay déficit de factores que corregir.",
+    "Es el manejo del sangrado en la trombocitopenia inmune, con TP normal y sin esquistocitos.",
+    "Corticoides útiles en la púrpura inmune, sin beneficio en este cuadro.",
+    "",
+    "El umbral numérico aislado no es indicación; solo sangrado activo o procedimiento."
+   ],
+   "trampa": [
+    "otro",
+    "diferencial",
+    "diferencial",
+    "",
+    "umbral"
+   ],
+   "perla": "Plaquetas en este cuadro: solo si sangra o va a procedimiento invasivo.",
+   "fuente": {
+    "carpeta": "4.PEDIATRIA",
+    "archivo": "27. SUH.pdf",
+    "seccion": "pág. 1, ¿Se transfunden plaquetas?"
+   },
+   "gemela_de": null
+  },
+  {
+   "id": "2026-10-22-noche-027",
+   "enunciado": "Mujer de 32 años, nuligesta, con 20 meses de relaciones regulares sin protección sin embarazo, dismenorrea secundaria y dispareunia profunda. Ciclos ovulatorios de 27 días, AMH normal, histerosalpingografía con trompas permeables, espermatograma de la pareja normal. Tacto: nodularidad dolorosa en uterosacros. Ecografía: ovarios sin quistes. Desea gestar pronto. ¿Cuál es la conducta más adecuada?",
+   "opciones": [
+    "Histerectomía con ooforectomía bilateral",
+    "Progestágeno solo continuo",
+    "ACO combinado continuo por 6 meses",
+    "Laparoscopia conservadora de los focos",
+    "Análogo de GnRH por 6 meses"
+   ],
+   "clave": 4,
+   "especialidad": "Ginecología",
+   "tema": "Endometriosis",
+   "diagnostico": "Endometriosis leve con infertilidad y deseo gestacional: laparoscopia",
+   "tipo": "conducta",
+   "dificultad": "muy alta",
+   "razonamiento": "Paso 1: subfertilidad con estudio de ovulación, trompas y pareja normales + dismenorrea + nódulos uterosacros. Paso 2: implantes peritoneales sin quistes ováricos. Paso 3: si desea gestar, los tratamientos hormonales anovulatorios no sirven: cirugía laparoscópica conservadora.",
+   "por_que_no": [
+    "Elimina la posibilidad reproductiva.",
+    "Útil para el dolor sin deseo gestacional; es anovulatorio.",
+    "Controla el dolor pero impide la gestación que busca.",
+    "",
+    "Suprime la ovulación; no mejora la fertilidad."
+   ],
+   "trampa": [
+    "otra-poblacion",
+    "otra-poblacion",
+    "otra-poblacion",
+    "",
+    "otra-poblacion"
+   ],
+   "perla": "Quiere gestar: no supresión hormonal; laparoscopia conservadora.",
+   "fuente": {
+    "carpeta": "3.GINECOLOGIA",
+    "archivo": "21. ENDOMETRIOSIS.pdf",
+    "seccion": "Si mujer quiere salir gestando, tto de endometriosis (cirugía)"
+   },
+   "gemela_de": null
+  },
+  {
+   "id": "2026-10-22-noche-028",
+   "enunciado": "Niño de 3 años con 5 días de diarrea con sangre; hoy febril 39,4 °C, letárgico, frialdad distal, llenado capilar 4 s, PA 70/40 mmHg. Presenta sangrado en sitios de venopunción y equimosis. Hb 8,8 g/dL, esquistocitos escasos, plaquetas 38 000/mm3, creatinina 1,9 mg/dL. Se debe distinguir entre microangiopatía posdiarreica y consumo de factores por sepsis. ¿Qué examen orienta mejor esa diferencia?",
+   "opciones": [
+    "Recuento de reticulocitos",
+    "Deshidrogenasa láctica sérica",
+    "TP, TTPa y dosaje de fibrinógeno",
+    "Creatinina y urea séricas",
+    "Recuento de esquistocitos en el frotis"
+   ],
+   "clave": 3,
+   "especialidad": "Pediatría",
+   "tema": "Síndrome urémico hemolítico",
+   "diagnostico": "Diferencial de SUH: coagulación intravascular diseminada",
+   "tipo": "prueba",
+   "dificultad": "alta",
+   "razonamiento": "Paso 1: shock séptico con sangrado difuso, plaquetopenia y esquistocitos. Paso 2: la sepsis consume factores; la microangiopatía por toxina no. Paso 3: TP/TTPa prolongados y fibrinógeno bajo orientan a coagulopatía de consumo; normales, a la forma posdiarreica.",
+   "por_que_no": [
+    "Refleja respuesta medular, presente en ambas.",
+    "Se eleva en cualquier hemólisis; no separa ambas.",
+    "",
+    "Ambos cuadros pueden dar falla renal.",
+    "Pueden aparecer en ambas condiciones."
+   ],
+   "trampa": [
+    "no-confirmatorio",
+    "no-confirmatorio",
+    "",
+    "no-confirmatorio",
+    "no-confirmatorio"
+   ],
+   "perla": "Microangiopatía por toxina: TP y TTPa normales; si están prolongados, piensa en CID.",
+   "fuente": {
+    "carpeta": "16. HEMATOLOGIA",
+    "archivo": "20. PURPURAS.pdf",
+    "seccion": "PTT: otras AHMA (SHU, CID)"
+   },
+   "gemela_de": null
+  },
+  {
+   "id": "2026-10-22-noche-029",
+   "enunciado": "Niño de 2 años, 11 kg, con diarrea sanguinolenta que cedió hace 3 días; hoy diuresis de 0,4 mL/kg/h en las últimas 12 horas. PA 106/64 mmHg, FC 118X', FR 28X', sin edemas, pulmones limpios. Hb 8,9 g/dL, esquistocitos, plaquetas 58 000/mm3, creatinina 1,9 mg/dL, urea 82 mg/dL, K 5,3 mEq/L, HCO3 18 mEq/L. EKG normal. ¿Qué conducta corresponde ahora?",
+   "opciones": [
+    "Transfundir paquete globular por la anemia",
+    "Soporte con balance hídrico y electrolitos",
+    "Iniciar diálisis peritoneal por la oliguria",
+    "Bicarbonato de sodio endovenoso por la acidosis",
+    "Gluconato de calcio endovenoso por el potasio"
+   ],
+   "clave": 2,
+   "especialidad": "Pediatría",
+   "tema": "Síndrome urémico hemolítico",
+   "diagnostico": "SUH típico oligúrico sin indicación dialítica: soporte con balance hídrico",
+   "tipo": "conducta",
+   "dificultad": "alta",
+   "razonamiento": "Paso 1: oliguria con K, HCO3, urea y volumen aún aceptables. Paso 2: microangiopatía posdiarreica sin criterio de reemplazo renal. Paso 3: manejo de soporte: hospitalizar, líquidos según balance, PA, electrolitos y diuresis.",
+   "por_que_no": [
+    "Hb 8,9 sin síntomas no alcanza el umbral transfusional.",
+    "",
+    "La oliguria aún responde a soporte; sin K, acidosis, sobrecarga ni uremia graves.",
+    "HCO3 18 es acidosis leve; el bicarbonato se reserva para HCO3 <15.",
+    "K 5,3 sin cambios en el EKG no requiere estabilizar membrana."
+   ],
+   "trampa": [
+    "umbral",
+    "",
+    "otro-estadio",
+    "umbral",
+    "umbral"
+   ],
+   "perla": "Diálisis solo si oligoanuria refractaria, sobrecarga, K alto, acidosis grave o uremia.",
+   "fuente": {
+    "carpeta": "4.PEDIATRIA",
+    "archivo": "27. SUH.pdf",
+    "seccion": "pág. 1, Manejo inicial / ¿Cuándo hacer diálisis?"
+   },
+   "gemela_de": null
+  },
+  {
+   "id": "2026-10-22-noche-030",
+   "enunciado": "Niño de 2 años hospitalizado por fiebre, tos y dificultad respiratoria; radiografía con consolidación y derrame derecho, drenado con líquido purulento y diplococos grampositivos en cadenas cortas. Al séptimo día presenta palidez, orina oscura y oliguria, sin diarrea en ningún momento. Hb 6,9 g/dL, esquistocitos, plaquetas 39 000/mm3, creatinina 2,3 mg/dL. ¿Cuál es el agente más probable de la complicación?",
+   "opciones": [
+    "Escherichia coli O157:H7",
+    "Streptococcus pyogenes",
+    "Streptococcus pneumoniae",
+    "Shigella dysenteriae tipo 1",
+    "Staphylococcus aureus"
+   ],
+   "clave": 3,
+   "especialidad": "Pediatría",
+   "tema": "Síndrome urémico hemolítico",
+   "diagnostico": "SUH asociado a neumococo",
+   "tipo": "mecanismo",
+   "dificultad": "alta",
+   "razonamiento": "Paso 1: neumonía con empiema y diplococos grampositivos, luego hemólisis + plaquetopenia + IRA sin diarrea. Paso 2: microangiopatía no posdiarreica tras infección invasiva. Paso 3: el neumococo es la causa infecciosa no entérica descrita.",
+   "por_que_no": [
+    "Agente principal de la forma típica, pero requiere diarrea sanguinolenta previa.",
+    "Gatilla glomerulonefritis con C3 bajo, sin hemólisis ni plaquetopenia.",
+    "",
+    "Produce toxina Shiga tras disentería; aquí no hubo diarrea.",
+    "Causa empiema en lactantes, pero no se describe como gatillo de esta complicación."
+   ],
+   "trampa": [
+    "diferencial",
+    "diferencial",
+    "",
+    "diferencial",
+    "diferencial"
+   ],
+   "perla": "Microangiopatía sin diarrea tras neumonía con empiema: neumococo.",
+   "fuente": {
+    "carpeta": "4.PEDIATRIA",
+    "archivo": "27. SUH.pdf",
+    "seccion": "pág. 1, etiología: toxina Shiga y neumococo"
+   },
+   "gemela_de": null
+  },
+  {
+   "id": "2026-10-22-noche-031",
+   "enunciado": "Mujer de 26 años, G0, sin deseo de gestar en los próximos años, con 20 meses de dismenorrea progresiva, dispareunia y disquesia. Tras AINE inició ACO combinado continuo hace 7 meses, con mejoría mínima (EVA de 8 a 7/10). Rechaza por ahora la cirugía. Tacto: nodularidad dolorosa en ligamentos uterosacros. Ecografía: ovarios sin quistes. Sin contraindicación hormonal. ¿Qué tratamiento médico de segunda línea corresponde?",
+   "opciones": [
+    "Mantener ACO continuos por 6 meses más",
+    "Cambiar ACO continuos a régimen cíclico",
+    "AINE a dosis máximas de forma diaria",
+    "Agonista o antagonista de GnRH por 6 meses",
+    "Danazol como alternativa de primera elección"
+   ],
+   "clave": 4,
+   "especialidad": "Ginecología",
+   "tema": "Endometriosis",
+   "diagnostico": "Endometriosis refractaria a ACO: análogos de GnRH",
+   "tipo": "tratamiento",
+   "dificultad": "alta",
+   "razonamiento": "Paso 1: dolor severo con implantes profundos (nodularidad uterosacra) y falla de ACO continuos. Paso 2: enfermedad refractaria al primer escalón hormonal. Paso 3: rechaza cirugía: análogos de GnRH, que reducen los focos.",
+   "por_que_no": [
+    "Ya hay falla tras 7 meses; prolongarlo no es la segunda línea.",
+    "El régimen continuo es el correcto; cíclico deja menstruaciones dolorosas.",
+    "Es el primer escalón, para dolor leve.",
+    "",
+    "Fue el fármaco previo a los ACO; hoy no es primera elección."
+   ],
+   "trampa": [
+    "otro-momento",
+    "otro",
+    "otro-estadio",
+    "",
+    "otro"
+   ],
+   "perla": "Falla de ACO: agonista/antagonista de GnRH; si falla todo, laparoscopia.",
+   "fuente": {
+    "carpeta": "3.GINECOLOGIA",
+    "archivo": "21. ENDOMETRIOSIS.pdf",
+    "seccion": "Tratamiento médico para severa o refractaria"
+   },
+   "gemela_de": null
+  },
+  {
+   "id": "2026-10-22-noche-032",
+   "enunciado": "En un nido de Huancayo, 3 niños presentaron deposiciones con sangre; uno de ellos ya está hospitalizado con palidez, plaquetopenia y creatinina elevada, y el coprocultivo aisló E. coli O157:H7. Llega su compañera de 4 años con 2 días de deposiciones con sangre y cólicos, sin fiebre. FC 112X', bebe con avidez, ojos hundidos, pliegue que regresa lento. Hb 11,9 g/dL, plaquetas 236 000/mm3, creatinina 0,4 mg/dL. ¿Cuál es la conducta adecuada?",
+   "opciones": [
+    "Rehidratación oral y vigilancia, sin antibióticos ni antidiarreicos",
+    "Hidratación endovenosa con 100 mL/kg en 3 horas",
+    "Azitromicina 10 mg/kg el primer día y 5 mg/kg por 4 días",
+    "Loperamida y sales de rehidratación oral",
+    "Ciprofloxacino oral por 3 días y rehidratación oral"
+   ],
+   "clave": 1,
+   "especialidad": "Pediatría",
+   "tema": "Síndrome urémico hemolítico",
+   "diagnostico": "Diarrea por E. coli enterohemorrágica en contexto de brote: evitar antibióticos y antidiarreicos",
+   "tipo": "conducta",
+   "dificultad": "muy alta",
+   "razonamiento": "Paso 1: brote con O157:H7 confirmado y caso índice con microangiopatía. Paso 2: disentería sin fiebre por el mismo agente, aún con Hb, plaquetas y creatinina normales; sed y ojos hundidos = deshidratación moderada. Paso 3: rehidratar (plan B) y evitar ATB y loperamida, que aumentan la toxina.",
+   "por_que_no": [
+    "",
+    "Plan C es para deshidratación severa; esta es moderada.",
+    "Antibiótico de elección en disentería por Shigella, pero aquí la fuente es O157:H7.",
+    "Los antidiarreicos también aumentan la exposición a la toxina.",
+    "Los antibióticos aumentan la liberación de toxina con este agente."
+   ],
+   "trampa": [
+    "",
+    "otro-estadio",
+    "otro-contexto",
+    "otro",
+    "otro-contexto"
+   ],
+   "perla": "Disentería por E. coli O157:H7: nada de antibióticos ni loperamida.",
+   "fuente": {
+    "carpeta": "4.PEDIATRIA",
+    "archivo": "27. SUH.pdf",
+    "seccion": "pág. 1, SUH típico: ¿Qué evitar?"
+   },
+   "gemela_de": null
+  },
+  {
+   "id": "2026-10-22-noche-033",
+   "enunciado": "Mujer de 34 años, sin diarrea previa, con 3 días de fiebre de 38,4 °C, cefalea y episodios de confusión que fluctúan. PA 126/80 mmHg, FC 104X'. Petequias en piernas, sin esplenomegalia. Hb 7,8 g/dL, esquistocitos 7 %, plaquetas 14 000/mm3, LDH 1 900 U/L, Coombs negativo, TP y TTPa normales, creatinina 1,6 mg/dL, C3 normal, test de embarazo negativo. ¿Cuál es el tratamiento de elección?",
+   "opciones": [
+    "Eculizumab endovenoso",
+    "Transfusión de concentrado de plaquetas",
+    "Soporte hidroelectrolítico exclusivo",
+    "Plasmaféresis con plasma fresco",
+    "Hemodiálisis de urgencia"
+   ],
+   "clave": 4,
+   "especialidad": "Pediatría",
+   "tema": "Síndrome urémico hemolítico",
+   "diagnostico": "Púrpura trombótica trombocitopénica del adulto (diferencial de SUH)",
+   "tipo": "tratamiento",
+   "dificultad": "alta",
+   "razonamiento": "Paso 1: esquistocitos + plaquetopenia + fiebre + confusión + afectación renal leve, sin diarrea, C3 normal. Paso 2: pentada por déficit de ADAMTS13. Paso 3: la plasmaféresis repone la enzima y retira anticuerpos; evitar plaquetas.",
+   "por_que_no": [
+    "Bloquea C5; de elección en la forma mediada por complemento, con C3 bajo.",
+    "Está contraindicada aquí: alimenta los microtrombos.",
+    "Es el manejo de la forma posdiarreica infantil.",
+    "",
+    "La función renal está levemente alterada; no corrige el déficit enzimático."
+   ],
+   "trampa": [
+    "diferencial",
+    "otro",
+    "diferencial",
+    "",
+    "otro"
+   ],
+   "perla": "Fiebre + confusión + microangiopatía en adulto: plasmaféresis; no dar plaquetas.",
+   "fuente": {
+    "carpeta": "16. HEMATOLOGIA",
+    "archivo": "20. PURPURAS.pdf",
+    "seccion": "PTT: tratamiento"
+   },
+   "gemela_de": null
+  },
+  {
+   "id": "2026-10-22-noche-034",
+   "enunciado": "Mujer de 27 años, puérpera de 10 días de parto vaginal sin complicaciones, con PA normal durante la gestación. Acude por edema, orina escasa y fatiga, sin diarrea ni fiebre. PA 150/94 mmHg. Hb 7,4 g/dL, esquistocitos, plaquetas 58 000/mm3, LDH 1 500 U/L, TGO 30 U/L, creatinina 4,1 mg/dL, actividad de ADAMTS13 72 % (normal), C3 48 mg/dL (bajo), C4 normal. ¿Cuál es el tratamiento específico?",
+   "opciones": [
+    "Plasmaféresis con plasma fresco como único tratamiento",
+    "Metilprednisolona en pulsos por 3 días",
+    "Soporte con diálisis sin tratamiento específico",
+    "Eculizumab endovenoso con soporte renal",
+    "Sulfato de magnesio y control de la presión arterial"
+   ],
+   "clave": 4,
+   "especialidad": "Pediatría",
+   "tema": "Síndrome urémico hemolítico",
+   "diagnostico": "SUH atípico desencadenado en el puerperio",
+   "tipo": "tratamiento",
+   "dificultad": "muy alta",
+   "razonamiento": "Paso 1: microangiopatía con IRA, sin diarrea, ADAMTS13 normal, C3 bajo con C4 normal, transaminasas normales. Paso 2: microangiopatía por complemento con el embarazo como desencadenante. Paso 3: eculizumab bloquea C5 y frena el daño endotelial.",
+   "por_que_no": [
+    "Tratamiento de elección cuando ADAMTS13 está muy disminuida.",
+    "Sin beneficio demostrado en la microangiopatía por complemento.",
+    "Es suficiente en la forma posdiarreica, no en esta.",
+    "",
+    "Útil en preeclampsia; en el puerperio tardío con TGO normal no explica el cuadro."
+   ],
+   "trampa": [
+    "diferencial",
+    "otro",
+    "diferencial",
+    "",
+    "otra-poblacion"
+   ],
+   "perla": "Microangiopatía + ADAMTS13 normal + C3 bajo: eculizumab (anti-C5).",
+   "fuente": {
+    "carpeta": "4.PEDIATRIA",
+    "archivo": "27. SUH.pdf",
+    "seccion": "pág. 1, SUH atípico: ¿Tratamiento específico?"
+   },
+   "gemela_de": null
+  },
+  {
+   "id": "2026-10-22-noche-035",
+   "enunciado": "Mujer de 30 años, G0, que planea gestar en un año, con 3 años de dismenorrea y dispareunia. Recibió AINE, ACO continuos 6 meses y agonista de GnRH 6 meses sin mejoría (EVA 8/10). Tacto: dolor en fondo de saco, sin nódulos rectovaginales. Ecografía y resonancia: ovarios sin quistes, sin lesiones infiltrantes de recto ni vejiga. En laparoscopia diagnóstica previa se describieron múltiples implantes peritoneales con adherencias finas. ¿Cuál es el tratamiento indicado?",
+   "opciones": [
+    "Danazol oral por 6 meses",
+    "Histerectomía total con ooforectomía bilateral",
+    "Quistectomía ovárica laparoscópica",
+    "Repetir agonista de GnRH por 6 meses",
+    "Electrofulguración laparoscópica de los implantes"
+   ],
+   "clave": 5,
+   "especialidad": "Ginecología",
+   "tema": "Endometriosis",
+   "diagnostico": "Endometriosis peritoneal refractaria con deseo reproductivo: electrofulguración laparoscópica",
+   "tipo": "tratamiento",
+   "dificultad": "muy alta",
+   "razonamiento": "Paso 1: implantes peritoneales con adherencias finas, sin quistes ni infiltración, refractarios a ACO y GnRH. Paso 2: enfermedad peritoneal sin contraindicación quirúrgica. Paso 3: con deseo de hijos, la laparoscopia con electrofulguración destruye los focos y conserva útero y ovarios.",
+   "por_que_no": [
+    "Opción médica antigua y anovulatoria; ya fracasó la supresión.",
+    "Es para quienes no desean hijos.",
+    "No hay quistes ováricos que resecar.",
+    "Ya fracasó; además impide la gestación planeada.",
+    ""
+   ],
+   "trampa": [
+    "otro-momento",
+    "otra-poblacion",
+    "otro-contexto",
+    "otro-momento",
+    ""
+   ],
+   "perla": "Refractaria a ACO y GnRH que desea hijos: laparoscopia con electrofulguración.",
+   "fuente": {
+    "carpeta": "3.GINECOLOGIA",
+    "archivo": "21. ENDOMETRIOSIS.pdf",
+    "seccion": "Si no hay respuesta a ACOs ni agonistas GnRH: desea hijos → laparoscopia → electrofulguración"
+   },
+   "gemela_de": null
+  },
+  {
+   "id": "2026-10-22-noche-036",
+   "enunciado": "Niño de 18 meses con deposiciones sanguinolentas hace 7 días que ya cedieron. Hoy presenta palidez, irritabilidad, edema palpebral leve y pañales casi secos. PA 110/70 mmHg, FC 140X'. Hb 7,9 g/dL, reticulocitos 6 %, bilirrubina indirecta 2,4 mg/dL, LDH 1 400 U/L, plaquetas 61 000/mm3, creatinina 1,7 mg/dL. ¿Qué hallazgo del examen de sangre periférica confirma el mecanismo de la anemia?",
+   "opciones": [
+    "Esquistocitos (hematíes fragmentados)",
+    "Macrocitos con neutrófilos hipersegmentados",
+    "Dianocitos con punteado basófilo",
+    "Cuerpos de Heinz con células mordidas",
+    "Esferocitos con Coombs directo positivo"
+   ],
+   "clave": 1,
+   "especialidad": "Pediatría",
+   "tema": "Síndrome urémico hemolítico",
+   "diagnostico": "SUH típico: hallazgo del frotis que confirma microangiopatía",
+   "tipo": "prueba",
+   "dificultad": "media",
+   "razonamiento": "Paso 1: reticulocitos, bilirrubina indirecta y LDH altos = hemólisis. Paso 2: posdiarrea + plaquetopenia + IRA = microangiopatía. Paso 3: la fragmentación eritrocitaria en vasos dañados se ve como esquistocitos.",
+   "por_que_no": [
+    "",
+    "Corresponden a anemia megaloblástica, no hemolítica.",
+    "Sugieren talasemia o intoxicación por plomo.",
+    "Propios del déficit de G6PD tras oxidantes.",
+    "Orientan a hemólisis autoinmune, no mecánica."
+   ],
+   "trampa": [
+    "",
+    "diferencial",
+    "diferencial",
+    "diferencial",
+    "diferencial"
+   ],
+   "perla": "Anemia microangiopática = esquistocitos con Coombs negativo.",
+   "fuente": {
+    "carpeta": "4.PEDIATRIA",
+    "archivo": "27. SUH.pdf",
+    "seccion": "pág. 1, lesión en vasos sanguíneos origina anemia hemolítica microangiopática"
+   },
+   "gemela_de": null
+  },
+  {
+   "id": "2026-10-22-noche-037",
+   "enunciado": "Mujer de 31 años, G1P1, con 2 años de dolor pélvico cíclico, dispareunia profunda y dolor al defecar durante la menstruación. Recibió AINE, luego ACO combinado continuo por 6 meses y después desogestrel continuo por 6 meses, con EVA persistente de 7/10. No desea más hijos por ahora. Tacto: útero en retroversión, nodularidad dolorosa en ligamentos uterosacros. Ecografía: ovarios sin quistes. ¿Cuál es la siguiente conducta?",
+   "opciones": [
+    "Repetir el ACO combinado a dosis mayor",
+    "Laparoscopia diagnóstica y terapéutica",
+    "Quistectomía ovárica laparoscópica",
+    "Continuar AINE y control en 6 meses",
+    "Histerectomía total con ooforectomía bilateral"
+   ],
+   "clave": 2,
+   "especialidad": "Ginecología",
+   "tema": "Endometriosis",
+   "diagnostico": "Endometriosis sin respuesta a ACO ni progestágeno: laparoscopia",
+   "tipo": "conducta",
+   "dificultad": "alta",
+   "razonamiento": "Paso 1: dolor cíclico + dispareunia + disquesia + nodularidad uterosacra = implantes profundos. Paso 2: sin respuesta a AINE, ACO continuos ni progestágeno. Paso 3: siguiente paso: laparoscopia, que confirma y trata.",
+   "por_que_no": [
+    "Ya fracasó el régimen continuo; repetirlo no cambia la evolución.",
+    "",
+    "Indicada en quistes ováricos ≥5 cm; la eco no muestra quistes.",
+    "El dolor leve responde a AINE; este es persistente y severo.",
+    "Para enfermedad severa sin deseo reproductivo definitivo; aquí es joven."
+   ],
+   "trampa": [
+    "otro-momento",
+    "",
+    "otro-contexto",
+    "otro-estadio",
+    "otro-estadio"
+   ],
+   "perla": "Fracaso de ACO y progestágeno = laparoscopia (diagnóstica y terapéutica).",
+   "fuente": {
+    "carpeta": "3.GINECOLOGIA",
+    "archivo": "21. ENDOMETRIOSIS.pdf",
+    "seccion": "Tratamiento: estadio 2 sin respuesta"
+   },
+   "gemela_de": null
+  },
+  {
+   "id": "2026-10-22-noche-038",
+   "enunciado": "Adolescente de 16 años operada a los 13 años por dolor pélvico cíclico sin menstruación visible, con colección hemática vaginal detrás de una membrana himeneal cerrada. Desde entonces menstrúa normalmente, pero hace un año presenta dolor menstrual progresivo que la obliga a faltar al colegio. Tacto rectal: nodularidad dolorosa en fondo de saco posterior. Ecografía: ovario derecho con quiste de 2,5 cm en vidrio esmerilado. ¿Qué mecanismo explica mejor su cuadro actual?",
+   "opciones": [
+    "Mala migración de células madre embrionarias",
+    "Componente genético con agregación familiar",
+    "Alteración de la vigilancia inmunitaria peritoneal",
+    "Menstruación retrógrada hacia el peritoneo",
+    "Estimulación hormonal estrogénica excesiva"
+   ],
+   "clave": 4,
+   "especialidad": "Ginecología",
+   "tema": "Endometriosis",
+   "diagnostico": "Endometriosis secundaria a obstrucción del flujo menstrual: menstruación retrógrada",
+   "tipo": "mecanismo",
+   "dificultad": "media",
+   "razonamiento": "Paso 1: himen imperforado con hematocolpos previo, luego dismenorrea progresiva, nódulo en Douglas y quiste en vidrio esmerilado. Paso 2: tejido endometrial implantado fuera del útero. Paso 3: la obstrucción favoreció el reflujo menstrual por las trompas: menstruación retrógrada.",
+   "por_que_no": [
+    "Es otra teoría, pero no la que explica la obstrucción previa del flujo.",
+    "No hay antecedente familiar en el caso.",
+    "Teoría complementaria, no la que relaciona la obstrucción.",
+    "",
+    "Mantiene los focos, pero no explica cómo llegaron al peritoneo."
+   ],
+   "trampa": [
+    "otro",
+    "otro",
+    "otro",
+    "",
+    "otro"
+   ],
+   "perla": "Teoría principal de los implantes: menstruación retrógrada.",
+   "fuente": {
+    "carpeta": "3.GINECOLOGIA",
+    "archivo": "21. ENDOMETRIOSIS.pdf",
+    "seccion": "Teorías"
+   },
+   "gemela_de": null
+  },
+  {
+   "id": "2026-10-22-noche-039",
+   "enunciado": "Niña de 2 años, 12 kg, con anuria de 20 horas tras deposiciones sanguinolentas hace 7 días. FR 44X' profunda, FC 138X', PA 108/70 mmHg, sin edemas. Hb 7,6 g/dL, esquistocitos, plaquetas 42 000/mm3. AGA: pH 7,08, PaCO2 18 mmHg, HCO3 6 mEq/L; tras dos correcciones con bicarbonato, HCO3 7 mEq/L. Na 134 mEq/L, Cl 102 mEq/L, K 5,7 mEq/L, urea 168 mg/dL. EKG normal. ¿Cuál es la conducta?",
+   "opciones": [
+    "Intubación con hiperventilación mecánica",
+    "Rehidratación endovenosa con 100 mL/kg",
+    "Iniciar diálisis por acidosis refractaria",
+    "Tercera corrección con bicarbonato endovenoso",
+    "Furosemida endovenosa en bolo"
+   ],
+   "clave": 3,
+   "especialidad": "Pediatría",
+   "tema": "Síndrome urémico hemolítico",
+   "diagnostico": "SUH típico con acidosis metabólica grave refractaria: diálisis",
+   "tipo": "conducta",
+   "dificultad": "alta",
+   "razonamiento": "Paso 1: pH 7,08 y HCO3 6 con anión gap 26 (134-102-6) y PaCO2 compensatoria. Paso 2: acidosis metabólica grave refractaria por IRA anúrica de la microangiopatía. Paso 3: acidosis grave refractaria es indicación de diálisis.",
+   "por_que_no": [
+    "La compensación respiratoria ya es máxima; no trata la causa.",
+    "En anuria sin deshidratación provoca sobrecarga.",
+    "",
+    "Ya fracasaron dos correcciones; además aporta sodio y volumen en anuria.",
+    "No corrige la acidosis en un riñón anúrico."
+   ],
+   "trampa": [
+    "otro",
+    "otro-contexto",
+    "",
+    "otro-momento",
+    "otro"
+   ],
+   "perla": "Acidosis grave que no corrige con bicarbonato en anuria = diálisis.",
+   "fuente": {
+    "carpeta": "4.PEDIATRIA",
+    "archivo": "27. SUH.pdf",
+    "seccion": "pág. 1, ¿Cuándo hacer diálisis?"
+   },
+   "gemela_de": null
+  },
+  {
+   "id": "2026-10-22-noche-040",
+   "enunciado": "Mujer de 36 años, en una zona sin acceso a otros fármacos, recibe desde hace 4 meses un tratamiento oral por dolor pélvico cíclico, dispareunia y un quiste ovárico de 2,8 cm en vidrio esmerilado. Refiere mejoría del dolor, pero aparición de acné, vello en mentón y abdomen, y voz algo más grave. Peso +4 kg. TGO 112 U/L, TGP 138 U/L (previas normales). ¿Qué fármaco explica mejor estos efectos?",
+   "opciones": [
+    "Progestágeno solo continuo",
+    "Anticonceptivo combinado con etinilestradiol",
+    "Antiinflamatorio no esteroideo diario",
+    "Análogo de GnRH de depósito",
+    "Danazol (andrógeno sintético)"
+   ],
+   "clave": 5,
+   "especialidad": "Ginecología",
+   "tema": "Endometriosis",
+   "diagnostico": "Efectos adversos del danazol en endometriosis",
+   "tipo": "complicacion",
+   "dificultad": "media",
+   "razonamiento": "Paso 1: acné + hirsutismo + voz grave + transaminasas elevadas tras iniciar el tratamiento. Paso 2: efectos androgénicos y hepatotóxicos durante manejo del dolor cíclico con quiste achocolatado. Paso 3: corresponde al danazol, andrógeno sintético usado antes de los ACO.",
+   "por_que_no": [
+    "Da sangrado irregular inicial; no virilización con hepatotoxicidad.",
+    "Sus riesgos son trombosis, HTA y colestasis, no virilización.",
+    "Su riesgo es gastrointestinal y renal, no androgénico.",
+    "Produce síntomas de hipoestrogenismo, no hirsutismo.",
+    ""
+   ],
+   "trampa": [
+    "mismo-grupo",
+    "mismo-grupo",
+    "mismo-grupo",
+    "mismo-grupo",
+    ""
+   ],
+   "perla": "Danazol: hirsutismo, acné y hepatotoxicidad.",
+   "fuente": {
+    "carpeta": "3.GINECOLOGIA",
+    "archivo": "21. ENDOMETRIOSIS.pdf",
+    "seccion": "Antes de los ACOs: danazol, RAMs"
+   },
+   "gemela_de": null
+  },
+  {
+   "id": "2026-10-22-noche-041",
+   "enunciado": "Mujer de 30 años, G0, con 3 años de dismenorrea secundaria, dispareunia y disquesia menstrual. CA-125 de 58 U/mL. Resonancia pélvica: pequeñas lesiones hiperintensas en T1 en ligamentos uterosacros y fondo de saco, sin quistes ováricos. Ecografía transvaginal normal. Persiste con dolor pese a AINE, ACO continuos y progestágeno. Se requiere confirmar la naturaleza de las lesiones antes de definir el tratamiento. ¿Cuál es el examen que confirma?",
+   "opciones": [
+    "Dosaje seriado de CA-125",
+    "Resonancia magnética con contraste",
+    "Ecografía transvaginal con Doppler",
+    "Histeroscopia con biopsia endometrial",
+    "Laparoscopia con biopsia"
+   ],
+   "clave": 5,
+   "especialidad": "Ginecología",
+   "tema": "Endometriosis",
+   "diagnostico": "Endometriosis: examen de confirmación (laparoscopia con biopsia)",
+   "tipo": "prueba",
+   "dificultad": "media",
+   "razonamiento": "Paso 1: dismenorrea + dispareunia + disquesia + lesiones uterosacras en RM + falla de tratamiento médico. Paso 2: implantes peritoneales profundos probables. Paso 3: la confirmación es la laparoscopia con biopsia (lesiones en quemadura de pólvora).",
+   "por_que_no": [
+    "Se eleva en varias patologías pélvicas; es inespecífico.",
+    "Orienta y mapea lesiones, pero no confirma histológicamente.",
+    "Útil para quistes ováricos; normal no descarta implantes.",
+    "Evalúa la cavidad uterina, no el peritoneo.",
+    ""
+   ],
+   "trampa": [
+    "no-confirmatorio",
+    "no-confirmatorio",
+    "no-confirmatorio",
+    "no-confirmatorio",
+    ""
+   ],
+   "perla": "Estándar de oro: laparoscopia con biopsia (lesiones en quemadura de pólvora).",
+   "fuente": {
+    "carpeta": "3.GINECOLOGIA",
+    "archivo": "21. ENDOMETRIOSIS.pdf",
+    "seccion": "Diagnóstico gold estándar"
+   },
+   "gemela_de": null
+  },
+  {
+   "id": "2026-10-22-noche-042",
+   "enunciado": "Niña de 4 años con diarrea con sangre que cedió hace 4 días; hoy acude por palidez marcada, somnolencia leve y orina escasa. FC 148X', FR 34X', PA 108/66 mmHg, T° 36,8 °C. Petequias en tronco, soplo sistólico funcional. Hb 6,1 g/dL, plaquetas 52 000/mm3, frotis con esquistocitos, Coombs directo negativo, creatinina 2,4 mg/dL, K 5,0 mEq/L, HCO3 19 mEq/L. ¿Cuál es la conducta inmediata más adecuada?",
+   "opciones": [
+    "Administrar metilprednisolona en pulsos",
+    "Iniciar plasmaféresis con plasma fresco congelado",
+    "Transfundir concentrado de plaquetas de inmediato",
+    "Iniciar hemodiálisis de urgencia",
+    "Transfundir paquete globular fraccionado"
+   ],
+   "clave": 5,
+   "especialidad": "Pediatría",
+   "tema": "Síndrome urémico hemolítico",
+   "diagnostico": "SUH típico con anemia hemolítica grave: transfusión de glóbulos rojos",
+   "tipo": "conducta",
+   "dificultad": "media",
+   "razonamiento": "Paso 1: Hb 6,1 con taquicardia y somnolencia = anemia sintomática; esquistocitos + Coombs negativo = hemólisis no inmune. Paso 2: diarrea con sangre previa + plaquetopenia + creatinina alta = microangiopatía posdiarreica. Paso 3: transfundir GR cuando Hb <7 o hay síntomas.",
+   "por_que_no": [
+    "Los corticoides no tienen beneficio demostrado en este cuadro.",
+    "Es el tratamiento del déficit de ADAMTS13 del adulto, no de esta forma posdiarreica.",
+    "Sin sangrado activo ni procedimiento: las plaquetas no se transfunden de rutina.",
+    "Sin K, acidosis, sobrecarga ni uremia refractarias aún no hay indicación dialítica.",
+    ""
+   ],
+   "trampa": [
+    "otro",
+    "diferencial",
+    "otro-momento",
+    "otro-estadio",
+    ""
+   ],
+   "perla": "Transfundir glóbulos rojos si Hb <7 g/dL o anemia sintomática.",
+   "fuente": {
+    "carpeta": "4.PEDIATRIA",
+    "archivo": "27. SUH.pdf",
+    "seccion": "pág. 1, Tratamiento ampliado: transfusión"
+   },
+   "gemela_de": null
+  },
+  {
+   "id": "2026-10-22-noche-043",
+   "enunciado": "Niña de 3 años con 2 días de cólicos y deposiciones con sangre sin fiebre; en la farmacia le indicaron cotrimoxazol oral. Tres días después presenta palidez, orina escasa y edema palpebral. PA 118/76 mmHg. Hb 7,3 g/dL, esquistocitos, plaquetas 41 000/mm3, creatinina 2,6 mg/dL, sedimento sin eosinófilos, coprocultivo con E. coli O157:H7. ¿Por qué el antibiótico pudo favorecer la complicación?",
+   "opciones": [
+    "Produce nefritis intersticial aguda por hipersensibilidad",
+    "Selecciona Clostridioides difficile en el colon",
+    "Desencadena hemólisis oxidativa por déficit de G6PD",
+    "Aumenta la liberación de toxina por lisis bacteriana",
+    "Induce anticuerpos contra la enzima ADAMTS13"
+   ],
+   "clave": 4,
+   "especialidad": "Pediatría",
+   "tema": "Síndrome urémico hemolítico",
+   "diagnostico": "SUH típico precipitado por antibiótico: aumento de liberación de toxina",
+   "tipo": "mecanismo",
+   "dificultad": "alta",
+   "razonamiento": "Paso 1: disentería afebril por O157:H7 tratada con ATB, luego hemólisis + plaquetopenia + IRA sin eosinofiluria. Paso 2: forma típica. Paso 3: el antibiótico lisa la bacteria y aumenta la toxina libre que daña el endotelio.",
+   "por_que_no": [
+    "Daría fiebre, rash y eosinofiluria, ausentes aquí.",
+    "Causa colitis tras antibióticos, no microangiopatía.",
+    "No explica la plaquetopenia ni los esquistocitos.",
+    "",
+    "Mecanismo de la púrpura trombótica adquirida."
+   ],
+   "trampa": [
+    "diferencial",
+    "otro",
+    "diferencial",
+    "",
+    "diferencial"
+   ],
+   "perla": "Antibióticos en O157:H7: más toxina liberada, más riesgo de microangiopatía.",
+   "fuente": {
+    "carpeta": "4.PEDIATRIA",
+    "archivo": "27. SUH.pdf",
+    "seccion": "pág. 1, SUH: ¿Por qué evitar antibióticos?"
+   },
+   "gemela_de": null
+  },
+  {
+   "id": "2026-10-22-noche-044",
+   "enunciado": "Mujer de 34 años, G1P1, con 2 años de dolor pélvico cíclico y dispareunia. Ecografía: quiste ovárico derecho de 3,5 cm en vidrio esmerilado. Lleva un calendario menstrual de los últimos 6 meses: sangrados de 5 días con volumen habitual, que empiezan los días 1, 19, 38, 57, 76 y 95. Hb 12,4 g/dL, TSH normal, prolactina normal. ¿Qué alteración del patrón de sangrado presenta y se asocia a su cuadro?",
+   "opciones": [
+    "Menorragia",
+    "Polimenorrea",
+    "Hipermenorrea",
+    "Metrorragia intermenstrual",
+    "Oligomenorrea"
+   ],
+   "clave": 2,
+   "especialidad": "Ginecología",
+   "tema": "Endometriosis",
+   "diagnostico": "Endometriosis con implantes ováricos: polimenorrea",
+   "tipo": "mecanismo",
+   "dificultad": "alta",
+   "razonamiento": "Paso 1: calendario con ciclos de 19 días (<21 días), duración y volumen normales. Paso 2: dolor cíclico + quiste en vidrio esmerilado = implante ovárico. Paso 3: la afectación ovárica se asocia a ciclos cortos: polimenorrea.",
+   "por_que_no": [
+    "Exige sangrado >7 días; dura 5 días.",
+    "",
+    "Exige volumen >80 mL; el volumen es habitual.",
+    "Sangrado entre reglas; aquí son menstruaciones completas.",
+    "Ciclos >35 días; los suyos son de 19 días."
+   ],
+   "trampa": [
+    "diferencial",
+    "",
+    "diferencial",
+    "diferencial",
+    "umbral"
+   ],
+   "perla": "Sangrado típico de los implantes ováricos: polimenorrea (ciclo <21 días).",
+   "fuente": {
+    "carpeta": "3.GINECOLOGIA",
+    "archivo": "21. ENDOMETRIOSIS.pdf",
+    "seccion": "Estadio 3: polimenorrea por implantación en ovario; tipo de HUA típica"
+   },
+   "gemela_de": null
+  },
+  {
+   "id": "2026-10-22-noche-045",
+   "enunciado": "Niño de 5 años, 20 kg, con deposiciones sanguinolentas que cedieron hace 4 días. Hoy presenta palidez y petequias aisladas, con diuresis de 1 mL/kg/h. PA 104/66 mmHg, FC 112X', sin edemas. Hb 8,6 g/dL, esquistocitos, plaquetas 72 000/mm3, creatinina 1,3 mg/dL, K 4,8 mEq/L, HCO3 20 mEq/L, C3 normal. Un familiar médico sugiere tratamientos específicos para acortar la enfermedad. ¿Cuál es el tratamiento principal?",
+   "opciones": [
+    "Azitromicina oral por 5 días",
+    "Plasmaféresis diaria hasta normalizar plaquetas",
+    "Eculizumab endovenoso semanal",
+    "Metilprednisolona endovenosa por 3 días",
+    "Soporte: hidratación, balance hídrico, PA y electrolitos"
+   ],
+   "clave": 5,
+   "especialidad": "Pediatría",
+   "tema": "Síndrome urémico hemolítico",
+   "diagnostico": "SUH típico estable: tratamiento de soporte exclusivo",
+   "tipo": "tratamiento",
+   "dificultad": "media",
+   "razonamiento": "Paso 1: posdiarrea, hemólisis con esquistocitos, plaquetopenia y creatinina alta con diuresis conservada, C3 normal. Paso 2: forma típica sin criterios dialíticos. Paso 3: el tratamiento es de soporte; corticoides, plasmaféresis y ATB no aportan.",
+   "por_que_no": [
+    "Los antibióticos aumentan la liberación de toxina.",
+    "No está indicada en la forma típica.",
+    "Reservado para la forma atípica con C3 bajo.",
+    "Los corticoides no tienen beneficio demostrado.",
+    ""
+   ],
+   "trampa": [
+    "otro-contexto",
+    "diferencial",
+    "diferencial",
+    "otro",
+    ""
+   ],
+   "perla": "Forma típica: soporte; sin corticoides, sin plasmaféresis, sin antibióticos.",
+   "fuente": {
+    "carpeta": "4.PEDIATRIA",
+    "archivo": "27. SUH.pdf",
+    "seccion": "pág. 1, ¿Tratamiento principal? / ¿Se usan corticoides? / plasmaféresis"
+   },
+   "gemela_de": null
+  },
+  {
+   "id": "2026-10-22-noche-046",
+   "enunciado": "Mujer de 23 años, nuligesta, sin deseo gestacional por ahora, con 7 meses de dolor pélvico que aparece cada mes desde 2 días antes de la menstruación; antes sus reglas no dolían. EVA 4/10, no interfiere con sus actividades. Ciclos de 28 días. PA 110/70 mmHg. Tacto vaginal: útero móvil, anexos no palpables, sin nódulos. Ecografía transvaginal normal. Test de embarazo negativo. ¿Cuál es el tratamiento inicial?",
+   "opciones": [
+    "Progestágeno solo por vía oral continua",
+    "Anticonceptivo oral combinado en régimen continuo",
+    "AINE durante los días de dolor menstrual",
+    "Análogo de GnRH mensual por 6 meses",
+    "Laparoscopia diagnóstica con biopsia"
+   ],
+   "clave": 3,
+   "especialidad": "Ginecología",
+   "tema": "Endometriosis",
+   "diagnostico": "Endometriosis mínima con dolor leve: AINE",
+   "tipo": "tratamiento",
+   "dificultad": "media",
+   "razonamiento": "Paso 1: dolor cíclico >6 meses que antes no existía = dismenorrea secundaria crónica, leve, con examen y eco normales. Paso 2: probable enfermedad mínima por implantes superficiales. Paso 3: dolor leve se inicia con AINE; luego ACO continuos.",
+   "por_que_no": [
+    "Alternativa al ACO cuando este falla o está contraindicado.",
+    "Es el paso siguiente si el dolor persiste pese al AINE.",
+    "",
+    "Reservado para enfermedad severa o refractaria.",
+    "Se indica si no hay respuesta al tratamiento médico."
+   ],
+   "trampa": [
+    "otro-momento",
+    "otro-momento",
+    "",
+    "otro-estadio",
+    "otro-momento"
+   ],
+   "perla": "Escalera del dolor cíclico: AINE → ACO continuos → progestágeno → cirugía.",
+   "fuente": {
+    "carpeta": "3.GINECOLOGIA",
+    "archivo": "21. ENDOMETRIOSIS.pdf",
+    "seccion": "Tratamiento: estadio 1"
+   },
+   "gemela_de": null
+  },
+  {
+   "id": "2026-10-22-noche-047",
+   "enunciado": "Mujer de 30 años, G0, con 18 meses de dismenorrea que no tenía en la adolescencia y ciclos menstruales cada 19-20 días; no busca embarazo y usa preservativo. EVA 6/10 pese a ibuprofeno. PA 112/70 mmHg. Tacto vaginal doloroso en fondo de saco posterior, sin masas. Ecografía transvaginal normal. Sin antecedentes de cefalea ni trombosis. Pregunta si es obligatorio operarse para recibir tratamiento. ¿Cuál es la conducta adecuada?",
+   "opciones": [
+    "Resonancia pélvica antes de indicar hormonas",
+    "Dosaje de CA-125 para decidir el tratamiento",
+    "Laparoscopia con biopsia antes de cualquier tratamiento",
+    "Análogo de GnRH como primera línea hormonal",
+    "Iniciar ACO combinado continuo sin cirugía previa"
+   ],
+   "clave": 5,
+   "especialidad": "Ginecología",
+   "tema": "Endometriosis",
+   "diagnostico": "Endometriosis con diagnóstico clínico (2 de 3 criterios): tratamiento empírico",
+   "tipo": "conducta",
+   "dificultad": "alta",
+   "razonamiento": "Paso 1: dismenorrea secundaria + polimenorrea (ciclos <21 días), dolor en Douglas. Paso 2: diagnóstico clínico con 2 de 3 criterios (dismenorrea, subfertilidad, polimenorrea). Paso 3: sin respuesta a AINE ni contraindicación: ACO continuos empíricos.",
+   "por_que_no": [
+    "No reemplaza la clínica ni es requisito para tratar.",
+    "No confirma ni es necesario para iniciar manejo médico.",
+    "Es el estándar de oro, pero no es requisito para el tratamiento empírico.",
+    "Es segunda línea, para casos severos o refractarios.",
+    ""
+   ],
+   "trampa": [
+    "no-confirmatorio",
+    "no-confirmatorio",
+    "no-confirmatorio",
+    "otro-momento",
+    ""
+   ],
+   "perla": "Diagnóstico clínico con 2/3: dismenorrea, subfertilidad, polimenorrea.",
+   "fuente": {
+    "carpeta": "3.GINECOLOGIA",
+    "archivo": "21. ENDOMETRIOSIS.pdf",
+    "seccion": "Dx: clínico (2/3); tratamiento empírico"
+   },
+   "gemela_de": null
+  },
+  {
+   "id": "2026-10-22-noche-048",
+   "enunciado": "Mujer de 24 años con dismenorrea secundaria de 2 años y un quiste ovárico derecho de 5,8 cm en vidrio esmerilado conocido hace 3 meses, en espera de cirugía. Mientras hacía ejercicio presentó dolor súbito, muy intenso, en fosa iliaca derecha, con náuseas y vómitos. FC 112X', PA 118/76 mmHg, T° 37,4 °C. Masa anexial derecha muy dolorosa. Test de embarazo negativo. Doppler: ovario derecho aumentado sin flujo. ¿Cuál es la conducta?",
+   "opciones": [
+    "Laparoscopia de urgencia con destorsión",
+    "Ceftriaxona con doxiciclina ambulatoria",
+    "Analgesia y repetir el Doppler en 24 horas",
+    "Iniciar análogo de GnRH y cirugía electiva",
+    "Quistectomía laparoscópica programada en 4 semanas"
+   ],
+   "clave": 1,
+   "especialidad": "Ginecología",
+   "tema": "Endometriosis",
+   "diagnostico": "Torsión anexial sobre endometrioma (diferencial de dolor pélvico agudo)",
+   "tipo": "conducta",
+   "dificultad": "alta",
+   "razonamiento": "Paso 1: dolor súbito tras movimiento + masa anexial + Doppler sin flujo. Paso 2: torsión sobre un quiste ovárico achocolatado de 5,8 cm. Paso 3: la ausencia de flujo exige cirugía urgente.",
+   "por_que_no": [
+    "",
+    "Esquema de la infección pélvica leve, sin fiebre alta ni flujo aquí.",
+    "Esperar compromete la viabilidad del ovario.",
+    "El manejo médico no resuelve la isquemia ovárica aguda.",
+    "Es la conducta del quiste ≥5 cm sin complicación."
+   ],
+   "trampa": [
+    "",
+    "diferencial",
+    "otro-momento",
+    "otro-momento",
+    "otro-momento"
+   ],
+   "perla": "Dolor súbito + masa anexial + Doppler sin flujo = cirugía urgente.",
+   "fuente": {
+    "carpeta": "3.GINECOLOGIA",
+    "archivo": "26. TORSION DE OVARIO.pdf",
+    "seccion": "Doppler y tratamiento"
+   },
+   "gemela_de": null
+  },
+  {
+   "id": "2026-10-22-noche-049",
+   "enunciado": "Niño de 5 años que hace 6 días comió hamburguesa poco cocida en una feria. Tuvo cólicos y deposiciones con sangre sin fiebre; hoy presenta palidez, ictericia leve y diuresis de 0,3 mL/kg/h. PA 112/70 mmHg. Hb 7,6 g/dL, esquistocitos, plaquetas 48 000/mm3, creatinina 2,2 mg/dL, C3 y C4 normales, TP normal. ¿Cuál es el mecanismo inicial de la lesión renal?",
+   "opciones": [
+    "Anticuerpos IgG contra la glicoproteína IIb/IIIa plaquetaria",
+    "Depósito subepitelial de inmunocomplejos con IgG y C3",
+    "Unión de la toxina al receptor Gb3 con bloqueo de síntesis proteica endotelial",
+    "Activación descontrolada de la vía alterna del complemento",
+    "Déficit de ADAMTS13 con acúmulo de multímeros de von Willebrand"
+   ],
+   "clave": 3,
+   "especialidad": "Pediatría",
+   "tema": "Síndrome urémico hemolítico",
+   "diagnostico": "SUH típico: mecanismo de la toxina Shiga",
+   "tipo": "mecanismo",
+   "dificultad": "alta",
+   "razonamiento": "Paso 1: carne poco cocida + disentería sin fiebre + hemólisis con esquistocitos + plaquetopenia + IRA, complemento normal. Paso 2: microangiopatía por E. coli enterohemorrágica. Paso 3: la toxina se une al Gb3 endotelial, bloquea la síntesis proteica y causa muerte endotelial.",
+   "por_que_no": [
+    "Mecanismo de la trombocitopenia inmune, sin hemólisis.",
+    "Lesión de la glomerulonefritis posestreptocócica, con C3 bajo.",
+    "",
+    "Mecanismo de la forma atípica, con C3 bajo.",
+    "Mecanismo de la púrpura trombótica trombocitopénica."
+   ],
+   "trampa": [
+    "diferencial",
+    "diferencial",
+    "",
+    "diferencial",
+    "diferencial"
+   ],
+   "perla": "Toxina Shiga → receptor Gb3 → bloqueo de síntesis proteica → daño endotelial.",
+   "fuente": {
+    "carpeta": "4.PEDIATRIA",
+    "archivo": "27. SUH.pdf",
+    "seccion": "pág. 1, toxina Shiga se une a receptor Gb3"
+   },
+   "gemela_de": null
+  },
+  {
+   "id": "2026-10-22-noche-050",
+   "enunciado": "Mujer de 28 años, G0, con 1 año de dismenorrea progresiva y dispareunia profunda que no ceden con naproxeno a dosis plenas por 4 meses. Antecedente de migraña con aura visual desde los 19 años. No desea gestar en los próximos 2 años. PA 116/74 mmHg, IMC 23. Tacto: dolor a la palpación del fondo de saco posterior. Ecografía: ovarios normales. ¿Cuál es el siguiente tratamiento más adecuado?",
+   "opciones": [
+    "Danazol oral por 6 meses",
+    "Progestágeno solo en forma continua",
+    "Electrofulguración laparoscópica de inmediato",
+    "Anticonceptivo oral combinado continuo",
+    "Anillo vaginal combinado continuo"
+   ],
+   "clave": 2,
+   "especialidad": "Ginecología",
+   "tema": "Endometriosis",
+   "diagnostico": "Endometriosis con migraña con aura: progestágeno solo",
+   "tipo": "contraindicacion",
+   "dificultad": "alta",
+   "razonamiento": "Paso 1: dismenorrea secundaria progresiva + dispareunia + dolor en Douglas, sin respuesta a AINE. Paso 2: enfermedad que requiere supresión hormonal. Paso 3: el ACO es de elección, pero migraña con aura prohíbe estrógenos: progestágeno solo.",
+   "por_que_no": [
+    "Andrógeno usado antes de los ACO; hoy relegado por efectos adversos.",
+    "",
+    "La cirugía va después de agotar el tratamiento hormonal tolerable.",
+    "Sería el paso siguiente, pero la migraña con aura contraindica estrógenos.",
+    "Contiene etinilestradiol: misma contraindicación que el ACO."
+   ],
+   "trampa": [
+    "otro",
+    "",
+    "otro-momento",
+    "otra-poblacion",
+    "mismo-grupo"
+   ],
+   "perla": "Migraña con aura: nunca estrógenos; usar progestágeno solo.",
+   "fuente": {
+    "carpeta": "3.GINECOLOGIA",
+    "archivo": "21. ENDOMETRIOSIS.pdf",
+    "seccion": "Tratamiento: estadio 2"
+   },
+   "gemela_de": null
+  }
+ ]
+}
