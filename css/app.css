@@ -478,3 +478,12 @@ button.sync.ac{background:var(--ac-soft);color:var(--ac);border-color:transparen
 }
 .segmentos button:last-child{border-right:0}
 .segmentos button[aria-pressed="true"]{background:var(--ac);color:var(--ac-fg)}
+.pista-volteo{display:block;margin-top:10px;color:var(--ac);font-weight:700;font-size:13px}
+.tarjeta.mini[data-estilo="volteo"]{min-height:0}
+.tarjeta[data-volteada] .pista-volteo{display:none}
+
+/* En el listado la tarjeta también se voltea: el dorso no se ve hasta tocarla,
+   incluso con la forma «Volteo», que en pequeño no gira en 3D. */
+.tarjeta.mini .cara.dorso{display:none}
+.tarjeta.mini[data-volteada] .cara.dorso{display:block}
+.tarjeta.mini[data-volteada] .cara.frente{border-bottom:1px dashed var(--line)}

@@ -121,6 +121,39 @@ export async function pantallaTarjetas(vista) {
   }
 }
 
+/**
+ * Hace que una tarjeta se voltee al tocarla, y vuelva a la pregunta al tocar
+ * otra vez. `alRevelar` se llama UNA sola vez, la primera que se da vuelta.
+ */
+function hacerVolteable(tarjeta, { alRevelar, etiqueta } = {}) {
+  let revelada = false;
+  const voltear = () => {
+    revelada = !revelada || revelada;           // la primera vez marca que ya la vio
+    const estaba = tarjeta.hasAttribute('data-volteada');
+    if (estaba) tarjeta.removeAttribute('data-volteada');
+    else tarjeta.setAttribute('data-volteada', '');
+    vibrar(12);
+    if (!estaba && alRevelar) { alRevelar(); }
+    if (etiqueta) etiqueta(!estaba);
+  };
+  tarjeta.style.cursor = 'pointer';
+  tarjeta.setAttribute('role', 'button');
+  tarjeta.setAttribute('tabindex', '0');
+  tarjeta.title = 'Toca para dar vuelta la tarjeta';
+  tarjeta.addEventListener('click', (ev) => {
+    // Los controles DE DENTRO siguen funcionando (altavoz, desplegables, botones).
+    // Ojo: en el listado la tarjeta vive dentro de un <details>, así que no basta
+    // con closest(): hay que comprobar que el control sea de la propia tarjeta.
+    const ctrl = ev.target.closest('button, a, summary, details, input, select');
+    if (ctrl && tarjeta.contains(ctrl)) return;
+    voltear();
+  });
+  tarjeta.addEventListener('keydown', (ev) => {
+    if (ev.key === 'Enter' || ev.key === ' ') { ev.preventDefault(); voltear(); }
+  });
+  return voltear;
+}
+
 /** Los dos ajustes de la tarjeta, a la mano y no escondidos en Ajustes. */
 export function barraAjustesTarjeta(alCambiar) {
   const caja = el('div', { class: 'card tight ajustes-tarjeta' });
@@ -154,11 +187,14 @@ export function barraAjustesTarjeta(alCambiar) {
 /** Una tarjeta en modo lectura (para el listado). */
 function vistaTarjeta(t) {
   const { frente, dorso } = caras(t, { conMotivo: true });
-  const c = el('div', { class: 'tarjeta mini', 'data-estilo': leerEstilo(), 'data-volteada': '' });
+  const pista = el('small', { class: 'pista-volteo' }, 'Toca para ver la respuesta');
   frente.prepend(el('div', { class: 'row', style: 'justify-content:flex-end' },
     t.dominada ? el('span', { class: 'chip ok' }, 'dominada') : null,
     botonEscuchar(() => [t.frente, t.reverso, t.porque, t.nemotecnia].filter(Boolean).join('. '))));
-  c.append(frente, dorso);
+  frente.append(pista);
+  const c = el('div', { class: 'tarjeta mini', 'data-estilo': leerEstilo() },
+    el('div', { class: 'giro' }, frente, dorso));
+  hacerVolteable(c, { etiqueta: (v) => { pista.textContent = v ? '' : 'Toca para ver la respuesta'; } });
   return c;
 }
 
@@ -209,22 +245,16 @@ export function pantallaRepasarTarjetas(vista) {
       addEventListener('resize', medir, { once: true });
     }
 
-    const revelar = () => {
-      if (revelada) return;
-      revelada = true;
-      tarjeta.setAttribute('data-volteada', '');
-      ver.remove();
-      c.append(botones());
-      vibrar(15);
-    };
-    tarjeta.style.cursor = 'pointer';
-    tarjeta.title = 'Toca la tarjeta para ver la respuesta';
-    tarjeta.addEventListener('click', (ev) => {
-      if (ev.target.closest('button, a, summary, details')) return;   // no robar los controles
-      revelar();
+    const voltear = hacerVolteable(tarjeta, {
+      alRevelar: () => {                       // la primera vez aparecen los botones de nivel
+        if (revelada) return;
+        revelada = true;
+        c.append(botones());
+      },
+      etiqueta: (v) => { ver.textContent = v ? '↻ Ver la pregunta' : '↻ Ver la respuesta'; },
     });
-    const ver = el('button', { class: 'btn pri full', style: 'margin-top:14px', onclick: revelar },
-      leerEstilo() === 'volteo' ? '↻ Voltear la tarjeta' : 'Ver respuesta');
+    const ver = el('button', { class: 'btn pri full', style: 'margin-top:14px', onclick: voltear },
+      '↻ Ver la respuesta');
     c.append(ver);
 
     function botones() {
