@@ -1,0 +1,1971 @@
+{
+ "id": "2026-10-23-noche",
+ "fecha": "2026-10-23",
+ "turno": "noche",
+ "titulo": "Simulacro de la noche",
+ "segundos_por_pregunta": 45,
+ "temas_noche": [
+  "Epidemiología · Medidas de frecuencia, asociación e impacto",
+  "Epidemiología · Pruebas diagnósticas, diseños, sesgos y causalidad"
+ ],
+ "feedback_noche": "Hoy: los números de salud pública, tu especialidad más baja (7/17) y casi todo marcado «adivinando».\nAntes de calcular, ubica el diseño: cohorte → RR; casos y controles o transversal → OR; ensayo → RAR y NNT.\nImpacto: pregunta «¿en expuestos o en toda la población?» → RA/FER usan Ie; RAP/FERP usan Ip.\nPruebas: S y E son de la prueba; VPP y VPN cambian con la prevalencia. Tamizaje = sensibilidad; confirmar = especificidad.\nSesgos: memoria → registros; medición → cegamiento; confusión → aleatorizar o parear (diseño), estratificar (análisis).",
+ "perlas_noche": [
+  "Seguimientos desiguales → densidad (casos / persona-tiempo); IAAS por dispositivo = casos / días-dispositivo × 1 000.",
+  "P = I × D: tratar sin curar sube la prevalencia; curar rápido la baja.",
+  "NNT = 1/(Io − Ie), redondeado hacia arriba; la reducción relativa impresiona, la absoluta decide.",
+  "VPP baja y VPN sube cuando cae la prevalencia; S y E no cambian.",
+  "Bradford Hill: RR alto = fuerza; más dosis más efecto = gradiente; retirar la exposición = experimental; mecanismo = plausibilidad."
+ ],
+ "preguntas": [
+  {
+   "id": "2026-10-23-noche-001",
+   "enunciado": "El banco de sangre de un hospital de Iquitos obtiene un resultado reactivo en la prueba de tamizaje de un donante de 28 años, asintomático y con funciones vitales normales. Antes de comunicarle una infección crónica de transmisión sexual y sanguínea, con implicancias sociales y de tratamiento de por vida, se debe aplicar una segunda prueba. Se dispone de cinco pruebas validadas contra el estándar de oro. ¿Cuál debe elegirse en esta etapa?",
+   "opciones": [
+    "Sensibilidad 99 % y especificidad 90 %",
+    "Sensibilidad 95 % y especificidad 95 %",
+    "Sensibilidad 98 % y especificidad 97 %",
+    "Sensibilidad 90 % y especificidad 98 %",
+    "Sensibilidad 85 % y especificidad 99,8 %"
+   ],
+   "clave": 5,
+   "especialidad": "Epidemiología",
+   "tema": "Pruebas diagnósticas, diseños, sesgos y causalidad",
+   "diagnostico": "Elección de prueba confirmatoria por especificidad",
+   "tipo": "prueba",
+   "dificultad": "media",
+   "razonamiento": "Paso 1: ya hubo un tamizaje reactivo. Paso 2: ahora el error más dañino es rotular como enfermo a un sano (falso positivo). Paso 3: para confirmar se elige la mayor especificidad → 99,8 %.",
+   "por_que_no": [
+    "Máxima sensibilidad: corresponde al tamizaje ya hecho; aquí daría falsos positivos.",
+    "Equilibrada, pero con 5 % de falsos positivos en sanos; no confirma.",
+    "Excelente para tamizaje, pero su especificidad no es la mayor.",
+    "Especificidad alta pero menor a 99,8 %: quedarían más falsos positivos.",
+    ""
+   ],
+   "trampa": [
+    "otro-momento",
+    "otro",
+    "otro-momento",
+    "umbral",
+    ""
+   ],
+   "perla": "Prueba muy específica y positiva → confirma (pocos falsos positivos).",
+   "fuente": {
+    "carpeta": "10. EPIDEMIOLOGIA",
+    "archivo": "12. PRUEBAS DX.pdf",
+    "seccion": "Especificidad: uso en confirmación"
+   },
+   "gemela_de": null
+  },
+  {
+   "id": "2026-10-23-noche-002",
+   "enunciado": "En 2026, investigadores de EsSalud revisan las planillas y registros ocupacionales de 1990 a 2005 de 2 000 enfermeras: 600 trabajaron en centrales de esterilización con óxido de etileno y 1 400 en otras áreas. Luego cruzan esos datos con el registro de cáncer hasta 2025 para identificar quiénes desarrollaron neoplasias hematológicas, y calculan la incidencia en cada grupo. ¿Qué tipo de estudio realizaron?",
+   "opciones": [
+    "Cohorte prospectiva",
+    "Cohorte retrospectiva",
+    "Casos y controles",
+    "Transversal analítico",
+    "Ecológico"
+   ],
+   "clave": 2,
+   "especialidad": "Epidemiología",
+   "tema": "Pruebas diagnósticas, diseños, sesgos y causalidad",
+   "diagnostico": "Cohorte retrospectiva con registros ocupacionales de enfermeras",
+   "tipo": "diagnostico",
+   "dificultad": "alta",
+   "razonamiento": "Paso 1: se parte de la exposición (sí/no) en personas sin la enfermedad. Paso 2: se sigue hacia el desenlace y se calculan incidencias. Paso 3: todo ocurrió en el pasado y se reconstruye con registros → cohorte retrospectiva (histórica).",
+   "por_que_no": [
+    "Exigiría reclutar hoy y seguir hacia el futuro.",
+    "",
+    "Parte de enfermos y sanos y busca la exposición; aquí se parte de la exposición.",
+    "Mide exposición y efecto en un solo momento, sin seguimiento.",
+    "Usa poblaciones como unidad; aquí la unidad es cada enfermera."
+   ],
+   "trampa": [
+    "otro-momento",
+    "",
+    "diferencial",
+    "otro",
+    "otro"
+   ],
+   "perla": "Cohorte = de la exposición al efecto; retrospectiva si todo ya ocurrió y se reconstruye con archivos.",
+   "fuente": {
+    "carpeta": "10. EPIDEMIOLOGIA",
+    "archivo": "4. ESTUDIOS EPIDEMIOLOGICO 2.pdf",
+    "seccion": "Cohortes: prospectiva, retrospectiva, ambispectiva"
+   },
+   "gemela_de": "2026-10-22-manana-050"
+  },
+  {
+   "id": "2026-10-23-noche-003",
+   "enunciado": "La municipalidad de un distrito de Ayacucho, con 80 000 habitantes, de los cuales 40 000 son mujeres y 20 000 tienen entre 15 y 49 años, registró 1 600 nacidos vivos en 2025. El área de salud sexual y reproductiva necesita el indicador que relaciona los nacimientos con las mujeres en capacidad de procrear, para programar la oferta de métodos anticonceptivos. ¿Cuál es el valor?",
+   "opciones": [
+    "20 por 1 000 habitantes",
+    "40 por 1 000 mujeres",
+    "80 por 1 000 mujeres de 15 a 49 años",
+    "8 por 1 000 mujeres de 15 a 49 años",
+    "2 hijos por mujer"
+   ],
+   "clave": 3,
+   "especialidad": "Epidemiología",
+   "tema": "Medidas de frecuencia, asociación e impacto",
+   "diagnostico": "Tasa de fecundidad",
+   "tipo": "mecanismo",
+   "dificultad": "media",
+   "razonamiento": "Paso 1: se relacionan nacimientos con mujeres en edad fértil. Paso 2: tasa de fecundidad = nacidos vivos / mujeres de 15–49 años × 1 000. Paso 3: 1 600/20 000 × 1 000 = 80.",
+   "por_que_no": [
+    "Es la natalidad (denominador: población total).",
+    "Usa a todas las mujeres; el denominador correcto es solo de 15 a 49 años.",
+    "",
+    "Error de cálculo: 1 600/20 000 × 1 000 = 80.",
+    "Hijos por mujer es la tasa global de fecundidad (proyectada a toda la vida reproductiva), no anual."
+   ],
+   "trampa": [
+    "diferencial",
+    "umbral",
+    "",
+    "umbral",
+    "diferencial"
+   ],
+   "perla": "Natalidad: NV/población total; fecundidad: NV/mujeres de 15–49 años; ambas × 1 000.",
+   "fuente": {
+    "carpeta": "10. EPIDEMIOLOGIA",
+    "archivo": "10. TASA Y DENSIDAD.pdf",
+    "seccion": "Tasa de natalidad y fecundidad"
+   },
+   "gemela_de": null
+  },
+  {
+   "id": "2026-10-23-noche-004",
+   "enunciado": "Durante un brote de gastroenteritis en un albergue de Piura, entre 300 albergados y en 10 días, se registran 30 hombres y 20 mujeres con más de 3 deposiciones líquidas al día, fiebre de 38,4 °C y deshidratación leve. El informe dice: «por cada mujer afectada hubo 1,5 hombres afectados». El jefe de epidemiología pregunta qué tipo de medida es esa cifra. ¿Cuál es la respuesta?",
+   "opciones": [
+    "Proporción",
+    "Tasa",
+    "Prevalencia",
+    "Tasa de ataque",
+    "Razón"
+   ],
+   "clave": 5,
+   "especialidad": "Epidemiología",
+   "tema": "Medidas de frecuencia, asociación e impacto",
+   "diagnostico": "Razón de sexo entre casos de un brote",
+   "tipo": "mecanismo",
+   "dificultad": "media",
+   "razonamiento": "Paso 1: se divide 30 hombres entre 20 mujeres. Paso 2: el numerador NO está incluido en el denominador. Paso 3: eso define una razón (1,5:1).",
+   "por_que_no": [
+    "Proporción exige que el numerador esté dentro del denominador (p. ej., 30/50 casos son hombres).",
+    "Tasa incorpora tiempo y población en riesgo (50/300 en 10 días).",
+    "Prevalencia es enfermos/población en un momento; aquí se comparan dos grupos entre sí.",
+    "Tasa de ataque sería 50/300 expuestos durante el brote; no compara sexos.",
+    ""
+   ],
+   "trampa": [
+    "diferencial",
+    "diferencial",
+    "otro",
+    "otro-contexto",
+    ""
+   ],
+   "perla": "Razón: numerador fuera del denominador; proporción: dentro (0–1); tasa: además, tiempo.",
+   "fuente": {
+    "carpeta": "10. EPIDEMIOLOGIA",
+    "archivo": "1. MEDIDAS EPIDEMIOLOGICAS.pdf",
+    "seccion": "Definiciones: razón, proporción y tasa"
+   },
+   "gemela_de": null
+  },
+  {
+   "id": "2026-10-23-noche-005",
+   "enunciado": "El comité de guías de práctica clínica de EsSalud debe decidir si recomienda anticoagular a adultos con ritmo irregularmente irregular sin ondas P y riesgo embólico moderado. Dispone de una serie de 40 casos, un estudio de casos y controles, una cohorte prospectiva de 10 000 pacientes, un ensayo aleatorizado de 2 000 pacientes y una revisión que combina estadísticamente 12 ensayos aleatorizados de buena calidad. ¿Cuál debe tener mayor peso?",
+   "opciones": [
+    "Metaanálisis de 12 ensayos aleatorizados",
+    "Ensayo aleatorizado de 2 000 pacientes",
+    "Cohorte prospectiva de 10 000 pacientes",
+    "Estudio de casos y controles",
+    "Serie de 40 casos"
+   ],
+   "clave": 1,
+   "especialidad": "Epidemiología",
+   "tema": "Pruebas diagnósticas, diseños, sesgos y causalidad",
+   "diagnostico": "Jerarquía de la evidencia",
+   "tipo": "norma",
+   "dificultad": "media",
+   "razonamiento": "Paso 1: hay varios diseños disponibles. Paso 2: pirámide: RS/metaanálisis > ECA > cohorte > casos y controles > series > expertos. Paso 3: el metaanálisis de ECA de buena calidad tiene el mayor peso.",
+   "por_que_no": [
+    "",
+    "Alto nivel, pero por debajo de la síntesis de varios ECA de buena calidad.",
+    "Aunque sea grande, es observacional: está debajo de los ECA.",
+    "Está debajo de las cohortes en la pirámide.",
+    "Descriptiva, cerca de la base de la pirámide."
+   ],
+   "trampa": [
+    "",
+    "otro-estadio",
+    "otro-estadio",
+    "otro-estadio",
+    "otro-estadio"
+   ],
+   "perla": "Cima de la evidencia: revisión sistemática/metaanálisis de ECA.",
+   "fuente": {
+    "carpeta": "10. EPIDEMIOLOGIA",
+    "archivo": "4. ESTUDIOS EPIDEMIOLOGICO 2.pdf",
+    "seccion": "Revisión sistemática y metaanálisis"
+   },
+   "gemela_de": null
+  },
+  {
+   "id": "2026-10-23-noche-006",
+   "enunciado": "Un nuevo antirretroviral ya demostró seguridad y farmacocinética en 40 voluntarios sanos y eficacia preliminar en 250 personas con carga viral detectable. Ahora el laboratorio lo compara, con asignación al azar, frente al esquema estándar del MINSA en 2 200 pacientes de varios países, midiendo carga viral menor de 50 copias/mL a las 48 semanas, para solicitar el registro sanitario. ¿En qué fase se encuentra?",
+   "opciones": [
+    "Fase II",
+    "Fase IV",
+    "Fase I",
+    "Fase III",
+    "Fase preclínica"
+   ],
+   "clave": 4,
+   "especialidad": "Epidemiología",
+   "tema": "Pruebas diagnósticas, diseños, sesgos y causalidad",
+   "diagnostico": "Ensayo clínico fase III",
+   "tipo": "mecanismo",
+   "dificultad": "media",
+   "razonamiento": "Paso 1: fases I (sanos) y II (250 enfermos) completas. Paso 2: ahora comparación aleatoria con el estándar en ~2 000 pacientes. Paso 3: eso, previo al registro, es fase III.",
+   "por_que_no": [
+    "Ya se completó: 250 enfermos, eficacia preliminar.",
+    "Es poscomercialización (farmacovigilancia); aún no tiene registro.",
+    "Ya se superó: voluntarios sanos, seguridad.",
+    "",
+    "Es en animales o laboratorio, antes de humanos."
+   ],
+   "trampa": [
+    "otro-momento",
+    "otro-momento",
+    "otro-momento",
+    "",
+    "otro-momento"
+   ],
+   "perla": "I sanos/seguridad · II pocos enfermos/eficacia · III miles vs estándar/registro · IV poscomercialización.",
+   "fuente": {
+    "carpeta": "10. EPIDEMIOLOGIA",
+    "archivo": "4. ESTUDIOS EPIDEMIOLOGICO 2.pdf",
+    "seccion": "Ensayo clínico: fases"
+   },
+   "gemela_de": null
+  },
+  {
+   "id": "2026-10-23-noche-007",
+   "enunciado": "Una cohorte en el Instituto Nacional Materno Perinatal sigue a 600 gestantes con hemoglobina de 9,5 a 10,9 g/dL en el segundo trimestre y a 1 200 con hemoglobina de 11,5 g/dL o más. La frecuencia de parto antes de las 37 semanas es 9 % en el primer grupo y 5 % en el segundo. El análisis informa una medida de 1,8 con intervalo de confianza del 95 % de 0,9 a 3,6 y p = 0,09. ¿Cómo se interpreta el resultado?",
+   "opciones": [
+    "La exposición es factor de riesgo significativo",
+    "No hay asociación estadísticamente significativa",
+    "La exposición es factor protector significativo",
+    "La exposición explica el 80 % de los partos",
+    "Hay asociación significativa pero con confusión"
+   ],
+   "clave": 2,
+   "especialidad": "Epidemiología",
+   "tema": "Medidas de frecuencia, asociación e impacto",
+   "diagnostico": "Riesgo relativo con intervalo de confianza que incluye 1",
+   "tipo": "mecanismo",
+   "dificultad": "media",
+   "razonamiento": "Paso 1: cohorte → RR = 9 %/5 % = 1,8. Paso 2: el IC 95 % (0,9–3,6) incluye el 1 y p >0,05. Paso 3: no puede afirmarse asociación: el resultado no es significativo.",
+   "por_que_no": [
+    "El punto (1,8) sugiere riesgo, pero el IC incluye 1; sería factor de riesgo con un IC como 1,2–2,7.",
+    "",
+    "Protector exige RR <1 con IC que no incluya 1.",
+    "Confunde el RR de 1,8 con una fracción atribuible; además no es significativo.",
+    "No hay significancia que explicar; la confusión se evalúa estratificando, no con el IC."
+   ],
+   "trampa": [
+    "umbral",
+    "",
+    "otro",
+    "otro",
+    "diferencial"
+   ],
+   "perla": "IC 95 % de RR u OR que incluye 1 = no significativo, aunque el punto sea >1.",
+   "fuente": {
+    "carpeta": "10. EPIDEMIOLOGIA",
+    "archivo": "1. MEDIDAS EPIDEMIOLOGICAS.pdf",
+    "seccion": "Medidas de asociación: interpretación e IC 95 %"
+   },
+   "gemela_de": null
+  },
+  {
+   "id": "2026-10-23-noche-008",
+   "enunciado": "Una cohorte de adultos de 40 a 60 años en Piura se sigue durante 8 años. La incidencia de diabetes tipo 2 es 25 por 1 000 en quienes tienen índice de masa corporal de 30 kg/m² o más, 5 por 1 000 en quienes tienen menos de 25 kg/m² y 10 por 1 000 en la población total. Un endocrinólogo quiere explicar a sus pacientes con IMC de 32 qué parte de su propio riesgo se debe al exceso de peso, asumiendo causalidad. ¿Cuál es el valor?",
+   "opciones": [
+    "50 %",
+    "20 %",
+    "2 %",
+    "67 %",
+    "80 %"
+   ],
+   "clave": 5,
+   "especialidad": "Epidemiología",
+   "tema": "Medidas de frecuencia, asociación e impacto",
+   "diagnostico": "Fracción etiológica en expuestos (obesidad y diabetes)",
+   "tipo": "mecanismo",
+   "dificultad": "alta",
+   "razonamiento": "Paso 1: la pregunta es sobre los expuestos (pacientes obesos). Paso 2: fracción etiológica en expuestos = (Ie − Io)/Ie. Paso 3: (25 − 5)/25 = 0,8 → 80 %.",
+   "por_que_no": [
+    "Es la fracción poblacional (10 − 5)/10: responde por toda la población, no por el paciente obeso.",
+    "Io/Ie: la parte del riesgo que tendría igual sin la obesidad.",
+    "Es el RA absoluto (20 por 1 000 = 2 %), un exceso, no una fracción.",
+    "Divide el RA entre la suma de incidencias (20/30): fórmula inexistente.",
+    ""
+   ],
+   "trampa": [
+    "otra-poblacion",
+    "otro",
+    "otro",
+    "otro",
+    ""
+   ],
+   "perla": "Para el expuesto: FER = (Ie − Io)/Ie = 1 − 1/RR.",
+   "fuente": {
+    "carpeta": "10. EPIDEMIOLOGIA",
+    "archivo": "11. MEDIDAS DE ASOCIACION.pdf",
+    "seccion": "Fracción etiológica en expuestos (FER o RA%)"
+   },
+   "gemela_de": null
+  },
+  {
+   "id": "2026-10-23-noche-009",
+   "enunciado": "En comunidades de Tacna se mide el arsénico en el agua de consumo y se examina la piel de 3 000 adultos. La frecuencia de hiperqueratosis palmoplantar con máculas hiperpigmentadas es 2 por 1 000 donde el arsénico es menor de 10 µg/L, 6 por 1 000 donde está entre 10 y 50 µg/L y 15 por 1 000 donde supera 50 µg/L. ¿Qué criterio de causalidad sustenta principalmente este hallazgo?",
+   "opciones": [
+    "Gradiente biológico",
+    "Fuerza de asociación",
+    "Consistencia",
+    "Temporalidad",
+    "Plausibilidad biológica"
+   ],
+   "clave": 1,
+   "especialidad": "Epidemiología",
+   "tema": "Pruebas diagnósticas, diseños, sesgos y causalidad",
+   "diagnostico": "Criterio de gradiente dosis-respuesta (arsénico)",
+   "tipo": "mecanismo",
+   "dificultad": "media",
+   "razonamiento": "Paso 1: tres niveles de exposición con frecuencias 2 → 6 → 15 por 1 000. Paso 2: a mayor dosis, mayor efecto. Paso 3: eso es el gradiente biológico (dosis-respuesta) de Bradford Hill.",
+   "por_que_no": [
+    "",
+    "Fuerza = un RR/OR de gran magnitud; aquí lo central es que el efecto crece con la dosis.",
+    "Exige varios estudios en distintos lugares con igual resultado.",
+    "Exige demostrar que la exposición precede al efecto; no se describe.",
+    "Requiere un mecanismo biológico conocido; no se presenta."
+   ],
+   "trampa": [
+    "",
+    "diferencial",
+    "diferencial",
+    "diferencial",
+    "diferencial"
+   ],
+   "perla": "Más dosis → más efecto = gradiente; RR muy alto = fuerza.",
+   "fuente": {
+    "carpeta": "10. EPIDEMIOLOGIA",
+    "archivo": "9. CAUSALIDAD Y RESUMEN.pdf",
+    "seccion": "Criterios de Bradford Hill: gradiente de respuesta"
+   },
+   "gemela_de": "2026-10-22-manana-006"
+  },
+  {
+   "id": "2026-10-23-noche-010",
+   "enunciado": "En una fábrica de calzado de Trujillo se identifica en 2015 a 400 obreros expuestos a solventes con benceno y a 1 600 trabajadores administrativos no expuestos, todos con hemograma normal. Se les sigue hasta 2025: 20 expuestos y 16 no expuestos presentan pancitopenia con blastos en sangre periférica y neoplasia hematológica confirmada por médula ósea. Se desea cuantificar la asociación con la medida propia del diseño. ¿Cuál es el valor?",
+   "opciones": [
+    "5,2",
+    "4,0",
+    "5,0",
+    "1,25",
+    "0,2"
+   ],
+   "clave": 3,
+   "especialidad": "Epidemiología",
+   "tema": "Medidas de frecuencia, asociación e impacto",
+   "diagnostico": "Riesgo relativo en cohorte ocupacional expuesta a benceno",
+   "tipo": "mecanismo",
+   "dificultad": "media",
+   "razonamiento": "Paso 1: se parte de sanos según exposición y se sigue al futuro → cohorte. Paso 2: la medida es el RR = Ie/Io. Paso 3: Ie = 20/400 = 5 %; Io = 16/1 600 = 1 % → RR = 5.",
+   "por_que_no": [
+    "Es el OR (ad/bc), propio de casos y controles; esta cohorte permite calcular riesgos.",
+    "Es el RA en % (5 % − 1 %): medida de impacto, no de asociación.",
+    "",
+    "Divide número de casos (20/16) sin considerar el tamaño de cada grupo.",
+    "Cociente invertido (Io/Ie); se obtendría si el solvente fuera protector."
+   ],
+   "trampa": [
+    "diferencial",
+    "otro-momento",
+    "",
+    "otro",
+    "otro"
+   ],
+   "perla": "Cohorte → RR = Ie/Io; si el evento es raro, OR ≈ RR.",
+   "fuente": {
+    "carpeta": "10. EPIDEMIOLOGIA",
+    "archivo": "11. MEDIDAS DE ASOCIACION.pdf",
+    "seccion": "Riesgo relativo"
+   },
+   "gemela_de": null
+  },
+  {
+   "id": "2026-10-23-noche-011",
+   "enunciado": "En un tamizaje de enero de 2025 en un centro poblado de Puno con 1 000 adultos, 200 ya tenían presión arterial de 140/90 mmHg o más en dos tomas y recibían tratamiento. En diciembre de 2025 se repitió la medición a todos los demás: 80 adultos nuevos tuvieron cifras de 150/95 mmHg o más en dos tomas separadas. No hubo pérdidas ni fallecimientos. ¿Cuál es el riesgo de desarrollar la condición en ese año?",
+   "opciones": [
+    "8 %",
+    "10 %",
+    "28 %",
+    "20 %",
+    "40 %"
+   ],
+   "clave": 2,
+   "especialidad": "Epidemiología",
+   "tema": "Medidas de frecuencia, asociación e impacto",
+   "diagnostico": "Incidencia acumulada con población en riesgo",
+   "tipo": "mecanismo",
+   "dificultad": "alta",
+   "razonamiento": "Paso 1: los 200 previos no pueden volver a enfermar. Paso 2: el riesgo es la incidencia acumulada = casos nuevos / población en riesgo al inicio. Paso 3: 80/(1 000 − 200) = 80/800 = 10 %.",
+   "por_que_no": [
+    "Usa a los 1 000 adultos; los 200 que ya la tenían no estaban en riesgo.",
+    "",
+    "Es la prevalencia de periodo (antiguos + nuevos)/total.",
+    "Es la prevalencia puntual de enero (200/1 000).",
+    "Divide casos nuevos entre antiguos; no es una medida epidemiológica."
+   ],
+   "trampa": [
+    "umbral",
+    "",
+    "diferencial",
+    "diferencial",
+    "otro"
+   ],
+   "perla": "Incidencia acumulada: el denominador excluye a quienes ya tenían la enfermedad.",
+   "fuente": {
+    "carpeta": "10. EPIDEMIOLOGIA",
+    "archivo": "10. TASA Y DENSIDAD.pdf",
+    "seccion": "Medidas de morbilidad: prevalencia e incidencia"
+   },
+   "gemela_de": null
+  },
+  {
+   "id": "2026-10-23-noche-012",
+   "enunciado": "En un hospital de referencia, el 40 % de los pacientes derivados por fiebre prolongada, baja de peso y sudoración nocturna tiene finalmente la infección investigada. Se aplica a 1 000 de estos pacientes una prueba de liberación de interferón con sensibilidad de 90 % y especificidad de 90 %. Un paciente de 45 años obtiene un resultado positivo. ¿Cuál es la probabilidad de que realmente tenga la infección?",
+   "opciones": [
+    "90 %",
+    "93 %",
+    "40 %",
+    "36 %",
+    "86 %"
+   ],
+   "clave": 5,
+   "especialidad": "Epidemiología",
+   "tema": "Pruebas diagnósticas, diseños, sesgos y causalidad",
+   "diagnostico": "Valor predictivo positivo en población de alta prevalencia",
+   "tipo": "prueba",
+   "dificultad": "alta",
+   "razonamiento": "Paso 1: de 1 000, 400 enfermos (VP = 360) y 600 sanos (FP = 60). Paso 2: se pide P(enfermo | positivo) = VPP. Paso 3: 360/(360 + 60) = 85,7 % ≈ 86 %.",
+   "por_que_no": [
+    "Es la sensibilidad: P(prueba + | enfermo), no P(enfermo | prueba +).",
+    "Es el VPN (540/580): aplica si el resultado fuera negativo.",
+    "Es la prevalencia: la probabilidad antes de hacer la prueba.",
+    "Son los verdaderos positivos sobre todos los evaluados, no sobre los positivos.",
+    ""
+   ],
+   "trampa": [
+    "diferencial",
+    "otro-contexto",
+    "otro-momento",
+    "otro",
+    ""
+   ],
+   "perla": "VPP = VP/(VP + FP); depende de la prevalencia, la sensibilidad no.",
+   "fuente": {
+    "carpeta": "10. EPIDEMIOLOGIA",
+    "archivo": "12. PRUEBAS DX.pdf",
+    "seccion": "Valor predictivo positivo"
+   },
+   "gemela_de": null
+  },
+  {
+   "id": "2026-10-23-noche-013",
+   "enunciado": "Tras décadas de uso de fibrocemento con asbesto en techos y tuberías, un país prohíbe su importación y uso en 2003. Veinte años después, el registro de cáncer muestra que la incidencia de tumores pleurales malignos en trabajadores de la construcción nacidos después de la prohibición es mucho menor que en las cohortes anteriores, sin cambios en los métodos diagnósticos. ¿Qué criterio de causalidad respalda principalmente esta observación?",
+   "opciones": [
+    "Temporalidad",
+    "Gradiente biológico",
+    "Consistencia",
+    "Evidencia experimental",
+    "Coherencia"
+   ],
+   "clave": 4,
+   "especialidad": "Epidemiología",
+   "tema": "Pruebas diagnósticas, diseños, sesgos y causalidad",
+   "diagnostico": "Criterio experimental (retiro del asbesto)",
+   "tipo": "mecanismo",
+   "dificultad": "alta",
+   "razonamiento": "Paso 1: se elimina la exposición por intervención (prohibición). Paso 2: el efecto disminuye después. Paso 3: modificar la exposición y observar el cambio del efecto es el criterio experimental.",
+   "por_que_no": [
+    "Solo exige que la exposición preceda al efecto; aquí lo central es el retiro de la exposición.",
+    "Requiere comparar niveles crecientes de exposición.",
+    "Requiere varios estudios distintos con el mismo resultado.",
+    "",
+    "El marco teórico explica los resultados; no implica retirar la exposición."
+   ],
+   "trampa": [
+    "diferencial",
+    "diferencial",
+    "diferencial",
+    "",
+    "diferencial"
+   ],
+   "perla": "Retirar la exposición y ver bajar la enfermedad = criterio experimental (ej.: dejar de fumar).",
+   "fuente": {
+    "carpeta": "10. EPIDEMIOLOGIA",
+    "archivo": "9. CAUSALIDAD Y RESUMEN.pdf",
+    "seccion": "Criterios de Bradford Hill: experimental"
+   },
+   "gemela_de": null
+  },
+  {
+   "id": "2026-10-23-noche-014",
+   "enunciado": "En un asentamiento humano de Lima se notifican 10 niños con fiebre, exantema maculopapular que progresa a vesículas en distintos estadios y prurito, cada uno en una vivienda distinta. En esas viviendas conviven 40 contactos sin antecedente de la enfermedad ni de vacunación; en las 3 semanas siguientes, 12 de ellos presentan el mismo cuadro. El informe requiere la medida que refleja la transmisión dentro del hogar a partir de los casos iniciales. ¿Cuál es el valor?",
+   "opciones": [
+    "24 %",
+    "44 %",
+    "55 %",
+    "25 %",
+    "30 %"
+   ],
+   "clave": 5,
+   "especialidad": "Epidemiología",
+   "tema": "Medidas de frecuencia, asociación e impacto",
+   "diagnostico": "Tasa de ataque secundaria intradomiciliaria",
+   "tipo": "mecanismo",
+   "dificultad": "alta",
+   "razonamiento": "Paso 1: casos primarios = 10; contactos susceptibles = 40. Paso 2: la transmisión en el hogar se mide con la tasa de ataque secundaria = secundarios / contactos susceptibles. Paso 3: 12/40 = 30 %.",
+   "por_que_no": [
+    "Incluye a los 10 casos primarios en el denominador; ellos no estaban en riesgo.",
+    "Es la tasa de ataque global del grupo (22/50), no la secundaria.",
+    "Suma los casos primarios al numerador; solo cuentan los secundarios.",
+    "Divide casos primarios entre contactos; no mide transmisión.",
+    ""
+   ],
+   "trampa": [
+    "umbral",
+    "diferencial",
+    "otro",
+    "otro",
+    ""
+   ],
+   "perla": "Tasa de ataque secundaria: secundarios / contactos susceptibles (sin los casos primarios).",
+   "fuente": {
+    "carpeta": "10. EPIDEMIOLOGIA",
+    "archivo": "7. ENFERMEDADES TRASMSIBLES 2.pdf",
+    "seccion": "Caso índice, primario y secundario; tasa de ataque"
+   },
+   "gemela_de": null
+  },
+  {
+   "id": "2026-10-23-noche-015",
+   "enunciado": "Un investigador compara las 25 regiones del Perú: en el eje horizontal coloca el consumo promedio de sal por habitante según encuestas de mercado y en el vertical la tasa de mortalidad por neoplasia gástrica de cada región. Obtiene una correlación de 0,78 y concluye que las personas que consumen más sal tienen mayor riesgo de morir por esta neoplasia. ¿Cuál es la principal limitación de esa conclusión?",
+   "opciones": [
+    "El recuerdo de la exposición es desigual entre los grupos",
+    "No permite estimar la exposición promedio de la población",
+    "La pérdida de seguimiento reduce su validez interna",
+    "No puede atribuirse a individuos lo observado en grupos",
+    "La asignación no aleatoria de la exposición la invalida"
+   ],
+   "clave": 4,
+   "especialidad": "Epidemiología",
+   "tema": "Pruebas diagnósticas, diseños, sesgos y causalidad",
+   "diagnostico": "Limitación del estudio ecológico (falacia ecológica)",
+   "tipo": "mecanismo",
+   "dificultad": "media",
+   "razonamiento": "Paso 1: la unidad de análisis son regiones, no personas. Paso 2: es un estudio ecológico (correlacional). Paso 3: inferir riesgo individual a partir de datos agregados es su principal limitación (falacia ecológica).",
+   "por_que_no": [
+    "El sesgo de memoria es propio de casos y controles con entrevistas individuales.",
+    "Sí da un promedio poblacional de exposición; es justamente lo que mide.",
+    "Las pérdidas de seguimiento afectan a cohortes; aquí no hay seguimiento.",
+    "",
+    "Ningún observacional asigna la exposición; no es lo propio de este diseño."
+   ],
+   "trampa": [
+    "diferencial",
+    "otro",
+    "diferencial",
+    "",
+    "otro"
+   ],
+   "perla": "Ecológico: unidad = población; genera hipótesis, pero no permite conclusiones individuales.",
+   "fuente": {
+    "carpeta": "10. EPIDEMIOLOGIA",
+    "archivo": "2. ESTUDIOS EPIDEMIOLOGICOS.pdf",
+    "seccion": "Estudios ecológicos: unidad de observación"
+   },
+   "gemela_de": null
+  },
+  {
+   "id": "2026-10-23-noche-016",
+   "enunciado": "En el Instituto Nacional Materno Perinatal se diseña un estudio para evaluar si la ingesta de antiinflamatorios en el primer trimestre se asocia a defectos del cierre del tubo neural. Se incluirán 150 madres de recién nacidos con el defecto y 300 madres de recién nacidos sanos, entrevistadas en el puerperio. El asesor advierte que las madres de niños afectados suelen recordar con más detalle lo que tomaron. ¿Qué medida reduce mejor este problema?",
+   "opciones": [
+    "Aumentar a cuatro el número de controles por cada caso",
+    "Parear casos y controles por edad materna y paridad",
+    "Estratificar el análisis según el nivel educativo materno",
+    "Obtener la exposición de historias prenatales previas",
+    "Cegar al estadístico sobre el grupo de cada madre"
+   ],
+   "clave": 4,
+   "especialidad": "Epidemiología",
+   "tema": "Pruebas diagnósticas, diseños, sesgos y causalidad",
+   "diagnostico": "Sesgo de memoria en casos y controles de malformaciones",
+   "tipo": "conducta",
+   "dificultad": "alta",
+   "razonamiento": "Paso 1: las madres de casos recuerdan más exposiciones que las de controles. Paso 2: es un sesgo de memoria (de información), típico de casos y controles. Paso 3: se reduce midiendo la exposición con registros objetivos previos al desenlace.",
+   "por_que_no": [
+    "Mejora la potencia, pero el recuerdo seguiría siendo desigual.",
+    "Controla confusión por edad y paridad, no el sesgo de recuerdo.",
+    "Controla confusión en el análisis, no un error de información.",
+    "",
+    "No cambia lo que la madre recuerda; el error nace en la entrevista."
+   ],
+   "trampa": [
+    "otro",
+    "diferencial",
+    "otro-momento",
+    "",
+    "otro"
+   ],
+   "perla": "Sesgo de memoria (casos y controles): usar registros previos al desenlace, no el recuerdo.",
+   "fuente": {
+    "carpeta": "10. EPIDEMIOLOGIA",
+    "archivo": "4. ESTUDIOS EPIDEMIOLOGICO 2.pdf",
+    "seccion": "Casos y controles: sesgos de selección y amnésico"
+   },
+   "gemela_de": null
+  },
+  {
+   "id": "2026-10-23-noche-017",
+   "enunciado": "El hospital regional de Cusco incluye a 100 pacientes con adenocarcinoma gástrico confirmado por biopsia y a 200 personas sin la enfermedad, de igual edad y procedencia, atendidas en consultorio de oftalmología. Se revisa la serología de exposición previa a Helicobacter pylori: 60 de los enfermos y 60 de los no enfermos resultan positivos. Se desea cuantificar la asociación con la medida propia del diseño empleado. ¿Cuál es el valor correcto?",
+   "opciones": [
+    "3,5",
+    "2,0",
+    "1,5",
+    "0,29",
+    "0,64"
+   ],
+   "clave": 1,
+   "especialidad": "Epidemiología",
+   "tema": "Medidas de frecuencia, asociación e impacto",
+   "diagnostico": "Cálculo del odds ratio en casos y controles de neoplasia gástrica",
+   "tipo": "mecanismo",
+   "dificultad": "alta",
+   "razonamiento": "Paso 1: se parte de enfermos y no enfermos y se busca la exposición pasada → casos y controles. Paso 2: la medida es el OR = ad/bc. Paso 3: a = 60, b = 60, c = 40, d = 140 → (60 × 140)/(60 × 40) = 3,5.",
+   "por_que_no": [
+    "",
+    "Cociente de proporciones de expuestos (60 % / 30 %); sería un RR solo con incidencias de una cohorte.",
+    "Es solo el odds de exposición de los casos (60/40); falta dividir entre el de los controles (60/140).",
+    "Cociente invertido (bc/ad): resultaría si se tomara a los no enfermos como casos.",
+    "Multiplica mal la tabla (a×b / c×d); el producto cruzado es a×d / b×c."
+   ],
+   "trampa": [
+    "",
+    "diferencial",
+    "otro",
+    "otro",
+    "otro"
+   ],
+   "perla": "Casos y controles → OR = (a × d)/(b × c): diagonal principal entre diagonal secundaria.",
+   "fuente": {
+    "carpeta": "10. EPIDEMIOLOGIA",
+    "archivo": "11. MEDIDAS DE ASOCIACION.pdf",
+    "seccion": "Odds ratio: cociente de productos cruzados"
+   },
+   "gemela_de": "2026-10-22-manana-100"
+  },
+  {
+   "id": "2026-10-23-noche-018",
+   "enunciado": "La estrategia de tuberculosis de una DIRIS revisa la incidencia anual de la forma pulmonar: 90 por 100 000 en adultos con glucosa en ayunas de 126 mg/dL o más en dos ocasiones, 30 por 100 000 en adultos sin esa condición y 45 por 100 000 en toda la población adulta. Quiere estimar el exceso de casos en toda la población adulta que se debe a esa condición metabólica, para justificar el tamizaje cruzado. ¿Cuál es el valor?",
+   "opciones": [
+    "60 por 100 000",
+    "15 por 100 000",
+    "45 por 100 000",
+    "30 por 100 000",
+    "90 por 100 000"
+   ],
+   "clave": 2,
+   "especialidad": "Epidemiología",
+   "tema": "Medidas de frecuencia, asociación e impacto",
+   "diagnostico": "Riesgo atribuible poblacional de diabetes en tuberculosis",
+   "tipo": "mecanismo",
+   "dificultad": "alta",
+   "razonamiento": "Paso 1: se pide el exceso en TODA la población. Paso 2: RAP = Ip − Io. Paso 3: 45 − 30 = 15 por 100 000 (FERP = 15/45 ≈ 33 %).",
+   "por_que_no": [
+    "Es el RA en los expuestos (90 − 30); se pide toda la población.",
+    "",
+    "Es la incidencia poblacional total, no el exceso atribuible.",
+    "Es la incidencia basal de los no expuestos (Io).",
+    "Es la incidencia de los expuestos (Ie)."
+   ],
+   "trampa": [
+    "otra-poblacion",
+    "",
+    "otro",
+    "otro",
+    "otro"
+   ],
+   "perla": "RAP = Ip − Io (población); RA = Ie − Io (expuestos).",
+   "fuente": {
+    "carpeta": "10. EPIDEMIOLOGIA",
+    "archivo": "11. MEDIDAS DE ASOCIACION.pdf",
+    "seccion": "Riesgo atribuible poblacional (RAP)"
+   },
+   "gemela_de": null
+  },
+  {
+   "id": "2026-10-23-noche-019",
+   "enunciado": "Un hospital de Lima implementará el tamizaje neonatal en papel filtro de una endocrinopatía congénita que, si no se trata antes de las 2 semanas de vida, causa retraso mental irreversible. El tratamiento es barato y eficaz, y todo resultado positivo será verificado con una prueba venosa confirmatoria. Se dispone de cinco pruebas validadas contra el estándar de oro. ¿Cuál debe elegirse para esta primera etapa?",
+   "opciones": [
+    "Sensibilidad 92 % y especificidad 99 %",
+    "Sensibilidad 95 % y especificidad 97 %",
+    "Sensibilidad 99 % y especificidad 88 %",
+    "Sensibilidad 80 % y especificidad 100 %",
+    "Sensibilidad 90 % y especificidad 90 %"
+   ],
+   "clave": 3,
+   "especialidad": "Epidemiología",
+   "tema": "Pruebas diagnósticas, diseños, sesgos y causalidad",
+   "diagnostico": "Elección de prueba de tamizaje neonatal por sensibilidad",
+   "tipo": "prueba",
+   "dificultad": "media",
+   "razonamiento": "Paso 1: enfermedad grave, tratable y con confirmación posterior de los positivos. Paso 2: un falso negativo (daño irreversible) cuesta más que un falso positivo. Paso 3: en tamizaje se elige la mayor sensibilidad → 99 %.",
+   "por_que_no": [
+    "Mejor especificidad, pero deja escapar más enfermos; serviría para confirmar.",
+    "Buen equilibrio, pero pierde 5 de cada 100 enfermos; no es la más sensible.",
+    "",
+    "Especificidad perfecta = prueba confirmatoria; en tamizaje perdería 1 de cada 5 enfermos.",
+    "Menor sensibilidad que la elegida, sin ninguna ventaja que lo compense."
+   ],
+   "trampa": [
+    "otro-momento",
+    "umbral",
+    "",
+    "otro-momento",
+    "otro"
+   ],
+   "perla": "Tamizaje = máxima sensibilidad (no perder enfermos); confirmación = máxima especificidad.",
+   "fuente": {
+    "carpeta": "10. EPIDEMIOLOGIA",
+    "archivo": "12. PRUEBAS DX.pdf",
+    "seccion": "Sensibilidad y especificidad: uso en tamizaje"
+   },
+   "gemela_de": "2026-10-22-manana-047"
+  },
+  {
+   "id": "2026-10-23-noche-020",
+   "enunciado": "Un residente revisa un estudio que compara a 120 adultos con cefalea súbita intensa y sangre en el espacio subaracnoideo por tomografía con 480 controles de la comunidad, y evalúa el consumo de cocaína en el año previo. El autor presenta su medida como si fuera el aumento del riesgo de los expuestos. El asesor indica que esa lectura es aceptable solo bajo una condición del evento estudiado. ¿Cuál es esa condición?",
+   "opciones": [
+    "Que la exposición sea poco frecuente en la población",
+    "Que el intervalo de confianza no incluya el valor 1",
+    "Que los controles estén pareados por edad y sexo",
+    "Que la enfermedad sea poco frecuente en la población",
+    "Que haya cuatro controles por cada caso estudiado"
+   ],
+   "clave": 4,
+   "especialidad": "Epidemiología",
+   "tema": "Medidas de frecuencia, asociación e impacto",
+   "diagnostico": "Condición para que el OR aproxime al RR",
+   "tipo": "mecanismo",
+   "dificultad": "alta",
+   "razonamiento": "Paso 1: se parte de enfermos y controles → casos y controles → OR. Paso 2: el OR no da el riesgo directamente. Paso 3: se aproxima al RR cuando el evento es raro (<10 %).",
+   "por_que_no": [
+    "La rareza que importa es la del evento, no la de la exposición.",
+    "La significancia no convierte el OR en RR; solo indica asociación.",
+    "Parear controla confusión; no hace equivalentes OR y RR.",
+    "",
+    "Más controles por caso da potencia, no aproxima el OR al RR."
+   ],
+   "trampa": [
+    "diferencial",
+    "otro",
+    "otro",
+    "",
+    "otro"
+   ],
+   "perla": "OR ≈ RR solo si la enfermedad es rara (<10 %).",
+   "fuente": {
+    "carpeta": "10. EPIDEMIOLOGIA",
+    "archivo": "1. MEDIDAS EPIDEMIOLOGICAS.pdf",
+    "seccion": "Medidas de asociación: OR ≈ RR si evento <10 %"
+   },
+   "gemela_de": null
+  },
+  {
+   "id": "2026-10-23-noche-021",
+   "enunciado": "Un laboratorio presenta al comité farmacoterapéutico de EsSalud un ensayo en 3 000 pacientes con infección abdominal, lactato de 4 mmol/L y PAM de 60 mmHg pese a fluidos. La mortalidad a 28 días fue 20 % con el manejo estándar y 15 % con el nuevo fármaco añadido. El folleto afirma: «reduce la mortalidad en un 25 %». El comité quiere conocer cuánto disminuye en términos absolutos la probabilidad de morir. ¿Cuál es el valor?",
+   "opciones": [
+    "25 %",
+    "5 %",
+    "75 %",
+    "20 %",
+    "15 %"
+   ],
+   "clave": 2,
+   "especialidad": "Epidemiología",
+   "tema": "Medidas de frecuencia, asociación e impacto",
+   "diagnostico": "Reducción absoluta del riesgo frente a reducción relativa",
+   "tipo": "mecanismo",
+   "dificultad": "alta",
+   "razonamiento": "Paso 1: Io = 20 %, Ie = 15 %. Paso 2: la reducción absoluta es RAR = Io − Ie. Paso 3: 20 − 15 = 5 % (NNT = 20).",
+   "por_que_no": [
+    "Es la reducción RELATIVA (5/20), la cifra que usa el folleto.",
+    "",
+    "Es el RR (15/20) expresado en porcentaje.",
+    "Es la mortalidad del grupo control (Io).",
+    "Es la mortalidad del grupo tratado (Ie)."
+   ],
+   "trampa": [
+    "diferencial",
+    "",
+    "otro",
+    "otro",
+    "otro"
+   ],
+   "perla": "La reducción relativa impresiona; la absoluta (Io − Ie) decide y da el NNT.",
+   "fuente": {
+    "carpeta": "10. EPIDEMIOLOGIA",
+    "archivo": "11. MEDIDAS DE ASOCIACION.pdf",
+    "seccion": "Factor protector: RAR y NNT"
+   },
+   "gemela_de": null
+  },
+  {
+   "id": "2026-10-23-noche-022",
+   "enunciado": "Una encuesta en 2 500 adultos de Lima Metropolitana mide, en una sola visita, el índice de masa corporal y los síntomas depresivos con un cuestionario validado. Encuentra mayor frecuencia de síntomas depresivos en los participantes con IMC de 30 kg/m² o más. Al día siguiente, un periodista publica que el exceso de peso causa depresión. ¿Cuál es la principal razón por la que este diseño no permite esa conclusión?",
+   "opciones": [
+    "Tiene sesgo de memoria por entrevistar solo a enfermos",
+    "Usa poblaciones agregadas en lugar de individuos",
+    "No establece cuál ocurrió primero, exposición o efecto",
+    "Presenta pérdidas de seguimiento durante el estudio",
+    "Mide solo la incidencia y no la prevalencia"
+   ],
+   "clave": 3,
+   "especialidad": "Epidemiología",
+   "tema": "Pruebas diagnósticas, diseños, sesgos y causalidad",
+   "diagnostico": "Limitación del estudio transversal: temporalidad",
+   "tipo": "mecanismo",
+   "dificultad": "media",
+   "razonamiento": "Paso 1: exposición y efecto se miden a la vez, una sola vez. Paso 2: es un estudio transversal (prevalencia). Paso 3: sin temporalidad no puede afirmarse causalidad (¿la depresión llevó al aumento de peso?).",
+   "por_que_no": [
+    "Típico de casos y controles; aquí se entrevista a todos, no solo a enfermos.",
+    "Eso es del estudio ecológico; aquí los datos son individuales.",
+    "",
+    "No hay seguimiento; las pérdidas afectan a las cohortes.",
+    "Es al revés: este diseño mide prevalencia, no incidencia."
+   ],
+   "trampa": [
+    "diferencial",
+    "diferencial",
+    "",
+    "diferencial",
+    "otro"
+   ],
+   "perla": "Transversal = foto: prevalencia, sin temporalidad, no prueba causalidad.",
+   "fuente": {
+    "carpeta": "10. EPIDEMIOLOGIA",
+    "archivo": "2. ESTUDIOS EPIDEMIOLOGICOS.pdf",
+    "seccion": "Estudio transversal: ventajas y desventajas"
+   },
+   "gemela_de": null
+  },
+  {
+   "id": "2026-10-23-noche-023",
+   "enunciado": "Un estudio de cohorte en trabajadores de una fábrica de cloruro de vinilo en Callao encuentra que la incidencia de angiosarcoma hepático es 20 veces mayor en los expuestos que en los no expuestos, con un intervalo de confianza del 95 % de 8 a 50. No se midieron niveles de exposición ni hay otros estudios similares en el país. ¿Qué criterio de causalidad aporta principalmente este hallazgo?",
+   "opciones": [
+    "Fuerza de asociación",
+    "Gradiente biológico",
+    "Consistencia",
+    "Temporalidad",
+    "Especificidad"
+   ],
+   "clave": 1,
+   "especialidad": "Epidemiología",
+   "tema": "Pruebas diagnósticas, diseños, sesgos y causalidad",
+   "diagnostico": "Criterio de fuerza de asociación (RR alto)",
+   "tipo": "mecanismo",
+   "dificultad": "media",
+   "razonamiento": "Paso 1: RR = 20 con IC que no incluye 1. Paso 2: una asociación tan grande es difícil de explicar por sesgo o confusión. Paso 3: la magnitud del RR es la fuerza de asociación.",
+   "por_que_no": [
+    "",
+    "Requiere comparar varios niveles de exposición; no se midieron.",
+    "Requiere otros estudios con igual resultado; no los hay.",
+    "La cohorte sí la sugiere, pero lo destacado es la magnitud del RR.",
+    "Una exposición con un efecto concreto; no es lo que aporta un RR de 20."
+   ],
+   "trampa": [
+    "",
+    "diferencial",
+    "diferencial",
+    "diferencial",
+    "diferencial"
+   ],
+   "perla": "RR u OR muy alto = fuerza; varios niveles de dosis = gradiente.",
+   "fuente": {
+    "carpeta": "10. EPIDEMIOLOGIA",
+    "archivo": "9. CAUSALIDAD Y RESUMEN.pdf",
+    "seccion": "Criterios de Bradford Hill: fuerza de asociación"
+   },
+   "gemela_de": null
+  },
+  {
+   "id": "2026-10-23-noche-024",
+   "enunciado": "La DIRESA Pasco sigue a 150 trabajadores de una mina subterránea sin enfermedad pulmonar al ingreso. Por ingresos escalonados, retiros y fallecimientos por otras causas, el seguimiento suma 800 personas-año. Durante el estudio, 24 trabajadores presentan radiografía con opacidades nodulares bilaterales en lóbulos superiores y espirometría restrictiva, compatibles con la neumoconiosis vigilada. El comité quiere expresar la velocidad de aparición de casos nuevos considerando el tiempo real de observación de cada trabajador. ¿Cuál es el valor correcto?",
+   "opciones": [
+    "3 casos por 100 personas-año",
+    "16 casos por 100 trabajadores",
+    "3 casos por 100 trabajadores",
+    "16 casos por 100 personas-año",
+    "0,3 casos por 100 personas-año"
+   ],
+   "clave": 1,
+   "especialidad": "Epidemiología",
+   "tema": "Medidas de frecuencia, asociación e impacto",
+   "diagnostico": "Densidad de incidencia en cohorte minera con seguimiento desigual",
+   "tipo": "mecanismo",
+   "dificultad": "alta",
+   "razonamiento": "Paso 1: seguimientos desiguales (ingresos, retiros) y se da la suma de persona-tiempo. Paso 2: la medida que usa persona-tiempo es la densidad de incidencia (velocidad). Paso 3: 24/800 = 0,03 → 3 casos por 100 personas-año.",
+   "por_que_no": [
+    "",
+    "Es la incidencia acumulada (24/150): ignora que cada trabajador se observó un tiempo distinto; sirve si todos tienen igual seguimiento.",
+    "Valor correcto con unidad equivocada: el denominador es persona-tiempo, no número de trabajadores.",
+    "Mezcla el numerador/denominador de la incidencia acumulada con unidades de persona-tiempo.",
+    "Error de un orden de magnitud: 24/800 = 0,03 = 3 por 100, no 0,3."
+   ],
+   "trampa": [
+    "",
+    "diferencial",
+    "umbral",
+    "otro",
+    "umbral"
+   ],
+   "perla": "Seguimientos distintos = densidad (casos / persona-tiempo); mismo periodo para todos = incidencia acumulada.",
+   "fuente": {
+    "carpeta": "10. EPIDEMIOLOGIA",
+    "archivo": "1. MEDIDAS EPIDEMIOLOGICAS.pdf",
+    "seccion": "Incidencia acumulada y densidad de incidencia"
+   },
+   "gemela_de": "2026-10-22-manana-092"
+  },
+  {
+   "id": "2026-10-23-noche-025",
+   "enunciado": "En una red de salud de Lima Este, los casos nuevos de afección pulmonar con baciloscopía positiva se mantuvieron en 120 por 100 000 habitantes entre 2022 y 2025, sin cambios en la búsqueda de sintomáticos respiratorios ni en la mortalidad. En 2023 se introdujo un esquema que logra conversión del esputo al segundo mes y curación en 4 meses en lugar de 6. En el mismo periodo, el número de pacientes en tratamiento en un día cualquiera disminuyó. ¿Qué explica este cambio?",
+   "opciones": [
+    "Disminución de la incidencia por mejor control de contactos",
+    "Menor duración de la enfermedad por curación más rápida",
+    "Aumento de la letalidad entre los casos en tratamiento",
+    "Emigración de los pacientes hacia otras redes de salud",
+    "Menor sensibilidad de la búsqueda de sintomáticos"
+   ],
+   "clave": 2,
+   "especialidad": "Epidemiología",
+   "tema": "Medidas de frecuencia, asociación e impacto",
+   "diagnostico": "Disminución de prevalencia por menor duración de la enfermedad",
+   "tipo": "mecanismo",
+   "dificultad": "alta",
+   "razonamiento": "Paso 1: incidencia, búsqueda y mortalidad estables. Paso 2: el nuevo esquema acorta la enfermedad de 6 a 4 meses. Paso 3: P ≈ I × D; menor D con I constante → baja la prevalencia.",
+   "por_que_no": [
+    "La incidencia se mantuvo estable; sería la causa si los casos nuevos hubieran bajado.",
+    "",
+    "La mortalidad no cambió; más letalidad sí reduce la prevalencia en otro escenario.",
+    "No se describe migración; la salida de enfermos sí reduce la prevalencia.",
+    "La búsqueda no cambió; detectar menos bajaría incidencia y prevalencia a la vez."
+   ],
+   "trampa": [
+    "diferencial",
+    "",
+    "otro-contexto",
+    "otro-contexto",
+    "otro"
+   ],
+   "perla": "Baja la prevalencia: curar más rápido, morir más rápido o emigrar; sube con sobrevida sin curación.",
+   "fuente": {
+    "carpeta": "10. EPIDEMIOLOGIA",
+    "archivo": "10. TASA Y DENSIDAD.pdf",
+    "seccion": "Prevalencia: causas de aumento y disminución"
+   },
+   "gemela_de": null
+  },
+  {
+   "id": "2026-10-23-noche-026",
+   "enunciado": "Un ensayo en 120 pacientes con presión arterial de 165/100 mmHg pese a tres antihipertensivos reporta que un suplemento reduce la presión sistólica 8 mmHg más que el placebo, con p = 0,04 y α fijado en 0,05. Tres ensayos posteriores, aleatorizados, bien diseñados y con más de 3 000 pacientes cada uno, no encuentran ninguna diferencia. Si los grandes ensayos reflejan la verdad, ¿qué ocurrió en el primer estudio?",
+   "opciones": [
+    "No se detectó una diferencia que sí existía",
+    "Hubo sesgo de selección por pérdidas",
+    "Hubo confusión por la edad de los pacientes",
+    "Se rechazó una hipótesis nula verdadera",
+    "Le faltó potencia por una muestra pequeña"
+   ],
+   "clave": 4,
+   "especialidad": "Epidemiología",
+   "tema": "Pruebas diagnósticas, diseños, sesgos y causalidad",
+   "diagnostico": "Error tipo I (alfa)",
+   "tipo": "mecanismo",
+   "dificultad": "alta",
+   "razonamiento": "Paso 1: el primer estudio halló diferencia significativa (p <0,05). Paso 2: la evidencia más sólida muestra que no existe. Paso 3: concluir efecto cuando no lo hay = error tipo I (α), falso positivo.",
+   "por_que_no": [
+    "Es el error tipo II: no encontrar un efecto que existe; aquí se halló uno inexistente.",
+    "No se describen pérdidas; además sería un error sistemático, no del azar.",
+    "La aleatorización hace comparables los grupos; no se describe una tercera variable.",
+    "",
+    "La baja potencia produce falsos negativos (tipo II), no un falso positivo."
+   ],
+   "trampa": [
+    "diferencial",
+    "otro",
+    "otro",
+    "",
+    "diferencial"
+   ],
+   "perla": "Tipo I (α): ves un efecto que no existe; tipo II (β): no ves el que sí existe (muestra pequeña).",
+   "fuente": {
+    "carpeta": "10. EPIDEMIOLOGIA",
+    "archivo": "3. ESTUDIO EPIDEMIOLOGICO KL.pdf",
+    "seccion": "Error tipo I (alfa) y tipo II (beta)"
+   },
+   "gemela_de": null
+  },
+  {
+   "id": "2026-10-23-noche-027",
+   "enunciado": "En un estudio de cohorte en Huánuco se sigue durante 10 años a personas con y sin antígeno de superficie del virus de la hepatitis B persistente. La incidencia de hepatocarcinoma es 300 por 100 000 en los portadores, 20 por 100 000 en los no portadores y 50 por 100 000 en la población total. El equipo quiere saber cuántos casos adicionales por cada 100 000 portadores se deben exclusivamente a la infección crónica. ¿Cuál es el valor?",
+   "opciones": [
+    "30 por 100 000",
+    "300 por 100 000",
+    "50 por 100 000",
+    "15 por 100 000",
+    "280 por 100 000"
+   ],
+   "clave": 5,
+   "especialidad": "Epidemiología",
+   "tema": "Medidas de frecuencia, asociación e impacto",
+   "diagnostico": "Riesgo atribuible en portadores crónicos de hepatitis B",
+   "tipo": "mecanismo",
+   "dificultad": "alta",
+   "razonamiento": "Paso 1: se pide el exceso en los expuestos (portadores). Paso 2: riesgo atribuible = Ie − Io. Paso 3: 300 − 20 = 280 por 100 000 portadores.",
+   "por_que_no": [
+    "Es el RAP (Ip − Io): exceso en toda la población, no en los portadores.",
+    "Es la incidencia total en portadores; incluye los 20 que ocurrirían sin la infección.",
+    "Es la incidencia de la población total; no es un exceso atribuible.",
+    "15 es el RR (300/20), una razón sin unidades, no un exceso por 100 000.",
+    ""
+   ],
+   "trampa": [
+    "otra-poblacion",
+    "otro",
+    "otro",
+    "diferencial",
+    ""
+   ],
+   "perla": "RA = Ie − Io (exceso en expuestos); RAP = Ip − Io (exceso en la población).",
+   "fuente": {
+    "carpeta": "10. EPIDEMIOLOGIA",
+    "archivo": "11. MEDIDAS DE ASOCIACION.pdf",
+    "seccion": "Riesgo atribuible (RA)"
+   },
+   "gemela_de": null
+  },
+  {
+   "id": "2026-10-23-noche-028",
+   "enunciado": "Cinco estudios de cohorte realizados en Perú, Chile, España, Japón y Canadá, con poblaciones, investigadores y métodos distintos, encuentran que los trabajadores expuestos a polvo de sílice tienen mayor incidencia de fibrosis pulmonar nodular, con RR entre 2,1 y 2,8. Un comité de salud ocupacional se apoya en esa repetición de resultados para recomendar el uso obligatorio de respiradores. ¿Qué criterio de causalidad sustenta principalmente su decisión?",
+   "opciones": [
+    "Coherencia",
+    "Analogía",
+    "Consistencia",
+    "Fuerza de asociación",
+    "Especificidad"
+   ],
+   "clave": 3,
+   "especialidad": "Epidemiología",
+   "tema": "Pruebas diagnósticas, diseños, sesgos y causalidad",
+   "diagnostico": "Criterio de consistencia (sílice)",
+   "tipo": "mecanismo",
+   "dificultad": "media",
+   "razonamiento": "Paso 1: cinco estudios en lugares y con métodos distintos. Paso 2: todos llegan al mismo resultado. Paso 3: la reproducibilidad de la asociación define la consistencia.",
+   "por_que_no": [
+    "Coherencia = el marco teórico conocido explica los resultados.",
+    "Analogía = el efecto se observa en animales o en otro tejido.",
+    "",
+    "Fuerza = RR muy alto; un RR de 2–3 es moderado y no es lo que se destaca.",
+    "Especificidad = una exposición produce un efecto concreto; no es lo descrito."
+   ],
+   "trampa": [
+    "diferencial",
+    "diferencial",
+    "",
+    "diferencial",
+    "diferencial"
+   ],
+   "perla": "Mismo resultado en distintos lugares, tiempos y métodos = consistencia.",
+   "fuente": {
+    "carpeta": "10. EPIDEMIOLOGIA",
+    "archivo": "9. CAUSALIDAD Y RESUMEN.pdf",
+    "seccion": "Criterios de Bradford Hill: consistencia"
+   },
+   "gemela_de": null
+  },
+  {
+   "id": "2026-10-23-noche-029",
+   "enunciado": "Para estudiar si el consumo de tabaco se asocia a infarto agudo de miocardio, un hospital de Lima incluye como casos a 200 pacientes vivos que acuden a control en consultorio de cardiología, con infarto ocurrido en los últimos 5 años, y como controles a 400 personas sin cardiopatía. Quienes fallecieron en las primeras horas del evento, probablemente con los infartos más extensos, no pudieron ser incluidos. ¿Qué error sistemático afecta principalmente a este estudio?",
+   "opciones": [
+    "Sesgo de memoria del entrevistado",
+    "Sesgo de selección por supervivencia",
+    "Sesgo de medición del observador",
+    "Sesgo de confusión por la edad",
+    "Error aleatorio tipo I (alfa)"
+   ],
+   "clave": 2,
+   "especialidad": "Epidemiología",
+   "tema": "Pruebas diagnósticas, diseños, sesgos y causalidad",
+   "diagnostico": "Sesgo de Neyman (prevalencia-incidencia)",
+   "tipo": "diagnostico",
+   "dificultad": "muy alta",
+   "razonamiento": "Paso 1: los casos son prevalentes (sobrevivientes), no incidentes. Paso 2: los fallecidos precozmente quedan fuera. Paso 3: es un sesgo de selección por supervivencia (Neyman o prevalencia-incidencia).",
+   "por_que_no": [
+    "Es el recuerdo desigual de la exposición entre casos y controles; no es lo descrito.",
+    "",
+    "Es el error del observador al registrar; se controla con cegamiento.",
+    "Requiere una tercera variable ligada a exposición y efecto; no se describe.",
+    "Es error por azar (falso positivo), no un error sistemático de selección."
+   ],
+   "trampa": [
+    "diferencial",
+    "",
+    "diferencial",
+    "diferencial",
+    "otro"
+   ],
+   "perla": "Casos prevalentes que excluyen a los fallecidos = sesgo de Neyman; se evita con casos incidentes.",
+   "fuente": {
+    "carpeta": "10. EPIDEMIOLOGIA",
+    "archivo": "4. ESTUDIOS EPIDEMIOLOGICO 2.pdf",
+    "seccion": "Casos y controles: sesgos de selección (Neyman y amnésico)"
+   },
+   "gemela_de": null
+  },
+  {
+   "id": "2026-10-23-noche-030",
+   "enunciado": "La DIRESA de una región andina reporta en 2025: 40 000 nacidos vivos, 36 muertes de mujeres durante el embarazo, el parto o los 42 días posteriores por causas obstétricas, 200 000 mujeres de 15 a 49 años y una población total de 1 000 000 de habitantes. El informe se enviará al CDC-MINSA para compararlo con otras regiones y con la meta nacional. ¿Qué indicador y valor corresponden?",
+   "opciones": [
+    "18 por 100 000 mujeres en edad fértil",
+    "3,6 por 100 000 habitantes",
+    "900 por 100 000 nacidos vivos",
+    "90 por 100 000 mujeres en edad fértil",
+    "90 por 100 000 nacidos vivos"
+   ],
+   "clave": 5,
+   "especialidad": "Epidemiología",
+   "tema": "Medidas de frecuencia, asociación e impacto",
+   "diagnostico": "Razón de mortalidad materna",
+   "tipo": "norma",
+   "dificultad": "media",
+   "razonamiento": "Paso 1: muerte durante embarazo, parto o 42 días por causa obstétrica = muerte materna. Paso 2: el indicador de comparación es la razón de mortalidad materna por 100 000 nacidos vivos. Paso 3: 36/40 000 × 100 000 = 90.",
+   "por_que_no": [
+    "Es la tasa de mortalidad materna (denominador: mujeres en edad fértil); no es la de comparación.",
+    "Usa la población total: diluye el riesgo y no es un indicador materno estándar.",
+    "Error de cálculo: 36/40 000 × 100 000 = 90, no 900.",
+    "Pone la cifra correcta con un denominador equivocado (mujeres de 15–49 años).",
+    ""
+   ],
+   "trampa": [
+    "diferencial",
+    "otro",
+    "umbral",
+    "otro",
+    ""
+   ],
+   "perla": "Muerte materna se expresa por 100 000 nacidos vivos; la infantil por 1 000 nacidos vivos.",
+   "fuente": {
+    "carpeta": "10. EPIDEMIOLOGIA",
+    "archivo": "1. MEDIDAS EPIDEMIOLOGICAS.pdf",
+    "seccion": "Definiciones: razón de muerte materna"
+   },
+   "gemela_de": null
+  },
+  {
+   "id": "2026-10-23-noche-031",
+   "enunciado": "En una región, la incidencia anual de cáncer broncogénico es 100 por 100 000 en fumadores, 10 por 100 000 en no fumadores y 40 por 100 000 en la población total. El Gobierno Regional evalúa una ordenanza de espacios libres de humo y pregunta qué proporción de todos los casos de la región desaparecería si se eliminara por completo el consumo de cigarrillos, asumiendo relación causal. ¿Cuál es la respuesta?",
+   "opciones": [
+    "75 %",
+    "90 %",
+    "30 %",
+    "25 %",
+    "10 %"
+   ],
+   "clave": 1,
+   "especialidad": "Epidemiología",
+   "tema": "Medidas de frecuencia, asociación e impacto",
+   "diagnostico": "Fracción etiológica poblacional del tabaco en cáncer broncogénico",
+   "tipo": "mecanismo",
+   "dificultad": "muy alta",
+   "razonamiento": "Paso 1: se pide el impacto en TODA la población, no solo en fumadores. Paso 2: la medida es la fracción etiológica poblacional = (Ip − Io)/Ip. Paso 3: (40 − 10)/40 = 0,75 → 75 %.",
+   "por_que_no": [
+    "",
+    "Es la fracción etiológica en expuestos (RA/Ie); aplica si se preguntara solo por los fumadores.",
+    "30 es el RAP (40 − 10 por 100 000), un exceso absoluto, no un porcentaje.",
+    "Io/Ip: la parte de los casos que persistiría sin tabaco, el complemento de la respuesta.",
+    "Io/Ie, el inverso del RR; no mide impacto poblacional."
+   ],
+   "trampa": [
+    "",
+    "otra-poblacion",
+    "otro",
+    "otro",
+    "otro"
+   ],
+   "perla": "FER = (Ie − Io)/Ie para expuestos; FERP = (Ip − Io)/Ip para la población.",
+   "fuente": {
+    "carpeta": "10. EPIDEMIOLOGIA",
+    "archivo": "11. MEDIDAS DE ASOCIACION.pdf",
+    "seccion": "Medidas de impacto: FER y FERP"
+   },
+   "gemela_de": "2026-10-22-manana-096"
+  },
+  {
+   "id": "2026-10-23-noche-032",
+   "enunciado": "Un estudio en mujeres de 25 a 64 años de Lima con lesión intraepitelial de alto grado confirmada por biopsia encuentra ADN de un mismo agente viral de transmisión sexual en prácticamente el 100 % de las lesiones. Sin embargo, en el seguimiento de mujeres infectadas por ese agente, más del 90 % elimina la infección sin desarrollar lesión alguna. Según el modelo de causas componentes, ¿cómo se clasifica este agente?",
+   "opciones": [
+    "Causa suficiente pero no necesaria",
+    "Causa necesaria y suficiente",
+    "Causa necesaria pero no suficiente",
+    "Causa ni necesaria ni suficiente",
+    "Causa componente no necesaria"
+   ],
+   "clave": 3,
+   "especialidad": "Epidemiología",
+   "tema": "Pruebas diagnósticas, diseños, sesgos y causalidad",
+   "diagnostico": "Causa necesaria pero no suficiente (modelo de causas componentes)",
+   "tipo": "mecanismo",
+   "dificultad": "alta",
+   "razonamiento": "Paso 1: el agente está en casi todas las lesiones → sin él no hay enfermedad. Paso 2: la mayoría de infectadas no enferma → por sí solo no basta. Paso 3: causa necesaria pero no suficiente (como M. tuberculosis en la tuberculosis).",
+   "por_que_no": [
+    "Suficiente implicaría que toda infectada desarrolla la lesión; más del 90 % no lo hace.",
+    "Sería así solo si toda infectada enfermara.",
+    "",
+    "Sería así si hubiera lesiones sin el agente; aquí está en casi todas.",
+    "Una componente no necesaria podría faltar en algunos casos; aquí siempre está."
+   ],
+   "trampa": [
+    "diferencial",
+    "otro",
+    "",
+    "otro",
+    "diferencial"
+   ],
+   "perla": "Necesaria: sin ella no hay enfermedad; suficiente: por sí sola la produce.",
+   "fuente": {
+    "carpeta": "10. EPIDEMIOLOGIA",
+    "archivo": "9. CAUSALIDAD Y RESUMEN.pdf",
+    "seccion": "Modelo de causas componentes"
+   },
+   "gemela_de": null
+  },
+  {
+   "id": "2026-10-23-noche-033",
+   "enunciado": "La ENDES evalúa en una sola visita a 3 000 niños de 6 a 35 meses de una región: mide hemoglobina capilar ajustada por altitud y pregunta si el niño recibe suplemento de hierro. Encuentra hemoglobina menor de 11 g/dL en el 38 % de los que no reciben suplemento y en el 25 % de los que sí lo reciben. El analista debe presentar la medida de asociación propia de este diseño. ¿Cuál corresponde?",
+   "opciones": [
+    "Riesgo relativo",
+    "Densidad de incidencia",
+    "Riesgo atribuible",
+    "Número necesario a tratar",
+    "Odds ratio"
+   ],
+   "clave": 5,
+   "especialidad": "Epidemiología",
+   "tema": "Medidas de frecuencia, asociación e impacto",
+   "diagnostico": "Medida de asociación en un estudio transversal",
+   "tipo": "mecanismo",
+   "dificultad": "alta",
+   "razonamiento": "Paso 1: una sola medición en un momento → estudio transversal (prevalencias). Paso 2: no hay incidencias, no se puede calcular riesgo. Paso 3: la asociación se expresa con OR (de prevalencia).",
+   "por_que_no": [
+    "Requiere incidencias de una cohorte seguida en el tiempo.",
+    "Necesita seguimiento con persona-tiempo; aquí hay una sola medición.",
+    "Es una medida de impacto con incidencias, no la asociación de un corte transversal.",
+    "Se obtiene de un ensayo con intervención asignada.",
+    ""
+   ],
+   "trampa": [
+    "diferencial",
+    "otro",
+    "otro-momento",
+    "otro",
+    ""
+   ],
+   "perla": "Transversal y casos-controles → OR; cohorte → RR; ensayo → RAR y NNT.",
+   "fuente": {
+    "carpeta": "10. EPIDEMIOLOGIA",
+    "archivo": "11. MEDIDAS DE ASOCIACION.pdf",
+    "seccion": "RR y OR: tipo de estudio"
+   },
+   "gemela_de": null
+  },
+  {
+   "id": "2026-10-23-noche-034",
+   "enunciado": "Estudios epidemiológicos en Arequipa asocian la exposición laboral a aminas aromáticas en la industria de tintes con carcinoma urotelial vesical. Posteriormente, estudios toxicológicos demuestran que un metabolito de estas sustancias se concentra en la orina y forma aductos con el ADN de las células del urotelio, generando mutaciones. ¿Qué criterio de causalidad fortalece principalmente este segundo hallazgo?",
+   "opciones": [
+    "Plausibilidad biológica",
+    "Evidencia experimental",
+    "Analogía",
+    "Fuerza de asociación",
+    "Especificidad"
+   ],
+   "clave": 1,
+   "especialidad": "Epidemiología",
+   "tema": "Pruebas diagnósticas, diseños, sesgos y causalidad",
+   "diagnostico": "Criterio de plausibilidad biológica (aminas aromáticas)",
+   "tipo": "mecanismo",
+   "dificultad": "alta",
+   "razonamiento": "Paso 1: ya existía asociación epidemiológica. Paso 2: se describe cómo el agente daña el ADN del mismo órgano. Paso 3: que la relación se pueda explicar biológicamente es la plausibilidad.",
+   "por_que_no": [
+    "",
+    "Exige manipular la exposición (p. ej., retirarla) y ver que baja el riesgo.",
+    "Se aplica cuando el efecto se ve en animales o en otro tejido.",
+    "Se basa en la magnitud del RR u OR, no en el mecanismo.",
+    "Una exposición ligada a un efecto concreto; no es lo que aporta el mecanismo."
+   ],
+   "trampa": [
+    "",
+    "diferencial",
+    "diferencial",
+    "diferencial",
+    "diferencial"
+   ],
+   "perla": "Mecanismo biológico que explica la asociación = plausibilidad.",
+   "fuente": {
+    "carpeta": "10. EPIDEMIOLOGIA",
+    "archivo": "9. CAUSALIDAD Y RESUMEN.pdf",
+    "seccion": "Criterios de Bradford Hill: plausibilidad"
+   },
+   "gemela_de": null
+  },
+  {
+   "id": "2026-10-23-noche-035",
+   "enunciado": "Un estudio de casos y controles en Lima encuentra que los consumidores habituales de alcohol tienen un OR de 2,4 para cáncer de pulmón. Al revisar los datos se observa que el 70 % de los bebedores fuma, frente al 20 % de los no bebedores. Al analizar por separado a fumadores y no fumadores, el OR del alcohol es 1,1 en cada grupo. ¿Qué procedimiento, aplicado en la fase de análisis, permitió identificar este problema?",
+   "opciones": [
+    "Aleatorización",
+    "Pareamiento",
+    "Cegamiento",
+    "Estratificación",
+    "Aumento del tamaño muestral"
+   ],
+   "clave": 4,
+   "especialidad": "Epidemiología",
+   "tema": "Pruebas diagnósticas, diseños, sesgos y causalidad",
+   "diagnostico": "Variable de confusión (tabaco) en la asociación alcohol-cáncer",
+   "tipo": "conducta",
+   "dificultad": "alta",
+   "razonamiento": "Paso 1: el tabaco se asocia al alcohol y también al cáncer. Paso 2: al separar por tabaco el OR cae a 1,1 → la asociación cruda era por confusión. Paso 3: separar por la tercera variable en el análisis = estratificación.",
+   "por_que_no": [
+    "Controla confusión, pero en el DISEÑO de un ensayo, no en el análisis.",
+    "También controla confusión, pero se hace al seleccionar los controles.",
+    "Controla el sesgo de medición, no la confusión.",
+    "",
+    "Reduce el error aleatorio, no un sesgo sistemático."
+   ],
+   "trampa": [
+    "otro-momento",
+    "otro-momento",
+    "diferencial",
+    "",
+    "otro"
+   ],
+   "perla": "Confusión: en el diseño → aleatorizar, parear, restringir; en el análisis → estratificar, ajustar.",
+   "fuente": {
+    "carpeta": "10. EPIDEMIOLOGIA",
+    "archivo": "3. ESTUDIO EPIDEMIOLOGICO KL.pdf",
+    "seccion": "Sesgos: confusión y su control"
+   },
+   "gemela_de": "2026-10-22-manana-055"
+  },
+  {
+   "id": "2026-10-23-noche-036",
+   "enunciado": "En la UCI de un hospital de Arequipa, durante un mes, 10 pacientes portan catéter venoso central y suman 250 días-catéter. Cinco de ellos presentan, más de 48 horas después de colocado el dispositivo, fiebre de 38,9 °C, escalofríos con la infusión y hemocultivos central y periférico positivos al mismo germen. La oficina de epidemiología debe reportar el indicador de vigilancia de esta complicación asociada a la atención. ¿Cuál es el valor?",
+   "opciones": [
+    "20 por 1 000 días-catéter",
+    "50 por 100 pacientes con catéter",
+    "2 por 1 000 días-catéter",
+    "200 por 1 000 días-catéter",
+    "5 por 1 000 días-catéter"
+   ],
+   "clave": 1,
+   "especialidad": "Epidemiología",
+   "tema": "Medidas de frecuencia, asociación e impacto",
+   "diagnostico": "Densidad de incidencia de infección asociada a catéter venoso central",
+   "tipo": "norma",
+   "dificultad": "alta",
+   "razonamiento": "Paso 1: infección >48 h tras el dispositivo = asociada a la atención. Paso 2: la exposición se mide en días-dispositivo (densidad de incidencia). Paso 3: 5/250 × 1 000 = 20 por 1 000 días-catéter.",
+   "por_que_no": [
+    "",
+    "Es la incidencia acumulada por paciente; ignora los días de exposición al dispositivo.",
+    "Error de un orden de magnitud: 5/250 = 0,02 → 20 por 1 000.",
+    "Multiplica de más: 0,02 × 1 000 = 20, no 200.",
+    "Es solo el número de casos, sin el denominador de exposición."
+   ],
+   "trampa": [
+    "",
+    "diferencial",
+    "umbral",
+    "umbral",
+    "otro"
+   ],
+   "perla": "IAAS por dispositivo: casos / días-dispositivo × 1 000 (es una densidad de incidencia).",
+   "fuente": {
+    "carpeta": "10. EPIDEMIOLOGIA",
+    "archivo": "1. MEDIDAS EPIDEMIOLOGICAS.pdf",
+    "seccion": "Densidad de incidencia; IAAS en 8. VIGILANCIA Y NOTIFICACION.pdf"
+   },
+   "gemela_de": null
+  },
+  {
+   "id": "2026-10-23-noche-037",
+   "enunciado": "El hospital de una provincia de Cajamarca analiza su año 2025: 2 500 nacidos vivos, 10 óbitos fetales de 28 semanas o más, 20 recién nacidos fallecidos antes de los 7 días, 5 fallecidos entre los 7 y los 27 días y 15 fallecidos entre los 28 días y los 11 meses. El comité quiere el indicador que refleja la calidad de la atención del final del embarazo, el parto y la primera semana de vida. ¿Cuál es el valor aproximado?",
+   "opciones": [
+    "12 por 1 000 nacimientos",
+    "10 por 1 000 nacidos vivos",
+    "16 por 1 000 nacidos vivos",
+    "14 por 1 000 nacimientos",
+    "4 por 1 000 nacimientos"
+   ],
+   "clave": 1,
+   "especialidad": "Epidemiología",
+   "tema": "Medidas de frecuencia, asociación e impacto",
+   "diagnostico": "Tasa de mortalidad perinatal",
+   "tipo": "mecanismo",
+   "dificultad": "alta",
+   "razonamiento": "Paso 1: la ventana es final del embarazo + primera semana de vida. Paso 2: perinatal = óbitos ≥28 semanas + muertes neonatales <7 días. Paso 3: (10 + 20)/(2 500 + 10) × 1 000 ≈ 12 por 1 000 nacimientos.",
+   "por_que_no": [
+    "",
+    "Es la neonatal (20 + 5)/2 500: no incluye óbitos y suma la neonatal tardía.",
+    "Es la infantil (20 + 5 + 15)/2 500.",
+    "Agrega a los fallecidos de 7–27 días, que ya no son perinatales.",
+    "Cuenta solo los óbitos fetales; falta la mortalidad de la primera semana."
+   ],
+   "trampa": [
+    "",
+    "diferencial",
+    "otro-estadio",
+    "umbral",
+    "otro"
+   ],
+   "perla": "Perinatal = óbitos ≥28 semanas + neonatales precoces (<7 días).",
+   "fuente": {
+    "carpeta": "10. EPIDEMIOLOGIA",
+    "archivo": "10. TASA Y DENSIDAD.pdf",
+    "seccion": "Medidas de mortalidad: perinatal"
+   },
+   "gemela_de": null
+  },
+  {
+   "id": "2026-10-23-noche-038",
+   "enunciado": "En un mes, un hospital de Huánuco atiende a 18 niños con debilidad flácida ascendente, arreflexia y LCR con proteínas de 120 mg/dL y 2 células/mm³, cifra muy superior a la habitual. Se plantean como posibles causas varias exposiciones: una vacuna reciente, el consumo de agua de un reservorio, una infección gastrointestinal previa y el contacto con plaguicidas. Se necesita una respuesta rápida y de bajo costo. ¿Qué diseño debe usarse?",
+   "opciones": [
+    "Cohorte prospectiva",
+    "Casos y controles",
+    "Ensayo clínico aleatorizado",
+    "Ecológico",
+    "Transversal"
+   ],
+   "clave": 2,
+   "especialidad": "Epidemiología",
+   "tema": "Pruebas diagnósticas, diseños, sesgos y causalidad",
+   "diagnostico": "Elección de casos y controles para enfermedad rara con varias exposiciones",
+   "tipo": "conducta",
+   "dificultad": "media",
+   "razonamiento": "Paso 1: enfermedad rara con pocos casos. Paso 2: varias exposiciones posibles y necesidad de rapidez. Paso 3: casos y controles parte de los enfermos y estudia varias exposiciones a bajo costo.",
+   "por_que_no": [
+    "Lenta y costosa; útil para exposición rara, no para enfermedad rara.",
+    "",
+    "No es ético asignar exposiciones sospechosas de causar daño.",
+    "No evalúa las exposiciones individuales de cada niño.",
+    "No estudia con eficiencia una enfermedad rara ni la temporalidad."
+   ],
+   "trampa": [
+    "diferencial",
+    "",
+    "otro",
+    "otro",
+    "otro"
+   ],
+   "perla": "Brote con varias exposiciones sospechosas → casos y controles (OR).",
+   "fuente": {
+    "carpeta": "10. EPIDEMIOLOGIA",
+    "archivo": "2. ESTUDIOS EPIDEMIOLOGICOS.pdf",
+    "seccion": "Casos y controles: ventajas"
+   },
+   "gemela_de": null
+  },
+  {
+   "id": "2026-10-23-noche-039",
+   "enunciado": "El MINSA planea tamizar a 10 000 escolares de un distrito de Lima con una prueba de sensibilidad de 90 % y especificidad de 95 %, para una condición cuya prevalencia esperada es de 1 %. Todos los positivos serán referidos al hospital para estudios confirmatorios costosos. El director pide estimar cuántos escolares sanos serán referidos innecesariamente para presupuestar las citas. ¿Cuál es la cifra esperada?",
+   "opciones": [
+    "500 escolares",
+    "585 escolares",
+    "90 escolares",
+    "495 escolares",
+    "10 escolares"
+   ],
+   "clave": 4,
+   "especialidad": "Epidemiología",
+   "tema": "Pruebas diagnósticas, diseños, sesgos y causalidad",
+   "diagnostico": "Falsos positivos de un tamizaje en población de baja prevalencia",
+   "tipo": "prueba",
+   "dificultad": "alta",
+   "razonamiento": "Paso 1: enfermos = 100; sanos = 9 900. Paso 2: falsos positivos = sanos × (1 − especificidad). Paso 3: 9 900 × 0,05 = 495 (VPP = 90/585 ≈ 15 %).",
+   "por_que_no": [
+    "Aplica 5 % a los 10 000; los falsos positivos salen solo de los 9 900 sanos.",
+    "Son todos los positivos (90 VP + 495 FP).",
+    "Son los verdaderos positivos (enfermos detectados).",
+    "",
+    "Son los falsos negativos (enfermos no detectados)."
+   ],
+   "trampa": [
+    "umbral",
+    "otro",
+    "diferencial",
+    "",
+    "diferencial"
+   ],
+   "perla": "Falsos positivos = sanos × (1 − E); en baja prevalencia superan a los verdaderos positivos.",
+   "fuente": {
+    "carpeta": "10. EPIDEMIOLOGIA",
+    "archivo": "12. PRUEBAS DX.pdf",
+    "seccion": "Tabla 2×2: VP, FP, FN, VN"
+   },
+   "gemela_de": null
+  },
+  {
+   "id": "2026-10-23-noche-040",
+   "enunciado": "Un ensayo clínico aleatorizado en EsSalud incluye 2 000 adultos de 55 a 75 años con LDL de 160 mg/dL, sin eventos cardiovasculares previos. A 5 años, en el grupo placebo (n = 1 000) presentan infarto o ACV 80 personas y en el grupo que recibió el hipolipemiante (n = 1 000), 50. No hubo pérdidas de seguimiento. Para la guía institucional se requiere expresar cuántos pacientes deben recibir el fármaco durante 5 años para evitar un evento. ¿Cuál es el valor?",
+   "opciones": [
+    "20 pacientes",
+    "13 pacientes",
+    "34 pacientes",
+    "8 pacientes",
+    "3 pacientes"
+   ],
+   "clave": 3,
+   "especialidad": "Epidemiología",
+   "tema": "Medidas de frecuencia, asociación e impacto",
+   "diagnostico": "Número necesario a tratar en ensayo de prevención cardiovascular",
+   "tipo": "mecanismo",
+   "dificultad": "alta",
+   "razonamiento": "Paso 1: Io (placebo) = 80/1 000 = 8 %; Ie (fármaco) = 50/1 000 = 5 %. Paso 2: el fármaco reduce el riesgo → RAR = Io − Ie = 3 %. Paso 3: NNT = 1/0,03 = 33,3 → se redondea hacia arriba: 34.",
+   "por_que_no": [
+    "1/0,05: usa la incidencia del grupo tratado, no la diferencia de riesgos.",
+    "1/0,08: usa la incidencia del placebo; valdría solo si el fármaco evitara todos los eventos.",
+    "",
+    "1/(0,08 + 0,05): suma los riesgos en lugar de restarlos.",
+    "3 es la RAR expresada en porcentaje; el NNT es su inverso."
+   ],
+   "trampa": [
+    "otro",
+    "umbral",
+    "",
+    "otro",
+    "otro-momento"
+   ],
+   "perla": "NNT = 1/RAR (Io − Ie) y siempre se redondea hacia arriba.",
+   "fuente": {
+    "carpeta": "10. EPIDEMIOLOGIA",
+    "archivo": "11. MEDIDAS DE ASOCIACION.pdf",
+    "seccion": "Factor protector: RAR y NNT"
+   },
+   "gemela_de": "2026-10-22-manana-078"
+  },
+  {
+   "id": "2026-10-23-noche-041",
+   "enunciado": "La DIRESA Cusco quiere evaluar un programa de lavado de manos para reducir los episodios de más de 3 deposiciones líquidas al día en escolares. Aplica la intervención a todos los alumnos del colegio A y usa como comparación al colegio B, de características similares y sin intervención; los colegios no se eligieron al azar. Se registran los episodios durante 6 meses en ambos. ¿Qué tipo de estudio es?",
+   "opciones": [
+    "Preexperimental",
+    "Ensayo clínico aleatorizado",
+    "Cohorte prospectiva",
+    "Ensayo comunitario aleatorizado",
+    "Cuasiexperimental"
+   ],
+   "clave": 5,
+   "especialidad": "Epidemiología",
+   "tema": "Pruebas diagnósticas, diseños, sesgos y causalidad",
+   "diagnostico": "Estudio cuasiexperimental con grupo control no aleatorizado",
+   "tipo": "diagnostico",
+   "dificultad": "media",
+   "razonamiento": "Paso 1: el investigador asigna la intervención → experimental. Paso 2: hay grupo control pero no aleatorización. Paso 3: tener solo uno de los dos (control o azar) = cuasiexperimental.",
+   "por_que_no": [
+    "No tiene grupo control; aquí sí lo hay (colegio B).",
+    "Exige aleatorización; aquí los colegios se eligieron a criterio.",
+    "En una cohorte el investigador no asigna la exposición; aquí sí la asigna.",
+    "Requeriría asignar las comunidades o colegios al azar.",
+    ""
+   ],
+   "trampa": [
+    "otro",
+    "otro",
+    "diferencial",
+    "umbral",
+    ""
+   ],
+   "perla": "Preexperimental: ni azar ni control; cuasi: uno de los dos; ECA: ambos.",
+   "fuente": {
+    "carpeta": "10. EPIDEMIOLOGIA",
+    "archivo": "4. ESTUDIOS EPIDEMIOLOGICO 2.pdf",
+    "seccion": "Experimentales: pre, cuasi y ECA"
+   },
+   "gemela_de": null
+  },
+  {
+   "id": "2026-10-23-noche-042",
+   "enunciado": "Un estudio en el Instituto Nacional de Salud del Niño compara a 150 niños de 2 a 5 años con hemopatía maligna confirmada por mielograma con 300 niños sin la enfermedad, de igual edad y del mismo hospital. Se interroga a las madres sobre lactancia materna exclusiva durante 6 meses. El análisis informa una medida de asociación de 0,6 con intervalo de confianza del 95 % de 0,45 a 0,80. ¿Cuál es la interpretación correcta?",
+   "opciones": [
+    "Es factor de riesgo, sin significancia estadística",
+    "No se asocia, porque la medida es menor de 1",
+    "Previene el 60 % de los casos de la población",
+    "Se asocia a menor ocurrencia, con significancia",
+    "Se asocia a menor ocurrencia, sin significancia"
+   ],
+   "clave": 4,
+   "especialidad": "Epidemiología",
+   "tema": "Medidas de frecuencia, asociación e impacto",
+   "diagnostico": "Odds ratio protector significativo",
+   "tipo": "mecanismo",
+   "dificultad": "media",
+   "razonamiento": "Paso 1: casos y controles → OR = 0,6. Paso 2: <1 indica factor protector. Paso 3: el IC 95 % (0,45–0,80) no cruza el 1 → asociación protectora significativa.",
+   "por_que_no": [
+    "Sería factor de riesgo si la medida fuera >1; aquí es 0,6.",
+    "Menor de 1 indica protección; la ausencia de asociación es = 1.",
+    "0,6 no es una fracción prevenible; el OR no mide impacto poblacional.",
+    "",
+    "El IC 0,45–0,80 no incluye 1: sí es significativo."
+   ],
+   "trampa": [
+    "otro",
+    "umbral",
+    "otro",
+    "",
+    "umbral"
+   ],
+   "perla": "OR/RR <1 = protector; >1 = riesgo; =1 o IC que incluye 1 = sin asociación demostrada.",
+   "fuente": {
+    "carpeta": "10. EPIDEMIOLOGIA",
+    "archivo": "11. MEDIDAS DE ASOCIACION.pdf",
+    "seccion": "Interpretación de RR y OR"
+   },
+   "gemela_de": null
+  },
+  {
+   "id": "2026-10-23-noche-043",
+   "enunciado": "Dos distritos de Ica notifican brotes simultáneos de fiebre, mialgias y dolor retroocular; algunos casos tienen plaquetas menores de 100 000/mm³ con hematocrito en ascenso. El distrito A (80 000 habitantes) tiene 400 casos y 4 fallecidos; el distrito B (20 000 habitantes) tiene 100 casos y 3 fallecidos. El director regional quiere comparar en qué distrito la enfermedad está siendo más grave para quienes la padecen, sin depender del tamaño poblacional. ¿Qué indicador debe usar?",
+   "opciones": [
+    "Letalidad",
+    "Tasa de mortalidad específica",
+    "Tasa de incidencia",
+    "Prevalencia de periodo",
+    "Tasa de ataque"
+   ],
+   "clave": 1,
+   "especialidad": "Epidemiología",
+   "tema": "Medidas de frecuencia, asociación e impacto",
+   "diagnostico": "Letalidad para comparar gravedad entre brotes",
+   "tipo": "mecanismo",
+   "dificultad": "media",
+   "razonamiento": "Paso 1: se pide gravedad entre los que enferman. Paso 2: muertes / enfermos = letalidad (también mide virulencia). Paso 3: A = 1 %, B = 3 %: el brote de B es más letal.",
+   "por_que_no": [
+    "",
+    "Divide entre la población total: mide impacto poblacional, no gravedad en los enfermos.",
+    "La incidencia mide la aparición de casos, no su gravedad.",
+    "La prevalencia mide la carga de enfermos, no el desenlace.",
+    "Mide ocurrencia en expuestos durante el brote, no gravedad."
+   ],
+   "trampa": [
+    "",
+    "diferencial",
+    "otro",
+    "otro",
+    "diferencial"
+   ],
+   "perla": "Letalidad = muertes / enfermos; mortalidad = muertes / población total.",
+   "fuente": {
+    "carpeta": "10. EPIDEMIOLOGIA",
+    "archivo": "10. TASA Y DENSIDAD.pdf",
+    "seccion": "Tasa de letalidad vs tasa de mortalidad"
+   },
+   "gemela_de": null
+  },
+  {
+   "id": "2026-10-23-noche-044",
+   "enunciado": "Un ensayo clínico en EsSalud compara un nuevo analgésico con paracetamol en 300 adultos operados de colecistectomía laparoscópica. El desenlace es el dolor a las 24 horas medido con escala visual analógica y registrado por las enfermeras de piso, que saben qué medicamento recibió cada paciente porque las presentaciones son distintas. La asignación fue al azar y los grupos son comparables. ¿Qué medida corrige el principal problema del diseño?",
+   "opciones": [
+    "Aleatorización estratificada por la edad",
+    "Pareamiento por el tipo de cirugía",
+    "Cegamiento de pacientes y evaluadores",
+    "Estratificación en el análisis final",
+    "Aumento del tamaño de la muestra"
+   ],
+   "clave": 3,
+   "especialidad": "Epidemiología",
+   "tema": "Pruebas diagnósticas, diseños, sesgos y causalidad",
+   "diagnostico": "Sesgo de medición controlado con cegamiento",
+   "tipo": "conducta",
+   "dificultad": "media",
+   "razonamiento": "Paso 1: desenlace subjetivo (dolor) medido por quien conoce el tratamiento. Paso 2: eso genera sesgo de medición o información. Paso 3: se controla con cegamiento (doble ciego, presentaciones idénticas).",
+   "por_que_no": [
+    "Ya hubo aleatorización con grupos comparables; no corrige la medición sesgada.",
+    "Controla confusión, no el sesgo del evaluador.",
+    "",
+    "Controla confusión en el análisis, no el error de medición.",
+    "Reduce el error aleatorio, no el sistemático."
+   ],
+   "trampa": [
+    "otro-momento",
+    "diferencial",
+    "",
+    "otro-momento",
+    "otro"
+   ],
+   "perla": "Sesgo de medición → cegamiento; confusión → aleatorizar, parear, estratificar.",
+   "fuente": {
+    "carpeta": "10. EPIDEMIOLOGIA",
+    "archivo": "3. ESTUDIO EPIDEMIOLOGICO KL.pdf",
+    "seccion": "Sesgo de medición y cegamiento"
+   },
+   "gemela_de": null
+  },
+  {
+   "id": "2026-10-23-noche-045",
+   "enunciado": "La oficina de epidemiología de una red de salud de Loreto consolida los datos de 2025: 2 000 nacidos vivos, 12 defunciones en la primera semana de vida, 6 entre el día 7 y el día 27, 10 entre el día 28 y los 11 meses, y 8 óbitos fetales de 28 semanas o más. Debe reportar el indicador que el MINSA usa para comparar la mortalidad de los menores de 1 año entre redes. ¿Cuál es el valor?",
+   "opciones": [
+    "9 por 1 000 nacidos vivos",
+    "5 por 1 000 nacidos vivos",
+    "14 por 1 000 nacidos vivos",
+    "18 por 1 000 nacidos vivos",
+    "10 por 1 000 nacimientos"
+   ],
+   "clave": 3,
+   "especialidad": "Epidemiología",
+   "tema": "Medidas de frecuencia, asociación e impacto",
+   "diagnostico": "Tasa de mortalidad infantil",
+   "tipo": "mecanismo",
+   "dificultad": "media",
+   "razonamiento": "Paso 1: menores de 1 año = neonatal precoz + tardía + posneonatal. Paso 2: los óbitos fetales no cuentan. Paso 3: (12 + 6 + 10)/2 000 × 1 000 = 14 por 1 000 nacidos vivos.",
+   "por_que_no": [
+    "Es la mortalidad neonatal (0–27 días); excluye a los 10 posneonatales.",
+    "Es la posneonatal (28 días a 11 meses); falta la neonatal.",
+    "",
+    "Suma los óbitos fetales, que no son nacidos vivos ni entran en este indicador.",
+    "Es la perinatal (óbitos ≥28 semanas + primera semana): otro indicador."
+   ],
+   "trampa": [
+    "otro-estadio",
+    "otro-estadio",
+    "",
+    "otro",
+    "diferencial"
+   ],
+   "perla": "Infantil = neonatal (0–27 d) + posneonatal (28 d–11 m) por 1 000 nacidos vivos; los óbitos no cuentan.",
+   "fuente": {
+    "carpeta": "10. EPIDEMIOLOGIA",
+    "archivo": "10. TASA Y DENSIDAD.pdf",
+    "seccion": "Medidas de mortalidad: infantil, posneonatal, perinatal"
+   },
+   "gemela_de": null
+  },
+  {
+   "id": "2026-10-23-noche-046",
+   "enunciado": "Se valida en Tumbes una prueba rápida de antígeno en sangre capilar frente a la gota gruesa, que es el estándar de oro, en 1 000 pacientes con fiebre, escalofríos y sudoración cíclicos. La gota gruesa resulta positiva en 200; de ellos, 160 tienen la prueba rápida positiva. De los 800 con gota gruesa negativa, 780 tienen la prueba rápida negativa. ¿Cuál es la capacidad de la prueba para detectar a los enfermos?",
+   "opciones": [
+    "97,5 %",
+    "88,9 %",
+    "95,1 %",
+    "80 %",
+    "20 %"
+   ],
+   "clave": 4,
+   "especialidad": "Epidemiología",
+   "tema": "Pruebas diagnósticas, diseños, sesgos y causalidad",
+   "diagnostico": "Cálculo de sensibilidad de una prueba rápida",
+   "tipo": "prueba",
+   "dificultad": "media",
+   "razonamiento": "Paso 1: enfermos por el estándar = 200; VP = 160, FN = 40. Paso 2: detectar enfermos = sensibilidad = VP/(VP + FN). Paso 3: 160/200 = 80 %.",
+   "por_que_no": [
+    "Es la especificidad (780/800): capacidad de identificar a los sanos.",
+    "Es el VPP (160/180): probabilidad de enfermedad si la prueba es positiva.",
+    "Es el VPN (780/820): probabilidad de estar sano si la prueba es negativa.",
+    "",
+    "Es la proporción de falsos negativos (40/200), complemento de la respuesta."
+   ],
+   "trampa": [
+    "diferencial",
+    "diferencial",
+    "diferencial",
+    "",
+    "otro"
+   ],
+   "perla": "Sensibilidad = VP / todos los enfermos; especificidad = VN / todos los sanos.",
+   "fuente": {
+    "carpeta": "10. EPIDEMIOLOGIA",
+    "archivo": "12. PRUEBAS DX.pdf",
+    "seccion": "Sensibilidad: fórmula VP/(VP+FN)"
+   },
+   "gemela_de": null
+  },
+  {
+   "id": "2026-10-23-noche-047",
+   "enunciado": "En una provincia de Junín, el registro de pacientes con filtrado glomerular menor de 15 mL/min/1,73 m² muestra que los casos nuevos por año se mantuvieron estables, alrededor de 40 por 100 000 habitantes, entre 2020 y 2025. Desde 2022 funciona un nuevo centro de hemodiálisis y la mediana de sobrevida pasó de 1 a 4 años; no hubo cambios en los criterios diagnósticos ni migración. Sin embargo, el número total de pacientes vivos con la condición se triplicó. ¿Qué explica este cambio?",
+   "opciones": [
+    "Aumento de la incidencia de la enfermedad en la provincia",
+    "Mayor sensibilidad de los criterios diagnósticos usados",
+    "Inmigración de pacientes desde otras provincias vecinas",
+    "Mayor proporción de pacientes curados con el tratamiento",
+    "Mayor duración de la enfermedad por aumento de la sobrevida"
+   ],
+   "clave": 5,
+   "especialidad": "Epidemiología",
+   "tema": "Medidas de frecuencia, asociación e impacto",
+   "diagnostico": "Aumento de prevalencia por mayor sobrevida en terapia de reemplazo renal",
+   "tipo": "mecanismo",
+   "dificultad": "alta",
+   "razonamiento": "Paso 1: incidencia estable, sin cambios diagnósticos ni migración. Paso 2: la sobrevida se cuadruplicó sin curación. Paso 3: P ≈ I × D; al subir D con I constante, la prevalencia aumenta.",
+   "por_que_no": [
+    "Los casos nuevos se mantuvieron estables; sería la causa si la incidencia hubiera subido.",
+    "Los criterios no cambiaron; detectar más casos sí elevaría la prevalencia en otro escenario.",
+    "Se descarta migración; la llegada de enfermos sí aumenta la prevalencia en otro contexto.",
+    "La hemodiálisis no cura; curar acorta la duración y DISMINUYE la prevalencia.",
+    ""
+   ],
+   "trampa": [
+    "diferencial",
+    "otro-contexto",
+    "otro-contexto",
+    "otro",
+    ""
+   ],
+   "perla": "P = I × D: tratar sin curar (diálisis, TARV, insulina) sube la prevalencia.",
+   "fuente": {
+    "carpeta": "10. EPIDEMIOLOGIA",
+    "archivo": "10. TASA Y DENSIDAD.pdf",
+    "seccion": "Prevalencia: causas de aumento y disminución"
+   },
+   "gemela_de": "2026-10-22-manana-087"
+  },
+  {
+   "id": "2026-10-23-noche-048",
+   "enunciado": "Un distrito de San Martín con 50 000 habitantes registra en 2025: 400 defunciones por todas las causas, 500 casos de infección respiratoria baja con consolidación radiológica y 40 muertes por esa infección. La oficina de epidemiología debe informar el indicador que expresa cuántas personas de la población general murieron por esa causa específica en el año. ¿Cuál es el valor?",
+   "opciones": [
+    "8 por 1 000 habitantes",
+    "8 %",
+    "80 por 100 000 habitantes",
+    "10 %",
+    "1 %"
+   ],
+   "clave": 3,
+   "especialidad": "Epidemiología",
+   "tema": "Medidas de frecuencia, asociación e impacto",
+   "diagnostico": "Tasa de mortalidad específica por causa",
+   "tipo": "mecanismo",
+   "dificultad": "media",
+   "razonamiento": "Paso 1: numerador = muertes por la causa (40). Paso 2: denominador = población general (50 000) → mortalidad específica. Paso 3: 40/50 000 × 100 000 = 80 por 100 000.",
+   "por_que_no": [
+    "Es la mortalidad general (400/50 000), por todas las causas.",
+    "Es la letalidad (40/500): muertes entre los enfermos, no en la población.",
+    "",
+    "Es la mortalidad proporcional (40/400): fracción de todas las muertes.",
+    "Es la incidencia de la infección (500/50 000), no su mortalidad."
+   ],
+   "trampa": [
+    "diferencial",
+    "diferencial",
+    "",
+    "otro",
+    "otro"
+   ],
+   "perla": "Mortalidad específica: muertes por causa / población; letalidad: muertes / enfermos.",
+   "fuente": {
+    "carpeta": "10. EPIDEMIOLOGIA",
+    "archivo": "10. TASA Y DENSIDAD.pdf",
+    "seccion": "Tasa de mortalidad y letalidad"
+   },
+   "gemela_de": null
+  },
+  {
+   "id": "2026-10-23-noche-049",
+   "enunciado": "El Instituto Peruano de Energía Nuclear quiere saber si la exposición ocupacional a radiación ionizante se asocia a neoplasias hematológicas, opacidades del cristalino, hipofunción tiroidea y cáncer de tiroides en su personal. Los trabajadores expuestos son pocos, unos 300, pero están registrados con dosímetros desde su ingreso; además hay 900 trabajadores administrativos no expuestos. ¿Qué diseño es el más adecuado?",
+   "opciones": [
+    "Casos y controles",
+    "Cohorte",
+    "Transversal",
+    "Ecológico",
+    "Serie de casos"
+   ],
+   "clave": 2,
+   "especialidad": "Epidemiología",
+   "tema": "Pruebas diagnósticas, diseños, sesgos y causalidad",
+   "diagnostico": "Elección de cohorte para exposición rara con varios desenlaces",
+   "tipo": "conducta",
+   "dificultad": "media",
+   "razonamiento": "Paso 1: exposición rara y bien registrada. Paso 2: interesa evaluar varios desenlaces. Paso 3: la cohorte (expuestos vs no expuestos) es ideal para exposiciones raras y efectos múltiples.",
+   "por_que_no": [
+    "Ideal para enfermedad rara; aquí lo raro es la exposición y hay varios desenlaces.",
+    "",
+    "Mide en un solo momento; no establece temporalidad ni incidencia.",
+    "Usa datos agregados de poblaciones; aquí hay datos individuales.",
+    "Describe enfermos sin grupo de comparación."
+   ],
+   "trampa": [
+    "diferencial",
+    "",
+    "otro",
+    "otro",
+    "otro"
+   ],
+   "perla": "Exposición rara o varios efectos → cohorte; enfermedad rara o varias exposiciones → casos y controles.",
+   "fuente": {
+    "carpeta": "10. EPIDEMIOLOGIA",
+    "archivo": "2. ESTUDIOS EPIDEMIOLOGICOS.pdf",
+    "seccion": "Estudios analíticos: ventajas de cohorte y casos y controles"
+   },
+   "gemela_de": null
+  },
+  {
+   "id": "2026-10-23-noche-050",
+   "enunciado": "Una prueba de anticuerpos con sensibilidad de 95 % y especificidad de 98 % se ha usado en un hospital de referencia de enfermedades infecciosas, donde 1 de cada 5 pacientes evaluados tiene la infección. El MINSA planea aplicarla ahora en la población general de un distrito, donde la frecuencia esperada es de 1 por cada 1 000 habitantes. Sin cambiar la técnica ni el punto de corte, ¿qué ocurrirá con el desempeño de la prueba?",
+   "opciones": [
+    "Aumenta el VPP y disminuye el VPN",
+    "Disminuye el VPP y aumenta el VPN",
+    "Disminuyen la sensibilidad y el VPP",
+    "Aumentan la especificidad y el VPN",
+    "No cambian ni el VPP ni el VPN"
+   ],
+   "clave": 2,
+   "especialidad": "Epidemiología",
+   "tema": "Pruebas diagnósticas, diseños, sesgos y causalidad",
+   "diagnostico": "Efecto de la prevalencia sobre los valores predictivos",
+   "tipo": "mecanismo",
+   "dificultad": "alta",
+   "razonamiento": "Paso 1: la prevalencia baja de 20 % a 0,1 %. Paso 2: sensibilidad y especificidad no cambian (son de la prueba). Paso 3: a menor prevalencia hay más falsos positivos relativos → baja el VPP y sube el VPN.",
+   "por_que_no": [
+    "Ocurriría al pasar a una población de MAYOR prevalencia.",
+    "",
+    "La sensibilidad es propia de la prueba; no cambia con la prevalencia.",
+    "La especificidad tampoco cambia con la prevalencia.",
+    "Los valores predictivos sí dependen de la prevalencia; solo S y E son fijas."
+   ],
+   "trampa": [
+    "otro-contexto",
+    "",
+    "otro",
+    "otro",
+    "otro"
+   ],
+   "perla": "Prevalencia ↑ → VPP ↑ y VPN ↓; prevalencia ↓ → VPP ↓ y VPN ↑.",
+   "fuente": {
+    "carpeta": "10. EPIDEMIOLOGIA",
+    "archivo": "12. PRUEBAS DX.pdf",
+    "seccion": "Valores predictivos y prevalencia"
+   },
+   "gemela_de": null
+  }
+ ]
+}
