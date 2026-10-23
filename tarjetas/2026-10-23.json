@@ -1,0 +1,742 @@
+{
+ "fecha": "2026-10-23",
+ "origen": "errores y aciertos «Adivinando» del simulacro del 22 de octubre",
+ "tarjetas": [
+  {
+   "id": "t-2026-10-22-manana-048",
+   "tipo": "concepto",
+   "frente": "Gestante de 38 semanas con PA 146/94 mmHg en dos tomas y proteinuria 1+, sin cefalea, sin epigastralgia, plaquetas y transaminasas normales. ¿Conducta?",
+   "reverso": "Terminar la gestación: inducción del parto.",
+   "porque": "Sin criterios de severidad y ya a término, prolongar el embarazo solo añade riesgo. El sulfato de magnesio no corresponde si no hay severidad ni síntomas.",
+   "nemotecnia": "Preeclampsia a término: el tratamiento es el parto, con o sin severidad.",
+   "especialidad": "Obstetricia",
+   "tema": "Trastornos hipertensivos · Preeclampsia sin severidad",
+   "qid": "2026-10-22-manana-048",
+   "fuente": {
+    "carpeta": "2. OBSTETRICIA",
+    "archivo": "35. TRASTORNO HIPERTENSIV.pdf",
+    "seccion": "Manejo sin severidad"
+   }
+  },
+  {
+   "id": "t-2026-10-22-manana-006",
+   "tipo": "concepto",
+   "frente": "En un estudio se observa que a mayor número de cigarrillos al día, mayor incidencia de la enfermedad. ¿Qué criterio de causalidad se cumple?",
+   "reverso": "Gradiente dosis-respuesta (biológico).",
+   "porque": "Es uno de los nueve criterios de Bradford Hill: a más exposición, más efecto. No confundir con fuerza de asociación, que es el tamaño del riesgo, no su progresión.",
+   "nemotecnia": "Más dosis, más daño: eso es gradiente, no fuerza.",
+   "especialidad": "Epidemiología",
+   "tema": "Causalidad · Bradford Hill",
+   "qid": "2026-10-22-manana-006",
+   "fuente": {
+    "carpeta": "10. EPIDEMIOLOGIA",
+    "archivo": "9. CAUSALIDAD Y RESUMEN.pdf",
+    "seccion": "Criterios de Bradford Hill"
+   }
+  },
+  {
+   "id": "t-2026-10-22-manana-092",
+   "tipo": "huecos",
+   "frente": "Densidad de incidencia = casos nuevos ÷ __________",
+   "reverso": "Personas-tiempo de seguimiento (por ejemplo, personas-año).",
+   "porque": "Se usa cuando cada persona aporta un tiempo distinto de seguimiento. La incidencia acumulada, en cambio, divide entre las personas al inicio.",
+   "nemotecnia": "Densidad lleva tiempo en el denominador; acumulada lleva personas.",
+   "especialidad": "Epidemiología",
+   "tema": "Medidas de frecuencia · Densidad de incidencia",
+   "qid": "2026-10-22-manana-092",
+   "fuente": {
+    "carpeta": "10. EPIDEMIOLOGIA",
+    "archivo": "10. TASA Y DENSIDAD.pdf",
+    "seccion": "Densidad de incidencia"
+   }
+  },
+  {
+   "id": "t-2026-10-22-manana-073",
+   "tipo": "contraste",
+   "frente": "Niño con talla para la edad menor de −2 DE pero peso para la talla normal. ¿Cómo se clasifica?",
+   "reverso": "Desnutrición crónica (talla baja).",
+   "porque": "La talla baja refleja un daño antiguo y sostenido; el peso para la talla normal indica que ahora mismo no hay desnutrición aguda.",
+   "nemotecnia": "Talla mide el pasado, peso mide el presente.",
+   "especialidad": "Pediatría",
+   "tema": "Crecimiento y desarrollo · Estado nutricional",
+   "qid": "2026-10-22-manana-073",
+   "fuente": {
+    "carpeta": "4.PEDIATRIA",
+    "archivo": "40. CRED NT.pdf",
+    "seccion": "Clasificación nutricional"
+   }
+  },
+  {
+   "id": "t-2026-10-22-manana-100",
+   "tipo": "huecos",
+   "frente": "Odds ratio en casos y controles = __________",
+   "reverso": "(a × d) ÷ (b × c), con a = casos expuestos, b = controles expuestos, c = casos no expuestos, d = controles no expuestos.",
+   "porque": "En casos y controles no se puede calcular incidencia, así que no hay riesgo relativo. El OR lo estima cuando la enfermedad es poco frecuente.",
+   "nemotecnia": "Casos y controles dan odds; cohortes dan riesgo.",
+   "especialidad": "Epidemiología",
+   "tema": "Medidas de asociación · Odds ratio",
+   "qid": "2026-10-22-manana-100",
+   "fuente": {
+    "carpeta": "10. EPIDEMIOLOGIA",
+    "archivo": "11. MEDIDAS DE ASOCIACION.pdf",
+    "seccion": "Odds ratio"
+   }
+  },
+  {
+   "id": "t-2026-10-22-manana-029",
+   "tipo": "huecos",
+   "frente": "Índice epidémico de 2,5 en el canal endémico significa que el número de casos observados es __________ y la zona es __________",
+   "reverso": "2,5 veces lo esperado; zona de epidemia.",
+   "porque": "Índice = observados ÷ esperados. Hasta 0,75 es zona de éxito o seguridad; de 0,76 a 1,24 zona de alarma; desde 1,25 es epidemia.",
+   "nemotecnia": "Por encima de 1,25 el canal se rompe: eso es epidemia.",
+   "especialidad": "Epidemiología",
+   "tema": "Vigilancia · Canal endémico",
+   "qid": "2026-10-22-manana-029",
+   "fuente": {
+    "carpeta": "10. EPIDEMIOLOGIA",
+    "archivo": "13. VIGILANCIA Y NOTIFICACIN.pdf",
+    "seccion": "Canal endémico"
+   }
+  },
+  {
+   "id": "t-2026-10-22-manana-008",
+   "tipo": "concepto",
+   "frente": "Persona con infección por VIH y CD4 de 150 células/mm³, asintomática. ¿Qué profilaxis primaria corresponde?",
+   "reverso": "Cotrimoxazol, para neumonía por Pneumocystis jirovecii.",
+   "porque": "El umbral es CD4 menor de 200. Por debajo de 50 se añade la profilaxis contra el complejo Mycobacterium avium.",
+   "nemotecnia": "CD4 bajo 200: cotrimoxazol. Bajo 50: además azitromicina.",
+   "especialidad": "Infectología",
+   "tema": "VIH · Profilaxis de oportunistas",
+   "qid": "2026-10-22-manana-008",
+   "fuente": {
+    "carpeta": "12. INFECTOLOGIA",
+    "archivo": "14. VIH.pdf",
+    "seccion": "Profilaxis de oportunistas"
+   }
+  },
+  {
+   "id": "t-2026-10-22-manana-002",
+   "tipo": "huecos",
+   "frente": "Rendimiento hora-médico = __________",
+   "reverso": "Número de atenciones ÷ horas efectivas trabajadas por el médico.",
+   "porque": "Es un indicador de proceso, no de resultado: mide productividad, no si el paciente mejoró. El estándar del MINSA en consulta externa suele ser 4 a 5 atenciones por hora.",
+   "nemotecnia": "Rendimiento = cuántos atiendo por hora; concentración = cuántas veces vuelve el mismo.",
+   "especialidad": "Gestión en Salud",
+   "tema": "Indicadores de proceso",
+   "qid": "2026-10-22-manana-002",
+   "fuente": {
+    "carpeta": "15. GESTION EN SALUD",
+    "archivo": "12. INDICADORES.pdf",
+    "seccion": "Indicadores de proceso"
+   }
+  },
+  {
+   "id": "t-2026-10-22-manana-034",
+   "tipo": "concepto",
+   "frente": "Mujer con descarga mucopurulenta que sale del orificio cervical y sangrado al contacto. ¿Qué cubre el tratamiento sindrómico?",
+   "reverso": "Gonococo y clamidia a la vez, y se trata también a la pareja.",
+   "porque": "El manejo sindrómico no espera cultivo: se cubren los dos agentes porque la coinfección es frecuente. Añadir tamizaje de VIH y sífilis.",
+   "nemotecnia": "Cuello que supura: siempre gonococo más clamidia, y la pareja.",
+   "especialidad": "Ginecología",
+   "tema": "Flujo vaginal e ITS",
+   "qid": "2026-10-22-manana-034",
+   "fuente": {
+    "carpeta": "28. NT",
+    "archivo": "4. NT ITS.pdf",
+    "seccion": "Manejo sindrómico de flujo/cervicitis"
+   }
+  },
+  {
+   "id": "t-2026-10-22-manana-047",
+   "tipo": "contraste",
+   "frente": "Para tamizar sangre donada en un banco de sangre, ¿qué característica debe tener la prueba elegida?",
+   "reverso": "La mayor sensibilidad posible.",
+   "porque": "En tamizaje lo caro es dejar pasar un infectado, así que se prioriza no tener falsos negativos. La especificidad se recupera después con la prueba confirmatoria.",
+   "nemotecnia": "Sensible para descartar, específica para confirmar.",
+   "especialidad": "Epidemiología",
+   "tema": "Pruebas diagnósticas · Tamizaje",
+   "qid": "2026-10-22-manana-047",
+   "fuente": {
+    "carpeta": "10. EPIDEMIOLOGIA",
+    "archivo": "5. EVALUACION DE PRUEBAS.pdf",
+    "seccion": "Sensibilidad y especificidad"
+   }
+  },
+  {
+   "id": "t-2026-10-22-manana-013",
+   "tipo": "huecos",
+   "frente": "Según la NTS 144-MINSA, un residuo especial citotóxico va en bolsa de color __________",
+   "reverso": "Amarilla.",
+   "porque": "Negra para el común, roja para el biocontaminado y amarilla para el especial (citotóxico, químico, radiactivo).",
+   "nemotecnia": "Negra común, roja biocontaminada, amarilla especial.",
+   "especialidad": "Gestión en Salud",
+   "tema": "Manejo de residuos (NTS 144-MINSA)",
+   "qid": "2026-10-22-manana-013",
+   "fuente": {
+    "carpeta": "15. GESTION EN SALUD",
+    "archivo": "5. MANEJO DE RESIDUOS.pdf",
+    "seccion": "Clasificación por tipo"
+   }
+  },
+  {
+   "id": "t-2026-10-22-manana-032",
+   "tipo": "concepto",
+   "frente": "Cálculo ureteral distal de 6 mm, sin fiebre, sin obstrucción y con dolor controlable. ¿Conducta?",
+   "reverso": "Tratamiento médico expulsivo: analgesia, hidratación y un alfabloqueante como tamsulosina.",
+   "porque": "Los cálculos distales menores de 10 mm expulsan solos en la mayoría de los casos. La urgencia quirúrgica se reserva para fiebre, riñón único, falla renal o dolor incontrolable.",
+   "nemotecnia": "Distal y menor de 10 mm: sale solo, con tamsulosina.",
+   "especialidad": "Urología",
+   "tema": "Litiasis urinaria",
+   "qid": "2026-10-22-manana-032",
+   "fuente": {
+    "carpeta": "21. UROLOGIA",
+    "archivo": "4. LITIASIS RENAL.pdf",
+    "seccion": "Terapia médica expulsiva"
+   }
+  },
+  {
+   "id": "t-2026-10-22-manana-042",
+   "tipo": "concepto",
+   "frente": "Colecistitis aguda litiásica con leucocitosis y masa palpable, sin falla de órganos (Tokio grado II). ¿Conducta?",
+   "reverso": "Antibiótico y colecistectomía laparoscópica precoz, dentro de las primeras 72 horas.",
+   "porque": "La cirugía precoz tiene menos complicaciones que diferirla. El grado III, con falla de órganos, obliga a estabilizar y considerar drenaje antes.",
+   "nemotecnia": "Tokio I y II: operar pronto. Tokio III: estabilizar primero.",
+   "especialidad": "Cirugía General",
+   "tema": "Patología biliar · Colecistitis",
+   "qid": "2026-10-22-manana-042",
+   "fuente": {
+    "carpeta": "1. CIRUGIA GENERAL",
+    "archivo": "10. PATOLOGIA BILIAR.pdf",
+    "seccion": "Colecistitis aguda"
+   }
+  },
+  {
+   "id": "t-2026-10-22-manana-004",
+   "tipo": "contraste",
+   "frente": "En SERVQUAL, la dimensión «capacidad de respuesta» mide…",
+   "reverso": "La disposición a ayudar y la rapidez del servicio.",
+   "porque": "Las cinco dimensiones son: elementos tangibles, fiabilidad, capacidad de respuesta, seguridad y empatía. Fiabilidad es cumplir lo prometido; capacidad de respuesta es hacerlo rápido.",
+   "nemotecnia": "Fiabilidad = lo cumplen. Capacidad de respuesta = lo cumplen rápido.",
+   "especialidad": "Gestión en Salud",
+   "tema": "Calidad · SERVQUAL",
+   "qid": "2026-10-22-manana-004",
+   "fuente": {
+    "carpeta": "15. GESTION EN SALUD",
+    "archivo": "13. CALIDAD.pdf",
+    "seccion": "SERVQUAL: dimensiones"
+   }
+  },
+  {
+   "id": "t-2026-10-22-manana-085",
+   "tipo": "concepto",
+   "frente": "Mujer de 38 años, fuma 10 cigarrillos al día, solicita anticonceptivo oral combinado. ¿Conducta?",
+   "reverso": "No dárselo: es categoría 4 de la OMS, contraindicación absoluta. Ofrecer un método de solo progestágeno, DIU o un método de barrera.",
+   "porque": "Fumar a partir de los 35 años multiplica el riesgo tromboembólico y cardiovascular del estrógeno. También es categoría 4 la migraña con aura.",
+   "nemotecnia": "Fuma y pasa de 35: nada de estrógenos.",
+   "especialidad": "Ginecología",
+   "tema": "Anticoncepción · Contraindicaciones",
+   "qid": "2026-10-22-manana-085",
+   "fuente": {
+    "carpeta": "3.GINECOLOGIA",
+    "archivo": "17. ANTICONCEPTIVOS.pdf",
+    "seccion": "Combinados: riesgos y contraindicaciones"
+   }
+  },
+  {
+   "id": "t-2026-10-22-manana-024",
+   "tipo": "huecos",
+   "frente": "Anticoncepción de emergencia con levonorgestrel: dosis __________ dentro de las __________ horas (hasta __________).",
+   "reverso": "1,5 mg en dosis única; idealmente dentro de las 72 horas, con eficacia decreciente hasta las 120.",
+   "porque": "Cuanto antes, más eficaz. El DIU de cobre es la opción más eficaz y sirve hasta cinco días después.",
+   "nemotecnia": "Levonorgestrel 1,5 mg, mejor antes de 72 horas.",
+   "especialidad": "Ginecología",
+   "tema": "Anticoncepción · Emergencia",
+   "qid": "2026-10-22-manana-024",
+   "fuente": {
+    "carpeta": "3.GINECOLOGIA",
+    "archivo": "17. ANTICONCEPTIVOS.pdf",
+    "seccion": "Anticoncepción de emergencia"
+   }
+  },
+  {
+   "id": "t-2026-10-22-manana-090",
+   "tipo": "concepto",
+   "frente": "Disfagia que cuesta igual con sólidos y con líquidos desde el inicio, con esofagograma en pico de pájaro. ¿Qué confirma el diagnóstico?",
+   "reverso": "La manometría esofágica, que muestra ausencia de relajación del esfínter inferior y falta de peristalsis.",
+   "porque": "Que la disfagia sea igual para sólidos y líquidos apunta a un trastorno motor, no a una obstrucción mecánica, que empieza solo con sólidos.",
+   "nemotecnia": "Sólidos solo = obstrucción. Sólidos y líquidos = motor.",
+   "especialidad": "Gastroenterología",
+   "tema": "Esófago · Trastornos motores",
+   "qid": "2026-10-22-manana-090",
+   "fuente": {
+    "carpeta": "5.GASTROENTEROLOGIA",
+    "archivo": "9. patologia de esofago.pdf",
+    "seccion": "Acalasia"
+   }
+  },
+  {
+   "id": "t-2026-10-22-manana-087",
+   "tipo": "concepto",
+   "frente": "En una enfermedad crónica aparece un tratamiento que alarga la vida sin curar. ¿Qué le pasa a la prevalencia y a la incidencia?",
+   "reverso": "La prevalencia sube; la incidencia no cambia.",
+   "porque": "La prevalencia depende de cuántos casos hay acumulados, y los enfermos dejan de morir. La incidencia solo cuenta casos nuevos.",
+   "nemotecnia": "Si no curas pero no mueren, la prevalencia crece sola.",
+   "especialidad": "Epidemiología",
+   "tema": "Medidas de frecuencia · Prevalencia",
+   "qid": "2026-10-22-manana-087",
+   "fuente": {
+    "carpeta": "10. EPIDEMIOLOGIA",
+    "archivo": "10. TASA Y DENSIDAD.pdf",
+    "seccion": "Prevalencia: causas de aumento"
+   }
+  },
+  {
+   "id": "t-2026-10-22-manana-020",
+   "tipo": "contraste",
+   "frente": "Embarazo tubario NO roto, pero con actividad cardiaca embrionaria visible. ¿Por qué no se usa metotrexato?",
+   "reverso": "La actividad cardiaca es contraindicación relativa fuerte: corresponde cirugía, salpingostomía o salpingectomía.",
+   "porque": "Las otras contraindicaciones son β-hCG muy alta, saco mayor de 3,5 a 4 cm, inestabilidad o rotura. El metotrexato es para el ectópico pequeño, estable y sin latido.",
+   "nemotecnia": "Si late, no hay metotrexato: va a quirófano.",
+   "especialidad": "Obstetricia",
+   "tema": "Hemorragia de la primera mitad · Ectópico",
+   "qid": "2026-10-22-manana-020",
+   "fuente": {
+    "carpeta": "2. OBSTETRICIA",
+    "archivo": "29. HEMORRAGIA DE LA 1ERA MITAD.pdf",
+    "seccion": "Ectópico: tratamiento"
+   }
+  },
+  {
+   "id": "t-2026-10-22-manana-012",
+   "tipo": "concepto",
+   "frente": "A las 12 horas de una tiroidectomía total, la paciente tiene hormigueo peribucal y espasmo carpopedal. ¿Conducta inmediata?",
+   "reverso": "Gluconato de calcio al 10 % endovenoso lento.",
+   "porque": "Es hipocalcemia por lesión o retiro de las paratiroides. El calcio oral con vitamina D viene después, para el mantenimiento.",
+   "nemotecnia": "Hormigueo tras tiroidectomía: calcio endovenoso, no esperar.",
+   "especialidad": "Endocrinología",
+   "tema": "Calcio y paratiroides",
+   "qid": "2026-10-22-manana-012",
+   "fuente": {
+    "carpeta": "14. NEFROLOGIA",
+    "archivo": "12. ALTERACIONES DE CALCIO.pdf",
+    "seccion": "Hipocalcemia"
+   }
+  },
+  {
+   "id": "t-2026-10-22-manana-080",
+   "tipo": "concepto",
+   "frente": "Niño con fractura supracondílea de codo, mano fría, pálida y sin pulso radial. ¿Conducta inmediata?",
+   "reverso": "Reducción urgente de la fractura, y reevaluar el pulso enseguida.",
+   "porque": "La mayoría de las veces el pulso vuelve al alinear el hueso. Solo si no vuelve tras la reducción se explora el vaso.",
+   "nemotecnia": "Primero se alinea el hueso; casi siempre el pulso vuelve solo.",
+   "especialidad": "Traumatología",
+   "tema": "Fracturas de miembro superior · Niño",
+   "qid": "2026-10-22-manana-080",
+   "fuente": {
+    "carpeta": "18.TRAUMATOLOGIA",
+    "archivo": "7. FX Y LUXACIONES DE MMSS.pdf",
+    "seccion": "Supracondílea del niño"
+   }
+  },
+  {
+   "id": "t-2026-10-22-manana-072",
+   "tipo": "concepto",
+   "frente": "Estenosis mitral reumática severa, sintomática, sin trombo auricular ni insuficiencia mitral significativa y con valva flexible. ¿Tratamiento de elección?",
+   "reverso": "Valvuloplastia mitral percutánea con balón.",
+   "porque": "Es la primera opción cuando la anatomía es favorable. El reemplazo valvular se reserva para válvulas calcificadas, con trombo o con insuficiencia importante.",
+   "nemotecnia": "Válvula flexible y sin trombo: balón antes que bisturí.",
+   "especialidad": "Cardiología",
+   "tema": "Valvulopatías",
+   "qid": "2026-10-22-manana-072",
+   "fuente": {
+    "carpeta": "9. CARDIOLOGIA",
+    "archivo": "11. VALVULOPATIAS.pdf",
+    "seccion": "Estenosis mitral: tratamiento"
+   }
+  },
+  {
+   "id": "t-2026-10-22-manana-079",
+   "tipo": "concepto",
+   "frente": "Varón joven con ictericia leve que aparece con el ayuno o el estrés, bilirrubina indirecta algo alta y hemograma, transaminasas y reticulocitos normales. ¿Qué es?",
+   "reverso": "Síndrome de Gilbert. No requiere tratamiento.",
+   "porque": "Es un déficit parcial y benigno de la glucuroniltransferasa. Sin anemia ni reticulocitosis se descarta hemólisis.",
+   "nemotecnia": "Ictericia que sale con el ayuno y todo lo demás normal: Gilbert.",
+   "especialidad": "Gastroenterología",
+   "tema": "Alteraciones de la bilirrubina",
+   "qid": "2026-10-22-manana-079",
+   "fuente": {
+    "carpeta": "5.GASTROENTEROLOGIA",
+    "archivo": "30. alteraciones de la bilirrubina.pdf",
+    "seccion": "Alteración de la conjugación"
+   }
+  },
+  {
+   "id": "t-2026-10-22-manana-044",
+   "tipo": "contraste",
+   "frente": "Perfil serológico de hepatitis B: anti-HBs positivo, HBsAg negativo y anti-HBc negativo. ¿Qué significa?",
+   "reverso": "Inmunidad por vacuna.",
+   "porque": "La vacuna solo genera anti-HBs. Si además hubiera anti-HBc positivo, la inmunidad vendría de una infección pasada resuelta.",
+   "nemotecnia": "Solo anti-HBs: vacuna. Con anti-HBc: la pasó de verdad.",
+   "especialidad": "Gastroenterología",
+   "tema": "Hepatitis viral · Marcadores B",
+   "qid": "2026-10-22-manana-044",
+   "fuente": {
+    "carpeta": "5.GASTROENTEROLOGIA",
+    "archivo": "19. hepatitis.pdf",
+    "seccion": "Marcadores del virus B"
+   }
+  },
+  {
+   "id": "t-2026-10-22-manana-001",
+   "tipo": "huecos",
+   "frente": "Riesgo atribuible en expuestos = __________",
+   "reverso": "Incidencia en expuestos − incidencia en no expuestos.",
+   "porque": "Dice cuántos casos se deben a la exposición entre los expuestos. El riesgo relativo, en cambio, es un cociente y mide fuerza de asociación.",
+   "nemotecnia": "Atribuible se resta; relativo se divide.",
+   "especialidad": "Epidemiología",
+   "tema": "Medidas de impacto · Riesgo atribuible",
+   "qid": "2026-10-22-manana-001",
+   "fuente": {
+    "carpeta": "10. EPIDEMIOLOGIA",
+    "archivo": "11. MEDIDAS DE ASOCIACION.pdf",
+    "seccion": "Medidas de impacto"
+   }
+  },
+  {
+   "id": "t-2026-10-22-manana-078",
+   "tipo": "huecos",
+   "frente": "Número necesario a tratar (NNT) = __________",
+   "reverso": "1 ÷ reducción absoluta del riesgo.",
+   "porque": "Es cuántos pacientes hay que tratar para evitar un evento. Cuanto más bajo, mejor el tratamiento.",
+   "nemotecnia": "NNT pequeño, tratamiento grande.",
+   "especialidad": "Epidemiología",
+   "tema": "Medidas de impacto · NNT",
+   "qid": "2026-10-22-manana-078",
+   "fuente": {
+    "carpeta": "10. EPIDEMIOLOGIA",
+    "archivo": "11. MEDIDAS DE ASOCIACION.pdf",
+    "seccion": "RAR y NNT"
+   }
+  },
+  {
+   "id": "t-2026-10-22-manana-046",
+   "tipo": "concepto",
+   "frente": "Mordedura en la cara por un perro que huyó y no se puede observar. ¿Conducta?",
+   "reverso": "Lavar la herida 15 minutos con agua y jabón, y administrar vacuna antirrábica MÁS inmunoglobulina infiltrada alrededor de la herida.",
+   "porque": "Cara, cuello, manos y genitales son exposición grave, igual que toda herida profunda, múltiple o de animal no ubicable.",
+   "nemotecnia": "Cara, manos o animal perdido: vacuna e inmunoglobulina.",
+   "especialidad": "Infectología",
+   "tema": "Rabia · Profilaxis posexposición",
+   "qid": "2026-10-22-manana-046",
+   "fuente": {
+    "carpeta": "28. NT",
+    "archivo": "11. NT RABIA.pdf",
+    "seccion": "Profilaxis y clasificación de la exposición"
+   }
+  },
+  {
+   "id": "t-2026-10-22-manana-060",
+   "tipo": "huecos",
+   "frente": "Tasa de ataque = __________",
+   "reverso": "Enfermos ÷ expuestos en riesgo × 100, durante el brote.",
+   "porque": "Se calcula por separado en vacunados y no vacunados para estimar la eficacia vacunal.",
+   "nemotecnia": "Tasa de ataque: solo entre los que estuvieron expuestos.",
+   "especialidad": "Epidemiología",
+   "tema": "Brotes · Tasa de ataque",
+   "qid": "2026-10-22-manana-060",
+   "fuente": {
+    "carpeta": "10. EPIDEMIOLOGIA",
+    "archivo": "7. ENFERMEDADES TRASMSIBLES 2.pdf",
+    "seccion": "Tasa de ataque"
+   }
+  },
+  {
+   "id": "t-2026-10-22-manana-059",
+   "tipo": "contraste",
+   "frente": "Gestante en el primer trimestre con hipertiroidismo autoinmune. ¿Qué antitiroideo corresponde?",
+   "reverso": "Propiltiouracilo.",
+   "porque": "El metimazol en el primer trimestre se asocia a aplasia cutis y atresia de coanas. A partir del segundo trimestre se cambia a metimazol, por la hepatotoxicidad del propiltiouracilo.",
+   "nemotecnia": "Primer trimestre PTU; del segundo en adelante, metimazol.",
+   "especialidad": "Endocrinología",
+   "tema": "Hipertiroidismo en la gestación",
+   "qid": "2026-10-22-manana-059",
+   "fuente": {
+    "carpeta": "11. ENDOCRINOLOGIA",
+    "archivo": "10. HIPERTIROIDISMO.pdf",
+    "seccion": "Tratamiento"
+   }
+  },
+  {
+   "id": "t-2026-10-22-manana-075",
+   "tipo": "contraste",
+   "frente": "Acidosis metabólica hiperclorémica con orina de pH alto, potasio bajo y nefrocalcinosis. ¿Qué tipo de acidosis tubular renal es?",
+   "reverso": "Tipo 1, distal.",
+   "porque": "La distal no acidifica la orina, pierde potasio y forma cálculos. La tipo 2, proximal, sí acidifica cuando el bicarbonato baja mucho y no da nefrocalcinosis. La tipo 4 cursa con potasio ALTO.",
+   "nemotecnia": "Distal: orina alcalina, potasio bajo y piedras. Tipo 4: potasio alto.",
+   "especialidad": "Nefrología",
+   "tema": "Acidosis tubular renal",
+   "qid": "2026-10-22-manana-075",
+   "fuente": {
+    "carpeta": "14. NEFROLOGIA",
+    "archivo": "23. ACIDOSIS TUBULAR RENAL.pdf",
+    "seccion": "Tipos y tratamiento"
+   }
+  },
+  {
+   "id": "t-2026-10-22-manana-091",
+   "tipo": "concepto",
+   "frente": "Turista recién llegado a 4 000 m con disnea de reposo, tos y crépitos, sin fiebre ni dolor torácico. ¿Conducta?",
+   "reverso": "Descenso inmediato y oxígeno; si no se puede descender, nifedipino.",
+   "porque": "El descenso es el único tratamiento definitivo. La acetazolamida sirve para prevenir el mal agudo de montaña, no para tratar el edema pulmonar ya instalado.",
+   "nemotecnia": "En la altura, lo que cura es bajar.",
+   "especialidad": "Neumología",
+   "tema": "Patología de altura",
+   "qid": "2026-10-22-manana-091",
+   "fuente": {
+    "carpeta": "6.NEUMOLOGIA",
+    "archivo": "21. MAL AGUDO DE MONTAÑA.pdf",
+    "seccion": "Edema pulmonar de altura"
+   }
+  },
+  {
+   "id": "t-2026-10-22-manana-089",
+   "tipo": "contraste",
+   "frente": "Amenaza de parto pretérmino en gestante con hipertiroidismo. ¿Qué tocolítico se evita y cuál se usa?",
+   "reverso": "Se evitan los betamiméticos como el isoxsuprina o la terbutalina; se usa nifedipino.",
+   "porque": "Los betamiméticos provocan taquicardia y pueden desencadenar una crisis tiroidea. El nifedipino es seguro y hoy es de primera línea.",
+   "nemotecnia": "Corazón acelerado: nada de betamiméticos, va nifedipino.",
+   "especialidad": "Obstetricia",
+   "tema": "Parto pretérmino · Tocólisis",
+   "qid": "2026-10-22-manana-089",
+   "fuente": {
+    "carpeta": "2. OBSTETRICIA",
+    "archivo": "13. PARTO PRETERMINO .pdf",
+    "seccion": "Tocólisis y contraindicaciones"
+   }
+  },
+  {
+   "id": "t-2026-10-22-manana-053",
+   "tipo": "contraste",
+   "frente": "Pancreatitis aguda de origen biliar. ¿Qué imagen se pide al ingreso y cuál después?",
+   "reverso": "Al ingreso, ecografía abdominal para ver la vía biliar. La tomografía con contraste recién a las 72 horas.",
+   "porque": "Antes de las 72 horas la tomografía subestima la necrosis, que aún no se delimita. La ecografía es la que confirma el origen biliar.",
+   "nemotecnia": "Primero el eco, la tomografía a las 72 horas.",
+   "especialidad": "Gastroenterología",
+   "tema": "Pancreatitis aguda · Imagen",
+   "qid": "2026-10-22-manana-053",
+   "fuente": {
+    "carpeta": "5.GASTROENTEROLOGIA",
+    "archivo": "12. pancreatitis aguda.pdf",
+    "seccion": "Imagen"
+   }
+  },
+  {
+   "id": "t-2026-10-22-manana-061",
+   "tipo": "concepto",
+   "frente": "Mujer de 30 años con citología que informa lesión intraepitelial escamosa de BAJO grado. ¿Conducta?",
+   "reverso": "Colposcopia para descartar una lesión mayor.",
+   "porque": "En el bajo grado la mayoría regresa sola, pero hay que mirar antes de vigilar. En el alto grado la colposcopia con biopsia es obligatoria.",
+   "nemotecnia": "Toda lesión intraepitelial, baja o alta, se mira por colposcopia.",
+   "especialidad": "Ginecología",
+   "tema": "Cáncer de cérvix · Citología",
+   "qid": "2026-10-22-manana-061",
+   "fuente": {
+    "carpeta": "3.GINECOLOGIA",
+    "archivo": "8. CA DE CERVIX.pdf",
+    "seccion": "Escenarios"
+   }
+  },
+  {
+   "id": "t-2026-10-22-manana-077",
+   "tipo": "concepto",
+   "frente": "Caída sobre la mano con dolor en la tabaquera anatómica y radiografía inicial NORMAL. ¿Conducta?",
+   "reverso": "Inmovilizar igual con férula y repetir la radiografía en 10 a 14 días, o pedir resonancia o tomografía si se necesita certeza antes.",
+   "porque": "La fractura de escafoides no se ve al inicio en hasta un 25 % de los casos. Si no se inmoviliza, el riesgo es necrosis avascular y seudoartrosis.",
+   "nemotecnia": "Duele la tabaquera: se enyesa aunque la placa salga limpia.",
+   "especialidad": "Traumatología",
+   "tema": "Fracturas de miembro superior",
+   "qid": "2026-10-22-manana-077",
+   "fuente": {
+    "carpeta": "18.TRAUMATOLOGIA",
+    "archivo": "7. FX Y LUXACIONES DE MMSS.pdf",
+    "seccion": "Escafoides"
+   }
+  },
+  {
+   "id": "t-2026-10-22-manana-074",
+   "tipo": "concepto",
+   "frente": "Infarto con elevación del ST en cara anterior, 90 minutos de dolor, en un hospital a 3 horas de la sala de hemodinamia. ¿Conducta?",
+   "reverso": "Fibrinolisis inmediata ahí mismo y traslado después, para estrategia fármaco-invasiva.",
+   "porque": "La angioplastia primaria solo gana si el traslado toma menos de 120 minutos. Por encima de ese tiempo cada minuto es músculo perdido.",
+   "nemotecnia": "Más de 120 minutos hasta el cateterismo: se trombolisa ya.",
+   "especialidad": "Cardiología",
+   "tema": "Cardiopatía isquémica · Reperfusión",
+   "qid": "2026-10-22-manana-074",
+   "fuente": {
+    "carpeta": "9. CARDIOLOGIA",
+    "archivo": "4. CARDIOPATIA ISQUEMICA.pdf",
+    "seccion": "Reperfusión"
+   }
+  },
+  {
+   "id": "t-2026-10-22-manana-050",
+   "tipo": "contraste",
+   "frente": "Un estudio parte de registros laborales antiguos, sigue a los trabajadores hasta hoy y compara expuestos y no expuestos. ¿Qué diseño es?",
+   "reverso": "Cohorte retrospectiva o histórica.",
+   "porque": "Sigue siendo cohorte porque va de la exposición al efecto; lo retrospectivo es que todo ya ocurrió cuando el investigador llega. En casos y controles se parte de la enfermedad.",
+   "nemotecnia": "Cohorte va de la causa al efecto, aunque mire al pasado.",
+   "especialidad": "Epidemiología",
+   "tema": "Diseños de estudio",
+   "qid": "2026-10-22-manana-050",
+   "fuente": {
+    "carpeta": "10. EPIDEMIOLOGIA",
+    "archivo": "3. ESTUDIO EPIDEMIOLOGICO KL.pdf",
+    "seccion": "Tipos de cohortes"
+   }
+  },
+  {
+   "id": "t-2026-10-22-manana-096",
+   "tipo": "huecos",
+   "frente": "Fracción atribuible poblacional = proporción de casos de TODA la población que se evitarían si __________",
+   "reverso": "Desapareciera la exposición.",
+   "porque": "A diferencia de la fracción atribuible en expuestos, esta depende también de cuánta gente está expuesta: una exposición débil pero muy extendida puede pesar más.",
+   "nemotecnia": "La poblacional pesa cuánta gente está expuesta, no solo cuánto daña.",
+   "especialidad": "Epidemiología",
+   "tema": "Medidas de impacto · Fracción atribuible poblacional",
+   "qid": "2026-10-22-manana-096",
+   "fuente": {
+    "carpeta": "10. EPIDEMIOLOGIA",
+    "archivo": "11. MEDIDAS DE ASOCIACION.pdf",
+    "seccion": "FER y FERP"
+   }
+  },
+  {
+   "id": "t-2026-10-22-manana-015",
+   "tipo": "concepto",
+   "frente": "Gestante a término en trabajo de parto con el feto en situación transversa y dorso superior. ¿Conducta?",
+   "reverso": "Cesárea.",
+   "porque": "En situación transversa el parto vaginal es imposible. La versión externa se intenta ANTES del trabajo de parto, no durante.",
+   "nemotecnia": "Transversa en trabajo de parto: cesárea, sin discusión.",
+   "especialidad": "Obstetricia",
+   "tema": "Parto · Estática fetal",
+   "qid": "2026-10-22-manana-015",
+   "fuente": {
+    "carpeta": "2. OBSTETRICIA",
+    "archivo": "15. ALTURA UTERINA: EG: LEOPOLD.pdf",
+    "seccion": "Maniobras de Leopold"
+   }
+  },
+  {
+   "id": "t-2026-10-22-manana-055",
+   "tipo": "concepto",
+   "frente": "Se halla que tomar café se asocia a cáncer de páncreas, pero los que toman más café también fuman más. ¿Qué papel cumple el tabaco?",
+   "reverso": "Variable de confusión.",
+   "porque": "Para serlo debe asociarse a la exposición Y ser causa del desenlace, sin estar en el camino entre ambos. Se controla con estratificación, emparejamiento o análisis multivariado.",
+   "nemotecnia": "Confusor: amigo de la exposición y causa del desenlace.",
+   "especialidad": "Epidemiología",
+   "tema": "Sesgos · Confusión",
+   "qid": "2026-10-22-manana-055",
+   "fuente": {
+    "carpeta": "10. EPIDEMIOLOGIA",
+    "archivo": "3. ESTUDIO EPIDEMIOLOGICO KL.pdf",
+    "seccion": "Sesgos"
+   }
+  },
+  {
+   "id": "t-2026-10-22-manana-033",
+   "tipo": "concepto",
+   "frente": "Paciente asmática que solo usa salbutamol a demanda y tiene síntomas tres veces por semana. ¿Conducta?",
+   "reverso": "Pasar a corticoide inhalado con formoterol a demanda; el salbutamol solo ya no se recomienda.",
+   "porque": "Usar únicamente un broncodilatador deja la inflamación sin tratar y aumenta el riesgo de crisis graves, aunque el alivio sea inmediato.",
+   "nemotecnia": "Nunca rescate solo: todo asmático lleva corticoide inhalado.",
+   "especialidad": "Neumología",
+   "tema": "Asma · Tratamiento de control",
+   "qid": "2026-10-22-manana-033",
+   "fuente": {
+    "carpeta": "6.NEUMOLOGIA",
+    "archivo": "7. ASMA.pdf",
+    "seccion": "Tratamiento de control"
+   }
+  },
+  {
+   "id": "t-2026-10-22-manana-018",
+   "tipo": "huecos",
+   "frente": "En un prematuro, la BCG se difiere hasta que alcance __________",
+   "reverso": "1 500 gramos de peso.",
+   "porque": "Por debajo de ese peso la respuesta inmune es pobre y hay más riesgo de becegeítis. Las demás vacunas siguen la edad cronológica, no la corregida.",
+   "nemotecnia": "BCG recién a los 1 500 gramos; el resto, por edad cronológica.",
+   "especialidad": "Pediatría",
+   "tema": "Inmunizaciones · BCG",
+   "qid": "2026-10-22-manana-018",
+   "fuente": {
+    "carpeta": "28. NT",
+    "archivo": "3. NT INMUNIZACIONES.pdf",
+    "seccion": "Esquema: RN"
+   }
+  },
+  {
+   "id": "t-2026-10-22-manana-043",
+   "tipo": "contraste",
+   "frente": "Una enfermedad ya no tiene casos en el país, pero el agente sigue existiendo en el mundo. ¿Eliminación o erradicación, y qué se hace con las medidas?",
+   "reverso": "Eliminación: se mantienen la vacunación y la vigilancia.",
+   "porque": "Erradicación es la desaparición mundial del agente, y solo entonces se pueden suspender las medidas. La viruela es el único caso erradicado.",
+   "nemotecnia": "Eliminar es en mi país; erradicar es en el planeta.",
+   "especialidad": "Epidemiología",
+   "tema": "Control de enfermedades",
+   "qid": "2026-10-22-manana-043",
+   "fuente": {
+    "carpeta": "10. EPIDEMIOLOGIA",
+    "archivo": "6. ENFERMEDADES TRANSMISIBLES.pdf",
+    "seccion": "Enfermedad eliminada vs erradicada"
+   }
+  },
+  {
+   "id": "t-2026-10-22-manana-041",
+   "tipo": "huecos",
+   "frente": "Úlcera duodenal con Helicobacter pylori: esquema de erradicación = __________ durante __________",
+   "reverso": "Inhibidor de bomba de protones más dos antibióticos (claritromicina y amoxicilina); 14 días.",
+   "porque": "Después hay que confirmar la erradicación con test de aliento o antígeno en heces, al menos 4 semanas tras terminar, y sin inhibidor de bomba las 2 semanas previas.",
+   "nemotecnia": "Erradicar son 14 días y luego se comprueba, no se asume.",
+   "especialidad": "Gastroenterología",
+   "tema": "Helicobacter pylori",
+   "qid": "2026-10-22-manana-041",
+   "fuente": {
+    "carpeta": "5.GASTROENTEROLOGIA",
+    "archivo": "11. ciclo de HP.pdf",
+    "seccion": "Tratamiento de erradicación"
+   }
+  },
+  {
+   "id": "t-2026-10-22-manana-031",
+   "tipo": "concepto",
+   "frente": "Lactante de 4 semanas con vómitos NO biliosos en proyectil, oliva palpable y gases con alcalosis metabólica hipoclorémica e hipokalémica. ¿Conducta?",
+   "reverso": "Corregir primero la deshidratación y los electrolitos con suero; la piloromiotomía es después.",
+   "porque": "No es una urgencia quirúrgica sino metabólica: operar con alcalosis aumenta el riesgo de apnea posoperatoria.",
+   "nemotecnia": "El píloro espera; la alcalosis no.",
+   "especialidad": "Pediatría",
+   "tema": "Cirugía pediátrica",
+   "qid": "2026-10-22-manana-031",
+   "fuente": {
+    "carpeta": "4.PEDIATRIA",
+    "archivo": "31. CIRUGIA PEDIATRICA.pdf",
+    "seccion": "Estenosis hipertrófica del píloro"
+   }
+  },
+  {
+   "id": "t-2026-10-22-manana-026",
+   "tipo": "huecos",
+   "frente": "Profilaxis secundaria tras fiebre reumática CON carditis y lesión valvular: fármaco __________ y duración __________",
+   "reverso": "Penicilina benzatínica intramuscular cada 21 a 28 días; al menos 10 años o hasta los 40 años, lo que sea más largo.",
+   "porque": "Sin carditis son 5 años o hasta los 21. Con carditis pero sin lesión valvular, 10 años o hasta los 21.",
+   "nemotecnia": "Con válvula dañada, la penicilina acompaña casi toda la vida.",
+   "especialidad": "Cardiología",
+   "tema": "Fiebre reumática",
+   "qid": "2026-10-22-manana-026",
+   "fuente": {
+    "carpeta": "12. INFECTOLOGIA",
+    "archivo": "17. FIEBRE REUMATICA.pdf",
+    "seccion": "Profilaxis"
+   }
+  }
+ ]
+}
