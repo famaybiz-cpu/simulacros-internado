@@ -5,7 +5,7 @@
   {
    "id": "t-2026-10-22-manana-048",
    "tipo": "concepto",
-   "frente": "Gestante de 38 semanas con PA 146/94 mmHg en dos tomas y proteinuria 1+, sin cefalea, sin epigastralgia, plaquetas y transaminasas normales. ¿Conducta?",
+   "frente": "¿Cuál es la conducta en una preeclampsia SIN criterios de severidad, a término?",
    "reverso": "Terminar la gestación: inducción del parto.",
    "porque": "Sin criterios de severidad y ya a término, prolongar el embarazo solo añade riesgo. El sulfato de magnesio no corresponde si no hay severidad ni síntomas.",
    "nemotecnia": "Preeclampsia a término: el tratamiento es el parto, con o sin severidad.",
@@ -16,12 +16,13 @@
     "carpeta": "2. OBSTETRICIA",
     "archivo": "35. TRASTORNO HIPERTENSIV.pdf",
     "seccion": "Manejo sin severidad"
-   }
+   },
+   "caso": "Gestante de 27 años, nulípara, 37 semanas, acude a control. PA 146/94 y 144/92 mmHg en dos tomas separadas por 4 horas, FC 84X'. Sin cefalea, sin escotomas ni dolor epigástrico. Proteína/creatinina en orina 0,45. Hemograma, plaquetas, creatinina y transaminasas normales. Altura uterina acorde, monitoreo fetal reactivo y líquido amniótico normal. ¿Cuál es la conducta indicada?"
   },
   {
    "id": "t-2026-10-22-manana-006",
    "tipo": "concepto",
-   "frente": "En un estudio se observa que a mayor número de cigarrillos al día, mayor incidencia de la enfermedad. ¿Qué criterio de causalidad se cumple?",
+   "frente": "¿Qué criterio de causalidad de Bradford Hill dice que a mayor exposición, mayor efecto?",
    "reverso": "Gradiente dosis-respuesta (biológico).",
    "porque": "Es uno de los nueve criterios de Bradford Hill: a más exposición, más efecto. No confundir con fuerza de asociación, que es el tamaño del riesgo, no su progresión.",
    "nemotecnia": "Más dosis, más daño: eso es gradiente, no fuerza.",
@@ -32,7 +33,8 @@
     "carpeta": "10. EPIDEMIOLOGIA",
     "archivo": "9. CAUSALIDAD Y RESUMEN.pdf",
     "seccion": "Criterios de Bradford Hill"
-   }
+   },
+   "caso": "Una cohorte de 12 000 trabajadores de una fundición en La Oroya muestra que la incidencia de hipertensión arterial fue de 8 % con plomo en sangre menor de 10 µg/dL, 14 % con 10 a 25 µg/dL, 22 % con 25 a 40 µg/dL y 31 % con más de 40 µg/dL, tras ajustar por edad, obesidad y consumo de sal. ¿Qué criterio de causalidad aporta específicamente este hallazgo?"
   },
   {
    "id": "t-2026-10-22-manana-092",
@@ -48,12 +50,13 @@
     "carpeta": "10. EPIDEMIOLOGIA",
     "archivo": "10. TASA Y DENSIDAD.pdf",
     "seccion": "Densidad de incidencia"
-   }
+   },
+   "caso": "Una minera de Cerro de Pasco sigue a 400 trabajadores sanos expuestos a polvo de sílice. Por ingresos y retiros escalonados, la suma de los periodos libres de enfermedad es de 1 600 personas-año. Durante el seguimiento, 24 trabajadores desarrollan disnea progresiva con nódulos en lóbulos superiores e infiltrado reticulonodular en la radiografía. El médico ocupacional quiere expresar la velocidad de aparición de casos nuevos. ¿Cuál es el valor correcto?"
   },
   {
    "id": "t-2026-10-22-manana-073",
    "tipo": "contraste",
-   "frente": "Niño con talla para la edad menor de −2 DE pero peso para la talla normal. ¿Cómo se clasifica?",
+   "frente": "Talla para la edad menor de −2 DE con peso para la talla normal: ¿qué tipo de desnutrición es?",
    "reverso": "Desnutrición crónica (talla baja).",
    "porque": "La talla baja refleja un daño antiguo y sostenido; el peso para la talla normal indica que ahora mismo no hay desnutrición aguda.",
    "nemotecnia": "Talla mide el pasado, peso mide el presente.",
@@ -64,7 +67,8 @@
     "carpeta": "4.PEDIATRIA",
     "archivo": "40. CRED NT.pdf",
     "seccion": "Clasificación nutricional"
-   }
+   },
+   "caso": "Niño de 3 años de una comunidad altoandina de Puno acude a su control CRED. Nació a término con 3 100 g. Recibe lactancia materna y una dieta basada en tubérculos. Peso 12,4 kg, talla 87 cm. En las tablas OMS: talla para la edad -2,6 DE, peso para la talla -0,4 DE y peso para la edad -1,9 DE. Sin edemas, activo, sin enfermedad aguda. Hb 11,6 g/dL ajustada por altitud. ¿Cómo se clasifica su estado nutricional?"
   },
   {
    "id": "t-2026-10-22-manana-100",
@@ -80,7 +84,8 @@
     "carpeta": "10. EPIDEMIOLOGIA",
     "archivo": "11. MEDIDAS DE ASOCIACION.pdf",
     "seccion": "Odds ratio"
-   }
+   },
+   "caso": "En el hospital de Huancavelica se comparan 80 mujeres no fumadoras con VEF1/CVF posbroncodilatador menor de 0,7 y 160 mujeres no fumadoras con espirometría normal, de la misma edad y comunidad. Se pregunta a todas por la cocina con leña en casa durante más de 20 años: la refieren 50 de las 80 mujeres con obstrucción y 40 de las 160 mujeres sin obstrucción. ¿Cuál es la medida de asociación correcta para este estudio?"
   },
   {
    "id": "t-2026-10-22-manana-029",
@@ -96,12 +101,13 @@
     "carpeta": "10. EPIDEMIOLOGIA",
     "archivo": "13. VIGILANCIA Y NOTIFICACIN.pdf",
     "seccion": "Canal endémico"
-   }
+   },
+   "caso": "En un centro de salud de Piura, la semana epidemiológica 14 registra 45 casos de diarrea acuosa aguda en menores de 5 años. Según los 5 años previos, la mediana esperada para esa semana es de 18 casos. No hay cambios en la población asignada ni en la definición de caso. El responsable de epidemiología calcula el índice epidémico para ubicar la semana en el canal endémico. ¿En qué zona se encuentra?"
   },
   {
    "id": "t-2026-10-22-manana-008",
    "tipo": "concepto",
-   "frente": "Persona con infección por VIH y CD4 de 150 células/mm³, asintomática. ¿Qué profilaxis primaria corresponde?",
+   "frente": "En VIH, ¿qué profilaxis primaria corresponde con CD4 menor de 200 y cuál se añade bajo 50?",
    "reverso": "Cotrimoxazol, para neumonía por Pneumocystis jirovecii.",
    "porque": "El umbral es CD4 menor de 200. Por debajo de 50 se añade la profilaxis contra el complejo Mycobacterium avium.",
    "nemotecnia": "CD4 bajo 200: cotrimoxazol. Bajo 50: además azitromicina.",
@@ -112,7 +118,8 @@
     "carpeta": "12. INFECTOLOGIA",
     "archivo": "14. VIH.pdf",
     "seccion": "Profilaxis de oportunistas"
-   }
+   },
+   "caso": "Varón de 30 años con prueba de cuarta generación reactiva y confirmada hace 1 semana, por baja de 7 kg y candidiasis oral. Sin tos ni disnea. PA 110/70 mmHg, FC 84X', FR 18X', T° 36,8 °C, SatO2 97 %. Placas blanquecinas removibles en orofaringe. Radiografía de tórax normal. CD4 140 células/mm³, carga viral 210 000 copias/mL. Baciloscopías de esputo negativas. Además de iniciar TAR, ¿qué profilaxis corresponde?"
   },
   {
    "id": "t-2026-10-22-manana-002",
@@ -128,12 +135,13 @@
     "carpeta": "15. GESTION EN SALUD",
     "archivo": "12. INDICADORES.pdf",
     "seccion": "Indicadores de proceso"
-   }
+   },
+   "caso": "En enero, el consultorio de medicina de un centro de salud I-3 de Ica programó 150 horas médico, pero por licencias solo se laboraron 100 horas. En ese mes se realizaron 300 atenciones a 120 pacientes distintos, de una población asignada de 600 adultos. La jefatura desea medir lo que realmente produjo cada hora efectivamente trabajada. ¿Cuál es el indicador solicitado?"
   },
   {
    "id": "t-2026-10-22-manana-034",
    "tipo": "concepto",
-   "frente": "Mujer con descarga mucopurulenta que sale del orificio cervical y sangrado al contacto. ¿Qué cubre el tratamiento sindrómico?",
+   "frente": "Cervicitis mucopurulenta: ¿qué agentes cubre el tratamiento sindrómico y a quién más se trata?",
    "reverso": "Gonococo y clamidia a la vez, y se trata también a la pareja.",
    "porque": "El manejo sindrómico no espera cultivo: se cubren los dos agentes porque la coinfección es frecuente. Añadir tamizaje de VIH y sífilis.",
    "nemotecnia": "Cuello que supura: siempre gonococo más clamidia, y la pareja.",
@@ -144,12 +152,13 @@
     "carpeta": "28. NT",
     "archivo": "4. NT ITS.pdf",
     "seccion": "Manejo sindrómico de flujo/cervicitis"
-   }
+   },
+   "caso": "Mujer de 23 años con flujo vaginal amarillento y sangrado poscoital desde hace 1 semana. Nueva pareja sexual hace 2 meses, no usa preservativo. T° 36,8 °C, abdomen blando sin dolor. Especuloscopía: secreción mucopurulenta que sale del orificio cervical y cuello friable que sangra al contacto. Tacto: sin dolor a la movilización cervical ni anexial. Prueba de embarazo negativa. ¿Cuál es el tratamiento sindrómico indicado?"
   },
   {
    "id": "t-2026-10-22-manana-047",
    "tipo": "contraste",
-   "frente": "Para tamizar sangre donada en un banco de sangre, ¿qué característica debe tener la prueba elegida?",
+   "frente": "En una prueba de tamizaje, ¿qué se prioriza: sensibilidad o especificidad? ¿Y en la confirmatoria?",
    "reverso": "La mayor sensibilidad posible.",
    "porque": "En tamizaje lo caro es dejar pasar un infectado, así que se prioriza no tener falsos negativos. La especificidad se recupera después con la prueba confirmatoria.",
    "nemotecnia": "Sensible para descartar, específica para confirmar.",
@@ -160,7 +169,8 @@
     "carpeta": "10. EPIDEMIOLOGIA",
     "archivo": "5. EVALUACION DE PRUEBAS.pdf",
     "seccion": "Sensibilidad y especificidad"
-   }
+   },
+   "caso": "El banco de sangre de un hospital regional debe elegir la prueba para tamizar todas las unidades donadas frente a una infección viral crónica transmisible por transfusión. Se disponen de cinco pruebas con estos resultados validados: sensibilidad 99,8 % y especificidad 98 %; sensibilidad 92 % y especificidad 99,9 %; sensibilidad 85 % y especificidad 99 %; sensibilidad 95 % y especificidad 95 %; sensibilidad 80 % y especificidad 100 %. ¿Qué prueba corresponde elegir?"
   },
   {
    "id": "t-2026-10-22-manana-013",
@@ -176,12 +186,13 @@
     "carpeta": "15. GESTION EN SALUD",
     "archivo": "5. MANEJO DE RESIDUOS.pdf",
     "seccion": "Clasificación por tipo"
-   }
+   },
+   "caso": "En la unidad de oncología de un hospital II-2 de Trujillo, una enfermera termina de administrar un ciclo de quimioterapia. Le quedan el frasco vacío del citostático, la tubuladura del equipo de infusión y los guantes contaminados con el fármaco; la aguja ya fue desechada aparte. El comité de residuos sólidos revisa la segregación en el punto de generación. ¿Dónde deben colocarse estos residuos?"
   },
   {
    "id": "t-2026-10-22-manana-032",
    "tipo": "concepto",
-   "frente": "Cálculo ureteral distal de 6 mm, sin fiebre, sin obstrucción y con dolor controlable. ¿Conducta?",
+   "frente": "Cálculo ureteral DISTAL menor de 10 mm, sin fiebre ni obstrucción: ¿cuál es la conducta?",
    "reverso": "Tratamiento médico expulsivo: analgesia, hidratación y un alfabloqueante como tamsulosina.",
    "porque": "Los cálculos distales menores de 10 mm expulsan solos en la mayoría de los casos. La urgencia quirúrgica se reserva para fiebre, riñón único, falla renal o dolor incontrolable.",
    "nemotecnia": "Distal y menor de 10 mm: sale solo, con tamsulosina.",
@@ -192,12 +203,13 @@
     "carpeta": "21. UROLOGIA",
     "archivo": "4. LITIASIS RENAL.pdf",
     "seccion": "Terapia médica expulsiva"
-   }
+   },
+   "caso": "Varón de 38 años con dolor lumbar izquierdo cólico irradiado a la ingle, náuseas y hematuria desde hace 10 horas; el dolor cedió con analgesia EV. PA 128/80 mmHg, FC 84X', T° 36,8 °C. Puño percusión izquierda dolorosa. Creatinina 0,9 mg/dL, leucocitos 8 200, sedimento sin piuria ni nitritos. Tomografía sin contraste: cálculo de 6 mm en uréter distal izquierdo con hidronefrosis leve; riñón derecho normal. ¿Cuál es el manejo?"
   },
   {
    "id": "t-2026-10-22-manana-042",
    "tipo": "concepto",
-   "frente": "Colecistitis aguda litiásica con leucocitosis y masa palpable, sin falla de órganos (Tokio grado II). ¿Conducta?",
+   "frente": "Colecistitis aguda grado II de Tokio: ¿cuándo se opera y con qué técnica?",
    "reverso": "Antibiótico y colecistectomía laparoscópica precoz, dentro de las primeras 72 horas.",
    "porque": "La cirugía precoz tiene menos complicaciones que diferirla. El grado III, con falla de órganos, obliga a estabilizar y considerar drenaje antes.",
    "nemotecnia": "Tokio I y II: operar pronto. Tokio III: estabilizar primero.",
@@ -208,12 +220,13 @@
     "carpeta": "1. CIRUGIA GENERAL",
     "archivo": "10. PATOLOGIA BILIAR.pdf",
     "seccion": "Colecistitis aguda"
-   }
+   },
+   "caso": "Mujer de 49 años con dolor en hipocondrio derecho continuo desde hace 4 días, fiebre y vómitos. PA 124/80 mmHg, FC 102X', T° 38,6 °C. Murphy positivo y masa dolorosa palpable en hipocondrio derecho. Leucocitos 19 500, bilirrubina total 1,1 mg/dL, creatinina, plaquetas e INR normales. Ecografía: vesícula distendida con pared de 6 mm, cálculo enclavado en el bacinete y líquido perivesicular; colédoco de 5 mm. ¿Cuál es el manejo?"
   },
   {
    "id": "t-2026-10-22-manana-004",
    "tipo": "contraste",
-   "frente": "En SERVQUAL, la dimensión «capacidad de respuesta» mide…",
+   "frente": "¿Cuáles son las cinco dimensiones de SERVQUAL y qué mide exactamente «capacidad de respuesta»?",
    "reverso": "La disposición a ayudar y la rapidez del servicio.",
    "porque": "Las cinco dimensiones son: elementos tangibles, fiabilidad, capacidad de respuesta, seguridad y empatía. Fiabilidad es cumplir lo prometido; capacidad de respuesta es hacerlo rápido.",
    "nemotecnia": "Fiabilidad = lo cumplen. Capacidad de respuesta = lo cumplen rápido.",
@@ -224,12 +237,13 @@
     "carpeta": "15. GESTION EN SALUD",
     "archivo": "13. CALIDAD.pdf",
     "seccion": "SERVQUAL: dimensiones"
-   }
+   },
+   "caso": "En la consulta externa de un hospital II-1 de Chiclayo se aplica la encuesta de satisfacción del usuario externo. La mayor brecha entre expectativa y percepción está en estos ítems: el tiempo de espera para ser atendido en el consultorio, la rapidez de la atención en farmacia y la demora para obtener una cita en caja y admisión. El trato del personal y la limpieza obtienen buenos puntajes. ¿Qué dimensión requiere el plan de mejora?"
   },
   {
    "id": "t-2026-10-22-manana-085",
    "tipo": "concepto",
-   "frente": "Mujer de 38 años, fuma 10 cigarrillos al día, solicita anticonceptivo oral combinado. ¿Conducta?",
+   "frente": "¿Por qué el anticonceptivo oral combinado está prohibido en una fumadora de 35 años o más?",
    "reverso": "No dárselo: es categoría 4 de la OMS, contraindicación absoluta. Ofrecer un método de solo progestágeno, DIU o un método de barrera.",
    "porque": "Fumar a partir de los 35 años multiplica el riesgo tromboembólico y cardiovascular del estrógeno. También es categoría 4 la migraña con aura.",
    "nemotecnia": "Fuma y pasa de 35: nada de estrógenos.",
@@ -240,7 +254,8 @@
     "carpeta": "3.GINECOLOGIA",
     "archivo": "17. ANTICONCEPTIVOS.pdf",
     "seccion": "Combinados: riesgos y contraindicaciones"
-   }
+   },
+   "caso": "Mujer de 38 años, G2P2002, fuma 20 cigarrillos al día desde hace 15 años, solicita un método para no tener más hijos por ahora. PA 128/82 mmHg, IMC 27. Sin migraña, sin antecedente de trombosis, sin cáncer de mama. Ciclos regulares. Desea un método reversible y no quiere colocarse dispositivo intrauterino. ¿Cuál es el método hormonal más adecuado?"
   },
   {
    "id": "t-2026-10-22-manana-024",
@@ -256,12 +271,13 @@
     "carpeta": "3.GINECOLOGIA",
     "archivo": "17. ANTICONCEPTIVOS.pdf",
     "seccion": "Anticoncepción de emergencia"
-   }
+   },
+   "caso": "Mujer de 20 años, estudiante, acude a las 30 horas de una relación sexual con ruptura del preservativo. Fecha de última menstruación hace 12 días, ciclos regulares de 28 días. No usa otro método. PA 110/70 mmHg, IMC 23. Prueba de embarazo en orina negativa. No tiene antecedentes de trombosis ni migraña. Solicita un método para evitar el embarazo. ¿Qué indicación corresponde?"
   },
   {
    "id": "t-2026-10-22-manana-090",
    "tipo": "concepto",
-   "frente": "Disfagia que cuesta igual con sólidos y con líquidos desde el inicio, con esofagograma en pico de pájaro. ¿Qué confirma el diagnóstico?",
+   "frente": "Disfagia que cuesta igual con sólidos y con líquidos: ¿qué estudio confirma el diagnóstico?",
    "reverso": "La manometría esofágica, que muestra ausencia de relajación del esfínter inferior y falta de peristalsis.",
    "porque": "Que la disfagia sea igual para sólidos y líquidos apunta a un trastorno motor, no a una obstrucción mecánica, que empieza solo con sólidos.",
    "nemotecnia": "Sólidos solo = obstrucción. Sólidos y líquidos = motor.",
@@ -272,12 +288,13 @@
     "carpeta": "5.GASTROENTEROLOGIA",
     "archivo": "9. patologia de esofago.pdf",
     "seccion": "Acalasia"
-   }
+   },
+   "caso": "Mujer de 34 años con disfagia a sólidos y líquidos desde hace 1 año, progresiva, con regurgitación de alimentos no digeridos por la noche y baja de 6 kg. No fuma ni bebe. Examen: IMC 19, sin adenopatías. Esofagograma con bario: esófago dilatado con afinamiento distal liso y simétrico. Endoscopía: esófago con restos alimentarios, mucosa normal, la unión gastroesofágica se franquea con leve resistencia, sin masa. ¿Qué examen confirma el diagnóstico?"
   },
   {
    "id": "t-2026-10-22-manana-087",
    "tipo": "concepto",
-   "frente": "En una enfermedad crónica aparece un tratamiento que alarga la vida sin curar. ¿Qué le pasa a la prevalencia y a la incidencia?",
+   "frente": "Si un tratamiento alarga la vida sin curar, ¿qué le pasa a la prevalencia y qué a la incidencia?",
    "reverso": "La prevalencia sube; la incidencia no cambia.",
    "porque": "La prevalencia depende de cuántos casos hay acumulados, y los enfermos dejan de morir. La incidencia solo cuenta casos nuevos.",
    "nemotecnia": "Si no curas pero no mueren, la prevalencia crece sola.",
@@ -288,12 +305,13 @@
     "carpeta": "10. EPIDEMIOLOGIA",
     "archivo": "10. TASA Y DENSIDAD.pdf",
     "seccion": "Prevalencia: causas de aumento"
-   }
+   },
+   "caso": "La DIRESA de Loreto revisa la serie de 2015 a 2025 de una infección crónica de transmisión sexual. La notificación de casos nuevos por año se mantuvo estable (alrededor de 300 por año, con la misma población y la misma cobertura de tamizaje). En 2018 se amplió el acceso gratuito a un tratamiento que prolonga la sobrevida pero no elimina la infección. La prevalencia pasó de 1,1 a 2,4 por 1 000 habitantes. ¿Qué explica mejor este cambio?"
   },
   {
    "id": "t-2026-10-22-manana-020",
    "tipo": "contraste",
-   "frente": "Embarazo tubario NO roto, pero con actividad cardiaca embrionaria visible. ¿Por qué no se usa metotrexato?",
+   "frente": "¿Cuándo está contraindicado el metotrexato en un embarazo ectópico?",
    "reverso": "La actividad cardiaca es contraindicación relativa fuerte: corresponde cirugía, salpingostomía o salpingectomía.",
    "porque": "Las otras contraindicaciones son β-hCG muy alta, saco mayor de 3,5 a 4 cm, inestabilidad o rotura. El metotrexato es para el ectópico pequeño, estable y sin latido.",
    "nemotecnia": "Si late, no hay metotrexato: va a quirófano.",
@@ -304,12 +322,13 @@
     "carpeta": "2. OBSTETRICIA",
     "archivo": "29. HEMORRAGIA DE LA 1ERA MITAD.pdf",
     "seccion": "Ectópico: tratamiento"
-   }
+   },
+   "caso": "Mujer de 29 años, con antecedente de infección pélvica tratada, con amenorrea de 7 semanas y dolor leve en fosa iliaca izquierda. PA 118/76 mmHg, FC 82X', abdomen blando, sin signos peritoneales. β-hCG 6 800 mUI/mL. Ecografía transvaginal: útero vacío, masa anexial izquierda de 4,2 cm con saco, embrión y actividad cardiaca; sin líquido libre. Función hepática y renal normales. ¿Cuál es el manejo indicado?"
   },
   {
    "id": "t-2026-10-22-manana-012",
    "tipo": "concepto",
-   "frente": "A las 12 horas de una tiroidectomía total, la paciente tiene hormigueo peribucal y espasmo carpopedal. ¿Conducta inmediata?",
+   "frente": "Hipocalcemia sintomática tras una tiroidectomía total: ¿cuál es la conducta inmediata?",
    "reverso": "Gluconato de calcio al 10 % endovenoso lento.",
    "porque": "Es hipocalcemia por lesión o retiro de las paratiroides. El calcio oral con vitamina D viene después, para el mantenimiento.",
    "nemotecnia": "Hormigueo tras tiroidectomía: calcio endovenoso, no esperar.",
@@ -320,12 +339,13 @@
     "carpeta": "14. NEFROLOGIA",
     "archivo": "12. ALTERACIONES DE CALCIO.pdf",
     "seccion": "Hipocalcemia"
-   }
+   },
+   "caso": "Mujer de 44 años en el primer día posoperatorio de tiroidectomía total por bocio multinodular. Refiere hormigueo peribucal y en dedos, y calambres. PA 122/78 mmHg, FC 88X'. Al percutir delante del trago se contrae la comisura labial; al inflar el manguito aparece espasmo del carpo. Calcio sérico 6,9 mg/dL, albúmina 4,0 g/dL. EKG: QT prolongado. ¿Cuál es el tratamiento inmediato?"
   },
   {
    "id": "t-2026-10-22-manana-080",
    "tipo": "concepto",
-   "frente": "Niño con fractura supracondílea de codo, mano fría, pálida y sin pulso radial. ¿Conducta inmediata?",
+   "frente": "Fractura supracondílea de codo con la mano sin pulso: ¿qué se hace primero?",
    "reverso": "Reducción urgente de la fractura, y reevaluar el pulso enseguida.",
    "porque": "La mayoría de las veces el pulso vuelve al alinear el hueso. Solo si no vuelve tras la reducción se explora el vaso.",
    "nemotecnia": "Primero se alinea el hueso; casi siempre el pulso vuelve solo.",
@@ -336,12 +356,13 @@
     "carpeta": "18.TRAUMATOLOGIA",
     "archivo": "7. FX Y LUXACIONES DE MMSS.pdf",
     "seccion": "Supracondílea del niño"
-   }
+   },
+   "caso": "Niño de 6 años que cayó de un columpio sobre la mano extendida hace 2 horas. Codo izquierdo muy edematizado, en S, con equimosis anterior. La mano está pálida y fría, llenado capilar de 5 segundos, pulso radial no palpable; no puede flexionar el pulgar ni el índice. Radiografía: trazo transversal en la metáfisis distal del húmero, por encima de los cóndilos, con desplazamiento posterior completo del fragmento distal. ¿Cuál es la conducta?"
   },
   {
    "id": "t-2026-10-22-manana-072",
    "tipo": "concepto",
-   "frente": "Estenosis mitral reumática severa, sintomática, sin trombo auricular ni insuficiencia mitral significativa y con valva flexible. ¿Tratamiento de elección?",
+   "frente": "Estenosis mitral severa sintomática con válvula flexible y sin trombo: ¿tratamiento de elección?",
    "reverso": "Valvuloplastia mitral percutánea con balón.",
    "porque": "Es la primera opción cuando la anatomía es favorable. El reemplazo valvular se reserva para válvulas calcificadas, con trombo o con insuficiencia importante.",
    "nemotecnia": "Válvula flexible y sin trombo: balón antes que bisturí.",
@@ -352,12 +373,13 @@
     "carpeta": "9. CARDIOLOGIA",
     "archivo": "11. VALVULOPATIAS.pdf",
     "seccion": "Estenosis mitral: tratamiento"
-   }
+   },
+   "caso": "Mujer de 32 años de Ayacucho con disnea progresiva de esfuerzos moderados y 2 episodios de hemoptisis. Ritmo sinusal, FC 96X', PA 108/70 mmHg. Primer ruido intenso, chasquido de apertura y retumbo diastólico apical con refuerzo presistólico. Ecocardiograma: área valvular mitral 0,9 cm², válvulas flexibles sin calcificación, insuficiencia mitral leve, sin trombo en aurícula izquierda; presión pulmonar 55 mmHg. ¿Cuál es el tratamiento de elección?"
   },
   {
    "id": "t-2026-10-22-manana-079",
    "tipo": "concepto",
-   "frente": "Varón joven con ictericia leve que aparece con el ayuno o el estrés, bilirrubina indirecta algo alta y hemograma, transaminasas y reticulocitos normales. ¿Qué es?",
+   "frente": "Ictericia leve a expensas de bilirrubina indirecta que aparece con el ayuno, sin anemia: ¿qué es?",
    "reverso": "Síndrome de Gilbert. No requiere tratamiento.",
    "porque": "Es un déficit parcial y benigno de la glucuroniltransferasa. Sin anemia ni reticulocitosis se descarta hemólisis.",
    "nemotecnia": "Ictericia que sale con el ayuno y todo lo demás normal: Gilbert.",
@@ -368,12 +390,13 @@
     "carpeta": "5.GASTROENTEROLOGIA",
     "archivo": "30. alteraciones de la bilirrubina.pdf",
     "seccion": "Alteración de la conjugación"
-   }
+   },
+   "caso": "Varón de 22 años, estudiante, nota coloración amarilla de las escleras durante una semana de exámenes en la que ayunó varias horas al día. No tiene coluria, acolia, prurito ni dolor. Examen: PA 116/72 mmHg, ictericia escleral leve, hígado y bazo no palpables. Bilirrubina total 3,1 mg/dL (indirecta 2,7), TGO, TGP, FA y GGT normales; Hb 15 g/dL, reticulocitos 1 %, LDH normal, frotis sin esquistocitos. ¿Cuál es la conducta?"
   },
   {
    "id": "t-2026-10-22-manana-044",
    "tipo": "contraste",
-   "frente": "Perfil serológico de hepatitis B: anti-HBs positivo, HBsAg negativo y anti-HBc negativo. ¿Qué significa?",
+   "frente": "Anti-HBs positivo con HBsAg y anti-HBc NEGATIVOS: ¿qué significa?",
    "reverso": "Inmunidad por vacuna.",
    "porque": "La vacuna solo genera anti-HBs. Si además hubiera anti-HBc positivo, la inmunidad vendría de una infección pasada resuelta.",
    "nemotecnia": "Solo anti-HBs: vacuna. Con anti-HBc: la pasó de verdad.",
@@ -384,7 +407,8 @@
     "carpeta": "5.GASTROENTEROLOGIA",
     "archivo": "19. hepatitis.pdf",
     "seccion": "Marcadores del virus B"
-   }
+   },
+   "caso": "Interna de medicina de 24 años se pincha con una aguja usada en un paciente con HBsAg positivo. Refiere haber recibido 3 dosis de vacuna contra hepatitis B hace 4 años. Asintomática, PA 110/70 mmHg, sin ictericia. Serología basal tomada el mismo día: HBsAg negativo, anti-HBc total negativo, anti-HBs 85 UI/L. ¿Cuál es la interpretación y la conducta?"
   },
   {
    "id": "t-2026-10-22-manana-001",
@@ -400,7 +424,8 @@
     "carpeta": "10. EPIDEMIOLOGIA",
     "archivo": "11. MEDIDAS DE ASOCIACION.pdf",
     "seccion": "Medidas de impacto"
-   }
+   },
+   "caso": "En el valle de Cañete se sigue durante 5 años a agricultores que fumigan sin equipo de protección y a agricultores que no fumigan. La incidencia de neuropatía periférica fue de 45 por 1 000 en los que fumigan y de 15 por 1 000 en los que no fumigan. La gerencia regional quiere saber cuántos casos adicionales se deben exclusivamente a la exposición en los trabajadores expuestos. ¿Cuál es el valor que responde a esa pregunta?"
   },
   {
    "id": "t-2026-10-22-manana-078",
@@ -416,12 +441,13 @@
     "carpeta": "10. EPIDEMIOLOGIA",
     "archivo": "11. MEDIDAS DE ASOCIACION.pdf",
     "seccion": "RAR y NNT"
-   }
+   },
+   "caso": "Un ensayo clínico aleatorizado en 1 200 adultos con fibrilación auricular compara un anticoagulante nuevo contra el tratamiento estándar durante 2 años. El evento primario (ictus isquémico) ocurrió en el 20 % del grupo control y en el 15 % del grupo intervenido; la diferencia fue significativa. El comité de farmacia del hospital necesita expresar el beneficio en términos clínicos para decidir la compra. ¿A cuántos pacientes hay que tratar para evitar un evento?"
   },
   {
    "id": "t-2026-10-22-manana-046",
    "tipo": "concepto",
-   "frente": "Mordedura en la cara por un perro que huyó y no se puede observar. ¿Conducta?",
+   "frente": "¿Qué define una exposición GRAVE a rabia y qué se administra en ese caso?",
    "reverso": "Lavar la herida 15 minutos con agua y jabón, y administrar vacuna antirrábica MÁS inmunoglobulina infiltrada alrededor de la herida.",
    "porque": "Cara, cuello, manos y genitales son exposición grave, igual que toda herida profunda, múltiple o de animal no ubicable.",
    "nemotecnia": "Cara, manos o animal perdido: vacuna e inmunoglobulina.",
@@ -432,7 +458,8 @@
     "carpeta": "28. NT",
     "archivo": "11. NT RABIA.pdf",
     "seccion": "Profilaxis y clasificación de la exposición"
-   }
+   },
+   "caso": "Niño de 7 años mordido hace 4 horas por un perro callejero que huyó y no pudo ser ubicado. Presenta 2 heridas profundas en mejilla y labio superior, con sangrado leve. Nunca recibió vacuna antirrábica. Vacunas del calendario completas. FC 98X', T° 36,7 °C. Ya se realizó lavado profuso con agua y jabón por 15 minutos. ¿Cuál es la conducta de profilaxis antirrábica?"
   },
   {
    "id": "t-2026-10-22-manana-060",
@@ -448,12 +475,13 @@
     "carpeta": "10. EPIDEMIOLOGIA",
     "archivo": "7. ENFERMEDADES TRASMSIBLES 2.pdf",
     "seccion": "Tasa de ataque"
-   }
+   },
+   "caso": "En una cuna-jardín de Ate, una niña de 3 años inicia fiebre y lesiones vesiculares pruriginosas en distintos estadios. En las 3 semanas siguientes se cuentan los casos entre los 80 niños expuestos: de 48 niños con 1 dosis de vacuna enferman 3, y de 32 niños sin vacuna enferman 12. El equipo de epidemiología desea medir el riesgo de enfermar en el grupo no vacunado. ¿Cuál es la tasa de ataque en ese grupo?"
   },
   {
    "id": "t-2026-10-22-manana-059",
    "tipo": "contraste",
-   "frente": "Gestante en el primer trimestre con hipertiroidismo autoinmune. ¿Qué antitiroideo corresponde?",
+   "frente": "Hipertiroidismo en el embarazo: ¿qué antitiroideo va en cada trimestre y por qué?",
    "reverso": "Propiltiouracilo.",
    "porque": "El metimazol en el primer trimestre se asocia a aplasia cutis y atresia de coanas. A partir del segundo trimestre se cambia a metimazol, por la hepatotoxicidad del propiltiouracilo.",
    "nemotecnia": "Primer trimestre PTU; del segundo en adelante, metimazol.",
@@ -464,12 +492,13 @@
     "carpeta": "11. ENDOCRINOLOGIA",
     "archivo": "10. HIPERTIROIDISMO.pdf",
     "seccion": "Tratamiento"
-   }
+   },
+   "caso": "Gestante de 26 años, 8 semanas, con palpitaciones, temblor, intolerancia al calor y baja de 3 kg pese a buen apetito. PA 128/70 mmHg, FC 118X', exoftalmos bilateral leve, bocio difuso con soplo. TSH <0,01 mUI/L, T4 libre 3,8 ng/dL (normal 0,8-1,8), anticuerpos antirreceptor de TSH positivos. Sin vómitos persistentes. ¿Cuál es el antitiroideo de elección en este momento?"
   },
   {
    "id": "t-2026-10-22-manana-075",
    "tipo": "contraste",
-   "frente": "Acidosis metabólica hiperclorémica con orina de pH alto, potasio bajo y nefrocalcinosis. ¿Qué tipo de acidosis tubular renal es?",
+   "frente": "¿Cómo se distinguen las acidosis tubulares renales tipo 1, tipo 2 y tipo 4?",
    "reverso": "Tipo 1, distal.",
    "porque": "La distal no acidifica la orina, pierde potasio y forma cálculos. La tipo 2, proximal, sí acidifica cuando el bicarbonato baja mucho y no da nefrocalcinosis. La tipo 4 cursa con potasio ALTO.",
    "nemotecnia": "Distal: orina alcalina, potasio bajo y piedras. Tipo 4: potasio alto.",
@@ -480,12 +509,13 @@
     "carpeta": "14. NEFROLOGIA",
     "archivo": "23. ACIDOSIS TUBULAR RENAL.pdf",
     "seccion": "Tipos y tratamiento"
-   }
+   },
+   "caso": "Mujer de 28 años con síndrome de Sjögren, debilidad muscular y cólicos renales recurrentes. PA 110/70 mmHg, FC 76X'. Laboratorio: Na 139, Cl 116, HCO3 15 mEq/L, K 2,8 mEq/L; gases: pH 7,29, pCO2 30 mmHg. Glucosa y creatinina normales. Orina: pH 6,8 pese a la acidemia, sin glucosuria. Ecografía: calcificaciones en ambas pirámides medulares. ¿Cuál es el tratamiento de base?"
   },
   {
    "id": "t-2026-10-22-manana-091",
    "tipo": "concepto",
-   "frente": "Turista recién llegado a 4 000 m con disnea de reposo, tos y crépitos, sin fiebre ni dolor torácico. ¿Conducta?",
+   "frente": "Edema pulmonar de altura: ¿cuál es el tratamiento definitivo y cuál el de apoyo?",
    "reverso": "Descenso inmediato y oxígeno; si no se puede descender, nifedipino.",
    "porque": "El descenso es el único tratamiento definitivo. La acetazolamida sirve para prevenir el mal agudo de montaña, no para tratar el edema pulmonar ya instalado.",
    "nemotecnia": "En la altura, lo que cura es bajar.",
@@ -496,12 +526,13 @@
     "carpeta": "6.NEUMOLOGIA",
     "archivo": "21. MAL AGUDO DE MONTAÑA.pdf",
     "seccion": "Edema pulmonar de altura"
-   }
+   },
+   "caso": "Varón de 31 años, residente en Lima, llegó a Cusco (3 400 msnm) hace 2 días e hizo una caminata intensa el primer día. Desde anoche presenta disnea en reposo, tos con esputo rosado espumoso y gran cansancio. PA 124/80 mmHg, FC 118X', FR 32X', T° 37,4 °C, SatO2 68 %. Crepitantes en ambos campos medios. Lúcido, sin ataxia. ¿Cuál es la conducta inicial?"
   },
   {
    "id": "t-2026-10-22-manana-089",
    "tipo": "contraste",
-   "frente": "Amenaza de parto pretérmino en gestante con hipertiroidismo. ¿Qué tocolítico se evita y cuál se usa?",
+   "frente": "Amenaza de parto pretérmino en gestante con hipertiroidismo: ¿qué tocolítico se evita y cuál se usa?",
    "reverso": "Se evitan los betamiméticos como el isoxsuprina o la terbutalina; se usa nifedipino.",
    "porque": "Los betamiméticos provocan taquicardia y pueden desencadenar una crisis tiroidea. El nifedipino es seguro y hoy es de primera línea.",
    "nemotecnia": "Corazón acelerado: nada de betamiméticos, va nifedipino.",
@@ -512,12 +543,13 @@
     "carpeta": "2. OBSTETRICIA",
     "archivo": "13. PARTO PRETERMINO .pdf",
     "seccion": "Tocólisis y contraindicaciones"
-   }
+   },
+   "caso": "Gestante de 28 años, 33 semanas, con enfermedad tiroidea autoinmune hiperfuncionante en tratamiento con propiltiouracilo. Acude por contracciones regulares 5 en 30 minutos, dilatación 2 cm y borramiento 50 %, membranas íntegras. PA 118/72 mmHg, FC 98X', T° 36,9 °C, temblor fino. Monitoreo fetal reactivo. Se decide tocólisis mientras se completa la maduración pulmonar. ¿Qué tocolítico corresponde?"
   },
   {
    "id": "t-2026-10-22-manana-053",
    "tipo": "contraste",
-   "frente": "Pancreatitis aguda de origen biliar. ¿Qué imagen se pide al ingreso y cuál después?",
+   "frente": "Pancreatitis aguda biliar: ¿qué imagen se pide al ingreso y cuál recién a las 72 horas?",
    "reverso": "Al ingreso, ecografía abdominal para ver la vía biliar. La tomografía con contraste recién a las 72 horas.",
    "porque": "Antes de las 72 horas la tomografía subestima la necrosis, que aún no se delimita. La ecografía es la que confirma el origen biliar.",
    "nemotecnia": "Primero el eco, la tomografía a las 72 horas.",
@@ -528,12 +560,13 @@
     "carpeta": "5.GASTROENTEROLOGIA",
     "archivo": "12. pancreatitis aguda.pdf",
     "seccion": "Imagen"
-   }
+   },
+   "caso": "Mujer de 46 años, obesa, con dolor epigástrico intenso irradiado en cinturón y vómitos desde hace 10 horas. PA 128/80 mmHg, FC 102X', T° 37,6 °C, FR 20X'. Abdomen doloroso en epigastrio, sin rebote. Lipasa 1 450 U/L (LSN 50), TGP 260 U/L, bilirrubina total 1,8 mg/dL, creatinina 0,9 mg/dL. Ya se inició lactato de Ringer y analgesia. ¿Qué examen de imagen corresponde ahora?"
   },
   {
    "id": "t-2026-10-22-manana-061",
    "tipo": "concepto",
-   "frente": "Mujer de 30 años con citología que informa lesión intraepitelial escamosa de BAJO grado. ¿Conducta?",
+   "frente": "Citología con lesión intraepitelial escamosa de BAJO grado: ¿cuál es la conducta?",
    "reverso": "Colposcopia para descartar una lesión mayor.",
    "porque": "En el bajo grado la mayoría regresa sola, pero hay que mirar antes de vigilar. En el alto grado la colposcopia con biopsia es obligatoria.",
    "nemotecnia": "Toda lesión intraepitelial, baja o alta, se mira por colposcopia.",
@@ -544,12 +577,13 @@
     "carpeta": "3.GINECOLOGIA",
     "archivo": "8. CA DE CERVIX.pdf",
     "seccion": "Escenarios"
-   }
+   },
+   "caso": "Mujer de 29 años, nulípara, asintomática, con citología cervical informada como lesión intraepitelial escamosa de bajo grado. Citología previa hace 3 años negativa. No usa anticonceptivos hormonales y tiene pareja estable. Examen ginecológico: cuello sin lesiones macroscópicas, sin sangrado al contacto. Prueba de embarazo negativa. ¿Cuál es la conducta según la fuente?"
   },
   {
    "id": "t-2026-10-22-manana-077",
    "tipo": "concepto",
-   "frente": "Caída sobre la mano con dolor en la tabaquera anatómica y radiografía inicial NORMAL. ¿Conducta?",
+   "frente": "Dolor en la tabaquera anatómica con radiografía inicial normal: ¿cuál es la conducta?",
    "reverso": "Inmovilizar igual con férula y repetir la radiografía en 10 a 14 días, o pedir resonancia o tomografía si se necesita certeza antes.",
    "porque": "La fractura de escafoides no se ve al inicio en hasta un 25 % de los casos. Si no se inmoviliza, el riesgo es necrosis avascular y seudoartrosis.",
    "nemotecnia": "Duele la tabaquera: se enyesa aunque la placa salga limpia.",
@@ -560,12 +594,13 @@
     "carpeta": "18.TRAUMATOLOGIA",
     "archivo": "7. FX Y LUXACIONES DE MMSS.pdf",
     "seccion": "Escafoides"
-   }
+   },
+   "caso": "Varón de 22 años que cayó sobre la mano extendida jugando fútbol hace 1 día. Dolor en la muñeca derecha que aumenta al hacer pinza. Examen: dolor a la palpación de la tabaquera anatómica y a la compresión axial del pulgar, sin deformidad, pulsos y sensibilidad conservados. Radiografías de muñeca (frente, perfil y oblicuas) sin trazo de fractura. ¿Cuál es la conducta?"
   },
   {
    "id": "t-2026-10-22-manana-074",
    "tipo": "concepto",
-   "frente": "Infarto con elevación del ST en cara anterior, 90 minutos de dolor, en un hospital a 3 horas de la sala de hemodinamia. ¿Conducta?",
+   "frente": "¿A partir de cuántos minutos de traslado se prefiere fibrinolisis antes que angioplastia primaria?",
    "reverso": "Fibrinolisis inmediata ahí mismo y traslado después, para estrategia fármaco-invasiva.",
    "porque": "La angioplastia primaria solo gana si el traslado toma menos de 120 minutos. Por encima de ese tiempo cada minuto es músculo perdido.",
    "nemotecnia": "Más de 120 minutos hasta el cateterismo: se trombolisa ya.",
@@ -576,12 +611,13 @@
     "carpeta": "9. CARDIOLOGIA",
     "archivo": "4. CARDIOPATIA ISQUEMICA.pdf",
     "seccion": "Reperfusión"
-   }
+   },
+   "caso": "Varón de 61 años con dolor torácico opresivo de 2 horas, irradiado al brazo izquierdo, con diaforesis. Llega a un hospital II-1 de Huánuco sin hemodinámica; el traslado a un centro con angioplastía tomaría unas 5 horas. PA 136/86 mmHg, FC 92X', crepitantes ausentes. EKG: supradesnivel del ST de 3 mm de V1 a V5. Sin antecedentes de sangrado, ACV ni cirugía reciente. Recibió aspirina y clopidogrel. ¿Cuál es la conducta de reperfusión?"
   },
   {
    "id": "t-2026-10-22-manana-050",
    "tipo": "contraste",
-   "frente": "Un estudio parte de registros laborales antiguos, sigue a los trabajadores hasta hoy y compara expuestos y no expuestos. ¿Qué diseño es?",
+   "frente": "¿Qué diferencia una cohorte retrospectiva de un estudio de casos y controles?",
    "reverso": "Cohorte retrospectiva o histórica.",
    "porque": "Sigue siendo cohorte porque va de la exposición al efecto; lo retrospectivo es que todo ya ocurrió cuando el investigador llega. En casos y controles se parte de la enfermedad.",
    "nemotecnia": "Cohorte va de la causa al efecto, aunque mire al pasado.",
@@ -592,7 +628,8 @@
     "carpeta": "10. EPIDEMIOLOGIA",
     "archivo": "3. ESTUDIO EPIDEMIOLOGICO KL.pdf",
     "seccion": "Tipos de cohortes"
-   }
+   },
+   "caso": "En 2026, investigadores de una refinería de Talara revisan los registros médicos de 2010 de 900 trabajadores: 300 trabajaban en la planta de solventes con benceno y 600 en oficinas. Todos estaban sanos en 2010. Con los registros siguientes hasta 2025 identifican quiénes desarrollaron pancitopenia con blastos en sangre periférica y calculan la incidencia en cada grupo. ¿Qué diseño se utilizó?"
   },
   {
    "id": "t-2026-10-22-manana-096",
@@ -608,12 +645,13 @@
     "carpeta": "10. EPIDEMIOLOGIA",
     "archivo": "11. MEDIDAS DE ASOCIACION.pdf",
     "seccion": "FER y FERP"
-   }
+   },
+   "caso": "La oficina de epidemiología de Arequipa estima, para una población adulta, una incidencia de enfermedad cerebrovascular de 80 por 10 000 en fumadores, de 20 por 10 000 en no fumadores y de 40 por 10 000 en la población total. Se planifica una campaña antitabaco y se quiere saber qué proporción de todos los casos de la región desaparecería si nadie fumara. ¿Qué valor corresponde?"
   },
   {
    "id": "t-2026-10-22-manana-015",
    "tipo": "concepto",
-   "frente": "Gestante a término en trabajo de parto con el feto en situación transversa y dorso superior. ¿Conducta?",
+   "frente": "Situación transversa en trabajo de parto a término: ¿cuál es la conducta?",
    "reverso": "Cesárea.",
    "porque": "En situación transversa el parto vaginal es imposible. La versión externa se intenta ANTES del trabajo de parto, no durante.",
    "nemotecnia": "Transversa en trabajo de parto: cesárea, sin discusión.",
@@ -624,12 +662,13 @@
     "carpeta": "2. OBSTETRICIA",
     "archivo": "15. ALTURA UTERINA: EG: LEOPOLD.pdf",
     "seccion": "Maniobras de Leopold"
-   }
+   },
+   "caso": "Multípara de 35 años, G4P3003, 39 semanas, ingresa en trabajo de parto con 5 cm de dilatación y membranas íntegras. Altura uterina 31 cm. En las maniobras de Leopold, el fondo uterino está vacío, se palpa un polo duro y redondeado en el flanco izquierdo y otro blando en el flanco derecho; la pelvis está libre. Latidos fetales 140X' a nivel del ombligo. PA 110/70 mmHg. ¿Cuál es la conducta?"
   },
   {
    "id": "t-2026-10-22-manana-055",
    "tipo": "concepto",
-   "frente": "Se halla que tomar café se asocia a cáncer de páncreas, pero los que toman más café también fuman más. ¿Qué papel cumple el tabaco?",
+   "frente": "¿Qué condiciones debe cumplir una variable para ser de confusión, y cómo se controla?",
    "reverso": "Variable de confusión.",
    "porque": "Para serlo debe asociarse a la exposición Y ser causa del desenlace, sin estar en el camino entre ambos. Se controla con estratificación, emparejamiento o análisis multivariado.",
    "nemotecnia": "Confusor: amigo de la exposición y causa del desenlace.",
@@ -640,12 +679,13 @@
     "carpeta": "10. EPIDEMIOLOGIA",
     "archivo": "3. ESTUDIO EPIDEMIOLOGICO KL.pdf",
     "seccion": "Sesgos"
-   }
+   },
+   "caso": "Un estudio de casos y controles en Lima encuentra que el consumo de más de 3 tazas de café al día se asocia a neoplasia de páncreas (OR 2,4; IC 95 % 1,6-3,5). Los revisores notan que los bebedores de café fumaban con mucha más frecuencia. Al estratificar por tabaquismo, el OR es 1,0 en fumadores y 1,1 en no fumadores, ambos con intervalos que incluyen el 1. ¿Qué explica el hallazgo inicial?"
   },
   {
    "id": "t-2026-10-22-manana-033",
    "tipo": "concepto",
-   "frente": "Paciente asmática que solo usa salbutamol a demanda y tiene síntomas tres veces por semana. ¿Conducta?",
+   "frente": "¿Por qué ya no se trata el asma únicamente con salbutamol a demanda?",
    "reverso": "Pasar a corticoide inhalado con formoterol a demanda; el salbutamol solo ya no se recomienda.",
    "porque": "Usar únicamente un broncodilatador deja la inflamación sin tratar y aumenta el riesgo de crisis graves, aunque el alivio sea inmediato.",
    "nemotecnia": "Nunca rescate solo: todo asmático lleva corticoide inhalado.",
@@ -656,7 +696,8 @@
     "carpeta": "6.NEUMOLOGIA",
     "archivo": "7. ASMA.pdf",
     "seccion": "Tratamiento de control"
-   }
+   },
+   "caso": "Varón de 24 años con sibilancias, opresión torácica y tos nocturna desde la adolescencia. Usa solo salbutamol inhalado, que necesita 4 a 5 veces por semana, y despierta por tos 2 noches por semana. Examen: FR 18X', SatO2 97 %, sibilancias espiratorias aisladas. Espirometría: VEF1 82 %, aumento de 15 % y 280 mL tras broncodilatador. No ha tenido crisis graves. ¿Cuál es el ajuste terapéutico más adecuado?"
   },
   {
    "id": "t-2026-10-22-manana-018",
@@ -672,12 +713,13 @@
     "carpeta": "28. NT",
     "archivo": "3. NT INMUNIZACIONES.pdf",
     "seccion": "Esquema: RN"
-   }
+   },
+   "caso": "Recién nacido de 31 semanas, peso al nacer 1 280 g, hospitalizado en intermedios por prematuridad. Madre de 24 años con serología de hepatitis B negativa y VIH no reactivo. Al 5.º día de vida está estable, en alimentación enteral, sin oxígeno. FC 148X', FR 46X', T° 36,7 °C. Peso actual 1 250 g. La enfermera consulta qué vacunas corresponde aplicar ahora. ¿Cuál es la indicación respecto a la BCG?"
   },
   {
    "id": "t-2026-10-22-manana-043",
    "tipo": "contraste",
-   "frente": "Una enfermedad ya no tiene casos en el país, pero el agente sigue existiendo en el mundo. ¿Eliminación o erradicación, y qué se hace con las medidas?",
+   "frente": "¿Qué diferencia «eliminación» de «erradicación», y qué pasa con las medidas en cada caso?",
    "reverso": "Eliminación: se mantienen la vacunación y la vigilancia.",
    "porque": "Erradicación es la desaparición mundial del agente, y solo entonces se pueden suspender las medidas. La viruela es el único caso erradicado.",
    "nemotecnia": "Eliminar es en mi país; erradicar es en el planeta.",
@@ -688,7 +730,8 @@
     "carpeta": "10. EPIDEMIOLOGIA",
     "archivo": "6. ENFERMEDADES TRANSMISIBLES.pdf",
     "seccion": "Enfermedad eliminada vs erradicada"
-   }
+   },
+   "caso": "Un país sudamericano no registra casos autóctonos de una enfermedad inmunoprevenible que causaba parálisis flácida aguda en niños desde hace más de 30 años. Sin embargo, el agente aún circula en otras regiones del mundo, por lo que el programa nacional mantiene la vacunación de rutina en lactantes y la vigilancia de toda parálisis flácida aguda en menores de 15 años. ¿Cómo se clasifica la situación de esta enfermedad en el país?"
   },
   {
    "id": "t-2026-10-22-manana-041",
@@ -704,12 +747,13 @@
     "carpeta": "5.GASTROENTEROLOGIA",
     "archivo": "11. ciclo de HP.pdf",
     "seccion": "Tratamiento de erradicación"
-   }
+   },
+   "caso": "Varón de 38 años con dolor epigástrico urente que mejora con las comidas y lo despierta de madrugada desde hace 2 meses. No consume AINE. PA 120/78 mmHg, FC 76X', abdomen blando, dolor leve a la palpación epigástrica. Hb 13,8 g/dL. Endoscopía: úlcera de 8 mm en cara posterior del bulbo duodenal, base limpia; test de ureasa de biopsia antral positivo. En su región la resistencia a claritromicina es menor de 15 %. ¿Cuál es el tratamiento?"
   },
   {
    "id": "t-2026-10-22-manana-031",
    "tipo": "concepto",
-   "frente": "Lactante de 4 semanas con vómitos NO biliosos en proyectil, oliva palpable y gases con alcalosis metabólica hipoclorémica e hipokalémica. ¿Conducta?",
+   "frente": "Estenosis hipertrófica del píloro: ¿qué hay que corregir ANTES de operar y por qué?",
    "reverso": "Corregir primero la deshidratación y los electrolitos con suero; la piloromiotomía es después.",
    "porque": "No es una urgencia quirúrgica sino metabólica: operar con alcalosis aumenta el riesgo de apnea posoperatoria.",
    "nemotecnia": "El píloro espera; la alcalosis no.",
@@ -720,7 +764,8 @@
     "carpeta": "4.PEDIATRIA",
     "archivo": "31. CIRUGIA PEDIATRICA.pdf",
     "seccion": "Estenosis hipertrófica del píloro"
-   }
+   },
+   "caso": "Lactante varón de 5 semanas, primogénito, con vómitos en proyectil no biliosos después de cada lactada desde hace 6 días; queda con hambre tras vomitar. Peso 3 600 g (al nacer 3 500 g). Examen: FC 156X', mucosas secas, fontanela algo deprimida, se palpa una masa de 2 cm en epigastrio y ondas peristálticas visibles. Gases: pH 7,53, HCO3 34 mEq/L, Cl 86 mEq/L, K 2,9 mEq/L, Na 133 mEq/L. ¿Cuál es la conducta inmediata?"
   },
   {
    "id": "t-2026-10-22-manana-026",
@@ -736,7 +781,8 @@
     "carpeta": "12. INFECTOLOGIA",
     "archivo": "17. FIEBRE REUMATICA.pdf",
     "seccion": "Profilaxis"
-   }
+   },
+   "caso": "Adolescente de 13 años, 42 kg, dado de alta tras hospitalización por fiebre, poliartritis migratoria de grandes articulaciones y soplo holosistólico apical nuevo, con ASO elevado y PR prolongado. Completó el tratamiento antiinflamatorio. Ecocardiograma: insuficiencia mitral leve residual. Sin alergia a penicilina. PA 108/66 mmHg, FC 84X'. ¿Cuál es la profilaxis secundaria indicada?"
   }
  ]
 }

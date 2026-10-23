@@ -263,6 +263,24 @@ export const store = {
    * completa en el acto. Luego la rutina puede mejorarla con su nemotecnia.
    */
   crearTarjetasDe(intento, preguntas) {
+    /** Convierte la pregunta en un enunciado de TEORÍA, sin el caso clínico. */
+    const teoriaDe = (q) => {
+      const dx = q.diagnostico || q.tema || 'este cuadro';
+      switch (q.tipo) {
+        case 'conducta':      return `¿Cuál es la conducta inicial en ${dx}?`;
+        case 'tratamiento':   return `¿Cuál es el tratamiento de elección en ${dx}?`;
+        case 'prueba':        return `¿Qué examen confirma ${dx}?`;
+        case 'complicacion':  return `¿Cuál es la complicación que hay que temer en ${dx}?`;
+        case 'severidad':     return `¿Qué define la severidad en ${dx}?`;
+        case 'dosis':         return `¿Cuál es la dosis o la vía en ${dx}?`;
+        case 'mecanismo':     return `¿Cuál es el mecanismo o el agente causal de ${dx}?`;
+        case 'contraindicacion': return `¿Qué está contraindicado en ${dx}?`;
+        case 'norma':         return `Según la norma técnica, ¿qué corresponde en ${dx}?`;
+        case 'diagnostico':   return `${q.tema || 'Caso'}: ¿qué cuadro es y cómo se reconoce?`;
+        default:              return `${dx}: ¿qué hay que saber?`;
+      }
+    };
+
     this.d.tarjetas ||= [];
     const porId = new Map(preguntas.map((q) => [q.id, q]));
     const hoy = hoyLima();
@@ -281,8 +299,9 @@ export const store = {
       const elegida = r.elegida != null ? q.opciones?.[r.elegida] : null;
       const nueva = {
         id,
-        tipo: elegida && falla ? 'contraste' : adivino ? 'concepto' : 'concepto',
-        frente: q.enunciado,
+        tipo: elegida && falla ? 'contraste' : 'concepto',
+        frente: teoriaDe(q),      // al frente, la teoría
+        caso: q.enunciado,        // y el caso clínico guardado aparte
         reverso: correcta,
         elegiste: falla ? elegida : null,
         porque: (q.razonamiento || '').split('\n')[0] || q.por_que_no?.[r.correcta] || '',

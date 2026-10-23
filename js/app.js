@@ -7,7 +7,7 @@ import { pantallaPre, pantallaExamen, salirDelExamen } from './exam.js';
 import { pantallaResultados } from './results.js';
 import { pantallaProgreso } from './progress.js';
 import { pantallaErrores, pantallaRepaso, pantallaPerlas, pantallaHistorial } from './tools.js';
-import { pantallaTarjetas, pantallaRepasarTarjetas, pantallaAudioTarjetas, ESTILOS, leerEstilo, guardarEstilo } from './tarjetas.js';
+import { pantallaTarjetas, pantallaRepasarTarjetas, pantallaAudioTarjetas, ESTILOS, leerEstilo, guardarEstilo, FRENTES, leerFrente, guardarFrente } from './tarjetas.js';
 import { aplicarTema, leerTema, guardarTema, PALETAS, MODOS } from './tema.js';
 import { caminoAl16, metaDiaria, panelInsignias } from './motivacion.js';
 import { sincronizarTarjetas } from './data.js';
@@ -244,6 +244,19 @@ function pantallaAjustes(v) {
     }, el('span', { class: 'mues ' + k }), el('span', {}, el('b', {}, f.nombre), el('small', {}, f.sub))));
   }
   cTema.append(formas);
+
+  const fr = leerFrente();
+  cTema.append(el('small', { style: 'display:block;margin:18px 0 8px;color:var(--fg2);font-weight:700' }, 'Qué va al frente de la tarjeta'));
+  const frentes = el('div', { class: 'formas' });
+  for (const [k, f] of Object.entries(FRENTES)) {
+    frentes.append(el('button', {
+      class: 'forma', 'aria-pressed': fr === k ? 'true' : 'false',
+      onclick: () => { guardarFrente(k); router(); },
+    }, el('span', { class: 'mues ' + k }), el('span', {}, el('b', {}, f.nombre), el('small', {}, f.sub))));
+  }
+  cTema.append(frentes,
+    el('small', { style: 'display:block;margin-top:8px;color:var(--fg3)' },
+      'Lo que no va al frente queda al reverso, desplegable. Nunca se pierde ninguno de los dos.'));
   v.append(cTema);
 
   // --- sincronización ---

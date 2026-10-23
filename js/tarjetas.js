@@ -22,14 +22,38 @@ export const ESTILOS = {
 export const leerEstilo = () => localStorage.getItem('si.estilo.tarjeta') || 'ficha';
 export const guardarEstilo = (e) => { try { localStorage.setItem('si.estilo.tarjeta', e); } catch {} };
 
+export const FRENTES = {
+  teoria:   { nombre: 'Teoría',   sub: 'La pregunta directa del concepto' },
+  caso:     { nombre: 'Caso',     sub: 'El caso clínico, como en el examen' },
+  mezclado: { nombre: 'Mezclado', sub: 'Unas de teoría y otras de caso' },
+};
+export const leerFrente = () => localStorage.getItem('si.frente.tarjeta') || 'teoria';
+export const guardarFrente = (f) => { try { localStorage.setItem('si.frente.tarjeta', f); } catch {} };
+
+/** Decide qué va al frente de ESTA tarjeta y qué queda para el dorso. */
+function dosCaras(t) {
+  const hayCaso = !!t.caso;
+  let modo = leerFrente();
+  if (!hayCaso) modo = 'teoria';
+  else if (modo === 'mezclado') {
+    // estable por tarjeta: la misma siempre sale igual
+    let h = 0; for (const c of String(t.id)) h = (h * 31 + c.charCodeAt(0)) >>> 0;
+    modo = h % 2 ? 'caso' : 'teoria';
+  }
+  return modo === 'caso'
+    ? { frente: t.caso, otro: t.frente, etiquetaOtro: 'La teoría' }
+    : { frente: t.frente, otro: hayCaso ? t.caso : null, etiquetaOtro: 'El caso del examen' };
+}
+
 /** Dibuja las dos caras de una tarjeta. Las tres formas usan el mismo armazón. */
 function caras(t, { conMotivo = false } = {}) {
+  const { frente: txtFrente, otro, etiquetaOtro } = dosCaras(t);
   const frente = el('div', { class: 'cara frente' },
     el('div', { class: 'etiquetas' },
       el('span', { class: 'chip ac' }, TIPOS[t.tipo] || 'Tarjeta'),
       t.tema ? el('span', { class: 'chip' }, t.tema) : null,
       conMotivo && t.motivo ? el('span', { class: 'chip warn' }, t.motivo) : null),
-    el('div', { class: 'texto-frente' }, t.frente));
+    el('div', { class: 'texto-frente' }, txtFrente));
 
   const dorso = el('div', { class: 'cara dorso' },
     el('div', { class: 'respuesta' }, t.reverso));
@@ -37,6 +61,11 @@ function caras(t, { conMotivo = false } = {}) {
   if (t.porque) dorso.append(el('div', { class: 'bloque' }, el('span', { class: 'et' }, 'Por qué'), t.porque));
   if (t.nemotecnia) dorso.append(el('div', { class: 'nemo' }, '🧠 ' + t.nemotecnia));
   if (t.diagnostico) dorso.append(el('small', { class: 'dx' }, 'Era: ' + t.diagnostico));
+  if (otro) {
+    const d = el('details', { class: 'otracara' });
+    d.append(el('summary', {}, etiquetaOtro), el('div', { class: 'texto-otro' }, otro));
+    dorso.append(d);
+  }
   if (t.fuente) dorso.append(el('small', { class: 'fte' },
     '📂 ' + [t.fuente.carpeta, t.fuente.archivo, t.fuente.seccion].filter(Boolean).join(' › ')));
   return { frente, dorso };

@@ -457,3 +457,12 @@ button.sync.ac{background:var(--ac-soft);color:var(--ac);border-color:transparen
 }
 .aviso-sync small{color:inherit;opacity:.85}
 .aviso-sync .btn{background:var(--bg2);color:var(--fg);flex:none}
+.otracara{margin-top:10px;border-top:1px dashed var(--line);padding-top:9px}
+.otracara>summary{cursor:pointer;font-size:var(--f0);font-weight:700;color:var(--fg2);list-style:none}
+.otracara>summary::-webkit-details-marker{display:none}
+.otracara>summary::before{content:"▸ ";color:var(--ac)}
+.otracara[open]>summary::before{content:"▾ "}
+.texto-otro{margin-top:8px;font-size:var(--f0);line-height:1.5;color:var(--fg2);white-space:pre-wrap}
+.forma .mues.teoria{background:linear-gradient(var(--ac) 0 3px,transparent 3px) 0 7px/100% 7px repeat-y,var(--bg3)}
+.forma .mues.caso{background:repeating-linear-gradient(var(--bg3) 0 4px,var(--fg3) 4px 5px)}
+.forma .mues.mezclado{background:linear-gradient(135deg,var(--ac) 50%,var(--fg3) 50%)}
