@@ -8,6 +8,7 @@ const K_COLA = 'si.cola.v1';       // intentos pendientes de subir
 const vacio = () => ({
   version: 1,
   actualizado: new Date().toISOString(),
+  rev: 0,
   intentos: [],          // un registro por simulacro resuelto
   errores: [],           // cuaderno de errores con repetición espaciada
   perlas: [],            // tarjetas de perlas con repetición espaciada
@@ -40,10 +41,14 @@ export const store = {
 
   commit({ subir = true } = {}) {
     this.d.actualizado = new Date().toISOString();
+    this.d.rev = (this.d.rev || 0) + 1;
     escribirLS(K_PROG, this.d);
     for (const f of this.oyentes) { try { f(this.d); } catch {} }
     if (subir) import('./sync.js').then((m) => m.subirPronto()).catch(() => {});
   },
+
+  /** Vuelca a disco sin tocar la marca de tiempo (tras una fusión ya sellada). */
+  guardarLocal() { escribirLS(K_PROG, this.d); },
 
   /** Reemplaza el estado (al traer de la nube). */
   reemplazar(d) {
@@ -60,7 +65,11 @@ export const store = {
     if (i >= 0) this.d.intentos[i] = intento; else this.d.intentos.push(intento);
     this.d.intentos.sort((a, b) => (a.fecha + a.turno < b.fecha + b.turno ? -1 : 1));
     this.marcarChecklist(intento.fecha, intento.turno === 'noche' ? 'noche' : 'manana', true);
-    this.commit();
+    this.commit({ subir: false });
+    // Un resultado no espera: se sube en el acto, sin el retardo de los toques sueltos.
+    import('./sync.js')
+      .then((m) => m.sincronizarAhora({ motivo: 'resultado guardado' }))
+      .catch(() => {});
   },
 
   // ---------- borradores (examen en curso) ----------

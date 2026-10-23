@@ -387,3 +387,20 @@ canvas.lienzo-rev{width:100%;height:auto;display:block;border:1px solid var(--li
 .fila-mas small{color:var(--fg2);font-weight:500}
 .tema-alto{padding:10px 0;border-bottom:1px solid var(--line)}
 .tema-alto:last-child{border-bottom:0}
+
+/* --- estado de sincronización, bien visible --- */
+button.sync{
+  border:1px solid var(--line);border-radius:999px;background:var(--bg2);
+  font:700 12px/1 inherit;padding:7px 11px;cursor:pointer;flex:none;max-width:46vw;
+  overflow:hidden;text-overflow:ellipsis;white-space:nowrap
+}
+button.sync.ok{background:var(--ok-soft);color:var(--ok);border-color:transparent}
+button.sync.warn{background:var(--warn-soft);color:var(--warn);border-color:transparent}
+button.sync.bad{background:var(--bad-soft);color:var(--bad);border-color:transparent}
+button.sync.ac{background:var(--ac-soft);color:var(--ac);border-color:transparent}
+.aviso-sync{
+  position:sticky;top:0;z-index:28;margin:0;padding:11px 16px;
+  background:var(--bad-soft);color:var(--bad);border-bottom:1px solid var(--line)
+}
+.aviso-sync small{color:inherit;opacity:.85}
+.aviso-sync .btn{background:var(--bg2);color:var(--fg);flex:none}

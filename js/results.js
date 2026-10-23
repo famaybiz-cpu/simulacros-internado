@@ -5,6 +5,7 @@ import { simulacro } from './data.js';
 import { fuenteTxt } from './exam.js';
 import { lienzoRevision } from './dibujo.js';
 import { confeti, mensajeAnimo } from './tema.js';
+import { estadoSync, sincronizarAhora } from './sync.js';
 import { nuevasInsignias } from './motivacion.js';
 
 export async function pantallaResultados(vista, id) {
@@ -15,6 +16,24 @@ export async function pantallaResultados(vista, id) {
 
   const sem = semaforo(it.nota);
   if (it.nota >= EXAMEN.meta) confeti();
+
+  // que se vea, aquí mismo, si este resultado ya quedó guardado en la nube
+  const chip = el('div', { class: 'card tight', id: 'sync-result' });
+  const pintarChip = () => {
+    const e = estadoSync();
+    const ok = e.fase === 'al-dia';
+    chip.replaceChildren(el('div', { class: 'row sp' },
+      el('span', { class: 'chip ' + (ok ? 'ok' : e.configurado ? 'warn' : 'bad') },
+        ok ? '✓ Guardado en la nube' : e.configurado ? '⚠ Pendiente de sincronizar' : '⚠ Este dispositivo no sincroniza'),
+      ok ? el('small', {}, 'Ya lo verás en el otro aparato')
+         : el('button', { class: 'btn sm', onclick: async () => {
+             if (!estadoSync().configurado) { location.hash = '#/ajustes'; return; }
+             await sincronizarAhora(); pintarChip();
+           } }, estadoSync().configurado ? 'Reintentar' : 'Conectar')));
+  };
+  pintarChip();
+  setTimeout(pintarChip, 2500);
+  vista.append(chip);
   vista.append(
     el('div', { class: 'animo ' + sem }, mensajeAnimo(it.nota)),
     el('h1', {}, it.titulo),

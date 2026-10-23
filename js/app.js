@@ -1,7 +1,7 @@
 // Router y pantallas principales.
 import { el, $, $$, fmt, semaforo, hoyLima, fechaLarga, diasEntre, fase, ENFASIS, EXAMEN, toast, descargar, mmss } from './util.js';
 import { store, cfg } from './store.js';
-import { sincronizar, estadoSync, pintarEstadoSync } from './sync.js';
+import { sincronizar, sincronizarAhora, estadoSync, pintarEstadoSync } from './sync.js';
 import { indice, delDia, simulacro, precargar, guardados } from './data.js';
 import { pantallaPre, pantallaExamen, salirDelExamen } from './exam.js';
 import { pantallaResultados } from './results.js';
@@ -102,6 +102,14 @@ async function pantallaHoy(v) {
   g.append(await tarjetaSim(d.manana, '☀️ Simulacro de la mañana', '100 preguntas · mixto', d.meta));
   g.append(await tarjetaSim(d.noche, '🌙 Simulacro de la noche', '50 preguntas · 2 temas', d.meta));
   v.append(g);
+
+  const es = estadoSync();
+  if (!es.configurado) {
+    v.append(el('div', { class: 'card', style: 'background:var(--bad-soft);border-color:transparent' },
+      el('h3', { style: 'color:var(--bad)' }, '⚠ Este dispositivo no sincroniza'),
+      el('p', {}, el('small', {}, 'Lo que resuelvas aquí se queda solo en este aparato y no lo verás en el otro. Se arregla una vez y listo.')),
+      el('a', { class: 'btn pri full', href: '#/ajustes' }, 'Conectarlo ahora')));
+  }
 
   v.append(caminoAl16());
   v.append(metaDiaria());
@@ -326,6 +334,11 @@ function pantallaMas(v) {
 /* ---------------- arranque ---------------- */
 $('#btn-atras').addEventListener('click', () => (history.length > 1 ? history.back() : (location.hash = '#/')));
 $('#btn-ajustes').addEventListener('click', () => (location.hash = '#/ajustes'));
+$('#estado-sync').addEventListener('click', () => {
+  const e = estadoSync();
+  if (!e.configurado) location.hash = '#/ajustes';
+  else sincronizarAhora();
+});
 vista.addEventListener('recargar', () => router());
 addEventListener('hashchange', router);
 
@@ -340,4 +353,9 @@ if ('serviceWorker' in navigator) {
 
 aplicarTema();
 router();
-sincronizar({ silencioso: true }).then(() => sincronizarTarjetas(store).catch(() => {}));
+// Al abrir: primero se trae lo más reciente de la nube y se funde; nunca se
+// pisa lo remoto con algo viejo del dispositivo.
+sincronizar({ silencioso: true }).then(() => {
+  sincronizarTarjetas(store).catch(() => {});
+  router();                       // repinta con lo que acaba de bajar
+});
