@@ -351,22 +351,75 @@ canvas.lienzo-rev{width:100%;height:auto;display:block;border:1px solid var(--li
 .insignia.ganada .ic{filter:none}
 .insignia.ganada small{color:var(--ac)}
 
-/* --- tarjetas tipo Anki --- */
-.tarjeta{background:var(--bg2);border:1px solid var(--line);border-radius:var(--r);padding:16px;margin:0 0 12px;box-shadow:var(--sombra)}
-.tarjeta.mini{box-shadow:none;background:var(--bg3);padding:13px}
-.tarjeta.grande{min-height:180px;font-size:var(--f2)}
-.tarjeta .frente{font-size:var(--f2);font-weight:700;line-height:1.45}
-.tarjeta.grande .frente{font-size:23px}
-.tarjeta .reverso{font-size:var(--f1);color:var(--ac);font-weight:700;margin:8px 0}
-.nemo{background:var(--ac2-soft);color:var(--fg);border-radius:12px;padding:11px 13px;font-size:var(--f0);font-weight:700;margin-top:8px}
+/* --- tarjetas tipo Anki: tres formas, el mismo armazón --- */
+.tarjeta{margin:0 0 12px}
+.tarjeta .cara{padding:16px}
+.tarjeta .etiquetas{display:flex;gap:6px;flex-wrap:wrap;margin:0 0 10px}
+.tarjeta .texto-frente{font-size:var(--f1);line-height:1.5;white-space:pre-wrap}
+.tarjeta.grande .texto-frente{font-size:var(--f2);line-height:1.45}
+.tarjeta .respuesta{font-size:var(--f2);font-weight:800;color:var(--ac);line-height:1.35;margin:0 0 10px}
+.tarjeta .elegiste{font-size:var(--f0);color:var(--bad);font-weight:700;margin:0 0 10px}
+.tarjeta .dx{display:block;margin-top:8px;color:var(--fg2);font-weight:600}
+.tarjeta .fte{display:block;margin-top:6px;color:var(--fg3)}
+.nemo{background:var(--ac2-soft);color:var(--fg);border-radius:12px;padding:11px 13px;font-size:var(--f0);font-weight:700;margin-top:10px}
+.tarjeta:not([data-volteada]) .cara.dorso{display:none}
+
+/* 1 · FICHA: limpia, el dorso aparece debajo */
+.tarjeta[data-estilo="ficha"]{background:var(--bg2);border:1px solid var(--line);border-radius:var(--r);box-shadow:var(--sombra);overflow:hidden}
+.tarjeta[data-estilo="ficha"] .cara.dorso{border-top:2px dashed var(--line);background:color-mix(in srgb,var(--ac-soft) 55%,transparent)}
+.tarjeta[data-estilo="ficha"].mini{box-shadow:none;background:var(--bg3)}
+
+/* 2 · VOLTEO: se da vuelta como una carta */
+.tarjeta[data-estilo="volteo"]{perspective:1400px}
+.tarjeta[data-estilo="volteo"] .giro{position:relative;width:100%;min-height:300px;transition:transform .55s cubic-bezier(.3,.9,.3,1);transform-style:preserve-3d}
+.tarjeta[data-estilo="volteo"][data-volteada] .giro{transform:rotateY(180deg)}
+.tarjeta[data-estilo="volteo"] .cara{
+  position:absolute;inset:0;display:block;overflow:auto;-webkit-backface-visibility:hidden;backface-visibility:hidden;
+  background:var(--bg2);border:1px solid var(--line);border-radius:var(--r);box-shadow:var(--sombra-alta)
+}
+.tarjeta[data-estilo="volteo"] .cara.dorso{display:block;transform:rotateY(180deg);background:linear-gradient(160deg,var(--bg2),var(--ac-soft))}
+.tarjeta[data-estilo="volteo"] .texto-frente{font-size:20px;font-weight:600}
+.tarjeta[data-estilo="volteo"].mini{min-height:0;perspective:none}
+.tarjeta[data-estilo="volteo"].mini .giro{min-height:0;transform:none}
+.tarjeta[data-estilo="volteo"].mini .cara{position:static;transform:none;margin:0 0 8px}
+.tarjeta[data-estilo="volteo"].mini .texto-frente{min-height:0;display:block;font-size:var(--f1)}
+
+/* 3 · CARTULINA: ficha de papel con cinta de color y esquina doblada */
+.tarjeta[data-estilo="cartulina"]{
+  background:var(--bg2);border:1px solid var(--line);border-radius:6px;
+  box-shadow:var(--sombra-alta);position:relative;overflow:hidden;
+  background-image:repeating-linear-gradient(transparent,transparent 31px,color-mix(in srgb,var(--line) 55%,transparent) 32px)
+}
+.tarjeta[data-estilo="cartulina"]::before{content:"";position:absolute;inset:0 0 auto 0;height:7px;background:linear-gradient(90deg,var(--ac),var(--ac2))}
+.tarjeta[data-estilo="cartulina"] .cara{padding:22px 18px 16px}
+.tarjeta[data-estilo="cartulina"] .texto-frente{font-size:var(--f2);line-height:32px;font-weight:600}
+.tarjeta[data-estilo="cartulina"].grande .texto-frente{font-size:22px;line-height:32px}
+.tarjeta[data-estilo="cartulina"] .cara.dorso{border-top:1px solid var(--line);background:transparent}
+.tarjeta[data-estilo="cartulina"] .respuesta{font-size:23px}
+.tarjeta[data-estilo="cartulina"] .nemo{
+  background:var(--ac2-soft);border-radius:3px;transform:rotate(-.7deg);
+  box-shadow:2px 3px 8px rgba(0,0,0,.10);border-left:4px solid var(--ac2)
+}
+.tarjeta[data-estilo="cartulina"].mini{box-shadow:var(--sombra)}
+
+/* selector de forma */
+.formas{display:grid;gap:9px}
+.forma{display:flex;align-items:center;gap:12px;min-height:58px;padding:10px 14px;border:2px solid var(--line);
+  border-radius:16px;background:var(--bg2);color:var(--fg);font:700 var(--f1)/1 inherit;cursor:pointer;text-align:left}
+.forma[aria-pressed="true"]{border-color:var(--ac);background:var(--ac-soft)}
+.forma .mues{width:38px;height:28px;border-radius:5px;flex:none;border:1.5px solid var(--fg3);position:relative}
+.forma .mues.volteo{transform:rotateY(22deg);box-shadow:3px 0 0 color-mix(in srgb,var(--ac) 45%,transparent)}
+.forma .mues.cartulina::before{content:"";position:absolute;inset:0 0 auto 0;height:4px;background:var(--ac2)}
+.forma small{font-weight:500;color:var(--fg2);display:block;margin-top:3px}
 .niveles{display:grid;grid-template-columns:repeat(2,1fr);gap:9px;margin-top:14px}
 @media(min-width:520px){.niveles{grid-template-columns:repeat(4,1fr)}}
 .btn.nivel{flex-direction:column;gap:2px;min-height:62px;padding:0 6px}
 .btn.nivel small{font-weight:600;opacity:.75;font-size:12px}
-.btn.nivel.bad{border-color:var(--bad);color:var(--bad)}
-.btn.nivel.warn{border-color:var(--warn);color:var(--warn)}
-.btn.nivel.ac{border-color:var(--ac);color:var(--ac)}
-.btn.nivel.ok{border-color:var(--ok);color:var(--ok)}
+.btn.nivel.bad{background:var(--bad-soft);border-color:var(--bad);color:var(--bad)}
+.btn.nivel.warn{background:var(--warn-soft);border-color:var(--warn);color:var(--warn)}
+.btn.nivel.ac{background:var(--ac-soft);border-color:var(--ac);color:var(--ac)}
+.btn.nivel.ok{background:var(--ok-soft);border-color:var(--ok);color:var(--ok)}
+.btn.nivel small{color:inherit;opacity:.8}
 
 /* --- paletas, mensajes de ánimo y pantalla Más --- */
 .paletas{display:grid;gap:9px}

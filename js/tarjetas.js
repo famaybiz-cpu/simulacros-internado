@@ -14,6 +14,34 @@ const NIVELES = [
 
 const TIPOS = { concepto: 'Concepto', contraste: 'Contraste', huecos: 'Completar' };
 
+export const ESTILOS = {
+  ficha:     { nombre: 'Ficha',     sub: 'Limpia y directa, todo a la vista' },
+  volteo:    { nombre: 'Volteo',    sub: 'Se da vuelta como una carta' },
+  cartulina: { nombre: 'Cartulina', sub: 'Como una ficha de estudio en papel' },
+};
+export const leerEstilo = () => localStorage.getItem('si.estilo.tarjeta') || 'ficha';
+export const guardarEstilo = (e) => { try { localStorage.setItem('si.estilo.tarjeta', e); } catch {} };
+
+/** Dibuja las dos caras de una tarjeta. Las tres formas usan el mismo armazón. */
+function caras(t, { conMotivo = false } = {}) {
+  const frente = el('div', { class: 'cara frente' },
+    el('div', { class: 'etiquetas' },
+      el('span', { class: 'chip ac' }, TIPOS[t.tipo] || 'Tarjeta'),
+      t.tema ? el('span', { class: 'chip' }, t.tema) : null,
+      conMotivo && t.motivo ? el('span', { class: 'chip warn' }, t.motivo) : null),
+    el('div', { class: 'texto-frente' }, t.frente));
+
+  const dorso = el('div', { class: 'cara dorso' },
+    el('div', { class: 'respuesta' }, t.reverso));
+  if (t.elegiste) dorso.append(el('div', { class: 'elegiste' }, 'Marcaste: ' + t.elegiste));
+  if (t.porque) dorso.append(el('div', { class: 'bloque' }, el('span', { class: 'et' }, 'Por qué'), t.porque));
+  if (t.nemotecnia) dorso.append(el('div', { class: 'nemo' }, '🧠 ' + t.nemotecnia));
+  if (t.diagnostico) dorso.append(el('small', { class: 'dx' }, 'Era: ' + t.diagnostico));
+  if (t.fuente) dorso.append(el('small', { class: 'fte' },
+    '📂 ' + [t.fuente.carpeta, t.fuente.archivo, t.fuente.seccion].filter(Boolean).join(' › ')));
+  return { frente, dorso };
+}
+
 export async function pantallaTarjetas(vista) {
   vista.append(el('h1', {}, 'Mis tarjetas'));
   const aviso = el('p', {}, el('small', {}, 'Buscando tarjetas nuevas…'));
@@ -56,27 +84,20 @@ export async function pantallaTarjetas(vista) {
       el('span', { style: 'flex:1' }, esp),
       el('span', { class: 'chip ' + (dom === lista.length ? 'ok' : '') }, `${dom}/${lista.length}`)));
     const b = el('div', { class: 'body' });
-    for (const t of lista) b.append(vistaTarjeta(t, { compacta: true }));
+    for (const t of lista) b.append(vistaTarjeta(t));
     d.append(b);
     vista.append(d);
   }
 }
 
 /** Una tarjeta en modo lectura (para el listado). */
-function vistaTarjeta(t, { compacta = false } = {}) {
-  const c = el('div', { class: 'tarjeta' + (compacta ? ' mini' : '') });
-  c.append(el('div', { class: 'row', style: 'margin:0 0 6px' },
-    el('span', { class: 'chip ac' }, TIPOS[t.tipo] || 'Tarjeta'),
-    t.tema ? el('span', { class: 'chip' }, t.tema) : null,
+function vistaTarjeta(t) {
+  const { frente, dorso } = caras(t, { conMotivo: true });
+  const c = el('div', { class: 'tarjeta mini', 'data-estilo': leerEstilo(), 'data-volteada': '' });
+  frente.prepend(el('div', { class: 'row', style: 'justify-content:flex-end' },
     t.dominada ? el('span', { class: 'chip ok' }, 'dominada') : null,
-    el('span', { class: 'spacer' }),
     botonEscuchar(() => [t.frente, t.reverso, t.porque, t.nemotecnia].filter(Boolean).join('. '))));
-  c.append(el('div', { class: 'frente' }, t.frente));
-  c.append(el('div', { class: 'reverso' }, t.reverso));
-  if (t.porque) c.append(el('div', { class: 'bloque' }, el('span', { class: 'et' }, 'Por qué'), t.porque));
-  if (t.nemotecnia) c.append(el('div', { class: 'nemo' }, '🧠 ' + t.nemotecnia));
-  if (t.fuente) c.append(el('small', { style: 'display:block;margin-top:6px;color:var(--fg3)' },
-    '📂 ' + [t.fuente.carpeta, t.fuente.archivo, t.fuente.seccion].filter(Boolean).join(' › ')));
+  c.append(frente, dorso);
   return c;
 }
 
@@ -109,22 +130,28 @@ export function pantallaRepasarTarjetas(vista) {
       el('small', {}, `${hechas + 1} de ${total}`),
       el('span', { class: 'chip ac' }, TIPOS[t.tipo] || 'Tarjeta')));
 
-    const tarjeta = el('div', { class: 'tarjeta grande' });
-    tarjeta.append(el('div', { class: 'row', style: 'margin:0 0 8px' },
-      el('span', { class: 'spacer' }),
+    const { frente, dorso } = caras(t, { conMotivo: true });
+    frente.prepend(el('div', { class: 'row', style: 'justify-content:flex-end' },
       botonEscuchar(() => (revelada ? [t.frente, t.reverso, t.porque, t.nemotecnia].filter(Boolean).join('. ') : t.frente))));
-    tarjeta.append(el('div', { class: 'frente' }, t.frente));
-    const atras = el('div', { style: 'display:none' });
-    atras.append(el('hr'), el('div', { class: 'reverso' }, t.reverso));
-    if (t.porque) atras.append(el('div', { class: 'bloque' }, el('span', { class: 'et' }, 'Por qué'), t.porque));
-    if (t.nemotecnia) atras.append(el('div', { class: 'nemo' }, '🧠 ' + t.nemotecnia));
-    if (t.fuente) atras.append(el('small', { style: 'display:block;margin-top:6px;color:var(--fg3)' },
-      '📂 ' + [t.fuente.carpeta, t.fuente.archivo, t.fuente.seccion].filter(Boolean).join(' › ')));
-    tarjeta.append(atras);
+    const giro = el('div', { class: 'giro' }, frente, dorso);
+    const tarjeta = el('div', { class: 'tarjeta grande', 'data-estilo': leerEstilo() }, giro);
     c.append(tarjeta);
+    // En el volteo las dos caras se superponen, así que el alto lo manda la más larga.
+    if (leerEstilo() === 'volteo') {
+      const medir = () => {
+        giro.style.height = 'auto';
+        const h = Math.max(frente.scrollHeight, dorso.scrollHeight) + 2;
+        giro.style.height = h + 'px';
+      };
+      requestAnimationFrame(medir);
+      addEventListener('resize', medir, { once: true });
+    }
 
     const ver = el('button', { class: 'btn pri full', style: 'margin-top:14px', onclick: () => {
-      revelada = true; atras.style.display = ''; ver.remove(); c.append(botones());
+      revelada = true;
+      tarjeta.setAttribute('data-volteada', '');
+      ver.remove();
+      c.append(botones());
     } }, 'Ver respuesta');
     c.append(ver);
 

@@ -7,7 +7,7 @@ import { pantallaPre, pantallaExamen, salirDelExamen } from './exam.js';
 import { pantallaResultados } from './results.js';
 import { pantallaProgreso } from './progress.js';
 import { pantallaErrores, pantallaRepaso, pantallaPerlas, pantallaHistorial } from './tools.js';
-import { pantallaTarjetas, pantallaRepasarTarjetas, pantallaAudioTarjetas } from './tarjetas.js';
+import { pantallaTarjetas, pantallaRepasarTarjetas, pantallaAudioTarjetas, ESTILOS, leerEstilo, guardarEstilo } from './tarjetas.js';
 import { aplicarTema, leerTema, guardarTema, PALETAS, MODOS } from './tema.js';
 import { caminoAl16, metaDiaria, panelInsignias } from './motivacion.js';
 import { sincronizarTarjetas } from './data.js';
@@ -233,6 +233,17 @@ function pantallaAjustes(v) {
     }, et));
   }
   cTema.append(el('small', { style: 'display:block;margin-top:14px;color:var(--fg2);font-weight:700' }, 'Claro u oscuro'), modos);
+
+  const est = leerEstilo();
+  cTema.append(el('small', { style: 'display:block;margin:18px 0 8px;color:var(--fg2);font-weight:700' }, 'Forma de las tarjetas'));
+  const formas = el('div', { class: 'formas' });
+  for (const [k, f] of Object.entries(ESTILOS)) {
+    formas.append(el('button', {
+      class: 'forma', 'aria-pressed': est === k ? 'true' : 'false',
+      onclick: () => { guardarEstilo(k); router(); },
+    }, el('span', { class: 'mues ' + k }), el('span', {}, el('b', {}, f.nombre), el('small', {}, f.sub))));
+  }
+  cTema.append(formas);
   v.append(cTema);
 
   // --- sincronización ---

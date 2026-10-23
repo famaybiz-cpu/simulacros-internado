@@ -256,21 +256,83 @@ export const store = {
   },
 
   // ---------- tarjetas tipo Anki ----------
+  /**
+   * Fabrica tarjetas al vuelo con lo que falló (y lo que acertó adivinando)
+   * de un simulacro recién terminado. No espera a la rutina de la mañana:
+   * la pregunta ya trae el razonamiento y la perla, así que la tarjeta sale
+   * completa en el acto. Luego la rutina puede mejorarla con su nemotecnia.
+   */
+  crearTarjetasDe(intento, preguntas) {
+    this.d.tarjetas ||= [];
+    const porId = new Map(preguntas.map((q) => [q.id, q]));
+    const hoy = hoyLima();
+    let n = 0;
+    for (const r of intento.respuestas || []) {
+      const falla = !r.ok;
+      const adivino = r.ok && r.confianza === 'adivinando';
+      if (!falla && !adivino) continue;
+      const q = porId.get(r.qid);
+      if (!q) continue;
+      const id = `t-${q.id}`;
+      const ya = this.d.tarjetas.find((x) => x.id === id);
+      if (ya && ya.generada_por !== 'app') continue;        // la de la rutina manda
+
+      const correcta = q.opciones?.[q.clave0] ?? '';
+      const elegida = r.elegida != null ? q.opciones?.[r.elegida] : null;
+      const nueva = {
+        id,
+        tipo: elegida && falla ? 'contraste' : adivino ? 'concepto' : 'concepto',
+        frente: q.enunciado,
+        reverso: correcta,
+        elegiste: falla ? elegida : null,
+        porque: (q.razonamiento || '').split('\n')[0] || q.por_que_no?.[r.correcta] || '',
+        nemotecnia: q.perla || '',
+        especialidad: q.especialidad || null,
+        tema: q.tema || null,
+        diagnostico: q.diagnostico || null,
+        qid: q.id,
+        fuente: q.fuente || null,
+        simulacro_id: intento.simulacro_id,
+        generada_por: 'app',
+        motivo: adivino ? 'acertaste adivinando' : 'la fallaste',
+      };
+      if (ya) {
+        Object.assign(ya, nueva);                            // refresca, conserva el calendario
+      } else {
+        this.d.tarjetas.push({
+          ...nueva, lote: hoy, creada: hoy,
+          intervalo: 0, repeticiones: 0, facilidad: 2.5,
+          proximo_repaso: hoy, dominada: false, vistas: 0,
+        });
+        n++;
+      }
+    }
+    if (n || preguntas.length) this.commit({ subir: false });
+    return n;
+  },
+
   /** Incorpora un lote `tarjetas/AAAA-MM-DD.json` sin duplicar. */
   cargarLoteTarjetas(fecha, tarjetas) {
     this.d.tarjetas ||= [];
     this.d.tarjetas_cargadas ||= [];
     if (this.d.tarjetas_cargadas.includes(fecha)) return 0;
-    const vistas = new Set(this.d.tarjetas.map((t) => t.id));
+    const porId = new Map(this.d.tarjetas.map((t) => [t.id, t]));
     let n = 0;
     for (const t of tarjetas || []) {
-      if (!t?.id || vistas.has(t.id)) continue;
+      if (!t?.id) continue;
+      const ya = porId.get(t.id);
+      if (ya) {
+        // la versión de la rutina (con nemotecnia escrita) mejora a la de la app,
+        // pero se respeta el calendario de repaso que ya tenía
+        if (ya.generada_por === 'app') Object.assign(ya, t, { generada_por: 'rutina' });
+        continue;
+      }
       this.d.tarjetas.push({
         ...t, lote: fecha, creada: fecha,
         intervalo: 0, repeticiones: 0, facilidad: 2.5,
         proximo_repaso: hoyLima(), dominada: false, vistas: 0,
       });
-      vistas.add(t.id); n++;
+      porId.set(t.id, this.d.tarjetas.at(-1)); n++;
     }
     this.d.tarjetas_cargadas.push(fecha);
     if (n) this.commit();

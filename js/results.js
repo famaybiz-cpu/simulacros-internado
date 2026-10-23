@@ -66,6 +66,18 @@ export async function pantallaResultados(vista, id) {
         el('small', {}, `Terminaste en ${mmss(it.segundos_total)} de los ${it.minutos_limite} minutos.`))));
   }
 
+  // --- tarjetas creadas con este simulacro ---
+  const nuevasT = (store.d.tarjetas || []).filter((x) => x.simulacro_id === id);
+  if (nuevasT.length) {
+    const pend = nuevasT.filter((x) => !x.dominada).length;
+    vista.append(el('div', { class: 'card' },
+      el('div', { class: 'row sp' },
+        el('h3', { style: 'margin:0' }, `🃏 ${nuevasT.length} tarjetas nuevas`),
+        el('span', { class: 'chip ac' }, `${pend} para hoy`)),
+      el('p', {}, el('small', {}, 'Salieron de lo que fallaste y de lo que acertaste adivinando. Cada una trae su perla.')),
+      el('a', { class: 'btn pri full', href: '#/repasar-tarjetas' }, 'Repasarlas ahora')));
+  }
+
   // --- insignias recién ganadas ---
   const nuevas = nuevasInsignias();
   if (nuevas.length) {

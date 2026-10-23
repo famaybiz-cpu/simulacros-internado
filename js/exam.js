@@ -566,6 +566,7 @@ function terminar() {
     else if (r.confianza === 'adivinando') store.registrarDudoso(q, E.id);
     store.registrarPerla(q);
   }
+  store.crearTarjetasDe(intento, S.preguntas);   // tarjetas al instante, sin esperar a mañana
   store.guardarIntento(intento);
   store.limpiarBorrador(E.id);
   document.body.classList.remove('en-examen');
