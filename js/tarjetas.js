@@ -96,6 +96,8 @@ export async function pantallaTarjetas(vista) {
     return;
   }
 
+  vista.append(barraAjustesTarjeta(() => vista.dispatchEvent(new Event('recargar', { bubbles: true }))));
+
   vista.append(el('div', { class: 'row', style: 'margin:0 0 16px' },
     el('a', { class: 'btn pri', href: '#/repasar-tarjetas', style: vencidas.length ? 'flex:1' : 'flex:1;opacity:.45;pointer-events:none' },
       vencidas.length ? `Repasar ${vencidas.length}` : 'Nada para hoy'),
@@ -119,6 +121,36 @@ export async function pantallaTarjetas(vista) {
   }
 }
 
+/** Los dos ajustes de la tarjeta, a la mano y no escondidos en Ajustes. */
+export function barraAjustesTarjeta(alCambiar) {
+  const caja = el('div', { class: 'card tight ajustes-tarjeta' });
+
+  const fila = (titulo, opciones, leer, guardar) => {
+    const f = el('div', { style: 'margin:0 0 10px' });
+    f.append(el('small', { class: 'tit' }, titulo));
+    const g = el('div', { class: 'segmentos' });
+    for (const [k, o] of Object.entries(opciones)) {
+      g.append(el('button', {
+        'aria-pressed': leer() === k ? 'true' : 'false',
+        title: o.sub,
+        onclick: () => {
+          guardar(k);
+          [...g.children].forEach((x, i) => x.setAttribute('aria-pressed', Object.keys(opciones)[i] === k ? 'true' : 'false'));
+          alCambiar?.();
+        },
+      }, o.nombre));
+    }
+    f.append(g);
+    return f;
+  };
+
+  caja.append(
+    fila('Forma de la tarjeta', ESTILOS, leerEstilo, guardarEstilo),
+    fila('Qué va al frente', FRENTES, leerFrente, guardarFrente),
+  );
+  return caja;
+}
+
 /** Una tarjeta en modo lectura (para el listado). */
 function vistaTarjeta(t) {
   const { frente, dorso } = caras(t, { conMotivo: true });
@@ -140,7 +172,8 @@ export function pantallaRepasarTarjetas(vista) {
   const total = cola.length;
   let hechas = 0;
   const cont = el('div');
-  vista.append(el('h1', {}, 'Repaso de tarjetas'), cont);
+  vista.append(el('h1', {}, 'Repaso de tarjetas'),
+    barraAjustesTarjeta(() => pintar()), cont);
 
   function pintar() {
     const t = cola[0];
@@ -176,12 +209,22 @@ export function pantallaRepasarTarjetas(vista) {
       addEventListener('resize', medir, { once: true });
     }
 
-    const ver = el('button', { class: 'btn pri full', style: 'margin-top:14px', onclick: () => {
+    const revelar = () => {
+      if (revelada) return;
       revelada = true;
       tarjeta.setAttribute('data-volteada', '');
       ver.remove();
       c.append(botones());
-    } }, 'Ver respuesta');
+      vibrar(15);
+    };
+    tarjeta.style.cursor = 'pointer';
+    tarjeta.title = 'Toca la tarjeta para ver la respuesta';
+    tarjeta.addEventListener('click', (ev) => {
+      if (ev.target.closest('button, a, summary, details')) return;   // no robar los controles
+      revelar();
+    });
+    const ver = el('button', { class: 'btn pri full', style: 'margin-top:14px', onclick: revelar },
+      leerEstilo() === 'volteo' ? '↻ Voltear la tarjeta' : 'Ver respuesta');
     c.append(ver);
 
     function botones() {

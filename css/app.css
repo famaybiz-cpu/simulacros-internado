@@ -466,3 +466,15 @@ button.sync.ac{background:var(--ac-soft);color:var(--ac);border-color:transparen
 .forma .mues.teoria{background:linear-gradient(var(--ac) 0 3px,transparent 3px) 0 7px/100% 7px repeat-y,var(--bg3)}
 .forma .mues.caso{background:repeating-linear-gradient(var(--bg3) 0 4px,var(--fg3) 4px 5px)}
 .forma .mues.mezclado{background:linear-gradient(135deg,var(--ac) 50%,var(--fg3) 50%)}
+
+/* --- ajustes rápidos de la tarjeta --- */
+.ajustes-tarjeta{margin:0 0 14px}
+.ajustes-tarjeta .tit{display:block;font-weight:700;color:var(--fg2);margin:0 0 6px}
+.segmentos{display:flex;gap:0;border:1.5px solid var(--line);border-radius:13px;overflow:hidden;background:var(--bg3)}
+.segmentos button{
+  flex:1;min-height:44px;border:0;background:transparent;color:var(--fg2);
+  font:700 var(--f0)/1.2 inherit;cursor:pointer;padding:0 6px;
+  border-right:1.5px solid var(--line)
+}
+.segmentos button:last-child{border-right:0}
+.segmentos button[aria-pressed="true"]{background:var(--ac);color:var(--ac-fg)}

@@ -1,5 +1,7 @@
 // Utilidades compartidas.
 
+export const VERSION = 'v12';
+
 export const EXAMEN = { fechaISO: '2026-11-08T07:00:00-05:00', meta: 16 };
 
 /** El progreso oficial empieza acá: lo anterior no cuenta para nada (CLAUDE.md). */

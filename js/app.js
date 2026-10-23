@@ -1,5 +1,5 @@
 // Router y pantallas principales.
-import { el, $, $$, fmt, semaforo, hoyLima, fechaLarga, diasEntre, fase, ENFASIS, EXAMEN, toast, descargar, mmss } from './util.js';
+import { el, $, $$, fmt, semaforo, hoyLima, fechaLarga, diasEntre, fase, ENFASIS, EXAMEN, toast, descargar, mmss, VERSION } from './util.js';
 import { store, cfg } from './store.js';
 import { sincronizar, sincronizarAhora, estadoSync, pintarEstadoSync } from './sync.js';
 import { indice, delDia, simulacro, precargar, guardados } from './data.js';
@@ -326,6 +326,19 @@ function pantallaAjustes(v) {
       '1. Abre el link en Safari.  2. Toca Compartir (arriba a la derecha).  3. «Añadir a pantalla de inicio» → «Añadir».'),
     el('p', {}, el('small', {}, 'Abierta así ocupa toda la pantalla, no se ve la barra del navegador y funciona sin internet.'))));
 
+  // --- versión ---
+  v.append(el('div', { class: 'card tight' },
+    el('div', { class: 'row sp' },
+      el('small', {}, 'Versión de la app: ', el('b', {}, VERSION)),
+      el('button', { class: 'btn sm', onclick: async () => {
+        toast('Buscando versión nueva…');
+        try {
+          for (const r of await navigator.serviceWorker.getRegistrations()) { await r.update(); await r.unregister(); }
+          for (const k of await caches.keys()) await caches.delete(k);
+        } catch {}
+        location.reload();
+      } }, 'Forzar actualización'))));
+
   // --- zona de riesgo ---
   v.append(el('div', { class: 'card' }, el('h3', {}, 'Borrar'),
     el('button', { class: 'btn bad full', onclick: () => {
@@ -372,7 +385,20 @@ addEventListener('beforeunload', (e) => {
 });
 
 if ('serviceWorker' in navigator) {
-  addEventListener('load', () => navigator.serviceWorker.register('sw.js').catch(() => {}));
+  // La app se actualiza sola: si llega una versión nueva, se recarga una vez.
+  let recargando = false;
+  navigator.serviceWorker.addEventListener('controllerchange', () => {
+    if (recargando) return;
+    recargando = true;
+    location.reload();
+  });
+  addEventListener('load', async () => {
+    try {
+      const reg = await navigator.serviceWorker.register('sw.js');
+      reg.update();                                   // busca versión nueva al abrir
+      setInterval(() => reg.update(), 30 * 60 * 1000); // y cada media hora
+    } catch {}
+  });
 }
 
 aplicarTema();
