@@ -1,0 +1,3909 @@
+{
+ "id": "2026-10-23-manana",
+ "fecha": "2026-10-23",
+ "turno": "manana",
+ "titulo": "Simulacro de la mañana",
+ "segundos_por_pregunta": 45,
+ "preguntas": [
+  {
+   "id": "2026-10-23-manana-001",
+   "enunciado": "Varón de 62 años, grupo sanguíneo A, con 4 meses de epigastralgia, saciedad precoz y baja de 8 kg. Hb 9,8 g/dl microcítica. Endoscopia: lesión ulcerada infiltrante de 4 cm en el cuerpo gástrico, curvatura mayor, a 12 cm del píloro. Biopsia: células en anillo de sello que infiltran la lámina propia. TAC con contraste: engrosamiento parietal con ganglios perigástricos aumentados, sin lesiones hepáticas, peritoneales ni ascitis. ¿Cuál es la cirugía de elección?",
+   "opciones": [
+    "Gastrectomía subtotal con D2 y Y de Roux",
+    "Gastrectomía subtotal con Billroth I",
+    "Gastrectomía subtotal con Billroth II",
+    "Gastrectomía total con D2 y Y de Roux",
+    "Vagotomía troncular, antrectomía y Billroth II"
+   ],
+   "clave": 4,
+   "especialidad": "Cirugía General",
+   "tema": "Patología gástrica",
+   "diagnostico": "Adenocarcinoma gástrico difuso de cuerpo sin metástasis",
+   "tipo": "tratamiento",
+   "dificultad": "alta",
+   "razonamiento": "Paso 1: masa ulcerada infiltrante con anillo de sello = neoplasia gástrica tipo difuso. Paso 2: TAC sin M1, tumor resecable en cuerpo. Paso 3: lesión de cuerpo/fondo/cardias → gastrectomía total + linfadenectomía D2 + Y de Roux.",
+   "por_que_no": [
+    "Es la cirugía para lesiones antrales; en cuerpo no logra margen de 6 cm.",
+    "Billroth I es reconstrucción tras antrectomía; no es oncológica para cuerpo.",
+    "Billroth II se usa en úlcera péptica refractaria tras antrectomía.",
+    "",
+    "Es la cirugía de la úlcera péptica recurrente, no de una neoplasia."
+   ],
+   "trampa": [
+    "otro-estadio",
+    "mismo-grupo",
+    "otro-contexto",
+    "",
+    "diferencial"
+   ],
+   "perla": "Antro → subtotal + D2 + Roux; cuerpo, fondo o cardias → total + D2 + Roux (≥15 ganglios).",
+   "fuente": {
+    "carpeta": "1. CIRUGIA GENERAL",
+    "archivo": "29. PATOLOGIA GASTRICA.pdf",
+    "seccion": "p. 1, cirugía de elección"
+   },
+   "gemela_de": null
+  },
+  {
+   "id": "2026-10-23-manana-002",
+   "enunciado": "Varón de 66 años, jubilado, con fatiga y disnea de esfuerzo de 4 meses. Niega sangrado visible, toma ibuprofeno ocasional, dieta variada. PA 120/70 mmHg, FC 98 X'. Palidez, coiloniquia, sin adenopatías ni visceromegalia, tacto rectal con heces marrones. Hb 8,9 g/dL, VCM 71 fL, HCM 22 pg, RDW 19 %, plaquetas 480 000, ferritina 6 ng/mL, saturación de transferrina 5 %, reticulocitos 0,6 %. ¿Cuál es el siguiente paso más importante?",
+   "opciones": [
+    "Sulfato ferroso VO y control de hemoglobina al mes",
+    "Hierro endovenoso por la intensidad de la anemia",
+    "Endoscopía digestiva alta y colonoscopía",
+    "Electroforesis de hemoglobina",
+    "Aspirado de médula ósea con tinción de hierro"
+   ],
+   "clave": 3,
+   "especialidad": "Hematología",
+   "tema": "Anemia ferropénica",
+   "diagnostico": "Anemia ferropénica por probable pérdida digestiva oculta en adulto mayor",
+   "tipo": "prueba",
+   "dificultad": "media",
+   "razonamiento": "Paso 1: microcitosis, RDW alto, ferritina 6 y trombocitosis = déficit de hierro confirmado. Paso 2: en varón mayor con dieta adecuada la causa es pérdida crónica digestiva (úlcera, cáncer gástrico o colon derecho). Paso 3: obligatorio buscar la fuente con endoscopía alta y colonoscopía.",
+   "por_que_no": [
+    "Dar hierro sin buscar la causa puede ocultar un cáncer; se trata después de estudiar.",
+    "Hierro EV se reserva para intolerancia, malabsorción o pérdidas mayores que la absorción.",
+    "",
+    "La electroforesis evalúa talasemia, que cursa con ferritina normal o alta y RDW normal.",
+    "El aspirado ya no es necesario: la ferritina baja confirma el déficit."
+   ],
+   "trampa": [
+    "otro-momento",
+    "otro-contexto",
+    "",
+    "diferencial",
+    "no-confirmatorio"
+   ],
+   "perla": "Ferropenia en varón o mujer posmenopáusica: siempre endoscopía alta + colonoscopía.",
+   "fuente": {
+    "carpeta": "16. HEMATOLOGIA",
+    "archivo": "8. ANEMIA FERROPENICA.pdf",
+    "seccion": "Etiología"
+   },
+   "gemela_de": null
+  },
+  {
+   "id": "2026-10-23-manana-003",
+   "enunciado": "Recién nacido de 20 horas de vida, a término, 3 300 g, parto vaginal sin complicaciones, en lactancia materna exclusiva. Presenta coloración amarilla de cara y tórax hasta el ombligo. Activo, succiona bien, sin pérdida de peso significativa, hepatoesplenomegalia ausente. Madre de 26 años, grupo O Rh positivo, primer hijo. Bilirrubina total 11 mg/dL, directa 0,5 mg/dL. Hemoglobina 14 g/dL, reticulocitos 7 %. Grupo del recién nacido: A Rh positivo. ¿Qué examen orienta mejor la causa?",
+   "opciones": [
+    "Prueba de Coombs directa en el recién nacido",
+    "Prueba de Coombs indirecta en la madre",
+    "Dosaje de glucosa-6-fosfato deshidrogenasa",
+    "Serologías TORCH en el recién nacido",
+    "Bilirrubina fraccionada seriada cada 24 horas"
+   ],
+   "clave": 1,
+   "especialidad": "Neonatología",
+   "tema": "Ictericia neonatal",
+   "diagnostico": "Incompatibilidad ABO con hemólisis en las primeras 24 horas",
+   "tipo": "prueba",
+   "dificultad": "alta",
+   "razonamiento": "Paso 1: ictericia antes de las 24 h con BT 11 y reticulocitos altos = hiperbilirrubinemia indirecta patológica por hemólisis. Paso 2: madre O y RN A orienta a isoinmunización ABO. Paso 3: se confirma buscando anticuerpos fijados al eritrocito del RN: Coombs directo.",
+   "por_que_no": [
+    "",
+    "El Coombs indirecto busca anticuerpos libres en la madre; útil en la gestante Rh negativo.",
+    "El déficit de G6PD causa hemólisis, pero la combinación O/A orienta primero a ABO.",
+    "TORCH eleva la bilirrubina directa; aquí la directa es normal.",
+    "Seguir la bilirrubina sirve para decidir fototerapia, no identifica la causa."
+   ],
+   "trampa": [
+    "",
+    "otro-momento",
+    "diferencial",
+    "diferencial",
+    "no-confirmatorio"
+   ],
+   "perla": "Ictericia <24 h = hemólisis; madre O con RN A/B → Coombs directo al bebé.",
+   "fuente": {
+    "carpeta": "8.NEONATOLOGIA",
+    "archivo": "15. ICTERICA NEONATAL.pdf",
+    "seccion": "Incompatibilidad"
+   },
+   "gemela_de": null
+  },
+  {
+   "id": "2026-10-23-manana-004",
+   "enunciado": "Primigesta de 24 años con 33 semanas y 2 días por ecografía del primer trimestre acude por dolor abdominal tipo contracción desde hace 4 horas. PA 110/70 mmHg, FC 84 x', T° 36,8 °C. Dinámica uterina 4 en 10 minutos; tacto: dilatación 5 cm, borramiento 70 %, membranas íntegras, presentación cefálica. Latidos fetales 142 x' con variabilidad normal. No recibió corticoides antenatales. ¿Cuál es la conducta más adecuada?",
+   "opciones": [
+    "Nifedipino oral y betametasona 12 mg IM cada 24 h por 2 dosis",
+    "Betametasona 12 mg IM cada 24 h por 2 dosis sin tocólisis",
+    "Sulfato de magnesio neuroprotector y betametasona 12 mg IM",
+    "Indometacina oral y dexametasona 6 mg IM cada 12 h por 4 dosis",
+    "Atosibán EV sin corticoide por la edad gestacional"
+   ],
+   "clave": 2,
+   "especialidad": "Obstetricia",
+   "tema": "Parto pretérmino",
+   "diagnostico": "Trabajo de parto pretérmino a las 33 semanas con dilatación avanzada",
+   "tipo": "conducta",
+   "dificultad": "muy alta",
+   "razonamiento": "Paso 1: dilatación ≥2 cm y borramiento ≥50 % = trabajo de parto pretérmino, no amenaza. Paso 2: dilatación ≥4 cm contraindica la tocólisis; con 33 semanas (≥32) no corresponde MgSO4. Paso 3: 24-34 semanas → corticoide igual, y atender el parto.",
+   "por_que_no": [
+    "La tocólisis está contraindicada con dilatación ≥4 cm; sería correcta con <4 cm antes de 34 semanas.",
+    "",
+    "El MgSO4 neuroprotector es antes de las 32 semanas.",
+    "Indometacina solo <32 semanas y no se tocoliza con 5 cm.",
+    "Hasta las 34 semanas sí se indica corticoide; sin corticoide sería a partir de 34."
+   ],
+   "trampa": [
+    "umbral",
+    "",
+    "umbral",
+    "mismo-grupo",
+    "umbral"
+   ],
+   "perla": "Pretérmino: corticoide 24-34 s; MgSO4 <32 s; no tocolizar con ≥4 cm ni ≥34 s.",
+   "fuente": {
+    "carpeta": "2. OBSTETRICIA",
+    "archivo": "13. PARTO PRETERMINO .pdf",
+    "seccion": "Maduración pulmonar, tocólisis y contraindicaciones"
+   },
+   "gemela_de": null
+  },
+  {
+   "id": "2026-10-23-manana-005",
+   "enunciado": "Mujer de 23 años, con 10 semanas de gestación, residente en Iquitos, presenta fiebre con escalofríos y sudoración cada 48 horas desde hace 6 días. Lúcida, PA 110/70 mmHg, FC 98 x', palidez leve, sin ictericia, sin convulsiones. Hb 9,8 g/dL, glucosa 88 mg/dL, creatinina 0,7 mg/dL. Gota gruesa: trofozoítos en anillo intraeritrocitarios, 1 % de eritrocitos parasitados. ¿Cuál es el tratamiento indicado?",
+   "opciones": [
+    "Quinina más clindamicina por 7 días",
+    "Artesunato más clindamicina por 7 días",
+    "Cloroquina más primaquina por 7 días",
+    "Artesunato más mefloquina por 3 días",
+    "Artesunato endovenoso y traslado a UCI"
+   ],
+   "clave": 1,
+   "especialidad": "Infectología",
+   "tema": "Malaria",
+   "diagnostico": "Malaria no complicada en gestante del primer trimestre",
+   "tipo": "tratamiento",
+   "dificultad": "alta",
+   "razonamiento": "Paso 1: fiebre periódica + palidez + zona endémica + trofozoítos en anillo = infección por Plasmodium. Paso 2: sin criterios de gravedad (lúcida, Hb >7, parasitemia <5 %, creatinina y glucosa normales). Paso 3: gestante en 1.er trimestre → quinina + clindamicina × 7 días.",
+   "por_que_no": [
+    "",
+    "Es el esquema del 2.º y 3.er trimestre.",
+    "La primaquina está contraindicada en la gestación (hemólisis); se da después del parto.",
+    "Artesunato y mefloquina no se recomiendan en el primer trimestre; sí en no gestantes.",
+    "Es para malaria grave; no hay criterios de gravedad."
+   ],
+   "trampa": [
+    "",
+    "otra-poblacion",
+    "otra-poblacion",
+    "otra-poblacion",
+    "otro-estadio"
+   ],
+   "perla": "Gestante: 1.er trimestre quinina + clindamicina; 2.º-3.er artesunato + clindamicina; nunca primaquina.",
+   "fuente": {
+    "carpeta": "12. INFECTOLOGIA",
+    "archivo": "9. MALARIA.pdf",
+    "seccion": "Gestantes"
+   },
+   "gemela_de": null
+  },
+  {
+   "id": "2026-10-23-manana-006",
+   "enunciado": "Mujer de 34 años, 2 hijos, no da de lactar. Hipertensa en tratamiento con enalapril y amlodipino; en las 3 últimas consultas PA 166/102, 160/100 y 164/104 mmHg. No fuma, IMC 27, sin migraña. Solicita un método hormonal reversible y de larga duración; rechaza el dispositivo intrauterino. Test de embarazo negativo. ¿Cuál es el método indicado para ella?",
+   "opciones": [
+    "Anticonceptivo oral combinado con drospirenona",
+    "Inyectable mensual combinado",
+    "Anillo vaginal combinado",
+    "Parche transdérmico combinado",
+    "Implante subdérmico de etonogestrel"
+   ],
+   "clave": 5,
+   "especialidad": "Ginecología",
+   "tema": "Anticoncepción · Criterios OMS",
+   "diagnostico": "Hipertensión no controlada: categoría 4 para métodos con estrógeno",
+   "tipo": "contraindicacion",
+   "dificultad": "media",
+   "razonamiento": "PA ≥160/100 pese a tratamiento = HTA no controlada: todo método con etinilestradiol es categoría 4 OMS (riesgo de IMA/ACV). Solo progestágeno es seguro; de larga duración y sin DIU: implante.",
+   "por_que_no": [
+    "Lleva estrógeno; CI en HTA; útil en SOP sin HTA.",
+    "Lleva estrógeno; sí en mujer sana que prefiere inyección mensual.",
+    "Lleva estrógeno; sí en normotensa que olvida pastillas.",
+    "Lleva estrógeno; sí en normotensa que prefiere uso semanal.",
+    ""
+   ],
+   "trampa": [
+    "mismo-grupo",
+    "mismo-grupo",
+    "mismo-grupo",
+    "mismo-grupo",
+    ""
+   ],
+   "perla": "HTA, migraña con aura o TVP: nunca estrógenos; usar solo progestágeno.",
+   "fuente": {
+    "carpeta": "3.GINECOLOGIA",
+    "archivo": "17. ANTICONCEPTIVOS.pdf",
+    "seccion": "Combinados y solo progestágeno, p. 1"
+   },
+   "gemela_de": null
+  },
+  {
+   "id": "2026-10-23-manana-007",
+   "enunciado": "Gestante de 22 años, primigesta, 14 semanas, acude a su primera atención prenatal en el centro de salud. No recuerda haber recibido vacunas en la adultez y no tiene carné. Serología: IgG contra rubéola no reactiva; HBsAg no reactivo, VIH y sífilis no reactivos, Hb 12,1 g/dL. PA 100/60 mmHg, IMC 22. Ecografía acorde a la edad gestacional. Se planifica su esquema de inmunizaciones durante la gestación. ¿Cuál es la conducta correcta?",
+   "opciones": [
+    "Antirrubéola en el puerperio; dTpa a las 27-36 semanas",
+    "Antirrubéola hoy mismo; dTpa a las 27-36 semanas",
+    "Antirrubéola en el 2.º trimestre; dTpa en el puerperio",
+    "Inmunoglobulina hoy; antirrubéola tras las 20 semanas",
+    "Antirrubéola y dTpa, ambas diferidas al puerperio"
+   ],
+   "clave": 1,
+   "especialidad": "Obstetricia",
+   "tema": "Atención prenatal",
+   "diagnostico": "Gestante susceptible a rubéola: vacunas vivas contraindicadas durante la gestación",
+   "tipo": "norma",
+   "dificultad": "media",
+   "razonamiento": "Paso 1: IgG antirrubéola no reactiva = susceptible. Paso 2: la vacuna SR/SPR es viva atenuada y está contraindicada en la gestación; se aplica en el puerperio. Paso 3: la dTpa (inactivada) sí se aplica entre las 27 y 36 semanas para proteger al recién nacido de tos ferina.",
+   "por_que_no": [
+    "",
+    "La vacuna contra rubéola es viva; contraindicada en cualquier trimestre.",
+    "Sigue siendo viva en el 2.º trimestre, y la dTpa pierde su efecto protector si se da tras el parto.",
+    "La inmunoglobulina no se indica a una susceptible sin exposición y la viva sigue contraindicada.",
+    "La dTpa no debe diferirse: su objetivo es pasar anticuerpos al recién nacido."
+   ],
+   "trampa": [
+    "",
+    "otro-momento",
+    "otro-momento",
+    "otro-contexto",
+    "otro-momento"
+   ],
+   "perla": "En la gestación: vivas NO (SPR, varicela); dTpa SÍ entre 27 y 36 semanas.",
+   "fuente": {
+    "carpeta": "2. OBSTETRICIA",
+    "archivo": "40. VACUNAS EN LA GESTACION.pdf",
+    "seccion": "Vacunas en la gestante"
+   },
+   "gemela_de": null
+  },
+  {
+   "id": "2026-10-23-manana-008",
+   "enunciado": "Varón de 31 años con diagnóstico reciente por dos pruebas rápidas reactivas y confirmatoria positiva. Antecedente: hace 1 año presentó necrólisis epidérmica tóxica por trimetoprima-sulfametoxazol indicado para una infección urinaria. Asintomático respiratorio, radiografía de tórax normal, baciloscopías negativas; completó terapia preventiva con isoniacida el año pasado. CD4 140 células/mm3, carga viral 85 000 copias/mL. Inicia TAR con tenofovir, lamivudina y dolutegravir. ¿Qué profilaxis primaria corresponde además?",
+   "opciones": [
+    "Cotrimoxazol 160/800 mg una vez al día",
+    "Pirimetamina, clindamicina y ácido folínico",
+    "Fluconazol 200 mg al día por tiempo indefinido",
+    "Dapsona 100 mg por vía oral al día",
+    "Isoniacida con piridoxina por 6 meses"
+   ],
+   "clave": 4,
+   "especialidad": "Infectología",
+   "tema": "VIH",
+   "diagnostico": "Infección por VIH con CD4 menor de 200 y alergia grave a sulfonamidas",
+   "tipo": "tratamiento",
+   "dificultad": "alta",
+   "razonamiento": "Paso 1: CD4 140 (<200) = indicación de profilaxis primaria de Pneumocystis (y toxoplasma). Paso 2: el fármaco de elección, cotrimoxazol, está contraindicado por reacción cutánea grave. Paso 3: la alternativa en alérgicos es dapsona.",
+   "por_que_no": [
+    "Es la profilaxis de elección, pero la necrólisis epidérmica previa la contraindica.",
+    "Pirimetamina + clindamicina es tratamiento de 2.ª línea de toxoplasmosis cerebral activa.",
+    "Fluconazol es mantenimiento tras criptococosis, no profilaxis primaria por CD4 <200.",
+    "",
+    "La terapia preventiva de TB ya se completó y se descartó enfermedad activa."
+   ],
+   "trampa": [
+    "otra-poblacion",
+    "otro-momento",
+    "otro-contexto",
+    "",
+    "otro-momento"
+   ],
+   "perla": "CD4 <200: cotrimoxazol; si alergia a sulfas: dapsona.",
+   "fuente": {
+    "carpeta": "12. INFECTOLOGIA",
+    "archivo": "59. NT VIH.pdf",
+    "seccion": "Profilaxis en PVV"
+   },
+   "gemela_de": null
+  },
+  {
+   "id": "2026-10-23-manana-009",
+   "enunciado": "Varón de 68 años, hipertenso y usuario de aspirina, con sangrado nasal de 2 horas por ambas fosas y que escurre a la garganta. PA 170/100 mmHg que baja a 150/90 con tratamiento, FC 96 x', Hb 12,5 g/dl, coagulación normal. Tras 15 minutos de compresión digital persiste; la rinoscopia anterior no muestra punto sangrante. Se coloca taponamiento anterior bilateral, pero la orofaringe muestra sangre fresca que desciende por la pared posterior. ¿Cuál es el siguiente paso?",
+   "opciones": [
+    "Cauterización con nitrato de plata",
+    "Repetir compresión digital por 20 minutos",
+    "Embolización arterial selectiva",
+    "Taponamiento posterior",
+    "Retirar tapones y aplicar tranexámico tópico"
+   ],
+   "clave": 4,
+   "especialidad": "Otorrinolaringología",
+   "tema": "Epistaxis",
+   "diagnostico": "Epistaxis posterior refractaria a taponamiento anterior",
+   "tipo": "conducta",
+   "dificultad": "media",
+   "razonamiento": "Paso 1: sangrado bilateral que cae a faringe, sin punto visible anterior. Paso 2: persiste pese a taponamiento anterior bilateral = origen posterior. Paso 3: siguiente escalón: taponamiento posterior e interconsulta a ORL.",
+   "por_que_no": [
+    "La cauterización exige ver el punto sangrante en la rinoscopia.",
+    "La compresión es el primer paso y ya fracasó.",
+    "Es el último escalón si falla el taponamiento posterior.",
+    "",
+    "El tranexámico tópico acompaña la cauterización de un punto anterior visible."
+   ],
+   "trampa": [
+    "otro-momento",
+    "otro-momento",
+    "otro-momento",
+    "",
+    "otro-contexto"
+   ],
+   "perla": "Compresión → cauterizar si se ve → taponamiento anterior → posterior → ORL/embolización.",
+   "fuente": {
+    "carpeta": "23. OTORRINOLARINGOLOGIA",
+    "archivo": "28. EPISTAXIS.pdf",
+    "seccion": "p. 1, algoritmo"
+   },
+   "gemela_de": null
+  },
+  {
+   "id": "2026-10-23-manana-010",
+   "enunciado": "Mujer de 59 años con carcinoma de mama y lesiones líticas en columna y pelvis. Cinco días de poliuria, sed, estreñimiento y confusión progresiva. PA 100/60 mmHg, FC 108 x', mucosas secas, Glasgow 13. Calcio 14,8 mg/dl, albúmina 4 g/dl, fósforo 2,4 mg/dl, creatinina 1,6 mg/dl (basal 0,8), PTH suprimida. EKG: QT acortado. ¿Cuál es la medida terapéutica inicial?",
+   "opciones": [
+    "Ácido zoledrónico EV como primera medida",
+    "Hemodiálisis urgente con baño bajo en calcio",
+    "Furosemida EV en bolo como primera medida",
+    "Exploración cervical y paratiroidectomía",
+    "Hidratación con cloruro de sodio 0,9 % EV"
+   ],
+   "clave": 5,
+   "especialidad": "Endocrinología",
+   "tema": "Hipercalcemia",
+   "diagnostico": "Hipercalcemia grave asociada a neoplasia con deshidratación",
+   "tipo": "tratamiento",
+   "dificultad": "alta",
+   "razonamiento": "Paso 1: calcio 14,8 con QT corto, confusión y PTH suprimida = hipercalcemia grave no paratiroidea, de origen tumoral. Paso 2: poliuria y mucosas secas con creatinina en alza = depleción de volumen. Paso 3: primero hidratación con salino; luego bifosfonato.",
+   "por_que_no": [
+    "El bifosfonato se usa en la hipercalcemia tumoral, pero después de rehidratar.",
+    "Diálisis se reserva para falla renal establecida o refractaria; la creatinina es prerrenal.",
+    "El diurético en una paciente deshidratada empeora la volemia; solo tras reponer.",
+    "Es el tratamiento del hiperparatiroidismo primario (PTH alta); aquí está suprimida.",
+    ""
+   ],
+   "trampa": [
+    "otro-momento",
+    "otro-estadio",
+    "otro-momento",
+    "diferencial",
+    ""
+   ],
+   "perla": "Hipercalcemia grave: 1.º salino EV, 2.º bifosfonato; diálisis si falla renal.",
+   "fuente": {
+    "carpeta": "14. NEFROLOGIA",
+    "archivo": "12. ALTERACIONES DE CALCIO.pdf",
+    "seccion": "Hipercalcemia: manejo"
+   },
+   "gemela_de": null
+  },
+  {
+   "id": "2026-10-23-manana-011",
+   "enunciado": "Varón de 38 años con fractura diafisaria de tibia tratada con yeso hace 10 meses; se lo retiró por su cuenta a las 5 semanas. Camina con molestia leve. Al examen: movilidad anormal en el foco, no dolorosa; piel sana, sin fístulas. Rx: extremos óseos ensanchados con abundante callo periférico que no forma puente, línea de fractura persistente, sin secuestros. PCR y VSG normales. ¿Cuál es el tratamiento?",
+   "opciones": [
+    "Resección de extremos y colocación de injerto óseo",
+    "Nuevo yeso inguinopédico por 3 meses más",
+    "Desbridamiento y antibiótico EV por 6 semanas",
+    "Estabilización rígida con osteosíntesis (clavo)",
+    "Secuestrectomía con fistulectomía e injerto"
+   ],
+   "clave": 4,
+   "especialidad": "Traumatología",
+   "tema": "Complicaciones de fracturas · Consolidación",
+   "diagnostico": "Falta de unión hipertrófica de tibia",
+   "tipo": "tratamiento",
+   "dificultad": "alta",
+   "razonamiento": "Movilidad indolora en el foco a los 10 meses = pseudoartrosis. Callo abundante sin puente por inmovilización inadecuada = forma hipertrófica (biología conservada): necesita estabilidad mecánica, osteosíntesis.",
+   "por_que_no": [
+    "Es para la atrófica (sin callo, biología pobre).",
+    "Más yeso no resuelve una pseudoartrosis ya establecida (>9 meses).",
+    "Para la infectada; aquí PCR/VSG normales y sin fístula.",
+    "",
+    "Para osteomielitis crónica con secuestro."
+   ],
+   "trampa": [
+    "diferencial",
+    "otro-momento",
+    "diferencial",
+    "",
+    "diferencial"
+   ],
+   "perla": "Pseudoartrosis hipertrófica = estabilizar; atrófica = injertar.",
+   "fuente": {
+    "carpeta": "18.TRAUMATOLOGIA",
+    "archivo": "3. COMPLICACIONES MEDIATAS INMEDIATRAS DE FX.pdf",
+    "seccion": "Pseudoartrosis, p. 1"
+   },
+   "gemela_de": null
+  },
+  {
+   "id": "2026-10-23-manana-012",
+   "enunciado": "Varón de 64 años, hipertenso sin adherencia, acude por disnea súbita de 2 horas que no le permite echarse. PA 210/125 mmHg, FC 118 X', FR 32 X', SatO2 84 % al aire, T° 36,8 °C. Ortopneico, diaforético, crépitos hasta ápices en ambos campos, ingurgitación yugular. Troponina negativa, creatinina 1,0 mg/dL. EKG: taquicardia sinusal con hipertrofia ventricular izquierda, sin desnivel del ST. Radiografía: infiltrado alveolar perihiliar en alas de mariposa. Además de oxígeno, ¿qué tratamiento antihipertensivo y meta corresponden?",
+   "opciones": [
+    "Labetalol EV y bajar la PA un 20-25 % en la primera hora",
+    "Captopril VO y bajar la PA de forma progresiva en 24 horas",
+    "Hidralazina EV y bajar la PA a 140/90 en la primera hora",
+    "Esmolol EV y bajar la PAS a menos de 120 en 20 minutos",
+    "Nitroglicerina EV y bajar la PA 20-25 % en la 1.ª hora"
+   ],
+   "clave": 5,
+   "especialidad": "Cardiología",
+   "tema": "Crisis hipertensiva",
+   "diagnostico": "Emergencia hipertensiva con edema agudo de pulmón",
+   "tipo": "tratamiento",
+   "dificultad": "alta",
+   "razonamiento": "Paso 1: PA ≥180/120 con hipoxemia, crépitos y alas de mariposa = daño agudo de órgano (pulmón). Paso 2: es emergencia, no urgencia. Paso 3: en EAP el fármaco es nitroglicerina EV, bajando 20-25 % en la 1.ª hora sin normalizar.",
+   "por_que_no": [
+    "Labetalol es de elección en encefalopatía/ACV o disección; el betabloqueo empeora la congestión aguda.",
+    "Captopril VO en 24 h es para HTA severa sin daño de órgano (antigua urgencia).",
+    "Hidralazina se usa en preeclampsia; además normalizar en 1 h causa hipoperfusión.",
+    "Esmolol con PAS <120 en 20 min es la meta de la disección aórtica.",
+    ""
+   ],
+   "trampa": [
+    "diferencial",
+    "otro-estadio",
+    "otra-poblacion",
+    "otro-contexto",
+    ""
+   ],
+   "perla": "EAP hipertensivo = nitroglicerina; disección = esmolol/labetalol y PAS <120.",
+   "fuente": {
+    "carpeta": "9. CARDIOLOGIA",
+    "archivo": "8.HTA.pdf",
+    "seccion": "Emergencia hipertensiva: fármaco por situación"
+   },
+   "gemela_de": null
+  },
+  {
+   "id": "2026-10-23-manana-013",
+   "enunciado": "Niño de 5 años con edema generalizado desde hace 3 semanas, en tratamiento con prednisona. Proteinuria 60 mg/m²/h, albúmina 1,6 g/dl, colesterol 380 mg/dl. Hoy presenta fiebre de 39,2 °C, dolor abdominal difuso, distensión y rebote leve. FC 135X', PA 95/60 mmHg. Paracentesis: líquido turbio con 1 200 PMN/mm³. ¿Cuál es el germen más probable?",
+   "opciones": [
+    "Streptococcus pneumoniae",
+    "Escherichia coli",
+    "Staphylococcus aureus",
+    "Klebsiella pneumoniae",
+    "Enterococcus faecalis"
+   ],
+   "clave": 1,
+   "especialidad": "Pediatría",
+   "tema": "Síndrome nefrótico · Complicaciones",
+   "diagnostico": "Peritonitis primaria neumocócica en nefrosis infantil",
+   "tipo": "mecanismo",
+   "dificultad": "alta",
+   "razonamiento": "Proteinuria ≥40 mg/m²/h + albúmina <3 + edema = síndrome nefrótico. La pérdida urinaria de inmunoglobulinas predispone a infecciones por encapsulados; con ascitis infectada (PMN >250), el germen típico es el neumococo.",
+   "por_que_no": [
+    "",
+    "Es el típico de la PBE del adulto cirrótico.",
+    "Causa infecciones de piel o asociadas a catéter.",
+    "Gramnegativo de neumonía en alcohólicos.",
+    "Asociado a peritonitis secundaria o diálisis peritoneal."
+   ],
+   "trampa": [
+    "",
+    "otra-poblacion",
+    "otro-contexto",
+    "otro-contexto",
+    "otro-contexto"
+   ],
+   "perla": "Nefrótico con fiebre y ascitis turbia: piensa en neumococo; vacuna neumococo e influenza.",
+   "fuente": {
+    "carpeta": "4.PEDIATRIA",
+    "archivo": "34. SD NEFROTICO.pdf",
+    "seccion": "Complicaciones, p. 1"
+   },
+   "gemela_de": null
+  },
+  {
+   "id": "2026-10-23-manana-014",
+   "enunciado": "Varón de 61 años, diabético desde hace 20 años, sin control nefrológico. Dos semanas de náuseas, prurito intenso y dolor torácico que mejora al inclinarse hacia adelante. PA 150/90 mmHg, FC 92 x', T° 37,2 °C. Frote pericárdico, sin pulso paradójico ni ingurgitación yugular. Creatinina 8,2 mg/dl, urea 260 mg/dl, K 5,6 mEq/L, HCO3 17 mEq/L, Hb 8,9 g/dl. TFG estimada 7 ml/min/1,73 m². Ecocardiograma: derrame pericárdico leve sin colapso de cavidades. ¿Cuál es la conducta indicada?",
+   "opciones": [
+    "AINE más colchicina por 3 meses",
+    "Fístula arteriovenosa y diálisis en 3 meses",
+    "Gluconato de calcio y bicarbonato endovenosos",
+    "Pericardiocentesis evacuadora urgente",
+    "Hemodiálisis urgente por catéter venoso central"
+   ],
+   "clave": 5,
+   "especialidad": "Nefrología",
+   "tema": "Enfermedad renal crónica",
+   "diagnostico": "Pericarditis urémica en ERC estadio 5",
+   "tipo": "conducta",
+   "dificultad": "alta",
+   "razonamiento": "Paso 1: TFG 7 con urea muy alta, prurito y náuseas = ERC estadio 5 urémica. Paso 2: dolor pleurítico postural + frote = pericarditis por uremia. Paso 3: la pericarditis urémica es indicación de diálisis urgente.",
+   "por_que_no": [
+    "Es el tratamiento de la pericarditis viral/idiopática; la urémica responde a diálisis.",
+    "La fístula se prepara en estadio 4; aquí la complicación no puede esperar.",
+    "Es el manejo de la hiperkalemia con cambios EKG o acidosis grave; K 5,6 no lo exige.",
+    "Se reserva para taponamiento; el eco no muestra colapso de cavidades.",
+    ""
+   ],
+   "trampa": [
+    "diferencial",
+    "otro-momento",
+    "otro",
+    "otro-estadio",
+    ""
+   ],
+   "perla": "Pericarditis o encefalopatía urémica = diálisis urgente, no AINE.",
+   "fuente": {
+    "carpeta": "14. NEFROLOGIA",
+    "archivo": "18. IRC.pdf",
+    "seccion": "Tratamiento: indicaciones de diálisis"
+   },
+   "gemela_de": null
+  },
+  {
+   "id": "2026-10-23-manana-015",
+   "enunciado": "Varón de 54 años, obeso, con pirosis y regurgitación desde hace 12 años, tratado de forma irregular con omeprazol. Niega disfagia y baja de peso. Endoscopía alta: lengüetas de mucosa color asalmón que ascienden 4 cm por encima de la unión gastroesofágica, sin nódulos, úlceras ni estenosis. Biopsias: epitelio columnar con células caliciformes y displasia de alto grado, confirmada por dos patólogos, sin invasión de la lámina propia. ¿Cuál es la conducta indicada?",
+   "opciones": [
+    "IBP a dosis plena y endoscopía de control en 3 a 5 años",
+    "Ablación endoscópica de la mucosa afectada",
+    "IBP y endoscopía de vigilancia con biopsias anual",
+    "Esofagectomía distal con linfadenectomía",
+    "Fundoplicatura de Nissen laparoscópica"
+   ],
+   "clave": 2,
+   "especialidad": "Gastroenterología",
+   "tema": "Patología de esófago · ERGE",
+   "diagnostico": "Esófago de Barrett con displasia de alto grado",
+   "tipo": "conducta",
+   "dificultad": "alta",
+   "razonamiento": "Paso 1: mucosa asalmonada sobre la UGE + células caliciformes = metaplasia intestinal. Paso 2: la biopsia muestra displasia de alto grado sin invasión. Paso 3: alto grado → ablación endoscópica.",
+   "por_que_no": [
+    "Es la vigilancia de la metaplasia sin displasia.",
+    "",
+    "Corresponde a displasia de bajo grado (vigilancia anual o terapia endoscópica).",
+    "Se reserva para carcinoma invasor; aquí no hay invasión.",
+    "Controla el reflujo pero no elimina la displasia ya establecida."
+   ],
+   "trampa": [
+    "otro-estadio",
+    "",
+    "otro-estadio",
+    "otro-estadio",
+    "otro-momento"
+   ],
+   "perla": "Barrett: sin displasia 3-5 años; bajo grado anual; alto grado ablación; invasor cirugía.",
+   "fuente": {
+    "carpeta": "5.GASTROENTEROLOGIA",
+    "archivo": "9. patologia de esofago.pdf",
+    "seccion": "Esófago de Barrett"
+   },
+   "gemela_de": null
+  },
+  {
+   "id": "2026-10-23-manana-016",
+   "enunciado": "Varón de 64 años, hipertenso y diabético, con dolor torácico opresivo de 10 horas. EKG: supradesnivel del ST de V1 a V5. Ahora: PA 78/50 mmHg, FC 118 x', FR 28 x', SatO2 89 %. Piel fría y sudorosa, llenado capilar 4 s, crepitantes hasta campos medios, ingurgitación yugular. Catéter de arteria pulmonar: PVC 16 mmHg, índice cardiaco 1,6 L/min/m², resistencia vascular sistémica 2 200 dyn·s/cm⁵. Lactato 4,5 mmol/L. ¿Cuál es el soporte farmacológico indicado?",
+   "opciones": [
+    "Cristaloides 30 ml/kg en 3 h y noradrenalina",
+    "Adrenalina en infusión como vasopresor inicial",
+    "Noradrenalina y luego asociar dobutamina",
+    "Cristaloide 20 ml/kg y paquete globular si Hb <9",
+    "Dopamina en dosis alfa como primera línea"
+   ],
+   "clave": 3,
+   "especialidad": "Cardiología",
+   "tema": "Shock",
+   "diagnostico": "Shock cardiogénico por infarto anterior extenso",
+   "tipo": "tratamiento",
+   "dificultad": "alta",
+   "razonamiento": "Paso 1: hipotensión con GC bajo, PVC alta, RVS alta y congestión pulmonar = perfil frío y húmedo. Paso 2: tras infarto anterior extenso, es falla de bomba. Paso 3: se sostiene la PAM con noradrenalina y se añade inotrópico (dobutamina).",
+   "por_que_no": [
+    "Es el esquema del shock séptico del adulto; aquí la PVC alta y los crepitantes contraindican cargar volumen.",
+    "Adrenalina es el vasopresor de arranque en el shock séptico pediátrico y en la anafilaxia.",
+    "",
+    "Corresponde al shock hipovolémico en cardiópata (PVC baja); aquí hay sobrecarga.",
+    "Dopamina es de uso histórico: más arritmias y menor eficacia que noradrenalina."
+   ],
+   "trampa": [
+    "otro-contexto",
+    "otra-poblacion",
+    "",
+    "diferencial",
+    "mismo-grupo"
+   ],
+   "perla": "Frío y húmedo (GC↓, PVC↑, RVS↑) → noradrenalina + dobutamina, nunca bolo de volumen.",
+   "fuente": {
+    "carpeta": "9. CARDIOLOGIA",
+    "archivo": "20. SHOCK.pdf",
+    "seccion": "Shock cardiogénico: hemodinamia y tratamiento"
+   },
+   "gemela_de": null
+  },
+  {
+   "id": "2026-10-23-manana-017",
+   "enunciado": "Varón de 74 años con FEVI de 30 %, disnea y edema progresivos desde hace 1 semana. PA 118/72 mmHg, FC 94X'. Ingurgitación yugular, crepitantes bibasales, edema 3+ en miembros inferiores. Na 126 mEq/L, glucosa 110 mg/dl, BUN 30 mg/dl, osmolaridad sérica medida 262 mOsm/kg, Na urinario 12 mEq/L. Lúcido, sin focalidad ni convulsiones. ¿Cuál es el tratamiento?",
+   "opciones": [
+    "Restricción hídrica y furosemida EV",
+    "Cloruro de sodio 0,9 % 1 L en 4 horas",
+    "Cloruro de sodio 3 % 100 ml en bolo",
+    "Restricción hídrica como única medida",
+    "Tabletas de cloruro de sodio VO y SF 0,9 %"
+   ],
+   "clave": 1,
+   "especialidad": "Nefrología",
+   "tema": "Hiponatremia · Manejo según volemia",
+   "diagnostico": "Hiponatremia hipoosmolar hipervolémica cardiogénica",
+   "tipo": "tratamiento",
+   "dificultad": "media",
+   "razonamiento": "Na 126 con osmolaridad baja = hiponatremia hipoosmolar; yugulares, crepitantes y edema = LEC aumentado (IC). Asintomática neurológicamente: restricción hídrica + diurético de asa.",
+   "por_que_no": [
+    "",
+    "SF 0,9 % es para LEC disminuido; aquí empeora la congestión.",
+    "El 3 % es para síntomas graves (convulsión, sopor).",
+    "Restricción sola es el manejo del LEC normal (SIHAD).",
+    "Aporta sodio y volumen a un paciente sobrecargado."
+   ],
+   "trampa": [
+    "",
+    "diferencial",
+    "otro-estadio",
+    "diferencial",
+    "otro"
+   ],
+   "perla": "Hiponatremia con edema: restricción hídrica + furosemida, nunca suero.",
+   "fuente": {
+    "carpeta": "14. NEFROLOGIA",
+    "archivo": "8. HIPONATREMIA.pdf",
+    "seccion": "Manejo, p. 1"
+   },
+   "gemela_de": null
+  },
+  {
+   "id": "2026-10-23-manana-018",
+   "enunciado": "Niño de 7 años que hace 3 semanas tuvo fiebre, odinofagia y erupción áspera al tacto, más intensa en pliegues, con lengua roja; no recibió antibiótico. Hoy presenta edema palpebral, orina oscura y disminución de la diuresis desde hace 2 días. PA 135/90 mmHg (>p99), FC 90X'. Orina: hematíes dismórficos, proteinuria 1+. C3 bajo, C4 normal, ASO 800 UI, creatinina 0,9 mg/dl. ¿Cuál es el manejo?",
+   "opciones": [
+    "Prednisona 2 mg/kg/día por 4-6 semanas",
+    "Restricción de sodio y líquidos, y furosemida",
+    "Plasmaféresis diaria",
+    "Ciclofosfamida EV mensual",
+    "Metilprednisolona EV en pulsos"
+   ],
+   "clave": 2,
+   "especialidad": "Pediatría",
+   "tema": "Enfermedades exantemáticas · Complicaciones",
+   "diagnostico": "Glomerulonefritis posestreptocócica tras escarlatina",
+   "tipo": "tratamiento",
+   "dificultad": "alta",
+   "razonamiento": "Exantema en lija con lengua roja hace 3 semanas = escarlatina; ahora hematuria dismórfica + HTA + edema + oliguria con C3 bajo y ASO alta = GMN postestreptocócica. Manejo de soporte (RADA): restricción, diurético, antihipertensivo; sin corticoides.",
+   "por_que_no": [
+    "Corticoide del nefrótico por cambios mínimos.",
+    "",
+    "Para RPGN por anti-MBG.",
+    "Para nefrótico corticorresistente.",
+    "Para RPGN con semilunas, no autolimitada."
+   ],
+   "trampa": [
+    "diferencial",
+    "",
+    "otro-estadio",
+    "otro-estadio",
+    "otro-estadio"
+   ],
+   "perla": "Postestreptocócica: C3 bajo 6-8 semanas, soporte y nada de corticoides.",
+   "fuente": {
+    "carpeta": "4.PEDIATRIA",
+    "archivo": "7. Exantematicas.pdf / 33. SD NEFRITICO.pdf",
+    "seccion": "Escarlatina; nefrítico, p. 1"
+   },
+   "gemela_de": null
+  },
+  {
+   "id": "2026-10-23-manana-019",
+   "enunciado": "Varón de 34 años con tos productiva de 6 semanas, fiebre vespertina y baja de 7 kg. Tratado hace 2 años con esquema para enfermedad sensible, abandonó al tercer mes. Baciloscopía 2+. Prueba molecular rápida: complejo Mycobacterium detectado con mutación que confiere resistencia a rifampicina. La prueba de sensibilidad molecular de segunda línea informa resistencia a fluoroquinolonas. Hemograma y EKG basales normales, VIH no reactivo. ¿Qué esquema corresponde según la norma técnica vigente?",
+   "opciones": [
+    "Esquema de 6 meses con bedaquilina, pretomanid, linezolid y moxifloxacino",
+    "Esquema 2HRZE/4HR con tratamiento estrictamente supervisado",
+    "Esquema de 4 meses con rifapentina, moxifloxacino, isoniacida y pirazinamida",
+    "Esquema individualizado alargado con aminoglucósido inyectable",
+    "Esquema de 6 meses con bedaquilina, pretomanid y linezolid"
+   ],
+   "clave": 5,
+   "especialidad": "Neumología",
+   "tema": "Tuberculosis",
+   "diagnostico": "Tuberculosis multidrogorresistente con resistencia a fluoroquinolonas (pre-XDR)",
+   "tipo": "norma",
+   "dificultad": "muy alta",
+   "razonamiento": "Paso 1: resistencia a rifampicina = se maneja como MDR. Paso 2: resistencia adicional a fluoroquinolonas = pre-XDR. Paso 3: NTS 221-2024: BPaL por 6 meses (se retira el moxifloxacino del BPaLM).",
+   "por_que_no": [
+    "BPaLM es para MDR/RR con fluoroquinolona sensible o desconocida.",
+    "2HRZE/4HR es para enfermedad sensible; aquí hay resistencia a rifampicina.",
+    "El esquema de 4 meses con rifapentina es para enfermedad sensible (OMS).",
+    "El individualizado se reserva para resistencia o intolerancia a bedaquilina o linezolid.",
+    ""
+   ],
+   "trampa": [
+    "otro-estadio",
+    "otro-estadio",
+    "otro-contexto",
+    "otro-estadio",
+    ""
+   ],
+   "perla": "RR/MDR → BPaLM; + resistencia a FQ → BPaL; + B o L → individualizado.",
+   "fuente": {
+    "carpeta": "6.NEUMOLOGIA",
+    "archivo": "TBC_2_TRATAMIENTO_SENSIBLE_RESISTENTE_Tarjetas_ENAM_EsSalud.pdf",
+    "seccion": "Tratamiento de la TB-MDR/RR"
+   },
+   "gemela_de": null
+  },
+  {
+   "id": "2026-10-23-manana-020",
+   "enunciado": "Varón de 55 años, con hepatopatía alcohólica Child-Pugh B, ingresó por hematemesis. Recibió octreotide, ceftriaxona y, en la endoscopia a las 8 h, ligadura de cordones azulados en el tercio distal del esófago con sangrado activo. Lleva 5 días estable: PA 112/70 mmHg, FC 76X', Hb 9,2 g/dl, sin encefalopatía ni ascitis a tensión. Se prepara su alta. ¿Qué esquema corresponde para evitar un nuevo episodio?",
+   "opciones": [
+    "Propranolol solo, titulado hasta FC de 55-60X'",
+    "Sesiones de ligadura con bandas sin betabloqueador",
+    "Derivación portosistémica intrahepática (TIPS)",
+    "Octreotide subcutáneo ambulatorio por 4 semanas",
+    "Propranolol junto con sesiones de ligadura con bandas"
+   ],
+   "clave": 5,
+   "especialidad": "Gastroenterología",
+   "tema": "Hemorragia digestiva alta variceal · Prevención",
+   "diagnostico": "Várices esofágicas ya ligadas: prevención de recidiva",
+   "tipo": "tratamiento",
+   "dificultad": "media",
+   "razonamiento": "Hematemesis en cirrótico con cordones esofágicos ligados = sangrado por várices ya controlado. Tras la fase aguda, la prevención del resangrado combina betabloqueador no selectivo más ligadura seriada.",
+   "por_que_no": [
+    "La monoterapia con propranolol es inferior a la combinación.",
+    "La ligadura sola deja mayor riesgo; se combina con propranolol.",
+    "TIPS es rescate si falla el tratamiento combinado.",
+    "El octreotide se usa solo 2-5 días en la fase aguda.",
+    ""
+   ],
+   "trampa": [
+    "otro-estadio",
+    "otro-estadio",
+    "otro-momento",
+    "otro-momento",
+    ""
+   ],
+   "perla": "Tras el sangrado variceal: propranolol + ligadura.",
+   "fuente": {
+    "carpeta": "5.GASTROENTEROLOGIA",
+    "archivo": "20. HDA.pdf",
+    "seccion": "Varices, p. 1"
+   },
+   "gemela_de": null
+  },
+  {
+   "id": "2026-10-23-manana-021",
+   "enunciado": "Niño de 12 meses, hijo de madre con infección por VIH no controlada, en seguimiento por PCR de VIH positiva confirmada a los 2 meses. Recibe TAR desde hace 3 semanas. Peso 7,4 kg (bajo para la edad), candidiasis oral recurrente. CD4 9 % (valor absoluto 380 células/mm3). Tiene completas BCG, hepatitis B al nacer, 3 pentavalentes, 3 dosis de polio inyectable y 2 de neumococo. Hoy acude a su control de inmunizaciones de los 12 meses. ¿Qué conducta corresponde?",
+   "opciones": [
+    "Aplicar SPR, varicela y neumococo conjugada",
+    "Aplicar SPR y neumococo, y diferir solo varicela",
+    "Aplicar varicela y neumococo, y diferir solo SPR",
+    "Aplicar SPR, varicela y polio oral de refuerzo",
+    "Aplicar solo neumococo y diferir SPR y varicela"
+   ],
+   "clave": 5,
+   "especialidad": "Pediatría",
+   "tema": "Inmunizaciones",
+   "diagnostico": "Infección por VIH con inmunosupresión grave en lactante: vacunas vivas diferidas",
+   "tipo": "contraindicacion",
+   "dificultad": "muy alta",
+   "razonamiento": "Paso 1: CD4 <15 % con candidiasis recurrente y desnutrición = inmunosupresión grave. Paso 2: en inmunosupresión grave no se aplica ninguna vacuna viva (SPR, varicela, APO). Paso 3: aplicar la inactivada de los 12 meses (neumococo) y diferir las vivas hasta la reconstitución inmune con TAR.",
+   "por_que_no": [
+    "SPR y varicela son vivas; solo se aplican en VIH sin inmunosupresión grave.",
+    "Diferir solo varicela deja la SPR viva en un niño gravemente inmunodeprimido.",
+    "Diferir solo SPR deja la varicela viva; con inmunosupresión grave ninguna viva.",
+    "La polio oral está contraindicada en todo niño con VIH, aun sin inmunosupresión.",
+    ""
+   ],
+   "trampa": [
+    "otro-estadio",
+    "otro-estadio",
+    "otro-estadio",
+    "otra-poblacion",
+    ""
+   ],
+   "perla": "VIH: nunca APO; VIH con inmunosupresión grave: ninguna vacuna viva.",
+   "fuente": {
+    "carpeta": "28. NT",
+    "archivo": "3. NT INMUNIZACIONES.pdf",
+    "seccion": "Contraindicaciones"
+   },
+   "gemela_de": null
+  },
+  {
+   "id": "2026-10-23-manana-022",
+   "enunciado": "Niña de 2 años, 12 kg, con 3 días de fiebre de 39,5 °C y tos; hoy respira rápido y rechaza alimentos. Vacunas completas, sin comorbilidades. FR 58 X', FC 150 X', SatO2 88 % al aire en Lima, T° 39 °C. Tiraje subcostal, matidez y soplo tubárico en base derecha, sin sibilancias. Leucocitos 19 000 con 84 % de neutrófilos. Radiografía: consolidación lobar inferior derecha sin derrame. Puede beber poco y está despierta. ¿Cuál es el tratamiento indicado?",
+   "opciones": [
+    "Amoxicilina VO 90 mg/kg/día en casa con control a las 48 h",
+    "Ampicilina EV 200 mg/kg/día con hospitalización y oxígeno",
+    "Ampicilina más gentamicina EV con hospitalización",
+    "Ceftriaxona más vancomicina EV con hospitalización",
+    "Azitromicina VO 10 mg/kg/día con hospitalización"
+   ],
+   "clave": 2,
+   "especialidad": "Pediatría",
+   "tema": "Neumonía",
+   "diagnostico": "Neumonía típica grave en niño mayor de 2 meses con hipoxemia",
+   "tipo": "tratamiento",
+   "dificultad": "media",
+   "razonamiento": "Paso 1: FR 58 (>40 en 1-5 años) + tiraje + SatO2 88 % = neumonía grave que requiere hospitalización. Paso 2: fiebre alta, soplo tubárico, neutrofilia y consolidación lobar = etiología típica (neumococo). Paso 3: en >2 meses hospitalizado: ampicilina EV 150-200 mg/kg/día + oxígeno.",
+   "por_que_no": [
+    "Amoxicilina en casa es para la forma típica sin tiraje ni hipoxemia.",
+    "",
+    "Ampicilina + gentamicina es el esquema del menor de 2 meses.",
+    "Ceftriaxona + vancomicina se reserva para complicada o sospecha de S. aureus.",
+    "El macrólido es para la forma atípica (tos seca, febrícula, infiltrado intersticial)."
+   ],
+   "trampa": [
+    "otro-estadio",
+    "",
+    "otra-poblacion",
+    "otro-estadio",
+    "diferencial"
+   ],
+   "perla": "Neumonía con tiraje o SatO2 <92 % en >2 meses: hospitalizar + ampicilina EV.",
+   "fuente": {
+    "carpeta": "4.PEDIATRIA",
+    "archivo": "11. NEUMONIA.pdf",
+    "seccion": "Tratamiento hospitalario"
+   },
+   "gemela_de": null
+  },
+  {
+   "id": "2026-10-23-manana-023",
+   "enunciado": "Mujer de 31 años con 2 años de relaciones sexuales regulares sin protección sin lograr embarazo. Ciclos de 28 días; progesterona del día 21: 14 ng/ml. A los 24 años fue hospitalizada por fiebre de 38,5 °C, dolor pélvico y dolor a la movilización cervical, tratada con clindamicina y gentamicina EV. Espermatograma de la pareja normal. Histerosalpingografía: cavidad uterina normal y dilatación de ambas porciones ampulares sin paso de contraste a la cavidad peritoneal. ¿Qué secuela explica su cuadro?",
+   "opciones": [
+    "Perihepatitis con adherencias en cuerdas de violín",
+    "Dolor pélvico crónico por adherencias",
+    "Colección tuboovárica residual organizada",
+    "Infección crónica por Actinomyces endometrial",
+    "Obstrucción tubárica distal por fibrosis"
+   ],
+   "clave": 5,
+   "especialidad": "Ginecología",
+   "tema": "Enfermedad pélvica inflamatoria",
+   "diagnostico": "Infertilidad tubárica secundaria a infección pélvica previa",
+   "tipo": "complicacion",
+   "dificultad": "media",
+   "razonamiento": "Paso 1: ovulación conservada (P4 >3) y pareja normal. Paso 2: antecedente de pelviperitonitis tratada y HSG con dilatación ampular sin paso peritoneal = obstrucción distal bilateral. Paso 3: secuela tubárica de la infección pélvica, la complicación más importante.",
+   "por_que_no": [
+    "Es secuela por Chlamydia que causa dolor en hipocondrio derecho, no infertilidad.",
+    "Es la secuela más frecuente, pero no explica la HSG.",
+    "Daría masa anexial en la ecografía, no dilatación ampular sin paso.",
+    "Se asocia a DIU, que no tiene antecedente.",
+    ""
+   ],
+   "trampa": [
+    "diferencial",
+    "otro",
+    "otro-estadio",
+    "otro-contexto",
+    ""
+   ],
+   "perla": "Infección pélvica: secuela más frecuente dolor pélvico crónico; más importante infertilidad tubárica.",
+   "fuente": {
+    "carpeta": "3.GINECOLOGIA",
+    "archivo": "20. EPI.pdf",
+    "seccion": "pág. 1, complicaciones"
+   },
+   "gemela_de": null
+  },
+  {
+   "id": "2026-10-23-manana-024",
+   "enunciado": "Gestante de 26 años, G2P1, 35 semanas por ecografía precoz, refiere pérdida de líquido claro por vagina hace 4 horas, sin contracciones. T° 36,8 °C, FC 80X', LCF 140X'. Especuloscopia: salida de líquido por el OCE con Valsalva. Cuello posterior, largo y cerrado (Bishop 3). Cultivo para estreptococo del grupo B desconocido. Monitoreo fetal reactivo. ¿Cuál es la conducta?",
+   "opciones": [
+    "Expectante con ampicilina, eritromicina y betametasona",
+    "Betametasona y luego inducción a las 48 horas",
+    "Inducción con oxitocina EV y profilaxis para SGB",
+    "Misoprostol 25 µg vaginal y profilaxis para SGB",
+    "Nifedipino VO y betametasona IM por 48 horas"
+   ],
+   "clave": 4,
+   "especialidad": "Obstetricia",
+   "tema": "Ruptura prematura de membranas · 34-36 semanas",
+   "diagnostico": "RPM pretérmino tardía con Bishop desfavorable",
+   "tipo": "conducta",
+   "dificultad": "alta",
+   "razonamiento": "Salida de líquido por OCE = RPM; 35 semanas se maneja como a término: terminar la gestación con profilaxis para SGB. Bishop <6 → maduración con misoprostol 25 µg.",
+   "por_que_no": [
+    "Esquema expectante de 24-33+6 semanas.",
+    "No se esperan corticoides a las 35 semanas en la fuente.",
+    "Oxitocina es para Bishop >6.",
+    "",
+    "Los tocolíticos están contraindicados en RPM."
+   ],
+   "trampa": [
+    "otro-estadio",
+    "otro-estadio",
+    "umbral",
+    "",
+    "otro"
+   ],
+   "perla": "RPM ≥34 semanas: terminar; Bishop <6 misoprostol, >6 oxitocina.",
+   "fuente": {
+    "carpeta": "2. OBSTETRICIA",
+    "archivo": "31. RPM.pdf",
+    "seccion": "Manejo, p. 1"
+   },
+   "gemela_de": null
+  },
+  {
+   "id": "2026-10-23-manana-025",
+   "enunciado": "Mujer de 27 años, grupo O Rh negativo, primigesta, pareja O Rh positivo. Coombs indirecto negativo a las 24, 28, 32 y 36 semanas; recibió inmunoglobulina anti-D 300 µg IM a las 28 semanas. Hace 20 horas tuvo parto vaginal sin complicaciones. El recién nacido es O Rh positivo, con Coombs directo negativo y bilirrubina normal. ¿Cuál es la conducta respecto a la madre?",
+   "opciones": [
+    "No administrar: la dosis de las 28 semanas basta",
+    "Inmunoglobulina anti-D 300 µg IM antes de 72 horas",
+    "Administrarla solo si el Coombs indirecto se positiviza",
+    "Coombs indirecto a las 6 semanas y entonces decidir",
+    "Inmunoglobulina anti-D 300 µg IM a los 15 días"
+   ],
+   "clave": 2,
+   "especialidad": "Obstetricia",
+   "tema": "Isoinmunización Rh",
+   "diagnostico": "Profilaxis anti-D posparto en puérpera Rh negativo no sensibilizada",
+   "tipo": "dosis",
+   "dificultad": "media",
+   "razonamiento": "Paso 1: madre Rh(-) con Coombs indirecto siempre negativo = no sensibilizada. Paso 2: RN Rh(+) implica paso de hematíes fetales en el parto. Paso 3: segunda dosis de 300 µg IM en las primeras 72 h posparto.",
+   "por_que_no": [
+    "La dosis anteparto no cubre la hemorragia feto-materna del parto.",
+    "",
+    "Con Coombs indirecto positivo ya está sensibilizada y la profilaxis no sirve.",
+    "Esperar 6 semanas pierde la ventana de prevención.",
+    "Aun con el margen ampliado (hasta 13 días), 15 días está fuera de plazo."
+   ],
+   "trampa": [
+    "otro-momento",
+    "",
+    "otro-estadio",
+    "otro-momento",
+    "umbral"
+   ],
+   "perla": "Rh(-) no sensibilizada: anti-D 300 µg a las 28 sem y otra en 72 h si el RN es Rh(+).",
+   "fuente": {
+    "carpeta": "2. OBSTETRICIA",
+    "archivo": "9. ISOINMUNIZACION RH.pdf",
+    "seccion": "p. 1, algoritmo"
+   },
+   "gemela_de": null
+  },
+  {
+   "id": "2026-10-23-manana-026",
+   "enunciado": "Primigesta de 39 semanas en trabajo de parto, dilatación 7 cm, membranas rotas con líquido claro. El registro muestra FCF basal 150 x', variabilidad de 5 a 10 latidos y, en 3 de 10 contracciones, descensos de la FCF que se inician después del acmé de la contracción y se recuperan tras terminar ésta. Se suspende oxitocina, se coloca en decúbito lateral y se administra oxígeno. Se toma microtoma de cuero cabelludo fetal: pH 7,22. ¿Cuál es la conducta?",
+   "opciones": [
+    "Cesárea de emergencia inmediata",
+    "Repetir el pH de cuero cabelludo en 15-30 minutos",
+    "Continuar el monitoreo sin otra intervención",
+    "Parto instrumentado con fórceps",
+    "Prueba de Posé con oxitocina"
+   ],
+   "clave": 2,
+   "especialidad": "Obstetricia",
+   "tema": "Monitoreo fetal",
+   "diagnostico": "Sospecha de sufrimiento fetal con pH de cuero cabelludo limítrofe",
+   "tipo": "conducta",
+   "dificultad": "muy alta",
+   "razonamiento": "Paso 1: desaceleraciones que empiezan tras el acmé = tardías (hipoxia) en <50 % con variabilidad presente: trazado intermedio. Paso 2: la microtoma valora el estado ácido-base fetal: 7,20-7,25 es limítrofe. Paso 3: repetir en 15-30 min.",
+   "por_que_no": [
+    "Indicada si el pH es <7,20 (SFA establecido).",
+    "",
+    "Sería apropiado con pH >7,25.",
+    "Requiere dilatación completa y cabeza encajada baja; con 7 cm no es posible.",
+    "Es una prueba preparto (≥36 sem) para evaluar reserva placentaria, no intraparto."
+   ],
+   "trampa": [
+    "umbral",
+    "",
+    "umbral",
+    "otro-momento",
+    "otro-momento"
+   ],
+   "perla": "pH cuero: >7,25 normal; 7,20-7,25 repetir en 15-30 min; <7,20 extracción urgente.",
+   "fuente": {
+    "carpeta": "2. OBSTETRICIA",
+    "archivo": "42. MONITOREO FETAL.pdf",
+    "seccion": "Desaceleraciones y microtoma fetal"
+   },
+   "gemela_de": null
+  },
+  {
+   "id": "2026-10-23-manana-027",
+   "enunciado": "Mujer de 36 años, G4P3003, de 35 semanas, con presión arterial elevada desde las 30 semanas. Hace 3 horas presenta dolor abdominal súbito e intenso y sangrado vaginal oscuro moderado. PA 145/95 mmHg, FC 92 x', lúcida, sin palidez marcada. Útero leñoso, doloroso y sin relajación entre contracciones; la ecografía no detecta actividad cardiaca fetal. Tacto: dilatación 5 cm, membranas íntegras. Hb 11 g/dL, plaquetas 186 000/mm3, fibrinógeno 320 mg/dL, TP normal. ¿Cuál es la conducta más adecuada?",
+   "opciones": [
+    "Amniotomía y conducción del parto por vía vaginal",
+    "Cesárea de emergencia en la siguiente hora",
+    "Histerectomía obstétrica previa transfusión",
+    "Uteroinhibición con nifedipino y maduración pulmonar",
+    "Plasma fresco y crioprecipitado antes de decidir la vía"
+   ],
+   "clave": 1,
+   "especialidad": "Obstetricia",
+   "tema": "Hemorragia de la segunda mitad",
+   "diagnostico": "Desprendimiento prematuro de placenta grado IIIA con óbito fetal sin coagulopatía",
+   "tipo": "conducta",
+   "dificultad": "alta",
+   "razonamiento": "Paso 1: dolor súbito + sangrado oscuro + útero leñoso en hipertensa = hematoma retroplacentario. Paso 2: feto sin latidos con plaquetas y fibrinógeno normales = grado III sin CID (IIIA), madre estable. Paso 3: óbito con madre estable → parto vaginal; la cesárea se reserva para feto vivo o inestabilidad.",
+   "por_que_no": [
+    "",
+    "Correcta si el feto estuviera vivo o la madre inestable; con óbito estable expone a una cirugía innecesaria.",
+    "Solo ante hemorragia incontrolable o útero de Couvelaire sin respuesta, no de entrada.",
+    "La tocólisis está contraindicada con hemorragia materna y feto muerto; sería para amenaza de parto pretérmino.",
+    "Plaquetas >100 000 y fibrinógeno >150 descartan CID; sí estaría indicado en el grado IIIB."
+   ],
+   "trampa": [
+    "",
+    "otro-estadio",
+    "otro-momento",
+    "diferencial",
+    "otro-estadio"
+   ],
+   "perla": "DPP: feto vivo → cesárea urgente; óbito con madre estable → parto vaginal.",
+   "fuente": {
+    "carpeta": "2. OBSTETRICIA",
+    "archivo": "30. HEMORRAGIA DE LA 2DA MITAD.pdf",
+    "seccion": "DPP · tratamiento"
+   },
+   "gemela_de": null
+  },
+  {
+   "id": "2026-10-23-manana-028",
+   "enunciado": "Puérpera de 31 años, G4, parto vaginal hace 30 minutos de RN de 4 200 g. Sangrado estimado 1 100 ml. Antecedente: asma persistente con crisis hace 1 mes; en esta gestación PA 150/100 mmHg y proteinuria 2+. FC 110X', PA 148/98 mmHg. Útero blando por encima del ombligo pese a masaje bimanual y oxitocina 40 UI en infusión. Placenta completa, canal sin lesiones. ¿Qué fármaco corresponde ahora?",
+   "opciones": [
+    "Metilergonovina 0,2 mg IM",
+    "Carboprost 250 µg IM",
+    "Misoprostol 800 µg intrarrectal",
+    "Oxitocina 10 UI EV en bolo",
+    "Ácido tranexámico 1 g EV solo"
+   ],
+   "clave": 3,
+   "especialidad": "Obstetricia",
+   "tema": "Hemorragia postparto · Uterotónicos",
+   "diagnostico": "Atonía uterina refractaria al primer uterotónico",
+   "tipo": "tratamiento",
+   "dificultad": "muy alta",
+   "razonamiento": "Útero blando sobre el ombligo con placenta y canal íntegros = atonía (tono). Falla la oxitocina; la metilergonovina está CI por hipertensión/preeclampsia y el carboprost por asma: queda misoprostol 800-1000 µg IR.",
+   "por_que_no": [
+    "CI en preeclampsia/HTA; útil en normotensa.",
+    "CI en asmática; útil sin broncoespasmo.",
+    "",
+    "Ya recibe infusión máxima; el bolo EV no añade y causa hipotensión.",
+    "Coadyuvante; no reemplaza al uterotónico."
+   ],
+   "trampa": [
+    "otra-poblacion",
+    "otra-poblacion",
+    "",
+    "otro",
+    "otro-momento"
+   ],
+   "perla": "Atonía: metilergonovina no en HTA; carboprost no en asma; misoprostol sí.",
+   "fuente": {
+    "carpeta": "2. OBSTETRICIA",
+    "archivo": "33. HEMORRAGIA POSTPARTO.pdf",
+    "seccion": "Atonía, p. 1"
+   },
+   "gemela_de": null
+  },
+  {
+   "id": "2026-10-23-manana-029",
+   "enunciado": "Gestante de 25 años, 22 semanas, refiere flujo vaginal abundante, maloliente y prurito vulvar de 1 semana. Pareja estable con disuria. Al examen: flujo amarillo verdoso espumoso, eritema vaginal y exocérvix con puntillado hemorrágico. pH vaginal 6,0; prueba de aminas positiva. Examen en fresco: organismos flagelados móviles y abundantes leucocitos; sin hifas. Prueba rápida de sífilis y VIH no reactivas. ¿Cuál es el tratamiento indicado?",
+   "opciones": [
+    "Metronidazol 500 mg VO c/12 h por 7 días y tratar a la pareja",
+    "Clindamicina 300 mg VO c/12 h por 7 días solo a la gestante",
+    "Clotrimazol óvulo vaginal 100 mg por 7 noches y tratar a la pareja",
+    "Ceftriaxona 500 mg IM y azitromicina 1 g VO a ambos",
+    "Fluconazol 150 mg VO dosis única a la gestante y a la pareja"
+   ],
+   "clave": 1,
+   "especialidad": "Ginecología",
+   "tema": "Síndrome de flujo vaginal",
+   "diagnostico": "Vaginitis por tricomonas en gestante del segundo trimestre",
+   "tipo": "tratamiento",
+   "dificultad": "media",
+   "razonamiento": "Paso 1: flujo espumoso amarillo verdoso, pH >4,5, cérvix en fresa y flagelados móviles = tricomoniasis (ITS). Paso 2: gestante de 2.º trimestre: metronidazol ya permitido. Paso 3: metronidazol 500 mg c/12 h × 7 d y tratamiento obligatorio de la pareja.",
+   "por_que_no": [
+    "",
+    "Clindamicina es la alternativa para vaginosis en gestante; no cubre al protozoario.",
+    "Clotrimazol vaginal trata candidiasis (hifas, pH ≤4,5), ausente aquí.",
+    "Ceftriaxona + azitromicina es el manejo de cervicitis mucopurulenta.",
+    "Fluconazol trata candidiasis y está contraindicado en la gestación."
+   ],
+   "trampa": [
+    "",
+    "diferencial",
+    "diferencial",
+    "otro-contexto",
+    "diferencial"
+   ],
+   "perla": "Flujo espumoso + fresa + flagelados: metronidazol y SIEMPRE tratar a la pareja.",
+   "fuente": {
+    "carpeta": "3.GINECOLOGIA",
+    "archivo": "4. SD DE FLUJO VAGINAL.pdf",
+    "seccion": "Tricomoniasis; gestante mayor de 2T"
+   },
+   "gemela_de": null
+  },
+  {
+   "id": "2026-10-23-manana-030",
+   "enunciado": "En un distrito de 40 000 habitantes, durante marzo, la oficina de vigilancia notifica 200 casos de enfermedad diarreica aguda con deshidratación, de los cuales fallecen 6. En el mismo mes se registran 30 defunciones por todas las causas en el distrito. El jefe del establecimiento quiere saber qué proporción de los enfermos murió por la enfermedad, para comparar la gravedad del brote con el año anterior. ¿Cuál es el valor?",
+   "opciones": [
+    "3 %",
+    "0,015 %",
+    "0,5 %",
+    "20 %",
+    "0,075 %"
+   ],
+   "clave": 1,
+   "especialidad": "Epidemiología",
+   "tema": "Medidas epidemiológicas · Letalidad",
+   "diagnostico": "Letalidad de un brote",
+   "tipo": "severidad",
+   "dificultad": "media",
+   "razonamiento": "La gravedad entre enfermos se mide con letalidad = muertes por la enfermedad / casos × 100 = 6/200 = 3 %. Las otras cifras usan la población o el total de muertes como denominador.",
+   "por_que_no": [
+    "",
+    "Es la mortalidad específica (6/40 000).",
+    "Es la incidencia acumulada del mes (200/40 000).",
+    "Es la mortalidad proporcional (6/30).",
+    "Es la mortalidad general (30/40 000)."
+   ],
+   "trampa": [
+    "",
+    "otro",
+    "otro",
+    "otro",
+    "otro"
+   ],
+   "perla": "Letalidad: denominador = casos, no población.",
+   "fuente": {
+    "carpeta": "10. EPIDEMIOLOGIA",
+    "archivo": "1. MEDIDAS EPIDEMIOLOGICAS.pdf",
+    "seccion": "Definiciones"
+   },
+   "gemela_de": null
+  },
+  {
+   "id": "2026-10-23-manana-031",
+   "enunciado": "Varón de 59 años con infarto anterior tratado hace 3 semanas, en tratamiento con AAS 100 mg y atorvastatina. Desde hace 2 días tiene fiebre de 38,2 °C y dolor torácico punzante que empeora al inspirar y alivia al sentarse inclinado hacia adelante. PA 128/80 mmHg, FC 98 x', yugulares normales, sin pulso paradójico; frote pericárdico. EKG: supradesnivel cóncavo del ST en DI, DII, aVL y V2-V6 con descenso del PR. Ecocardiograma: derrame pericárdico de 6 mm sin colapso de cavidades. ¿Cuál es el tratamiento indicado?",
+   "opciones": [
+    "Pericardiocentesis evacuadora guiada por ecografía",
+    "Ibuprofeno 600 mg cada 8 horas más colchicina",
+    "Anticoagulación con heparina no fraccionada",
+    "Prednisona en monoterapia a dosis altas",
+    "AAS a dosis antiinflamatorias más corticoide"
+   ],
+   "clave": 5,
+   "especialidad": "Cardiología",
+   "tema": "Pericarditis y taponamiento",
+   "diagnostico": "Síndrome de Dressler (pericarditis autoinmune posinfarto)",
+   "tipo": "tratamiento",
+   "dificultad": "alta",
+   "razonamiento": "Paso 1: ST cóncavo difuso + PR descendido + frote = inflamación pericárdica. Paso 2: aparece semanas después del infarto con fiebre = forma autoinmune posinfarto. Paso 3: según la fuente, AAS en dosis antiinflamatoria + corticoide.",
+   "por_que_no": [
+    "Solo ante taponamiento (Beck, colapso de cavidades); el derrame es leve.",
+    "AINE + colchicina es el esquema de la pericarditis idiopática o viral, no del posinfarto.",
+    "Anticoagular con inflamación pericárdica aumenta el riesgo de hemopericardio.",
+    "La fuente combina el corticoide con AAS, no en monoterapia.",
+    ""
+   ],
+   "trampa": [
+    "otro-estadio",
+    "diferencial",
+    "otro",
+    "mismo-grupo",
+    ""
+   ],
+   "perla": "Pericarditis viral: AINE + colchicina; Dressler (semanas pos-IMA): AAS + corticoide.",
+   "fuente": {
+    "carpeta": "9. CARDIOLOGIA",
+    "archivo": "10. PERICARDITIS.pdf",
+    "seccion": "Pericarditis y Sd de Dressler"
+   },
+   "gemela_de": null
+  },
+  {
+   "id": "2026-10-23-manana-032",
+   "enunciado": "Varón de 38 años con dolor lumbar derecho tipo cólico de 2 días que cedió con ketorolaco. Afebril, PA 120/80 mmHg, puñopercusión derecha leve. Creatinina 0,9 mg/dL, leucocitos 7 800/mm3, examen de orina con hematíes 15/campo y nitritos negativos. Tomografía sin contraste: imagen cálcica de 14 mm y 1 050 UH en la pelvis renal derecha, leve dilatación calicial, uréter libre; la imagen es visible en la radiografía simple. No toma anticoagulantes y su IMC es 26. ¿Cuál es el tratamiento indicado?",
+   "opciones": [
+    "Tamsulosina 0,4 mg/día y AINE por 4 semanas",
+    "Nefrolitotomía percutánea",
+    "Litotricia extracorpórea por ondas de choque",
+    "Nefrostomía percutánea urgente",
+    "Alcalinización urinaria con citrato de potasio"
+   ],
+   "clave": 3,
+   "especialidad": "Urología",
+   "tema": "Litiasis urinaria",
+   "diagnostico": "Cálculo piélico de 14 mm no complicado",
+   "tipo": "tratamiento",
+   "dificultad": "media",
+   "razonamiento": "Paso 1: cálculo radiopaco (cálcico) de 14 mm en la pelvis renal. Paso 2: sin fiebre, sin falla renal ni contraindicaciones (no anticoagulado, no obeso mórbido). Paso 3: 10-20 mm renal → LEOC.",
+   "por_que_no": [
+    "Terapia expulsiva para cálculos ureterales distales de 5-10 mm.",
+    "Indicada en cálculos >20 mm o coraliformes.",
+    "",
+    "Es drenaje urgente para obstrucción con fiebre/sepsis e inestabilidad.",
+    "Disuelve cálculos de ácido úrico (radiotransparentes), no un cálculo cálcico."
+   ],
+   "trampa": [
+    "otro-estadio",
+    "umbral",
+    "",
+    "otro-contexto",
+    "diferencial"
+   ],
+   "perla": "Litiasis: <10 mm expulsiva; 10-20 mm LEOC; >20 mm o coraliforme NLP.",
+   "fuente": {
+    "carpeta": "21. UROLOGIA",
+    "archivo": "4. LITIASIS RENAL.pdf",
+    "seccion": "Tratamiento según tamaño"
+   },
+   "gemela_de": null
+  },
+  {
+   "id": "2026-10-23-manana-033",
+   "enunciado": "Varón de 49 años, bebedor, hospitalizado hace 3 días por dolor epigástrico en cinturón con lipasa 1 900 U/L. Al ingreso BISAP 3. Hoy persiste con dolor, náuseas y distensión, sin tolerar líquidos; PA 105/65 mmHg, FC 104 X', FR 24 X', SatO2 92 % con cánula. Creatinina 2,3 mg/dL desde el ingreso, PaO2/FiO2 280. Tomografía: páncreas con 30 % de áreas que no captan contraste, sin gas. ¿Cuál es la conducta nutricional adecuada?",
+   "opciones": [
+    "Nutrición parenteral total por catéter venoso central",
+    "Mantener ayuno hasta normalizar la lipasa sérica",
+    "Reiniciar dieta líquida oral fraccionada",
+    "Nutrición enteral por sonda nasoyeyunal",
+    "Ayuno y aporte solo de dextrosa por vía periférica"
+   ],
+   "clave": 4,
+   "especialidad": "Gastroenterología",
+   "tema": "Pancreatitis aguda",
+   "diagnostico": "Pancreatitis aguda grave necrotizante con falla orgánica persistente",
+   "tipo": "tratamiento",
+   "dificultad": "alta",
+   "razonamiento": "Paso 1: creatinina >2 y PaO2/FiO2 <300 por más de 48 h = falla orgánica persistente (forma grave) con necrosis estéril. Paso 2: no tolera vía oral. Paso 3: a las 48 h se inicia nutrición enteral por sonda nasoyeyunal, preferida a la parenteral.",
+   "por_que_no": [
+    "La parenteral queda para cuando la enteral no es posible; tiene más infecciones.",
+    "El reinicio no depende de las enzimas; esperar la lipasa prolonga el ayuno.",
+    "La vía oral se reinicia sin dolor, náuseas ni vómitos; este paciente no tolera.",
+    "",
+    "Dextrosa sola no cubre requerimientos en un paciente catabólico grave."
+   ],
+   "trampa": [
+    "otro-momento",
+    "otro",
+    "otro-estadio",
+    "",
+    "otro"
+   ],
+   "perla": "Pancreatitis grave sin tolerancia: enteral por sonda nasoyeyunal > parenteral.",
+   "fuente": {
+    "carpeta": "5.GASTROENTEROLOGIA",
+    "archivo": "12. pancreatitis aguda.pdf",
+    "seccion": "Tratamiento: soporte nutricional"
+   },
+   "gemela_de": null
+  },
+  {
+   "id": "2026-10-23-manana-034",
+   "enunciado": "Mujer de 19 años, usuaria de insulina desde los 12 años, con 2 días de vómitos, dolor abdominal y poliuria; suspendió su insulina. PA 100/60 mmHg, FC 118 X', FR 30 X' profunda, mucosas secas, aliento afrutado. Glucosa 480 mg/dL, pH 7,12, HCO3 8 mEq/L, Na 133 mEq/L, Cl 98 mEq/L, K 3,6 mEq/L, cetonuria 3+, creatinina 1,1 mg/dL. Ya recibió 1 litro de NaCl 0,9 % en la primera hora. ¿Cuál es el paso siguiente?",
+   "opciones": [
+    "Corregir el potasio y diferir la insulina hasta normalizarlo",
+    "Iniciar insulina en infusión sin agregar potasio",
+    "Iniciar insulina 0,1 UI/kg/h y añadir potasio al suero",
+    "Administrar bicarbonato de sodio y luego insulina",
+    "Insulina NPH subcutánea y suero glucosado al 5 %"
+   ],
+   "clave": 3,
+   "especialidad": "Endocrinología",
+   "tema": "Diabetes mellitus",
+   "diagnostico": "Cetoacidosis diabética moderada a grave con potasio sérico normal-bajo",
+   "tipo": "conducta",
+   "dificultad": "alta",
+   "razonamiento": "Paso 1: glucosa >250, pH 7,12, HCO3 8 y anión gap 27 = acidosis metabólica con cetosis por falta de insulina. Paso 2: K 3,6 (entre 3 y 5) caerá al iniciar insulina. Paso 3: tras el volumen inicial, insulina 0,1 UI/kg/h agregando potasio a los fluidos.",
+   "por_que_no": [
+    "Diferir la insulina se hace solo con K <3 (o <3,3 según guías).",
+    "Sin potasio solo si K >5; con 3,6 la insulina provocaría hipokalemia peligrosa.",
+    "",
+    "El bicarbonato se reserva para pH <7.",
+    "NPH y dextrosa no corrigen la cetosis; la insulina debe ser cristalina en infusión."
+   ],
+   "trampa": [
+    "umbral",
+    "umbral",
+    "",
+    "umbral",
+    "otro-momento"
+   ],
+   "perla": "CAD: K <3 primero potasio; 3-5 insulina + K; >5 insulina sin K.",
+   "fuente": {
+    "carpeta": "11. ENDOCRINOLOGIA",
+    "archivo": "14. DM.pdf",
+    "seccion": "Tratamiento de la crisis hiperglucémica"
+   },
+   "gemela_de": null
+  },
+  {
+   "id": "2026-10-23-manana-035",
+   "enunciado": "Mujer de 34 años, nulípara, con ciclos cada 60 a 120 días desde la menarquia. Hace 3 semanas tiene sangrado vaginal abundante después de 5 meses sin menstruar. IMC 34, escala de Ferriman-Gallwey 11, acantosis en cuello. β-hCG negativa, Hb 10,8 g/dL. Ecografía transvaginal: endometrio de 17 mm heterogéneo; ambos ovarios de 12 mL con 15 folículos periféricos de 4 a 7 mm. ¿Qué examen es prioritario ahora?",
+   "opciones": [
+    "Histeroscopia con biopsia de endometrio",
+    "Prueba de tolerancia oral a 75 g de glucosa",
+    "Testosterona total y sulfato de DHEA séricos",
+    "Relación LH/FSH en fase folicular temprana",
+    "Ecografía transvaginal de control en 3 meses"
+   ],
+   "clave": 1,
+   "especialidad": "Ginecología",
+   "tema": "Síndrome de ovario poliquístico",
+   "diagnostico": "Síndrome de ovario poliquístico con sospecha de hiperplasia endometrial",
+   "tipo": "prueba",
+   "dificultad": "alta",
+   "razonamiento": "Paso 1: oligomenorrea + hiperandrogenismo + ovarios multifoliculares = 3/3 Rotterdam. Paso 2: anovulación crónica = estrógeno sin oposición progestágena, y endometrio ≥14 mm en premenopáusica es anormal. Paso 3: descartar hiperplasia/cáncer con histeroscopia y biopsia.",
+   "por_que_no": [
+    "",
+    "Tamizaje metabólico útil por la acantosis, pero no descarta la lesión endometrial que sangra.",
+    "Sirve para descartar tumor androgénico, no es lo prioritario ante sangrado con endometrio engrosado.",
+    "Apoya la anovulación pero no es criterio de Rotterdam ni cambia la conducta.",
+    "Diferir con endometrio de 17 mm y sangrado retrasa el diagnóstico de hiperplasia."
+   ],
+   "trampa": [
+    "",
+    "otro-momento",
+    "diferencial",
+    "no-confirmatorio",
+    "otro-momento"
+   ],
+   "perla": "SOP + sangrado + endometrio ≥14 mm (premenopausia) → biopsia endometrial.",
+   "fuente": {
+    "carpeta": "3.GINECOLOGIA",
+    "archivo": "15. SOP.pdf y 12. hiplerpasia Y CA DE ENDOMETRIO.pdf",
+    "seccion": "SOP: riesgo de hiperplasia; grosor endometrial"
+   },
+   "gemela_de": null
+  },
+  {
+   "id": "2026-10-23-manana-036",
+   "enunciado": "Gestante de 31 años, G2P1 (parto vaginal previo, sin cesáreas), 36 semanas, sin antecedente de sangrado en la gestación actual. Ecografía transvaginal de control: placenta posterior cuyo borde inferior se encuentra a 15 mm del orificio cervical interno, sin signos de invasión miometrial. Feto en cefálico, ponderado 2 900 g, líquido normal. PA 110/70 mmHg, sin contracciones. Pregunta por la vía y el momento del parto. ¿Cuál es la conducta más adecuada?",
+   "opciones": [
+    "Cesárea programada entre las 36 y 37 semanas",
+    "Parto vaginal con vigilancia y sangre disponible",
+    "Cesárea inmediata por el riesgo de hemorragia",
+    "Resonancia magnética para descartar acretismo",
+    "Corticoide prenatal y cesárea a las 37 semanas"
+   ],
+   "clave": 2,
+   "especialidad": "Obstetricia",
+   "tema": "Hemorragia de la segunda mitad",
+   "diagnostico": "Placenta de inserción baja a más de 10 mm del orificio cervical, asintomática",
+   "tipo": "conducta",
+   "dificultad": "muy alta",
+   "razonamiento": "Paso 1: borde placentario a 15 mm del OCI = inserción baja (<20 mm), no oclusiva. Paso 2: asintomática, sin cicatrices ni signos de acretismo. Paso 3: con borde entre 10 y 20 mm el parto vaginal es posible, con vigilancia y sangre disponible.",
+   "por_que_no": [
+    "La cesárea programada se indica en previa total/parcial o borde <10 mm del OCI.",
+    "",
+    "Cesárea inmediata es para sangrado activo con compromiso materno o fetal.",
+    "La RM se pide con cicatriz uterina o sospecha ecográfica de acretismo; no hay ninguna.",
+    "El corticoide prenatal ya no se indica a las 36 semanas y la cesárea no es necesaria."
+   ],
+   "trampa": [
+    "umbral",
+    "",
+    "otro-estadio",
+    "otro-contexto",
+    "otro-momento"
+   ],
+   "perla": "Borde <10 mm del OCI: cesárea; <20 mm: parto vaginal posible.",
+   "fuente": {
+    "carpeta": "2. OBSTETRICIA",
+    "archivo": "30. HEMORRAGIA DE LA 2DA MITAD.pdf",
+    "seccion": "Placenta previa: tipos y vía de parto"
+   },
+   "gemela_de": null
+  },
+  {
+   "id": "2026-10-23-manana-037",
+   "enunciado": "Mujer de 42 años con episodios previos de euforia con hospitalización y episodios depresivos, en tratamiento con carbonato de litio 900 mg/día. Hace 3 días tuvo vómitos y diarrea sin ingerir líquidos. Hoy está confusa, con temblor grueso, mioclonías, ataxia y una crisis convulsiva. PA 110/70 mmHg, FC 64 x', mucosas secas. Litemia 3,8 mEq/L, creatinina 2,1 mg/dl (basal 0,9), Na 136 mEq/L. ¿Cuál es la conducta indicada?",
+   "opciones": [
+    "Hemodiálisis",
+    "Suspender el litio e hidratar solamente",
+    "Carbón activado por sonda nasogástrica",
+    "Reducir la dosis a la mitad y control en 24 h",
+    "Cambiar a valproato y observar"
+   ],
+   "clave": 1,
+   "especialidad": "Psiquiatría",
+   "tema": "Trastorno bipolar",
+   "diagnostico": "Intoxicación grave por litio con compromiso neurológico",
+   "tipo": "conducta",
+   "dificultad": "alta",
+   "razonamiento": "Paso 1: litemia 3,8 (>1,5 tóxica) con deshidratación y deterioro renal. Paso 2: hay toxicidad grave: confusión, mioclonías, convulsión. Paso 3: la intoxicación grave por litio se trata con hemodiálisis.",
+   "por_que_no": [
+    "",
+    "Suficiente en intoxicación leve sin compromiso neurológico ni falla renal.",
+    "El carbón activado no adsorbe litio.",
+    "Es conducta de niveles altos asintomáticos, no de toxicidad grave.",
+    "Cambiar estabilizador no elimina el litio acumulado."
+   ],
+   "trampa": [
+    "",
+    "otro-estadio",
+    "otro",
+    "otro-estadio",
+    "otro-momento"
+   ],
+   "perla": "Litio >1,5 tóxico; neurológico grave o falla renal → hemodiálisis.",
+   "fuente": {
+    "carpeta": "17. PSIQUIATRIA",
+    "archivo": "6. BIPOLARIDAD.pdf",
+    "seccion": "p. 1, intoxicación por litio"
+   },
+   "gemela_de": null
+  },
+  {
+   "id": "2026-10-23-manana-038",
+   "enunciado": "Niño de 20 meses que vive en Juliaca (3 825 msnm) desde su nacimiento acude a control CRED. Peso 11 kg, talla adecuada, sin enfermedad actual. Recibió suplemento de hierro solo 2 meses. Hemoglobina capilar 12,9 g/dL. Hemograma: VCM 68 fL, HCM 21 pg, reticulocitos 1 %, plaquetas normales; parasitológico negativo. La madre refiere buena tolerancia al hierro previo. Según la norma técnica del MINSA, ¿cuál es la indicación correcta?",
+   "opciones": [
+    "Hierro preventivo 2 mg/kg/día (22 mg) por 6 meses",
+    "Hierro 3 mg/kg/día (33 mg) por 3 meses",
+    "Hierro 5 mg/kg/día (55 mg) por 6 meses",
+    "Referir al hospital sin iniciar hierro",
+    "Hierro 3 mg/kg/día (33 mg) por 6 meses"
+   ],
+   "clave": 5,
+   "especialidad": "Pediatría",
+   "tema": "Anemia (norma técnica)",
+   "diagnostico": "Anemia ferropénica leve tras ajuste por altitud en niño de 20 meses",
+   "tipo": "dosis",
+   "dificultad": "muy alta",
+   "razonamiento": "Paso 1: a 3 500-3 999 msnm se restan 2,5 g/dL → 12,9 − 2,5 = 10,4 g/dL = anemia leve. Paso 2: microcítica, hipocrómica y reticulocitos normales → hierro empírico en primer nivel. Paso 3: tratamiento 3 mg/kg/día × 6 meses = 33 mg/día.",
+   "por_que_no": [
+    "Es la dosis preventiva; sería correcta si la Hb ajustada fuera ≥11 g/dL (error de no ajustar por altitud).",
+    "La dosis es correcta pero la duración del tratamiento es de 6 meses continuos.",
+    "Supera la dosis terapéutica de la norma (3 mg/kg/día).",
+    "Se refiere si hay reticulocitos altos o patrón no ferropénico; aquí el patrón es ferropénico.",
+    ""
+   ],
+   "trampa": [
+    "umbral",
+    "otro",
+    "umbral",
+    "diferencial",
+    ""
+   ],
+   "perla": "Hb ajustada (−2,5 a 3 500-3 999 m) <11 → hierro 3 mg/kg/día × 6 meses.",
+   "fuente": {
+    "carpeta": "28. NT",
+    "archivo": "1. NT ANEMIA.pdf",
+    "seccion": "Tabla 1: ajuste por altitud; tratamiento 6-35 meses"
+   },
+   "gemela_de": null
+  },
+  {
+   "id": "2026-10-23-manana-039",
+   "enunciado": "Varón de 64 años con infarto anterior antiguo, disnea a esfuerzos menores que los habituales (NYHA III). Hace 6 meses recibe sacubitrilo/valsartán, bisoprolol, espironolactona y dapagliflozina a dosis máximas toleradas. PA 104/64 mmHg, FC 62X' sinusal, K 4,6 mEq/L. Ecocardiograma: FEVI 30 %. EKG: QRS de 165 ms, R ancha y mellada en DI y V6, QS en V1. ¿Cuál es el siguiente paso?",
+   "opciones": [
+    "Añadir ivabradina 5 mg cada 12 horas",
+    "Añadir digoxina 0,125 mg al día",
+    "Implantar desfibrilador unicameral",
+    "Añadir hidralazina con dinitrato de isosorbide",
+    "Terapia de resincronización cardiaca (TRC)"
+   ],
+   "clave": 5,
+   "especialidad": "Cardiología",
+   "tema": "Insuficiencia cardiaca · Dispositivos",
+   "diagnostico": "Disfunción sistólica con BRIHH pese a los 4 pilares",
+   "tipo": "tratamiento",
+   "dificultad": "muy alta",
+   "razonamiento": "FEVI ≤35 % sintomática pese a los 4 pilares + QRS ≥150 ms con morfología de BRIHH (R mellada en DI/V6, QS en V1) = indicación de resincronización (con o sin DAI).",
+   "por_que_no": [
+    "Requiere FC ≥70 en sinusal; aquí 62.",
+    "Para síntomas persistentes o FA; no reduce mortalidad.",
+    "DAI solo si QRS estrecho; con BRIHH ≥150 se prefiere TRC.",
+    "Alternativa si hay intolerancia a IECA/ARA II/ARNI.",
+    ""
+   ],
+   "trampa": [
+    "umbral",
+    "otro",
+    "otro-estadio",
+    "otra-poblacion",
+    ""
+   ],
+   "perla": "FEVI ≤35 % + BRIHH ≥150 ms: TRC.",
+   "fuente": {
+    "carpeta": "9. CARDIOLOGIA",
+    "archivo": "14. IC.pdf",
+    "seccion": "Tratamiento ICFEr, pág. 1"
+   },
+   "gemela_de": null
+  },
+  {
+   "id": "2026-10-23-manana-040",
+   "enunciado": "Mujer de 58 años, diabética, con 3 días de disuria y fiebre, hoy confusa. PA 78/40 mmHg (PAM 53), FC 124 X', FR 28 X', T° 39,4 °C, SatO2 93 %. Puño percusión derecha positiva. Lactato 5,1 mmol/L, leucocitos 21 000, creatinina 2,1 mg/dL. Se tomaron hemocultivos, recibió ceftriaxona y 30 ml/kg de cristaloides en 3 horas; ahora PA 82/44 mmHg (PAM 57), sin crépitos pulmonares, lactato 4,6 mmol/L. ¿Cuál es el siguiente paso?",
+   "opciones": [
+    "Iniciar dobutamina en infusión continua",
+    "Iniciar noradrenalina hasta lograr PAM ≥65 mmHg",
+    "Iniciar adrenalina como vasopresor de arranque",
+    "Iniciar dopamina en dosis vasopresoras",
+    "Pasar un nuevo bolo de 30 ml/kg de cristaloides"
+   ],
+   "clave": 2,
+   "especialidad": "Infectología",
+   "tema": "Sepsis y shock séptico",
+   "diagnostico": "Shock séptico de foco urinario persistente tras reanimación con fluidos",
+   "tipo": "tratamiento",
+   "dificultad": "media",
+   "razonamiento": "Paso 1: foco urinario con hipotensión, confusión y lactato >2 = hipoperfusión de origen infeccioso. Paso 2: persiste PAM <65 tras 30 ml/kg = shock séptico. Paso 3: vasopresor de arranque en adulto: noradrenalina, objetivo PAM ≥65.",
+   "por_que_no": [
+    "Dobutamina se agrega cuando hay disfunción cardiaca o en shock cardiogénico.",
+    "",
+    "Adrenalina es el vasopresor de arranque en el niño.",
+    "Dopamina es alternativa con más arritmias; no es la primera elección.",
+    "Ya recibió el volumen inicial completo; mantener la hipotensión retrasa el vasopresor."
+   ],
+   "trampa": [
+    "diferencial",
+    "",
+    "otra-poblacion",
+    "mismo-grupo",
+    "otro-momento"
+   ],
+   "perla": "Shock séptico adulto: 30 ml/kg + noradrenalina para PAM ≥65; niño: adrenalina.",
+   "fuente": {
+    "carpeta": "9. CARDIOLOGIA",
+    "archivo": "20. SHOCK.pdf",
+    "seccion": "Tratamiento del shock séptico"
+   },
+   "gemela_de": null
+  },
+  {
+   "id": "2026-10-23-manana-041",
+   "enunciado": "Mujer de 27 años con antecedente de sibilancias desde la infancia, sin controlador, llega por disnea progresiva de 12 horas. Recibió en la última hora oxígeno, salbutamol con ipratropio cada 20 minutos, hidrocortisona 100 mg EV y sulfato de magnesio 2 g EV. Ahora está somnolienta, responde con monosílabos, FR 10 X', FC 128 X', SatO2 86 % con mascarilla. Murmullo vesicular muy disminuido sin sibilantes audibles. AGA: pH 7,22; PaCO2 62 mmHg; PaO2 54 mmHg. ¿Cuál es la conducta inmediata?",
+   "opciones": [
+    "Iniciar ventilación no invasiva con BiPAP",
+    "Administrar aminofilina en infusión endovenosa",
+    "Intubación orotraqueal y ventilación mecánica",
+    "Aplicar adrenalina 0,3 mg intramuscular",
+    "Repetir sulfato de magnesio y salbutamol continuo"
+   ],
+   "clave": 3,
+   "especialidad": "Neumología",
+   "tema": "Asma del adulto",
+   "diagnostico": "Crisis asmática casi fatal con hipercapnia y deterioro de conciencia",
+   "tipo": "conducta",
+   "dificultad": "alta",
+   "razonamiento": "Paso 1: somnolencia, bradipnea, tórax silente y PaCO2 62 con acidemia = agotamiento ventilatorio. Paso 2: ya falló O2 + SABA + ipratropio + corticoide + MgSO4. Paso 3: indicación de intubación y VM; BiPAP está contraindicada por el deterioro de conciencia.",
+   "por_que_no": [
+    "BiPAP sirve en fatiga con paciente consciente y colaborador; somnolienta aspira.",
+    "Aminofilina solo si no hay alternativa; no resuelve la falla ventilatoria.",
+    "",
+    "Adrenalina IM se reserva para anafilaxia o angioedema asociados.",
+    "Repetir terapia ya fallida retrasa la vía aérea definitiva."
+   ],
+   "trampa": [
+    "otro-estadio",
+    "otro-momento",
+    "",
+    "otro-contexto",
+    "otro-momento"
+   ],
+   "perla": "Somnolencia o PaCO2 >45 en ascenso en la crisis: intubar, no BiPAP.",
+   "fuente": {
+    "carpeta": "6.NEUMOLOGIA",
+    "archivo": "7. ASMA.pdf",
+    "seccion": "Manejo de crisis (GINA 2025)"
+   },
+   "gemela_de": null
+  },
+  {
+   "id": "2026-10-23-manana-042",
+   "enunciado": "Varón de 30 años, 70 kg, con crisis convulsivas desde la infancia y abandono de su medicación. Llega con convulsión tónico-clónica generalizada continua. Se aseguró vía aérea y oxígeno; glucosa capilar 96 mg/dl; recibió tiamina. A los 5 y 10 minutos recibió diazepam 10 mg EV en bolo sin cese de la actividad. Ahora lleva 15 minutos convulsionando; PA 150/90 mmHg, FC 120 x', SatO2 93 %. ¿Cuál es el siguiente paso farmacológico?",
+   "opciones": [
+    "Tercera dosis de diazepam 10 mg EV en bolo",
+    "Fenitoína 1 400 mg EV a no más de 50 mg/min",
+    "Midazolam en infusión continua con intubación",
+    "Fenitoína 1 400 mg EV en bolo durante 5 min",
+    "Levetiracetam 1 000 mg por sonda nasogástrica"
+   ],
+   "clave": 2,
+   "especialidad": "Neurología",
+   "tema": "Epilepsia · Estado epiléptico",
+   "diagnostico": "Estado epiléptico convulsivo refractario a benzodiacepinas",
+   "tipo": "dosis",
+   "dificultad": "alta",
+   "razonamiento": "Paso 1: crisis TCG >5 min sin recuperación = estatus. Paso 2: ya fallaron 2 dosis de benzodiacepina (primer paso). Paso 3: segundo paso: fenitoína 20 mg/kg (1 400 mg) EV con velocidad máxima 50 mg/min.",
+   "por_que_no": [
+    "La benzodiacepina se repite solo 1-2 veces; ya se agotó el primer paso.",
+    "",
+    "La inducción de coma es para el estatus refractario a 1.º y 2.º paso o >40 min.",
+    "Dosis correcta pero 280 mg/min supera el máximo: riesgo de arritmia e hipotensión.",
+    "Levetiracetam es alternativa EV de segundo paso; la vía enteral no sirve en estatus."
+   ],
+   "trampa": [
+    "otro-momento",
+    "",
+    "otro-momento",
+    "umbral",
+    "mismo-grupo"
+   ],
+   "perla": "Estatus: BZD EV ×2 → fenitoína 20 mg/kg a ≤50 mg/min → coma con midazolam/propofol.",
+   "fuente": {
+    "carpeta": "13.NEUROLOGIA",
+    "archivo": "11. EPILEPSIA.pdf",
+    "seccion": "Manejo de estatus epiléptico"
+   },
+   "gemela_de": null
+  },
+  {
+   "id": "2026-10-23-manana-043",
+   "enunciado": "Varón de 66 años en su cuarto día de hospitalización por dolor torácico con elevación del ST en DII, DIII y aVF. Bruscamente presenta disnea intensa y ortopnea. PA 85/50 mmHg, FC 118 x', FR 32 x', SatO2 84 % con mascarilla. Crepitantes bilaterales hasta los vértices. Nuevo soplo holosistólico en ápex irradiado a la axila, sin frémito palpable; ruidos cardiacos audibles y sin ingurgitación yugular. EKG sin nuevos cambios del ST. ¿Cuál es la complicación más probable?",
+   "opciones": [
+    "Rotura del tabique interventricular",
+    "Rotura de la pared libre ventricular",
+    "Rotura del músculo papilar posteromedial",
+    "Aneurisma ventricular izquierdo",
+    "Pericarditis fibrinosa posinfarto"
+   ],
+   "clave": 3,
+   "especialidad": "Cardiología",
+   "tema": "Complicaciones posinfarto · Valvulopatía aguda",
+   "diagnostico": "Insuficiencia mitral aguda por rotura de músculo papilar posinfarto inferior",
+   "tipo": "diagnostico",
+   "dificultad": "alta",
+   "razonamiento": "Paso 1: infarto inferior (DII, DIII, aVF) entre el día 2 y 7. Paso 2: edema pulmonar + hipotensión + soplo holosistólico apical a axila sin frémito. Paso 3: corresponde a regurgitación mitral aguda por rotura papilar.",
+   "por_que_no": [
+    "Da soplo holosistólico con shock pero paraesternal y con frémito frecuente.",
+    "No produce soplo: da taponamiento (Beck) y muerte súbita en los días 3-5.",
+    "",
+    "Es tardío (semanas), con ST persistentemente elevado y sin edema agudo súbito.",
+    "Da frote y dolor pleurítico en días 1-3, no soplo holosistólico ni shock."
+   ],
+   "trampa": [
+    "diferencial",
+    "diferencial",
+    "",
+    "otro-momento",
+    "otro-momento"
+   ],
+   "perla": "Pos-IMA inferior + soplo apical a axila SIN frémito = músculo papilar; CON frémito = CIV.",
+   "fuente": {
+    "carpeta": "9. CARDIOLOGIA",
+    "archivo": "5. COMPLICACIONES POSINFARTO.pdf",
+    "seccion": "Insuficiencia mitral posinfarto vs CIV"
+   },
+   "gemela_de": null
+  },
+  {
+   "id": "2026-10-23-manana-044",
+   "enunciado": "Puérpera de 24 años, parto vaginal tras ruptura de membranas de 22 horas y 9 tactos vaginales. Al tercer día presentó T° 38,8 °C, útero subinvolucionado y doloroso a la palpación y loquios fétidos; se inició clindamicina más gentamicina endovenosas. Hoy, cuarto día de tratamiento: lleva 48 horas afebril, PA 110/70 mmHg, FC 78 x', útero indoloro con loquios serosos sin mal olor; leucocitos 9 000/mm³. Lacta sin problemas. ¿Cuál es la conducta antibiótica?",
+   "opciones": [
+    "Pasar a clindamicina oral hasta completar 10 días",
+    "Completar 7 días del esquema endovenoso",
+    "Agregar ampicilina y mantener 48 horas más",
+    "Cambiar a ampicilina-sulbactam por 5 días",
+    "Suspender los antibióticos sin terapia oral"
+   ],
+   "clave": 5,
+   "especialidad": "Obstetricia",
+   "tema": "Infección puerperal",
+   "diagnostico": "Endometritis puerperal posparto vaginal con respuesta clínica",
+   "tipo": "conducta",
+   "dificultad": "alta",
+   "razonamiento": "Paso 1: fiebre del 2.º-10.º día + útero doloroso + loquios fétidos tras RPM prolongada = infección endometrial. Paso 2: con clindamicina-gentamicina ya lleva 48 h afebril y asintomática. Paso 3: el esquema EV se mantiene solo hasta 24-48 h afebril; no requiere continuación oral.",
+   "por_que_no": [
+    "La continuación oral no aporta beneficio una vez lograda la respuesta; sí se usa en otras infecciones pélvicas como EPI.",
+    "Un número fijo de días EV no es el criterio; sería prolongar sin indicación.",
+    "Se agrega ampicilina cuando NO hay respuesta a las 48 h.",
+    "Ampicilina-sulbactam es la alternativa de inicio, no un cambio tras respuesta.",
+    ""
+   ],
+   "trampa": [
+    "otro-contexto",
+    "umbral",
+    "otro-momento",
+    "otro-momento",
+    ""
+   ],
+   "perla": "Clindamicina + gentamicina EV hasta 24-48 h afebril; si no responde a 48 h, agregar ampicilina.",
+   "fuente": {
+    "carpeta": "2. OBSTETRICIA",
+    "archivo": "22. ENDOMETRITIS.pdf",
+    "seccion": "p. 1, tratamiento"
+   },
+   "gemela_de": null
+  },
+  {
+   "id": "2026-10-23-manana-045",
+   "enunciado": "Varón de 30 años con herida por arma blanca en hemitórax derecho hace 1 hora. PA 84/50 mmHg, FC 128X', FR 28X', SatO2 89 %. Murmullo vesicular abolido y matidez en la mitad inferior derecha. Se coloca tubo de tórax en el 5.º espacio intercostal y drenan de inmediato 1 600 ml de sangre. Ha recibido 2 L de cristaloides sin mejoría. ¿Cuál es el siguiente paso?",
+   "opciones": [
+    "Toracotomía de emergencia",
+    "Medir débito horario y operar si supera 200 ml/h por 3 h",
+    "Videotoracoscopia para evacuar coágulos retenidos",
+    "Colocar un segundo tubo de drenaje torácico",
+    "TAC de tórax con contraste para localizar el sangrado"
+   ],
+   "clave": 1,
+   "especialidad": "Neumología",
+   "tema": "Patología pleural · Trauma torácico",
+   "diagnostico": "Hemotórax masivo por herida torácica",
+   "tipo": "conducta",
+   "dificultad": "alta",
+   "razonamiento": "Matidez + murmullo abolido tras herida y sangre por el tubo = hemotórax. Drenaje inicial >1500 ml con shock persistente es indicación de toracotomía de emergencia.",
+   "por_que_no": [
+    "",
+    "Criterio de débito para el que drenó <1500 ml inicial y está estable.",
+    "Útil para hemotórax retenido o coagulado en paciente estable.",
+    "No controla la fuente del sangrado.",
+    "El paciente inestable no va a tomografía."
+   ],
+   "trampa": [
+    "",
+    "otro-momento",
+    "otro-estadio",
+    "otro",
+    "otro-poblacion"
+   ],
+   "perla": "Hemotórax: >1500 ml al instante o >200 ml/h × 3 h = toracotomía.",
+   "fuente": {
+    "carpeta": "6.NEUMOLOGIA",
+    "archivo": "9. PATOLOGIA DE LA PLEURA.pdf",
+    "seccion": "Hemotórax"
+   },
+   "gemela_de": null
+  },
+  {
+   "id": "2026-10-23-manana-046",
+   "enunciado": "Lactante de 2 meses, 5 kg, con una dosis de pentavalente. Tiene 10 días de rinorrea y luego tos en accesos de varios golpes seguidos de inspiración ruidosa, cianosis peribucal y vómito; entre accesos está bien. Afebril, FR 40 x', SatO2 95 %; murmullo vesicular conservado sin estertores. Hemograma: leucocitos 32 000/mm³ con 76 % linfocitos, plaquetas 540 000/mm³. Radiografía de tórax sin infiltrados. ¿Cuál es el esquema antibiótico indicado?",
+   "opciones": [
+    "Azitromicina 10 mg/kg/día VO por 5 días",
+    "Azitromicina 10 mg/kg/día VO por 14 días",
+    "Eritromicina 40 mg/kg/día VO por 5 días",
+    "Claritromicina 15 mg/kg/día VO por 14 días",
+    "Amoxicilina 90 mg/kg/día VO por 10 días"
+   ],
+   "clave": 1,
+   "especialidad": "Pediatría",
+   "tema": "Tos ferina",
+   "diagnostico": "Tos ferina en lactante de 2 meses",
+   "tipo": "dosis",
+   "dificultad": "media",
+   "razonamiento": "Paso 1: tos paroxística con estridor inspiratorio, cianosis y vómito en lactante poco vacunado. Paso 2: leucocitosis linfocítica con trombocitosis y Rx limpia orientan a Bordetella. Paso 3: macrólido; azitromicina 10 mg/kg/día por 5 días.",
+   "por_que_no": [
+    "",
+    "Azitromicina se da 5 días; 14 días es la duración de la eritromicina.",
+    "Eritromicina requiere 14 días; 5 días es la duración de la azitromicina.",
+    "Claritromicina se da 7 días, no 14.",
+    "Amoxicilina en dosis altas es para neumonía neumocócica, no para Bordetella."
+   ],
+   "trampa": [
+    "",
+    "umbral",
+    "umbral",
+    "mismo-grupo",
+    "diferencial"
+   ],
+   "perla": "Macrólidos: azitro 5 días, claritro 7 días, eritro 14 días.",
+   "fuente": {
+    "carpeta": "4.PEDIATRIA",
+    "archivo": "28. TOS FERINA.pdf",
+    "seccion": "pág. 1, tratamiento"
+   },
+   "gemela_de": null
+  },
+  {
+   "id": "2026-10-23-manana-047",
+   "enunciado": "La DIRESA evalúa un hospital provincial en Huaral que atiende emergencias las 24 horas. Cuenta con consulta externa e internamiento en medicina interna, cirugía general, ginecoobstetricia y pediatría, además de médico anestesiólogo, centro quirúrgico, centro obstétrico, laboratorio clínico, diagnóstico por imágenes y farmacia. No dispone de unidad de cuidados intensivos ni de anatomía patológica, y no tiene otras subespecialidades. Según la norma técnica de categorización del MINSA, ¿qué categoría le corresponde?",
+   "opciones": [
+    "I-4",
+    "II-1",
+    "II-2",
+    "I-3",
+    "III-1"
+   ],
+   "clave": 2,
+   "especialidad": "Gestión en Salud",
+   "tema": "Categorización de establecimientos",
+   "diagnostico": "Establecimiento categoría II-1",
+   "tipo": "norma",
+   "dificultad": "media",
+   "razonamiento": "Paso 1: tiene internamiento con las 4 especialidades básicas + anestesia y centro quirúrgico. Paso 2: eso define un hospital de nivel II. Paso 3: sin UCI ni anatomía patológica no llega a II-2 → II-1.",
+   "por_que_no": [
+    "I-4 tiene internamiento pero solo con médico y especialistas de pediatría y GO, sin centro quirúrgico de cirugía general completo.",
+    "",
+    "II-2 exige además UCI general y anatomía patológica; sería correcta si las tuviera.",
+    "I-3 no tiene internamiento; correcta para un centro con 2 médicos 12 h y laboratorio.",
+    "III-1 exige todas las especialidades y UCI especializada."
+   ],
+   "trampa": [
+    "umbral",
+    "",
+    "umbral",
+    "otro-estadio",
+    "otro-estadio"
+   ],
+   "perla": "II-1 = 4 especialidades básicas + anestesia + centro quirúrgico; II-2 añade UCI y anatomía patológica.",
+   "fuente": {
+    "carpeta": "15. GESTION EN SALUD",
+    "archivo": "4. CATEGORIZACION .pdf",
+    "seccion": "Nivel II"
+   },
+   "gemela_de": null
+  },
+  {
+   "id": "2026-10-23-manana-048",
+   "enunciado": "Mujer de 27 años, G1, amenorrea de 7 semanas, dolor leve en fosa ilíaca derecha y sangrado vaginal escaso. Desea gestar en el futuro. PA 116/74 mmHg, FC 80X'. Abdomen blando sin rebote. β-hCG 6 800 mUI/ml (hace 48 h: 6 200). Eco TV: útero sin saco gestacional, masa anexial derecha de 3 cm sin actividad cardiaca, sin líquido libre. Función hepática y renal normales. ¿Cuál es la conducta indicada?",
+   "opciones": [
+    "Salpingostomía por vía laparoscópica",
+    "Metotrexato IM y β-hCG en los días 4 y 7",
+    "Salpingectomía derecha por laparoscopía",
+    "Laparotomía exploratoria con salpingectomía",
+    "Repetir β-hCG en 48 h antes de decidir"
+   ],
+   "clave": 1,
+   "especialidad": "Obstetricia",
+   "tema": "Hemorragia de la primera mitad · Ectópico",
+   "diagnostico": "Ectópico tubario no roto con β-hCG >5000",
+   "tipo": "conducta",
+   "dificultad": "alta",
+   "razonamiento": "β-hCG >1500 con útero vacío y masa anexial = gestación extrauterina no rota. Está estable, pero la β-hCG >5000 excluye el metotrexato; con masa <4 cm y deseo gestacional corresponde la cirugía conservadora: salpingostomía laparoscópica.",
+   "por_que_no": [
+    "",
+    "El metotrexato exige β-hCG <5000; sería correcto con 3 000.",
+    "La salpingectomía se reserva para masas >4 cm o trompa destruida.",
+    "Laparotomía solo si hay inestabilidad hemodinámica.",
+    "El diagnóstico ya está establecido; esperar solo retrasa el tratamiento."
+   ],
+   "trampa": [
+    "",
+    "umbral",
+    "otro-estadio",
+    "otro-estadio",
+    "otro-momento"
+   ],
+   "perla": "Ectópico estable: hCG <5000 metotrexato; >5000 y <4 cm salpingostomía.",
+   "fuente": {
+    "carpeta": "2. OBSTETRICIA",
+    "archivo": "29. HEMORRAGIA DE LA 1ERA MITAD.pdf",
+    "seccion": "Ectópico"
+   },
+   "gemela_de": null
+  },
+  {
+   "id": "2026-10-23-manana-049",
+   "enunciado": "Mujer de 58 años, menopausia a los 50, nulípara, IMC 36, diabética e hipertensa, con sangrado vaginal escaso intermitente de un mes. Ecografía transvaginal: endometrio de 11 mm, ovarios atróficos. Histeroscopia con biopsia dirigida: proliferación glandular con aumento de la relación glándula/estroma y atipia citológica, sin invasión del estroma. TAC abdominopélvica sin hallazgos. No desea más hijos. ¿Cuál es el tratamiento indicado?",
+   "opciones": [
+    "Medroxiprogesterona oral y nueva biopsia en 3 meses",
+    "DIU liberador de levonorgestrel y biopsia a 6 meses",
+    "Legrado uterino fraccionado y control ecográfico",
+    "Histerectomía total",
+    "Histerectomía, anexectomía y linfadenectomía pélvica"
+   ],
+   "clave": 4,
+   "especialidad": "Ginecología",
+   "tema": "Hiperplasia y cáncer de endometrio",
+   "diagnostico": "Hiperplasia endometrial atípica en posmenopáusica sin deseo gestacional",
+   "tipo": "tratamiento",
+   "dificultad": "alta",
+   "razonamiento": "Paso 1: posmenopáusica con sangrado y endometrio >4 mm obliga a biopsia. Paso 2: la biopsia muestra proliferación con atipia sin invasión: lesión precursora con riesgo de cáncer hasta 30 %. Paso 3: sin deseo gestacional/posmenopausia → histerectomía total.",
+   "por_que_no": [
+    "Progestágeno se reserva para la forma sin atipia o con atipia y deseo de gestación.",
+    "El DIU-LNG con biopsias seriadas es para la mujer joven con deseo gestacional.",
+    "El legrado es diagnóstico; no trata una lesión con riesgo alto de malignidad.",
+    "",
+    "La estadificación con linfadenectomía corresponde al carcinoma invasor."
+   ],
+   "trampa": [
+    "otro-estadio",
+    "otra-poblacion",
+    "otro-momento",
+    "",
+    "otro-estadio"
+   ],
+   "perla": "Atipia + posmenopausia o sin deseo gestacional = histerectomía total; sin atipia = progestágeno.",
+   "fuente": {
+    "carpeta": "3.GINECOLOGIA",
+    "archivo": "12. hiplerpasia Y CA DE ENDOMETRIO.pdf",
+    "seccion": "p. 1, hiperplasia: tratamiento"
+   },
+   "gemela_de": null
+  },
+  {
+   "id": "2026-10-23-manana-050",
+   "enunciado": "Gestante de 38 semanas con ruptura de membranas de 26 horas, en inducción. T° 38,6 °C, FC materna 112 x', FCF basal 172 x', útero doloroso a la palpación y líquido amniótico de olor fétido; leucocitos 18 000/mm³. Refiere que hace años presentó una erupción maculopapular leve con amoxicilina, sin angioedema, broncoespasmo ni hipotensión. ¿Cuál es el esquema antibiótico indicado?",
+   "opciones": [
+    "Cefazolina 2 g EV c/8 h más gentamicina",
+    "Ampicilina 2 g EV c/6 h más gentamicina",
+    "Clindamicina 900 mg EV c/8 h más gentamicina",
+    "Ampicilina-sulbactam 3 g EV c/6 h",
+    "Ceftriaxona 500 mg IM más azitromicina"
+   ],
+   "clave": 1,
+   "especialidad": "Obstetricia",
+   "tema": "Corioamnionitis",
+   "diagnostico": "Infección intraamniótica clínica en gestante con alergia leve a penicilina",
+   "tipo": "tratamiento",
+   "dificultad": "alta",
+   "razonamiento": "Paso 1: fiebre materna + taquicardia materna y fetal + útero doloroso + líquido fétido tras RPM prolongada = infección intraamniótica. Paso 2: alergia a penicilina no severa (sin anafilaxia). Paso 3: cefazolina + gentamicina, y terminar la gestación por vía vaginal.",
+   "por_que_no": [
+    "",
+    "Es el esquema de elección sin alergia; aquí contiene penicilina.",
+    "Reservado para alergia severa (anafilaxia, angioedema).",
+    "Contiene ampicilina: evitar en alergia a penicilina.",
+    "Es esquema de infección pélvica en gestante, no cubre bien gramnegativos intraamnióticos."
+   ],
+   "trampa": [
+    "",
+    "otra-poblacion",
+    "otro-estadio",
+    "mismo-grupo",
+    "otro-contexto"
+   ],
+   "perla": "Infección intraamniótica: ampicilina + gentamicina; alergia leve cefazolina; severa clindamicina.",
+   "fuente": {
+    "carpeta": "2. OBSTETRICIA",
+    "archivo": "17. CORIAMNIONITIS.pdf",
+    "seccion": "Manejo"
+   },
+   "gemela_de": null
+  },
+  {
+   "id": "2026-10-23-manana-051",
+   "enunciado": "Niño de 7 años con fractura supracondílea de húmero desplazada, reducida e inmovilizada con yeso braquiopalmar hace 8 horas. Llora con dolor intenso que no cede con morfina y aumenta al extender pasivamente los dedos; refiere hormigueo en pulgar, índice y medio. Pulso radial presente, llenado capilar 2 s, antebrazo tenso. Se bivalvó y retiró el yeso hace 30 minutos sin mejoría. Presión medida con catéter en el compartimento flexor del antebrazo: 42 mmHg. ¿Cuál es la conducta?",
+   "opciones": [
+    "Fasciotomía de los compartimentos del antebrazo",
+    "Repetir la medición de presión en 4 horas",
+    "Elevar el miembro sobre el corazón y analgesia",
+    "Arteriografía braquial antes de decidir cirugía",
+    "Exploración y neurólisis del nervio mediano"
+   ],
+   "clave": 1,
+   "especialidad": "Traumatología",
+   "tema": "Complicaciones de fracturas",
+   "diagnostico": "Síndrome compartimental de antebrazo tras fractura supracondílea en niño",
+   "tipo": "conducta",
+   "dificultad": "alta",
+   "razonamiento": "Paso 1: dolor desproporcionado con extensión pasiva, parestesias y antebrazo tenso tras supracondílea. Paso 2: presión >30 mmHg confirma compromiso compartimental; el pulso presente no lo descarta (es tardío). Paso 3: fasciotomía urgente en las primeras 6 h.",
+   "por_que_no": [
+    "",
+    "Esperar 4 h con presión >30 mmHg aumenta el riesgo de necrosis y contractura de Volkmann.",
+    "Elevar sobre el corazón reduce la perfusión; retirar vendajes ya se hizo sin mejoría.",
+    "El pulso presente y llenado normal no sugieren lesión arterial; retrasaría la cirugía.",
+    "Las parestesias son isquémicas por presión, no lesión primaria del nervio."
+   ],
+   "trampa": [
+    "",
+    "otro-momento",
+    "otro-momento",
+    "no-confirmatorio",
+    "diferencial"
+   ],
+   "perla": "Presión compartimental >30 mmHg = fasciotomía en <6 h; el pulso ausente es tardío.",
+   "fuente": {
+    "carpeta": "18.TRAUMATOLOGIA",
+    "archivo": "3. COMPLICACIONES MEDIATAS INMEDIATRAS DE FX.pdf",
+    "seccion": "pág. 1, síndrome compartimental"
+   },
+   "gemela_de": null
+  },
+  {
+   "id": "2026-10-23-manana-052",
+   "enunciado": "Varón de 22 años, alto, delgado y fumador, con dolor torácico derecho súbito de 6 horas que empeora al inspirar, iniciado tras un acceso de tos, y disnea leve. PA 120/70 mmHg, FC 88 x', FR 18 x', SatO2 96 %. Hemitórax derecho con leve hipersonoridad y murmullo vesicular disminuido, tráquea central. Radiografía: línea pleural visceral con ausencia de trama periférica, colapso estimado en 15 %. Primer episodio, sin enfermedad pulmonar. ¿Cuál es el manejo indicado?",
+   "opciones": [
+    "Tubo de drenaje torácico bajo sello de agua",
+    "Punción con aguja en 2.º espacio intercostal",
+    "Videotoracoscopia con bullectomía y pleurodesis",
+    "Pleurodesis química por tubo torácico",
+    "Observación con oxígeno suplementario"
+   ],
+   "clave": 5,
+   "especialidad": "Neumología",
+   "tema": "Patología pleural",
+   "diagnostico": "Neumotórax espontáneo primario menor de 20 %",
+   "tipo": "tratamiento",
+   "dificultad": "media",
+   "razonamiento": "Paso 1: joven longilíneo fumador, dolor súbito con hipersonoridad y línea pleural = aire pleural por bulas subpleurales. Paso 2: estable, colapso 15 % (<20 %), primer episodio. Paso 3: observación con O2, que reduce el escape de aire y acelera la reabsorción.",
+   "por_que_no": [
+    "Indicado si el colapso supera el 20-30 % o hay síntomas importantes.",
+    "Es la descompresión inmediata del neumotórax con hipotensión y alteración del sensorio.",
+    "Para prevención de recurrencia (episodio repetido u ocupación de riesgo).",
+    "La pleurodesis se usa en recurrencias o derrame recidivante.",
+    ""
+   ],
+   "trampa": [
+    "otro-estadio",
+    "diferencial",
+    "otro-momento",
+    "otro-momento",
+    ""
+   ],
+   "perla": "Neumotórax <20 % estable: observar + O2; >20 %: tubo; a tensión: aguja 2.º EIC.",
+   "fuente": {
+    "carpeta": "6.NEUMOLOGIA",
+    "archivo": "9. PATOLOGIA DE LA PLEURA.pdf",
+    "seccion": "Neumotórax: manejo de elección"
+   },
+   "gemela_de": null
+  },
+  {
+   "id": "2026-10-23-manana-053",
+   "enunciado": "Mujer de 58 años con DM2 en tratamiento con metformina; fiebre de 39 °C, tos con esputo herrumbroso y dolor pleurítico derecho de 3 días. Orientada. FR 24X', PA 128/78 mmHg, FC 100X', SatO2 95 %, BUN 15 mg/dl. Soplo tubárico y crepitantes en base derecha. Radiografía: consolidación lobar inferior derecha. Tolera la vía oral. ¿Cuál es el tratamiento?",
+   "opciones": [
+    "Amoxicilina VO sola por 5 días",
+    "Azitromicina VO sola por 5 días",
+    "Amoxicilina/clavulánico + azitromicina VO",
+    "Ceftriaxona EV + azitromicina, hospitalizada",
+    "Piperacilina-tazobactam + levofloxacino EV"
+   ],
+   "clave": 3,
+   "especialidad": "Neumología",
+   "tema": "Neumonía adquirida en la comunidad · Tratamiento ambulatorio",
+   "diagnostico": "Infección respiratoria baja comunitaria de bajo puntaje con comorbilidad",
+   "tipo": "tratamiento",
+   "dificultad": "media",
+   "razonamiento": "Consolidación lobar febril = NAC típica. CURB-65 = 0 (orientada, BUN <19, FR <30, PA normal, <65 años) → ambulatoria; la DM es factor de riesgo: amoxicilina/clavulánico + macrólido (o levofloxacino).",
+   "por_que_no": [
+    "Sirve sin comorbilidad; la DM obliga a ampliar.",
+    "Monoterapia del paciente sin factores de riesgo.",
+    "",
+    "Esquema del hospitalizado (CURB-65 = 2).",
+    "Para UCI con riesgo de Pseudomonas."
+   ],
+   "trampa": [
+    "otra-poblacion",
+    "otra-poblacion",
+    "",
+    "otro-estadio",
+    "otro-estadio"
+   ],
+   "perla": "CURB-65 0-1 con comorbilidad: amoxi/clavulánico + macrólido.",
+   "fuente": {
+    "carpeta": "6.NEUMOLOGIA",
+    "archivo": "8. NEUMONIA.pdf",
+    "seccion": "Tratamiento, pág. 1-2"
+   },
+   "gemela_de": null
+  },
+  {
+   "id": "2026-10-23-manana-054",
+   "enunciado": "Mujer de 29 años, G3P2, con 14 semanas de gestación por ecografía previa, acude por sangrado vaginal moderado con coágulos y dolor cólico desde hace 6 horas. PA 110/70 mmHg, FC 92X', T° 36,9 °C. Orificio cervical interno abierto con restos en el canal. Eco TV: contenido heterogéneo de 28 mm en cavidad, sin embrión. Grupo O Rh(+), Hb 10,8 g/dl. ¿Cuál es la conducta?",
+   "opciones": [
+    "Aspiración manual endouterina (AMEU)",
+    "Misoprostol y control ecográfico en 7 días",
+    "Legrado uterino instrumental",
+    "Progesterona vaginal y reposo relativo",
+    "Legrado uterino e inmunoglobulina anti-D"
+   ],
+   "clave": 3,
+   "especialidad": "Obstetricia",
+   "tema": "Aborto · Evacuación uterina",
+   "diagnostico": "Aborto incompleto del segundo trimestre",
+   "tipo": "conducta",
+   "dificultad": "media",
+   "razonamiento": "OCI abierto con restos y cavidad con contenido heterogéneo = aborto incompleto. A las 14 semanas (>12) la evacuación es por legrado uterino; Rh(+) no requiere anti-D.",
+   "por_que_no": [
+    "AMEU es para ≤12 semanas.",
+    "Opción médica en el aborto retenido estable; aquí sangra activamente.",
+    "",
+    "Es el manejo de la amenaza con cuello cerrado.",
+    "Anti-D solo si la madre es Rh(−)."
+   ],
+   "trampa": [
+    "umbral",
+    "otro-estadio",
+    "",
+    "diferencial",
+    "otra-poblacion"
+   ],
+   "perla": "Aborto incompleto: AMEU <12 semanas, legrado >12.",
+   "fuente": {
+    "carpeta": "2. OBSTETRICIA",
+    "archivo": "29. HEMORRAGIA DE LA 1ERA MITAD.pdf",
+    "seccion": "Aborto"
+   },
+   "gemela_de": null
+  },
+  {
+   "id": "2026-10-23-manana-055",
+   "enunciado": "Varón de 62 años con palpitaciones recurrentes desde hace 3 semanas. PA 128/80 mmHg, FC 150X' regular. EKG: QRS estrecho; actividad auricular regular a 300/min, sin línea isoeléctrica entre ondas, negativas en II, III y aVF, con conducción 2:1. Ecocardiograma: FEVI 60 %, sin valvulopatía. Está anticoagulado y con betabloqueador, pero ha tenido 3 recurrencias en 2 meses. ¿Cuál es el tratamiento definitivo?",
+   "opciones": [
+    "Aislamiento eléctrico de las venas pulmonares",
+    "Ablación del istmo cavotricuspídeo",
+    "Amiodarona VO de mantenimiento indefinido",
+    "Cardioversión eléctrica sincronizada electiva",
+    "Ablación de la vía accesoria auriculoventricular"
+   ],
+   "clave": 2,
+   "especialidad": "Cardiología",
+   "tema": "Taquiarritmias · Tratamiento definitivo",
+   "diagnostico": "Flutter típico",
+   "tipo": "tratamiento",
+   "dificultad": "alta",
+   "razonamiento": "Actividad auricular regular a 300/min sin isoeléctrica, negativa en cara inferior y conducción 2:1 (FC 150) = flutter típico. Recurre pese a control farmacológico: el definitivo es la ablación del istmo cavotricuspídeo.",
+   "por_que_no": [
+    "Es el blanco en la FA, no en este circuito.",
+    "",
+    "Antiarrítmico de control, no curativo; útil si no se puede ablacionar.",
+    "Revierte el episodio agudo, no evita recurrencias.",
+    "Corresponde a preexcitación (PR corto, onda delta)."
+   ],
+   "trampa": [
+    "diferencial",
+    "",
+    "otro-momento",
+    "otro-momento",
+    "diferencial"
+   ],
+   "perla": "Ondas en sierra 300/min, FC 150: ablación del istmo cavotricuspídeo.",
+   "fuente": {
+    "carpeta": "9. CARDIOLOGIA",
+    "archivo": "6. ARRITMIAS.pdf",
+    "seccion": "Flutter, pág. 2"
+   },
+   "gemela_de": null
+  },
+  {
+   "id": "2026-10-23-manana-056",
+   "enunciado": "Niña de 30 meses acude a control CRED en un centro de salud de Huancavelica. Peso 9,6 kg, talla 80 cm, sin edema en pies ni en cara. Al graficar en las curvas OMS: peso para la talla −2,6 DE, talla para la edad −3,3 DE y peso para la edad −3,4 DE. La madre refiere diarreas frecuentes y alimentación basada en caldos. Según la norma técnica de CRED, ¿cómo se clasifica su estado nutricional?",
+   "opciones": [
+    "Desnutrición aguda severa con talla baja severa",
+    "Desnutrición aguda moderada con talla baja severa",
+    "Desnutrición aguda moderada con talla baja",
+    "Desnutrición global severa como clasificación principal",
+    "Desnutrición crónica sin compromiso agudo"
+   ],
+   "clave": 2,
+   "especialidad": "Pediatría",
+   "tema": "Crecimiento y desarrollo · Estado nutricional",
+   "diagnostico": "Emaciación moderada (P/T −2 a −3 DE) con talla baja severa (T/E <−3 DE)",
+   "tipo": "severidad",
+   "dificultad": "alta",
+   "razonamiento": "Paso 1: P/T entre −2 y −3 DE sin edema = desnutrición aguda moderada (emaciado). Paso 2: T/E <−3 DE = talla baja severa (crónica). Paso 3: el P/E solo resume el déficit global; el estado actual lo definen P/T y T/E.",
+   "por_que_no": [
+    "Severa exige P/T <−3 DE o edema bilateral; aquí es −2,6 sin edema.",
+    "",
+    "Talla baja es −2 a −3 DE; con −3,3 es severa.",
+    "El P/E no distingue agudo de crónico; no es la clasificación principal.",
+    "Ignora el P/T <−2 DE, que indica compromiso agudo."
+   ],
+   "trampa": [
+    "umbral",
+    "",
+    "umbral",
+    "no-confirmatorio",
+    "otro"
+   ],
+   "perla": "P/T: <−2 aguda, <−3 o edema severa; T/E: <−2 talla baja, <−3 talla baja severa.",
+   "fuente": {
+    "carpeta": "28. NT",
+    "archivo": "2. NT CRED.pdf",
+    "seccion": "Clasificación del estado nutricional (29 d a <5 a)"
+   },
+   "gemela_de": null
+  },
+  {
+   "id": "2026-10-23-manana-057",
+   "enunciado": "Mujer de 70 años con prótesis valvular mecánica, anticoagulada con warfarina. Fiebre, ictericia y dolor en hipocondrio derecho de 2 días. PA 82/50 mmHg tras 2 L de cristaloides, confusa. BT 6,2 mg/dl, FA 520 U/L, leucocitos 21 000, INR 3,8, plaquetas 80 000. Eco: colédoco de 13 mm con imagen hiperecogénica distal con sombra. Recibe ATB y noradrenalina. ¿Cómo se realiza el drenaje en las próximas horas?",
+   "opciones": [
+    "CPRE con esfinterotomía y extracción del cálculo",
+    "Colecistostomía percutánea guiada por ecografía",
+    "Drenaje biliar transhepático percutáneo",
+    "CPRE con drenaje nasobiliar, sin esfinterotomía",
+    "Colangiorresonancia y CPRE electiva a las 72 h"
+   ],
+   "clave": 4,
+   "especialidad": "Gastroenterología",
+   "tema": "Colangitis aguda · Drenaje",
+   "diagnostico": "Infección biliar obstructiva grave con coagulopatía",
+   "tipo": "conducta",
+   "dificultad": "muy alta",
+   "razonamiento": "Charcot + hipotensión y confusión = colangitis severa (Tokio): drenaje <24 h. Con INR 3,8 no corregible (prótesis mecánica) no se hace esfinterotomía: CPRE con stent externo nasobiliar.",
+   "por_que_no": [
+    "Esfinterotomía requiere coagulación normal.",
+    "Es para colecistitis severa sin colangitis.",
+    "Si no hay CPRE disponible u obstrucción maligna periampular.",
+    "",
+    "Ritmo de la colangitis moderada; esta es severa."
+   ],
+   "trampa": [
+    "otro-poblacion",
+    "diferencial",
+    "otro-contexto",
+    "",
+    "otro-estadio"
+   ],
+   "perla": "Colangitis severa con coagulopatía: CPRE con nasobiliar, sin esfinterotomía.",
+   "fuente": {
+    "carpeta": "1. CIRUGIA GENERAL",
+    "archivo": "13. COLANGITIS AGUDA.pdf",
+    "seccion": "Tratamiento, p. 1"
+   },
+   "gemela_de": null
+  },
+  {
+   "id": "2026-10-23-manana-058",
+   "enunciado": "Varón de 72 años con arritmia irregular sin anticoagulación. Hace 30 horas inició dolor súbito en la pierna izquierda; no consultó. Ahora la pierna está fría, con moteado violáceo fijo que no blanquea a la presión, anestesia completa hasta el tercio medio del muslo, parálisis con rigidez muscular. Pulso femoral izquierdo ausente; Doppler arterial y venoso sin señal en poplítea. CPK 18 000 U/L, K 5,4 mEq/L. ¿Cuál es la conducta?",
+   "opciones": [
+    "Embolectomía con catéter de Fogarty urgente",
+    "Amputación del miembro afectado",
+    "Trombólisis intraarterial dirigida por catéter",
+    "Bypass femoropoplíteo de emergencia",
+    "Heparina y revascularización electiva"
+   ],
+   "clave": 2,
+   "especialidad": "Cirugía Cardiovascular",
+   "tema": "Isquemia arterial aguda",
+   "diagnostico": "Isquemia arterial aguda irreversible (Rutherford III)",
+   "tipo": "conducta",
+   "dificultad": "alta",
+   "razonamiento": "Paso 1: dolor súbito con arritmia irregular = oclusión embólica. Paso 2: anestesia completa, parálisis rígida, moteado fijo y Doppler arterial y venoso ausentes = isquemia irreversible. Paso 3: amputación; revascularizar empeora por síndrome de reperfusión.",
+   "por_que_no": [
+    "Para déficit sensitivo-motor parcial (IIb), aún salvable.",
+    "",
+    "Opción en amenaza marginal (IIa) con parestesias leves.",
+    "Revascularización de emergencia para IIb; aquí agrava la reperfusión.",
+    "Para extremidad viable (I) con Doppler arterial presente."
+   ],
+   "trampa": [
+    "otro-estadio",
+    "",
+    "otro-estadio",
+    "otro-estadio",
+    "otro-estadio"
+   ],
+   "perla": "Rutherford III (anestesia + parálisis rígida + moteado fijo) = amputación.",
+   "fuente": {
+    "carpeta": "26. CX CARDIOVASCULAR",
+    "archivo": "14. ISQUEMIA AGUDA.pdf",
+    "seccion": "Clasificación de Rutherford y algoritmo"
+   },
+   "gemela_de": null
+  },
+  {
+   "id": "2026-10-23-manana-059",
+   "enunciado": "Varón de 68 años en su sexto día de hospitalización por neumonía con shock, ya resuelto; recibió amikacina. Diuresis de 200 mL en 24 horas pese a furosemida 80 mg EV cada 8 horas durante 48 horas. Presenta ortopnea, crepitantes hasta campos medios y SatO2 85 % con mascarilla de reservorio. PA 150/90 mmHg. Creatinina 6,1 mg/dL (ingreso 1,0), urea 210 mg/dL, K 5,4 mEq/L, pH 7,30, HCO3 16 mEq/L. FeNa 3,8 %, osmolaridad urinaria 290 mOsm/kg, cilindros granulosos. ¿Cuál es la conducta inmediata?",
+   "opciones": [
+    "Furosemida en infusión continua a dosis altas",
+    "Bicarbonato de sodio EV en infusión",
+    "Gluconato de calcio, insulina y dextrosa",
+    "Hemodiálisis de urgencia",
+    "Restricción hídrica y proteica estricta"
+   ],
+   "clave": 4,
+   "especialidad": "Nefrología",
+   "tema": "Injuria renal aguda",
+   "diagnostico": "Necrosis tubular aguda con edema pulmonar refractario: indicación de diálisis",
+   "tipo": "conducta",
+   "dificultad": "alta",
+   "razonamiento": "Paso 1: FeNa >1 %, osmolaridad urinaria <400 y cilindros granulosos = lesión renal intrínseca (NTA por shock y aminoglucósido). Paso 2: oliguria con edema pulmonar que no responde a diurético. Paso 3: edema pulmonar refractario es indicación de diálisis urgente.",
+   "por_que_no": [
+    "Ya fracasaron dosis altas de diurético; insistir retrasa la diálisis.",
+    "La acidosis (pH 7,30) no es refractaria ni grave; el bicarbonato añade sodio y volumen.",
+    "Es el manejo de hiperkalemia grave con cambios en el EKG; K 5,4 no lo requiere.",
+    "",
+    "No se restringen proteínas en la IRA y la restricción hídrica no resuelve el edema actual."
+   ],
+   "trampa": [
+    "otro-momento",
+    "otro-estadio",
+    "otro-estadio",
+    "",
+    "otro"
+   ],
+   "perla": "Diálisis urgente en IRA: edema pulmonar, K o acidosis refractarios, uremia grave (encefalopatía, pericarditis).",
+   "fuente": {
+    "carpeta": "14. NEFROLOGIA",
+    "archivo": "19. INJURIA RENAL AGUDA.pdf",
+    "seccion": "Manejo y complicaciones; índices urinarios"
+   },
+   "gemela_de": null
+  },
+  {
+   "id": "2026-10-23-manana-060",
+   "enunciado": "Mujer de 29 años con petequias y gingivorragia de 5 días; hoy presenta dos deposiciones melénicas y orina rojiza. Dos semanas antes tuvo rinofaringitis. PA 100/65 mmHg, FC 108 x', afebril, examen neurológico normal, sin esplenomegalia ni adenopatías. Hb 9,1 g/dL, leucocitos 7 200/mm3 con fórmula normal, plaquetas 4 000/mm3; frotis con plaquetas grandes y sin esquistocitos. TP y TTPa normales, LDH y creatinina normales. ¿Cuál es el tratamiento inicial?",
+   "opciones": [
+    "Prednisona 1 mg/kg/día por vía oral como monoterapia",
+    "Plasmaféresis diaria con reposición de plasma fresco",
+    "Eltrombopag oral asociado a dexametasona 40 mg",
+    "Esplenectomía de urgencia previa transfusión de plaquetas",
+    "Corticoide más inmunoglobulina EV y transfusión de plaquetas"
+   ],
+   "clave": 5,
+   "especialidad": "Hematología",
+   "tema": "Púrpuras",
+   "diagnostico": "Púrpura trombocitopénica inmune con sangrado grave",
+   "tipo": "tratamiento",
+   "dificultad": "alta",
+   "razonamiento": "Paso 1: plaquetopenia aislada posviral, frotis sin esquistocitos, coagulación normal = destrucción inmune. Paso 2: plaquetas <10 000 con sangrado digestivo y urinario activo = sangrado grave. Paso 3: corticoide + IGIV + plaquetas.",
+   "por_que_no": [
+    "Es el tratamiento si plaquetas <30 000 o sangrado leve, no con sangrado grave activo.",
+    "Es para PTT (esquistocitos, LDH alta, fiebre, compromiso neurológico).",
+    "Agonista TPO de segunda línea en refractarios.",
+    "Segunda línea en PTI crónica refractaria, no en el sangrado agudo.",
+    ""
+   ],
+   "trampa": [
+    "otro-estadio",
+    "diferencial",
+    "otro-momento",
+    "otro-momento",
+    ""
+   ],
+   "perla": "PTI con sangrado grave: corticoide + IGIV + plaquetas; plaquetas solo si sangra.",
+   "fuente": {
+    "carpeta": "16. HEMATOLOGIA",
+    "archivo": "20. PURPURAS.pdf",
+    "seccion": "PTI · tratamiento"
+   },
+   "gemela_de": null
+  },
+  {
+   "id": "2026-10-23-manana-061",
+   "enunciado": "Mujer de 72 años traída por somnolencia progresiva de 3 días tras una infección urinaria. Tiroidectomía total hace 10 años; abandonó su medicación. T° 34,2 °C, FC 44X', PA 90/60 mmHg, FR 10X'. Piel seca, edema periorbitario sin fóvea, reflejos con relajación lenta. Na 124 mEq/L, glucosa 58 mg/dl; AGA: pH 7,28, PaCO2 62 mmHg. TSH 68 µUI/ml, T4L 0,2 ng/dl. ¿Cuál es el tratamiento inicial?",
+   "opciones": [
+    "Levotiroxina EV en bolo como primer fármaco",
+    "Levotiroxina VO 25 µg/día con titulación lenta",
+    "Hidrocortisona 100 mg EV c/8 h y luego levotiroxina EV",
+    "NaCl al 3 % EV antes de cualquier hormona",
+    "Dexametasona EV sin reponer hormona tiroidea"
+   ],
+   "clave": 3,
+   "especialidad": "Endocrinología",
+   "tema": "Hipotiroidismo · Crisis",
+   "diagnostico": "Coma mixedematoso",
+   "tipo": "conducta",
+   "dificultad": "muy alta",
+   "razonamiento": "Sensorio alterado + hipotermia + bradicardia + hiponatremia + hipoglucemia + hipercapnia con TSH muy alta y T4L baja = crisis mixedematosa. Sin descartar insuficiencia suprarrenal: primero hidrocortisona, luego levotiroxina EV.",
+   "por_que_no": [
+    "La T4 sola puede precipitar crisis adrenal; va después del corticoide.",
+    "Es la pauta del hipotiroideo anciano estable, no de la crisis.",
+    "",
+    "El sodio mejora con el tratamiento; el 3 % es para convulsión o coma por Na.",
+    "El corticoide solo no corrige el déficit tiroideo."
+   ],
+   "trampa": [
+    "otro-momento",
+    "otra-poblacion",
+    "",
+    "otro",
+    "mismo-grupo"
+   ],
+   "perla": "Mixedema: primero hidrocortisona, luego T4 EV.",
+   "fuente": {
+    "carpeta": "11. ENDOCRINOLOGIA",
+    "archivo": "11. HIPOTIROIDISMO.pdf",
+    "seccion": "Crisis mixedematosa"
+   },
+   "gemela_de": null
+  },
+  {
+   "id": "2026-10-23-manana-062",
+   "enunciado": "Varón de 45 años con úlcera en cara posterior del bulbo duodenal y test rápido de ureasa positivo en la biopsia. Hace 1 semana terminó 14 días de omeprazol, bismuto, metronidazol y tetraciclina. Continúa con omeprazol 20 mg/día, indicado por 4 semanas más. Está asintomático, sin anemia ni sangrado. Desea saber si la bacteria desapareció. ¿Cómo debe confirmarse?",
+   "opciones": [
+    "Serología IgG en 4 semanas",
+    "Test del aliento ahora, sin suspender omeprazol",
+    "EDA con biopsia a las 8 semanas",
+    "Test del aliento ≥4 semanas post-ATB y 2 sin IBP",
+    "Antígeno en heces al 7.º día de terminar ATB"
+   ],
+   "clave": 4,
+   "especialidad": "Gastroenterología",
+   "tema": "Helicobacter pylori · Diagnóstico",
+   "diagnostico": "Comprobación de curación tras tratamiento antibacteriano",
+   "tipo": "prueba",
+   "dificultad": "alta",
+   "razonamiento": "Úlcera duodenal con ureasa positiva = infección tratada con cuádruple. La comprobación es con test de aliento ≥4 semanas tras ATB y con IBP suspendido 2 semanas (evita falsos negativos).",
+   "por_que_no": [
+    "La serología no distingue infección activa de pasada.",
+    "El IBP da falsos negativos; suspender 2 semanas antes.",
+    "La EDA de control es para úlcera gástrica, no duodenal no complicada.",
+    "",
+    "Demasiado pronto: falsos negativos antes de 4 semanas."
+   ],
+   "trampa": [
+    "no-confirmatorio",
+    "otro-momento",
+    "otra-poblacion",
+    "",
+    "umbral"
+   ],
+   "perla": "Control de erradicación: aliento ≥4 sem post-ATB, 2 sem sin IBP.",
+   "fuente": {
+    "carpeta": "5.GASTROENTEROLOGIA",
+    "archivo": "11. ciclo de HP.pdf / 10. UP.pdf",
+    "seccion": "Diagnóstico"
+   },
+   "gemela_de": null
+  },
+  {
+   "id": "2026-10-23-manana-063",
+   "enunciado": "Gestante de 30 años, 35 semanas, con PA 168/112 mmHg, cefalea y proteinuria 3+, recibe sulfato de magnesio 1 g/h desde hace 14 horas tras la dosis de ataque. En el control horario: lúcida, FR 18 X', SatO2 97 %, FC 86 X', PA 148/96 mmHg. Reflejos rotulianos ausentes bilateralmente y diuresis de 80 ml en las últimas 4 horas. Creatinina 1,4 mg/dL. Latidos fetales 140 X'. ¿Cuál es la conducta inmediata respecto al anticonvulsivante?",
+   "opciones": [
+    "Administrar gluconato de calcio 10 % 10 ml EV en 10 minutos",
+    "Suspender la infusión de sulfato de magnesio y vigilar",
+    "Mantener 1 g/h y agregar furosemida para mejorar la diuresis",
+    "Reducir la infusión a 0,5 g/h por la creatinina elevada",
+    "Pasar un bolo de 2 g de sulfato de magnesio y seguir a 1 g/h"
+   ],
+   "clave": 2,
+   "especialidad": "Obstetricia",
+   "tema": "Trastornos hipertensivos del embarazo",
+   "diagnostico": "Toxicidad inicial por sulfato de magnesio en preeclampsia con criterios de severidad, sin depresión respiratoria",
+   "tipo": "conducta",
+   "dificultad": "muy alta",
+   "razonamiento": "Paso 1: arreflexia y oliguria (<100 ml en 4 h) = signos de toxicidad por Mg (excreción renal reducida, creatinina 1,4). Paso 2: FR 18 y conciencia normal = sin depresión respiratoria. Paso 3: la norma indica suspender el MgSO4; el gluconato se reserva para depresión respiratoria o de conciencia.",
+   "por_que_no": [
+    "Gluconato de calcio se da si además hay depresión respiratoria (FR <14) o de conciencia; aquí no la hay.",
+    "",
+    "La furosemida no corrige la toxicidad; seguir infundiendo con arreflexia es peligroso.",
+    "Se administra con prudencia en insuficiencia renal cuando los reflejos están presentes; con arreflexia se suspende.",
+    "El bolo adicional de 2 g es para convulsión recurrente, no para toxicidad."
+   ],
+   "trampa": [
+    "otro-estadio",
+    "",
+    "otro",
+    "otro-contexto",
+    "otro-momento"
+   ],
+   "perla": "Arreflexia u oliguria: suspender Mg; si además FR <14 o somnolencia: gluconato de calcio.",
+   "fuente": {
+    "carpeta": "2. OBSTETRICIA",
+    "archivo": "36. CLAVE AZUL.pdf",
+    "seccion": "Monitoreo del SO4Mg"
+   },
+   "gemela_de": null
+  },
+  {
+   "id": "2026-10-23-manana-064",
+   "enunciado": "Gestante de 29 años, de 31 semanas, IMC 27. A las 26 semanas su PTOG de 75 g mostró ayunas 87, 1 hora 172 y 2 horas 158 mg/dL. Inició terapia nutricional de 30 kcal/kg/día y caminatas diarias con buena adherencia. Tras 2 semanas, su automonitoreo capilar muestra ayunas 82-88, 1 hora posprandial 128-136 y 2 horas posprandial 124-131 mg/dL. Ecografía: ponderado fetal en percentil 88 e ILA 22 cm. ¿Cuál es la conducta indicada?",
+   "opciones": [
+    "Continuar dieta y ejercicio con control en 2 semanas",
+    "Reducir el aporte a 25 kcal/kg y repetir el perfil",
+    "Programar la inducción del parto a las 34 semanas",
+    "Iniciar glibenclamida manteniendo dieta y ejercicio",
+    "Iniciar insulina manteniendo dieta y ejercicio"
+   ],
+   "clave": 5,
+   "especialidad": "Obstetricia",
+   "tema": "Diabetes gestacional",
+   "diagnostico": "Diabetes gestacional con meta posprandial de 2 horas no alcanzada",
+   "tipo": "tratamiento",
+   "dificultad": "alta",
+   "razonamiento": "Paso 1: PTOG con 2 h ≥153 = diabetes gestacional (basta un valor). Paso 2: metas ayunas <90 y 1 h <140 cumplidas, pero 2 h <120 no (124-131). Paso 3: fracaso de dieta y ejercicio → insulina.",
+   "por_que_no": [
+    "Las metas de 2 horas no se cumplen pese a buena adherencia; seguir igual retrasa el control.",
+    "25 kcal/kg es para IMC >30; su IMC es 27.",
+    "No hay indicación obstétrica de terminar la gestación a las 34 semanas.",
+    "La glibenclamida está contraindicada según la fuente.",
+    ""
+   ],
+   "trampa": [
+    "otro-momento",
+    "otra-poblacion",
+    "otro",
+    "mismo-grupo",
+    ""
+   ],
+   "perla": "DMG: metas ayunas <90, 1 h <140, 2 h <120; si no se logran con dieta → insulina.",
+   "fuente": {
+    "carpeta": "2. OBSTETRICIA",
+    "archivo": "8. DM GESTACIONAL.pdf",
+    "seccion": "Tratamiento y metas"
+   },
+   "gemela_de": null
+  },
+  {
+   "id": "2026-10-23-manana-065",
+   "enunciado": "Mujer de 66 años con 3 meses de fatiga y lengua lisa dolorosa. Hb 8,4 g/dl, VCM 118 fl, leucocitos 3 200/mm³, plaquetas 110 000/mm³, reticulocitos 0,4 %, LDH 980 U/L, neutrófilos con 6 lóbulos. Anticuerpos anticélulas parietales positivos. En su centro de salud recibió solo ácido fólico oral por 6 semanas: Hb subió a 10,5 g/dl. Ahora refiere hormigueo en pies y marcha inestable; Romberg positivo y sensibilidad vibratoria abolida en miembros inferiores. ¿Qué explica el cuadro neurológico?",
+   "opciones": [
+    "Neurotoxicidad directa por dosis altas de ácido fólico",
+    "Ferropenia oculta desenmascarada por la respuesta medular",
+    "Progresión de la mielosis funicular por déficit de B12 no tratado",
+    "Neuropatía por déficit de folato aún no corregido",
+    "Síndrome paraneoplásico por atrofia gástrica premaligna"
+   ],
+   "clave": 3,
+   "especialidad": "Hematología",
+   "tema": "Anemia megaloblástica",
+   "diagnostico": "Déficit de vitamina B12 por gastritis atrófica tratado solo con folato",
+   "tipo": "complicacion",
+   "dificultad": "muy alta",
+   "razonamiento": "Paso 1: macrocitosis con pancitopenia, reticulocitos bajos y polisegmentados = megaloblástica; anticélulas parietales = falta de factor intrínseco (B12). Paso 2: el folato corrige parcialmente la anemia pero no la B12. Paso 3: el daño de cordones posteriores progresa: mielosis funicular.",
+   "por_que_no": [
+    "El folato no es neurotóxico; el problema es que oculta el déficit de B12.",
+    "La ferropenia oculta se sospecha si cae el VCM y sube el RDW, sin cuadro medular.",
+    "",
+    "El folato no produce mielosis funicular y además ya fue repuesto.",
+    "La atrofia gástrica es premaligna para cáncer gástrico, no explica la ataxia propioceptiva."
+   ],
+   "trampa": [
+    "otro",
+    "otro-momento",
+    "",
+    "diferencial",
+    "otro"
+   ],
+   "perla": "Primero B12, luego folato: el folato solo mejora la Hb y deja avanzar la mielosis.",
+   "fuente": {
+    "carpeta": "16. HEMATOLOGIA",
+    "archivo": "11. ANEMIA MACROCITICA.pdf",
+    "seccion": "Tratamiento"
+   },
+   "gemela_de": null
+  },
+  {
+   "id": "2026-10-23-manana-066",
+   "enunciado": "Varón de 66 años con dolor súbito nocturno, rubor y edema en la primera articulación metatarsofalángica izquierda desde hace 12 horas. Antecedentes: ERC con TFG de 25 ml/min, úlcera gástrica sangrante hace 1 mes y HTA tratada con hidroclorotiazida. T° 37,8 °C. Artrocentesis: cristales en forma de aguja con birrefringencia negativa; Gram sin gérmenes. ¿Cuál es el tratamiento más adecuado de este episodio?",
+   "opciones": [
+    "Naproxeno 500 mg VO cada 12 horas",
+    "Colchicina VO a dosis plena por 5 días",
+    "Alopurinol 300 mg VO al día desde hoy",
+    "Prednisona VO en ciclo corto de 5 días",
+    "Indometacina VO más omeprazol 40 mg"
+   ],
+   "clave": 4,
+   "especialidad": "Reumatología",
+   "tema": "Gota · Crisis aguda",
+   "diagnostico": "Podagra por urato con contraindicación de AINE",
+   "tipo": "tratamiento",
+   "dificultad": "alta",
+   "razonamiento": "Cristales en aguja con birrefringencia negativa en podagra = crisis por urato. Los AINE están contraindicados (sangrado digestivo reciente y TFG 25) y la colchicina se limita en ERC avanzada; por contraindicación corresponde corticoide sistémico.",
+   "por_que_no": [
+    "AINE es 1.ª línea, pero aquí hay úlcera sangrante y ERC.",
+    "Es 2.ª opción, pero con TFG 25 su toxicidad aumenta; útil con función renal normal.",
+    "El hipouricemiante no se inicia en pleno ataque; sí fuera de crisis.",
+    "",
+    "El IBP no elimina el daño renal ni el riesgo de resangrado del AINE."
+   ],
+   "trampa": [
+    "otro-poblacion",
+    "otro-poblacion",
+    "otro-momento",
+    "",
+    "mismo-grupo"
+   ],
+   "perla": "Gota aguda con AINE y colchicina contraindicados: corticoide.",
+   "fuente": {
+    "carpeta": "20.REUMATOLOGIA",
+    "archivo": "10. GOTA.pdf",
+    "seccion": "Tratamiento, p. 1"
+   },
+   "gemela_de": null
+  },
+  {
+   "id": "2026-10-23-manana-067",
+   "enunciado": "Varón de 70 años en su 8.º día de hospitalización por neumonía, tratado con ceftriaxona y clindamicina. Tiene 4 días de diarrea con moco y hace 24 horas dejó de deponer, con distensión abdominal dolorosa. PA 82/50 mmHg pese a 2 L de cristaloides, requiere noradrenalina; T° 38,9 °C, ruidos hidroaéreos ausentes. Leucocitos 28 000/mm³, lactato 4 mmol/L. Radiografía: colon transverso de 7,5 cm. La toxina B en heces del inicio fue positiva. ¿Cuál es el tratamiento antimicrobiano?",
+   "opciones": [
+    "Vancomicina 125 mg VO c/6 h por 10 días",
+    "Vancomicina 500 mg VO c/6 h y metronidazol EV",
+    "Metronidazol 500 mg VO c/8 h por 10 días",
+    "Fidaxomicina 200 mg VO c/12 h por 10 días",
+    "Vancomicina 1 g EV c/12 h y metronidazol VO"
+   ],
+   "clave": 2,
+   "especialidad": "Gastroenterología",
+   "tema": "Diarrea asociada a antibióticos",
+   "diagnostico": "Colitis fulminante por Clostridioides difficile con dilatación colónica",
+   "tipo": "tratamiento",
+   "dificultad": "muy alta",
+   "razonamiento": "Paso 1: diarrea tras clindamicina/ceftriaxona con toxina B positiva. Paso 2: shock, íleo y colon >6 cm = forma fulminante con megacolon. Paso 3: vancomicina oral 500 mg c/6 h + metronidazol 500 mg EV c/8 h, y evaluar cirugía.",
+   "por_que_no": [
+    "Es el tratamiento de la forma grave sin shock ni íleo (leucocitos ≥15 000).",
+    "",
+    "Es para la forma leve a moderada (leucocitos <15 000).",
+    "Es alternativa de la forma grave, no de la fulminante.",
+    "La vancomicina EV no llega a la luz colónica."
+   ],
+   "trampa": [
+    "otro-estadio",
+    "",
+    "otro-estadio",
+    "otro-estadio",
+    "mismo-grupo"
+   ],
+   "perla": "C. difficile: leve metronidazol VO; grave vanco 125 VO; fulminante vanco 500 VO + metronidazol EV.",
+   "fuente": {
+    "carpeta": "5.GASTROENTEROLOGIA",
+    "archivo": "27. patologia intestinal.pdf",
+    "seccion": "Colitis pseudomembranosa"
+   },
+   "gemela_de": null
+  },
+  {
+   "id": "2026-10-23-manana-068",
+   "enunciado": "Mujer de 46 años con 6 semanas de erosiones dolorosas en mucosa yugal, encías y paladar que le impiden comer sólidos; no presenta lesiones en piel. Al frotar suavemente la mucosa sana vecina se desprende el epitelio. Biopsia: hendidura intraepidérmica suprabasal con queratinocitos redondeados y sueltos dentro de la cavidad. Inmunofluorescencia directa: depósitos de IgG y C3 en la superficie de los queratinocitos con patrón en red. ¿Contra qué estructura se dirigen los anticuerpos?",
+   "opciones": [
+    "Desmogleína 3 de los desmosomas",
+    "Desmogleína 1 de los desmosomas",
+    "Antígeno BP180 del hemidesmosoma",
+    "Transglutaminasa epidérmica",
+    "Colágeno VII de fibrillas de anclaje"
+   ],
+   "clave": 1,
+   "especialidad": "Dermatología",
+   "tema": "Pénfigo",
+   "diagnostico": "Pénfigo vulgar de predominio mucoso",
+   "tipo": "mecanismo",
+   "dificultad": "alta",
+   "razonamiento": "Paso 1: erosiones mucosas con desprendimiento al frote (Nikolsky) y acantólisis suprabasal. Paso 2: IFD intercelular en red = enfermedad por IgG contra desmosomas con predominio mucoso. Paso 3: el antígeno mucoso es la desmogleína 3.",
+   "por_que_no": [
+    "",
+    "Desmogleína 1 es el blanco de la forma foliácea: solo piel, costras y descamación, sin mucosas.",
+    "BP180 se afecta en la ampolla tensa subepidérmica, Nikolsky negativo, del adulto mayor.",
+    "Es el blanco de la dermatitis herpetiforme, con vesículas pruriginosas y depósito de IgA en papilas.",
+    "Las fibrillas de anclaje se afectan en ampollas subepidérmicas por fragilidad, no en acantólisis."
+   ],
+   "trampa": [
+    "",
+    "diferencial",
+    "diferencial",
+    "diferencial",
+    "otro"
+   ],
+   "perla": "Mucosa + Nikolsky + red de IgG = desmogleína 3; solo piel con costras = desmogleína 1.",
+   "fuente": {
+    "carpeta": "19. DERMATOLOGIA",
+    "archivo": "6. PENFIGO.pdf",
+    "seccion": "p. 1"
+   },
+   "gemela_de": null
+  },
+  {
+   "id": "2026-10-23-manana-069",
+   "enunciado": "Varón de 45 años, asintomático, con HBsAg positivo detectado hace 2 años en un banco de sangre. Hoy: ALT 156 U/L (valor normal hasta 40), AST 98 U/L, bilirrubina 0,9 mg/dL, plaquetas 210 000, INR 1,0. Marcadores: HBsAg positivo, anti-HBc IgG positivo, anti-HBc IgM negativo, HBeAg negativo, anti-HBe positivo, ADN viral 48 000 UI/mL. Ecografía: hígado de ecoestructura normal, sin ascitis. ¿Cuál es la conducta terapéutica?",
+   "opciones": [
+    "Control de transaminasas y carga viral cada 6 meses",
+    "Iniciar tenofovir y mantener la supresión viral",
+    "Esperar seroconversión a anti-HBs antes de tratar",
+    "Repetir el HBeAg en 6 meses antes de decidir",
+    "Aplicar inmunoglobulina anti-HB y vacunar"
+   ],
+   "clave": 2,
+   "especialidad": "Gastroenterología",
+   "tema": "Hepatitis viral",
+   "diagnostico": "Infección crónica por virus B HBeAg negativo con replicación (mutante precore)",
+   "tipo": "tratamiento",
+   "dificultad": "muy alta",
+   "razonamiento": "Paso 1: HBsAg >6 meses con anti-HBc IgG = infección crónica. Paso 2: HBeAg negativo pero ADN 48 000 UI/mL = replicación activa (mutante precore), con ALT >2× normal. Paso 3: CV >2000 y ALT >2× indican antiviral: tenofovir o entecavir.",
+   "por_que_no": [
+    "Vigilar sin tratar es para el estado no replicativo (ADN bajo, ALT normal).",
+    "",
+    "La seroconversión a anti-HBs es rara; esperarla deja progresar la fibrosis.",
+    "El HBeAg negativo no excluye replicación; la decisión se basa en ADN y ALT.",
+    "Inmunoglobulina y vacuna son para expuestos no infectados."
+   ],
+   "trampa": [
+    "diferencial",
+    "",
+    "otro",
+    "otro",
+    "otro-contexto"
+   ],
+   "perla": "HBeAg negativo con ADN alto = precore: trata si CV >2000 o ALT >2×.",
+   "fuente": {
+    "carpeta": "5.GASTROENTEROLOGIA",
+    "archivo": "19. hepatitis.pdf",
+    "seccion": "Marcadores y tratamiento del virus B"
+   },
+   "gemela_de": null
+  },
+  {
+   "id": "2026-10-23-manana-070",
+   "enunciado": "Mujer de 47 años, en el noveno día posoperatorio de una histerectomía abdominal, presenta disnea súbita, dolor torácico pleurítico y esputo con estrías de sangre. PA 128/78 mmHg, FC 112 x', FR 26 x', SatO2 91 %. Miembros inferiores sin edema ni asimetría. Radiografía de tórax con infiltrado basal tenue; el médico considera una neumonía igual de probable. EKG: taquicardia sinusal. Creatinina 0,8 mg/dL, sin alergias. Dímero D 2 400 ng/mL. ¿Qué examen se solicita a continuación?",
+   "opciones": [
+    "Gammagrafía de ventilación/perfusión",
+    "Angiografía pulmonar convencional",
+    "Ecocardiografía transtorácica urgente",
+    "Angiotomografía de arterias pulmonares",
+    "Ecografía Doppler venosa de miembros inferiores"
+   ],
+   "clave": 4,
+   "especialidad": "Neumología",
+   "tema": "Tromboembolismo pulmonar",
+   "diagnostico": "Sospecha de embolia pulmonar con probabilidad moderada y dímero D positivo",
+   "tipo": "prueba",
+   "dificultad": "alta",
+   "razonamiento": "Paso 1: Wells = cirugía reciente 1,5 + FC >100 1,5 + hemoptisis 1 = 4 → probabilidad moderada. Paso 2: con probabilidad moderada se pide dímero D, que salió positivo. Paso 3: función renal normal y sin alergia → angioTEM.",
+   "por_que_no": [
+    "Alternativa si alergia al contraste o ERC moderada-severa.",
+    "Es el gold standard invasivo; no es el examen de elección.",
+    "Útil en el paciente inestable no trasladable; ella está estable.",
+    "",
+    "Se prefiere si hay signos de TVP o en gestantes; aquí no hay signos en miembros inferiores."
+   ],
+   "trampa": [
+    "otra-poblacion",
+    "no-confirmatorio",
+    "otro-estadio",
+    "",
+    "otra-poblacion"
+   ],
+   "perla": "TEP: Wells bajo/moderado → dímero D; positivo o Wells alto → angioTEM.",
+   "fuente": {
+    "carpeta": "6.NEUMOLOGIA",
+    "archivo": "20.TEP.pdf",
+    "seccion": "Wells y diagnóstico"
+   },
+   "gemela_de": null
+  },
+  {
+   "id": "2026-10-23-manana-071",
+   "enunciado": "Lactante de 9 meses con rinorrea de 3 días, seguida de tos, sibilancias y tiraje subcostal. Padre asmático. Es su primer episodio. FR 48X', FC 140X', T° 37,6 °C, SatO2 94 % (Lima). Se le nebuliza salbutamol 0,15 mg/kg con 3 ml de SF; a los 60 minutos persisten FR 48X', el mismo tiraje y las mismas sibilancias, SatO2 94 %. Lacta bien y está hidratado. ¿Cuál es la conducta siguiente?",
+   "opciones": [
+    "Repetir salbutamol cada 20 minutos por una hora",
+    "Suspender salbutamol y mantener medidas de soporte",
+    "Añadir prednisolona 1 mg/kg/día por 3 días",
+    "Nebulizar adrenalina y observar por 4 horas",
+    "Iniciar oxígeno por cánula nasal a 1 L/min"
+   ],
+   "clave": 2,
+   "especialidad": "Pediatría",
+   "tema": "Bronquiolitis · Prueba con broncodilatador",
+   "diagnostico": "Bronquiolitis sin respuesta a beta-2",
+   "tipo": "conducta",
+   "dificultad": "alta",
+   "razonamiento": "Primer episodio sibilante tras catarro en <2 años = cuadro viral bronquiolar. La prueba con salbutamol se justificaba por atopia familiar, pero sin respuesta objetiva no se continúa; el manejo es soporte (aspiración, hidratación, cabecera elevada).",
+   "por_que_no": [
+    "Solo se continúa si hubo respuesta objetiva; aquí no la hubo.",
+    "",
+    "Los corticoides no se usan; sí en crisis asmática.",
+    "Adrenalina no se usa de rutina en este cuadro.",
+    "El O2 se indica con SatO2 <92 %; aquí es 94 %."
+   ],
+   "trampa": [
+    "otro-momento",
+    "",
+    "diferencial",
+    "otro",
+    "umbral"
+   ],
+   "perla": "Salbutamol de prueba: sin respuesta objetiva, se suspende.",
+   "fuente": {
+    "carpeta": "4.PEDIATRIA",
+    "archivo": "10. BRONQUIOLITIS.pdf",
+    "seccion": "Manejo inicial, pág. 1"
+   },
+   "gemela_de": null
+  },
+  {
+   "id": "2026-10-23-manana-072",
+   "enunciado": "Mujer de 26 años, sin hijos, a quien se le realizó AMEU hace 7 semanas por gestación molar completa. Controles semanales de β-hCG (mUI/mL): 52 000, 8 400, 3 100, 3 050, 3 200 y 3 900. Refiere tos seca. Ecografía: útero de 8 cm sin contenido endocavitario. Radiografía de tórax: dos nódulos de 1 cm en el pulmón derecho. TEM cerebral y hepática normales. Desea tener hijos. ¿Cuál es el tratamiento indicado?",
+   "opciones": [
+    "Nuevo legrado uterino evacuador",
+    "Histerectomía total conservando anexos",
+    "Quimioterapia con metotrexato como agente único",
+    "Poliquimioterapia con esquema EMA-CO",
+    "β-hCG semanal hasta completar tres controles"
+   ],
+   "clave": 3,
+   "especialidad": "Obstetricia",
+   "tema": "Enfermedad trofoblástica gestacional",
+   "diagnostico": "Neoplasia trofoblástica gestacional de bajo riesgo con metástasis pulmonar",
+   "tipo": "tratamiento",
+   "dificultad": "muy alta",
+   "razonamiento": "Paso 1: la β-hCG se estanca y luego sube tras la evacuación = enfermedad trofoblástica persistente. Paso 2: nódulos pulmonares sin compromiso cerebral/hepático = estadio III; β-hCG <40 000 y <4 meses = bajo riesgo. Paso 3: QT sistémica con metotrexato.",
+   "por_que_no": [
+    "El útero está vacío; repetir legrado no trata la enfermedad metastásica.",
+    "Se reserva para sangrado grave, perforación, resistencia a QT o sin deseo genésico.",
+    "",
+    "Es para estadio IV (cerebro, hígado) o alto riesgo.",
+    "La meseta y el ascenso ya obligan a tratar; seguir observando es el control de la evacuación normal."
+   ],
+   "trampa": [
+    "otro-momento",
+    "otra-poblacion",
+    "",
+    "otro-estadio",
+    "otro-momento"
+   ],
+   "perla": "β-hCG en meseta o en ascenso tras la evacuación = NTG; pulmón → MTX; cerebro/hígado → EMA-CO.",
+   "fuente": {
+    "carpeta": "2. OBSTETRICIA",
+    "archivo": "29. HEMORRAGIA DE LA 1ERA MITAD.pdf",
+    "seccion": "Neoplasia trofoblástica gestacional, p. 2"
+   },
+   "gemela_de": null
+  },
+  {
+   "id": "2026-10-23-manana-073",
+   "enunciado": "Mujer de 38 años, G2P2, sin síntomas, acude a su tamizaje. Hace 3 años su citología fue negativa. Hoy la citología cervical informa negativa para lesión intraepitelial, con zona de transformación representada, y la prueba molecular de VPH de alto riesgo es positiva. La genotipificación refleja detecta VPH 16. Al especuloscopia el cuello es macroscópicamente normal. No está gestando. ¿Cuál es la conducta que corresponde?",
+   "opciones": [
+    "Repetir citología y prueba de VPH en 12 meses",
+    "Escisión con asa de la zona de transformación",
+    "Repetir solo la citología en 3 años",
+    "Inspección visual con ácido acético y crioterapia",
+    "Derivar a colposcopía con biopsia dirigida"
+   ],
+   "clave": 5,
+   "especialidad": "Ginecología",
+   "tema": "Cáncer de cuello uterino y tamizaje",
+   "diagnostico": "Citología negativa con VPH 16 positivo",
+   "tipo": "conducta",
+   "dificultad": "alta",
+   "razonamiento": "Paso 1: citología negativa pero VPH-AR positivo obliga a genotipificar. Paso 2: VPH 16/18 es de mayor riesgo oncogénico. Paso 3: con 16/18 se deriva a colposcopía (biopsia si hay zona sospechosa), aun con citología normal.",
+   "por_que_no": [
+    "Repetir en 1 año es para VPH positivo de otros genotipos distintos de 16/18.",
+    "LEEP se indica con NIC 2-3 confirmado por biopsia, no sin histología.",
+    "Repetir a 3 años es para citología negativa con VPH negativo.",
+    "Ver y tratar con IVAA es la estrategia de primer nivel sin prueba molecular.",
+    ""
+   ],
+   "trampa": [
+    "otro-contexto",
+    "otro-momento",
+    "otro-estadio",
+    "otro-contexto",
+    ""
+   ],
+   "perla": "VPH+ con citología normal: 16/18 → colposcopía; otros → repetir en 1 año.",
+   "fuente": {
+    "carpeta": "3.GINECOLOGIA",
+    "archivo": "8. CA DE CERVIX.pdf",
+    "seccion": "Escenarios de tamizaje"
+   },
+   "gemela_de": null
+  },
+  {
+   "id": "2026-10-23-manana-074",
+   "enunciado": "Varón de 70 años, exfumador de 40 paquetes-año, con VEF1/CVF posbroncodilatador de 0,58. Desde hace 3 días su esputo cambió de blanco a verde, sin aumento de la disnea ni del volumen de expectoración. T° 37,4 °C, FR 22 x', SatO2 89 % al aire ambiente, sibilantes dispersos. Radiografía sin consolidación. AGA: pH 7,37; PaCO2 56 mmHg; HCO3 32 mEq/L; PaO2 56 mmHg. Recibe salbutamol con ipratropio y prednisona 40 mg. ¿Qué indicación antimicrobiana corresponde?",
+   "opciones": [
+    "Sin antibiótico por no cumplir los tres criterios",
+    "Oseltamivir 75 mg cada 12 horas por 5 días",
+    "Amoxicilina con ácido clavulánico por 5 a 7 días",
+    "Ceftriaxona más azitromicina EV por 7 días",
+    "Piperacilina-tazobactam EV por 10 a 14 días"
+   ],
+   "clave": 3,
+   "especialidad": "Neumología",
+   "tema": "EPOC",
+   "diagnostico": "Exacerbación de EPOC con esputo purulento e hipercapnia compensada",
+   "tipo": "tratamiento",
+   "dificultad": "alta",
+   "razonamiento": "Paso 1: pH normal con PaCO2 y HCO3 altos = hipercapnia crónica compensada (no requiere VNI). Paso 2: el esputo purulento solo ya justifica antibiótico en la exacerbación. Paso 3: amoxicilina-clavulánico 5-7 días (H. influenzae, Moraxella, neumococo).",
+   "por_que_no": [
+    "La purulencia del esputo por sí sola indica antibiótico; no se necesitan los tres criterios.",
+    "Antiviral para influenza con cuadro gripal en temporada; aquí el dato es la purulencia.",
+    "",
+    "Esquema de neumonía adquirida en la comunidad grave; la radiografía no muestra consolidación.",
+    "Cubre Pseudomonas (bronquiectasias, hospitalizaciones repetidas); no hay ese riesgo."
+   ],
+   "trampa": [
+    "umbral",
+    "otro-contexto",
+    "",
+    "diferencial",
+    "otro-contexto"
+   ],
+   "perla": "Exacerbación de EPOC: esputo purulento = antibiótico (amoxicilina-clavulánico 5-7 días).",
+   "fuente": {
+    "carpeta": "6.NEUMOLOGIA",
+    "archivo": "12. EPOC.pdf",
+    "seccion": "Exacerbación (Anthonisen)"
+   },
+   "gemela_de": null
+  },
+  {
+   "id": "2026-10-23-manana-075",
+   "enunciado": "Varón de 40 años, asintomático, evaluado en el banco de sangre. RPR reactivo 1:16 y FTA-ABS reactivo. No recuerda úlceras ni erupciones. Tuvo un RPR no reactivo en un control laboral hace 3 años; no hay controles posteriores. Examen físico y neurológico normales, VIH negativo, sin alergias. Pareja estable desde hace 2 años. ¿Cuál es el tratamiento indicado?",
+   "opciones": [
+    "Penicilina G benzatínica 2,4 M UI IM dosis única",
+    "Penicilina G acuosa 3-4 M UI EV c/4 h por 14 días",
+    "Doxiciclina 100 mg VO cada 12 horas por 14 días",
+    "Ceftriaxona 1 g IM diaria por 10 días",
+    "Penicilina G benzatínica 2,4 M UI IM semanal × 3"
+   ],
+   "clave": 5,
+   "especialidad": "Infectología",
+   "tema": "Sífilis · Tratamiento por estadio",
+   "diagnostico": "Infección treponémica de duración desconocida",
+   "tipo": "tratamiento",
+   "dificultad": "alta",
+   "razonamiento": "Treponémica y no treponémica reactivas sin lesiones = infección latente. Seroconversión en un lapso >1 año sin poder fecharla = latente tardía (o de duración desconocida): penicilina benzatínica semanal × 3.",
+   "por_que_no": [
+    "Dosis única es para primaria, secundaria o latente temprana.",
+    "Esquema de neurosífilis; aquí examen neurológico normal.",
+    "Alternativa solo en alérgico no gestante.",
+    "Alternativa en alérgico; no hay alergia.",
+    ""
+   ],
+   "trampa": [
+    "otro-estadio",
+    "otro-estadio",
+    "otra-poblacion",
+    "otra-poblacion",
+    ""
+   ],
+   "perla": "Sífilis latente tardía o de duración desconocida: benzatínica × 3 semanas.",
+   "fuente": {
+    "carpeta": "12. INFECTOLOGIA",
+    "archivo": "13. SIFILIS.pdf",
+    "seccion": "Tratamiento"
+   },
+   "gemela_de": null
+  },
+  {
+   "id": "2026-10-23-manana-076",
+   "enunciado": "Varón de 70 años con insuficiencia cardiaca en tratamiento con enalapril 20 mg/día y espironolactona 50 mg/día; filtración glomerular basal 35 ml/min. Acude por debilidad progresiva en piernas de 1 día. PA 110/70 mmHg, FC 52 X', FR 18 X'. Fuerza 3/5 en miembros inferiores, reflejos disminuidos. Laboratorio: K 7,3 mEq/L, Na 134 mEq/L, HCO3 21 mEq/L, glucosa 110 mg/dL. EKG: ondas T altas y simétricas, ausencia de ondas P y QRS de 0,16 s. ¿Cuál es el primer fármaco que debe administrarse?",
+   "opciones": [
+    "Gluconato de calcio al 10 % por vía endovenosa",
+    "Insulina regular con dextrosa por vía endovenosa",
+    "Salbutamol nebulizado en dosis altas",
+    "Bicarbonato de sodio por vía endovenosa",
+    "Furosemida endovenosa en bolo"
+   ],
+   "clave": 1,
+   "especialidad": "Nefrología",
+   "tema": "Trastornos del potasio",
+   "diagnostico": "Hiperkalemia severa por IECA y antialdosterónico con cambios electrocardiográficos",
+   "tipo": "tratamiento",
+   "dificultad": "media",
+   "razonamiento": "Paso 1: K 7,3 con T picudas, P ausente y QRS ancho = hiperkalemia severa con riesgo de FV, por IECA + espironolactona y ERC. Paso 2: primero estabilizar la membrana miocárdica. Paso 3: gluconato de calcio EV, luego medidas que ingresan y eliminan K.",
+   "por_que_no": [
+    "",
+    "Introduce K a la célula, pero es el segundo paso tras estabilizar la membrana.",
+    "Beta agonista también ingresa K; complemento tras el calcio.",
+    "Solo si HCO3 <15; aquí HCO3 es 21.",
+    "Elimina K, pero su efecto es tardío; no protege el corazón ahora."
+   ],
+   "trampa": [
+    "",
+    "otro-momento",
+    "otro-momento",
+    "umbral",
+    "otro-momento"
+   ],
+   "perla": "MIELDA: Membrana (calcio) → Ingreso → ELiminar → DiAlisis.",
+   "fuente": {
+    "carpeta": "14. NEFROLOGIA",
+    "archivo": "10. HIPERKALEMIA.pdf",
+    "seccion": "Tratamiento"
+   },
+   "gemela_de": null
+  },
+  {
+   "id": "2026-10-23-manana-077",
+   "enunciado": "Lactante de 8 meses, 8 kg, con 2 días de deposiciones líquidas abundantes sin sangre (10 al día) y vómitos. Al examen: letárgico, no puede beber, ojos muy hundidos, pliegue cutáneo que regresa en más de 2 segundos, llenado capilar de 3 segundos, FC 168 X', PA 80/50 mmHg, pulsos periféricos palpables, T° 37,8 °C. Se canaliza vía periférica en el centro de salud. ¿Cuál es el esquema de hidratación endovenosa que corresponde?",
+   "opciones": [
+    "NaCl 0,9 % 240 ml en 30 minutos y luego 560 ml en 2 h y media",
+    "NaCl 0,9 % 160 ml en 15 minutos y repetir hasta 3 bolos seguidos",
+    "NaCl 0,9 % 240 ml en la primera hora y luego 560 ml en 5 horas",
+    "Sales de rehidratación oral 400 a 800 ml por sonda en 4 horas",
+    "NaCl 0,9 % 800 ml en 3 horas, tras un bolo inicial de 160 ml"
+   ],
+   "clave": 3,
+   "especialidad": "Pediatría",
+   "tema": "Diarrea aguda y deshidratación",
+   "diagnostico": "Deshidratación severa sin shock en lactante menor de 1 año: plan C",
+   "tipo": "dosis",
+   "dificultad": "alta",
+   "razonamiento": "Paso 1: letargia, no bebe, ojos muy hundidos y pliegue muy lento = deshidratación severa; PA y pulsos conservados = sin shock. Paso 2: plan C endovenoso de 100 ml/kg (800 ml). Paso 3: en menor de 1 año, 30 % (240 ml) en 1 h y 70 % (560 ml) en 5 h.",
+   "por_que_no": [
+    "Es el ritmo del plan C para mayores de 1 año (30 min + 2,5 h); este lactante tiene 8 meses.",
+    "Bolos de 20 ml/kg son para shock (hipotensión, pulsos débiles); aquí PA y pulsos están conservados.",
+    "",
+    "Plan B por sonda corresponde a deshidratación sin signos de severidad o cuando aún bebe.",
+    "Bolo previo + 100 ml/kg en 3 h es el esquema con shock; no hay shock en este caso."
+   ],
+   "trampa": [
+    "otra-poblacion",
+    "otro-estadio",
+    "",
+    "otro-estadio",
+    "otro-estadio"
+   ],
+   "perla": "Plan C <1 año: 30 % en 1 h + 70 % en 5 h; >1 año: 30 % en 30 min + 70 % en 2,5 h.",
+   "fuente": {
+    "carpeta": "4.PEDIATRIA",
+    "archivo": "6. DH.pdf",
+    "seccion": "Plan C"
+   },
+   "gemela_de": null
+  },
+  {
+   "id": "2026-10-23-manana-078",
+   "enunciado": "Recién nacido a término de 3 kg, líquido amniótico claro, nace flácido y en apnea. Tras pasos iniciales y 30 segundos de ventilación con presión positiva, FC 70 x'. Se realizan pasos correctivos, se intuba y se comprueba expansión torácica; luego de 30 segundos la FC es 50 x'. Se inician compresiones coordinadas 3:1 con FiO2 100 % durante 60 segundos y la FC es 46 x'. Ya tiene catéter venoso umbilical. ¿Qué se administra ahora?",
+   "opciones": [
+    "Adrenalina 1:10 000, 0,1 mL EV (0,01 mg)",
+    "Adrenalina 1:10 000, 3 mL EV (0,3 mg)",
+    "Adrenalina 1:10 000, 0,3 mL EV (0,03 mg)",
+    "Adrenalina 1:1 000, 0,3 mL EV (0,3 mg)",
+    "Solución salina 0,9 %, 30 mL EV en 5 a 10 min"
+   ],
+   "clave": 3,
+   "especialidad": "Neonatología",
+   "tema": "Reanimación neonatal",
+   "diagnostico": "Bradicardia neonatal persistente <60 pese a ventilación y compresiones: adrenalina",
+   "tipo": "dosis",
+   "dificultad": "alta",
+   "razonamiento": "Paso 1: FC <60 pese a VPP eficaz (intubado, tórax expande) y 60 s de compresiones. Paso 2: indica adrenalina EV 0,01 mg/kg. Paso 3: 0,01 × 3 = 0,03 mg = 0,3 mL de la dilución 1:10 000 (0,1 mg/mL).",
+   "por_que_no": [
+    "Es 0,01 mg total, no por kg: subdosifica a un neonato de 3 kg.",
+    "Es 10 veces la dosis (0,1 mg/kg).",
+    "",
+    "Usa la presentación sin diluir: 10 veces la dosis.",
+    "El expansor de volumen va si no responde a adrenalina o hay hipovolemia evidente."
+   ],
+   "trampa": [
+    "umbral",
+    "umbral",
+    "",
+    "otro",
+    "otro-momento"
+   ],
+   "perla": "Neonato: adrenalina 0,01 mg/kg = 0,1 mL/kg de 1:10 000 EV.",
+   "fuente": {
+    "carpeta": "8.NEONATOLOGIA",
+    "archivo": "11. RCP NEONATAL.pdf",
+    "seccion": "Adrenalina"
+   },
+   "gemela_de": null
+  },
+  {
+   "id": "2026-10-23-manana-079",
+   "enunciado": "Niño de 6 años, 20 kg, que hace 1 hora se volcó encima una olla de agua hirviendo. Llega con FC 130 x', PA 95/60 mmHg, FR 26 x', vía aérea permeable y sin hollín en fosas nasales. Presenta lesiones con ampollas rotas, fondo rojo pálido que blanquea poco y dolor disminuido en todo el tronco anterior y en todo el miembro superior derecho. Resto del examen normal. Según la fórmula de Parkland para niños, ¿qué volumen de Ringer lactato debe recibir en las primeras 8 horas?",
+   "opciones": [
+    "1 080 ml",
+    "1 620 ml",
+    "810 ml",
+    "540 ml",
+    "2 160 ml"
+   ],
+   "clave": 3,
+   "especialidad": "Cirugía General",
+   "tema": "Quemaduras",
+   "diagnostico": "Gran quemado pediátrico con 27 % de superficie corporal",
+   "tipo": "dosis",
+   "dificultad": "alta",
+   "razonamiento": "Paso 1: segundo grado profundo en tronco anterior (18 %) + MS derecho (9 %) = 27 % SCQ. Paso 2: Parkland pediátrico: 3 ml × 20 kg × 27 = 1 620 ml en 24 h. Paso 3: la mitad en las primeras 8 h = 810 ml.",
+   "por_que_no": [
+    "Usa 4 ml/kg/% (adulto): 2 160/2; en el niño de esta fuente se usa 3 ml.",
+    "Es el volumen total de 24 h, no el de las primeras 8 h.",
+    "",
+    "Usa 2 ml/kg/% (fórmula de Evans) dividido entre dos.",
+    "Es el total de 24 h con la fórmula de adulto."
+   ],
+   "trampa": [
+    "otra-poblacion",
+    "otro-momento",
+    "",
+    "mismo-grupo",
+    "otra-poblacion"
+   ],
+   "perla": "Parkland: adulto 4 ml, niño 3 ml × kg × %SCQ; mitad en 8 h desde la quemadura.",
+   "fuente": {
+    "carpeta": "1. CIRUGIA GENERAL",
+    "archivo": "37. QUEMADURAS.pdf",
+    "seccion": "Tratamiento: Parkland adulto y niños"
+   },
+   "gemela_de": null
+  },
+  {
+   "id": "2026-10-23-manana-080",
+   "enunciado": "Varón de 68 años, 80 kg, traído por hemiparesia derecha y dificultad para expresarse de inicio súbito hace 2 horas. Antecedente de HTA y DM2; no toma anticoagulantes ni tuvo cirugías recientes. PA 172/96 mmHg, FC 84X' regular, glucosa capilar 118 mg/dl. NIHSS 12. La TAC cerebral sin contraste no muestra hiperdensidades ni hipodensidad extensa. Se decide reperfusión endovenosa. ¿Qué esquema corresponde administrar?",
+   "opciones": [
+    "Alteplase 80 mg: 8 mg en bolo y 72 mg en infusión de 60 minutos",
+    "Alteplase 72 mg: 36 mg en bolo y 36 mg en infusión de 60 minutos",
+    "Alteplase 72 mg: 7,2 mg en bolo y 64,8 mg en infusión de 60 minutos",
+    "Alteplase 90 mg: 9 mg en bolo y 81 mg en infusión de 60 minutos",
+    "Alteplase 48 mg: 4,8 mg en bolo y 43,2 mg en infusión de 60 minutos"
+   ],
+   "clave": 3,
+   "especialidad": "Neurología",
+   "tema": "ACV isquémico · Trombólisis",
+   "diagnostico": "Isquemia encefálica aguda dentro de 4,5 h",
+   "tipo": "dosis",
+   "dificultad": "alta",
+   "razonamiento": "Déficit focal súbito de 2 h + TAC sin sangrado + PA <185/110 = candidato a trombólisis. Dosis: 0,9 mg/kg × 80 kg = 72 mg; 10 % en bolo (7,2 mg) y 90 % (64,8 mg) en 60 min.",
+   "por_que_no": [
+    "Calcula 1 mg/kg; la dosis correcta es 0,9 mg/kg.",
+    "Reparte 50/50; el bolo es solo el 10 %.",
+    "",
+    "90 mg es la dosis máxima, válida solo para pesos ≥100 kg.",
+    "Corresponde a 0,6 mg/kg, que no es el esquema de la fuente."
+   ],
+   "trampa": [
+    "umbral",
+    "otro",
+    "",
+    "otro-poblacion",
+    "umbral"
+   ],
+   "perla": "Alteplase 0,9 mg/kg: 10 % bolo, 90 % en 1 hora, dentro de 4,5 h.",
+   "fuente": {
+    "carpeta": "13.NEUROLOGIA",
+    "archivo": "9. ACV.pdf",
+    "seccion": "Trombólisis, pág. 1"
+   },
+   "gemela_de": null
+  },
+  {
+   "id": "2026-10-23-manana-081",
+   "enunciado": "Varón de 24 años, fumador, con 4 meses de diarrea sin sangre, 7 deposiciones al día, dolor en fosa ilíaca derecha y pérdida de 8 kg. T° 37,9 °C, FC 96 x', masa dolorosa en fosa ilíaca derecha, región perianal normal. Hb 10,2 g/dL, albúmina 2,9 g/dL, PCR elevada. Colonoscopía: úlceras longitudinales salteadas en íleon terminal con aspecto en empedrado y recto normal; biopsia con granulomas no caseificantes. TEM sin abscesos ni estenosis. ¿Cuál es el tratamiento de inducción indicado?",
+   "opciones": [
+    "Prednisona sistémica y luego azatioprina de mantenimiento",
+    "Budesonida oral de liberación ileal como monoterapia",
+    "Mesalazina oral más mesalazina en enemas",
+    "Resección ileocecal laparoscópica",
+    "Infliximab como primera línea de inducción"
+   ],
+   "clave": 1,
+   "especialidad": "Gastroenterología",
+   "tema": "Enfermedad inflamatoria intestinal",
+   "diagnostico": "Enfermedad de Crohn ileal moderada-grave",
+   "tipo": "tratamiento",
+   "dificultad": "alta",
+   "razonamiento": "Paso 1: afectación salteada ileal, empedrado, granulomas no caseificantes y recto respetado = Crohn (no CU). Paso 2: fiebre, anemia, hipoalbuminemia y baja de peso = moderado-grave. Paso 3: corticoide sistémico y mantenimiento con azatioprina.",
+   "por_que_no": [
+    "",
+    "Es el tratamiento del Crohn ileal leve-moderado.",
+    "Es la primera línea de la colitis ulcerosa leve-moderada.",
+    "La cirugía en Crohn es solo para complicaciones (estenosis, absceso); aquí no hay.",
+    "Los anti-TNF se reservan para enfermedad refractaria o corticodependiente."
+   ],
+   "trampa": [
+    "",
+    "otro-estadio",
+    "diferencial",
+    "otro-momento",
+    "otro-momento"
+   ],
+   "perla": "Crohn: leve budesonida; moderado-grave corticoide + azatioprina; refractario anti-TNF; cirugía solo complicaciones.",
+   "fuente": {
+    "carpeta": "5.GASTROENTEROLOGIA",
+    "archivo": "14. EII.pdf",
+    "seccion": "Tratamiento"
+   },
+   "gemela_de": null
+  },
+  {
+   "id": "2026-10-23-manana-082",
+   "enunciado": "Lactante de 9 meses con 24 horas de episodios de llanto intenso con encogimiento de piernas alternados con somnolencia; vómitos, ahora biliosos, y deposición con moco y sangre oscura. T° 38,9 °C, FC 180 x', llenado capilar 3 s. Abdomen distendido, con defensa generalizada y rebote. Ecografía: imagen en dona en flanco derecho con líquido libre ecogénico. Se inicia reanimación con cristaloides y antibióticos. ¿Cuál es el tratamiento definitivo?",
+   "opciones": [
+    "Reducción con enema neumático guiado",
+    "Reducción hidrostática con enema de bario",
+    "Sonda nasogástrica y nueva ecografía en 6 h",
+    "Laparotomía exploradora",
+    "Repetir enema neumático en 2 a 3 horas"
+   ],
+   "clave": 4,
+   "especialidad": "Pediatría",
+   "tema": "Cirugía pediátrica",
+   "diagnostico": "Invaginación intestinal con peritonitis",
+   "tipo": "conducta",
+   "dificultad": "alta",
+   "razonamiento": "Paso 1: cólico intermitente + heces en jalea de grosella + imagen en dona = invaginación ileocólica. Paso 2: fiebre, defensa, rebote y líquido libre = peritonitis/compromiso de la pared. Paso 3: la reducción por enema está contraindicada; va a cirugía.",
+   "por_que_no": [
+    "De elección sin peritonitis; aquí hay riesgo de perforación.",
+    "Alternativa al neumático solo sin signos peritoneales.",
+    "Demorar con peritonitis aumenta la necrosis.",
+    "",
+    "Reintento de enema es válido tras una reducción parcial sin peritonitis."
+   ],
+   "trampa": [
+    "otro-estadio",
+    "mismo-grupo",
+    "otro",
+    "",
+    "otro-momento"
+   ],
+   "perla": "Jalea de grosella + dona: enema neumático; si hay peritonitis o falla, cirugía.",
+   "fuente": {
+    "carpeta": "4.PEDIATRIA",
+    "archivo": "31. CIRUGIA PEDIATRICA.pdf",
+    "seccion": "p. 1, invaginación intestinal"
+   },
+   "gemela_de": null
+  },
+  {
+   "id": "2026-10-23-manana-083",
+   "enunciado": "En un colegio de Huancayo se investiga un brote viral exantemático. De 200 escolares susceptibles expuestos al caso primario, 120 presentaron seroconversión en las pruebas pareadas. De ellos, 90 desarrollaron fiebre y exantema; 9 de los sintomáticos requirieron hospitalización y 2 fallecieron. La unidad de vigilancia del hospital necesita informar la capacidad del agente para multiplicarse en el huésped una vez que ingresa (infectividad). ¿Cuál es el valor correcto?",
+   "opciones": [
+    "75 %",
+    "45 %",
+    "2,2 %",
+    "60 %",
+    "10 %"
+   ],
+   "clave": 4,
+   "especialidad": "Epidemiología",
+   "tema": "Propiedades del agente infeccioso",
+   "diagnostico": "Infectividad en un brote escolar",
+   "tipo": "severidad",
+   "dificultad": "alta",
+   "razonamiento": "Paso 1: infectividad = infectados / expuestos susceptibles. Paso 2: infectados son los que seroconvierten (120), con o sin síntomas. Paso 3: 120/200 = 60 %.",
+   "por_que_no": [
+    "Es la patogenicidad: sintomáticos / infectados (90/120).",
+    "Es la tasa de ataque clínica: enfermos / expuestos (90/200).",
+    "Es la letalidad: fallecidos / enfermos (2/90).",
+    "",
+    "Mide virulencia: casos graves / enfermos (9/90)."
+   ],
+   "trampa": [
+    "mismo-grupo",
+    "mismo-grupo",
+    "mismo-grupo",
+    "",
+    "mismo-grupo"
+   ],
+   "perla": "Infectividad = infectados/expuestos; patogenicidad = enfermos/infectados; virulencia = graves o muertos/enfermos.",
+   "fuente": {
+    "carpeta": "10. EPIDEMIOLOGIA",
+    "archivo": "6. ENFERMEDADES TRANSMISIBLES.pdf",
+    "seccion": "Propiedades del agente infeccioso"
+   },
+   "gemela_de": null
+  },
+  {
+   "id": "2026-10-23-manana-084",
+   "enunciado": "Varón de 34 años, 70 kg, natural de Piura, con fiebre de 5 días que cedió ayer. Hoy presenta dolor abdominal intenso, vómitos y somnolencia. PA 90/75 mmHg, FC 128 x', extremidades frías, llenado capilar 4 segundos, pulsos débiles. Hematocrito 54 % (basal 42 %), plaquetas 38 000/mm3; la ecografía muestra líquido libre en Morrison y derrame pleural derecho. ¿Cuál es la hidratación inicial según la norma técnica del MINSA?",
+   "opciones": [
+    "Solución salina 0,9 %, 10 mL/kg (700 mL) en 1 hora",
+    "Solución salina 0,9 %, 5-7 mL/kg/h por 2 a 4 horas",
+    "Solución salina 0,9 %, 2-4 mL/kg/h por 24 a 48 horas",
+    "Solución salina 0,9 %, 20 mL/kg (1 400 mL) en 15-30 min",
+    "Solución salina 0,9 %, 20 mL/kg (1 400 mL) en 2 horas"
+   ],
+   "clave": 4,
+   "especialidad": "Infectología",
+   "tema": "Dengue",
+   "diagnostico": "Dengue grave con choque por extravasación de plasma (grupo C)",
+   "tipo": "dosis",
+   "dificultad": "alta",
+   "razonamiento": "Paso 1: caída de la fiebre + hemoconcentración (Hto +12) + plaquetopenia + serositis = fuga plasmática. Paso 2: presión diferencial de 15 mmHg, frialdad y llenado lento = choque → grupo C. Paso 3: carga de 20 mL/kg en 15-30 min y reevaluar.",
+   "por_que_no": [
+    "Es la carga del grupo B2 (signos de alarma sin choque).",
+    "Es el segundo escalón de mantenimiento del grupo B2 tras mejorar.",
+    "Es la fase final de mantenimiento del grupo B2.",
+    "",
+    "El volumen es correcto pero en choque se infunde en 15-30 min, no en 2 h."
+   ],
+   "trampa": [
+    "otro-estadio",
+    "otro-momento",
+    "otro-momento",
+    "",
+    "umbral"
+   ],
+   "perla": "Dengue: alarma 10 mL/kg en 1 h; choque 20 mL/kg en 15-30 min (hasta 3 cargas).",
+   "fuente": {
+    "carpeta": "28. NT",
+    "archivo": "6. NT DENGUE.pdf",
+    "seccion": "Manejo según grupo: B2 y C"
+   },
+   "gemela_de": null
+  },
+  {
+   "id": "2026-10-23-manana-085",
+   "enunciado": "En el hospital de Huánuco se evalúa una prueba rápida en sangre para detectar una infección parasitaria, usando como referencia el examen microscópico. De 400 pacientes estudiados, 100 resultaron positivos por microscopía; de ellos, 90 tuvieron la prueba rápida positiva. De los 300 negativos por microscopía, 60 tuvieron la prueba rápida positiva. La jefatura quiere saber qué proporción de las personas sin infección es correctamente identificada por la prueba. ¿Cuál es ese valor?",
+   "opciones": [
+    "90 %",
+    "60 %",
+    "96 %",
+    "80 %",
+    "20 %"
+   ],
+   "clave": 4,
+   "especialidad": "Epidemiología",
+   "tema": "Pruebas diagnósticas",
+   "diagnostico": "Especificidad de una prueba rápida",
+   "tipo": "prueba",
+   "dificultad": "media",
+   "razonamiento": "Paso 1: armar 2x2: VP 90, FN 10, FP 60, VN 240. Paso 2: 'sanos correctamente identificados' = especificidad = VN/(VN+FP). Paso 3: 240/300 = 80 %.",
+   "por_que_no": [
+    "Es la sensibilidad (90/100): enfermos con prueba positiva.",
+    "Es el VPP (90/150): probabilidad de enfermedad si la prueba es positiva.",
+    "Es el VPN (240/250): probabilidad de no estar enfermo si la prueba es negativa.",
+    "",
+    "Es la proporción de falsos positivos entre los sanos (1 − especificidad)."
+   ],
+   "trampa": [
+    "diferencial",
+    "diferencial",
+    "diferencial",
+    "",
+    "otro"
+   ],
+   "perla": "Especificidad = VN/(VN+FP): mira solo a los sanos.",
+   "fuente": {
+    "carpeta": "10. EPIDEMIOLOGIA",
+    "archivo": "12. PRUEBAS DX.pdf",
+    "seccion": "Sensibilidad y especificidad"
+   },
+   "gemela_de": null
+  },
+  {
+   "id": "2026-10-23-manana-086",
+   "enunciado": "Varón de 63 años con diabetes mal controlada (HbA1c 11 %), hospitalizado hace 4 días por fiebre, dolor lumbar derecho y disuria; urocultivo con E. coli sensible a ceftriaxona, que recibe desde el ingreso. Persiste con fiebre de 39 °C y dolor lumbar. PA 118/72 mmHg, FC 108 X'. Puño percusión derecha muy positiva. Leucocitos 19 000. Ecografía: sin dilatación pielocalicial ni litiasis; colección hipoecoica de 5 cm en el espacio perirrenal derecho. ¿Cuál es la conducta?",
+   "opciones": [
+    "Cambiar a meropenem EV sin otra intervención",
+    "Colocar un catéter ureteral doble J derecho",
+    "Drenaje de la colección y continuar antibióticos",
+    "Nefrectomía derecha programada tras enfriar",
+    "Prolongar ceftriaxona EV hasta completar 21 días"
+   ],
+   "clave": 3,
+   "especialidad": "Nefrología",
+   "tema": "Infección urinaria alta",
+   "diagnostico": "Absceso perinéfrico como complicación de infección urinaria alta en diabético",
+   "tipo": "complicacion",
+   "dificultad": "alta",
+   "razonamiento": "Paso 1: infección urinaria alta con germen sensible que no mejora a las 72 h obliga a buscar complicación. Paso 2: DM + colección perirrenal de 5 cm sin obstrucción = absceso perinéfrico. Paso 3: tratamiento: drenaje (percutáneo) + antibióticos.",
+   "por_que_no": [
+    "El germen es sensible; escalar antibiótico sin drenar no resuelve una colección.",
+    "El doble J se coloca en la forma obstructiva; aquí no hay dilatación ni cálculo.",
+    "",
+    "La nefrectomía es para la forma xantogranulomatosa o riñón destruido.",
+    "Sin drenaje, la colección de 5 cm persiste pese a antibiótico adecuado."
+   ],
+   "trampa": [
+    "mismo-grupo",
+    "diferencial",
+    "",
+    "diferencial",
+    "otro"
+   ],
+   "perla": "Infección urinaria alta sin mejoría a 72 h en diabético: buscar absceso → drenaje + ATB.",
+   "fuente": {
+    "carpeta": "12. INFECTOLOGIA",
+    "archivo": "8. ITU.pdf",
+    "seccion": "Complicaciones de ITU"
+   },
+   "gemela_de": null
+  },
+  {
+   "id": "2026-10-23-manana-087",
+   "enunciado": "Varón de 57 años con hepatopatía alcohólica, ascitis y várices esofágicas pequeñas. Ingresó hace 7 días con fiebre y dolor abdominal difuso; paracentesis: 520 polimorfonucleares/mm3, GASA 1,6 g/dL, cultivo con E. coli. Creatinina 1,4 mg/dL al ingreso. Recibió cefotaxima 5 días y albúmina los días 1 y 3. Paracentesis de control a las 48 h: 90 polimorfonucleares/mm3. Hoy afebril, creatinina 0,9 mg/dL, sin hemorragia digestiva. Va a ser dado de alta. ¿Qué indicación es la correcta para prevenir la recurrencia?",
+   "opciones": [
+    "Ceftriaxona 1 g EV diario por 7 días más",
+    "Albúmina 1 g/kg al alta y luego semanal",
+    "Paracentesis evacuatoria periódica sin antibiótico",
+    "Ciprofloxacino solo si presenta sangrado digestivo",
+    "Norfloxacino 400 mg VO diario de forma continua"
+   ],
+   "clave": 5,
+   "especialidad": "Gastroenterología",
+   "tema": "Cirrosis hepática",
+   "diagnostico": "Peritonitis bacteriana espontánea resuelta: profilaxis secundaria",
+   "tipo": "tratamiento",
+   "dificultad": "alta",
+   "razonamiento": "Paso 1: PMN ≥250 con cultivo positivo y GASA ≥1,1 = infección espontánea del líquido en hipertensión portal. Paso 2: tratada con respuesta (PMN bajaron >25 % a 48 h). Paso 3: tras un episodio corresponde profilaxis secundaria con norfloxacino 400 mg/día.",
+   "por_que_no": [
+    "Prolongar ceftriaxona no previene recurrencia; ya completó tratamiento con buena respuesta.",
+    "La albúmina 1,5/1 g/kg es parte del tratamiento agudo con riesgo renal, no profilaxis.",
+    "La paracentesis evacuatoria trata ascitis a tensión; no evita la infección.",
+    "La profilaxis solo en hemorragia es la primaria del sangrado variceal agudo.",
+    ""
+   ],
+   "trampa": [
+    "otro-momento",
+    "otro-momento",
+    "otro",
+    "otro-contexto",
+    ""
+   ],
+   "perla": "Tras el primer episodio de PBE: norfloxacino 400 mg/día indefinido.",
+   "fuente": {
+    "carpeta": "5.GASTROENTEROLOGIA",
+    "archivo": "16. cirrosis.pdf",
+    "seccion": "PBE: profilaxis secundaria"
+   },
+   "gemela_de": null
+  },
+  {
+   "id": "2026-10-23-manana-088",
+   "enunciado": "Varón de 35 años con fiebre de 39,5 °C, cefalea intensa y vómitos desde hace 24 horas. Hace 1 hora presentó una convulsión tónico-clónica generalizada. Glasgow 13, rigidez de nuca, Kernig positivo. Fondo de ojo: bordes papilares borrados bilateralmente. PA 130/80 mmHg, FC 112X'. Sin inmunosupresión ni trauma. ¿Cuál es la conducta inmediata?",
+   "opciones": [
+    "Punción lumbar inmediata y luego antibióticos",
+    "Hemocultivos, dexametasona, ceftriaxona + vancomicina y luego TC",
+    "TC cerebral y esperar su resultado para iniciar antibióticos",
+    "Punción lumbar y luego ceftriaxona, vancomicina y ampicilina",
+    "Aciclovir EV y RM cerebral antes de la punción lumbar"
+   ],
+   "clave": 2,
+   "especialidad": "Infectología",
+   "tema": "Meningitis · Secuencia diagnóstica",
+   "diagnostico": "Probable meningitis bacteriana con papiledema",
+   "tipo": "conducta",
+   "dificultad": "alta",
+   "razonamiento": "Fiebre + rigidez de nuca = meningitis bacteriana probable. Papiledema y convulsión reciente obligan a TC antes de la PL, pero el antibiótico no se retrasa: hemocultivos, dexametasona antes del ATB, ceftriaxona + vancomicina y luego TC.",
+   "por_que_no": [
+    "La PL está diferida por papiledema y convulsión.",
+    "",
+    "Esperar la TC retrasa el antibiótico; nunca se demora.",
+    "Ampicilina se añade en >50 años, alcohol o inmunodepresión.",
+    "Esquema del cuadro encefalítico herpético, no de este."
+   ],
+   "trampa": [
+    "otro-momento",
+    "",
+    "otro-momento",
+    "otra-poblacion",
+    "diferencial"
+   ],
+   "perla": "Si hay que hacer TC antes de PL: hemocultivos + ATB primero.",
+   "fuente": {
+    "carpeta": "12. INFECTOLOGIA",
+    "archivo": "3. MENINGITIS.pdf",
+    "seccion": "Diagnóstico y empírico, pág. 1-2"
+   },
+   "gemela_de": null
+  },
+  {
+   "id": "2026-10-23-manana-089",
+   "enunciado": "Agricultor de 35 años de Satipo que hace 6 horas se clavó un clavo oxidado cubierto de tierra en la planta del pie, con herida punzante de 2 cm de profundidad. Afebril, sin trismo ni rigidez. Su carné muestra 3 dosis de vacuna con toxoide tetánico completas; la última fue hace 7 años. No tiene alergias. Se realiza lavado y desbridamiento de la herida. ¿Cuál es la conducta de inmunoprofilaxis?",
+   "opciones": [
+    "No administrar inmunoprofilaxis adicional",
+    "Toxoide tetánico más inmunoglobulina antitetánica",
+    "Refuerzo con toxoide tetánico sin inmunoglobulina",
+    "Inmunoglobulina antitetánica sin toxoide",
+    "Reiniciar el esquema completo de 3 dosis"
+   ],
+   "clave": 3,
+   "especialidad": "Infectología",
+   "tema": "Tétanos · Profilaxis",
+   "diagnostico": "Herida tetanógena en paciente con esquema completo hace más de 5 años",
+   "tipo": "conducta",
+   "dificultad": "media",
+   "razonamiento": "Paso 1: herida profunda, con tierra y clavo = herida de riesgo. Paso 2: esquema completo (≥3 dosis) con última dosis hace ≥5 años. Paso 3: refuerzo con toxoide; la inmunoglobulina no es necesaria con esquema completo.",
+   "por_que_no": [
+    "Correcto si la última dosis fuera hace <5 años o la herida limpia (<10 años).",
+    "Es para esquema incompleto o desconocido con herida de riesgo.",
+    "",
+    "La inmunoglobulina sola nunca es la profilaxis; se combina con toxoide si hay esquema incompleto.",
+    "Un esquema completo no se reinicia; solo se refuerza."
+   ],
+   "trampa": [
+    "umbral",
+    "otra-poblacion",
+    "",
+    "otro",
+    "otro"
+   ],
+   "perla": "Herida de riesgo: completo <5 a nada; ≥5 a refuerzo; incompleto toxoide + TIG.",
+   "fuente": {
+    "carpeta": "12. INFECTOLOGIA",
+    "archivo": "22. TETANO BOTULISMO.pdf",
+    "seccion": "Conducta según esquema y tipo de herida"
+   },
+   "gemela_de": null
+  },
+  {
+   "id": "2026-10-23-manana-090",
+   "enunciado": "Nulípara de 24 años, 39 semanas, ingresa en trabajo de parto. A las 8:00 h: dilatación 6 cm, borramiento 90 %, estación −1, membranas íntegras. A las 12:00 h: dilatación 6 cm, estación −1. Contracciones 1-2 en 10 minutos de 30 segundos, intensidad 20 mmHg. FCF 140 X' con variabilidad normal. PA 110/70 mmHg, T° 36,9 °C. Pelvis ginecoide, feto estimado en 3 200 g en occipito izquierda anterior. ¿Cuál es la conducta adecuada?",
+   "opciones": [
+    "Cesárea por detención de la dilatación",
+    "Reposo en cama y observación por 6 horas",
+    "Misoprostol 25 µg vaginal cada 6 horas",
+    "Amniotomía e infusión de oxitocina",
+    "Tocólisis y reevaluación en 2 horas"
+   ],
+   "clave": 4,
+   "especialidad": "Obstetricia",
+   "tema": "Trabajo de parto y distocias",
+   "diagnostico": "Fase activa prolongada por hipodinamia uterina con membranas íntegras",
+   "tipo": "conducta",
+   "dificultad": "alta",
+   "razonamiento": "Paso 1: fase activa (≥6 cm) sin progreso en 4 h. Paso 2: contracciones <2/10 min y 20 mmHg = hipodinamia, membranas íntegras y pelvis/feto adecuados: aún no cumple detención. Paso 3: corregir la dinámica con amniotomía + oxitocina y reevaluar.",
+   "por_que_no": [
+    "La detención exige membranas rotas y buenas contracciones ≥4 h, o ≥6 h inadecuadas pese a oxitocina.",
+    "Reposo es el manejo de la fase latente prolongada; ella está en fase activa.",
+    "Misoprostol es para maduración cervical (Bishop <7) antes del trabajo de parto.",
+    "",
+    "La tocólisis trata la hiperdinamia (>5 contracciones/10 min)."
+   ],
+   "trampa": [
+    "otro-estadio",
+    "otro-momento",
+    "otro-momento",
+    "",
+    "diferencial"
+   ],
+   "perla": "Sin progreso en fase activa: antes de cesárea, romper membranas y oxitocina si hay hipodinamia.",
+   "fuente": {
+    "carpeta": "2. OBSTETRICIA",
+    "archivo": "27. DISTOCIA DE LABOR DE PARTO.pdf",
+    "seccion": "Detención de la dilatación; distocia de potencia"
+   },
+   "gemela_de": null
+  },
+  {
+   "id": "2026-10-23-manana-091",
+   "enunciado": "Varón de 74 años con dolor en hipocondrio derecho de 4 días, fiebre y vómitos. T° 38,9 °C, PA 82/50 mmHg pese a 2 litros de cristaloides, por lo que inicia norepinefrina; está somnoliento. Murphy positivo. Leucocitos 21 000/mm3, plaquetas 88 000/mm3, creatinina 2,4 mg/dL (basal 0,9), INR 1,3, bilirrubina total 1,4 mg/dL. Ecografía: pared vesicular de 6 mm con doble contorno, cálculo impactado en el bacinete, líquido perivesicular, colédoco de 5 mm. ¿Cuál es la conducta más adecuada?",
+   "opciones": [
+    "Colecistectomía laparoscópica temprana dentro de 72 horas",
+    "Colecistectomía laparoscópica urgente dentro de 24 horas",
+    "CPRE con esfinterotomía y extracción de cálculos",
+    "Antibiótico EV exclusivo y colecistectomía electiva",
+    "Colecistostomía percutánea con antibiótico y cirugía diferida"
+   ],
+   "clave": 5,
+   "especialidad": "Cirugía General",
+   "tema": "Colecistitis aguda",
+   "diagnostico": "Colecistitis aguda litiásica severa (Tokio III) con falla orgánica",
+   "tipo": "conducta",
+   "dificultad": "alta",
+   "razonamiento": "Paso 1: Murphy + fiebre/leucocitosis + pared engrosada y cálculo impactado = colecistitis definida (Tokio). Paso 2: vasopresor, sensorio alterado, AKI y plaquetas <100 000 = falla orgánica → grado III. Paso 3: drenar con colecistostomía + ATB y colecistectomía diferida.",
+   "por_que_no": [
+    "Es el manejo del grado I (leve).",
+    "Es para el grado II (moderado) en paciente estable.",
+    "Indicada en coledocolitiasis/colangitis; aquí colédoco y bilirrubina normales.",
+    "Sin drenaje, el foco séptico persiste en un paciente con falla orgánica.",
+    ""
+   ],
+   "trampa": [
+    "otro-estadio",
+    "otro-estadio",
+    "diferencial",
+    "otro-momento",
+    ""
+   ],
+   "perla": "Tokio I colelap <72 h; II urgente; III (falla orgánica) colecistostomía + ATB y operar después.",
+   "fuente": {
+    "carpeta": "1. CIRUGIA GENERAL",
+    "archivo": "11. COLECISITIS AGUDA.pdf",
+    "seccion": "Criterios de severidad y tratamiento"
+   },
+   "gemela_de": null
+  },
+  {
+   "id": "2026-10-23-manana-092",
+   "enunciado": "Varón de 45 años, miope de −7 dioptrías, consulta porque desde ayer ve «moscas volantes» y destellos de luz en el ojo derecho. Niega pérdida de campo visual o sombra en «cortina». Agudeza visual 20/20 con corrección, PIO 14 mmHg, pupilas sin defecto aferente. Fondo de ojo con dilatación: solución de continuidad en herradura en la retina temporal superior periférica, con la retina adyacente aplicada y sin líquido subretiniano. ¿Cuál es la conducta indicada?",
+   "opciones": [
+    "Cerclaje escleral de 360 grados",
+    "Fotocoagulación con láser alrededor de la lesión",
+    "Vitrectomía con gas expansible intravítreo",
+    "Observación y control de fondo de ojo en 6 meses",
+    "Inyección intravítrea de antiangiogénico"
+   ],
+   "clave": 2,
+   "especialidad": "Oftalmología",
+   "tema": "Desprendimiento de retina",
+   "diagnostico": "Desgarro retiniano en herradura sin desprendimiento: fotocoagulación profiláctica",
+   "tipo": "conducta",
+   "dificultad": "media",
+   "razonamiento": "Paso 1: miodesopsias + fotopsias en miope alto = tracción vitreorretiniana. Paso 2: hay rotura en herradura pero la retina está aplicada (sin cortina, sin líquido subretiniano, sin Marcus Gunn). Paso 3: rotura sin desprendimiento → láser profiláctico.",
+   "por_que_no": [
+    "Es el tratamiento del desprendimiento regmatógeno ya establecido.",
+    "",
+    "Se usa en desprendimientos establecidos o complejos.",
+    "El desgarro sintomático tiene alto riesgo de progresar; observar es inadecuado.",
+    "Se usa en neovascularización (retinopatía diabética, DMAE), no en una rotura."
+   ],
+   "trampa": [
+    "otro-estadio",
+    "",
+    "otro-estadio",
+    "otro-momento",
+    "otro-contexto"
+   ],
+   "perla": "Rotura retiniana sin desprendimiento = láser; desprendimiento establecido = cirugía (cerclaje/vitrectomía).",
+   "fuente": {
+    "carpeta": "22. OFTALMOLOGIA",
+    "archivo": "16. DESPRENDIMIENTO DE RETINA.pdf",
+    "seccion": "Profilaxis y tratamiento"
+   },
+   "gemela_de": null
+  },
+  {
+   "id": "2026-10-23-manana-093",
+   "enunciado": "Mujer de 63 años con reemplazo valvular aórtico mecánico hace 8 meses. Tres semanas de fiebre de 38,5 °C, astenia y sudoración. PA 125/60 mmHg, FC 98 x'. Soplo diastólico aórtico no descrito previamente, hemorragias en astilla subungueales y máculas indoloras en palmas. Hemocultivos tomados de dos brazos, en proceso. Ecocardiograma transesofágico: masa oscilante de 7 mm sobre la prótesis, sin dehiscencia ni absceso. Sin falla cardiaca. ¿Cuál es el tratamiento empírico?",
+   "opciones": [
+    "Ceftriaxona más vancomicina",
+    "Oxacilina más gentamicina",
+    "Vancomicina, gentamicina y rifampicina",
+    "Ampicilina más gentamicina",
+    "Daptomicina en monoterapia"
+   ],
+   "clave": 3,
+   "especialidad": "Cardiología",
+   "tema": "Endocarditis infecciosa",
+   "diagnostico": "Endocarditis infecciosa sobre válvula protésica",
+   "tipo": "tratamiento",
+   "dificultad": "alta",
+   "razonamiento": "Paso 1: fiebre + soplo de regurgitación nuevo + Janeway + vegetación en ETE = criterios mayores de Duke. Paso 2: asienta sobre prótesis valvular. Paso 3: empírico de protésica: vancomicina + gentamicina + rifampicina.",
+   "por_que_no": [
+    "Es el empírico de válvula nativa.",
+    "Oxacilina es dirigida para S. aureus sensible, tras el antibiograma.",
+    "",
+    "Es el dirigido para enterococo sensible a penicilina.",
+    "Daptomicina es alternativa dirigida para SAMR, no empírico."
+   ],
+   "trampa": [
+    "otra-poblacion",
+    "otro-momento",
+    "",
+    "mismo-grupo",
+    "otro-momento"
+   ],
+   "perla": "Empírico: nativa ceftriaxona + vancomicina; protésica vancomicina + gentamicina + rifampicina.",
+   "fuente": {
+    "carpeta": "9. CARDIOLOGIA",
+    "archivo": "23. ENDOCARDITIS INFECCIOSA.pdf",
+    "seccion": "Tratamiento empírico"
+   },
+   "gemela_de": null
+  },
+  {
+   "id": "2026-10-23-manana-094",
+   "enunciado": "Mujer de 78 años con 2 días de vómitos, distensión abdominal y ausencia de flatos. Masa dolorosa de 3 cm por debajo del ligamento inguinal derecho, irreductible, con piel violácea. T° 38,4 °C, FC 112X', PA 100/60 mmHg. Abdomen con rebote positivo. Leucocitos 17 500/mm³, lactato 4,1 mmol/L. Radiografía: asas de delgado dilatadas con niveles hidroaéreos. ¿Cuál es la conducta?",
+   "opciones": [
+    "Reducción manual bajo sedación y observación",
+    "Laparotomía media infraumbilical y evaluar viabilidad intestinal",
+    "Abordaje inguinal con reparación de McVay (Cooper)",
+    "Sonda nasogástrica y manejo conservador por 48 horas",
+    "Hernioplastia de Lichtenstein con malla de polipropileno"
+   ],
+   "clave": 2,
+   "especialidad": "Cirugía General",
+   "tema": "Hernias · Complicaciones",
+   "diagnostico": "Hernia femoral estrangulada",
+   "tipo": "conducta",
+   "dificultad": "alta",
+   "razonamiento": "Masa bajo el ligamento inguinal en anciana = hernia crural. Piel violácea, fiebre, leucocitosis, lactato alto y rebote = estrangulación con obstrucción: laparotomía media para valorar/resecar asa.",
+   "por_que_no": [
+    "La taxis está contraindicada con signos de estrangulación.",
+    "",
+    "Abordaje para la incarcerada sin compromiso vascular.",
+    "Manejo de la obstrucción por bridas no complicada.",
+    "Técnica para inguinal no complicada; malla diferida si hay necrosis."
+   ],
+   "trampa": [
+    "otro-estadio",
+    "",
+    "otro-estadio",
+    "diferencial",
+    "otro-momento"
+   ],
+   "perla": "Crural en anciana con piel violácea y peritonismo: laparotomía, no taxis.",
+   "fuente": {
+    "carpeta": "1. CIRUGIA GENERAL",
+    "archivo": "28. hernias.pdf",
+    "seccion": "Complicaciones, hernia crural"
+   },
+   "gemela_de": null
+  },
+  {
+   "id": "2026-10-23-manana-095",
+   "enunciado": "Mujer de 58 años, en tratamiento con metformina 850 mg cada 12 horas, presenta desde hace 5 días deposiciones líquidas sin sangre, unas 10 al día. PA 100/60 mmHg, FC 104 x', FR 26 x', mucosas secas. Laboratorio: pH 7,24; PaCO2 27 mmHg; HCO3 11 mEq/L; Na 138 mEq/L; Cl 117 mEq/L; K 3,1 mEq/L; glucosa 156 mg/dL; cetonemia negativa; lactato 1,4 mmol/L; creatinina 1,3 mg/dL; pH urinario 5,2. ¿Cuál es el mecanismo principal del trastorno ácido-base?",
+   "opciones": [
+    "Acumulación de lactato por efecto de la biguanida",
+    "Producción de cetoácidos por déficit de insulina",
+    "Retención de ácidos por caída del filtrado glomerular",
+    "Pérdida digestiva de bicarbonato",
+    "Defecto de acidificación en el túbulo distal"
+   ],
+   "clave": 4,
+   "especialidad": "Nefrología",
+   "tema": "Acidosis metabólica",
+   "diagnostico": "Acidosis metabólica con anión gap normal por pérdida intestinal de bicarbonato",
+   "tipo": "mecanismo",
+   "dificultad": "muy alta",
+   "razonamiento": "Paso 1: pH y HCO3 bajos con PaCO2 baja = acidosis metabólica compensada. Paso 2: AG = 138 − (117 + 11) = 10 → normal (hiperclorémica). Paso 3: lactato y cetonas normales y orina ácida (pH 5,2) → pérdida intestinal de HCO3 por la diarrea.",
+   "por_que_no": [
+    "El lactato es normal y la acidosis láctica eleva el anión gap; sí en metformina con TFG <30 o shock.",
+    "Cetonemia negativa y AG normal; sí en cetoacidosis con AG >10 y glucosa >250.",
+    "Creatinina 1,3 no explica HCO3 de 11 y la urémica da AG alto; sí en ERC avanzada.",
+    "",
+    "La ATR distal da AG normal pero orina con pH >5,5; aquí el riñón acidifica bien (pH 5,2)."
+   ],
+   "trampa": [
+    "diferencial",
+    "diferencial",
+    "diferencial",
+    "",
+    "diferencial"
+   ],
+   "perla": "AG normal + orina ácida = pérdida digestiva de HCO3 (diarrea); AG normal + orina pH >5,5 = ATR distal.",
+   "fuente": {
+    "carpeta": "14. NEFROLOGIA",
+    "archivo": "14. ACIDOSIS METABOLICA.pdf",
+    "seccion": "Anión gap normal (DNA-FUA)"
+   },
+   "gemela_de": null
+  },
+  {
+   "id": "2026-10-23-manana-096",
+   "enunciado": "Mujer de 71 años, vive sola, en tratamiento con metformina 850 mg cada 12 horas desde hace 9 años. Acude a control: asintomática, IMC 24, PA 130/80 mmHg. HbA1c 8,4 %, glucosa en ayunas 172 mg/dL. Creatinina 2,1 mg/dL con TFG estimada de 24 mL/min/1,73 m2; hace 3 meses era 28 y hace 6 meses 41. Albuminuria 180 mg/g. ¿Cuál es la conducta farmacológica más adecuada según la norma técnica del MINSA?",
+   "opciones": [
+    "Suspender metformina e iniciar insulina NPH basal",
+    "Reducir metformina a 500 mg/día y vigilar la creatinina",
+    "Mantener metformina y agregar glibenclamida 5 mg/día",
+    "Suspender metformina e iniciar glimepirida 2 mg/día",
+    "Suspender metformina e iniciar glibenclamida 5 mg/día"
+   ],
+   "clave": 1,
+   "especialidad": "Endocrinología",
+   "tema": "Diabetes mellitus tipo 2 (norma técnica)",
+   "diagnostico": "Diabetes mellitus tipo 2 con ERC estadio 4: metformina contraindicada",
+   "tipo": "tratamiento",
+   "dificultad": "muy alta",
+   "razonamiento": "Paso 1: TFG <30 sostenida → metformina contraindicada (acidosis láctica). Paso 2: adulta mayor, sola, con daño renal = alto riesgo de hipoglucemia con sulfonilureas; glimepirida solo con FG >60. Paso 3: HbA1c fuera de meta → insulina basal.",
+   "por_que_no": [
+    "",
+    "Ajuste válido con TFG 30-45; con 24 está contraindicada.",
+    "Mantiene un fármaco contraindicado y suma riesgo de hipoglucemia.",
+    "La norma la permite solo con FG >60 mL/min.",
+    "Glibenclamida se usa en <60 años sin riesgo de hipoglucemia; aquí es mayor con falla renal."
+   ],
+   "trampa": [
+    "",
+    "umbral",
+    "otro",
+    "umbral",
+    "otra-poblacion"
+   ],
+   "perla": "Metformina: vigilar con FG 31-45, suspender con FG <30; sulfonilurea evitar en adulto mayor renal.",
+   "fuente": {
+    "carpeta": "28. NT",
+    "archivo": "8. NT DM2.pdf",
+    "seccion": "Metformina, glibenclamida, glimepirida"
+   },
+   "gemela_de": null
+  },
+  {
+   "id": "2026-10-23-manana-097",
+   "enunciado": "Varón de 61 años con dolor opresivo retroesternal de 2 horas, diaforesis. Antecedente de accidente cerebrovascular isquémico hace 4 meses, sin secuelas. Llega a un hospital sin sala de hemodinámica; el centro con angioplastía está a 3 horas por carretera. PA 135/85 mmHg, FC 92 X', SatO2 95 %, sin crépitos. EKG: supradesnivel del ST de 3 mm en V1 a V4 con infradesnivel especular en II, III y aVF. Recibió aspirina y clopidogrel. ¿Cuál es la estrategia de reperfusión?",
+   "opciones": [
+    "Traslado para angioplastía primaria aunque demore más",
+    "Alteplasa EV en menos de 30 minutos desde la decisión",
+    "Estreptoquinasa EV por su menor riesgo hemorrágico",
+    "Heparina y doble antiagregación, sin reperfusión",
+    "Alteplasa EV y luego traslado para angioplastía"
+   ],
+   "clave": 1,
+   "especialidad": "Cardiología",
+   "tema": "Síndrome coronario agudo",
+   "diagnostico": "Infarto con elevación del ST anterior con contraindicación absoluta de fibrinólisis",
+   "tipo": "contraindicacion",
+   "dificultad": "muy alta",
+   "razonamiento": "Paso 1: supradesnivel en V1-V4 con imagen especular = infarto anterior (DA) de 2 h. Paso 2: ictus isquémico <6 meses es contraindicación absoluta de fibrinólisis. Paso 3: la única reperfusión posible es la ACTP primaria, aunque el traslado supere los 120 minutos.",
+   "por_que_no": [
+    "",
+    "Alteplasa sería lo indicado sin ACTP en <120 min, pero el ictus de 4 meses la contraindica.",
+    "Cualquier fibrinolítico comparte las mismas contraindicaciones absolutas.",
+    "Renunciar a reperfundir en las primeras 12 h aumenta la mortalidad.",
+    "La estrategia farmacoinvasiva también incluye un fibrinolítico contraindicado."
+   ],
+   "trampa": [
+    "",
+    "otro-contexto",
+    "mismo-grupo",
+    "otro",
+    "otro-contexto"
+   ],
+   "perla": "Fibrinólisis contraindicada (ictus <6 m, hemorragia IC): ACTP aunque tarde >120 min.",
+   "fuente": {
+    "carpeta": "9. CARDIOLOGIA",
+    "archivo": "4. CARDIOPATIA ISQUEMICA.pdf",
+    "seccion": "Algoritmo ACTP vs fibrinólisis; contraindicaciones"
+   },
+   "gemela_de": null
+  },
+  {
+   "id": "2026-10-23-manana-098",
+   "enunciado": "Mujer de 29 años en su sexto día posoperatorio de apendicectomía laparoscópica por apéndice perforado con pus localizado en fosa ilíaca derecha. Recibió ceftriaxona y metronidazol. Desde ayer fiebre de 38,8 °C, dolor hipogástrico y tenesmo. PA 115/70 mmHg, FC 104 X'. Abdomen blando, doloroso en hipogastrio, sin rigidez generalizada; heridas sin eritema ni secreción. Leucocitos 17 500. Tomografía con contraste: colección pélvica de 6 × 5 cm con realce periférico, accesible por vía percutánea. ¿Cuál es la conducta?",
+   "opciones": [
+    "Continuar antibióticos y repetir tomografía en 7 días",
+    "Laparotomía exploradora con lavado de la cavidad",
+    "Abrir las heridas de los trocares y realizar curaciones",
+    "Antibióticos y drenaje percutáneo guiado por imagen",
+    "Antibióticos y anticoagulación con heparina"
+   ],
+   "clave": 4,
+   "especialidad": "Cirugía General",
+   "tema": "Apendicitis aguda",
+   "diagnostico": "Absceso pélvico residual posapendicectomía mayor de 4 cm",
+   "tipo": "conducta",
+   "dificultad": "alta",
+   "razonamiento": "Paso 1: fiebre, dolor pélvico y tenesmo al 6.º día de apendicitis perforada = complicación infecciosa intraabdominal. Paso 2: TC con colección de 6 cm con realce = absceso residual, abdomen sin peritonitis generalizada. Paso 3: absceso >4 cm accesible: antibióticos + drenaje percutáneo.",
+   "por_que_no": [
+    "Solo antibióticos sirve para colecciones pequeñas (<4 cm).",
+    "La relaparotomía se reserva para peritonitis generalizada o drenaje percutáneo no factible.",
+    "Abrir heridas trata la infección de sitio operatorio superficial; las heridas están limpias.",
+    "",
+    "La heparina se añade en pileflebitis (trombosis portal), que cursa con ictericia y hepatomegalia."
+   ],
+   "trampa": [
+    "umbral",
+    "otro-estadio",
+    "diferencial",
+    "",
+    "diferencial"
+   ],
+   "perla": "Absceso posapendicectomía >4 cm: ATB + drenaje percutáneo.",
+   "fuente": {
+    "carpeta": "1. CIRUGIA GENERAL",
+    "archivo": "1.Apendicitis.pdf",
+    "seccion": "Complicaciones: masa apendicular, absceso"
+   },
+   "gemela_de": null
+  },
+  {
+   "id": "2026-10-23-manana-099",
+   "enunciado": "Mujer de 36 años, nuligesta, desea embarazarse. Hace 1 año presenta menstruaciones abundantes de 8 días con coágulos. Hb 8,1 g/dl pese a hierro oral. Eco TV: útero de 14 cm con un nódulo de 9 cm en el espesor del miometrio, que no deforma la cavidad. Está programada para miomectomía laparoscópica y se desea reducir el tamaño de la lesión y corregir la anemia antes de operar. ¿Qué indicación corresponde?",
+   "opciones": [
+    "DIU liberador de levonorgestrel",
+    "Ácido tranexámico en cada menstruación",
+    "Anticonceptivo oral combinado continuo",
+    "Medroxiprogesterona de depósito trimestral",
+    "Leuprolide (agonista GnRH) por ≤6 meses"
+   ],
+   "clave": 5,
+   "especialidad": "Ginecología",
+   "tema": "Miomatosis uterina · Preparación quirúrgica",
+   "diagnostico": "Leiomioma grande con deseo gestacional antes de cirugía conservadora",
+   "tipo": "tratamiento",
+   "dificultad": "alta",
+   "razonamiento": "Nódulo de 9 cm en el miometrio con hipermenorrea y anemia en mujer que desea gestar = mioma intramural para miomectomía laparoscópica. El agonista GnRH reduce tamaño y sangrado antes de la cirugía (≤6 meses sin add-back).",
+   "por_que_no": [
+    "Controla el sangrado pero no reduce el tamaño; sí en quien no busca gestar.",
+    "Disminuye el sangrado, no el volumen.",
+    "Puede regular ciclos, pero no reduce el tamaño.",
+    "Retrasa la fertilidad y no reduce el tamaño.",
+    ""
+   ],
+   "trampa": [
+    "otro-contexto",
+    "otro-momento",
+    "mismo-grupo",
+    "mismo-grupo",
+    ""
+   ],
+   "perla": "Mioma grande antes de cirugía: agonista GnRH ≤6 meses.",
+   "fuente": {
+    "carpeta": "3.GINECOLOGIA",
+    "archivo": "6. MIIOMATOSIS UTERINA.pdf",
+    "seccion": "Tratamiento, p. 1"
+   },
+   "gemela_de": null
+  },
+  {
+   "id": "2026-10-23-manana-100",
+   "enunciado": "Mujer de 29 años, nuligesta, con dismenorrea progresiva desde hace 2 años y dispareunia profunda; usa anticonceptivos combinados en forma continua desde hace 4 meses con alivio parcial. Desea embarazarse en el futuro. Examen: anexo derecho aumentado de tamaño, doloroso y poco móvil. Ecografía transvaginal: quiste de 6,2 cm en ovario derecho, unilocular, con ecos finos homogéneos en vidrio esmerilado, sin papilas ni flujo interno. ¿Cuál es la conducta indicada?",
+   "opciones": [
+    "Continuar anticonceptivos continuos y control ecográfico",
+    "Agonista de GnRH por 6 meses y reevaluar",
+    "Punción-aspiración ecoguiada del quiste",
+    "Quistectomía laparoscópica conservadora",
+    "Ooforectomía derecha por laparoscopia"
+   ],
+   "clave": 4,
+   "especialidad": "Ginecología",
+   "tema": "Endometriosis",
+   "diagnostico": "Endometrioma ovárico de 6 cm en mujer con deseo reproductivo futuro",
+   "tipo": "conducta",
+   "dificultad": "media",
+   "razonamiento": "Paso 1: dismenorrea secundaria + dispareunia + quiste en vidrio esmerilado = endometrioma. Paso 2: mide ≥5 cm y responde solo parcialmente al tratamiento médico. Paso 3: ≥5 cm → quistectomía laparoscópica conservando el ovario por su deseo reproductivo.",
+   "por_que_no": [
+    "Manejo de endometriomas <5 cm con buena respuesta clínica.",
+    "Tratamiento médico de segunda línea para enfermedad refractaria sin quiste grande.",
+    "No es tratamiento de la fuente; deja la cápsula y el quiste recidiva.",
+    "",
+    "Sacrifica tejido ovárico; en mujer joven con deseo reproductivo se conserva el ovario."
+   ],
+   "trampa": [
+    "umbral",
+    "otro-momento",
+    "otro",
+    "",
+    "otra-poblacion"
+   ],
+   "perla": "Endometrioma: <5 cm manejo médico; ≥5 cm quistectomía laparoscópica conservadora.",
+   "fuente": {
+    "carpeta": "3.GINECOLOGIA",
+    "archivo": "21. ENDOMETRIOSIS.pdf",
+    "seccion": "Endometrioma ovárico ≥5 cm"
+   },
+   "gemela_de": null
+  }
+ ]
+}
